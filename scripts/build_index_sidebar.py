@@ -30,6 +30,26 @@ def _code_sort_key(kes):
     return (0, 0, parts)
 
 
+def shorten_kes(kes_key):
+    parts = kes_key.split('<br>')
+    if len(parts) > 1:
+        codes = []
+        for k in parts:
+            m = re.match(r'^([\d.]+)', k.strip())
+            codes.append(m.group(1).rstrip('.') if m else k.strip())
+        return '; '.join(c for c in codes if c)
+    k = parts[0].strip()
+    m = re.match(r'^([\d.]+)?\.?\s*(.*)$', k)
+    code = (m.group(1) or '').rstrip('.')
+    name = (m.group(2) or '').strip()
+    words = name.split()
+    short = ' '.join(words[:5])
+    if len(words) > 5:
+        short += '…'
+    shown = (code + ' ') if code else ''
+    return (shown + short).strip()
+
+
 def esc_attr(s):
     return s.replace('"', '&quot;')
 
@@ -51,11 +71,13 @@ def build_sidebar(cards):
         for kes_key in sorted(task_groups, key=_code_sort_key):
             items = sorted(task_groups[kes_key], key=lambda c: c['number'])
             attr = esc_attr(kes_key)
+            short = shorten_kes(kes_key)
+            full_attr = esc_attr(kes_key.replace('<br>', '; '))
             title = f'№ {task}' if task != '0' else '№ ?'
             out.append(
-                f'        <div class="kes-group" data-kes="{attr}" data-task="{task}">\n'
-                f'            <div class="kes-header" onclick="toggleKes(this)">\n'
-                f'                <span><b>{title}</b> {kes_key} '
+                f'        <div class="kes-group collapsed" data-kes="{attr}" data-task="{task}">\n'
+                f'            <div class="kes-header" onclick="toggleKes(this)" title="{full_attr}">\n'
+                f'                <span><b>{title}</b> {short} '
                 f"<span class='group-percent'>({len(items)})</span></span>\n"
                 f'                <span class="arrow">▼</span>\n'
                 f'            </div>\n'

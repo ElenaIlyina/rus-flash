@@ -20,6 +20,166 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, 'data')
 HTML_DIR = os.path.join(ROOT, 'html')
 
+def render_variants(variants: list, variants_type: str):
+    """Render variants[] according to its declared type.
+
+    Default (missing/"options"): a "Варианты ответа:" list of .variant blocks
+    (empty entries are preserved, matching legacy behaviour).
+    "sentences": no standalone block; the trimmed non-empty sentences are
+    returned so the caller inlines them under the question, each on its own
+    line.
+
+    Returns a tuple (variants_html, sentences) where exactly one is non-empty.
+    """
+    raw = [str(v).replace('\r\n', '\n') for v in variants]
+    vtype = (variants_type or '').strip().lower()
+    if vtype == 'sentences':
+        sents = [v for v in raw if v.strip()]
+        return '', sents
+    if not raw:
+        return '', []
+    rows = '\n'.join(f'            <div class="variant">{v}</div>' for v in raw)
+    html = f'<h3>Варианты ответа:</h3>\n        <div class="variants">\n{rows}\n        </div>'
+    return html, []
+
+
+def _flatten_bitmask_variants(variants):
+    if len(variants) == 1 and re.search(r'^\s*\d\)', variants[0]):
+        parts = re.split(r'(?=\d\))', variants[0].strip())
+        out = []
+        for p in parts:
+            p = re.sub(r'^\s*\d\)\s*\xa0?\s*', '', p).strip()
+            if p:
+                out.append(p)
+        return out
+    return variants
+
+
+def render_interactive(correct_ans_js, answer_type, variants, variants_html):
+    if answer_type.strip().lower() == 'bitmask' and variants:
+        variants = _flatten_bitmask_variants(variants)
+        chk_lines = []
+        for i, v in enumerate(variants, start=1):
+            chk_lines.append(
+                f'        <label class="bitmask-opt"><input type="checkbox" class="bitmask-cb" value="{i}">'
+                f' <span>{v}</span></label>')
+        bitmask_variants = ("<h3>Варианты ответа:</h3>\n        <div class=\"variants bitmask-box\">\n"
+                            + "\n".join(chk_lines) + "\n        </div>")
+        return bitmask_variants, f"""
+    <!-- Interactive Answer Check (bitmask checkboxes) -->
+    <div style="margin-top: 20px; padding: 15px; background: #f1f8ff; border: 1px solid #c8e1ff; border-radius: 6px;">
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <span style="font-weight: bold; font-size: 14px; color: #0366d6;">Отметьте все верные варианты:</span>
+            <button onclick="checkBitmask()" style="padding: 6px 14px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; font-weight: bold;">Проверить</button>
+            <span id="checkFeedback" style="font-size: 14px; font-weight: bold;"></span>
+        </div>
+    </div>
+    <script>
+        const correctAns = {correct_ans_js};
+        function checkBitmask() {{
+            let tBtn = document.getElementById('toggleBtn');
+            if (tBtn) {{
+                tBtn.removeAttribute('disabled');
+                tBtn.style.opacity = '1';
+                tBtn.style.cursor = 'pointer';
+            }}
+            let picked = [];
+            document.querySelectorAll('.bitmask-cb:checked').forEach(function(cb) {{
+                picked.push(cb.value);
+            }});
+            picked.sort(function(a,b) {{ return a - b; }});
+            let val = picked.join('');
+            let fb = document.getElementById('checkFeedback');
+            if (!val) {{
+                fb.style.color = '#d73a49';
+                fb.innerText = '⚠️ Отметьте хотя бы один вариант';
+                return;
+            }}
+            if (!correctAns) {{
+                fb.style.color = '#e36209';
+                fb.innerText = '⚠️ Ответ для этого задания еще не занесен в базу.';
+                if (tBtn) {{
+                    tBtn.removeAttribute('disabled');
+                    tBtn.style.opacity = '1';
+                    tBtn.style.cursor = 'pointer';
+                }}
+                return;
+            }}
+            if (val === correctAns) {{
+                fb.style.color = '#28a745';
+                fb.innerText = '🟢 Верно! Отличная работа.';
+                try {{
+                    let data = JSON.parse(localStorage.getItem('task_tags_' + taskNum) || '{{}}');
+                    if (!data.solved) {{
+                        data.solved = true;
+                        localStorage.setItem('task_tags_' + taskNum, JSON.stringify(data));
+                        if (typeof loadTags === 'function') loadTags();
+                        window.dispatchEvent(new StorageEvent('storage', {{key: 'task_tags_' + taskNum, newValue: JSON.stringify(data)}}));
+                    }}
+                }} catch(e) {{}}
+            }} else {{
+                fb.style.color = '#d73a49';
+                fb.innerText = '🔴 Неверно. Попробуйте еще раз.';
+            }}
+        }}
+    </script>
+    <!-- /Interactive Answer Check -->"""
+    return variants_html, f"""
+    <!-- Interactive Answer Check -->
+    <div style="margin-top: 20px; padding: 15px; background: #f1f8ff; border: 1px solid #c8e1ff; border-radius: 6px;">
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <label style="font-weight: bold; font-size: 14px; color: #0366d6;">Ваш ответ:</label>
+            <input type="text" id="userAnswerInput" placeholder="Например: 123 или корысть" style="padding: 6px 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; width: 180px;">
+            <button onclick="checkAnswerLocally()" style="padding: 6px 14px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; font-weight: bold;">Проверить</button>
+            <span id="checkFeedback" style="font-size: 14px; font-weight: bold;"></span>
+        </div>
+    </div>
+    <script>
+        const correctAns = {correct_ans_js};
+        function checkAnswerLocally() {{
+            let tBtn = document.getElementById('toggleBtn');
+            if (tBtn) {{
+                tBtn.removeAttribute('disabled');
+                tBtn.style.opacity = '1';
+                tBtn.style.cursor = 'pointer';
+            }}
+            let val = document.getElementById('userAnswerInput').value.trim().toLowerCase();
+            let fb = document.getElementById('checkFeedback');
+            if (!val) {{
+                fb.style.color = '#d73a49';
+                fb.innerText = '⚠️ Введите ответ';
+                return;
+            }}
+            if (!correctAns) {{
+                fb.style.color = '#e36209';
+                fb.innerText = '⚠️ Ответ для этого задания еще не занесен в базу.';
+                if (tBtn) {{
+                    tBtn.removeAttribute('disabled');
+                    tBtn.style.opacity = '1';
+                    tBtn.style.cursor = 'pointer';
+                }}
+                return;
+            }}
+            if (val === correctAns) {{
+                fb.style.color = '#28a745';
+                fb.innerText = '🟢 Верно! Отличная работа.';
+                try {{
+                    let data = JSON.parse(localStorage.getItem('task_tags_' + taskNum) || '{{}}');
+                    if (!data.solved) {{
+                        data.solved = true;
+                        localStorage.setItem('task_tags_' + taskNum, JSON.stringify(data));
+                        if (typeof loadTags === 'function') loadTags();
+                        window.dispatchEvent(new StorageEvent('storage', {{key: 'task_tags_' + taskNum, newValue: JSON.stringify(data)}}));
+                    }}
+                }} catch(e) {{}}
+            }} else {{
+                fb.style.color = '#d73a49';
+                fb.innerText = '🔴 Неверно. Попробуйте еще раз.';
+            }}
+        }}
+    </script>
+    <!-- /Interactive Answer Check -->"""
+
 
 def build_html(card: dict) -> str:
     tid = (card.get('number') or '').strip().upper()
@@ -28,18 +188,15 @@ def build_html(card: dict) -> str:
     question = (card.get('question') or '').replace('\r\n', '\n')
     text = (card.get('text') or '').replace('\r\n', '\n').strip()
     variants = [(v or '').replace('\r\n', '\n') for v in (card.get('variants') or [])]
+    variants_type = card.get('variants_type') or ''
+    answer_type = card.get('answer_type') or ''
     explanation = (card.get('explanation') or '').strip()
     ans = (card.get('answer') or '').strip().lower()
     ans_show = (card.get('answer') or '').strip()
 
     kes_html = "<br>".join(f"<strong>КЭС:</strong> {k}" for k in kes_list)
 
-    variants_html = ""
-    if variants:
-        variants_html = "<h3>Варианты ответа:</h3>\n        <div class=\"variants\">\n"
-        for v in variants:
-            variants_html += f"            <div class=\"variant\">{v}</div>\n"
-        variants_html += "        </div>"
+    variants_html, sent_variants = render_variants(variants, variants_type)
 
     text_html = ""
     if text:
@@ -106,7 +263,14 @@ def build_html(card: dict) -> str:
         else:
             question_html = "        <!-- вопрос заменён таблицей соответствия -->"
     else:
-        question_html = f"""<div class="question">
+        if sent_variants:
+            body = '\n'.join(f'            <div class="task-sentence">{v}</div>' for v in sent_variants)
+            question_html = f"""<div class="question">
+            <div class="task-instruction">{question.strip()}</div>
+{body}
+        </div>"""
+        else:
+            question_html = f"""<div class="question">
             {question}
         </div>"""
 
@@ -117,23 +281,31 @@ def build_html(card: dict) -> str:
 
     correct_ans_js = json.dumps(ans, ensure_ascii=True)
 
+    variants_html, interactive_html = render_interactive(
+        correct_ans_js, answer_type, variants, variants_html)
+
     return f"""<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Задание ФИПИ № {tid} (С ответом)</title>
     <style>
-        body {{ font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; color: #333; }}
-        .card {{ background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }}
-        h1 {{ color: #2c3e50; font-size: 20px; }}
+        body {{ font-family: Arial, sans-serif; margin: 10px; background: #f9f9f9; color: #333; }}
+        .card {{ background: #fff; padding: 12px 16px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }}
+        h1 {{ display: inline-block; background: #e3f2fd; color: #0d47a1; font-size: 17px; padding: 4px 12px; border-radius: 6px; margin: 0; }}
         .badge {{ background: #e0f7fa; color: #006064; padding: 4px 8px; border-radius: 4px; font-size: 12px; }}
         .question {{ font-weight: bold; margin: 15px 0; background: #FAFBCA; padding: 10px; border-left: 4px solid #fbc02d; line-height: 1.6; }}
+        .task-instruction {{ margin-bottom: 8px; }}
+        .task-sentence {{ margin: 4px 0; padding-left: 16px; }}
         .text-block {{ margin: 15px 0; background: #f3f8ff; padding: 12px 14px; border-left: 4px solid #1976d2; line-height: 1.7; border-radius: 4px; }}
         .text-block h3 {{ margin-top: 0; color: #1976d2; font-size: 14px; }}
         .text-block p {{ margin: 8px 0; }}
         .meta {{ font-size: 14px; color: #555; margin-top: 15px; }}
         .variants {{ margin-left: 20px; margin-top: 10px; }}
         .variant {{ margin: 8px 0; line-height: 1.4; }}
+        .bitmask-box {{ margin-left: 0; }}
+        .bitmask-opt {{ display: flex; align-items: center; gap: 8px; margin: 8px 0; line-height: 1.4; cursor: pointer; }}
+        .bitmask-opt input {{ cursor: pointer; }}
         .match-table {{ margin: 15px 0; border: 1px solid #bbb; border-collapse: collapse; }}
         .match-table table {{ border-collapse: collapse; }}
         .match-head {{ background: #FAFBCA; font-weight: bold; text-decoration: underline; padding: 6px; border: 1px solid #ccc; }}
@@ -146,6 +318,7 @@ def build_html(card: dict) -> str:
         
         .answer-box {{ margin-top: 15px; background: #e8f5e9; padding: 15px; border-left: 4px solid #4caf50; border-radius: 4px; display: none; }}
         .answer-box h3 {{ margin-top: 0; color: #2e7d32; }}
+        .meta {{ display: none; }}
     </style>
     <script>
         function toggleAnswer() {{
@@ -163,7 +336,7 @@ def build_html(card: dict) -> str:
 </head>
 <body>
     <div class="card">
-        <h1>Задание № {tid}</h1>
+        <h1>{tid}</h1>
         <div class="meta">
             <p><strong>GUID:</strong> {guid}</p>
             <p>{kes_html}</p>
@@ -172,61 +345,7 @@ def build_html(card: dict) -> str:
         {question_html}
         {match_html}
         {variants_html}
-        
-    <!-- Interactive Answer Check -->
-    <div style="margin-top: 20px; padding: 15px; background: #f1f8ff; border: 1px solid #c8e1ff; border-radius: 6px;">
-        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-            <label style="font-weight: bold; font-size: 14px; color: #0366d6;">Ваш ответ:</label>
-            <input type="text" id="userAnswerInput" placeholder="Например: 123 или корысть" style="padding: 6px 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; width: 180px;">
-            <button onclick="checkAnswerLocally()" style="padding: 6px 14px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; font-weight: bold;">Проверить</button>
-            <span id="checkFeedback" style="font-size: 14px; font-weight: bold;"></span>
-        </div>
-    </div>
-    <script>
-        const correctAns = {correct_ans_js};
-        function checkAnswerLocally() {{
-            let tBtn = document.getElementById('toggleBtn');
-            if (tBtn) {{
-                tBtn.removeAttribute('disabled');
-                tBtn.style.opacity = '1';
-                tBtn.style.cursor = 'pointer';
-            }}
-            let val = document.getElementById('userAnswerInput').value.trim().toLowerCase();
-            let fb = document.getElementById('checkFeedback');
-            if (!val) {{
-                fb.style.color = '#d73a49';
-                fb.innerText = '⚠️ Введите ответ';
-                return;
-            }}
-            if (!correctAns) {{
-                fb.style.color = '#e36209';
-                fb.innerText = '⚠️ Ответ для этого задания еще не занесен в базу.';
-                if (tBtn) {{
-                    tBtn.removeAttribute('disabled');
-                    tBtn.style.opacity = '1';
-                    tBtn.style.cursor = 'pointer';
-                }}
-                return;
-            }}
-            if (val === correctAns) {{
-                fb.style.color = '#28a745';
-                fb.innerText = '🟢 Верно! Отличная работа.';
-                try {{
-                    let data = JSON.parse(localStorage.getItem('task_tags_' + taskNum) || '{{}}');
-                    if (!data.solved) {{
-                        data.solved = true;
-                        localStorage.setItem('task_tags_' + taskNum, JSON.stringify(data));
-                        if (typeof loadTags === 'function') loadTags();
-                        window.dispatchEvent(new StorageEvent('storage', {{key: 'task_tags_' + taskNum, newValue: JSON.stringify(data)}}));
-                    }}
-                }} catch(e) {{}}
-            }} else {{
-                fb.style.color = '#d73a49';
-                fb.innerText = '🔴 Неверно. Попробуйте еще раз.';
-            }}
-        }}
-    </script>
-    <!-- /Interactive Answer Check -->
+        {interactive_html}
     
     <button id="toggleBtn" class="toggle-btn" onclick="toggleAnswer()"{btn_attrs}>Показать ответ и объяснение</button>
 
