@@ -21,25 +21,18 @@ DATA_DIR = os.path.join(ROOT, 'data')
 HTML_DIR = os.path.join(ROOT, 'html')
 
 def render_variants(variants: list, variants_type: str):
-    """Render variants[] according to its declared type.
+    """Render variants[] to a "Варианты ответа:" block.
 
-    Default (missing/"options"): a "Варианты ответа:" list of .variant blocks
-    (empty entries are preserved, matching legacy behaviour).
-    "sentences": no standalone block; the trimmed non-empty sentences are
-    returned so the caller inlines them under the question, each on its own
-    line.
-
-    Returns a tuple (variants_html, sentences) where exactly one is non-empty.
+    Both default/"options" and "sentences" render the same list of .variant
+    blocks (sentences are just whole-sentence entries). Empty entries are
+    preserved, matching legacy behaviour. Returns a tuple (variants_html,
+    sentences) where sentences is kept for backward-compat and always empty.
     """
     raw = [str(v).replace('\r\n', '\n') for v in variants]
-    vtype = (variants_type or '').strip().lower()
-    if vtype == 'sentences':
-        sents = [v for v in raw if v.strip()]
-        return '', sents
     if not raw:
         return '', []
     rows = '\n'.join(f'            <div class="variant">{v}</div>' for v in raw)
-    html = f'<h3>Варианты ответа:</h3>\n        <div class="variants">\n{rows}\n        </div>'
+    html = f'<div class="variants">\n{rows}\n        </div>'
     return html, []
 
 
@@ -63,7 +56,7 @@ def render_interactive(correct_ans_js, answer_type, variants, variants_html):
             chk_lines.append(
                 f'        <label class="bitmask-opt"><input type="checkbox" class="bitmask-cb" value="{i}">'
                 f' <span>{v}</span></label>')
-        bitmask_variants = ("<h3>Варианты ответа:</h3>\n        <div class=\"variants bitmask-box\">\n"
+        bitmask_variants = ("<div class=\"variants bitmask-box\">\n"
                             + "\n".join(chk_lines) + "\n        </div>")
         return bitmask_variants, f"""
     <!-- Interactive Answer Check (bitmask checkboxes) -->
@@ -196,7 +189,7 @@ def build_html(card: dict) -> str:
 
     kes_html = "<br>".join(f"<strong>КЭС:</strong> {k}" for k in kes_list)
 
-    variants_html, sent_variants = render_variants(variants, variants_type)
+    variants_html, _ = render_variants(variants, variants_type)
 
     text_html = ""
     if text:
@@ -263,14 +256,7 @@ def build_html(card: dict) -> str:
         else:
             question_html = "        <!-- вопрос заменён таблицей соответствия -->"
     else:
-        if sent_variants:
-            body = '\n'.join(f'            <div class="task-sentence">{v}</div>' for v in sent_variants)
-            question_html = f"""<div class="question">
-            <div class="task-instruction">{question.strip()}</div>
-{body}
-        </div>"""
-        else:
-            question_html = f"""<div class="question">
+        question_html = f"""<div class="question">
             {question}
         </div>"""
 
@@ -296,7 +282,6 @@ def build_html(card: dict) -> str:
         .badge {{ background: #e0f7fa; color: #006064; padding: 4px 8px; border-radius: 4px; font-size: 12px; }}
         .question {{ font-weight: bold; margin: 15px 0; background: #FAFBCA; padding: 10px; border-left: 4px solid #fbc02d; line-height: 1.6; }}
         .task-instruction {{ margin-bottom: 8px; }}
-        .task-sentence {{ margin: 4px 0; padding-left: 16px; }}
         .text-block {{ margin: 15px 0; background: #f3f8ff; padding: 12px 14px; border-left: 4px solid #1976d2; line-height: 1.7; border-radius: 4px; }}
         .text-block h3 {{ margin-top: 0; color: #1976d2; font-size: 14px; }}
         .text-block p {{ margin: 8px 0; }}
