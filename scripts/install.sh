@@ -1,0 +1,3 @@
+python3 scripts/generate_manifest.py
+python3 scripts/regen_cards_html.py
+python3 scripts/build_index_sidebar.py
