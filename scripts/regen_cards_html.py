@@ -18,7 +18,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, 'data')
-HTML_DIR = os.path.join(ROOT, 'html')
+HTML_DIR = os.path.join(ROOT, 'html', 'cards')
 
 def render_variants(variants: list, variants_type: str):
     """Render variants[] to a "Варианты ответа:" block.
@@ -441,6 +441,7 @@ def iter_json_files(only_id=None):
 
 
 def cmd_all():
+    os.makedirs(HTML_DIR, exist_ok=True)
     n = 0
     for tid, card in iter_json_files():
         path = os.path.join(HTML_DIR, f'card_{tid}.html')
@@ -475,6 +476,7 @@ def cmd_one(tid):
     jf = os.path.join(DATA_DIR, f'card_{tid}.json')
     with open(jf, encoding='utf-8') as f:
         card = json.load(f)
+    os.makedirs(HTML_DIR, exist_ok=True)
     path = os.path.join(HTML_DIR, f'card_{tid}.html')
     with open(path, 'w', encoding='utf-8') as f:
         f.write(build_html(card))

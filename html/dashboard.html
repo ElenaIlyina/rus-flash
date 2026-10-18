@@ -36,60 +36,72 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header style="display: none;">
             <h1>📊 Статистика подготовки к ЕГЭ </h1>
         </header>
 
         
         <div class="stats-overview" style="display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; margin-bottom: 2rem;">
             <!-- Left Card: Multi-color Donut Chart by Themes / Sections -->
-            <div class="chart-wrap" style="padding: 1.5rem;">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <div class="chart-wrap" style="padding: 1rem 1.25rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
                     <div>
-                        <h3 style="margin: 0 0 0.25rem 0; font-size: 1.1rem; color: var(--text);">Прогресс по темам</h3>
-                        <p style="margin: 0; font-size: 0.85rem; color: var(--text-muted);">Круговая диаграмма и процент освоения тем ЕГЭ</p>
+                        <h3 style="margin: 0 0 0.15rem 0; font-size: 1.05rem; color: var(--text);">Прогресс по темам</h3>
+                        <p style="margin: 0; font-size: 0.8rem; color: var(--text-muted);">Круговая диаграмма и процент освоения тем ЕГЭ</p>
                     </div>
                 </div>
 
-                <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
-                    <div style="position: relative; width: 180px; height: 180px; flex-shrink: 0;">
-                        <svg id="donutSvg" width="180" height="180" viewBox="0 0 180 180"></svg>
+                <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+                    <div style="position: relative; width: 140px; height: 140px; flex-shrink: 0;">
+                        <svg id="donutSvg" width="140" height="140" viewBox="0 0 180 180"></svg>
                         <div style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
-                            <div id="donutPct" style="font-size: 28px; font-weight: 800; color: var(--text); line-height: 1;">0<small style="font-size: 14px; color: var(--text-muted);">%</small></div>
-                            <div style="font-size: 11px; color: var(--text-muted); margin-top: 2px;">решено</div>
+                            <div id="donutPct" style="font-size: 24px; font-weight: 800; color: var(--text); line-height: 1;">0<small style="font-size: 13px; color: var(--text-muted);">%</small></div>
+                            <div style="font-size: 10px; color: var(--text-muted); margin-top: 2px;">решено</div>
                         </div>
                     </div>
                     
-                    <div id="donutLegend" style="flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 0.5rem;">
+                    <div id="donutLegend" style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 0.35rem;">
                         <div>Загрузка тем...</div>
                     </div>
                 </div>
             </div>
 
             <!-- Right Card: Progress of preparation with hedgehog in the middle -->
-            <div class="chart-wrap" style="display: flex; flex-direction: column; justify-content: space-between; padding: 1.5rem; align-items: center;">
-                <h3 style="margin: 0; font-size: 1.1rem; color: var(--text); align-self: flex-start;">Прогресс подготовки</h3>
+            <div class="chart-wrap" style="display: flex; flex-direction: column; justify-content: space-between; padding: 1rem 1.25rem; align-items: center;">
+                <h3 style="margin: 0; font-size: 1.05rem; color: var(--text); align-self: flex-start;">Прогресс подготовки</h3>
 
-                <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 0.5rem 0;">
-                    <img src="ezhik.png" alt="Ежик" style="max-width: 130px; max-height: 160px; object-fit: contain; display: block;">
+                <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 0.2rem 0;">
+                    <img src="ezhik.png" alt="Ежик" style="max-width: 90px; max-height: 110px; object-fit: contain; display: block;">
                 </div>
 
                 <div style="text-align: center; width: 100%;">
-                    <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.5rem;">
-                        <span id="pie-solved-count" style="font-size: 2.5rem; font-weight: 800; color: var(--text); line-height: 1;">0</span>
-                        <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-muted);">/ <span id="total-cards">0</span></span>
+                    <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; align-items: baseline; gap: 0.3rem;">
+                            <span id="pie-solved-count" style="font-size: 2rem; font-weight: 800; color: var(--text); line-height: 1;">0</span>
+                            <span style="font-size: 1.1rem; font-weight: 600; color: var(--text-muted);">/ <span id="total-cards">0</span></span>
+                        </div>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">заданий решено</span>
                     </div>
-                    <div style="font-size: 0.85rem; color: var(--text-muted); margin: 0.25rem 0 0.75rem 0;">заданий решено</div>
 
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
-                        <span style="font-size: 0.9rem; font-weight: 600; color: var(--text);">Выполнено:</span>
-                        <span id="top-percent-text" style="font-size: 1.3rem; font-weight: 800; color: #16a34a;">0%</span>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3rem;">
+                        <span style="font-size: 0.85rem; font-weight: 600; color: var(--text);">Выполнено:</span>
+                        <span id="top-percent-text" style="font-size: 1.1rem; font-weight: 800; color: #16a34a;">0%</span>
                     </div>
-                    <div style="width: 100%; background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                    <div style="width: 100%; background: #e2e8f0; border-radius: 6px; height: 8px; overflow: hidden;">
                         <div id="overall-progress" style="width: 0%; background: #22c55e; height: 100%; transition: width 0.3s ease;"></div>
                     </div>
                 </div>
             </div>
+        </div>
+
+
+            </div>
+</div>
+
+
+        <div class="chart-wrap" style="margin-bottom: 2rem;">
+            <div class="chart-label" id="chart-legend"></div>
+            <svg id="progress-chart" viewBox="0 0 800 360" preserveAspectRatio="xMidYMid meet"></svg>
         </div>
 
 
@@ -527,13 +539,6 @@
                 </div>
             </div>
 
-        </div>
-
-        <h2 style="margin-top: 3rem;">📈 Диаграмма прогресса по заданиям</h2>
-
-        <div class="chart-wrap">
-            <div class="chart-label" id="chart-legend"></div>
-            <svg id="progress-chart" viewBox="0 0 800 360" preserveAspectRatio="xMidYMid meet"></svg>
         </div>
     </div>
 

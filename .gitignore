@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 
 # Сгенерированные артефакты — воспроизводятся скриптами из data/
-html/card_*.html
+html/cards/card_*.html
 html/cards_manifest.js
 
 docs/
