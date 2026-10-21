@@ -101,6 +101,19 @@ def main():
             continue
         card = json.loads(cpath.read_text(encoding='utf-8'))
         answer = (args.ans if args.ans is not None else (card.get('answer') or '')).strip()
+        verify = (card.get('answer_verify') or '').strip()
+        if not answer:
+            answer = verify
+        # choice-ответ FIPI принимает только битмаском (fipi_notes.md §4-5):
+        if not args.ans and verify != answer and set(verify) <= {'0', '1'}:
+            answer = verify
+        # перечень ('134') конвертируем в битмаск; перестановки (длина = числу
+        # вариантов, цифры без повторов) — как есть (§6).
+        nvar = len(card.get('variants') or [])
+        if (not args.ans and answer.isdigit() and set(answer) <= set('123456789')
+                and answer == verify and nvar
+                and not (len(answer) == nvar and len(set(answer)) == nvar)):
+            answer = ''.join('1' if str(p + 1) in answer else '0' for p in range(nvar))
         if not answer:
             print(f'-- {cid}: пустой answer, пропуск')
             continue
