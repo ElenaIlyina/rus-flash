@@ -853,7 +853,7 @@
         </div>
         <div class="kes-group collapsed" data-kes="3.3.1 Лексикология и фразеология как разделы лингвистики. Лексический анализ слова" data-task="3">
             <div class="kes-header" onclick="toggleKes(this)" title="3.3.1 Лексикология и фразеология как разделы лингвистики. Лексический анализ слова">
-                <span><b>№ 3</b> 3.3.1 Лексикология и фразеология как разделы… <span class='group-percent'>(22)</span></span>
+                <span><b>№ 3</b> 3.3.1 Лексикология и фразеология как разделы… <span class='group-percent'>(21)</span></span>
                 <span class="arrow">▼</span>
             </div>
             <div class="kes-content">
@@ -899,10 +899,6 @@
                 </div>
                 <div class="item" data-id="8F664F" data-task="3" onclick="loadCard('8F664F')">
                     <span class="num">№ 3 · 8F664F</span>
-                    <span class="badges"></span>
-                </div>
-                <div class="item" data-id="9273A5" data-task="3" onclick="loadCard('9273A5')">
-                    <span class="num">№ 3 · 9273A5</span>
                     <span class="badges"></span>
                 </div>
                 <div class="item" data-id="9819CF" data-task="3" onclick="loadCard('9819CF')">
@@ -1479,6 +1475,18 @@
                 </div>
                 <div class="item" data-id="F748EC" data-task="3" onclick="loadCard('F748EC')">
                     <span class="num">№ 3 · F748EC</span>
+                    <span class="badges"></span>
+                </div>
+            </div>
+        </div>
+        <div class="kes-group collapsed" data-kes="3.3.3.1 Лексикология и фразеология как разделы лингвистики. Лексический анализ слова" data-task="3">
+            <div class="kes-header" onclick="toggleKes(this)" title="3.3.3.1 Лексикология и фразеология как разделы лингвистики. Лексический анализ слова">
+                <span><b>№ 3</b> 3.3.3.1 Лексикология и фразеология как разделы… <span class='group-percent'>(1)</span></span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="kes-content">
+                <div class="item" data-id="9273A5" data-task="3" onclick="loadCard('9273A5')">
+                    <span class="num">№ 3 · 9273A5</span>
                     <span class="badges"></span>
                 </div>
             </div>
@@ -9067,6 +9075,9 @@
             let iframe = document.getElementById('cardFrame');
             iframe.style.display = 'block';
             iframe.src = 'dashboard.html';
+            const url = new URL(window.location.href);
+            url.searchParams.delete('id');
+            window.history.pushState({}, '', url);
             document.querySelectorAll('.item').forEach(el => el.classList.remove('active'));
         }
 
@@ -9075,6 +9086,9 @@
             let iframe = document.getElementById('cardFrame');
             iframe.style.display = 'block';
             iframe.src = 'cards/card_' + id + '.html';
+            const url = new URL(window.location.href);
+            url.searchParams.set('id', id);
+            window.history.pushState({}, '', url);
 
             let cc = document.getElementById('cur-card');
             if (cc) cc.textContent = id;
@@ -9254,6 +9268,9 @@
             // Open dashboard by default on load
             let iframe = document.getElementById('cardFrame');
             iframe.style.display = 'block';
-            iframe.src = 'dashboard.html';
+            
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('id') != null) loadCard(params.get('id'))
+            else iframe.src = 'dashboard.html';
         });
     </script>
