@@ -17,7 +17,8 @@ _spec = importlib.util.spec_from_file_location(
 gm = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(gm)
 
-INDEX_PATH = __file__.rsplit('/', 1)[0] + '/../html/index.html'
+# The new index.html is handwritten; only rebuild the retained legacy navigator.
+INDEX_PATH = __file__.rsplit('/', 1)[0] + '/../html/legacy.html'
 START_MARK = '<div class="list" id="sidebarList">'
 END_MARK = '    </div>\n    <div class="main">'
 
