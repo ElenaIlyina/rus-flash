@@ -1,0 +1,13 @@
+{
+  "id": "learning-reference-v0",
+  "status": "proposed_not_validated",
+  "intendedUse": "development_and_review_only",
+  "evidenceWindowDistinctCards": 3,
+  "minimumSessions": 2,
+  "minimumSpanHours": 24,
+  "reviewAfterHours": 72,
+  "demotionErrors": 2,
+  "partialCreditEnabled": false,
+  "ruleOpenedCountsAsAssistance": true,
+  "maximumSameSkillItemsConsecutively": 3
+}
