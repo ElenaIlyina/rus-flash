@@ -1,3 +1,4 @@
+import { renderProgressPreview } from "./progress-preview.js";
 import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
 import { services } from "./services.js";
@@ -276,7 +277,11 @@ function checkAnswer(event) {
   if (!store.available)
     toast("Не удалось сохранить попытку: проверьте доступ к хранилищу.");
 }
-function renderProgress() {
+function renderProgress(params) {
+  if (params.get("view") === "preview") {
+    main.innerHTML = renderProgressPreview(params);
+    return;
+  }
   const s = stats();
   const independent = s.history.filter((e) => !e.assisted);
   const rate = independent.length
@@ -287,7 +292,7 @@ function renderProgress() {
       "ЗАМЕЧАЙТЕ СВОИ ШАГИ",
       "Мой прогресс",
       "Не соревнование с другими. История того, что вы уже попробовали.",
-      '<button class="button secondary" data-action="export">Скачать прогресс</button>',
+      '<div class="progress-actions"><a class="button primary" href="#progress?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button></div>',
     ) +
     `
     <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Самостоятельные ответы</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
@@ -362,7 +367,7 @@ async function render() {
   try {
     if (path.startsWith("card/")) await renderCard(path.slice(5), version);
     else if (path === "bank") renderBank(params);
-    else if (path === "progress") renderProgress();
+    else if (path === "progress") renderProgress(params);
     else if (path === "knowledge") await renderKnowledge(params, version);
     else renderStudy();
   } catch (error) {
