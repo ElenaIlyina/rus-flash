@@ -3301,3 +3301,65 @@ dialog form {
     font-size: 16px;
   }
 }
+/* Full calligraphic wordmark stays legible outside the compact icon rail. */
+.topbar-identity {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  min-width: 0;
+}
+.site-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  min-height: 64px;
+  flex-shrink: 0;
+}
+.site-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 68px;
+  object-fit: contain;
+}
+.topbar {
+  height: 88px;
+}
+.sidebar {
+  padding-top: 106px;
+}
+.topbar-identity .breadcrumb {
+  white-space: nowrap;
+}
+@media (max-width: 760px) {
+  .topbar {
+    height: 80px;
+  }
+  .topbar-identity {
+    gap: 0;
+    min-width: 0;
+  }
+  .site-logo {
+    width: 195px;
+    min-height: 60px;
+    max-width: 100%;
+  }
+  .site-logo img {
+    max-height: 64px;
+  }
+  .topbar-right {
+    flex-shrink: 0;
+  }
+  .topbar {
+    gap: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .site-logo {
+    width: 175px;
+  }
+  .topbar {
+    gap: 12px;
+  }
+}

@@ -29,6 +29,8 @@ def main():
                 page.set_viewport_size({'width': width, 'height': 1000 if width > 760 else 844})
                 page.goto(base, wait_until='networkidle')
                 assert page.locator('.study-poster').is_visible()
+                assert page.locator('.site-logo img').evaluate('e => e.complete && e.naturalWidth > 0')
+                assert page.locator('.site-logo img').get_attribute('alt') == 'Слово за слово'
                 assert page.locator('.poster-cta').inner_text() == 'Начать заниматься'
                 assert 'В ЭТОМ НОМЕРЕ' not in page.locator('.study-poster').inner_text()
                 assert 'ТОЧКА ОПОРЫ' not in page.locator('.study-poster').inner_text()
