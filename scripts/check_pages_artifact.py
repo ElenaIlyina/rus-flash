@@ -14,7 +14,6 @@ def check(root):
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
         'js/services.js', 'js/progress-preview.js', 'assets/data/catalog.json',
-        'designs/index.html', 'designs/designs.css', 'designs/designs.js',
     ]
     for relative in required:
         path = root / relative
@@ -37,7 +36,7 @@ def check(root):
         if card['number'] != cid:
             raise ValueError(f'Catalog/card mismatch: {cid}')
     # Missing local ES module imports would otherwise cause a blank app on Pages.
-    for path in [*(root / 'js').glob('*.js'), *(root / 'designs').glob('*.js')]:
+    for path in (root / 'js').glob('*.js'):
         for imported in re.findall(r'\bfrom\s+[\'"]([^\'"]+)[\'"]', path.read_text()):
             if imported.startswith('.') and not (path.parent / imported).is_file():
                 raise ValueError(f'Missing module {imported} imported by {path}')

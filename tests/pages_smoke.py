@@ -42,10 +42,8 @@ def main():
                 assert page.locator('.learning-number').inner_text() == '38%'
                 page.get_by_role('link', name='Моя реальная история').click()
                 page.locator('.progress-grid').wait_for()
-                page.locator('.design-review').click()
-                page.locator('.edition-hero').wait_for()
-                assert page.url.startswith(base + 'designs/')
-                page.get_by_role('link', name='← Текущий дизайн', exact=True).click()
+                assert page.locator('.design-review').count() == 0
+                page.locator('#desktop-nav a[href="#study"]').click()
                 page.locator('.hero').wait_for()
                 assert page.url.startswith(base)
                 assert not errors, errors
@@ -53,7 +51,7 @@ def main():
                 browser.close()
         finally:
             server.shutdown()
-    print('PASS: Pages publication copy works under /rus-flash/; app/card/designs/progress; no HTTP or JS errors')
+    print('PASS: Pages publication copy works under /rus-flash/; app/card/progress; no HTTP or JS errors')
 
 
 if __name__ == '__main__':
