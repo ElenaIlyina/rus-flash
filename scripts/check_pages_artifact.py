@@ -14,7 +14,7 @@ def check(root):
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
         'js/services.js', 'js/progress-preview.js', 'assets/data/catalog.json',
-        'assets/brand/slovo-za-slovo.png',
+        'assets/brand/slovo-za-slovo-school.png',
     ]
     for relative in required:
         path = root / relative
