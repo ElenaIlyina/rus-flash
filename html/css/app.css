@@ -2853,18 +2853,22 @@ dialog form {
   box-shadow: 0 7px 0 #76635105;
   display: flex;
   flex-direction: column;
-  transform: rotate(-1deg);
+  --note-tilt: -1deg;
+  transform: translateY(0) rotate(var(--note-tilt));
+  transition:
+    transform 360ms cubic-bezier(0.22, 0.68, 0, 1),
+    box-shadow 360ms ease;
 }
 .topic-note:nth-child(2) {
-  transform: rotate(1deg);
+  --note-tilt: 1deg;
   border-radius: 4px 20px 4px 4px;
 }
 .topic-note:nth-child(3) {
-  transform: rotate(-0.5deg);
+  --note-tilt: -0.5deg;
   border-radius: 4px 4px 4px 23px;
 }
 .topic-note:nth-child(4) {
-  transform: rotate(1deg);
+  --note-tilt: 1deg;
   border-radius: 20px 4px 4px 4px;
 }
 .topic-note.peach {
@@ -2958,8 +2962,14 @@ dialog form {
   width: 14px;
   height: 14px;
 }
-.topic-note:hover {
-  transform: translateY(-4px);
+.topic-note.topic-card:focus-visible {
+  transform: translateY(-3px) rotate(var(--note-tilt));
+}
+@media (hover: hover) and (pointer: fine) {
+  .topic-note.topic-card:hover {
+    transform: translateY(-4px) rotate(var(--note-tilt));
+    box-shadow: 0 10px 20px #76635112;
+  }
 }
 @media (max-width: 1150px) {
   .study-intro {
@@ -3078,7 +3088,7 @@ dialog form {
     height: 17px;
   }
   .topic-note:nth-child(4) {
-    transform: rotate(0.5deg);
+    --note-tilt: 0.5deg;
   }
   .topbar {
     height: 70px;

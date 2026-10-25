@@ -54,6 +54,19 @@ def main():
                 if width > 760:
                     assert page.locator('.sidebar').bounding_box()['width'] == 84
                     assert page.locator('#desktop-nav a[aria-label]').count() == 4
+                if width == 1440:
+                    note = page.locator('.topic-note').first
+                    before_motion = note.evaluate('e => { const m = new DOMMatrix(getComputedStyle(e).transform); return [m.a,m.b,m.c,m.d,m.f]; }')
+                    note.hover()
+                    page.wait_for_timeout(450)
+                    after_motion = note.evaluate('e => { const m = new DOMMatrix(getComputedStyle(e).transform); return [m.a,m.b,m.c,m.d,m.f]; }')
+                    assert before_motion[:4] == after_motion[:4], 'Hover must preserve tilt'
+                    assert abs(after_motion[4] + 4) < .01
+                    page.emulate_media(reduced_motion='reduce')
+                    assert note.evaluate('e => getComputedStyle(e).transitionDuration') == '0s'
+                    page.mouse.move(0, 0)
+                    page.emulate_media(reduced_motion='no-preference')
+                    page.wait_for_timeout(450)
                 if '--screenshots' in sys.argv and width in [1440, 390]:
                     page.screenshot(path=str(folder / f'home-{width}.png'), full_page=True)
             page.locator('#mobile-nav a[href="#progress"]').click()
