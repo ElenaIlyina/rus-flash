@@ -2815,22 +2815,17 @@ dialog form {
   overflow: hidden;
   min-height: 375px;
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-rows: minmax(0, 1fr) auto;
   gap: 20px;
   padding: 25px;
 }
-.poster-kicker {
-  font-size: 8px;
-  letter-spacing: 2px;
+.poster-cta {
   position: relative;
   z-index: 1;
-}
-.poster-foot {
-  position: relative;
-  z-index: 1;
-  font-size: 10px;
-  letter-spacing: 1.4px;
-  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.5;
+  padding-right: 36px;
 }
 .poster-arrow {
   position: absolute;
@@ -3060,14 +3055,8 @@ dialog form {
     padding: 20px;
     transform: rotate(1.5deg);
   }
-  .poster-kicker {
-    font-size: 7px;
-    max-width: 90px;
-    line-height: 1.8;
-  }
-  .poster-foot {
-    font-size: 8px;
-    max-width: 130px;
+  .poster-cta {
+    font-size: 14px;
   }
   .poster-arrow {
     bottom: 20px;
