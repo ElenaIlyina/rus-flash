@@ -42,6 +42,11 @@ def main():
                         art.offsetTop + art.offsetHeight <= footer.offsetTop;
                 }"""), ('Poster frame or overlapping rows', width)
                 assert page.locator('.topic-note').count() == 4
+                assert page.locator('.study-hero .button').count() == 0
+                assert page.locator('.study-hero .stat-strip').count() == 1
+                assert page.evaluate("document.querySelector('.home-coverage').previousElementSibling.matches('.stat-strip')")
+                assert page.locator('.home-coverage-bar').get_attribute('aria-valuenow') == '0'
+                assert page.locator('.home-coverage-legend a').count() == 4
                 assert page.locator('.stat-strip strong').nth(1).inner_text() == '0'
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if width > 760:
@@ -62,6 +67,15 @@ def main():
             page.goto(base + '#study', wait_until='networkidle')
             page.locator('.study-poster').click()
             page.locator('.exercise').wait_for()
+            page.locator('#answer-input, [name=answer-option]').first.wait_for()
+            card_id = page.url.split('#card/')[1]
+            page.evaluate("""id => localStorage.setItem('rusflash_learning_v1', JSON.stringify({
+                events: [1,2].map(i => ({id: 'coverage-test-' + i, cardId: id,
+                    time: new Date().toISOString(), correct: false, assisted: false})), lastCard: id
+            }))""", card_id)
+            page.goto(base, wait_until='networkidle')
+            assert page.locator('.home-coverage-bar').get_attribute('aria-valuenow') == '1'
+            assert page.locator('.stat-strip strong').nth(1).inner_text() == '1'
             assert not errors, errors
             browser.close()
     finally:

@@ -35,7 +35,7 @@ def main():
                 page.on('pageerror', lambda error: errors.append(str(error)))
                 page.on('response', lambda response: failed.append(response.url) if response.status >= 400 else None)
                 page.goto(base, wait_until='networkidle')
-                page.locator('.hero .button').click()
+                page.locator('.study-poster').click()
                 page.locator('.exercise').wait_for()
                 assert page.url.startswith(base + '#card/')
                 page.goto(base + '#progress?view=preview', wait_until='networkidle')

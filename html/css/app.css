@@ -2837,26 +2837,6 @@ dialog form {
   height: 25px;
   transform: rotate(-45deg);
 }
-.study-intro > .stat-strip {
-  grid-column: 1;
-  grid-row: 2;
-  background: #fffdf8;
-  margin: 0;
-  border: 1px solid var(--line);
-  padding: 20px 25px;
-  gap: 22px;
-  justify-content: space-between;
-  border-radius: 0;
-}
-.study-intro > .stat-strip > div {
-  gap: 11px;
-}
-.study-intro > .stat-strip strong {
-  font-size: 23px;
-}
-.study-intro > .stat-strip small {
-  font-size: 10px;
-}
 .study-topics {
   padding-top: 5px;
 }
@@ -2991,19 +2971,6 @@ dialog form {
   .study-hero h1 {
     font-size: 32px;
   }
-  .study-intro > .stat-strip {
-    padding: 20px 18px;
-    gap: 15px;
-  }
-  .study-intro > .stat-strip > div {
-    gap: 8px;
-  }
-  .study-intro > .stat-strip small {
-    font-size: 9px;
-  }
-  .study-intro > .stat-strip .icon {
-    width: 15px;
-  }
   .topic-notes {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3064,26 +3031,6 @@ dialog form {
   }
   .poster-arrow .icon {
     width: 20px;
-  }
-  .study-intro > .stat-strip {
-    grid-column: 1;
-    grid-row: 2;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    padding: 20px 16px;
-    gap: 10px;
-  }
-  .study-intro > .stat-strip > div {
-    display: block;
-  }
-  .study-intro > .stat-strip strong {
-    font-size: 22px;
-  }
-  .study-intro > .stat-strip small {
-    font-size: 8px;
-  }
-  .study-intro > .stat-strip > div > .icon {
-    display: none;
   }
   .topic-notes {
     gap: 16px 13px;
@@ -3147,12 +3094,6 @@ dialog form {
   .topic-note.topic-card {
     padding: 19px 13px;
   }
-  .study-intro > .stat-strip strong {
-    font-size: 20px;
-  }
-  .study-intro > .stat-strip small {
-    font-size: 7px;
-  }
 }
 
 .poster-art {
@@ -3165,4 +3106,232 @@ dialog form {
   inset: 0;
   width: 100%;
   height: 100%;
+}
+.home-coverage {
+  margin-top: 25px;
+  border-top: 1px solid #ded9eb;
+  padding-top: 21px;
+}
+.home-coverage-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.home-coverage-title h2 {
+  font-size: 15px;
+  letter-spacing: -0.2px;
+  margin: 0;
+}
+.home-coverage-title > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: var(--accent);
+  min-height: 44px;
+}
+.home-coverage-title .icon {
+  width: 14px;
+  height: 14px;
+}
+.study-hero .home-coverage-total {
+  font-size: 11px;
+  margin: 0 0 13px;
+  color: #80788f;
+}
+.home-coverage-total strong {
+  font-weight: 550;
+  color: #555062;
+}
+.home-coverage-bar {
+  display: flex;
+  gap: 4px;
+  height: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.home-coverage-segment {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  background: #ded9e6;
+  border-radius: 3px;
+}
+.home-coverage-segment > span {
+  display: block;
+  height: 100%;
+  background: #8d79b4;
+}
+.home-coverage-segment.peach {
+  background: #e5d8c7;
+}
+.home-coverage-segment.peach > span,
+.home-coverage-dot.peach {
+  background: #bb9366;
+}
+.home-coverage-segment.lilac {
+  background: #dcd2e9;
+}
+.home-coverage-segment.lilac > span,
+.home-coverage-dot.lilac {
+  background: #9d7fbd;
+}
+.home-coverage-segment.sage {
+  background: #d6dfce;
+}
+.home-coverage-segment.sage > span,
+.home-coverage-dot.sage {
+  background: #819a6f;
+}
+.home-coverage-segment.blue {
+  background: #d2dfe3;
+}
+.home-coverage-segment.blue > span,
+.home-coverage-dot.blue {
+  background: #7b9aa5;
+}
+.home-coverage-legend {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 17px;
+}
+.home-coverage-legend > a {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 9px;
+  line-height: 1.5;
+  min-height: 44px;
+}
+.home-coverage-dot {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.home-coverage-legend small {
+  display: block;
+  color: #8c8398;
+  font-size: 9px;
+  margin-top: 4px;
+}
+.study-hero .home-coverage-caption {
+  font-size: 9px;
+  color: #92899e;
+  margin: 9px 0 0;
+  line-height: 1.65;
+}
+@media (max-width: 1000px) {
+  .home-coverage-legend {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .home-coverage-title {
+    gap: 10px;
+  }
+  .home-coverage-title h2 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 760px) {
+  .home-coverage {
+    margin-top: 21px;
+    padding-top: 15px;
+  }
+  .home-coverage-legend > a {
+    font-size: 10px;
+  }
+  .home-coverage-legend small {
+    font-size: 9px;
+  }
+  .study-hero .home-coverage-caption {
+    font-size: 10px;
+  }
+  .study-hero .home-coverage-total {
+    font-size: 11px;
+  }
+  .home-coverage-title > a {
+    font-size: 9px;
+  }
+}
+/* The real counters replace the former left CTA; coverage follows immediately. */
+.study-poster {
+  grid-row: 1;
+}
+.study-hero .stat-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+  margin: 22px 0 0;
+  padding: 18px;
+  background: #ffffff99;
+  border: 0;
+  border-radius: 10px;
+}
+.study-hero .stat-strip > div {
+  gap: 10px;
+}
+.study-hero .stat-strip strong {
+  font-size: 22px;
+}
+.study-hero .stat-strip small {
+  font-size: 9px;
+}
+.study-hero .stat-strip .icon {
+  width: 16px;
+  height: 16px;
+}
+.study-hero .home-coverage {
+  margin-top: 17px;
+  padding-top: 12px;
+}
+@media (max-width: 1150px) {
+  .study-hero .stat-strip {
+    padding: 16px 12px;
+    gap: 12px;
+  }
+  .study-hero .stat-strip > div {
+    display: block;
+  }
+  .study-hero .stat-strip > div > .icon {
+    display: none;
+  }
+  .study-hero .stat-strip small {
+    font-size: 8px;
+  }
+}
+@media (max-width: 760px) {
+  .study-poster {
+    grid-row: 2;
+  }
+  .study-hero .stat-strip {
+    padding: 17px 12px;
+    gap: 12px;
+    margin-bottom: 0;
+  }
+  .study-hero .stat-strip strong {
+    font-size: 22px;
+  }
+  .study-hero .stat-strip small {
+    font-size: 8px;
+  }
+  .study-hero .home-coverage {
+    margin-top: 19px;
+  }
+}
+@media (max-width: 360px) {
+  .study-hero .stat-strip {
+    gap: 8px;
+    padding: 15px 9px;
+  }
+  .study-hero .stat-strip strong {
+    font-size: 19px;
+  }
+  .study-hero .stat-strip small {
+    font-size: 7px;
+  }
 }
