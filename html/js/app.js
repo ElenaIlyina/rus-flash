@@ -1,4 +1,7 @@
-import { renderProgressPreview } from "./progress-preview.js";
+import {
+  renderProgressPreview,
+  renderGlobalCardProgressPreview,
+} from "./progress-preview.js";
 import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
 import { services } from "./services.js";
@@ -130,18 +133,10 @@ function renderStudy() {
     catalog.cards.find((c) => c.id === store.lastCard) ||
     catalog.cards.find((c) => c.hasAnswer && c.task === 4) ||
     catalog.cards[0];
-  const topicCoverage = topics.map((t) => {
-    const cards = topicCards(t);
-    return {
-      ...t,
-      total: cards.length,
-      tried: cards.filter((c) => s.practiced.has(c.id)).length,
-    };
-  });
   main.innerHTML = `
     <div class="study-intro">
       <section class="hero study-hero" aria-labelledby="hero-title">
-        <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section><section class="home-coverage" aria-label="Практика по всем темам"><div class="home-coverage-title"><h2>Практика по всем темам</h2><a href="#progress?view=history">Подробнее ${icon("arrow")}</a></div><p class="home-coverage-total">Попробовали <strong>${s.practiced.size} из ${num(catalog.cards.length)}</strong> карточек</p><div class="home-coverage-bar" role="progressbar" aria-label="Охват карточек по всем темам" aria-valuemin="0" aria-valuemax="${catalog.cards.length}" aria-valuenow="${s.practiced.size}">${topicCoverage.map((t) => `<span class="home-coverage-segment ${t.color}" style="flex:${t.total}" aria-hidden="true"><span style="width:${t.total ? (t.tried / t.total) * 100 : 0}%"></span></span>`).join("")}</div><div class="home-coverage-legend">${topicCoverage.map((t, i) => `<a href="#bank?topic=${i}"><i class="home-coverage-dot ${t.color}" aria-hidden="true"></i><span>${t.name}<small>${t.tried} / ${t.total}</small></span></a>`).join("")}</div><p class="home-coverage-caption">Охват по реальным попыткам. Оценка навыков пока не подключена.</p></section></div>
+        <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>${renderGlobalCardProgressPreview(catalog.cards.length)}</div>
       </section>
       <a class="study-poster" href="#card/${candidate.id}" aria-label="Начать заниматься"><div class="poster-face"><span class="poster-art" aria-hidden="true"><svg class="poster-glyph" viewBox="0 0 300 260" fill="none"><g fill="currentColor" transform="rotate(-9 130 130)"><path d="M62 18h27v27H62zM122 18h27v27h-27zM62 72h113v27H90v37h76v27H90v39h85v27H62z"/></g><g fill="#ff7952" transform="rotate(10 220 165)"><path d="M209 99h26l-3 103h-20zM209 216h26v26h-26z"/></g></svg></span><span class="poster-cta">Начать заниматься</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
 

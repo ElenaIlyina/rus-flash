@@ -140,3 +140,18 @@ export function renderProgressPreview(params) {
     ${selected !== null || dueOnly ? `<section class="panel skill-detail" id="skill-detail"><div class="section-heading"><div><span class="eyebrow">ПРИМЕР КАРТЫ НАВЫКОВ</span><h2>${dueOnly ? "Пора повторить" : topics[selected].name}</h2><p>Нажмите на навык — увидите основание статуса.</p></div><a class="text-link" href="${link(scenario)}">Свернуть ×</a></div>${(dueOnly ? topics.flatMap((t) => t.skills).filter((s) => s.status === "due") : topics[selected].skills).map(skillRow).join("")}${!dueOnly ? `<a class="button secondary" href="#bank?topic=${selected}">Посмотреть текущий банк по теме →</a><p class="skill-bank-note">Переход к существующим карточкам. Точное соответствие этим демонстрационным навыкам ещё не размечено.</p>` : ""}</section>` : '<p class="coverage-hint">Выберите тему выше: внутри — понятные статусы и основания, без сложного графа.</p>'}
     <details class="quality-disclosure"><summary>А насколько готов сам банк?</summary><p>Это отдельный показатель качества материалов, а не ваших знаний. В рабочей версии здесь появятся проверенность ответов, объяснений и покрытие навыков упражнениями. Недоступный материал не должен уменьшать знаменатель и искусственно повышать ваш процент.</p></details>`;
 }
+
+/** Layout-only distribution over the entire catalog; not inferred from attempts. */
+export function renderGlobalCardProgressPreview(total) {
+  const weights = [6, 3, 8, 7];
+  const exact = weights.map((weight) => (total * weight) / 24);
+  const values = exact.map(Math.floor);
+  const remaining = total - values.reduce((sum, value) => sum + value, 0);
+  const order = exact
+    .map((value, i) => ({ i, fraction: value - values[i] }))
+    .sort((a, b) => b.fraction - a.fraction || a.i - b.i);
+  for (let i = 0; i < remaining; i++) values[order[i].i]++;
+  const counts = Object.fromEntries(states.map(([id], i) => [id, values[i]]));
+  const summary = { total, counts };
+  return `<section class="home-coverage aggregate-demo" aria-label="Пример суммарного прогресса по всем карточкам"><div class="home-coverage-title"><h2>Общий прогресс <span class="aggregate-demo-badge">ДЕМО</span></h2><a href="#progress">Подробнее →</a></div>${bar(summary)}<div class="aggregate-caption"><span>Охват ${total - counts.not_started} / ${total}</span><span>Пора повторить: ${counts.due}</span></div>${legend(summary)}<p class="home-coverage-caption">Пример статусов по всему банку, а не по отдельным темам. Числа демонстрационные: оценивание карточек ещё не подключено.</p></section>`;
+}

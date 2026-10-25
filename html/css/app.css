@@ -3135,90 +3135,6 @@ dialog form {
   width: 14px;
   height: 14px;
 }
-.study-hero .home-coverage-total {
-  font-size: 11px;
-  margin: 0 0 13px;
-  color: #80788f;
-}
-.home-coverage-total strong {
-  font-weight: 550;
-  color: #555062;
-}
-.home-coverage-bar {
-  display: flex;
-  gap: 4px;
-  height: 10px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-.home-coverage-segment {
-  display: block;
-  min-width: 0;
-  overflow: hidden;
-  background: #ded9e6;
-  border-radius: 3px;
-}
-.home-coverage-segment > span {
-  display: block;
-  height: 100%;
-  background: #8d79b4;
-}
-.home-coverage-segment.peach {
-  background: #e5d8c7;
-}
-.home-coverage-segment.peach > span,
-.home-coverage-dot.peach {
-  background: #bb9366;
-}
-.home-coverage-segment.lilac {
-  background: #dcd2e9;
-}
-.home-coverage-segment.lilac > span,
-.home-coverage-dot.lilac {
-  background: #9d7fbd;
-}
-.home-coverage-segment.sage {
-  background: #d6dfce;
-}
-.home-coverage-segment.sage > span,
-.home-coverage-dot.sage {
-  background: #819a6f;
-}
-.home-coverage-segment.blue {
-  background: #d2dfe3;
-}
-.home-coverage-segment.blue > span,
-.home-coverage-dot.blue {
-  background: #7b9aa5;
-}
-.home-coverage-legend {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 17px;
-}
-.home-coverage-legend > a {
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
-  font-size: 9px;
-  line-height: 1.5;
-  min-height: 44px;
-}
-.home-coverage-dot {
-  display: block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  margin-top: 4px;
-}
-.home-coverage-legend small {
-  display: block;
-  color: #8c8398;
-  font-size: 9px;
-  margin-top: 4px;
-}
 .study-hero .home-coverage-caption {
   font-size: 9px;
   color: #92899e;
@@ -3226,10 +3142,6 @@ dialog form {
   line-height: 1.65;
 }
 @media (max-width: 1000px) {
-  .home-coverage-legend {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
   .home-coverage-title {
     gap: 10px;
   }
@@ -3242,17 +3154,8 @@ dialog form {
     margin-top: 21px;
     padding-top: 15px;
   }
-  .home-coverage-legend > a {
-    font-size: 10px;
-  }
-  .home-coverage-legend small {
-    font-size: 9px;
-  }
   .study-hero .home-coverage-caption {
     font-size: 10px;
-  }
-  .study-hero .home-coverage-total {
-    font-size: 11px;
   }
   .home-coverage-title > a {
     font-size: 9px;
@@ -3333,5 +3236,51 @@ dialog form {
   }
   .study-hero .stat-strip small {
     font-size: 7px;
+  }
+}
+
+.aggregate-demo .skill-bar {
+  margin-top: 17px;
+  height: 14px;
+  gap: 4px;
+}
+.aggregate-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 13px;
+  font-size: 11px;
+  color: #8e859d;
+}
+.aggregate-demo-badge {
+  display: inline-block;
+  margin-left: 7px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background: #e5deef;
+  color: #8a7a9d;
+  font-size: 8px;
+  font-weight: 500;
+  vertical-align: middle;
+  letter-spacing: 0.6px;
+}
+.aggregate-demo .skill-legend {
+  gap: 10px 15px;
+  margin: 18px 0 0;
+  font-size: 9px;
+}
+.aggregate-demo .skill-legend b {
+  font-size: 9px;
+}
+@media (max-width: 760px) {
+  .aggregate-caption {
+    font-size: 10px;
+    gap: 8px;
+  }
+  .aggregate-demo .skill-legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    font-size: 9px;
   }
 }
