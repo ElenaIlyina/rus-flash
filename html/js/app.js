@@ -339,7 +339,7 @@ async function renderKnowledge(params, version) {
 }
 function modal(title, body) {
   document.querySelector("#dialog-body").innerHTML =
-    `<span class="eyebrow">RUSFLASH</span><h2 id="dialog-title">${title}</h2>${body}`;
+    `<span class="eyebrow">СЛОВО ЗА СЛОВО</span><h2 id="dialog-title">${title}</h2>${body}`;
   document.querySelector("#info-dialog").showModal();
 }
 function toast(text) {
@@ -381,7 +381,7 @@ async function render() {
   }
   if (version === renderVersion) {
     window.scrollTo({ top: 0 });
-    document.title = `${path.startsWith("card/") ? "Карточка " + path.slice(5) : navs.find((n) => n[0] === path)?.[1] || "Заниматься"} — RusFlash`;
+    document.title = `${path.startsWith("card/") ? "Карточка " + path.slice(5) : navs.find((n) => n[0] === path)?.[1] || "Заниматься"} — Слово за слово`;
   }
 }
 
@@ -478,7 +478,7 @@ document.addEventListener("click", async (event) => {
       );
       const a = document.createElement("a");
       a.href = url;
-      a.download = "rusflash-progress.json";
+      a.download = "slovo-za-slovo-progress.json";
       a.click();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
       break;

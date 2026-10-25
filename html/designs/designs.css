@@ -1825,3 +1825,11 @@ p {
     font-size: 33px;
   }
 }
+.design-wordmark {
+  font-size: 21px;
+  line-height: 1.02;
+  letter-spacing: -0.6px;
+}
+.brand-symbol {
+  flex-shrink: 0;
+}

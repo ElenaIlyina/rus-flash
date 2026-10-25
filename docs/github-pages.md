@@ -27,7 +27,7 @@ Actions закреплены полными SHA официальных репо�
 
 ## Первый запуск
 
-1. Откройте Actions → **Deploy RusFlash to GitHub Pages**.
+1. Откройте Actions → **Deploy Slovo za Slovo to GitHub Pages**.
 2. Нажмите Run workflow; выберите проверенную ветку, например feat/adaptive-interface.
 3. Запустите workflow. При настроенном одобрении environment подтвердите deploy в GitHub.
 4. После успеха откройте URL из задачи Publish selected version / environment github-pages.

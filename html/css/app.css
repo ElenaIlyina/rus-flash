@@ -2673,3 +2673,21 @@ dialog form {
 .skill-row[open] .skill-chevron {
   transform: rotate(45deg);
 }
+/* Public name updated; fit the longer wordmark without changing the layout. */
+.brand-name {
+  font-size: 21px;
+  line-height: 1.04;
+  letter-spacing: -0.6px;
+}
+.brand-name small {
+  margin-top: 7px;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+.mobile-brand .mobile-wordmark {
+  font-size: 17px;
+  line-height: 1.02;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+  color: var(--ink);
+}

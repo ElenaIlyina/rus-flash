@@ -1,4 +1,4 @@
-name: Deploy RusFlash to GitHub Pages
+name: Deploy Slovo za Slovo to GitHub Pages
 
 # Deliberately manual: publishing is a separate decision from pushing code.
 on:
