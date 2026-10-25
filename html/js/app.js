@@ -130,20 +130,15 @@ function renderStudy() {
     catalog.cards.find((c) => c.id === store.lastCard) ||
     catalog.cards.find((c) => c.hasAnswer && c.task === 4) ||
     catalog.cards[0];
-  main.innerHTML =
-    heading(
-      "КАЖДЫЙ ДЕНЬ ЧУТЬ УВЕРЕННЕЕ",
-      'Русский — по шагам<span class="title-dot">.</span>',
-      "Разобраться в правиле. Попробовать. И однажды заметить: получается.",
-    ) +
-    `
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy"><span class="pill light">${icon("leaf")} В своём темпе</span><h2 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h2><p>Выберите тему или продолжите с того места,<br class="desktop-break"> где остановились. Прогресс останется здесь.</p><a class="button primary" href="#card/${candidate.id}">${store.lastCard ? "Продолжить занятие" : "Начать заниматься"} ${icon("arrow")}</a><span class="hero-meta">Без таймера и лишней спешки</span></div>
-      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="art-star">${icon("spark")}</span><span class="art-dot"></span><div class="paper paper-back"></div><div class="paper paper-front"><div class="paper-heading">ПРАВИЛО НА СЕГОДНЯ</div><div class="paper-title">Понять.<br>А не зазубрить.</div><div class="paper-line"></div><div class="paper-line short"></div><div class="paper-check">${icon("check")} Ещё один шаг</div></div><span class="art-label">Всё начинается с практики</span></div>
-    </section>
-    <section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div><a href="#progress">Мой прогресс ${icon("arrow")}</a></section>
-    <section aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid">${topics.map((t, i) => `<a class="topic-card ${t.color}" href="#bank?topic=${i}"><span class="topic-icon">${icon(t.icon)}</span><span class="topic-arrow">${icon("arrow")}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="topic-count">${num(topicCards(t).length)} карточек</span></a>`).join("")}</div></section>
-    <section class="adaptive-card"><span class="adaptive-symbol">${icon("spark")}</span><div><span class="eyebrow">СЛЕДУЮЩИЙ ШАГ ПРОЕКТА</span><h2>Тренировка, которая понимает вас</h2><p>Повторение ошибок, нужное правило и задания по силам. Подбор по навыкам появится после проверки материалов.</p></div><button class="button secondary" data-action="adaptive">Как это будет ${icon("arrow")}</button></section>
+  main.innerHTML = `
+    <div class="study-intro">
+      <section class="hero study-hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><a class="button primary" href="#card/${candidate.id}">${store.lastCard ? "Продолжить занятие" : "Начать заниматься"} ${icon("arrow")}</a><span class="hero-meta">Без таймера и лишней спешки</span></div>
+      </section>
+      <a class="study-poster" href="#card/${candidate.id}" aria-label="Начать практику с карточки"><div class="poster-face"><span class="poster-kicker">В ЭТОМ НОМЕРЕ</span><span class="poster-letter" aria-hidden="true">Ё<span>!</span></span><span class="poster-foot">ТОЧКА ОПОРЫ —<br>ПОНИМАНИЕ.</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
+      <section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>
+    </div>
+    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="#bank?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="eyebrow">${String(i + 1).padStart(2, "0")} / ВЫБЕРИ НАПРАВЛЕНИЕ</span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>
     <div class="editorial-note">${icon("knowledge")}<p>Банк ещё проходит проверку. Номера групп предварительные, а ответы и разборы есть не у всех карточек. Это версия интерфейса для обсуждения.</p></div>`;
 }
 function bankResults() {
@@ -278,7 +273,7 @@ function checkAnswer(event) {
     toast("Не удалось сохранить попытку: проверьте доступ к хранилищу.");
 }
 function renderProgress(params) {
-  if (params.get("view") === "preview") {
+  if (params.get("view") !== "history") {
     main.innerHTML = renderProgressPreview(params);
     return;
   }
@@ -361,7 +356,7 @@ async function render() {
     document.querySelector(target).innerHTML = navs
       .map(
         ([id, label]) =>
-          `<a href="#${id}" class="nav-item ${active === id ? "active" : ""}" ${active === id ? 'aria-current="page"' : ""}>${icon(id)}<span>${target === "#mobile-nav" && id === "progress" ? "Прогресс" : label}</span>${id === "knowledge" && target === "#desktop-nav" ? '<span class="nav-dot"></span>' : ""}</a>`,
+          `<a href="#${id}" aria-label="${label}" title="${label}" class="nav-item ${active === id ? "active" : ""}" ${active === id ? 'aria-current="page"' : ""}>${icon(id)}<span>${target === "#mobile-nav" && id === "progress" ? "Прогресс" : label}</span>${id === "knowledge" && target === "#desktop-nav" ? '<span class="nav-dot"></span>' : ""}</a>`,
       )
       .join("");
   try {

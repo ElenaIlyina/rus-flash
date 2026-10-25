@@ -22,7 +22,7 @@ def main():
             browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
             page = browser.new_page()
             page.on('pageerror', lambda e: errors.append(str(e)))
-            page.goto(base + '#progress', wait_until='networkidle')
+            page.goto(base + '#progress?view=history', wait_until='networkidle')
             before = page.evaluate('JSON.stringify(Object.entries(localStorage).sort())')
             page.get_by_role('link', name='Новый дашборд · демо').click()
             page.locator('.learning-overview').wait_for()

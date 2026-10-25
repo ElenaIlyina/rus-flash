@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+"""Layout and navigation accepted from the owner's PDF collage and clarification."""
+import functools
+import http.server
+from pathlib import Path
+import sys
+import threading
+from playwright.sync_api import sync_playwright
+from ui_smoke import QuietHandler
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def main():
+    server = http.server.ThreadingHTTPServer(
+        ('127.0.0.1', 0), functools.partial(QuietHandler, directory=str(ROOT / 'html')))
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    base = f'http://127.0.0.1:{server.server_port}/'
+    errors = []
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+            page = browser.new_page()
+            page.on('pageerror', lambda error: errors.append(str(error)))
+            folder = ROOT / 'docs/composed-home'
+            if '--screenshots' in sys.argv:
+                folder.mkdir(parents=True, exist_ok=True)
+            for width in [1440, 1024, 768, 390, 320]:
+                page.set_viewport_size({'width': width, 'height': 1000 if width > 760 else 844})
+                page.goto(base, wait_until='networkidle')
+                assert page.locator('.study-poster').is_visible()
+                assert page.locator('.topic-note').count() == 4
+                assert page.locator('.stat-strip strong').nth(1).inner_text() == '0'
+                assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
+                if width > 760:
+                    assert page.locator('.sidebar').bounding_box()['width'] == 84
+                    assert page.locator('#desktop-nav a[aria-label]').count() == 4
+                if '--screenshots' in sys.argv and width in [1440, 390]:
+                    page.screenshot(path=str(folder / f'home-{width}.png'), full_page=True)
+            page.locator('#mobile-nav a[href="#progress"]').click()
+            page.locator('.learning-overview').wait_for()
+            assert page.locator('.preview-badge').inner_text() == 'ДЕМО'
+            page.get_by_role('link', name='Моя реальная история').click()
+            page.locator('.progress-grid').wait_for()
+            assert page.url.endswith('#progress?view=history')
+            page.goto(base + '#study', wait_until='networkidle')
+            page.locator('.topic-note').nth(2).click()
+            page.locator('.bank-row').first.wait_for()
+            assert '#bank?topic=2' in page.url
+            page.goto(base + '#study', wait_until='networkidle')
+            page.locator('.study-poster').click()
+            page.locator('.exercise').wait_for()
+            assert not errors, errors
+            browser.close()
+    finally:
+        server.shutdown()
+    print('PASS: composed home at 5 widths; notes/poster links; icon rail; default demo and real history')
+
+
+if __name__ == '__main__':
+    main()

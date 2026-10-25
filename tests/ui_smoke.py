@@ -38,7 +38,7 @@ def main():
             requests = []
             page.on('request', lambda request: requests.append(request.url))
             page.goto(base, wait_until='networkidle')
-            assert page.locator('h1').inner_text().startswith('Русский')
+            assert page.locator('h1').inner_text().startswith('Не всё сразу')
             assert len(page.locator('.topic-card').all()) == 4
             assert not any('/cards/' in url for url in requests), 'Home must not preload the bank'
             checks += 1
@@ -73,6 +73,8 @@ def main():
             assert '012CAB' in page.locator('main').inner_text()
             checks += 1
             page.locator('#desktop-nav a[href="#progress"]').click()
+            page.locator('.learning-overview').wait_for()
+            page.get_by_role('link', name='Моя реальная история').click()
             page.locator('.attempt-row').first.wait_for()
             assert page.locator('.attempt-row').count() == 2
             with page.expect_download() as info:
