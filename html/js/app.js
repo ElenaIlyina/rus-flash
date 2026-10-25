@@ -181,7 +181,7 @@ function bankResults() {
           .slice(0, filter.page * 24)
           .map(
             (c) =>
-              `<a class="bank-row" href="#card/${c.id}"><span class="row-icon">${icon(c.hasPassage ? "knowledge" : "bank")}</span><div><div class="row-top"><span>Группа ${c.task || "—"} · ${c.id}</span>${store.tags(c.id).fav ? icon("bookmark") : ""}</div><h3>${esc(plain(c.title))}</h3><span class="row-status ${c.hasAnswer ? "" : "muted"}">${c.hasAnswer ? "Ответ в базе" : "Самостоятельная проверка"}</span></div>${icon("arrow")}</a>`,
+              `<a class="bank-row" href="#card/${c.id}"><span class="row-icon group-number" aria-label="Группа ${c.task || "не определена"}">${esc(c.task || "—")}</span><div><div class="row-top"><span>${c.id}</span>${store.tags(c.id).fav ? '<span class="bank-favorite" aria-label="В избранном">⭐</span>' : ""}</div><h3>${esc(plain(c.title))}</h3><span class="row-status ${c.hasAnswer ? "" : "muted"}">${c.hasAnswer ? "Ответ в базе" : "Самостоятельная проверка"}</span></div>${icon("arrow")}</a>`,
           )
           .join(
             "",
@@ -201,7 +201,6 @@ function renderBank(params) {
       "Выберите карточку, тему или вернитесь к тому, что хочется повторить.",
     ) +
     `
-    <div class="notice compact">Номера групп взяты из прежней классификации. Соответствие ЕГЭ-2027 ещё не подтверждено.</div>
     <div class="bank-tools"><label class="search-field">${icon("search")}<input id="bank-search" type="search" placeholder="Найти по тексту или ID" value="${esc(filter.query)}" aria-label="Поиск по тексту или ID"></label><label class="select-field"><span class="sr-only">Группа задания</span><select id="task-filter"><option value="">Все группы</option>${Object.entries(
       catalog.taskNames,
     )
@@ -214,8 +213,8 @@ function renderBank(params) {
       ["all", "Все карточки"],
       ["answer", "С ответом"],
       ["self", "Без ответа"],
-      ["fav", "Избранное"],
-      ["hard", "Повторить"],
+      ["fav", '<span aria-hidden="true">⭐</span> Избранное'],
+      ["hard", '<span aria-hidden="true">⏳</span> Повторить'],
     ]
       .map(
         ([id, label]) =>

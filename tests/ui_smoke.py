@@ -49,6 +49,11 @@ def main():
             page.locator('#desktop-nav a[href="#bank"]').click()
             page.locator('#bank-search').fill('012CAB')
             assert page.locator('.bank-row').count() == 1
+            assert page.locator('.group-number').inner_text() == '5'
+            assert page.locator('.group-number svg').count() == 0
+            assert 'Соответствие ЕГЭ-2027' not in page.locator('main').inner_text()
+            assert '⭐' in page.locator('[data-filter=fav]').inner_text()
+            assert '⏳' in page.locator('[data-filter=hard]').inner_text()
             page.locator('.bank-row').click()
             page.locator('#answer-input').wait_for()
             answer = json.loads((ROOT / 'data/card_012CAB.json').read_text())['answer']
@@ -64,6 +69,17 @@ def main():
             assert page.evaluate('JSON.parse(localStorage.getItem("task_tags_012CAB")).fav')
             page.reload(wait_until='networkidle')
             assert page.locator('[data-action="favorite"]').get_attribute('aria-pressed') == 'true'
+            page.locator('#desktop-nav a[href="#bank"]').click()
+            page.locator('[data-filter=fav]').click()
+            assert page.locator('[data-filter=fav]').get_attribute('aria-pressed') == 'true'
+            assert page.locator('[data-filter=fav]').evaluate('e=>getComputedStyle(e).backgroundColor') == 'rgb(255, 240, 184)'
+            assert page.locator('.bank-row').count() == 1
+            assert page.locator('.bank-favorite').inner_text() == '⭐'
+            page.locator('[data-filter=hard]').click()
+            assert page.locator('.bank-row').count() == 0
+            page.locator('[data-filter=all]').click()
+            page.locator('.bank-row[href="#card/012CAB"]').click()
+            page.locator('#answer-input').wait_for()
             checks += 1
             page.locator('[data-action="card-rules"]').click()
             page.get_by_role('heading', name='Справочник правил').wait_for()

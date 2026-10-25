@@ -3274,3 +3274,30 @@ dialog form {
     font-size: 9px;
   }
 }
+/* Bank: group numbers and recognizable status filters. */
+.group-number {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: #71618f;
+}
+.filter-tab[data-filter="fav"].active {
+  background: #fff0b8;
+  border-color: #e8ce76;
+  color: #775c16;
+}
+.filter-tab > span {
+  margin-right: 3px;
+}
+.bank-favorite {
+  font-size: 12px;
+  line-height: 1;
+}
+.filter-tab[data-filter="fav"]:not(.active):hover {
+  background: #fff7da;
+}
+@media (max-width: 760px) {
+  .group-number {
+    font-size: 16px;
+  }
+}
