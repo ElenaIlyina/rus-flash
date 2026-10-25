@@ -141,8 +141,14 @@ def main():
                 assert m.evaluate('document.documentElement.scrollWidth <= innerWidth'), f'320px overflow: {path}'
             m.set_viewport_size({'width': 390, 'height': 844})
             checks += 1
-            m.goto(base + '/#card/06A9D8', wait_until='networkidle')
+            m.goto(base + '/#card/0ABFEC', wait_until='networkidle')
             assert m.locator('.passage').count() == 1
+            assert m.locator('.question-section').is_visible()
+            assert m.locator('.option').count() == 5
+            m.locator('.passage summary').click()
+            assert not m.locator('.passage-content').is_visible()
+            assert m.locator('.question-section').is_visible()
+            m.locator('.passage summary').click()
             if '--screenshots' in sys.argv:
                 m.screenshot(path=str(folder / 'mobile-card.png'), full_page=True)
                 m.goto(base, wait_until='networkidle')

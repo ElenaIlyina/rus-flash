@@ -973,7 +973,9 @@ h1 {
 }
 .passage {
   margin-top: 24px;
-  border: 1px solid var(--line);
+  background: #edf6fd;
+  border: 1px solid #d4e5f3;
+  border-left: 4px solid #7ca9cf;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -984,7 +986,7 @@ h1 {
   min-height: 54px;
   cursor: pointer;
   padding: 12px 15px;
-  background: #faf9f6;
+  background: #e3f0fb;
   font-size: 12px;
   font-weight: 550;
   list-style: none;
@@ -993,7 +995,7 @@ h1 {
   display: none;
 }
 .passage summary .icon {
-  color: #969080;
+  color: #6087ab;
   width: 17px;
 }
 .passage summary span {
@@ -1011,8 +1013,13 @@ h1 {
 }
 .question-section {
   margin-top: 25px;
+  background: #fff8df;
+  border: 1px solid #efe3b4;
+  border-radius: 12px;
+  padding: 20px;
 }
 .question-section h2 {
+  color: #806b37;
   font-size: 13px;
   letter-spacing: 0;
   margin-bottom: 12px;
@@ -1034,6 +1041,7 @@ h1 {
   margin-bottom: 10px;
 }
 .option {
+  background: #fff;
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -3361,5 +3369,11 @@ dialog form {
   }
   .topbar {
     gap: 12px;
+  }
+}
+
+@media (max-width: 760px) {
+  .question-section {
+    padding: 17px 15px;
   }
 }
