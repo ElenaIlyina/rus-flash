@@ -2121,3 +2121,24 @@ dialog form {
     display: none;
   }
 }
+.design-review {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 11px;
+  color: var(--accent);
+}
+.design-short {
+  display: none;
+}
+@media (max-width: 760px) {
+  .design-full {
+    display: none;
+  }
+  .design-short {
+    display: inline;
+  }
+  .design-review {
+    font-size: 10px;
+  }
+}
