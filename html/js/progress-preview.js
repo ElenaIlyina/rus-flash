@@ -117,7 +117,7 @@ export function renderProgressPreview(params) {
   const selected =
     requested !== null && /^[0-3]$/.test(requested) ? Number(requested) : null;
   const dueOnly = params.get("due") === "1";
-  return `<div class="page-heading"><div><span class="eyebrow">ВИДЕТЬ НЕ ТОЛЬКО ШАГИ, НО И РЕЗУЛЬТАТ</span><h1>Мой прогресс</h1><p>Что уже попробовали. Что получается. К чему стоит вернуться.</p></div><a class="button secondary" href="#progress?view=history">Моя реальная история</a></div>
+  return `<div class="page-heading"><div><span class="eyebrow">ВИДЕТЬ НЕ ТОЛЬКО ШАГИ, НО И РЕЗУЛЬТАТ</span><h1>Мой прогресс</h1><p>Что уже попробовали. Что получается. К чему стоит вернуться.</p></div><div class="progress-actions"><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button><a class="text-link" href="#progress?view=history">Моя реальная история</a></div></div>
     <div class="preview-warning"><span class="preview-badge">ДЕМО</span><p><strong>Пример будущего дашборда.</strong> Числа и навыки иллюстративные. Они не рассчитаны из ваших попыток и не сохраняются в прогресс.</p></div>
     <nav class="preview-scenarios" aria-label="Примеры состояния прогресса">${[
       ["example", "Есть первые результаты"],

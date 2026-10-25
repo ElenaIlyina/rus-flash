@@ -1,3 +1,4 @@
+import { mergeProgress } from "./progress-transfer.js";
 const KEY = "rusflash_learning_v1";
 let available = true;
 let state = { events: [], lastCard: null };
@@ -71,6 +72,46 @@ export const store = {
     state.events.push(event);
     save();
     return event;
+  },
+  importData(incoming) {
+    const merged = mergeProgress(
+      { ...state, tags: Object.fromEntries(tags) },
+      incoming,
+    );
+    const nextState = { events: merged.events, lastCard: merged.lastCard };
+    const writes = [
+      [KEY, JSON.stringify(nextState)],
+      ...Object.entries(merged.tags).map(([id, value]) => [
+        "task_tags_" + id,
+        JSON.stringify(value),
+      ]),
+    ];
+    const before = new Map(
+      writes.map(([key]) => [key, localStorage.getItem(key)]),
+    );
+    try {
+      for (const [key, value] of writes) localStorage.setItem(key, value);
+    } catch {
+      // Restore old values and remove only keys newly created by this import.
+      try {
+        for (const [key, value] of before)
+          if (value === null) localStorage.removeItem(key);
+        for (const [key, value] of before)
+          if (value !== null) localStorage.setItem(key, value);
+      } catch {
+        throw new Error(
+          "Не удалось завершить восстановление хранилища. Сохраните резервную копию и не закрывайте вкладку.",
+        );
+      }
+      throw new Error(
+        "Не удалось сохранить файл: хранилище недоступно или переполнено. Импорт отменён.",
+      );
+    }
+    state = nextState;
+    tags.clear();
+    for (const [id, value] of Object.entries(merged.tags)) tags.set(id, value);
+    available = true;
+    return merged.summary;
   },
   exportData() {
     return JSON.stringify(

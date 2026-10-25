@@ -1,3 +1,4 @@
+import { parseProgress, mergeProgress } from "./progress-transfer.js";
 import {
   renderProgressPreview,
   renderGlobalCardProgressPreview,
@@ -104,6 +105,7 @@ let catalog,
   renderVersion = 0,
   reveal = false,
   attempted = false;
+let pendingImport = null;
 let filter = { query: "", task: "", status: "all", page: 1 };
 function topicCards(topic) {
   return catalog.cards.filter((c) => topic.tasks.includes(c.task));
@@ -290,7 +292,7 @@ function renderProgress(params) {
       "ЗАМЕЧАЙТЕ СВОИ ШАГИ",
       "Мой прогресс",
       "Не соревнование с другими. История того, что вы уже попробовали.",
-      '<div class="progress-actions"><a class="button primary" href="#progress?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button></div>',
+      '<div class="progress-actions"><a class="button primary" href="#progress?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
     ) +
     `
     <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Самостоятельные ответы</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
@@ -318,7 +320,7 @@ function renderProgress(params) {
             '<a href="#bank" class="button primary">Выбрать карточку</a>',
           )
     }</section>
-    <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Сейчас прогресс хранится только в этом браузере. Экспорт уже доступен; импорт и синхронизация — следующие этапы.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
+    <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Сейчас прогресс хранится только в этом браузере. Перенос через JSON уже доступен. Автоматическая синхронизация — следующий этап.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
 }
 async function renderKnowledge(params, version) {
   const cardId = params.get("card");
@@ -336,6 +338,7 @@ async function renderKnowledge(params, version) {
     <section class="panel method-panel"><span class="eyebrow">ОТ ИСТОЧНИКА К ПОНИМАНИЮ</span><h2>Правило → пример → практика</h2><p>Надёжный источник, короткое объяснение и карточки на конкретный навык. Статус проверки будет виден у каждого материала.</p><button class="text-link" data-action="rag">Как будем готовить объяснения ${icon("arrow")}</button></section>`;
 }
 function modal(title, body) {
+  document.querySelector("#info-dialog form button").textContent = "Понятно";
   document.querySelector("#dialog-body").innerHTML =
     `<span class="eyebrow">СЛОВО ЗА СЛОВО</span><h2 id="dialog-title">${title}</h2>${body}`;
   document.querySelector("#info-dialog").showModal();
@@ -420,7 +423,7 @@ document.addEventListener("click", async (event) => {
     case "sync":
       modal(
         "Продолжить на другом устройстве",
-        "<p>Планируем синхронизацию попыток, избранного и повторений. Сервер и аккаунты пока не подключены.</p><p>Сейчас можно скачать резервную копию прогресса. Импорт будет добавлен отдельно; экспортируемый файл сохраняйте у себя.</p>",
+        "<p>Планируем синхронизацию попыток, избранного и повторений. Сервер и аккаунты пока не подключены.</p><p>Сейчас можно скачать прогресс и загрузить его на другом устройстве через JSON-файл. Перед загрузкой показывается состав изменений; история объединяется без удаления текущих записей.</p>",
       );
       break;
     case "more":
@@ -470,6 +473,26 @@ document.addEventListener("click", async (event) => {
         `<p>Карточка <strong>${esc(currentCard?.id)}</strong>. Запишите её ID и опишите неточность при ревью проекта.</p><p>Отправка сообщений ещё не подключена. Эта кнопка ничего не отправляет.</p>`,
       );
       break;
+    case "import":
+      document.querySelector("#progress-import").click();
+      break;
+    case "apply-import": {
+      if (!pendingImport) break;
+      try {
+        const result = store.importData(pendingImport);
+        pendingImport = null;
+        document.querySelector("#info-dialog").close();
+        await render();
+        toast(
+          `Прогресс объединён: ${result.added} новых попыток, ${result.marksAdded} отметок.`,
+        );
+      } catch (error) {
+        pendingImport = null;
+        document.querySelector("#dialog-body").innerHTML =
+          `<h2 id="dialog-title">Загрузка отменена</h2><p>${esc(error.message)}</p>`;
+      }
+      break;
+    }
     case "export": {
       const url = URL.createObjectURL(
         new Blob([store.exportData()], { type: "application/json" }),
@@ -483,6 +506,41 @@ document.addEventListener("click", async (event) => {
     }
   }
 });
+document.querySelector("#info-dialog").addEventListener("close", () => {
+  pendingImport = null;
+});
+document
+  .querySelector("#progress-import")
+  .addEventListener("change", async (event) => {
+    const file = event.target.files[0];
+    event.target.value = "";
+    if (!file) return;
+    pendingImport = null;
+    try {
+      if (file.size > 10 * 1024 * 1024)
+        throw new Error(
+          "Файл больше 10 МБ. Выберите файл экспорта прогресса меньшего размера.",
+        );
+      const incoming = parseProgress(await file.text());
+      const current = JSON.parse(store.exportData());
+      const result = mergeProgress(current, incoming).summary;
+      const known = new Set(catalog.cards.map((card) => card.id));
+      const unknown = new Set(
+        [
+          ...incoming.events.map((e) => e.cardId),
+          ...Object.keys(incoming.tags),
+        ].filter((id) => !known.has(id)),
+      ).size;
+      pendingImport = incoming;
+      modal(
+        "Загрузить прогресс?",
+        `<p>Файл: <strong>${esc(file.name)}</strong></p><p>Новых попыток: ${result.added}. Новых отметок: ${result.marksAdded}. Уже есть: ${result.duplicates}.</p>${result.conflicts ? `<p>Конфликтов ID: ${result.conflicts}. Для них сохранятся записи этого устройства.</p>` : ""}${unknown ? `<p>Неизвестных текущему банку карточек: ${unknown}. История сохранится, но не будет учитываться в текущих показателях.</p>` : ""}<p>История объединится без удаления текущих попыток. Отметки из файла добавятся к существующим; снятые отметки не удаляют выбранные на этом устройстве. Демо-статусы не загружаются.</p><div class="progress-actions"><button class="button secondary" data-action="export">Скачать текущую копию</button><button class="button primary" data-action="apply-import">Объединить прогресс</button></div>`,
+      );
+      document.querySelector("#info-dialog form button").textContent = "Отмена";
+    } catch (error) {
+      modal("Не удалось загрузить прогресс", `<p>${esc(error.message)}</p>`);
+    }
+  });
 document.addEventListener("input", (event) => {
   if (event.target.id === "bank-search") {
     filter.query = event.target.value;
