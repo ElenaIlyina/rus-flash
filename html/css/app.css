@@ -2800,8 +2800,8 @@ dialog form {
   grid-column: 2;
   grid-row: 1/3;
   min-width: 0;
-  background: #fffdf5;
-  padding: 16px;
+  background: transparent;
+  padding: 0;
   display: flex;
   align-items: stretch;
   min-height: 375px;
@@ -2813,10 +2813,10 @@ dialog form {
   transform: rotate(2.5deg);
   width: 100%;
   overflow: hidden;
-  min-height: 343px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  min-height: 375px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 20px;
   padding: 25px;
 }
 .poster-kicker {
@@ -2824,22 +2824,6 @@ dialog form {
   letter-spacing: 2px;
   position: relative;
   z-index: 1;
-}
-.poster-letter {
-  position: absolute;
-  left: 19px;
-  top: 4px;
-  font-size: 240px;
-  font-weight: 800;
-  letter-spacing: -25px;
-  line-height: 1.2;
-  transform: rotate(-10deg);
-}
-.poster-letter > span {
-  display: inline-block;
-  color: #ff7952;
-  font-size: 190px;
-  transform: rotate(15deg) translateY(20px);
 }
 .poster-foot {
   position: relative;
@@ -3025,14 +3009,6 @@ dialog form {
   .study-intro > .stat-strip .icon {
     width: 15px;
   }
-  .poster-letter {
-    font-size: 210px;
-    left: 10px;
-    top: 22px;
-  }
-  .poster-letter > span {
-    font-size: 160px;
-  }
   .topic-notes {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3075,23 +3051,14 @@ dialog form {
   .study-poster {
     grid-column: 1;
     grid-row: 3;
-    min-height: 180px;
-    padding: 13px;
+    min-height: 260px;
+    padding: 0;
   }
   .poster-face {
-    min-height: 160px;
-    padding: 19px;
+    min-height: 260px;
+    gap: 14px;
+    padding: 20px;
     transform: rotate(1.5deg);
-  }
-  .poster-letter {
-    font-size: 176px;
-    left: auto;
-    right: 40px;
-    top: -37px;
-    letter-spacing: -19px;
-  }
-  .poster-letter > span {
-    font-size: 130px;
   }
   .poster-kicker {
     font-size: 7px;
@@ -3198,14 +3165,15 @@ dialog form {
     font-size: 7px;
   }
 }
-@media (max-width: 760px) {
-  .study-poster .poster-letter {
-    font-size: 136px;
-    top: -7px;
-    right: 30px;
-    letter-spacing: -16px;
-  }
-  .study-poster .poster-letter > span {
-    font-size: 105px;
-  }
+
+.poster-art {
+  position: relative;
+  display: block;
+  min-height: 0;
+}
+.poster-art .poster-glyph {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }

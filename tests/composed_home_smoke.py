@@ -29,6 +29,17 @@ def main():
                 page.set_viewport_size({'width': width, 'height': 1000 if width > 760 else 844})
                 page.goto(base, wait_until='networkidle')
                 assert page.locator('.study-poster').is_visible()
+                assert page.evaluate("""() => {
+                    const card = document.querySelector('.study-poster');
+                    const style = getComputedStyle(card);
+                    const title = document.querySelector('.poster-kicker');
+                    const art = document.querySelector('.poster-art');
+                    const footer = document.querySelector('.poster-foot');
+                    return style.backgroundColor === 'rgba(0, 0, 0, 0)' &&
+                        style.padding === '0px' &&
+                        title.offsetTop + title.offsetHeight <= art.offsetTop &&
+                        art.offsetTop + art.offsetHeight <= footer.offsetTop;
+                }"""), ('Poster frame or overlapping rows', width)
                 assert page.locator('.topic-note').count() == 4
                 assert page.locator('.stat-strip strong').nth(1).inner_text() == '0'
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
