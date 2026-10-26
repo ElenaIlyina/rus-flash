@@ -13,8 +13,8 @@ def check(root):
     root = Path(root)
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
-        'js/services.js', 'js/ui.js', 'js/progress-preview.js', 'js/progress-transfer.js',
-        'assets/data/catalog.json',
+        'js/services.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/progress-preview.js', 'js/progress-transfer.js',
+        'assets/data/catalog.json', 'assets/data/handbook.json',
         'assets/brand/slovo-za-slovo-school.png',
     ]
     for relative in required:
@@ -42,6 +42,13 @@ def check(root):
         card = json.loads(path.read_text())
         if card['number'] != cid:
             raise ValueError(f'Catalog/card mismatch: {cid}')
+    book = json.loads((root / 'assets/data/handbook.json').read_text())
+    rule_ids = {rule['id'] for rule in book['paragraphs']}
+    if len(rule_ids) != len(book['paragraphs']):
+        raise ValueError('Duplicate handbook paragraph IDs')
+    for card in catalog['cards']:
+        if any(rule_id not in rule_ids for rule_id in card.get('ruleIds', [])):
+            raise ValueError(f'Missing rule for {card["id"]}')
     # Missing local ES module imports would otherwise cause a blank app on Pages.
     for path in (root / 'js').glob('*.js'):
         for imported in re.findall(r'\bfrom\s+[\'"]([^\'"]+)[\'"]', path.read_text()):

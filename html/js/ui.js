@@ -28,7 +28,10 @@ export const esc = (value) =>
   );
 // Retain meaningful source formatting, drop executable/unknown markup and attributes.
 export function rich(value) {
-  const doc = new DOMParser().parseFromString(String(value || ""), "text/html");
+  const formatted = String(value || "")
+    .replace(/\*\*([^*\n]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[\s(«])\*([^*\n]+)\*/g, "$1<em>$2</em>");
+  const doc = new DOMParser().parseFromString(formatted, "text/html");
   const allowed = new Set([
     "B",
     "STRONG",

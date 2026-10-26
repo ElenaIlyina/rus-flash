@@ -251,3 +251,19 @@ dialog form {
   opacity: 1;
   transform: translate(-50%, 0px);
 }
+
+.rule-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin: 20px 0;
+}
+.knowledge-rule h2 {
+  margin: 12px 0 20px;
+}
+.knowledge-rule .explanation-text {
+  margin-bottom: 20px;
+}
+.knowledge-rule {
+  scroll-margin-top: 24px;
+}

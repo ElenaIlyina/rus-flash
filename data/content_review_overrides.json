@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "cards": {
+    "682A9C": {
+      "explanationStatus": "conflicts_with_historical_answer",
+      "eligibleForProgress": false,
+      "reason": "В answer и answer_verify записано 26, а объяснение обосновывает только предложение 2. В предложении 6 заявленный лексический повтор не установлен. До предметной/сетевой сверки не менять ответ и не учитывать в закреплении."
+    }
+  }
+}

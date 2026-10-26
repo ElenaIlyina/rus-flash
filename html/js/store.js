@@ -60,14 +60,43 @@ export const store = {
     state.lastCard = id;
     save();
   },
-  attempt(id, correct, revealed) {
+  assignment(id, fresh = false) {
+    const key = "slovo_assignment_" + id;
+    let value = { assisted: false, submitted: false };
+    try {
+      const saved = fresh
+        ? null
+        : JSON.parse(localStorage.getItem(key) || "null");
+      if (
+        saved &&
+        typeof saved.assisted === "boolean" &&
+        typeof saved.submitted === "boolean"
+      )
+        value = saved;
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch {
+      available = false;
+    }
+    return value;
+  },
+  markAssignment(id, field) {
+    const value = this.assignment(id);
+    value[field] = true;
+    try {
+      localStorage.setItem("slovo_assignment_" + id, JSON.stringify(value));
+    } catch {
+      available = false;
+    }
+    return value;
+  },
+  attempt(id, correct, revealed, materialVersion = 1) {
     const event = {
       id: crypto.randomUUID(),
       cardId: id,
       time: new Date().toISOString(),
       correct,
       assisted: revealed,
-      materialVersion: 1,
+      materialVersion,
     };
     state.events.push(event);
     save();

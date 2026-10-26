@@ -96,8 +96,6 @@ def fetch_bank():
         if 'guid' in page:
             return page
     ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
     op = urllib.request.build_opener(
         urllib.request.HTTPSHandler(context=ctx),
         urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))

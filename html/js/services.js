@@ -1,18 +1,25 @@
+import { recommendPractice } from "./adaptive.js";
+import { loadHandbook } from "./data.js";
 /** Extension points. No model calls, fabricated recommendations or network sync. */
 export const services = {
   knowledge: {
-    ready: false,
+    ready: true, // Local draft paragraphs; not a fully reviewed knowledge base.
     async getRule(id) {
-      return null;
+      return (
+        (await loadHandbook()).paragraphs.find((rule) => rule.id === id) || null
+      );
     },
-    async findRules({ cardId, skillIds = [] }) {
-      return [];
+    async findRules({ task, ruleIds = [] } = {}) {
+      const book = await loadHandbook();
+      return book.paragraphs.filter(
+        (rule) => ruleIds.includes(rule.id) || rule.tasks.includes(task),
+      );
     },
   },
   adaptive: {
-    ready: false,
-    async recommend({ history, skillIds = [] }) {
-      return [];
+    ready: true, // Pilot group-level selection, not the complete adaptive route.
+    async recommend(input) {
+      return recommendPractice(input);
     },
   },
   sync: {

@@ -47,10 +47,10 @@ def main():
                 assert page.locator('.study-hero .button').count() == 0
                 assert page.locator('.study-hero .stat-strip').count() == 1
                 assert page.evaluate("document.querySelector('.home-coverage').previousElementSibling.matches('.stat-strip')")
-                assert page.locator('.aggregate-demo .skill-segment').count() == 4
-                assert page.locator('.aggregate-demo-badge').inner_text() == 'ДЕМО'
-                assert 'Охват 1516 / 2140' in page.locator('.aggregate-caption').inner_text()
-                assert 'Пора повторить: 268' in page.locator('.aggregate-caption').inner_text()
+                assert page.locator('.aggregate-demo .skill-segment').count() == 1
+                assert page.locator('.aggregate-demo-badge').count() == 0
+                assert 'Охват 0 / 2140' in page.locator('.aggregate-caption').inner_text()
+                assert 'Пора повторить: 0' in page.locator('.aggregate-caption').inner_text()
                 assert page.locator('.stat-strip strong').nth(1).inner_text() == '0'
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if width > 760:
@@ -73,7 +73,7 @@ def main():
                     page.screenshot(path=str(folder / f'home-{width}.png'), full_page=True)
             page.locator('#mobile-nav a[href="#progress"]').click()
             page.locator('.learning-overview').wait_for()
-            assert page.locator('.preview-badge').inner_text() == 'ДЕМО'
+            assert page.locator('.preview-badge').count() == 0
             page.get_by_role('link', name='Моя реальная история').click()
             page.locator('.progress-grid').wait_for()
             assert page.url.endswith('#progress?view=history')
@@ -91,7 +91,7 @@ def main():
                     time: new Date().toISOString(), correct: false, assisted: false})), lastCard: id
             }))""", card_id)
             page.goto(base, wait_until='networkidle')
-            assert 'Охват 1516 / 2140' in page.locator('.aggregate-caption').inner_text()
+            assert 'Охват 1 / 2140' in page.locator('.aggregate-caption').inner_text()
             assert page.locator('.stat-strip strong').nth(1).inner_text() == '1'
             assert not errors, errors
             browser.close()

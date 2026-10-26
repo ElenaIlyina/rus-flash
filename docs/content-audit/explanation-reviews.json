@@ -29,6 +29,136 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "c998da8c2e3997c73487467c22a0b1bf0d05c2e8404253cfed34af510eedd576",
       "explanationSha256": "e94005e3a6c574bdbca7b7a0b1347ed1d830fc8e21cd798db177b32ba5dafe58"
+    },
+    {
+      "id": "003B4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "changes": {
+        "шелЕстеть (шЕлест)": "шЕлестеть (шЕлест)",
+        "рост-рок ▸ раст/рос": "раст/ращ/рос",
+        "по-лож ▸ лаг/лож": "лаг/лож",
+        "тв-р ▸ твор/твар": "твар/твор"
+      },
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ef7f8246438d4aa87059e393f38e1ba804db86200e62b5626cada703494d816d",
+      "explanationSha256": "ce5bd9163aadae74464b5c8f4079dbac1d3f58eab3e57bbefba93ddd74b9fd2b"
+    },
+    {
+      "id": "047290",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "changes": {
+        "аргУмент": "аргумЕнт",
+        "ворсИстый": "вОрсистый",
+        "атакОвать": "атАковать"
+      },
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cefa5f03f0817a8f12155a5faaf8b7c384c9ce63235425c2fd095811da28bb34",
+      "explanationSha256": "bb84d2c06e41f6343d27d041301d571ef7658325c76124a9fc8dfaab7c248e7f"
+    },
+    {
+      "id": "41634D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "4b970cefa80023605bf44992cf42a2c7f52c4a0ca72a304d9c277e7ce51b990f"
+    },
+    {
+      "id": "4E5B4C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "cd1d2332ae2a70ccfa2efa2ed197ae5792631d197bf53485c37b2834d85774f9"
+    },
+    {
+      "id": "8AA04D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "87478e4e18ceacf6a34fd8a59e8735b100f4c8035c8823c89a410463eb3d6030"
+    },
+    {
+      "id": "8E184E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "906185daaacb25dcbfd23dcad5f1fd9471b2c03379f173ef6e83acb2ceef312f"
+    },
+    {
+      "id": "8F0049",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "e3d141cc7e8831ca4f0f7eef2d9bab1fe74d94b98112d9e1e8fb603a9eb723f2"
+    },
+    {
+      "id": "8F9A42",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "12fefd0aab57f3575ab183cba2bf8df257980778f0b6921e795b4780ef72e18e"
+    },
+    {
+      "id": "F2B1F1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "c4fa4cf212b7a8f0a80b2dd68e19d42bdac15b1ccd64bb5ecde6fcd294861456"
+    },
+    {
+      "id": "FA72F2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "44ecea19e5107c49a29ea852b2cca9bf034c12cd58158a8a48bc61e6e5e4ac7f"
+    },
+    {
+      "id": "0AB17A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "f279a58df7e8c447992071168b8e75d5ae1c76e1ab24c7e5e3cb851220b24bb2"
+    },
+    {
+      "changeId": "FIX-007",
+      "id": "003B4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "В роскошный проверяется первая безударная О словом ро́скошь, а не ударная вторая О. Исправлено выделение: рОскошный (рОскошь).",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ce5bd9163aadae74464b5c8f4079dbac1d3f58eab3e57bbefba93ddd74b9fd2b",
+      "explanationSha256": "75394d8bc69e9ba809f3604f83a6c1f9f199a63bb1358a2efd84ea29b52874c1"
     }
   ]
 }

@@ -78,12 +78,13 @@ def main():
             page.locator('[data-filter=hard]').click()
             assert page.locator('.bank-row').count() == 0
             page.locator('[data-filter=all]').click()
+            page.locator('#bank-search').fill('012CAB')
             page.locator('.bank-row[href="#card/012CAB"]').click()
             page.locator('#answer-input').wait_for()
             checks += 1
             page.locator('[data-action="card-rules"]').click()
             page.get_by_role('heading', name='Справочник правил').wait_for()
-            assert 'База знаний ещё не подключена' in page.locator('main').inner_text()
+            assert 'Связанные правила ещё готовятся' in page.locator('main').inner_text()
             page.go_back(wait_until='networkidle')
             page.locator('#answer-input').wait_for()
             assert '012CAB' in page.locator('main').inner_text()
