@@ -7,3 +7,7 @@ html/cards_manifest.js
 
 docs/
 AGENTS.md
+
+# Runtime data for the redesigned UI (python3 scripts/build_app_data.py)
+html/assets/data/
+.venv/

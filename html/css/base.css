@@ -1,0 +1,275 @@
+/* Shared tokens, reset, navigation, headings and buttons. */
+:root {
+  --bg: #f6f5f1;
+  --surface: #fff;
+  --ink: #292c39;
+  --muted: #737581;
+  --line: #e6e5e0;
+  --accent: #5b58bc;
+  --accent-dark: #46449e;
+  --lavender: #eeedf8;
+  --green: #466854;
+  --radius: 20px;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select,
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+a {
+  touch-action: manipulation;
+}
+button {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  color: inherit;
+}
+button:disabled {
+  cursor: default;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: rgb(133, 127, 224) solid 3px;
+  outline-offset: 4px;
+}
+button {
+  border: 0px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+p {
+  line-height: 1.65;
+}
+svg {
+  flex-shrink: 0;
+}
+.icon {
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+}
+small {
+  font-size: 12px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0px;
+  overflow: hidden;
+  clip: rect(0px, 0px, 0px, 0px);
+  white-space: nowrap;
+  border: 0px;
+}
+.sidebar {
+  width: var(--sidebar);
+  position: fixed;
+  inset: 0px auto 0px 0px;
+  background: rgb(252, 251, 248);
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 15px;
+  min-height: 48px;
+  border-radius: 11px;
+  font-size: 13px;
+  color: rgb(115, 117, 128);
+  margin-bottom: 7px;
+  transition: background 0.15s;
+}
+.nav-item:hover {
+  background: rgb(240, 239, 236);
+}
+.nav-item.active {
+  background: var(--lavender);
+  color: var(--accent);
+  font-weight: 600;
+}
+.nav-item .icon {
+  width: 19px;
+  height: 19px;
+}
+.sidebar-footer {
+  color: rgb(144, 144, 143);
+  line-height: 1.6;
+}
+.text-button {
+  display: block;
+  background: none;
+  padding: 8px 0px;
+  font-size: 10px;
+  color: var(--muted);
+  text-decoration: underline;
+  min-height: 35px;
+}
+.workspace {
+  margin-left: var(--sidebar);
+  min-height: 100vh;
+}
+.topbar {
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 46px;
+}
+.breadcrumb {
+  font-size: 12px;
+  color: var(--muted);
+}
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.avatar {
+  width: 34px;
+  height: 34px;
+  min-width: 44px;
+  min-height: 44px;
+  background: rgb(233, 229, 220);
+  border-radius: 50%;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: rgb(111, 107, 98);
+}
+main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 42px 46px 20px;
+  min-height: calc(-150px + 100vh);
+}
+.page-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--muted);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+.page-heading p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 12px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 19px;
+  min-height: 46px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 550;
+  line-height: 1.4;
+  transition:
+    background 0.15s,
+    transform 0.15s;
+}
+.button .icon {
+  width: 17px;
+  height: 17px;
+}
+.primary {
+  background: var(--accent);
+  color: rgb(255, 255, 255);
+}
+.primary:hover {
+  background: var(--accent-dark);
+}
+.secondary {
+  background: rgb(255, 255, 255);
+  border: 1px solid var(--line);
+}
+.secondary:hover {
+  background: rgb(244, 243, 248);
+}
+.quiet {
+  background: transparent;
+  color: var(--muted);
+}
+.quiet:hover {
+  background: rgb(238, 237, 243);
+}
+.selected {
+  background: rgb(238, 237, 248) !important;
+  color: var(--accent) !important;
+  border-color: rgb(198, 193, 230) !important;
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  color: var(--accent);
+  font-size: 12px;
+  min-height: 44px;
+  padding: 0px;
+}
+.text-link:hover {
+  text-decoration: underline;
+}
+.text-link .icon {
+  width: 16px;
+  height: 16px;
+}
