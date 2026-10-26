@@ -303,13 +303,17 @@ async function render() {
   document.querySelector("#breadcrumb").textContent = path.startsWith("card/")
     ? "Практика / Карточка"
     : navs.find((n) => n[0] === path)?.[1] || "Заниматься";
-  for (const target of ["#desktop-nav", "#mobile-nav"])
-    document.querySelector(target).innerHTML = navs
+  for (const target of ["#desktop-nav", "#mobile-nav"]) {
+    const itemsHtml = navs
       .map(
         ([id, label]) =>
           `<a href="#${id}" aria-label="${label}" title="${label}" class="nav-item ${active === id ? "active" : ""}" ${active === id ? 'aria-current="page"' : ""}>${icon(id)}<span>${target === "#mobile-nav" && id === "progress" ? "Прогресс" : label}</span></a>`,
       )
       .join("");
+    document.querySelector(target).innerHTML = target === "#desktop-nav"
+      ? `<div style="padding: 0 0 8px 0;"><img src="https://media.tenor.com/Jojpr9QgMLoAAAAM/maxwell-maxwell-spin.gif" alt="Maxwell spin" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;" /></div>` + itemsHtml
+      : itemsHtml;
+  }
   try {
     if (path.startsWith("card/")) await renderCard(path.slice(5), version);
     else if (path === "bank") renderBank(params);
