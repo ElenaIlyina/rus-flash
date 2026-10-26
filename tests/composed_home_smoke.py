@@ -71,21 +71,21 @@ def main():
                     page.wait_for_timeout(450)
                 if '--screenshots' in sys.argv and width in [1440, 390]:
                     page.screenshot(path=str(folder / f'home-{width}.png'), full_page=True)
-            page.locator('#mobile-nav a[href="#progress"]').click()
+            page.locator('#mobile-nav a[href="progress.html"]').click()
             page.locator('.learning-overview').wait_for()
             assert page.locator('.preview-badge').inner_text() == 'ДЕМО'
             page.get_by_role('link', name='Моя реальная история').click()
             page.locator('.progress-grid').wait_for()
-            assert page.url.endswith('#progress?view=history')
-            page.goto(base + '#study', wait_until='networkidle')
+            assert page.url.endswith('progress.html?view=history')
+            page.goto(base + 'index.html', wait_until='networkidle')
             page.locator('.topic-note').nth(2).click()
             page.locator('.bank-row').first.wait_for()
-            assert '#bank?topic=2' in page.url
-            page.goto(base + '#study', wait_until='networkidle')
+            assert 'bank.html?topic=2' in page.url
+            page.goto(base + 'index.html', wait_until='networkidle')
             page.locator('.study-poster').click()
             page.locator('.exercise').wait_for()
             page.locator('#answer-input, [name=answer-option]').first.wait_for()
-            card_id = page.url.split('#card/')[1]
+            card_id = page.url.split('card.html?id=')[1]
             page.evaluate("""id => localStorage.setItem('rusflash_learning_v1', JSON.stringify({
                 events: [1,2].map(i => ({id: 'coverage-test-' + i, cardId: id,
                     time: new Date().toISOString(), correct: false, assisted: false})), lastCard: id

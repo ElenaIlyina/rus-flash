@@ -5,4 +5,5 @@ python3 scripts/generate_manifest.py
 python3 scripts/regen_cards_html.py
 python3 scripts/regen_cards_html.py --check
 python3 scripts/build_app_data.py
-# The redesigned index is handwritten; never run the legacy sidebar generator on it.
+python3 scripts/build_app_pages.py
+# Edit scripts/templates/app.html for the shared shell, not generated pages.

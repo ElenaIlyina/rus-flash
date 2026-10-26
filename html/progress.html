@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f5f1" />
+    <meta
+      name="description"
+      content="Слово за слово — русский язык шаг за шагом. Карточки, объяснения и прогресс подготовки к ЕГЭ."
+    />
+    <title>Мой прогресс — Слово за слово</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body data-page="progress">
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <aside class="sidebar" aria-label="Основная навигация">
+      <div class="sidebar-label">ВАШЕ ПРОСТРАНСТВО</div>
+      <nav id="desktop-nav"></nav>
+      <div class="sidebar-note">
+        <span class="mini-spark">✦</span
+        ><strong>Маленькие шаги.<br />Большой результат.</strong>
+        <p>Одна тема, одно правило,<br />ещё немного уверенности.</p>
+      </div>
+      <div class="sidebar-footer">
+        <span class="status-dot"></span> Прогресс на этом устройстве<button
+          class="text-button"
+          data-action="about"
+        >
+          О версии и данных
+        </button>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-identity">
+          <a
+            class="site-logo"
+            href="index.html"
+            aria-label="Слово за слово — главная"
+            ><img
+              src="assets/brand/slovo-za-slovo-school.png"
+              alt="Слово за слово"
+              width="2172"
+              height="724" /></a
+          ><span class="breadcrumb" id="breadcrumb">Заниматься</span>
+        </div>
+        <div class="topbar-right">
+          <button
+            class="avatar"
+            data-action="about"
+            aria-label="О приложении и хранении прогресса"
+          >
+            СЗС
+          </button>
+        </div>
+      </header>
+      <main id="main" tabindex="-1">
+        <div class="loading-state" role="status">Загружаем банк заданий…</div>
+      </main>
+      <footer class="page-footer">
+        <span>В своём темпе. С пониманием.</span
+        ><span>Интерфейс для ревью · классификация уточняется</span>
+      </footer>
+    </div>
+    <nav
+      class="bottom-nav"
+      id="mobile-nav"
+      aria-label="Мобильная навигация"
+    ></nav>
+    <input
+      type="file"
+      id="progress-import"
+      accept=".json,application/json"
+      hidden
+    />
+    <dialog id="info-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-body" id="dialog-body"></div>
+      <form method="dialog">
+        <button class="button primary">Понятно</button>
+      </form>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
