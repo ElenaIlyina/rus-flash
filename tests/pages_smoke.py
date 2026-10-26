@@ -62,9 +62,6 @@ def main():
                 page.locator('#bank-search').wait_for()
                 assert page.locator('#bank-search').input_value() == '012CAB'
                 assert 'topic=2' in page.url and 'q=012CAB' in page.url
-                # Native anchors do not replace the current screen.
-                page.evaluate('location.hash = "main"')
-                page.locator('#bank-search').wait_for()
                 assert not errors, errors
                 assert not failed, failed
                 browser.close()

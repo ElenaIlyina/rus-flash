@@ -103,17 +103,6 @@ small {
   white-space: nowrap;
   border: 0;
 }
-.skip-link {
-  position: fixed;
-  left: 20px;
-  top: -100px;
-  padding: 12px;
-  background: white;
-  z-index: 100;
-}
-.skip-link:focus {
-  top: 16px;
-}
 .sidebar {
   width: var(--sidebar);
   position: fixed;
