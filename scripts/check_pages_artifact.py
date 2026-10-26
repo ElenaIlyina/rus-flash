@@ -12,7 +12,7 @@ import sys
 def check(root):
     root = Path(root)
     required = [
-        'index.html', 'bank.html', 'card.html', 'progress.html', 'knowledge.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
+        'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
         'js/services.js', 'js/progress-preview.js', 'assets/data/catalog.json',
         'assets/brand/slovo-za-slovo-school.png',
     ]

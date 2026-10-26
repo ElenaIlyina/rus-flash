@@ -46,7 +46,7 @@ def main():
                 folder = ROOT / 'docs/ui-preview'
                 folder.mkdir(parents=True, exist_ok=True)
                 page.screenshot(path=str(folder / 'desktop-home.png'), full_page=True)
-            page.locator('#desktop-nav a[href="bank.html"]').click()
+            page.locator('#desktop-nav a[href="#bank"]').click()
             page.locator('#bank-search').fill('012CAB')
             assert page.locator('.bank-row').count() == 1
             assert page.locator('.group-number').inner_text() == '5'
@@ -69,7 +69,7 @@ def main():
             assert page.evaluate('JSON.parse(localStorage.getItem("task_tags_012CAB")).fav')
             page.reload(wait_until='networkidle')
             assert page.locator('[data-action="favorite"]').get_attribute('aria-pressed') == 'true'
-            page.locator('#desktop-nav a[href="bank.html"]').click()
+            page.locator('#desktop-nav a[href="#bank"]').click()
             page.locator('[data-filter=fav]').click()
             assert page.locator('[data-filter=fav]').get_attribute('aria-pressed') == 'true'
             assert page.locator('[data-filter=fav]').evaluate('e=>getComputedStyle(e).backgroundColor') == 'rgb(255, 240, 184)'
@@ -78,7 +78,7 @@ def main():
             page.locator('[data-filter=hard]').click()
             assert page.locator('.bank-row').count() == 0
             page.locator('[data-filter=all]').click()
-            page.locator('.bank-row[href="card.html?id=012CAB"]').click()
+            page.locator('.bank-row[href="#card/012CAB"]').click()
             page.locator('#answer-input').wait_for()
             checks += 1
             page.locator('[data-action="card-rules"]').click()
@@ -88,7 +88,7 @@ def main():
             page.locator('#answer-input').wait_for()
             assert '012CAB' in page.locator('main').inner_text()
             checks += 1
-            page.locator('#desktop-nav a[href="progress.html"]').click()
+            page.locator('#desktop-nav a[href="#progress"]').click()
             page.locator('.learning-overview').wait_for()
             page.get_by_role('link', name='Моя реальная история').click()
             page.locator('.attempt-row').first.wait_for()
@@ -99,14 +99,14 @@ def main():
             assert len(exported['events']) == 2 and exported['tags']['012CAB']['fav']
             checks += 1
             no_answer = next(c['id'] for c in catalog['cards'] if not c['hasAnswer'])
-            page.goto(base + '/card.html?id=' + no_answer)
+            page.goto(base + '/#card/' + no_answer)
             page.locator('.exercise').wait_for()
             assert page.locator('#answer-form [type=submit]').count() == 0
             assert 'Самостоятельная проверка' in page.locator('.exercise-status').inner_text()
             checks += 1
             bitmask = next(json.loads(f.read_text()) for f in (ROOT / 'data').glob('card_*.json')
                            if json.loads(f.read_text()).get('answer_type') == 'bitmask')
-            page.goto(base + '/card.html?id=' + bitmask['number'])
+            page.goto(base + '/#card/' + bitmask['number'])
             page.locator('[name=answer-option]').first.wait_for()
             for digit in bitmask['answer']:
                 page.locator(f'[name=answer-option][value="{digit}"]').check()
@@ -118,7 +118,7 @@ def main():
             payload = json.loads((ROOT / 'data/card_012CAB.json').read_text())
             payload['question'] = '<b>Безопасное выделение</b><img src=x onerror="window.pwned=true"><script>window.pwned=true</script>'
             page.route('**/cards/012CAB.json', lambda route: route.fulfill(json=payload))
-            page.goto(base + '/card.html?id=012CAB')
+            page.goto(base + '/#card/012CAB')
             page.locator('.question-text b').wait_for()
             assert not page.evaluate('Boolean(window.pwned)')
             assert page.locator('.question-text img, .question-text script').count() == 0
@@ -131,17 +131,17 @@ def main():
             checks += 1
             mobile = browser.new_context(viewport={'width': 390, 'height': 844}, is_mobile=True, has_touch=True, device_scale_factor=1)
             m = mobile.new_page(); m.on('pageerror', lambda e: errors.append(str(e)))
-            for path in ['', 'bank.html', 'progress.html', 'knowledge.html', 'card.html?id=012CAB', 'card.html?id=03ADF2']:
+            for path in ['', '#bank', '#progress', '#knowledge', '#card/012CAB', '#card/03ADF2']:
                 m.goto(base + '/' + path, wait_until='networkidle')
                 assert m.evaluate('document.documentElement.scrollWidth <= innerWidth'), f'Overflow: {path}'
                 assert m.locator('#mobile-nav').is_visible()
             m.set_viewport_size({'width': 320, 'height': 740})
-            for path in ['', 'bank.html', 'progress.html', 'knowledge.html', 'card.html?id=03ADF2']:
+            for path in ['', '#bank', '#progress', '#knowledge', '#card/03ADF2']:
                 m.goto(base + '/' + path, wait_until='networkidle')
                 assert m.evaluate('document.documentElement.scrollWidth <= innerWidth'), f'320px overflow: {path}'
             m.set_viewport_size({'width': 390, 'height': 844})
             checks += 1
-            m.goto(base + '/card.html?id=0ABFEC', wait_until='networkidle')
+            m.goto(base + '/#card/0ABFEC', wait_until='networkidle')
             assert m.locator('.passage').count() == 1
             assert m.locator('.question-section').is_visible()
             assert m.locator('.option').count() == 5
@@ -153,9 +153,9 @@ def main():
                 m.screenshot(path=str(folder / 'mobile-card.png'), full_page=True)
                 m.goto(base, wait_until='networkidle')
                 m.screenshot(path=str(folder / 'mobile-home.png'), full_page=True)
-                page.goto(base + '/bank.html', wait_until='networkidle')
+                page.goto(base + '/#bank', wait_until='networkidle')
                 page.screenshot(path=str(folder / 'desktop-bank.png'), full_page=True)
-            m.goto(base + '/card.html?id=NOTVALID', wait_until='networkidle')
+            m.goto(base + '/#card/NOTVALID', wait_until='networkidle')
             assert 'Некорректный номер' in m.locator('main').inner_text()
             checks += 1
             assert not errors, errors

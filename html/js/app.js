@@ -111,58 +111,8 @@ function topicCards(topic) {
   return catalog.cards.filter((c) => topic.tasks.includes(c.task));
 }
 function route() {
-  const page = document.body.dataset.page || "study";
-  const params = new URLSearchParams(location.search);
-  return {
-    path: page === "card" ? `card/${params.get("id") || ""}` : page,
-    params,
-  };
-}
-const initialParams = route().params;
-filter = {
-  query: initialParams.get("q") || "",
-  task: initialParams.get("task") || "",
-  status: ["all", "answer", "self", "fav", "hard"].includes(
-    initialParams.get("status"),
-  )
-    ? initialParams.get("status")
-    : "all",
-  page: Math.min(1000, Math.max(1, Number(initialParams.get("page")) || 1)),
-};
-function saveBankFilters() {
-  if (document.body.dataset.page !== "bank") return;
-  const params = new URLSearchParams(location.search);
-  for (const [key, value] of Object.entries({
-    q: filter.query,
-    task: filter.task,
-    status: filter.status === "all" ? "" : filter.status,
-    page: filter.page > 1 ? filter.page : "",
-  })) {
-    if (value) params.set(key, value);
-    else params.delete(key);
-  }
-  history.replaceState(null, "", `bank.html${params.size ? "?" + params : ""}`);
-  try {
-    sessionStorage.setItem(
-      "slovo_bank_return",
-      location.pathname + location.search,
-    );
-  } catch {}
-}
-function bankReturnUrl() {
-  try {
-    const saved = new URL(
-      sessionStorage.getItem("slovo_bank_return") || "bank.html",
-      location.href,
-    );
-    const expected = new URL("bank.html", location.href);
-    if (
-      saved.origin === expected.origin &&
-      saved.pathname === expected.pathname
-    )
-      return saved.pathname + saved.search;
-  } catch {}
-  return "bank.html";
+  const [path, query] = location.hash.slice(1).split("?");
+  return { path: path || "study", params: new URLSearchParams(query) };
 }
 function heading(kicker, title, subtitle, action = "") {
   return `<div class="page-heading"><div><div class="eyebrow">${kicker}</div><h1>${title}</h1><p>${subtitle}</p></div>${action}</div>`;
@@ -190,14 +140,13 @@ function renderStudy() {
       <section class="hero study-hero" aria-labelledby="hero-title">
         <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>${renderGlobalCardProgressPreview(catalog.cards.length)}</div>
       </section>
-      <a class="study-poster" href="card.html?id=${candidate.id}" aria-label="Начать заниматься"><div class="poster-face"><span class="poster-art" aria-hidden="true"><svg class="poster-glyph" viewBox="0 0 300 260" fill="none"><g fill="currentColor" transform="rotate(-9 130 130)"><path d="M62 18h27v27H62zM122 18h27v27h-27zM62 72h113v27H90v37h76v27H90v39h85v27H62z"/></g><g fill="#ff7952" transform="rotate(10 220 165)"><path d="M209 99h26l-3 103h-20zM209 216h26v26h-26z"/></g></svg></span><span class="poster-cta">Начать заниматься</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
+      <a class="study-poster" href="#card/${candidate.id}" aria-label="Начать заниматься"><div class="poster-face"><span class="poster-art" aria-hidden="true"><svg class="poster-glyph" viewBox="0 0 300 260" fill="none"><g fill="currentColor" transform="rotate(-9 130 130)"><path d="M62 18h27v27H62zM122 18h27v27h-27zM62 72h113v27H90v37h76v27H90v39h85v27H62z"/></g><g fill="#ff7952" transform="rotate(10 220 165)"><path d="M209 99h26l-3 103h-20zM209 216h26v26h-26z"/></g></svg></span><span class="poster-cta">Начать заниматься</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
 
     </div>
-    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="bank.html">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="bank.html?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="eyebrow">${String(i + 1).padStart(2, "0")} / ВЫБЕРИ НАПРАВЛЕНИЕ</span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>
+    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="#bank?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="eyebrow">${String(i + 1).padStart(2, "0")} / ВЫБЕРИ НАПРАВЛЕНИЕ</span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>
     <div class="editorial-note">${icon("knowledge")}<p>Банк ещё проходит проверку. Номера групп предварительные, а ответы и разборы есть не у всех карточек. Это версия интерфейса для обсуждения.</p></div>`;
 }
 function bankResults() {
-  saveBankFilters();
   const topic = route().params.get("topic");
   const list = catalog.cards.filter((c) => {
     if (
@@ -226,13 +175,13 @@ function bankResults() {
   const area = main.querySelector("#bank-results");
   if (!area) return;
   area.innerHTML =
-    `<div class="results-meta">Найдено ${num(list.length)} ${topic !== null ? '<a href="bank.html" class="text-link">Сбросить тему ×</a>' : ""}</div>` +
+    `<div class="results-meta">Найдено ${num(list.length)} ${topic !== null ? '<a href="#bank" class="text-link">Сбросить тему ×</a>' : ""}</div>` +
     (list.length
       ? `<div class="card-list">${list
           .slice(0, filter.page * 24)
           .map(
             (c) =>
-              `<a class="bank-row" href="card.html?id=${c.id}"><span class="row-icon group-number" aria-label="Группа ${c.task || "не определена"}">${esc(c.task || "—")}</span><div><div class="row-top"><span>${c.id}</span>${store.tags(c.id).fav ? '<span class="bank-favorite" aria-label="В избранном">⭐</span>' : ""}</div><h3>${esc(plain(c.title))}</h3><span class="row-status ${c.hasAnswer ? "" : "muted"}">${c.hasAnswer ? "Ответ в базе" : "Самостоятельная проверка"}</span></div>${icon("arrow")}</a>`,
+              `<a class="bank-row" href="#card/${c.id}"><span class="row-icon group-number" aria-label="Группа ${c.task || "не определена"}">${esc(c.task || "—")}</span><div><div class="row-top"><span>${c.id}</span>${store.tags(c.id).fav ? '<span class="bank-favorite" aria-label="В избранном">⭐</span>' : ""}</div><h3>${esc(plain(c.title))}</h3><span class="row-status ${c.hasAnswer ? "" : "muted"}">${c.hasAnswer ? "Ответ в базе" : "Самостоятельная проверка"}</span></div>${icon("arrow")}</a>`,
           )
           .join(
             "",
@@ -286,7 +235,7 @@ async function renderCard(id, version) {
   store.remember(c.id);
   const meta = catalog.cards.find((v) => v.id === id);
   const tags = store.tags(id);
-  main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="${esc(bankReturnUrl())}">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
+  main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
     <div class="practice-layout"><article class="exercise"><div class="exercise-header"><span class="eyebrow">КАРТОЧКА ${id}</span><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
       <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span><span>Материал не прошёл редакторскую проверку</span></div>
       ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
@@ -342,7 +291,7 @@ function renderProgress(params) {
       "ЗАМЕЧАЙТЕ СВОИ ШАГИ",
       "Мой прогресс",
       "Не соревнование с другими. История того, что вы уже попробовали.",
-      '<div class="progress-actions"><a class="button primary" href="progress.html?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
+      '<div class="progress-actions"><a class="button primary" href="#progress?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
     ) +
     `
     <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Самостоятельные ответы</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
@@ -360,21 +309,20 @@ function renderProgress(params) {
             .reverse()
             .map(
               (e) =>
-                `<a class="attempt-row" href="card.html?id=${e.cardId}"><span class="attempt-dot ${e.correct ? "correct" : ""}">${icon(e.correct ? "check" : "repeat")}</span><span><strong>Карточка ${e.cardId}</strong><small>${e.correct ? "Ответ совпал" : "Нужно повторить"}${e.assisted ? " · с подсказкой / повторная попытка" : " · самостоятельно"}</small></span><time>${new Date(e.time).toLocaleDateString("ru-RU")}</time></a>`,
+                `<a class="attempt-row" href="#card/${e.cardId}"><span class="attempt-dot ${e.correct ? "correct" : ""}">${icon(e.correct ? "check" : "repeat")}</span><span><strong>Карточка ${e.cardId}</strong><small>${e.correct ? "Ответ совпал" : "Нужно повторить"}${e.assisted ? " · с подсказкой / повторная попытка" : " · самостоятельно"}</small></span><time>${new Date(e.time).toLocaleDateString("ru-RU")}</time></a>`,
             )
             .join("")
         : empty(
             "leaf",
             "Здесь начнётся ваша история",
             "Откройте карточку с ответом и попробуйте её решить.",
-            '<a href="bank.html" class="button primary">Выбрать карточку</a>',
+            '<a href="#bank" class="button primary">Выбрать карточку</a>',
           )
     }</section>
     <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Сейчас прогресс хранится только в этом браузере. Перенос через JSON уже доступен. Автоматическая синхронизация — следующий этап.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
 }
 async function renderKnowledge(params, version) {
-  const rawCardId = params.get("card");
-  const cardId = /^[0-9A-F]{6}$/.test(rawCardId || "") ? rawCardId : null;
+  const cardId = params.get("card");
   const rules = cardId ? await services.knowledge.findRules({ cardId }) : [];
   if (version !== renderVersion) return;
   main.innerHTML =
@@ -384,7 +332,7 @@ async function renderKnowledge(params, version) {
       "Короткое объяснение, пример и связь с практикой — в одном месте.",
     ) +
     `
-    <div class="knowledge-intro"><span class="book-art">${icon("knowledge")}</span><div><span class="pill neutral-pill">База знаний ещё не подключена</span><h2>У каждого ответа должно быть основание</h2><p>Здесь будут проверенные правила русского языка с источниками и примерами. Черновики, созданные с помощью RAG, появятся в приложении только после проверки.</p>${cardId ? `<a class="text-link" href="card.html?id=${esc(cardId)}">${icon("back")} Вернуться к карточке ${esc(cardId)}</a>` : ""}</div></div>
+    <div class="knowledge-intro"><span class="book-art">${icon("knowledge")}</span><div><span class="pill neutral-pill">База знаний ещё не подключена</span><h2>У каждого ответа должно быть основание</h2><p>Здесь будут проверенные правила русского языка с источниками и примерами. Черновики, созданные с помощью RAG, появятся в приложении только после проверки.</p>${cardId ? `<a class="text-link" href="#card/${esc(cardId)}">${icon("back")} Вернуться к карточке ${esc(cardId)}</a>` : ""}</div></div>
     <div class="section-heading"><div><h2>Как будет устроен справочник</h2><p>Это структура будущей базы, а не готовые учебные материалы</p></div></div><div class="knowledge-grid">${topics.map((t) => `<div class="knowledge-category"><span class="topic-icon ${t.color}">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="coming-label">Материалы готовятся</span></div>`).join("")}</div>
     <section class="panel method-panel"><span class="eyebrow">ОТ ИСТОЧНИКА К ПОНИМАНИЮ</span><h2>Правило → пример → практика</h2><p>Надёжный источник, короткое объяснение и карточки на конкретный навык. Статус проверки будет виден у каждого материала.</p><button class="text-link" data-action="rag">Как будем готовить объяснения ${icon("arrow")}</button></section>`;
 }
@@ -413,7 +361,7 @@ async function render() {
     document.querySelector(target).innerHTML = navs
       .map(
         ([id, label]) =>
-          `<a href="${id === "study" ? "index" : id}.html" aria-label="${label}" title="${label}" class="nav-item ${active === id ? "active" : ""}" ${active === id ? 'aria-current="page"' : ""}>${icon(id)}<span>${target === "#mobile-nav" && id === "progress" ? "Прогресс" : label}</span>${id === "knowledge" && target === "#desktop-nav" ? '<span class="nav-dot"></span>' : ""}</a>`,
+          `<a href="#${id}" aria-label="${label}" title="${label}" class="nav-item ${active === id ? "active" : ""}" ${active === id ? 'aria-current="page"' : ""}>${icon(id)}<span>${target === "#mobile-nav" && id === "progress" ? "Прогресс" : label}</span>${id === "knowledge" && target === "#desktop-nav" ? '<span class="nav-dot"></span>' : ""}</a>`,
       )
       .join("");
   try {
@@ -428,7 +376,7 @@ async function render() {
         "repeat",
         "Не получилось открыть",
         esc(error.message),
-        '<a href="bank.html" class="button secondary">Вернуться в банк</a>',
+        '<a href="#bank" class="button secondary">Вернуться в банк</a>',
       );
   }
   if (version === renderVersion) {
@@ -512,11 +460,11 @@ document.addEventListener("click", async (event) => {
       const candidates = catalog.cards.filter((c) => c.task === task);
       const position = candidates.findIndex((c) => c.id === currentCard?.id);
       const next = candidates[(position + 1) % candidates.length];
-      if (next) location.href = `card.html?id=${next.id}`;
+      if (next) location.hash = `card/${next.id}`;
       break;
     }
     case "card-rules":
-      if (currentCard) location.href = `knowledge.html?card=${currentCard.id}`;
+      if (currentCard) location.hash = `knowledge?card=${currentCard.id}`;
       break;
     case "report":
       modal(
@@ -609,9 +557,19 @@ document.addEventListener("change", (event) => {
 document.addEventListener("submit", (event) => {
   if (event.target.id === "answer-form") checkAnswer(event);
 });
+window.addEventListener("hashchange", () => {
+  filter.page = 1;
+  render();
+});
 try {
   catalog = await loadCatalog();
-  await render();
+  const legacy = new URLSearchParams(location.search);
+  if (!location.hash && legacy.get("id"))
+    location.hash = `card/${legacy.get("id").toUpperCase()}`;
+  else if (!location.hash && legacy.get("task")) {
+    filter.task = legacy.get("task");
+    location.hash = "bank";
+  } else await render();
   if (!store.available)
     toast("Хранилище недоступно: прогресс может не сохраниться.");
 } catch (error) {

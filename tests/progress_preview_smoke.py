@@ -22,7 +22,7 @@ def main():
             browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
             page = browser.new_page()
             page.on('pageerror', lambda e: errors.append(str(e)))
-            page.goto(base + 'progress.html?view=history', wait_until='networkidle')
+            page.goto(base + '#progress?view=history', wait_until='networkidle')
             before = page.evaluate('JSON.stringify(Object.entries(localStorage).sort())')
             page.get_by_role('link', name='Новый дашборд · демо').click()
             page.locator('.learning-overview').wait_for()
@@ -36,7 +36,7 @@ def main():
                 folder.mkdir(parents=True, exist_ok=True)
             for width in [1440, 390, 320, 768]:
                 page.set_viewport_size({'width': width, 'height': 1000 if width > 760 else 844})
-                page.goto(base + 'progress.html?view=preview', wait_until='networkidle')
+                page.goto(base + '#progress?view=preview', wait_until='networkidle')
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if '--screenshots' in sys.argv and width in [1440, 390]:
                     page.screenshot(path=str(folder / f'overview-{width}.png'), full_page=True)

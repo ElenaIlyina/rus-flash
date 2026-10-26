@@ -82,7 +82,7 @@ export function summarize(skills) {
   };
 }
 const link = (scenario, extra = "") =>
-  `progress.html?view=preview&scenario=${scenario}${extra}`;
+  `#progress?view=preview&scenario=${scenario}${extra}`;
 function bar(s) {
   const label = states
     .map(([id, name]) => `${name}: ${s.counts[id]}`)
@@ -117,7 +117,7 @@ export function renderProgressPreview(params) {
   const selected =
     requested !== null && /^[0-3]$/.test(requested) ? Number(requested) : null;
   const dueOnly = params.get("due") === "1";
-  return `<div class="page-heading"><div><span class="eyebrow">ВИДЕТЬ НЕ ТОЛЬКО ШАГИ, НО И РЕЗУЛЬТАТ</span><h1>Мой прогресс</h1><p>Что уже попробовали. Что получается. К чему стоит вернуться.</p></div><div class="progress-actions"><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button><a class="text-link" href="progress.html?view=history">Моя реальная история</a></div></div>
+  return `<div class="page-heading"><div><span class="eyebrow">ВИДЕТЬ НЕ ТОЛЬКО ШАГИ, НО И РЕЗУЛЬТАТ</span><h1>Мой прогресс</h1><p>Что уже попробовали. Что получается. К чему стоит вернуться.</p></div><div class="progress-actions"><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button><a class="text-link" href="#progress?view=history">Моя реальная история</a></div></div>
     <div class="preview-warning"><span class="preview-badge">ДЕМО</span><p><strong>Пример будущего дашборда.</strong> Числа и навыки иллюстративные. Они не рассчитаны из ваших попыток и не сохраняются в прогресс.</p></div>
     <nav class="preview-scenarios" aria-label="Примеры состояния прогресса">${[
       ["example", "Есть первые результаты"],
@@ -137,7 +137,7 @@ export function renderProgressPreview(params) {
         return `<a class="coverage-topic ${selected === i ? "is-selected" : ""}" href="${link(scenario, `&topic=${i}`)}" ${selected === i ? 'aria-current="true"' : ""}><div class="coverage-topic-heading"><h3>${t.name}</h3><span><b>${s.consolidated}</b> / ${s.total} закреплено <span aria-hidden="true">→</span></span></div>${bar(s)}<div class="coverage-topic-foot"><span>Охват ${s.covered} / ${s.total}</span><span>${s.counts.due ? `Пора повторить: ${s.counts.due}` : "Повторение пока не нужно"}</span></div></a>`;
       })
       .join("")}</div></section>
-    ${selected !== null || dueOnly ? `<section class="panel skill-detail" id="skill-detail"><div class="section-heading"><div><span class="eyebrow">ПРИМЕР КАРТЫ НАВЫКОВ</span><h2>${dueOnly ? "Пора повторить" : topics[selected].name}</h2><p>Нажмите на навык — увидите основание статуса.</p></div><a class="text-link" href="${link(scenario)}">Свернуть ×</a></div>${(dueOnly ? topics.flatMap((t) => t.skills).filter((s) => s.status === "due") : topics[selected].skills).map(skillRow).join("")}${!dueOnly ? `<a class="button secondary" href="bank.html?topic=${selected}">Посмотреть текущий банк по теме →</a><p class="skill-bank-note">Переход к существующим карточкам. Точное соответствие этим демонстрационным навыкам ещё не размечено.</p>` : ""}</section>` : '<p class="coverage-hint">Выберите тему выше: внутри — понятные статусы и основания, без сложного графа.</p>'}
+    ${selected !== null || dueOnly ? `<section class="panel skill-detail" id="skill-detail"><div class="section-heading"><div><span class="eyebrow">ПРИМЕР КАРТЫ НАВЫКОВ</span><h2>${dueOnly ? "Пора повторить" : topics[selected].name}</h2><p>Нажмите на навык — увидите основание статуса.</p></div><a class="text-link" href="${link(scenario)}">Свернуть ×</a></div>${(dueOnly ? topics.flatMap((t) => t.skills).filter((s) => s.status === "due") : topics[selected].skills).map(skillRow).join("")}${!dueOnly ? `<a class="button secondary" href="#bank?topic=${selected}">Посмотреть текущий банк по теме →</a><p class="skill-bank-note">Переход к существующим карточкам. Точное соответствие этим демонстрационным навыкам ещё не размечено.</p>` : ""}</section>` : '<p class="coverage-hint">Выберите тему выше: внутри — понятные статусы и основания, без сложного графа.</p>'}
     <details class="quality-disclosure"><summary>А насколько готов сам банк?</summary><p>Это отдельный показатель качества материалов, а не ваших знаний. В рабочей версии здесь появятся проверенность ответов, объяснений и покрытие навыков упражнениями. Недоступный материал не должен уменьшать знаменатель и искусственно повышать ваш процент.</p></details>`;
 }
 
@@ -153,5 +153,5 @@ export function renderGlobalCardProgressPreview(total) {
   for (let i = 0; i < remaining; i++) values[order[i].i]++;
   const counts = Object.fromEntries(states.map(([id], i) => [id, values[i]]));
   const summary = { total, counts };
-  return `<section class="home-coverage aggregate-demo" aria-label="Пример суммарного прогресса по всем карточкам"><div class="home-coverage-title"><h2>Общий прогресс <span class="aggregate-demo-badge">ДЕМО</span></h2><a href="progress.html">Подробнее →</a></div>${bar(summary)}<div class="aggregate-caption"><span>Охват ${total - counts.not_started} / ${total}</span><span>Пора повторить: ${counts.due}</span></div>${legend(summary)}<p class="home-coverage-caption">Пример статусов по всему банку, а не по отдельным темам. Числа демонстрационные: оценивание карточек ещё не подключено.</p></section>`;
+  return `<section class="home-coverage aggregate-demo" aria-label="Пример суммарного прогресса по всем карточкам"><div class="home-coverage-title"><h2>Общий прогресс <span class="aggregate-demo-badge">ДЕМО</span></h2><a href="#progress">Подробнее →</a></div>${bar(summary)}<div class="aggregate-caption"><span>Охват ${total - counts.not_started} / ${total}</span><span>Пора повторить: ${counts.due}</span></div>${legend(summary)}<p class="home-coverage-caption">Пример статусов по всему банку, а не по отдельным темам. Числа демонстрационные: оценивание карточек ещё не подключено.</p></section>`;
 }

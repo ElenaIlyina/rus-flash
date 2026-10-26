@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def main():
     server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), functools.partial(QuietHandler, directory=str(ROOT / 'html')))
     threading.Thread(target=server.serve_forever, daemon=True).start()
-    base = f'http://127.0.0.1:{server.server_port}/progress.html'
+    base = f'http://127.0.0.1:{server.server_port}/#progress'
     old = {'id':'local-1', 'cardId':'012CAB', 'time':'2026-10-25T10:00:00.000Z', 'correct':False, 'assisted':False, 'materialVersion':1}
     new = {**old, 'id':'import-1', 'correct':True, 'time':'2026-10-25T11:00:00.000Z'}
     payload = {'schemaVersion':1, 'exportedAt':'2026-10-25T12:00:00.000Z', 'events':[{**old, 'correct':True},new], 'lastCard':'012CAB', 'tags':{'012CAB':{'fav':False,'hard':True}}}
