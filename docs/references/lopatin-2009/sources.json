@@ -1,0 +1,23 @@
+{
+  "id": "lopatin-2009-user-pdf",
+  "receivedAt": "2026-10-27",
+  "provenance": "user_upload",
+  "file": "source.pdf",
+  "sha256": "977eb17f45dc4b54d4505ad3d5a41d6960e90c1d431536b34d9f62e37d0fe184",
+  "declaredPublisher": "АСТ",
+  "declaredYear": 2009,
+  "declaredIsbn": "978-5-462-00930-3",
+  "declaredBookPages": 432,
+  "actualPdfPages": 544,
+  "copyType": "electronic_reflow_not_verified_print_scan",
+  "matchesFipi2020Edition": false,
+  "numbering": {
+    "orthography": 219,
+    "punctuation": 167
+  },
+  "notes": [
+    "PDF-страницы — позиции в файле, не подтверждённые страницы печатной книги.",
+    "Пример «выграться» и дефект Ъ в «трёхимпулъсный» повторяются; эта копия не разрешает спор исходного текста.",
+    "Метаданные создания файла 2018 года не являются годом издания."
+  ]
+}

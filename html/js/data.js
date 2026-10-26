@@ -80,3 +80,31 @@ export function loadHandbook() {
       });
   return handbookPromise;
 }
+
+let sourceIndexPromise;
+export function loadHandbookSources() {
+  if (!sourceIndexPromise)
+    sourceIndexPromise = fetch(new URL("handbook-sources.json", URL_ROOT))
+      .then((response) => {
+        if (!response.ok)
+          throw new Error(
+            "Оглавление источников недоступно. Пересоберите данные сайта.",
+          );
+        return response.json();
+      })
+      .catch((error) => {
+        sourceIndexPromise = null;
+        throw error;
+      });
+  return sourceIndexPromise;
+}
+export async function loadSourceParagraph(id) {
+  if (!/^lopatin-2007-(orthography|punctuation)-[1-9][0-9]{0,2}$/.test(id))
+    return null;
+  const response = await fetch(
+    new URL(`handbook-sources/${id}.json`, URL_ROOT),
+  );
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error("Параграф источника недоступен.");
+  return response.json();
+}

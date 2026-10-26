@@ -1,3 +1,4 @@
+import { knowledgePage } from "./knowledge.js";
 import { recommendPractice } from "./adaptive.js";
 import { checkResponse } from "./assessment.js";
 import { orderCards } from "./bank-order.js";
@@ -7,7 +8,7 @@ import { strategyHint } from "./hints.js";
 import { icon, esc, rich, plain, num } from "./ui.js";
 import { parseProgress, mergeProgress } from "./progress-transfer.js";
 import { renderProgressPreview } from "./progress-preview.js";
-import { loadCatalog, loadCard, loadHandbook } from "./data.js";
+import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
 import { services } from "./services.js";
 
@@ -284,7 +285,7 @@ function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2><span class="review-label">${c.explanation ? "Разбор из текущей базы · не проверен редактором" : "Разбор готовится"}</span>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Здесь будет объяснение решения, типичная ошибка и ссылка на правило. Пока нельзя считать эту карточку проверенным учебным материалом.</p>"}<div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2><span class="review-label">${c.explanationReviewStatus ? "Черновик сверен по рядам и источникам · нужна предметная приёмка" : c.explanation ? "Разбор из текущей базы · не проверен редактором" : "Разбор готовится"}</span>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Здесь будет объяснение решения, типичная ошибка и ссылка на правило. Пока нельзя считать эту карточку проверенным учебным материалом.</p>"}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}<div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -364,32 +365,8 @@ function renderProgress(params) {
     <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Сейчас прогресс хранится только в этом браузере. Перенос через JSON уже доступен. Автоматическая синхронизация — следующий этап.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
 }
 async function renderKnowledge(params, version) {
-  const cardId = params.get("card");
-  const meta = catalog.cards.find((c) => c.id === cardId);
-  const ruleId = params.get("rule");
-  const book = await loadHandbook();
-  const selected = ruleId ? await services.knowledge.getRule(ruleId) : null;
-  const related = cardId
-    ? meta
-      ? await services.knowledge.findRules({
-          task: meta.task,
-          ruleIds: meta.ruleIds || [],
-        })
-      : []
-    : book.paragraphs;
-  if (version !== renderVersion) return;
-  const rules = ruleId ? (selected ? [selected] : []) : related;
-  main.innerHTML =
-    heading(
-      "ПОНЯТЬ, ЧТОБЫ ПРИМЕНИТЬ",
-      "Справочник правил",
-      "Локальные параграфы со стабильными ссылками. Полная база ещё готовится.",
-    ) +
-    `<div class="preview-warning"><p><strong>Авторские черновики для предметного ревью.</strong> ${esc(book.sourceNote)}</p></div>
-    ${cardId && meta ? `<a class="text-link" href="#card/${meta.id}">${icon("back")} Вернуться к карточке ${meta.id}</a>` : ""}
-    ${ruleId ? '<p><a class="text-link" href="#knowledge">Все параграфы →</a></p>' : ""}
-    ${rules.length ? `<nav class="rule-links" aria-label="Параграфы справочника">${rules.map((rule) => `<a class="text-link" href="#knowledge?rule=${esc(rule.id)}${meta ? "&card=" + meta.id : ""}">§${rule.number}. ${esc(rule.title)}</a>`).join("")}</nav>${rules.map((rule) => `<article class="panel knowledge-rule" id="rule-${esc(rule.id)}"><span class="eyebrow">§${rule.number} · ЧЕРНОВИК</span><h2>${esc(rule.title)}</h2><div class="explanation-text">${rich(rule.body)}</div><a class="text-link" href="#bank?task=${rule.tasks[0]}&status=verified">Практика по теме →</a></article>`).join("")}` : empty("knowledge", ruleId ? "Параграф не найден" : "Связанные правила ещё готовятся", "Не подставляем случайный параграф вместо отсутствующего. Откройте общий справочник или вернитесь к карточке.", '<a class="text-link" href="#knowledge">Открыть справочник</a>')}
-    <section class="panel method-panel"><h2>Источники и границы</h2><p>Экзаменационная тема №10 подтверждается официальным проектом спецификации ФИПИ-2027, стр. 17. Нормативный справочник с редакторски проверенными ссылками по всем темам ещё не подключён.</p><a class="text-link" href="https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ru_11_2027.zip" target="_blank" rel="noopener noreferrer">Официальный комплект ФИПИ →</a><button class="text-link" data-action="rag">Как будем готовить объяснения</button></section>`;
+  const html = await knowledgePage({ params, catalog, heading, empty });
+  if (version === renderVersion) main.innerHTML = html;
 }
 function modal(title, body) {
   document.querySelector("#info-dialog form button").textContent = "Понятно";

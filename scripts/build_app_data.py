@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 from generate_manifest import classify, load_cards
 from exam_2027 import mapping, text
+from handbook_fb2 import read_handbook, apply_errata
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'html' / 'assets' / 'data'
@@ -22,8 +23,28 @@ def main():
     catalog = []
     profile = json.loads((ROOT / 'data/ege_2027_positions.json').read_text())
     names = {str(p['number']): p['name'] for p in profile['positions']}
+    source_registry = json.loads((ROOT / 'data/knowledge/source_registry.json').read_text())
+    source_entries = []
+    source_ids = set()
+    source_out = OUT / 'handbook-sources'
+    source_out.mkdir(exist_ok=True)
+    for source in source_registry['editions']:
+        metadata, paragraphs = read_handbook(ROOT / 'data/knowledge' / source['sourceFile'])
+        if metadata['archiveSha256'] != source['archiveSha256'] or metadata['fb2Sha256'] != source['fb2Sha256']:
+            raise ValueError('Handbook source checksum changed: ' + source['id'])
+        if source.get('errataFile'):
+            apply_errata(paragraphs, json.loads((ROOT / 'data/knowledge' / source['errataFile']).read_text())['entries'])
+        source_entries.append({**source, 'paragraphs': [{k:v for k,v in p.items() if k not in {'body','notes','editorialNotes'}} for p in paragraphs]})
+        for paragraph in paragraphs:
+            source_ids.add(paragraph['id'])
+            (source_out / f"{paragraph['id']}.json").write_text(json.dumps({**paragraph, 'edition': source}, ensure_ascii=False, separators=(',', ':')))
+    (OUT / 'handbook-sources.json').write_text(json.dumps({'schemaVersion':1, 'editions':source_entries}, ensure_ascii=False, separators=(',', ':')))
     handbook = json.loads((ROOT / 'data/knowledge/handbook.json').read_text())
+    for rule in handbook['paragraphs']:
+        for ref in rule.get('sourceRefs', []):
+            if ref['sourceId'] not in source_ids: raise ValueError('Missing source reference: ' + ref['sourceId'])
     (OUT / 'handbook.json').write_text(json.dumps(handbook, ensure_ascii=False, separators=(',', ':')))
+    prefix_reviews = {r['id']:r for r in json.loads((ROOT / 'data/knowledge/prefix_card_reviews.json').read_text())['cards']}
     overrides = json.loads((ROOT / 'data/content_review_overrides.json').read_text())['cards']
     for c in cards:
         cid = c['number']
@@ -47,6 +68,8 @@ def main():
             'ruleIds': [p['id'] for p in handbook['paragraphs'] if task in p['tasks']],
             'ruleRefs': [{'id':p['id'], 'label':f"§{p['number']}. {p['title']}"} for p in handbook['paragraphs'] if task in p['tasks']],
             'explanationStatus': review.get('explanationStatus', 'pending_subject_review' if c.get('explanation', '').strip() else 'missing'),
+            'explanationReviewStatus': prefix_reviews.get(cid, {}).get('status'),
+            'explanationSourceRefs': [{'part':row['number'], 'sourceId':sid, 'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"} for row in prefix_reviews.get(cid, {}).get('rows', []) for sid in row['sourceIds']],
             'reviewNote': review.get('reason', '' if options_complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),
             'hasAnswer': bool(c.get('answer', '').strip()),
             'hasExplanation': bool(c.get('explanation', '').strip()),

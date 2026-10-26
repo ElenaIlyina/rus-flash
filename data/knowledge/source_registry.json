@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    {
+      "id": "lopatin-2007",
+      "title": "Правила русской орфографии и пунктуации. Полный академический справочник",
+      "authors": [
+        "Валгина Нина Сергеевна",
+        "Еськова Наталья Александровна",
+        "Иванова Ольга Евгеньевна",
+        "Кузьмина Светлана Максимовна",
+        "Лопатин Владимир Владимирович",
+        "Челыдова Людмила Константиновна"
+      ],
+      "editor": "В. В. Лопатин",
+      "publisher": "Эксмо",
+      "year": "2007",
+      "isbn": "978-5-699-18553-5",
+      "archiveSha256": "1871de69a72aa711053b840158b55755df67edaeb0ff851da5845713c8fd76cc",
+      "fb2Sha256": "116eac23cd04189bc1ab4235b4ff1247f7dfb168a2495bb97fac5c8609b2040c",
+      "provenance": "user_provided_electronic_copy",
+      "matchesFipi2020Edition": false,
+      "printedPageAvailable": false,
+      "paragraphCounts": {
+        "orthography": 219,
+        "punctuation": 167
+      },
+      "receivedAt": "2026-10-27",
+      "downloadUrl": "https://royallib.com/get/fb2/valgina_nina/pravila_russkoy_orfografii_i_punktuatsii_polniy_akademicheskiy_spravochnik.zip",
+      "sourceFile": "sources/lopatin-2007.fb2.zip",
+      "status": "indexed_user_copy_not_compared_with_2020_print",
+      "errataFile": "sources/lopatin-2007-errata.json",
+      "metadataNotes": [
+        {
+          "field": "authors",
+          "fb2Spelling": "Челыдова",
+          "pdf2009Spelling": "Чельцова",
+          "status": "metadata_conflict_recorded",
+          "note": "Исходные метаданные FB2 не переписываются; в публичной ссылке используется редактор В. В. Лопатин."
+        }
+      ]
+    }
+  ]
+}

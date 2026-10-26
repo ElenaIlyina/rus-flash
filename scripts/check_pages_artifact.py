@@ -13,8 +13,8 @@ def check(root):
     root = Path(root)
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
-        'js/services.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/progress-preview.js', 'js/progress-transfer.js',
-        'assets/data/catalog.json', 'assets/data/handbook.json',
+        'js/services.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/knowledge.js', 'js/progress-preview.js', 'js/progress-transfer.js',
+        'assets/data/catalog.json', 'assets/data/handbook.json', 'assets/data/handbook-sources.json',
         'assets/brand/slovo-za-slovo-school.png',
     ]
     for relative in required:
@@ -49,6 +49,24 @@ def check(root):
     for card in catalog['cards']:
         if any(rule_id not in rule_ids for rule_id in card.get('ruleIds', [])):
             raise ValueError(f'Missing rule for {card["id"]}')
+    sources = json.loads((root / 'assets/data/handbook-sources.json').read_text())
+    source_ids = set()
+    for edition in sources['editions']:
+        for paragraph in edition['paragraphs']:
+            sid = paragraph['id']
+            if sid in source_ids or not re.fullmatch(r'[a-z0-9-]+', sid):
+                raise ValueError('Invalid or duplicate source paragraph: ' + sid)
+            source_ids.add(sid)
+            path = root / 'assets/data/handbook-sources' / f'{sid}.json'
+            data = json.loads(path.read_text())
+            if data['id'] != sid: raise ValueError('Source paragraph ID mismatch: ' + sid)
+    for rule in book['paragraphs']:
+        for ref in rule.get('sourceRefs', []):
+            if ref['sourceId'] not in source_ids:
+                raise ValueError('Missing source paragraph: ' + ref['sourceId'])
+    for card in catalog['cards']:
+        for ref in card.get('explanationSourceRefs', []):
+            if ref['sourceId'] not in source_ids: raise ValueError('Missing explanation source for ' + card['id'])
     # Missing local ES module imports would otherwise cause a blank app on Pages.
     for path in (root / 'js').glob('*.js'):
         for imported in re.findall(r'\bfrom\s+[\'"]([^\'"]+)[\'"]', path.read_text()):

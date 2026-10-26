@@ -46,6 +46,9 @@ def main():
                 page.locator('#desktop-nav a[href="#study"]').click()
                 page.locator('.hero').wait_for()
                 assert page.url.startswith(base)
+                page.goto(base + '#knowledge?source=lopatin-2007-orthography-82', wait_until='networkidle')
+                page.locator('[data-source-id="lopatin-2007-orthography-82"]').wait_for()
+                assert 'Приставки' in page.locator('.source-paragraph').inner_text()
                 assert not errors, errors
                 assert not failed, failed
                 browser.close()

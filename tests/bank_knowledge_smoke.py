@@ -2,8 +2,10 @@
 """Meaningful ordering, direct paragraph links, local handbook and assistance."""
 import functools
 import http.server
+import json
 from pathlib import Path
 import threading
+import sys
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
 
@@ -55,6 +57,26 @@ def main():
             assert 'подыграть' in page.locator('.knowledge-rule').inner_text()
             page.reload(wait_until='networkidle')
             assert page.locator('#rule-prefixes-i-y').is_visible()
+            page.get_by_role('link',name='Орфография, §12 · Эксмо, 2007',exact=True).click()
+            page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
+            assert 'После русских приставок' in page.locator('.source-paragraph').inner_text()
+            assert '2007' in page.locator('.page-heading').inner_text()
+            page.reload(wait_until='networkidle')
+            page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
+            if '--screenshots' in sys.argv:
+                folder=ROOT/'docs/knowledge'
+                folder.mkdir(parents=True,exist_ok=True)
+                page.screenshot(path=str(folder/'source-12-390.png'),full_page=True)
+            page.get_by_role('link',name='Оглавление книги',exact=True).click()
+            page.locator('.source-index').first.wait_for()
+            assert page.locator('.source-index').count()==2
+            assert page.locator('.source-index-links a').count()==386
+            page.goto(base+'#knowledge?source=lopatin-2007-punctuation-11',wait_until='networkidle')
+            page.locator('[data-source-id="lopatin-2007-punctuation-11"]').wait_for()
+            assert 'Тире' in page.locator('.source-paragraph').inner_text()
+            page.goto(base+'#knowledge?rule=prefixes-i-y&card=09169B',wait_until='networkidle')
+            page.locator('#rule-prefixes-i-y').wait_for()
+
             page.get_by_role('link',name='Вернуться к карточке 09169B').click()
             for value in ['2','3','4']:
                 page.locator(f'[name=answer-option][value="{value}"]').check()
@@ -80,16 +102,30 @@ def main():
             page.locator('#answer-availability').select_option('verified')
             page.goto(base+'#knowledge?rule=does-not-exist',wait_until='networkidle')
             assert 'Параграф не найден' in page.locator('main').inner_text()
-            for route in ['bank','knowledge','knowledge?rule=prefixes-z-s']:
+            for route in ['bank','knowledge','knowledge?rule=prefixes-z-s','knowledge?source=lopatin-2007-orthography-82']:
                 for width in [320,390,768,1440]:
                     page.set_viewport_size({'width':width,'height':900})
                     page.goto(base+'#'+route,wait_until='networkidle')
                     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'),(route,width)
+            page.goto(base+'#card/09169B',wait_until='networkidle')
+            page.locator('[data-action=reveal]').click()
+            page.locator('.explanation-sources summary').click()
+            if '--screenshots' in sys.argv:
+                page.screenshot(path=str(ROOT/'docs/knowledge'/'prefix-09169B-1440.png'),full_page=True)
+            page.get_by_role('link',name='Ряд 4: Орфография, §12 · Эксмо, 2007',exact=True).click()
+            page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
+            payload=json.loads((ROOT/'html/assets/data/handbook-sources/lopatin-2007-orthography-12.json').read_text())
+            payload['edition']['title']='<img src=x onerror="window.sourceInjected=true">'
+            page.route('**/handbook-sources/lopatin-2007-orthography-12.json',lambda route:route.fulfill(json=payload))
+            page.goto(base+'#knowledge?source=lopatin-2007-orthography-12',wait_until='networkidle')
+            page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
+            assert page.locator('.page-heading img').count()==0
+            assert not page.evaluate('Boolean(window.sourceInjected)')
             assert not errors,errors
             browser.close()
     finally:
         server.shutdown()
-    print('PASS: practice/exam/shuffle order; stable pagination; direct local paragraphs; assistance; 4 widths')
+    print('PASS: practice/exam/shuffle order; direct rules and edition-scoped source links; 386-paragraph index; assistance; 4 widths')
 
 
 if __name__=='__main__':main()
