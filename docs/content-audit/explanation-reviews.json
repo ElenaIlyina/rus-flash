@@ -1,0 +1,34 @@
+{
+  "reviews": [
+    {
+      "id": "09169B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "Выделены именно пропущенные буквы, а не следующие за ними согласные/гласные; убраны ошибочные выделения карьЕра/объЁм.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5fa7c80800eec75f65fde2edca0bbc1b6c424b77fb1aef50b038e64f1019a351",
+      "explanationSha256": "db4a3b53e671077c731c16c1400a46789ea2ff7237532250828b97fe377efac7"
+    },
+    {
+      "id": "3602E0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "Исправлено восстановление пр..вкусный: превкусный (Е), а не привкусный (И).",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5447fc521b786c4890748509190a74a992aa737ff50d64223c5a4f3f38556397",
+      "explanationSha256": "a6de23039629917fa962ee90f611c4719f2987770d8fe0c5464bb3fe12460f5b"
+    },
+    {
+      "id": "AE2555",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "В условии по..грать: поиграть (И), а не подыграть (Ы). Ответ ряда при этом не меняется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c998da8c2e3997c73487467c22a0b1bf0d05c2e8404253cfed34af510eedd576",
+      "explanationSha256": "e94005e3a6c574bdbca7b7a0b1347ed1d830fc8e21cd798db177b32ba5dafe58"
+    }
+  ]
+}
