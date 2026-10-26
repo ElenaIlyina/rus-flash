@@ -35,7 +35,7 @@ jobs:
         with:
           enablement: false
 
-      - name: Build and check generated cards
+      - name: Build runtime card data
         run: bash scripts/install.sh
 
       - name: Prepare publication directory

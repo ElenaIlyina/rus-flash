@@ -1,0 +1,253 @@
+/* Real progress history, knowledge placeholder, dialogs and toast. */
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 23px;
+}
+.metric {
+  background: rgb(255, 255, 255);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 24px;
+}
+.metric > span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.metric strong {
+  display: block;
+  font-size: 37px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  margin: 18px 0px 13px;
+}
+.metric strong small {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: rgb(187, 182, 191);
+}
+.metric p {
+  font-size: 10px;
+  color: rgb(162, 156, 166);
+}
+.panel {
+  padding: 27px;
+  background: rgb(255, 255, 255);
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  margin-bottom: 22px;
+}
+.topic-progress {
+  display: grid;
+  grid-template-columns: 145px 1fr 70px;
+  gap: 20px;
+  align-items: center;
+  margin: 25px 0px;
+  font-size: 12px;
+}
+.topic-progress small {
+  text-align: right;
+  color: var(--muted);
+  font-size: 10px;
+}
+.progress-track {
+  height: 7px;
+  background: rgb(239, 237, 244);
+  border-radius: 7px;
+  overflow: hidden;
+}
+.progress-track span {
+  display: block;
+  height: 100%;
+  min-width: 0px;
+  background: rgb(162, 154, 201);
+  border-radius: 7px;
+}
+.attempt-row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 15px 0px;
+  border-bottom: 1px solid var(--line);
+}
+.attempt-row:last-child {
+  border: 0px;
+}
+.attempt-dot {
+  width: 34px;
+  height: 34px;
+  background: rgb(245, 237, 226);
+  color: rgb(161, 139, 100);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attempt-dot.correct {
+  background: rgb(234, 240, 231);
+  color: rgb(126, 151, 117);
+}
+.attempt-dot .icon {
+  width: 16px;
+}
+.attempt-row strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+.attempt-row small {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-top: 5px;
+}
+.attempt-row time {
+  font-size: 10px;
+  color: rgb(162, 156, 166);
+  margin-left: auto;
+}
+.sync-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 25px;
+  border: 1px dashed rgb(215, 209, 223);
+  border-radius: 15px;
+}
+.sync-card > .icon {
+  color: rgb(162, 151, 183);
+}
+.sync-card h3 {
+  font-size: 16px;
+}
+.sync-card p {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.sync-card .button {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+.knowledge-intro {
+  background: rgb(238, 237, 245);
+  padding: 34px;
+  border-radius: 18px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 34px;
+}
+.book-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.533);
+  width: 100px;
+  height: 120px;
+  border-radius: 17px;
+  transform: rotate(-8deg);
+  color: rgb(156, 145, 189);
+  flex-shrink: 0;
+}
+.book-art .icon {
+  width: 55px;
+  height: 55px;
+  stroke-width: 1;
+}
+.knowledge-intro h2 {
+  font-size: 27px;
+  margin: 18px 0px 14px;
+}
+.knowledge-intro p {
+  font-size: 13px;
+  color: rgb(130, 123, 146);
+  max-width: 620px;
+}
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 25px;
+}
+.knowledge-category {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 22px 18px;
+}
+.knowledge-category h3 {
+  font-size: 15px;
+  margin: 19px 0px 9px;
+}
+.knowledge-category p {
+  font-size: 10px;
+  color: var(--muted);
+}
+.coming-label {
+  display: block;
+  font-size: 9px;
+  color: rgb(163, 156, 169);
+  margin-top: 23px;
+}
+.method-panel h2 {
+  font-size: 24px;
+  margin-top: 15px;
+}
+.method-panel > p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 15px;
+  max-width: 650px;
+}
+.method-panel > .text-link {
+  margin-top: 15px;
+}
+dialog {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 28px;
+  width: min(520px, 100% - 32px);
+  color: var(--ink);
+  box-shadow: rgba(38, 33, 61, 0.15) 0px 25px 90px;
+}
+dialog::backdrop {
+  background: rgba(40, 34, 56, 0.333);
+  backdrop-filter: blur(3px);
+}
+dialog h2 {
+  font-size: 26px;
+  margin: 13px 0px 20px;
+}
+dialog p {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+dialog form {
+  margin-top: 22px;
+  text-align: right;
+}
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50%, 15px);
+  opacity: 0;
+  pointer-events: none;
+  background: rgb(52, 48, 63);
+  color: white;
+  padding: 14px 20px;
+  border-radius: 11px;
+  font-size: 12px;
+  z-index: 100;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+  max-width: 90%;
+  text-align: center;
+}
+.toast.visible {
+  opacity: 1;
+  transform: translate(-50%, 0px);
+}

@@ -13,13 +13,19 @@ def check(root):
     root = Path(root)
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
-        'js/services.js', 'js/progress-preview.js', 'assets/data/catalog.json',
+        'js/services.js', 'js/ui.js', 'js/progress-preview.js', 'js/progress-transfer.js',
+        'assets/data/catalog.json',
         'assets/brand/slovo-za-slovo-school.png',
     ]
     for relative in required:
         path = root / relative
         if not path.is_file() or not path.stat().st_size:
             raise ValueError(f'Missing or empty publication file: {relative}')
+    # Check split styles too: otherwise a missing @import silently loses design.
+    for path in (root / 'css').glob('*.css'):
+        for imported in re.findall(r'@import\s+url\([\'"]([^\'"]+)[\'"]\)', path.read_text()):
+            if not (path.parent / imported).is_file():
+                raise ValueError(f'Missing stylesheet {imported} imported by {path}')
     for path in root.rglob('*'):
         if path.is_symlink():
             raise ValueError(f'Symlinks are not allowed in Pages artifact: {path}')

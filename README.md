@@ -13,7 +13,7 @@ sudo apt update
 sudo apt install -y git python3
 git clone https://github.com/ElenaIlyina/rus-flash.git
 cd rus-flash
-# Для ревью переключитесь на ветку feat/adaptive-interface, когда она будет опубликована.
+git switch feat/slovo-za-slovo
 bash scripts/install.sh
 python3 -m http.server 8000 --bind 127.0.0.1 --directory html
 ```
@@ -45,19 +45,16 @@ python3 scripts/build_app_data.py
 ```text
 data/                         исходные карточки и справочник классификации
 html/index.html               новый интерфейс
-html/css/app.css              общие адаптивные стили
-html/js/app.js                экраны, навигация, взаимодействие
+html/css/app.css              порядок подключения стилей
+html/css/*.css                стили по областям интерфейса
+html/js/app.js                экраны, hash-навигация, взаимодействие
+html/js/ui.js                 иконки и безопасное форматирование текста
 html/js/data.js               загрузка и адаптер существующей модели
 html/js/store.js              локальные попытки, метки, экспорт
 html/js/services.js           контракты будущих правил, адаптации и синхронизации
 html/assets/data/             генерируемый каталог и карточки, не хранится в Git
-html/legacy.html              прежний навигатор для сравнения
-html/dashboard.html           прежняя сводка
-html/stats.html               прежняя ограниченная статистика
 scripts/build_app_data.py     данные для нового интерфейса
-scripts/generate_manifest.py  прежний манифест и классификатор
-scripts/regen_cards_html.py   прежние HTML-карточки и --check
-scripts/build_index_sidebar.py  навигация только legacy.html
+scripts/generate_manifest.py  классификатор; старый манифест только для утилит
 scripts/parse_fipi_missing.py загрузка ФИПИ
 scripts/verify_answers_fipi.py  проверка ответов ФИПИ
 scripts/restore_fipi_highlights.py  восстановление выделений
@@ -72,7 +69,8 @@ docs/ui-preview/              снимки интерфейса
 ## Проверки
 
 ```bash
-python3 scripts/regen_cards_html.py --check
+bash scripts/install.sh
+python3 scripts/check_pages_artifact.py html
 python3 tests/ui_smoke.py
 # Обновить снимки для ревью:
 python3 tests/ui_smoke.py --screenshots
@@ -122,3 +120,29 @@ python3 -m venv .venv
 ## Перенос прогресса между устройствами
 
 В заголовке «Мой прогресс» доступны **«Скачать прогресс»** и **«Загрузить прогресс»**. JSON сохраняет настоящие попытки и метки этого браузера, без демонстрационных процентов. Загрузка проходит локально: файл не отправляется на сервер. После проверки и предварительного просмотра подтвердите объединение; текущая история не удаляется, дубликаты попыток не добавляются. [Контракт переноса](docs/specification/progress-transfer.md). Автоматической синхронизации аккаунта пока нет.
+
+## Как ориентироваться в веб-коде
+
+Приложение имеет одну оболочку `html/index.html`; экраны и обработчики находятся
+в `html/js/app.js`. Навигация использует `#study`, `#bank`, `#card/ID`,
+`#progress`, `#knowledge`. Работа с данными, хранилищем, переносом прогресса
+и демо-дашбордом вынесена в отдельные JS-модули. `services.js` сохраняет точки
+подключения будущих правил, адаптации и синхронизации.
+
+Порядок CSS задан в `app.css` и важен для каскада:
+
+- `base.css` — общие переменные, навигация и кнопки;
+- `study.css` — базовые блоки главной и тематические карточки;
+- `bank-card.css` — поиск, банк и упражнения;
+- `history-knowledge.css` — реальная история, справочник, диалоги;
+- `responsive.css` — общие адаптивные правила и уменьшение движения;
+- `progress.css` — демонстрационный дашборд;
+- `home.css` — выбранная композиция главной, notes, постер и логотип.
+
+Старые страницы сравнения и статистики удалены из веб-каталога; их исходники
+остаются в истории Git. Обычная сборка больше не создаёт старые HTML-карточки
+и `cards_manifest.js`. Для служебной проверки ФИПИ по группам при необходимости
+можно отдельно выполнить `python3 scripts/generate_manifest.py`; текущему UI
+этот манифест не нужен. В сохранившейся рабочей папке после прежних сборок могут
+оставаться игнорируемые `html/cards/card_*.html` и `html/cards_manifest.js` —
+они больше не используются; чистый checkout их не содержит.
