@@ -1,0 +1,30 @@
+{
+  "id": "rozental-old-rozental-user-rtf",
+  "receivedAt": "2026-10-27",
+  "provenance": "user_upload",
+  "sourceUrl": "https://old-rozental.ru/files/rozental.rtf",
+  "siteUrl": "https://old-rozental.ru/",
+  "file": "source.rtf",
+  "sizeBytes": 4368496,
+  "sha256": "387324957008a6bef03dbf3839c1869d7f7dcdcb2d00b8107814923ca67c5c06",
+  "author": "Д. Э. Розенталь",
+  "contentTitle": "Справочник по русскому языку: орфография и пунктуация",
+  "declaredPublisher": null,
+  "declaredYear": null,
+  "declaredIsbn": null,
+  "matchesFipi2015Edition": null,
+  "rtfCodePage": 1251,
+  "fileMetadataDate": "2014-10-10",
+  "numberingObserved": {
+    "orthography": 62,
+    "punctuation": 72
+  },
+  "importStatus": "original_preserved_extraction_requires_review",
+  "notes": [
+    "Дата метаданных файла не является годом издания. Поле title метаданных не совпадает с заглавием текста.",
+    "Предварительно найдены 134 заголовка параграфов; нумерация двух разделов независима.",
+    "Pandoc при извлечении искажает кириллицу; после восстановления кодировки остаются служебные слова Мелкий/Параграф и искажения ударений. Извлечённый текст не опубликован как учебный источник.",
+    "Правила о приставках: орфография §§27–29; связи с карточками пока не добавлены.",
+    "Подтверждения издательства, ISBN и совпадения с Универсальным справочником 2015 не найдено."
+  ]
+}
