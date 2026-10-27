@@ -103,7 +103,7 @@ function skillRow(skill) {
     not_started:
       "В этом примере попыток по навыку ещё не было. Это не оценка способностей.",
   }[skill.status];
-  return `<details class="skill-row"><summary><span class="skill-dot ${skill.status}" aria-hidden="true"></span><span>${skill.name}</span><span class="skill-status-text">${label}</span><span class="skill-chevron" aria-hidden="true">+</span></summary><div class="skill-reason"><span class="eyebrow">ДЕМОНСТРАЦИОННОЕ ОСНОВАНИЕ</span><p>${reason}</p><p>Здесь будут связанные правила, упражнения и отдельная самооценка. В прототипе они ещё не подключены к этому навыку.</p></div></details>`;
+  return `<details class="skill-row"><summary><span class="skill-dot ${skill.status}" aria-hidden="true"></span><span>${skill.name}</span><span class="skill-status-text">${label}</span><span class="skill-chevron" aria-hidden="true">+</span></summary><div class="skill-reason"><span class="eyebrow">ДЕМОНСТРАЦИОННОЕ ОСНОВАНИЕ</span><p>${reason}</p></div></details>`;
 }
 export function renderProgressPreview(params) {
   const scenario = ["example", "later", "start"].includes(
@@ -137,8 +137,8 @@ export function renderProgressPreview(params) {
         return `<a class="coverage-topic ${selected === i ? "is-selected" : ""}" href="${link(scenario, `&topic=${i}`)}" ${selected === i ? 'aria-current="true"' : ""}><div class="coverage-topic-heading"><h3>${t.name}</h3><span><b>${s.consolidated}</b> / ${s.total} закреплено <span aria-hidden="true">→</span></span></div>${bar(s)}<div class="coverage-topic-foot"><span>Охват ${s.covered} / ${s.total}</span><span>${s.counts.due ? `Пора повторить: ${s.counts.due}` : "Повторение пока не нужно"}</span></div></a>`;
       })
       .join("")}</div></section>
-    ${selected !== null || dueOnly ? `<section class="panel skill-detail" id="skill-detail"><div class="section-heading"><div><span class="eyebrow">ПРИМЕР КАРТЫ НАВЫКОВ</span><h2>${dueOnly ? "Пора повторить" : topics[selected].name}</h2><p>Нажмите на навык — увидите основание статуса.</p></div><a class="text-link" href="${link(scenario)}">Свернуть ×</a></div>${(dueOnly ? topics.flatMap((t) => t.skills).filter((s) => s.status === "due") : topics[selected].skills).map(skillRow).join("")}${!dueOnly ? `<a class="button secondary" href="#bank?topic=${selected}">Посмотреть текущий банк по теме →</a><p class="skill-bank-note">Переход к существующим карточкам. Точное соответствие этим демонстрационным навыкам ещё не размечено.</p>` : ""}</section>` : '<p class="coverage-hint">Выберите тему выше: внутри — понятные статусы и основания, без сложного графа.</p>'}
-    <details class="quality-disclosure"><summary>А насколько готов сам банк?</summary><p>Это отдельный показатель качества материалов, а не ваших знаний. В рабочей версии здесь появятся проверенность ответов, объяснений и покрытие навыков упражнениями. Недоступный материал не должен уменьшать знаменатель и искусственно повышать ваш процент.</p></details>`;
+    ${selected !== null || dueOnly ? `<section class="panel skill-detail" id="skill-detail"><div class="section-heading"><div><span class="eyebrow">ПРИМЕР КАРТЫ НАВЫКОВ</span><h2>${dueOnly ? "Пора повторить" : topics[selected].name}</h2><p>Нажмите на навык — увидите основание статуса.</p></div><a class="text-link" href="${link(scenario)}">Свернуть ×</a></div>${(dueOnly ? topics.flatMap((t) => t.skills).filter((s) => s.status === "due") : topics[selected].skills).map(skillRow).join("")}${!dueOnly ? `<a class="button secondary" href="#bank?topic=${selected}">Посмотреть текущий банк по теме →</a>` : ""}</section>` : '<p class="coverage-hint">Выберите тему выше: внутри — понятные статусы и основания, без сложного графа.</p>'}
+    `;
 }
 
 /** Layout-only distribution over the entire catalog; not inferred from attempts. */
@@ -153,5 +153,5 @@ export function renderGlobalCardProgressPreview(total) {
   for (let i = 0; i < remaining; i++) values[order[i].i]++;
   const counts = Object.fromEntries(states.map(([id], i) => [id, values[i]]));
   const summary = { total, counts };
-  return `<section class="home-coverage aggregate-demo" aria-label="Пример суммарного прогресса по всем карточкам"><div class="home-coverage-title"><h2>Общий прогресс <span class="aggregate-demo-badge">ДЕМО</span></h2><a href="#progress">Подробнее →</a></div>${bar(summary)}<div class="aggregate-caption"><span>Охват ${total - counts.not_started} / ${total}</span><span>Пора повторить: ${counts.due}</span></div>${legend(summary)}<p class="home-coverage-caption">Пример статусов по всему банку, а не по отдельным темам. Числа демонстрационные: оценивание карточек ещё не подключено.</p></section>`;
+  return `<section class="home-coverage aggregate-demo" aria-label="Пример суммарного прогресса по всем карточкам"><div class="home-coverage-title"><h2>Общий прогресс <span class="aggregate-demo-badge">ДЕМО</span></h2><a href="#progress">Подробнее →</a></div>${bar(summary)}<div class="aggregate-caption"><span>Охват ${total - counts.not_started} / ${total}</span><span>Пора повторить: ${counts.due}</span></div>${legend(summary)}<p class="home-coverage-caption">Пример статусов по всему банку, а не по отдельным темам. Числа приведены для примера и не отражают ваш прогресс.</p></section>`;
 }

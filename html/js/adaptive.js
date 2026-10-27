@@ -52,7 +52,7 @@ export function recommendPractice({
   const status = progress.cardStates.get(card.id);
   const [reasonCode, reasonText] =
     status === "due"
-      ? ["review_due", "Наступил срок повторения по предварительной политике."]
+      ? ["review_due", "Пришло время повторить эту тему."]
       : tags(card.id).hard
         ? ["marked_for_review", "Вы отметили эту карточку для повторения."]
         : last?.correct === false

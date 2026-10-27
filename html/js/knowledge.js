@@ -13,9 +13,6 @@ function back(meta) {
     ? `<p><a class="text-link" href="#card/${meta.id}">Вернуться к карточке ${meta.id}</a></p>`
     : "";
 }
-function sourceNote() {
-  return '<div class="preview-warning"><p>Пользовательская электронная копия: <strong>Эксмо, 2007</strong>. В списке ФИПИ указано издание АСТ-Пресс, 2020; их совпадение не проверялось. Номера § относятся к указанному разделу книги. Печатных страниц в FB2 нет.</p></div>';
-}
 export async function knowledgePage({ params, catalog, heading, empty }) {
   const safeHeading = (kicker, title, subtitle) =>
     heading(kicker, esc(title), esc(subtitle));
@@ -38,10 +35,9 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
         `${partName(paragraph.part)} · §${paragraph.number}`,
         `${paragraph.edition.title} / под ред. ${paragraph.edition.editor}. ${paragraph.edition.publisher}, ${paragraph.edition.year}. ISBN ${paragraph.edition.isbn}`,
       ) +
-      sourceNote() +
       back(meta) +
       `<nav class="rule-links"><a class="text-link" href="#knowledge?edition=${paragraph.editionId}${context(meta)}">Оглавление книги</a>${ruleId ? `<a class="text-link" href="#knowledge?rule=${esc(ruleId)}${context(meta)}">Вернуться к нашему объяснению</a>` : '<a class="text-link" href="#knowledge">Короткие правила</a>'}</nav>
-      ${paragraph.editorialNotes?.length ? `<aside class="preview-warning"><div><strong>Редакторские заметки к электронной копии</strong>${paragraph.editorialNotes.map((note) => `<p>${esc(note.original)}${note.replacement ? " → " + esc(note.replacement) : " — требуется сверка"}. ${esc(note.reason)}</p>`).join("")}</div></aside>` : ""}<article class="panel knowledge-rule source-paragraph" data-source-id="${esc(paragraph.id)}"><div class="explanation-text">${rich(paragraph.body, { markdown: false })}</div>${paragraph.notes.length ? `<details class="source-notes"><summary>Примечания к этому параграфу</summary>${paragraph.notes.map((note) => `<p>${rich(note.body, { markdown: false })}</p>`).join("")}</details>` : ""}</article>`
+      ${paragraph.editorialNotes?.length ? `<aside class="preview-warning"><div><strong>Опечатки в источнике</strong>${paragraph.editorialNotes.map((note) => `<p>${esc(note.original)}${note.replacement ? " → " + esc(note.replacement) : " — опечатка в примере"}</p>`).join("")}</div></aside>` : ""}<article class="panel knowledge-rule source-paragraph" data-source-id="${esc(paragraph.id)}"><div class="explanation-text">${rich(paragraph.body, { markdown: false })}</div>${paragraph.notes.length ? `<details class="source-notes"><summary>Примечания к этому параграфу</summary>${paragraph.notes.map((note) => `<p>${rich(note.body, { markdown: false })}</p>`).join("")}</details>` : ""}</article>`
     );
   }
   const sources = await loadHandbookSources();
@@ -60,7 +56,6 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
         `Академический справочник · ${edition.year}`,
         `${edition.publisher}. Под ред. ${edition.editor}. ISBN ${edition.isbn}`,
       ) +
-      sourceNote() +
       back(meta) +
       '<p><a class="text-link" href="#knowledge">К коротким правилам</a></p>' +
       ["orthography", "punctuation"]
@@ -94,7 +89,6 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
       "Справочник правил",
       "Короткие объяснения и точные ссылки на разделы исходной книги.",
     ) +
-    `<div class="preview-warning"><p><strong>Пояснения проходят предметное ревью.</strong> ${esc(book.sourceNote)}</p></div>` +
     back(meta) +
     (ruleId
       ? '<p><a class="text-link" href="#knowledge">Все параграфы →</a></p>'
@@ -104,9 +98,9 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
       : empty(
           "knowledge",
           ruleId ? "Параграф не найден" : "Связанные правила ещё готовятся",
-          "Не подставляем случайный материал вместо отсутствующего.",
+          "Выберите правило в справочнике.",
           '<a class="text-link" href="#knowledge">Открыть справочник</a>',
         )) +
-    `<section class="panel method-panel"><h2>Библиотека источников</h2>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}<p>Прочитаны и связаны первые нужные параграфы; автоматическая индексация всей книги не означает предметную проверку каждого фрагмента или каждой карточки.</p></section>`
+    `<section class="panel method-panel"><h2>Библиотека источников</h2>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}</section>`
   );
 }

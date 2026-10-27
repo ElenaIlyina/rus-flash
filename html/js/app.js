@@ -113,8 +113,7 @@ function renderStudy() {
       <a class="study-poster" href="#card/${candidate.id}" aria-label="Начать заниматься"><div class="poster-face"><span class="poster-art" aria-hidden="true"><svg class="poster-glyph" viewBox="0 0 300 260" fill="none"><g fill="currentColor" transform="rotate(-9 130 130)"><path d="M62 18h27v27H62zM122 18h27v27h-27zM62 72h113v27H90v37h76v27H90v39h85v27H62z"/></g><g fill="#ff7952" transform="rotate(10 220 165)"><path d="M209 99h26l-3 103h-20zM209 216h26v26h-26z"/></g></svg></span><span class="poster-cta">Начать заниматься</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
 
     </div>
-    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="#bank?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="eyebrow">${String(i + 1).padStart(2, "0")} / ВЫБЕРИ НАПРАВЛЕНИЕ</span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>
-    <div class="editorial-note">${icon("knowledge")}<p>Позиции сопоставлены с официальным проектом ФИПИ-2027. Ответы проверялись ранее; объяснения и старые форматы проходят отдельное ревью.</p></div>`;
+    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="#bank?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="eyebrow">${String(i + 1).padStart(2, "0")} / ВЫБЕРИ НАПРАВЛЕНИЕ</span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>`;
 }
 function bankResults() {
   const topic = route().params.get("topic");
@@ -169,7 +168,7 @@ function bankResults() {
       {
         fav: "Избранное — ваши закладки. Звезда помогает вернуться к карточке и не влияет на оценку знаний.",
         hard: "Вы сами отметили эти карточки кнопкой «Повторить позже». Это отдельная отметка, а не автоматический статус.",
-        due: "Система предлагает повторить эти карточки по сроку предварительной политики.",
+        due: "Пришло время повторить эти карточки.",
         new: "В этом браузере пока нет сохранённых попыток по этим карточкам.",
         practiced:
           "Есть хотя бы одна отправленная попытка. Это ещё не означает «получается».",
@@ -271,7 +270,7 @@ async function renderCard(id, version) {
   const canCheck = Boolean(c.answer && !c.reviewNote);
   main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
     <div class="practice-layout"><article class="exercise"><div class="exercise-header"><span class="eyebrow">КАРТОЧКА ${id}</span><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
-      <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span><span>Разбор проходит отдельное ревью${c.formatStatus === "historical_format" ? " · прежний формат задания" : ""}</span><span class="pill neutral-pill" data-learning-status>${labels[status]}</span></div>
+      <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span></div>
       ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
       ${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}<section class="question-section" aria-labelledby="question-label"><h2 id="question-label">Задание</h2><div class="question-text">${rich(c.instruction)}</div></section>
       ${c.errors.length && c.sentences.length ? `<div class="matching"><section><h3>Грамматические ошибки</h3>${c.errors.map((x, i) => `<p><b>${"АБВГДЕ"[i] || i + 1}.</b> ${rich(x)}</p>`).join("")}</section><section><h3>Предложения</h3>${c.sentences.map((x, i) => `<p><b>${i + 1}.</b> ${rich(x)}</p>`).join("")}</section></div>` : ""}
@@ -279,13 +278,13 @@ async function renderCard(id, version) {
       <form id="answer-form" class="answer-form">${c.responseType !== "multiple_choice" ? `<label for="answer-input">${c.answer ? "Ваш ответ" : "Ваш ответ для самопроверки"}</label><input id="answer-input" autocomplete="off" placeholder="Введите ответ" ${c.answer ? "required" : ""}>` : ""}<div class="answer-actions">${canCheck ? `<button type="submit" class="button primary">Проверить ${icon("check")}</button>` : '<p class="muted">Автоматическая проверка недоступна: нет эталона или материал требует сверки.</p>'}<button type="button" class="button quiet" data-action="hint">Подсказка</button><button type="button" class="button quiet" data-action="reveal">${c.answer ? "Ответ и разбор" : "Открыть разбор"}</button></div></form>
       <section id="hint" class="aside-card" hidden aria-live="polite"></section><div id="answer-feedback" aria-live="polite"></div><button class="text-link" data-action="new-attempt">Начать новую попытку</button><section id="explanation" class="explanation" hidden></section>
       <div class="exercise-bottom"><button class="button quiet ${tags.hard ? "selected" : ""}" data-action="repeat" aria-pressed="${!!tags.hard}">${icon("repeat")} Повторить позже</button><button class="button secondary ${tags.studied ? "selected" : ""}" data-action="studied" aria-pressed="${!!tags.studied}">${icon("check")} ${tags.studied ? "Отмечено изученным" : "Отметить изученным"}</button><button class="button primary" data-action="next">Дальше ${icon("arrow")}</button></div>
-    </article><aside class="practice-aside"><div class="aside-card"><span class="eyebrow">СНАЧАЛА ПОНИМАНИЕ</span><h2>Правило рядом</h2><p>${c.ruleRefs?.length ? "Доступны локальные черновики параграфов по этой теме. Их можно открыть по постоянной ссылке." : "Связанные правила для этой темы ещё готовятся."}</p><div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">Открыть справочник ${icon("arrow")}</button></div><div class="aside-tip">${icon("leaf")}<p>Не торопитесь. Можно вернуться к тексту, попробовать ещё раз или отложить карточку.</p></div><button class="text-link" data-action="report">Нашли неточность?</button></aside></div>`;
+    </article><aside class="practice-aside"><div class="aside-card"><span class="eyebrow">СНАЧАЛА ПОНИМАНИЕ</span><h2>Правило рядом</h2><p>${c.ruleRefs?.length ? "Вспомните правило и посмотрите примеры по этой теме." : "Найдите нужную тему в справочнике."}</p><div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">Открыть справочник ${icon("arrow")}</button></div><div class="aside-tip">${icon("leaf")}<p>Не торопитесь. Можно вернуться к тексту, попробовать ещё раз или отложить карточку.</p></div><button class="text-link" data-action="report">Нашли неточность?</button></aside></div>`;
 }
 function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2><span class="review-label">${c.explanationReviewStatus ? "Черновик сверен по рядам и источникам · нужна предметная приёмка" : c.explanation ? "Разбор из текущей базы · не проверен редактором" : "Разбор готовится"}</span>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Здесь будет объяснение решения, типичная ошибка и ссылка на правило. Пока нельзя считать эту карточку проверенным учебным материалом.</p>"}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}<div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}<div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -362,7 +361,7 @@ function renderProgress(params) {
             '<a href="#bank" class="button primary">Выбрать карточку</a>',
           )
     }</section>
-    <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Сейчас прогресс хранится только в этом браузере. Перенос через JSON уже доступен. Автоматическая синхронизация — следующий этап.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
+    <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Скачайте файл прогресса и загрузите его на другом устройстве, чтобы продолжить занятия.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
 }
 async function renderKnowledge(params, version) {
   const html = await knowledgePage({ params, catalog, heading, empty });
@@ -444,7 +443,7 @@ document.addEventListener("click", async (event) => {
     case "about":
       modal(
         "Учиться в своём темпе",
-        "<p>Это рабочий интерфейс для ревью. Банк содержит исходные материалы ФИПИ, но ответы, разборы и номера групп ещё требуют проверки.</p><p>Прогресс хранится в этом браузере. Никакие ответы не отправляются на сервер. Офлайн-режим PWA, аккаунты и синхронизация пока не реализованы.</p>",
+        "<p>Практикуйтесь, разбирайте правила и возвращайтесь к темам, которые хочется закрепить.</p><p>Прогресс хранится в этом браузере. Чтобы перенести его на другое устройство, скачайте файл прогресса и загрузите его там.</p>",
       );
       break;
     case "adaptive": {
@@ -455,21 +454,21 @@ document.addEventListener("click", async (event) => {
         seed: shuffleSeed,
       });
       modal(
-        "Подбор для практики · пилот",
-        `<p>${esc(suggestion.reasonText)}</p><p>Это первый слой выбора по группам. Полный маршрут по отдельным навыкам и диагностике ещё готовится.</p>${suggestion.cardId ? `<a class="button primary" href="#card/${suggestion.cardId}">Открыть предложенную карточку</a>` : ""}`,
+        "Подбор для практики",
+        `<p>${esc(suggestion.reasonText)}</p>${suggestion.cardId ? `<a class="button primary" href="#card/${suggestion.cardId}">Открыть предложенную карточку</a>` : ""}`,
       );
       break;
     }
     case "rag":
       modal(
         "Источники, затем объяснение",
-        "<p>RAG поможет находить подходящие правила и готовить черновики разборов со ссылками на источники. Редактор проверит объяснение перед публикацией.</p><p>Генерация выполняется инструментами подготовки данных, а не в браузере ученика. Сейчас доступны первые локальные черновики параграфов; RAG и модель не подключены.</p>",
+        '<p>В справочнике собраны короткие правила, примеры и ссылки на параграфы академического справочника.</p><a class="text-link" href="#knowledge">Открыть справочник</a>',
       );
       break;
     case "sync":
       modal(
         "Продолжить на другом устройстве",
-        "<p>Планируем синхронизацию попыток, избранного и повторений. Сервер и аккаунты пока не подключены.</p><p>Сейчас можно скачать прогресс и загрузить его на другом устройстве через JSON-файл. Перед загрузкой показывается состав изменений; история объединяется без удаления текущих записей.</p>",
+        "<p>Скачайте прогресс здесь и загрузите файл в приложении на другом устройстве. Перед загрузкой вы увидите состав изменений; история объединится с текущими записями.</p><p>Автоматического переноса между устройствами нет.</p>",
       );
       break;
     case "more":
@@ -561,7 +560,7 @@ document.addEventListener("click", async (event) => {
     case "report":
       modal(
         "Спасибо за внимательность",
-        `<p>Карточка <strong>${esc(currentCard?.id)}</strong>. Запишите её ID и опишите неточность при ревью проекта.</p><p>Отправка сообщений ещё не подключена. Эта кнопка ничего не отправляет.</p>`,
+        `<p>Карточка <strong>${esc(currentCard?.id)}</strong>. Скопируйте этот номер и описание неточности для автора приложения.</p><p>Сообщить об ошибке можно вне приложения.</p>`,
       );
       break;
     case "import":
