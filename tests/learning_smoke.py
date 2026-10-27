@@ -168,15 +168,41 @@ def main():
             http_page.close()
             page.goto(base+'#settings',wait_until='networkidle')
             assert page.get_by_role('heading',name='Настройки обучения').is_visible()
+            page.locator(".settings-form details summary").click()
+            for key,step in [('masteryThreshold',0.01),('simpleWeight',0.05),('reviewDays',1),('cardA',0.01),('topicA',0.01)]:
+                control=page.locator(f'[name="{key}"]')
+                original=control.input_value()
+                start=float(original)
+                control.press('ArrowUp')
+                assert abs(float(control.input_value())-(start+step))<1e-10,(key,'keyboard up')
+                control.press('ArrowDown')
+                assert abs(float(control.input_value())-start)<1e-10,(key,'keyboard down')
+                up=page.locator(f'[data-action="adjust-setting"][data-target="{key}"][data-direction="1"]')
+                down=page.locator(f'[data-action="adjust-setting"][data-target="{key}"][data-direction="-1"]')
+                up.click()
+                assert abs(float(control.input_value())-(start+step))<1e-10,(key,'button up')
+                down.click()
+                assert abs(float(control.input_value())-start)<1e-10,(key,'button down')
+                control.fill(control.get_attribute('min'))
+                down.click()
+                assert float(control.input_value())==float(control.get_attribute('min')),(key,'lower bound')
+                control.fill(control.get_attribute('max'))
+                up.click()
+                assert float(control.input_value())==float(control.get_attribute('max')),(key,'upper bound')
+                control.fill(original)
             page.locator('[name="reviewDays"]').fill('10')
             page.locator('[name="masteryThreshold"]').fill('0.8')
-            page.locator(".settings-form details summary").click()
             page.locator('[data-action="retention"][data-target="cardA"]').first.click()
             page.get_by_role('button',name='Сохранить настройки',exact=True).click()
             assert 'Настройки сохранены' in page.locator('#settings-feedback').inner_text()
+            assert page.evaluate("""async () => {
+                const {loadSettings,coefficientForRetention}=await import('./js/settings.js');
+                return loadSettings().cardA===coefficientForRetention(0.01);
+            }"""), 'preset precision must survive saving'
             page.reload(wait_until='networkidle')
             assert page.locator('[name="reviewDays"]').input_value()=='10'
             assert page.locator('[name="masteryThreshold"]').input_value()=='0.8'
+            page.locator(".settings-form details summary").click()
             for width in [320,390,768,1440]:
                 page.set_viewport_size({'width':width,'height':900})
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'),width

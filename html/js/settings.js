@@ -16,6 +16,26 @@ const limits = {
   simpleWeight: [0, 1],
 };
 const KEY = "slovo_learning_settings_v1";
+const steps = {
+  cardA: 0.01,
+  topicA: 0.01,
+  masteryThreshold: 0.01,
+  reviewDays: 1,
+  simpleWeight: 0.05,
+};
+// Keep step="any" for exact presets/manual values; use the same bounded step
+// for keyboard arrows and visible controls, without the browser's unit jumps.
+export function adjustSetting(input, direction) {
+  const key = input.name;
+  if (!Object.hasOwn(steps, key) || ![1, -1].includes(direction)) return;
+  const current = Number.isFinite(input.valueAsNumber)
+    ? input.valueAsNumber
+    : defaults[key];
+  const [min, max] = limits[key];
+  const next = Math.min(max, Math.max(min, current + direction * steps[key]));
+  input.value = String(Number(next.toFixed(12)));
+  input.dispatchEvent(new Event("input", { bubbles: true }));
+}
 export function validateSettings(value) {
   if (
     !value ||
@@ -44,7 +64,7 @@ export function saveSettings(value) {
 }
 export function renderSettings(settings) {
   const input = (key, label, help) =>
-    `<label>${label}<input name="${key}" type="number" min="${limits[key][0]}" max="${limits[key][1]}" step="any" value="${settings[key]}" required><small>${help}</small></label>`;
+    `<div class="settings-field"><label for="setting-${key}">${label}</label><div class="settings-number"><input id="setting-${key}" name="${key}" type="number" min="${limits[key][0]}" max="${limits[key][1]}" step="any" value="${settings[key]}" aria-describedby="help-${key}" required><div class="settings-stepper"><button type="button" data-action="adjust-setting" data-target="${key}" data-direction="1" aria-label="Увеличить: ${label}">↑</button><button type="button" data-action="adjust-setting" data-target="${key}" data-direction="-1" aria-label="Уменьшить: ${label}">↓</button></div></div><small id="help-${key}">${help}</small></div>`;
   return `<div class="page-heading"><div><span class="eyebrow">В СВОЁМ ТЕМПЕ</span><h1>Настройки обучения</h1><p>Настройки действуют в этом браузере. После сохранения оценки пересчитываются по истории решений.</p></div><a class="text-link" href="#progress">Мой прогресс →</a></div>
   <form id="learning-settings" class="panel settings-form">
   ${input("masteryThreshold", "Порог «Получается»", "Оценка должна быть строго выше порога. Диапазон: от 0 до 1.")}

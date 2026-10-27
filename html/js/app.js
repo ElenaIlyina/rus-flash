@@ -4,6 +4,7 @@ import {
   renderSettings,
   defaults,
   coefficientForRetention,
+  adjustSetting,
 } from "./settings.js";
 import { knowledgePage } from "./knowledge.js";
 import { recommendPractice } from "./adaptive.js";
@@ -463,6 +464,12 @@ document.addEventListener("click", async (event) => {
     return;
   }
   switch (button.dataset.action) {
+    case "adjust-setting":
+      adjustSetting(
+        main.querySelector(`[name="${button.dataset.target}"]`),
+        Number(button.dataset.direction),
+      );
+      break;
     case "retention": {
       const a = coefficientForRetention(Number(button.dataset.retention));
       main.querySelector(`[name="${button.dataset.target}"]`).value = a;
@@ -689,6 +696,15 @@ document.addEventListener("submit", (event) => {
     } catch (error) {
       main.querySelector("#settings-feedback").textContent = error.message;
     }
+  }
+});
+document.addEventListener("keydown", (event) => {
+  if (
+    event.target.matches('.settings-form input[type="number"]') &&
+    ["ArrowUp", "ArrowDown"].includes(event.key)
+  ) {
+    event.preventDefault();
+    adjustSetting(event.target, event.key === "ArrowUp" ? 1 : -1);
   }
 });
 window.addEventListener("hashchange", () => {

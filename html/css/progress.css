@@ -404,6 +404,32 @@
   display: grid;
   gap: 8px;
 }
+.settings-field {
+  display: grid;
+  gap: 8px;
+}
+.settings-number {
+  display: flex;
+  gap: 8px;
+  width: min(100%, 280px);
+}
+.settings-stepper {
+  display: flex;
+  flex-direction: column;
+}
+.settings-stepper button {
+  width: 36px;
+  min-height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.settings-stepper button:hover {
+  background: var(--paper, #f7f6f2);
+}
 .settings-form input {
   width: min(100%, 280px);
   box-sizing: border-box;
@@ -411,6 +437,14 @@
   border: 1px solid var(--line, #ddd);
   border-radius: 10px;
   font: inherit;
+  min-width: 0;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.settings-form input::-webkit-inner-spin-button,
+.settings-form input::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
 }
 .settings-form small {
   color: var(--muted, #777);
@@ -418,7 +452,7 @@
 .settings-form details {
   min-width: 0;
 }
-.settings-form details label {
+.settings-form details .settings-field {
   margin-block: 20px;
 }
 .settings-form .progress-actions {
