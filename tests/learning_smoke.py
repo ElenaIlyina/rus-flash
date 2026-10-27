@@ -93,6 +93,28 @@ def main():
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if '--screenshots' in sys.argv and width in [390,1440]:
                     page.screenshot(path=str(ROOT/'docs/learning'/f'overview-{width}.png'),full_page=True)
+            # EECA69 must submit even when randomUUID is unavailable (HTTP / older browsers).
+            http_page = browser.new_page()
+            http_page.on('pageerror', lambda e: errors.append(str(e)))
+            http_page.add_init_script('Object.defineProperty(crypto, "randomUUID", {value: undefined, configurable: true})')
+            http_page.goto(base+'index.html#card/EECA69',wait_until='networkidle')
+            http_page.locator('#answer-form [type=submit]').click()
+            assert 'Сначала укажите ответ' in http_page.locator('#answer-feedback').inner_text()
+            for value in ['1','2']:
+                http_page.locator(f'[name="answer-option"][value="{value}"]').check()
+            http_page.locator('#answer-form [type=submit]').click()
+            assert http_page.locator('#answer-feedback .success').is_visible()
+            http_page.get_by_role('button',name='Начать новую попытку',exact=True).click()
+            http_page.locator('[name="answer-option"][value="3"]').check()
+            http_page.locator('#answer-form [type=submit]').click()
+            assert http_page.locator('#answer-feedback .warning').is_visible()
+            saved = http_page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.filter(e => e.cardId === "EECA69")')
+            assert len(saved) == 2 and saved[0]['correct'] and not saved[1]['correct']
+            assert saved[0]['id'] != saved[1]['id']
+            assert all(len(event['id']) == 36 for event in saved)
+            http_page.reload(wait_until='networkidle')
+            assert http_page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.filter(e => e.cardId === "EECA69").length') == 2
+            http_page.close()
             assert not errors, errors
             browser.close()
         print(f'PASS: {result["cases"]} learning/recommendation invariants + response policies; persisted hint, new assignment, real progress, 4 widths')
