@@ -64,7 +64,7 @@ def main():
             if '--screenshots' in sys.argv:
                 page.set_viewport_size({'width': 1440, 'height': 1000})
                 page.screenshot(path=str(folder / 'skills-1440.png'), full_page=True)
-            page.get_by_role('link', name='Моя реальная история').click()
+            page.locator('a[href="#progress?view=history"]').click()
             page.locator('.progress-grid').wait_for()
             assert page.locator('.preview-badge').count() == 0
             after = page.evaluate('JSON.stringify(Object.entries(localStorage).sort())')

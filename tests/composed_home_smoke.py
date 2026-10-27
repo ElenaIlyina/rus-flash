@@ -74,7 +74,7 @@ def main():
             page.locator('#mobile-nav a[href="#progress"]').click()
             page.locator('.learning-overview').wait_for()
             assert page.locator('.preview-badge').count() == 0
-            page.get_by_role('link', name='Моя реальная история').click()
+            page.locator('a[href="#progress?view=history"]').click()
             page.locator('.progress-grid').wait_for()
             assert page.url.endswith('#progress?view=history')
             page.goto(base + '#study', wait_until='networkidle')

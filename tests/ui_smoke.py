@@ -91,7 +91,7 @@ def main():
             checks += 1
             page.locator('#desktop-nav a[href="#progress"]').click()
             page.locator('.learning-overview').wait_for()
-            page.get_by_role('link', name='Моя реальная история').click()
+            page.locator('a[href="#progress?view=history"]').click()
             page.locator('.attempt-row').first.wait_for()
             assert page.locator('.attempt-row').count() == 2
             with page.expect_download() as info:
