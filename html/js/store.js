@@ -9,6 +9,7 @@ try {
   available = false;
 }
 const tags = new Map();
+const assignments = new Map();
 try {
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
@@ -79,8 +80,15 @@ export const store = {
     save();
   },
   assignment(id, fresh = false) {
+    if (!fresh && assignments.has(id)) return assignments.get(id);
     const key = "slovo_assignment_" + id;
-    let value = { assisted: false, submitted: false };
+    let value = {
+      id: eventId(),
+      assisted: false,
+      submitted: false,
+      attemptNumber: 0,
+      completed: false,
+    };
     try {
       const saved = fresh
         ? null
@@ -90,11 +98,22 @@ export const store = {
         typeof saved.assisted === "boolean" &&
         typeof saved.submitted === "boolean"
       )
-        value = saved;
+        value = {
+          ...value,
+          ...saved,
+          id: typeof saved.id === "string" ? saved.id : value.id,
+          attemptNumber: Number.isInteger(saved.attemptNumber)
+            ? saved.attemptNumber
+            : saved.submitted
+              ? 1
+              : 0,
+          completed: saved.completed === true,
+        };
       localStorage.setItem(key, JSON.stringify(value));
     } catch {
       available = false;
     }
+    assignments.set(id, value);
     return value;
   },
   markAssignment(id, field) {
@@ -108,14 +127,32 @@ export const store = {
     return value;
   },
   attempt(id, correct, revealed, materialVersion = 1) {
+    const assignment = this.assignment(id);
+    if (assignment.completed) return null;
+    assignment.attemptNumber++;
+    assignment.submitted = true;
+    assignment.assisted = assignment.assisted || revealed;
+    assignment.completed = correct;
     const event = {
       id: eventId(),
+      scoringVersion: 1,
+      assignmentId: assignment.id,
+      attemptNumber: assignment.attemptNumber,
+      completed: correct,
       cardId: id,
       time: new Date().toISOString(),
       correct,
-      assisted: revealed,
+      assisted: assignment.assisted,
       materialVersion,
     };
+    try {
+      localStorage.setItem(
+        "slovo_assignment_" + id,
+        JSON.stringify(assignment),
+      );
+    } catch {
+      available = false;
+    }
     state.events.push(event);
     save();
     return event;
@@ -163,7 +200,7 @@ export const store = {
   exportData() {
     return JSON.stringify(
       {
-        schemaVersion: 1,
+        schemaVersion: 2,
         exportedAt: new Date().toISOString(),
         ...state,
         tags: Object.fromEntries(tags),

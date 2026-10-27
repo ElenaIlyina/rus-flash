@@ -62,9 +62,9 @@ def main():
             assert 'не совпало' in page.locator('#answer-feedback').inner_text()
             page.locator('#answer-input').fill(answer)
             page.locator('#answer-form [type=submit]').click()
-            assert 'Совпадает' in page.locator('#answer-feedback').inner_text()
+            assert 'Верно не с первой попытки' in page.locator('#answer-feedback').inner_text()
             history = page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events')
-            assert len(history) == 2 and history[-1]['assisted']
+            assert len(history) == 2 and not history[-1]['assisted'] and history[-1]['attemptNumber'] == 2
             page.locator('[data-action="favorite"]').click()
             assert page.evaluate('JSON.parse(localStorage.getItem("task_tags_012CAB")).fav')
             page.reload(wait_until='networkidle')
@@ -112,7 +112,7 @@ def main():
             for digit in bitmask['answer']:
                 page.locator(f'[name=answer-option][value="{digit}"]').check()
             page.locator('#answer-form [type=submit]').click()
-            assert 'Совпадает' in page.locator('#answer-feedback').inner_text()
+            assert 'Верно с первой попытки' in page.locator('#answer-feedback').inner_text()
             assert page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1).assisted') is False
             checks += 1
             # Imported markup may contain formatting, but never executable content.

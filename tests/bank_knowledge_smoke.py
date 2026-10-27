@@ -81,7 +81,7 @@ def main():
             for value in ['2','3','4']:
                 page.locator(f'[name=answer-option][value="{value}"]').check()
             page.locator('#answer-form [type=submit]').click()
-            assert page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1).assisted')
+            assert not page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1).assisted')
             page.goto(base+'#bank?status=verified',wait_until='networkidle')
             assert page.locator('#answer-availability').input_value()=='verified'
             assert 'С ответом' not in page.locator('.filter-tabs').inner_text()

@@ -528,3 +528,33 @@
 .skill-row[open] .skill-chevron {
   transform: rotate(45deg);
 }
+
+.settings-form {
+  max-width: 760px;
+  display: grid;
+  gap: 24px;
+}
+.settings-form label {
+  display: grid;
+  gap: 8px;
+}
+.settings-form input {
+  width: min(100%, 280px);
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 10px;
+  font: inherit;
+}
+.settings-form small {
+  color: var(--muted, #777);
+}
+.settings-form details {
+  min-width: 0;
+}
+.settings-form details label {
+  margin-block: 20px;
+}
+.settings-form .progress-actions {
+  flex-wrap: wrap;
+}

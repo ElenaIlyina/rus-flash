@@ -1,3 +1,10 @@
+import {
+  loadSettings,
+  saveSettings,
+  renderSettings,
+  defaults,
+  coefficientForRetention,
+} from "./settings.js";
 import { knowledgePage } from "./knowledge.js";
 import { recommendPractice } from "./adaptive.js";
 import { checkResponse } from "./assessment.js";
@@ -52,8 +59,7 @@ const topics = [
 let catalog,
   currentCard,
   renderVersion = 0,
-  reveal = false,
-  attempted = false;
+  reveal = false;
 let pendingImport = null;
 const shuffleSeed = Math.floor(Math.random() * 0xffffffff);
 let filter = {
@@ -76,7 +82,7 @@ function heading(kicker, title, subtitle, action = "") {
   return `<div class="page-heading"><div><div class="eyebrow">${kicker}</div><h1>${title}</h1><p>${subtitle}</p></div>${action}</div>`;
 }
 function learning() {
-  return projectProgress(catalog, store.history, Date.now());
+  return projectProgress(catalog, store.history, Date.now(), loadSettings());
 }
 function stats() {
   const ids = new Set(catalog.cards.map((c) => c.id));
@@ -261,7 +267,6 @@ async function renderCard(id, version) {
   currentCard = c;
   const assignment = store.assignment(c.id);
   reveal = assignment.assisted;
-  attempted = assignment.submitted;
   store.remember(c.id);
   const meta = catalog.cards.find((v) => v.id === id);
   Object.assign(c, meta || {});
@@ -270,7 +275,7 @@ async function renderCard(id, version) {
   const canCheck = Boolean(c.answer && !c.reviewNote);
   main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
     <div class="practice-layout"><article class="exercise"><div class="exercise-header"><span class="eyebrow">КАРТОЧКА ${id}</span><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
-      <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span></div>
+      <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span><span data-learning-score>Оценка карточки: ${learning().cardScores.get(id) === null ? "ещё нет" : learning().cardScores.get(id).toFixed(3)}</span></div>
       ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
       ${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}<section class="question-section" aria-labelledby="question-label"><h2 id="question-label">Задание</h2><div class="question-text">${rich(c.instruction)}</div></section>
       ${c.errors.length && c.sentences.length ? `<div class="matching"><section><h3>Грамматические ошибки</h3>${c.errors.map((x, i) => `<p><b>${"АБВГДЕ"[i] || i + 1}.</b> ${rich(x)}</p>`).join("")}</section><section><h3>Предложения</h3>${c.sentences.map((x, i) => `<p><b>${i + 1}.</b> ${rich(x)}</p>`).join("")}</section></div>` : ""}
@@ -302,15 +307,36 @@ function checkAnswer(event) {
     return;
   }
   const correct = checkResponse(c.responseType, actual, c.answer);
-  // A revealed answer, or a retry after feedback, must not become independent success.
-  const assisted = reveal || attempted;
-  store.attempt(c.id, correct, assisted, c.materialVersion || 1);
-  store.markAssignment(c.id, "submitted");
-  attempted = true;
+  // One completion result per assignment; intermediate errors remain in history.
+  const assignment = store.assignment(c.id);
+  if (assignment.completed) {
+    area.innerHTML =
+      '<p class="feedback success">Результат уже сохранён. Для нового решения нажмите «Начать новую попытку».</p>';
+    return;
+  }
+  const assisted = reveal;
+  const submitted = store.attempt(
+    c.id,
+    correct,
+    assisted,
+    c.materialVersion || 1,
+  );
   const statusLabel = main.querySelector("[data-learning-status]");
   if (statusLabel)
     statusLabel.textContent = labels[learning().cardStates.get(c.id)];
-  area.innerHTML = `<div class="feedback ${correct ? "success" : "warning"}">${icon(correct ? "check" : "repeat")}<div><strong>${correct ? "Совпадает с ответом в базе" : "Пока не совпало. Попробуем ещё?"}</strong><p>${correct ? "Можно открыть разбор или перейти дальше." : "Вернитесь к условию или посмотрите объяснение."} ${assisted ? "Повторная отправка или помощь: попытка не считается самостоятельной." : ""}</p></div></div>`;
+  const scoreLabel = main.querySelector("[data-learning-score]");
+  if (scoreLabel) {
+    const value = learning().cardScores.get(c.id);
+    scoreLabel.textContent =
+      "Оценка карточки: " + (value === null ? "ещё нет" : value.toFixed(3));
+  }
+  const resultLabel = submitted.assisted
+    ? "Верно, с подсказкой"
+    : submitted.attemptNumber === 1
+      ? "Верно с первой попытки"
+      : "Верно не с первой попытки";
+  const result = submitted.assisted ? 0 : 1 / submitted.attemptNumber;
+  area.innerHTML = `<div class="feedback ${correct ? "success" : "warning"}">${icon(correct ? "check" : "repeat")}<div><strong>${correct ? resultLabel : "Пока не совпало. Попробуем ещё?"}</strong><p>${correct ? `Результат: ${result.toLocaleString("ru-RU", { maximumFractionDigits: 3 })} из 1. Можно открыть разбор или перейти дальше.` : "Вернитесь к условию или посмотрите объяснение. Оценка обновится после завершения решения."}</p></div></div>`;
   if (!store.available)
     toast("Не удалось сохранить попытку: проверьте доступ к хранилищу.");
 }
@@ -336,7 +362,7 @@ function renderProgress(params) {
       '<div class="progress-actions"><a class="button primary" href="#progress?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
     ) +
     `
-    <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Самостоятельные ответы</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
+    <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Проверки без подсказок</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
     <section class="panel"><div class="section-heading"><div><h2>Практика по темам</h2><p>Карточки с попытками, а не оценка освоения навыка</p></div></div>${topics
       .map((t) => {
         const cards = topicCards(t);
@@ -351,7 +377,7 @@ function renderProgress(params) {
             .reverse()
             .map(
               (e) =>
-                `<a class="attempt-row" href="#card/${e.cardId}"><span class="attempt-dot ${e.correct ? "correct" : ""}">${icon(e.correct ? "check" : "repeat")}</span><span><strong>Карточка ${e.cardId}</strong><small>${e.correct ? "Ответ совпал" : "Нужно повторить"}${e.assisted ? " · с подсказкой / повторная попытка" : " · самостоятельно"}</small></span><time>${new Date(e.time).toLocaleDateString("ru-RU")}</time></a>`,
+                `<a class="attempt-row" href="#card/${e.cardId}"><span class="attempt-dot ${e.correct ? "correct" : ""}">${icon(e.correct ? "check" : "repeat")}</span><span><strong>Карточка ${e.cardId}</strong><small>${e.correct ? "Ответ совпал" : "Нужно повторить"}${e.assisted ? (e.scoringVersion === 1 ? " · с подсказкой" : " · помощь или повторная отправка") : e.scoringVersion === 1 && e.attemptNumber > 1 ? " · не с первой попытки" : " · с первой попытки"}</small></span><time>${new Date(e.time).toLocaleDateString("ru-RU")}</time></a>`,
             )
             .join("")
         : empty(
@@ -387,7 +413,9 @@ async function render() {
   const active = path.startsWith("card/") ? "bank" : path;
   document.querySelector("#breadcrumb").textContent = path.startsWith("card/")
     ? "Практика / Карточка"
-    : navs.find((n) => n[0] === path)?.[1] || "Заниматься";
+    : (path === "settings"
+        ? "Настройки обучения"
+        : navs.find((n) => n[0] === path)?.[1]) || "Заниматься";
   for (const target of ["#desktop-nav", "#mobile-nav"]) {
     const itemsHtml = navs
       .map(
@@ -406,6 +434,8 @@ async function render() {
     else if (path === "bank") renderBank(params);
     else if (path === "progress") renderProgress(params);
     else if (path === "knowledge") await renderKnowledge(params, version);
+    else if (path === "settings")
+      main.innerHTML = renderSettings(loadSettings());
     else renderStudy();
   } catch (error) {
     if (version === renderVersion)
@@ -418,15 +448,14 @@ async function render() {
   }
   if (version === renderVersion) {
     window.scrollTo({ top: 0 });
-    document.title = `${path.startsWith("card/") ? "Карточка " + path.slice(5) : navs.find((n) => n[0] === path)?.[1] || "Заниматься"} — Слово за слово`;
+    document.title = `${path.startsWith("card/") ? "Карточка " + path.slice(5) : (path === "settings" ? "Настройки обучения" : navs.find((n) => n[0] === path)?.[1]) || "Заниматься"} — Слово за слово`;
   }
 }
 
 // Delegated interactions shared across screens.
 document.addEventListener("click", async (event) => {
-  const ruleLink = event.target.closest('a[href^="#knowledge?"]');
-  if (ruleLink && route().path.startsWith("card/") && currentCard)
-    store.markAssignment(currentCard.id, "assisted");
+  if (event.target.closest('#info-dialog a[href^="#"]'))
+    document.querySelector("#info-dialog").close();
   const button = event.target.closest("[data-action], [data-filter]");
   if (!button) return;
   if (button.dataset.filter) {
@@ -440,10 +469,18 @@ document.addEventListener("click", async (event) => {
     return;
   }
   switch (button.dataset.action) {
+    case "retention": {
+      const a = coefficientForRetention(Number(button.dataset.retention));
+      main.querySelector(`[name="${button.dataset.target}"]`).value = a;
+      break;
+    }
+    case "reset-settings":
+      main.innerHTML = renderSettings(defaults);
+      break;
     case "about":
       modal(
         "Учиться в своём темпе",
-        "<p>Практикуйтесь, разбирайте правила и возвращайтесь к темам, которые хочется закрепить.</p><p>Прогресс хранится в этом браузере. Чтобы перенести его на другое устройство, скачайте файл прогресса и загрузите его там.</p>",
+        "<p>Практикуйтесь, разбирайте правила и возвращайтесь к темам, которые хочется закрепить.</p><p><a href='#settings'>Настройки обучения</a></p><p>Прогресс хранится в этом браузере. Чтобы перенести его на другое устройство, скачайте файл прогресса и загрузите его там.</p>",
       );
       break;
     case "adaptive": {
@@ -553,7 +590,6 @@ document.addEventListener("click", async (event) => {
     }
     case "card-rules":
       if (currentCard) {
-        store.markAssignment(currentCard.id, "assisted");
         location.hash = `knowledge?card=${currentCard.id}`;
       }
       break;
@@ -663,6 +699,22 @@ document.addEventListener("change", (event) => {
 });
 document.addEventListener("submit", (event) => {
   if (event.target.id === "answer-form") checkAnswer(event);
+  if (event.target.id === "learning-settings") {
+    event.preventDefault();
+    try {
+      const value = Object.fromEntries(
+        [...new FormData(event.target)].map(([key, value]) => [
+          key,
+          Number(value),
+        ]),
+      );
+      saveSettings(value);
+      main.querySelector("#settings-feedback").textContent =
+        "Настройки сохранены. Оценки пересчитаны.";
+    } catch (error) {
+      main.querySelector("#settings-feedback").textContent = error.message;
+    }
+  }
 });
 window.addEventListener("hashchange", () => {
   filter.page = 1;

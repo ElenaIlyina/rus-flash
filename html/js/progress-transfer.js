@@ -1,4 +1,4 @@
-/** Portable progress format v1. Never imports computed/demo mastery values. */
+/** Portable progress formats v1 and v2. Never imports computed/demo mastery values. */
 const cardId = (value) =>
   typeof value === "string" && /^[0-9A-F]{6}$/.test(value);
 const object = (value) =>
@@ -19,9 +19,9 @@ export function parseProgress(text) {
       "Не удалось прочитать JSON. Файл повреждён или имеет другой формат.",
     );
   }
-  if (!object(data) || data.schemaVersion !== 1)
+  if (!object(data) || ![1, 2].includes(data.schemaVersion))
     throw new Error(
-      "Версия файла не поддерживается. Нужен экспорт прогресса версии 1.",
+      "Версия файла не поддерживается. Нужен экспорт прогресса версии 1 или 2.",
     );
   if (
     !fields(data, [
@@ -51,6 +51,9 @@ export function parseProgress(text) {
         "correct",
         "assisted",
         "materialVersion",
+        ...(data.schemaVersion === 2
+          ? ["scoringVersion", "assignmentId", "attemptNumber", "completed"]
+          : []),
       ]) ||
       typeof event.id !== "string" ||
       !event.id.length ||
@@ -65,6 +68,27 @@ export function parseProgress(text) {
       event.materialVersion < 1
     )
       fail();
+    const scoringFields = [
+      "scoringVersion",
+      "assignmentId",
+      "attemptNumber",
+      "completed",
+    ];
+    if (scoringFields.some((key) => Object.hasOwn(event, key))) {
+      if (
+        data.schemaVersion !== 2 ||
+        event.scoringVersion !== 1 ||
+        typeof event.assignmentId !== "string" ||
+        !event.assignmentId.length ||
+        event.assignmentId.length > 128 ||
+        !Number.isInteger(event.attemptNumber) ||
+        event.attemptNumber < 1 ||
+        event.attemptNumber > 1000000 ||
+        typeof event.completed !== "boolean" ||
+        event.completed !== event.correct
+      )
+        fail();
+    }
     ids.add(event.id);
   }
   for (const [id, tags] of Object.entries(data.tags)) {
@@ -88,9 +112,17 @@ export function mergeProgress(current, incoming) {
     if (events.has(event.id)) {
       const local = events.get(event.id);
       if (
-        ["cardId", "time", "correct", "assisted", "materialVersion"].some(
-          (key) => local[key] !== event[key],
-        )
+        [
+          "cardId",
+          "time",
+          "correct",
+          "assisted",
+          "materialVersion",
+          "scoringVersion",
+          "assignmentId",
+          "attemptNumber",
+          "completed",
+        ].some((key) => local[key] !== event[key])
       )
         conflicts++;
       else duplicates++;

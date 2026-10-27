@@ -50,7 +50,7 @@ def main():
             page.locator('#info-dialog').wait_for(state='hidden')
             assert page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.length') == 2
             before = page.evaluate('JSON.stringify(Object.entries(localStorage).sort())')
-            for invalid in [{**payload,'schemaVersion':2},{**payload,'events':[{**new,'correct':'true'}]}]:
+            for invalid in [{**payload,'schemaVersion':99},{**payload,'events':[{**new,'correct':'true'}]}]:
                 upload(invalid)
                 page.get_by_role('heading',name='Не удалось загрузить прогресс').wait_for()
                 assert page.locator('[data-action=apply-import]').count() == 0
