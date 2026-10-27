@@ -5,8 +5,7 @@
 ## Справочник
 
 Источник: data/knowledge/handbook.json. Сборка копирует его в
-html/assets/data/handbook.json; браузер загружает через data.js и
-services.knowledge. Параграф имеет постоянный id, локальный номер, заголовок,
+html/assets/data/handbook.json; браузер загружает через data.js и отображает в knowledge.js. Параграф имеет постоянный id, локальный номер, заголовок,
 текст, связанные позиции и статус ревью. Пример адреса:
 
 `#knowledge?rule=prefixes-i-y&card=09169B`

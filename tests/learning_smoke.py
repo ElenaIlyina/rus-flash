@@ -94,7 +94,7 @@ def main():
             page.get_by_role('button',name='Подсказка',exact=True).click()
             assert page.locator('#hint').is_visible()
             if '--screenshots' in sys.argv:
-                folder=ROOT/'docs/learning'
+                folder=Path('/tmp/rus-flash-screenshots/learning')
                 folder.mkdir(parents=True,exist_ok=True)
                 page.screenshot(path=str(folder/'hint-390.png'),full_page=True)
             page.reload(wait_until='networkidle')
@@ -130,7 +130,7 @@ def main():
                 page.set_viewport_size({'width':width,'height':900})
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if '--screenshots' in sys.argv and width in [390,1440]:
-                    page.screenshot(path=str(ROOT/'docs/learning'/f'overview-{width}.png'),full_page=True)
+                    page.screenshot(path=str(Path('/tmp/rus-flash-screenshots/learning')/f'overview-{width}.png'),full_page=True)
             # EECA69 must submit even when randomUUID is unavailable (HTTP / older browsers).
             http_page = browser.new_page()
             http_page.on('pageerror', lambda e: errors.append(str(e)))

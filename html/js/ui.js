@@ -10,14 +10,12 @@ const icons = {
   check: '<path d="m5 12 4 4L19 6"/>',
   bookmark: '<path d="M6 4h12v17l-6-4-6 4z"/>',
   repeat: '<path d="M20 7h-9a6 6 0 1 0 5 9M16 3l4 4-4 4"/>',
-  spark:
-    '<path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/>',
   search: '<circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/>',
   clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
   leaf: '<path d="M5 19C1 7 9 3 21 3c0 12-4 20-16 16Zm0 0L16 8"/>',
 };
 export const icon = (name, cls = "") =>
-  `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || icons.spark}</svg>`;
+  `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || icons.knowledge}</svg>`;
 export const esc = (value) =>
   String(value ?? "").replace(
     /[&<>"']/g,

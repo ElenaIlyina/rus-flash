@@ -407,12 +407,6 @@
   font-size: 21px;
   overflow-wrap: anywhere;
 }
-.review-label {
-  display: block;
-  font-size: 9px;
-  color: rgb(155, 145, 163);
-  margin: 9px 0px 17px;
-}
 .explanation-text {
   font-size: 15px;
   line-height: 1.8;

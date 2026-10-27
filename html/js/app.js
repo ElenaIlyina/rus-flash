@@ -14,10 +14,8 @@ import { renderGlobalProgress, renderLearningProgress } from "./progress.js";
 import { strategyHint } from "./hints.js";
 import { icon, esc, rich, plain, num } from "./ui.js";
 import { parseProgress, mergeProgress } from "./progress-transfer.js";
-import { renderProgressPreview } from "./progress-preview.js";
 import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
-import { services } from "./services.js";
 
 const main = document.querySelector("#main");
 const navs = [
@@ -341,10 +339,6 @@ function checkAnswer(event) {
     toast("Не удалось сохранить попытку: проверьте доступ к хранилищу.");
 }
 function renderProgress(params) {
-  if (params.get("view") === "preview") {
-    main.innerHTML = renderProgressPreview(params);
-    return;
-  }
   if (params.get("view") !== "history") {
     main.innerHTML = renderLearningProgress(learning(), catalog, topics);
     return;
@@ -359,7 +353,7 @@ function renderProgress(params) {
       "ЗАМЕЧАЙТЕ СВОИ ШАГИ",
       "Мой прогресс",
       "Не соревнование с другими. История того, что вы уже попробовали.",
-      '<div class="progress-actions"><a class="button primary" href="#progress?view=preview">Новый дашборд · демо</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
+      '<div class="progress-actions"><a class="button primary" href="#progress">Обзор прогресса</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
     ) +
     `
     <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Проверки без подсказок</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
@@ -387,7 +381,7 @@ function renderProgress(params) {
             '<a href="#bank" class="button primary">Выбрать карточку</a>',
           )
     }</section>
-    <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Скачайте файл прогресса и загрузите его на другом устройстве, чтобы продолжить занятия.</p></div><button class="button secondary" data-action="sync">О синхронизации</button></div>`;
+    <div class="sync-card">${icon("repeat")}<div><h3>На телефоне и компьютере</h3><p>Скачайте файл прогресса и загрузите его на другом устройстве, чтобы продолжить занятия.</p></div><button class="button secondary" data-action="transfer-info">Как перенести прогресс</button></div>`;
 }
 async function renderKnowledge(params, version) {
   const html = await knowledgePage({ params, catalog, heading, empty });
@@ -483,26 +477,7 @@ document.addEventListener("click", async (event) => {
         "<p>Практикуйтесь, разбирайте правила и возвращайтесь к темам, которые хочется закрепить.</p><p><a href='#settings'>Настройки обучения</a></p><p>Прогресс хранится в этом браузере. Чтобы перенести его на другое устройство, скачайте файл прогресса и загрузите его там.</p>",
       );
       break;
-    case "adaptive": {
-      const suggestion = await services.adaptive.recommend({
-        catalog,
-        progress: learning(),
-        tags: (id) => store.tags(id),
-        seed: shuffleSeed,
-      });
-      modal(
-        "Подбор для практики",
-        `<p>${esc(suggestion.reasonText)}</p>${suggestion.cardId ? `<a class="button primary" href="#card/${suggestion.cardId}">Открыть предложенную карточку</a>` : ""}`,
-      );
-      break;
-    }
-    case "rag":
-      modal(
-        "Источники, затем объяснение",
-        '<p>В справочнике собраны короткие правила, примеры и ссылки на параграфы академического справочника.</p><a class="text-link" href="#knowledge">Открыть справочник</a>',
-      );
-      break;
-    case "sync":
+    case "transfer-info":
       modal(
         "Продолжить на другом устройстве",
         "<p>Скачайте прогресс здесь и загрузите файл в приложении на другом устройстве. Перед загрузкой вы увидите состав изменений; история объединится с текущими записями.</p><p>Автоматического переноса между устройствами нет.</p>",
@@ -556,7 +531,7 @@ document.addEventListener("click", async (event) => {
     case "next": {
       if (!currentCard) break;
       if (filter.sort === "practice") {
-        const suggestion = await services.adaptive.recommend({
+        const suggestion = recommendPractice({
           catalog,
           progress: learning(),
           task: currentCard.task,
@@ -660,7 +635,7 @@ document
       pendingImport = incoming;
       modal(
         "Загрузить прогресс?",
-        `<p>Файл: <strong>${esc(file.name)}</strong></p><p>Новых попыток: ${result.added}. Новых отметок: ${result.marksAdded}. Уже есть: ${result.duplicates}.</p>${result.conflicts ? `<p>Конфликтов ID: ${result.conflicts}. Для них сохранятся записи этого устройства.</p>` : ""}${unknown ? `<p>Неизвестных текущему банку карточек: ${unknown}. История сохранится, но не будет учитываться в текущих показателях.</p>` : ""}<p>История объединится без удаления текущих попыток. Отметки из файла добавятся к существующим; снятые отметки не удаляют выбранные на этом устройстве. Демо-статусы не загружаются.</p><div class="progress-actions"><button class="button secondary" data-action="export">Скачать текущую копию</button><button class="button primary" data-action="apply-import">Объединить прогресс</button></div>`,
+        `<p>Файл: <strong>${esc(file.name)}</strong></p><p>Новых попыток: ${result.added}. Новых отметок: ${result.marksAdded}. Уже есть: ${result.duplicates}.</p>${result.conflicts ? `<p>Конфликтов ID: ${result.conflicts}. Для них сохранятся записи этого устройства.</p>` : ""}${unknown ? `<p>Неизвестных текущему банку карточек: ${unknown}. История сохранится, но не будет учитываться в текущих показателях.</p>` : ""}<p>История объединится без удаления текущих попыток. Отметки из файла добавятся к существующим; снятые отметки не удаляют выбранные на этом устройстве.</p><div class="progress-actions"><button class="button secondary" data-action="export">Скачать текущую копию</button><button class="button primary" data-action="apply-import">Объединить прогресс</button></div>`,
       );
       document.querySelector("#info-dialog form button").textContent = "Отмена";
     } catch (error) {

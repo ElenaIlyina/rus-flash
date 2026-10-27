@@ -43,7 +43,7 @@ def main():
             assert not any('/cards/' in url for url in requests), 'Home must not preload the bank'
             checks += 1
             if '--screenshots' in sys.argv:
-                folder = ROOT / 'docs/ui-preview'
+                folder = Path('/tmp/rus-flash-screenshots/ui')
                 folder.mkdir(parents=True, exist_ok=True)
                 page.screenshot(path=str(folder / 'desktop-home.png'), full_page=True)
             page.locator('#desktop-nav a[href="#bank"]').click()

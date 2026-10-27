@@ -519,7 +519,7 @@
     font-size: 7px;
   }
 }
-.aggregate-demo .skill-bar {
+.aggregate-progress .skill-bar {
   margin-top: 17px;
   height: 14px;
   gap: 4px;
@@ -532,24 +532,12 @@
   font-size: 11px;
   color: rgb(142, 133, 157);
 }
-.aggregate-demo-badge {
-  display: inline-block;
-  margin-left: 7px;
-  padding: 4px 6px;
-  border-radius: 4px;
-  background: rgb(229, 222, 239);
-  color: rgb(138, 122, 157);
-  font-size: 8px;
-  font-weight: 500;
-  vertical-align: middle;
-  letter-spacing: 0.6px;
-}
-.aggregate-demo .skill-legend {
+.aggregate-progress .skill-legend {
   gap: 10px 15px;
   margin: 18px 0px 0px;
   font-size: 9px;
 }
-.aggregate-demo .skill-legend b {
+.aggregate-progress .skill-legend b {
   font-size: 9px;
 }
 @media (max-width: 760px) {
@@ -557,7 +545,7 @@
     font-size: 10px;
     gap: 8px;
   }
-  .aggregate-demo .skill-legend {
+  .aggregate-progress .skill-legend {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;

@@ -1,10 +1,10 @@
-/* Demonstration progress dashboard; isolated from real history. */
+/* Progress, source notes and learning settings. */
 .progress-actions {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
-.preview-warning {
+.source-warning {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -14,39 +14,9 @@
   border-radius: 12px;
   margin-bottom: 18px;
 }
-.preview-warning p {
+.source-warning p {
   font-size: 12px;
   color: rgb(116, 102, 74);
-}
-.preview-badge {
-  background: rgb(231, 220, 193);
-  color: rgb(121, 99, 62);
-  font-size: 9px;
-  letter-spacing: 1px;
-  padding: 6px 9px;
-  border-radius: 5px;
-  font-weight: 650;
-}
-.preview-scenarios {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 25px;
-}
-.preview-scenarios a {
-  font-size: 11px;
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  padding: 10px 14px;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  color: var(--muted);
-}
-.preview-scenarios a[aria-current] {
-  background: var(--lavender);
-  border-color: rgb(216, 209, 233);
-  color: var(--accent);
 }
 .learning-overview {
   display: grid;
@@ -134,34 +104,6 @@
   color: var(--muted);
   padding: 8px 0px;
 }
-.review-invitation {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 22px 25px;
-  margin: 22px 0px 34px;
-  border: 1px solid rgb(220, 229, 217);
-  border-radius: 14px;
-  background: rgb(237, 242, 233);
-}
-.review-clock {
-  font-size: 30px;
-  color: rgb(129, 150, 121);
-  flex-shrink: 0;
-}
-.review-invitation h3 {
-  font-size: 16px;
-}
-.review-invitation p {
-  font-size: 11px;
-  color: rgb(124, 141, 113);
-  margin-top: 6px;
-}
-.review-invitation .button {
-  margin-left: auto;
-  flex-shrink: 0;
-  font-size: 11px;
-}
 .skill-legend {
   display: flex;
   gap: 21px;
@@ -217,8 +159,7 @@
   border-radius: 14px;
   padding: 23px;
 }
-.coverage-topic:hover,
-.coverage-topic.is-selected {
+.coverage-topic:hover {
   border-color: rgb(180, 165, 208);
   background: rgb(253, 251, 255);
 }
@@ -302,10 +243,6 @@
   color: var(--muted);
   font-size: 10px;
 }
-.skill-chevron {
-  color: rgb(154, 145, 166);
-  font-size: 18px;
-}
 .skill-reason {
   background: rgb(247, 246, 249);
   padding: 20px;
@@ -317,31 +254,8 @@
   color: var(--muted);
   margin-top: 9px;
 }
-.skill-bank-note {
-  font-size: 10px;
-  color: var(--muted);
-  margin-top: 12px;
-}
 .skill-detail > .button {
   margin-top: 20px;
-}
-.quality-disclosure {
-  border-top: 1px solid var(--line);
-  margin-top: 30px;
-  padding-top: 10px;
-}
-.quality-disclosure summary {
-  font-size: 12px;
-  min-height: 48px;
-  cursor: pointer;
-  align-content: center;
-  color: var(--muted);
-}
-.quality-disclosure p {
-  font-size: 12px;
-  color: var(--muted);
-  max-width: 700px;
-  padding: 8px 0px;
 }
 @media (max-width: 1000px) {
   .coverage-topics {
@@ -359,37 +273,15 @@
   .consolidation h2 {
     font-size: 20px;
   }
-  .review-invitation {
-    flex-wrap: wrap;
-  }
-  .review-invitation > div {
-    flex: 1 1 0%;
-    min-width: 170px;
-  }
-  .review-invitation .button {
-    margin-left: 45px;
-  }
 }
 @media (max-width: 760px) {
-  .preview-warning {
+  .source-warning {
     align-items: flex-start;
     padding: 16px;
     gap: 10px;
   }
-  .preview-warning p {
+  .source-warning p {
     font-size: 11px;
-  }
-  .preview-badge {
-    font-size: 8px;
-    padding: 5px 7px;
-    margin-top: 2px;
-  }
-  .preview-scenarios {
-    gap: 6px;
-  }
-  .preview-scenarios a {
-    font-size: 10px;
-    padding: 10px;
   }
   .learning-overview {
     grid-template-columns: 1fr;
@@ -448,23 +340,6 @@
   .coverage-panel > .metric-explainer {
     margin-top: 5px;
   }
-  .review-invitation {
-    padding: 20px;
-    gap: 12px;
-    margin-bottom: 28px;
-  }
-  .review-invitation h3 {
-    font-size: 15px;
-  }
-  .review-invitation p {
-    font-size: 12px;
-  }
-  .review-invitation > div {
-    min-width: 150px;
-  }
-  .review-invitation .button {
-    margin-left: 37px;
-  }
   .skill-legend {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -511,9 +386,6 @@
     margin-left: 19px;
     font-size: 10px;
   }
-  .skill-chevron {
-    margin-left: auto;
-  }
   .skill-reason {
     margin-left: 0px;
     padding: 17px;
@@ -521,12 +393,6 @@
   .progress-actions .button {
     font-size: 11px;
   }
-  .quality-disclosure p {
-    font-size: 12px;
-  }
-}
-.skill-row[open] .skill-chevron {
-  transform: rotate(45deg);
 }
 
 .settings-form {

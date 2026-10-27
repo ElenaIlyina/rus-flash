@@ -64,7 +64,7 @@ def main():
             page.reload(wait_until='networkidle')
             page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
             if '--screenshots' in sys.argv:
-                folder=ROOT/'docs/knowledge'
+                folder=Path('/tmp/rus-flash-screenshots/knowledge')
                 folder.mkdir(parents=True,exist_ok=True)
                 page.screenshot(path=str(folder/'source-12-390.png'),full_page=True)
             page.get_by_role('link',name='Оглавление книги',exact=True).click()
@@ -111,7 +111,7 @@ def main():
             page.locator('[data-action=reveal]').click()
             page.locator('.explanation-sources summary').click()
             if '--screenshots' in sys.argv:
-                page.screenshot(path=str(ROOT/'docs/knowledge'/'prefix-09169B-1440.png'),full_page=True)
+                page.screenshot(path=str(Path('/tmp/rus-flash-screenshots/knowledge')/'prefix-09169B-1440.png'),full_page=True)
             page.get_by_role('link',name='Ряд 4: Орфография, §12 · Эксмо, 2007',exact=True).click()
             page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
             payload=json.loads((ROOT/'html/assets/data/handbook-sources/lopatin-2007-orthography-12.json').read_text())

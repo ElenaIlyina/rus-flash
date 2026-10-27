@@ -3,7 +3,6 @@ import {
   loadHandbookSources,
   loadSourceParagraph,
 } from "./data.js";
-import { services } from "./services.js";
 import { esc, rich } from "./ui.js";
 const partName = (part) =>
   part === "orthography" ? "Орфография" : "Пунктуация";
@@ -37,7 +36,7 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
       ) +
       back(meta) +
       `<nav class="rule-links"><a class="text-link" href="#knowledge?edition=${paragraph.editionId}${context(meta)}">Оглавление книги</a>${ruleId ? `<a class="text-link" href="#knowledge?rule=${esc(ruleId)}${context(meta)}">Вернуться к нашему объяснению</a>` : '<a class="text-link" href="#knowledge">Короткие правила</a>'}</nav>
-      ${paragraph.editorialNotes?.length ? `<aside class="preview-warning"><div><strong>Опечатки в источнике</strong>${paragraph.editorialNotes.map((note) => `<p>${esc(note.original)}${note.replacement ? " → " + esc(note.replacement) : " — опечатка в примере"}</p>`).join("")}</div></aside>` : ""}<article class="panel knowledge-rule source-paragraph" data-source-id="${esc(paragraph.id)}"><div class="explanation-text">${rich(paragraph.body, { markdown: false })}</div>${paragraph.notes.length ? `<details class="source-notes"><summary>Примечания к этому параграфу</summary>${paragraph.notes.map((note) => `<p>${rich(note.body, { markdown: false })}</p>`).join("")}</details>` : ""}</article>`
+      ${paragraph.editorialNotes?.length ? `<aside class="source-warning"><div><strong>Опечатки в источнике</strong>${paragraph.editorialNotes.map((note) => `<p>${esc(note.original)}${note.replacement ? " → " + esc(note.replacement) : " — опечатка в примере"}</p>`).join("")}</div></aside>` : ""}<article class="panel knowledge-rule source-paragraph" data-source-id="${esc(paragraph.id)}"><div class="explanation-text">${rich(paragraph.body, { markdown: false })}</div>${paragraph.notes.length ? `<details class="source-notes"><summary>Примечания к этому параграфу</summary>${paragraph.notes.map((note) => `<p>${rich(note.body, { markdown: false })}</p>`).join("")}</details>` : ""}</article>`
     );
   }
   const sources = await loadHandbookSources();
@@ -73,13 +72,14 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
     );
   }
   const book = await loadHandbook();
-  const selected = ruleId ? await services.knowledge.getRule(ruleId) : null;
+  const selected = book.paragraphs.find((rule) => rule.id === ruleId);
   const related = params.get("card")
     ? meta
-      ? await services.knowledge.findRules({
-          task: meta.task,
-          ruleIds: meta.ruleIds || [],
-        })
+      ? book.paragraphs.filter(
+          (rule) =>
+            (meta.ruleIds || []).includes(rule.id) ||
+            rule.tasks.includes(meta.task),
+        )
       : []
     : book.paragraphs;
   const rules = ruleId ? (selected ? [selected] : []) : related;

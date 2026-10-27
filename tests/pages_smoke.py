@@ -39,7 +39,8 @@ def main():
                 page.locator('.exercise').wait_for()
                 assert page.url.startswith(base + '#card/')
                 page.goto(base + '#progress?view=preview', wait_until='networkidle')
-                assert page.locator('.learning-number').inner_text() == '38%'
+                assert page.locator('.learning-number').inner_text() == '0%'
+                assert page.locator('a[href*="view=preview"]').count() == 0
                 page.locator('a[href="#progress?view=history"]').click()
                 page.locator('.progress-grid').wait_for()
                 assert page.locator('.design-review').count() == 0

@@ -31,10 +31,9 @@ rus-flash/
 ├── tests/                            Браузерные проверки
 │   ├── ui_smoke.py                   Основные функции
 │   ├── composed_home_smoke.py        Главная на пяти ширинах
-│   ├── progress_preview_smoke.py     Демонстрация прогресса
 │   ├── progress_transfer_smoke.py    Импорт и экспорт
 │   └── pages_smoke.py                Работа под префиксом /rus-flash/
-├── docs/                             Этот набор документов и снимки
+├── docs/                             Спецификация, план, источники и журнал
 └── .github/workflows/
     └── deploy-pages.yml              Ручная публикация
 ```
@@ -66,8 +65,6 @@ html/
 │   ├── hints.js                      Стратегии-подсказки
 │   ├── progress.js                   Реальный дашборд
 │   ├── progress-transfer.js          Проверка и объединение JSON v1/v2
-│   ├── progress-preview.js           Демо-данные и представление прогресса
-│   └── services.js                   Контракты будущих сервисов
 └── assets/
     ├── brand/slovo-za-slovo-school.png Логотип
     └── data/                         Генерируется; не хранится в Git
@@ -97,8 +94,6 @@ flowchart TD
     App --> Store["store.js — реальный прогресс"]
     Store --> Local["localStorage браузера"]
     Store --> Transfer["progress-transfer.js — импорт/экспорт"]
-    App --> Preview["progress-preview.js — изолированное демо"]
-    App --> Services["services.js — будущие подключения"]
 ```
 
 data/ — источник истины. Файлы assets/data/cards/ содержат те же карточки,
@@ -123,8 +118,6 @@ data/ — источник истины. Файлы assets/data/cards/ соде�
 | Преобразование старой модели | html/js/data.js: adaptCard() |
 | Локальная история и отметки | html/js/store.js |
 | Политика импорта | html/js/progress-transfer.js |
-| Визуальная демонстрация статусов | html/js/progress-preview.js |
-| Будущие сервисы | html/js/services.js и обработка результатов в app.js |
 
 Старые legacy.html, dashboard.html, stats.html, ezhik.png и генераторы HTML
 удалены из действующего проекта; история доступна в Git. В папке от прежнего

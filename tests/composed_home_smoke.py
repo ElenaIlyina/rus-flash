@@ -22,7 +22,7 @@ def main():
             browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
             page = browser.new_page()
             page.on('pageerror', lambda error: errors.append(str(error)))
-            folder = ROOT / 'docs/composed-home'
+            folder = Path('/tmp/rus-flash-screenshots/home')
             if '--screenshots' in sys.argv:
                 folder.mkdir(parents=True, exist_ok=True)
             for width in [1440, 1024, 768, 390, 320]:
@@ -47,7 +47,7 @@ def main():
                 assert page.locator('.study-hero .button').count() == 0
                 assert page.locator('.study-hero .stat-strip').count() == 1
                 assert page.evaluate("document.querySelector('.home-coverage').previousElementSibling.matches('.stat-strip')")
-                assert page.locator('.aggregate-demo .skill-segment').count() == 1
+                assert page.locator('.aggregate-progress .skill-segment').count() == 1
                 assert page.locator('.aggregate-demo-badge').count() == 0
                 assert 'Охват 0 / 2140' in page.locator('.aggregate-caption').inner_text()
                 assert 'Пора повторить: 0' in page.locator('.aggregate-caption').inner_text()
@@ -97,7 +97,7 @@ def main():
             browser.close()
     finally:
         server.shutdown()
-    print('PASS: composed home at 5 widths; notes/poster links; icon rail; default demo and real history')
+    print('PASS: composed home at 5 widths; notes/poster links; icon rail; real progress and history')
 
 
 if __name__ == '__main__':
