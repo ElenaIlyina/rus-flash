@@ -105,11 +105,13 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "60138b6e025fdf75d61b2f7daf73806455f350f1687182dce66fee65a389c5cd",
-      "explanationSha256": "a37e06ebb370bc64198ffbc6fe0b33d5797982fa1c5dad4ec656b406eb2c06bb",
+      "explanationSha256": "8890f75cfe7950cfd56f8e52147be540863c56a1b410d7848c32e174681f0832",
       "hint": "Проверьте, что обозначает выделенное прилагательное: уже обработанный предмет или средство для обработки. Подобранный пароним согласуйте с определяемым существительным.",
       "rows": [],
       "referenceStatus": "compared_entries_and_published_explanation_checked_in_user_pdf",
-      "paronymPairIds": ["lacquered-lacquering"],
+      "paronymPairIds": [
+        "lacquered-lacquering"
+      ],
       "dictionaryReview": {
         "status": "verified",
         "scope": "published_explanation_and_compared_words_not_all_variants_or_all_fipi_answers",
@@ -199,7 +201,9 @@
       "hint": "Определите, что требуется передать: принадлежность противнику или недружелюбное отношение. Затем согласуйте подходящее слово с существительным в предложении.",
       "rows": [],
       "referenceStatus": "compared_entries_and_published_explanation_checked_in_user_pdf",
-      "paronymPairIds": ["hostile-enemy"],
+      "paronymPairIds": [
+        "hostile-enemy"
+      ],
       "dictionaryReview": {
         "status": "verified",
         "scope": "published_explanation_and_compared_words_not_all_variants_or_all_fipi_answers",

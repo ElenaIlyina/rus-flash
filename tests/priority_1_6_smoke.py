@@ -36,6 +36,20 @@ def main():
             for review in reviews:
                 card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
                 page.goto(f'http://127.0.0.1:{server.server_port}/#card/{review["id"]}',wait_until='networkidle')
+                if review['id']=='012CAB':
+                    assert by_id['012CAB']['eligibleForProgress'] is True
+                    page.locator('#answer-input').fill('лаковым')
+                    page.locator('#answer-form [type=submit]').click()
+                    assert page.locator('#answer-feedback .warning').is_visible()
+                    first=page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1)')
+                    assert first['correct'] is False and first['attemptNumber']==1 and not first['assisted']
+                    page.locator('#answer-input').fill('лакировочным')
+                    page.locator('#answer-form [type=submit]').click()
+                    assert page.locator('#answer-feedback .success').is_visible()
+                    second=page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1)')
+                    assert second['correct'] is True and second['attemptNumber']==2 and not second['assisted']
+                    assert '0.500' in page.locator('[data-learning-score]').inner_text()
+                    page.get_by_role('button',name='Начать новую попытку',exact=True).click()
                 page.get_by_role('button',name='Подсказка',exact=True).click()
                 dictionary_pending=review['task']==5 and review.get('dictionaryReview',{}).get('status')!='verified'
                 if dictionary_pending:
@@ -63,6 +77,10 @@ def main():
                     assert 'Объяснение пока недоступно' in page.locator('#explanation').inner_text()
                 else:
                     assert page.locator('#explanation .explanation-text').is_visible()
+                if review['id']=='012CAB':
+                    explanation=page.locator('#explanation .explanation-text').inner_text()
+                    assert 'допустимо по словарю' in explanation
+                    assert 'Ответ «лаковым» не засчитывается' in explanation
                 if review.get('paronymPairIds') and not dictionary_pending:
                     assert page.locator('.paronym-comparison').count()==len(review['paronymPairIds'])
                     assert page.locator('.paronym-word').count()==sum(len(pairs[pid]['words']) for pid in review['paronymPairIds'])

@@ -742,6 +742,17 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "338d5777cb67f4efeda4f828529c3ec90ff0110aa78d02ea540bee9a43be9a2c",
       "explanationSha256": "129fd1206a45cb7adf02c478bbfbda7dcd80f6db0ae336c30f9e2328a5cc2db4"
+    },
+    {
+      "changeId": "PARONYM-KEY-POLICY-012CAB",
+      "id": "012CAB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "По решению автора автоматическое оценивание строго соответствует сохранённому ключу ФИПИ. Снята блокировка 012CAB; словарное «лаковый раствор» остаётся пояснением и не расширяет принимаемые ответы.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a37e06ebb370bc64198ffbc6fe0b33d5797982fa1c5dad4ec656b406eb2c06bb",
+      "explanationSha256": "8890f75cfe7950cfd56f8e52147be540863c56a1b410d7848c32e174681f0832"
     }
   ]
 }

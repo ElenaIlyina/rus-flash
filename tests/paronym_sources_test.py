@@ -38,15 +38,15 @@ class ParonymSourcesTest(unittest.TestCase):
         self.assertFalse(publication_ready({},self.sources))
         with self.assertRaises(ValueError):publication_ready({'dictionaryReview':{'status':'verified','sourceRefs':[]}},self.sources)
 
-    def test_lacquer_reference_is_resolved_and_alternative_is_not_hidden(self):
+    def test_lacquer_reference_is_resolved_without_overriding_exam_key(self):
         pair=self.book['pairs'][0]
         self.assertEqual([w['word'] for w in pair['words']],['Лакированный','Лакировочный','Лаковый'])
         refs=pair['words'][1]['dictionaryRefs']
         self.assertTrue(any(r['headword']=='лакировочный' and r['pdfPage']==574 for r in refs))
         self.assertTrue(any(r['headword']=='лакировальный' and r['pdfPage']==573 for r in refs))
         self.assertIn('лаковый раствор',pair['words'][2]['examples'])
-        override=json.loads((ROOT/'data/content_review_overrides.json').read_text())['cards']['012CAB']
-        self.assertFalse(override['eligibleForProgress'])
+        overrides=json.loads((ROOT/'data/content_review_overrides.json').read_text())['cards']
+        self.assertNotIn('012CAB',overrides)
         card=json.loads((ROOT/'data/card_012CAB.json').read_text())
         self.assertEqual(card['answer'],'ЛАКИРОВОЧНЫМ')
         self.assertEqual(card['answer_verify'],'ЛАКИРОВОЧНЫМ')
