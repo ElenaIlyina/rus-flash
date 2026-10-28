@@ -346,6 +346,17 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "75394d8bc69e9ba809f3604f83a6c1f9f199a63bb1358a2efd84ea29b52874c1",
       "explanationSha256": "f94a07972628b3993f6085c17810c5f0c14c2079568533e25e5054d368a04652"
+    },
+    {
+      "changeId": "ROOT-003B4D",
+      "id": "003B4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Классификация гласных в готовых словах: разбор всех пяти рядов, без вымышленных пропусков и заглавных букв внутри слов. Ударение указано в проверочных словах. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f94a07972628b3993f6085c17810c5f0c14c2079568533e25e5054d368a04652",
+      "explanationSha256": "f3a487f2d28bcce839d083819e063a48fe9f0a03bc2f8b12f802075c7cda49c2"
     }
   ]
 }

@@ -129,6 +129,19 @@ def main():
             page.locator('.explanation-sources summary').click()
             page.get_by_role('link',name='Ряд 3: Орфография, §34 · Эксмо, 2007',exact=True).click()
             page.locator('[data-source-id="lopatin-2007-orthography-34"]').wait_for()
+            page.goto(base+'#card/003B4D',wait_until='networkidle')
+            page.get_by_role('button',name='Подсказка',exact=True).click()
+            hint=page.locator('#hint').inner_text()
+            assert 'Слова уже написаны полностью' in hint
+            assert 'пропуск' not in hint
+            page.get_by_role('button',name='Ответ и разбор',exact=True).click()
+            explanation=page.locator('#explanation').inner_text()
+            assert 'Пропущенные буквы' not in explanation
+            assert 'шЕлестеть' not in explanation and 'ше́лест' in explanation
+            assert 'се́д' in explanation and 'Ряд 5 — подходит' in explanation
+            page.locator('.explanation-sources summary').click()
+            page.get_by_role('link',name='Ряд 4: Орфография, §34 · Эксмо, 2007',exact=True).click()
+            page.locator('[data-source-id="lopatin-2007-orthography-34"]').wait_for()
             assert not errors,errors
             browser.close()
     finally:

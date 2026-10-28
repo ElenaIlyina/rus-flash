@@ -74,7 +74,7 @@ class HandbookTest(unittest.TestCase):
 
     def test_root_batch_preserves_fipi_source_and_has_exact_links(self):
         reviews=json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards']
-        self.assertEqual(len(reviews),4)
+        self.assertEqual(len(reviews),5)
         for review in reviews:
             card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
             self.assertEqual(render_prefix(card,review),card['explanation'])
@@ -85,6 +85,24 @@ class HandbookTest(unittest.TestCase):
             changed['question']+=' Изменение без согласования'
             with self.assertRaisesRegex(ValueError,'Source content changed'):
                 render_prefix(changed,review)
+
+    def test_ready_words_are_classified_without_invented_gaps(self):
+        review=next(r for r in json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards'] if r['id']=='003B4D')
+        card=json.loads((ROOT/'data/card_003B4D.json').read_text())
+        text=render_prefix(card,review)
+        self.assertNotIn('Пропущенные буквы',text)
+        self.assertNotIn('пропуск',review['hint'])
+        import re
+        self.assertIsNone(re.search(r'[а-яё][А-ЯЁ][а-яё]',text))
+        self.assertIn('ше́лест',text)
+        wrong=copy.deepcopy(review)
+        wrong['rows'][0]['classifications']=['checked']*3
+        with self.assertRaisesRegex(ValueError,'disagrees'):
+            render_prefix(card,wrong)
+        wrong=copy.deepcopy(review)
+        wrong['rows'][0]['words'][0]='рост'
+        with self.assertRaisesRegex(ValueError,'differ from source'):
+            render_prefix(card,wrong)
 
     def test_prefix_batch_checks_every_card_before_writing(self):
         reviews=json.loads((ROOT/'data/knowledge/prefix_card_reviews.json').read_text())['cards'][:2]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce source-linked row-by-row explanations for inspected same-letter gap cards.
+"""Reproduce source-linked row explanations for reviewed spelling exercises.
 
 Default: check only. --write updates explanations and appends immutable review records.
 Does not change answers, source questions, or variants. Word forms are editorial data,
@@ -28,10 +28,26 @@ def render(card,review):
         raise ValueError('Source content changed; author approval and re-review required: '+card['number'])
     rows=variants(card)
     if len(rows)!=len(review['rows']):raise ValueError('Row count mismatch: '+card['number'])
+    kind=review.get('kind','same_letter_gap')
+    if kind not in {'same_letter_gap','checked_root_vowels'}:
+        raise ValueError('Unsupported review kind: '+kind)
+    if kind=='checked_root_vowels' and 'безударная проверяемая гласная корня' not in card['question']:
+        raise ValueError('Instruction does not match root classification: '+card['number'])
     selected=[];blocks=[]
-    for row,template in zip(review['rows'],rows):
+    for index,(row,template) in enumerate(zip(review['rows'],rows),1):
+        if row['number']!=index:raise ValueError('Row numbers must match source order')
         patterns=template.split(',')
         if len(patterns)!=len(row['words']):raise ValueError('Word count mismatch')
+        if kind=='checked_root_vowels':
+            originals=[re.sub(r'\([^)]*\)','',html.unescape(re.sub('<[^>]*>','',p))).strip() for p in patterns]
+            if originals!=row['words']:raise ValueError('Review words differ from source row')
+            kinds=row['classifications']
+            if len(kinds)!=len(originals) or any(k not in {'checked','alternating','dictionary'} for k in kinds):
+                raise ValueError('Invalid root classifications')
+            fits=all(k=='checked' for k in kinds)
+            if fits:selected.append(str(row['number']))
+            blocks.append(f"<b>Ряд {row['number']}{' — подходит' if fits else ' — не подходит'}.</b> "+html.escape(row['reason']))
+            continue
         completed=[];letters=[]
         for pattern,word in zip(patterns,row['words']):
             bare=re.sub(r'\([^)]*\)','',html.unescape(re.sub('<[^>]*>','',pattern))).strip()
@@ -47,7 +63,8 @@ def render(card,review):
     answer=''.join(selected)
     if answer!=card['answer'] or ''.join('1'if str(i+1)in selected else'0'for i in range(len(rows)))!=card['answer_verify']:
         raise ValueError('Editorial row selection disagrees with historically checked answer: '+card['number'])
-    return 'Верно: '+', '.join(selected)+'.<br><br>'+'<br><br>'.join(blocks)
+    intro=('Слова уже написаны полностью. Выбираем ряды, где в каждом слове есть безударная гласная корня, которую можно проверить ударением. Чередующееся или словарное написание не подходит. Знак ударения в проверочном слове показывает, какую гласную проверяем.<br><br>' if kind=='checked_root_vowels' else '')
+    return 'Верно: '+', '.join(selected)+'.<br><br>'+intro+'<br><br>'.join(blocks)
 
 
 def main():
@@ -63,7 +80,8 @@ def main():
         if not args.write:raise ValueError('Explanation differs from reviewed rows: '+review['id'])
         before=card['explanation'];card['explanation']=expected
         prepared.append((path, json.dumps(card,ensure_ascii=False,indent=2)+'\n'))
-        log['reviews'].append({'changeId':('ROOT-' if args.group=='roots' else 'PREFIX-')+review['id'],'id':review['id'],'reviewer':'assistant','reviewDate':batch.get('reviewDate','2026-10-27'),'status':review['status'],'reason':'Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. '+registry+'.','answerUnchanged':True,'previousExplanationSha256':hashlib.sha256(before.encode()).hexdigest(),'explanationSha256':hashlib.sha256(expected.encode()).hexdigest()})
+        reason=('Классификация гласных в готовых словах: разбор всех пяти рядов, без вымышленных пропусков и заглавных букв внутри слов. Ударение указано в проверочных словах.' if review.get('kind')=='checked_root_vowels' else 'Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску.')
+        log['reviews'].append({'changeId':('ROOT-' if args.group=='roots' else 'PREFIX-')+review['id'],'id':review['id'],'reviewer':'assistant','reviewDate':batch.get('reviewDate','2026-10-27'),'status':review['status'],'reason':reason+' Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. '+registry+'.','answerUnchanged':True,'previousExplanationSha256':hashlib.sha256(before.encode()).hexdigest(),'explanationSha256':hashlib.sha256(expected.encode()).hexdigest()})
     changed=len(prepared)
     if args.write and prepared:
         # Validate the complete batch before any mutation; keep the journal with the edits.
