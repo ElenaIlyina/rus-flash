@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-29",
+  "cards": [
+    {
+      "id": "014016",
+      "task": 1,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "0f0cb5c95fb61b0e9bea16936c43f6191e5824af038002685c6bfac6594c1ef1",
+      "explanationSha256": "83160169f7c3fbda1baba0754a5dbe82fd4582f532b52561c7eceeb89f817812",
+      "hint": "Сначала установите, какое отношение нужно передать союзом. Сопоставьте, у кого детёныши учатся раньше и у кого — позже. Подставьте союз требуемого разряда и перечитайте всё предложение.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "01752F",
+      "task": 1,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "df96dde1eb0fba6948f6d4ef03adebf82788fb7fb5146b1fdf22cc18c4593f64",
+      "explanationSha256": "e9ffa4e819ca7e2d9a8cc9ed924b56293aa5628777830d67cbf980efd6caa05d",
+      "hint": "Найдите, к кому относится пропущенное местоимение. Проверьте род и число, затем определите, какое значение добавляется: принадлежность, выбор одного предмета или полнота охвата.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "0ABFEC",
+      "task": 2,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "0429b810c82a41887e79f1138f120ce77655a1d2c15a8dc27d7496c413061d9c",
+      "explanationSha256": "de429a63e276508b39699e16d0717e3ac40c64a86d547595b30cd2303b27ae65",
+      "hint": "Определяйте значение по словосочетанию целиком. Для каждого пункта попробуйте подставить предложенное толкование в юридический текст и проверить, сохраняется ли смысл.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "33BA3C",
+      "task": 2,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "9979e9ad8f4aef411a2dbb6f7cc58794b08c211f48e2d540c96acd1010c4ae0f",
+      "explanationSha256": "a2279d303b14c5cc86aaca7f159a2ec87ce5ad09d49c88e187459ae835f4eeb7",
+      "hint": "Сравнивайте словарное толкование с ближайшими словами в предложении. Обратите внимание на переносные значения и на различие ухода из жизни и ухода за человеком.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "02E7EB",
+      "task": 3,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "35552c13c64a916f67233c57045dc498e86aca50e92858ecc4e70389f595b652",
+      "explanationSha256": "cba2cffd2a805bf38c12280b2fa55c043acfc9155a257074c821ea939e5a1543",
+      "hint": "Каждую характеристику проверьте целиком: пример должен быть в тексте, а вывод о его роли — соответствовать задаче автора. Отдельный термин или яркий образ ещё не определяет стиль всего фрагмента.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "09C42C",
+      "task": 3,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "5ed8655e3e269949af4344aad5b53f2102d52de205194b900added7809f99ce7",
+      "explanationSha256": "089d9afa73e1828669138d00550a749a8a7d5793e81b1c434fdd28a0b236c3c1",
+      "hint": "Ищите точные признаки в тексте: образные выражения, роль цитаты, предложения с вопросительным знаком и обращения. Если пункт перечисляет несколько средств, проверьте каждое, а не только самое знакомое.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "011AA6",
+      "task": 4,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "eb66da55e6d0b12c57a925de348b6ed8c70382842be2c3869e9847485793275b",
+      "explanationSha256": "a1496d9b5137a616215406114b0ba42e439027e0c506f9e7ba8c8e15c044fa09",
+      "hint": "Читайте инструкцию: требуется выбрать верные ударения. Произнесите каждое слово отдельно, обращая внимание на форму женского рода и родительный падеж множественного числа. Не переносите ударение с начальной формы автоматически.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "121C9D",
+      "task": 4,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "e116b2c39a629a69999cc6d98c787f114690c18f7a18c7e877b72952c2199e8e",
+      "explanationSha256": "2d673fa40c8fbd227208c2b1612fa5a6d315fe49a5dadab314c705c70f8aa4a7",
+      "hint": "Проверяйте ударение именно в указанной форме. Для существительных отдельно проверьте родительный падеж множественного числа; для слов с ё не заменяйте её ударной е.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "012CAB",
+      "task": 5,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "60138b6e025fdf75d61b2f7daf73806455f350f1687182dce66fee65a389c5cd",
+      "explanationSha256": "8a9370753097c1ebd5d9901bd3bba22552179ff1b6cd82dd19a8b7ef3bf86ac1",
+      "hint": "Проверьте, что обозначает выделенное прилагательное: уже обработанный предмет или средство для обработки. Подобранный пароним согласуйте с определяемым существительным.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "01C2C7",
+      "task": 5,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "79f30f4fa497e0de6f26f5a990b9b5036c1cb089bc270638910a4eeff5dcfb28",
+      "explanationSha256": "9eca84e47a65cae3299927abd4c98528082656c4acc1cee8808c7dfefb4eb9a5",
+      "hint": "Определите, что требуется передать: принадлежность противнику или недружелюбное отношение. Затем согласуйте подходящее слово с существительным в предложении.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "060C0F",
+      "task": 6,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "3beb442a996e81a76d5a86ab68267233e4ab09cb63cffa7255b209b849651956",
+      "explanationSha256": "ac698ef48cd63782e31a3a72113bc6fed93b728ec1391cf390c194f573d5b03d",
+      "hint": "Нужно выписать лишнее слово. Проверьте, не входит ли значение определения уже в значение существительного; после мысленного удаления перечитайте предложение.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    },
+    {
+      "id": "079D68",
+      "task": 6,
+      "kind": "contextual_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "f698d3c65c501666a482937c7899b22fc2c8d8ed5eb455c22e1ab1e156d6b3c2",
+      "explanationSha256": "f5e89b761986e3dfa3293bbde344645f3a6b019a1fe6a9c4a04ad4b04218779b",
+      "hint": "Проверьте, какое слово повторяет смысл замены, уже выраженный существительным. Удалите его мысленно: противопоставление семян должно сохраниться.",
+      "rows": [],
+      "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending"
+    }
+  ]
+}

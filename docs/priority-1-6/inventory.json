@@ -1,0 +1,4358 @@
+{
+  "date": "2026-10-29",
+  "source": "Local cards and current official-draft mapping, not new FIPI queries",
+  "cards": [
+    {
+      "id": "011AA6",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "012CAB",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "014016",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "01752F",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "019533",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "01C2C7",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "029926",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "02E7EB",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "03228B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "032DE7",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0395A2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0413FB",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "05FF8A",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "060C0F",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "06A9D8",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "06C27D",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0714FC",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "079D68",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "07FECA",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "082CB8",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Число тегов подчёркивания отличается от пяти: нужна визуальная сверка выделений, не автоматическое исправление."
+      ]
+    },
+    {
+      "id": "092CEF",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "09BF8D",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "09C42C",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "09C71B",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0A2371",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "0ABFEC",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0B0920",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "0B76C5",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "0BA3C6",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0CB0DD",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0CB588",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0CB8DB",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "0CD8FF",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0D49BD",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0E2AAE",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0E759D",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "0ED1F6",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "0FCFA8",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "10542D",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "10DBDD",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "11B23B",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "11C9FF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "11F8AD",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "121C9D",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "125B45",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "129CD6",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "12BBAB",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "1429A7",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "14AF4C",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "14E7B5",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "14FA69",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "15D204",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "161E5E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "162772",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "165462",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "168CD7",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "16D9F4",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "16EC80",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "19723E",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "19A46A",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "1AEE7A",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "1CAFFA",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "1D1FBE",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "1D6C06",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "1D6F38",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "1F69B3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "1FCD37",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "1FF860",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "211D33",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "227BA2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "22F594",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2351C7",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "244259",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "246ACD",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "266217",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "270017",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "27368C",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "276D07",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "276DFF",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "2827B4",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "28F08A",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "29C185",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "2A4136",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2ABB99",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2BA3EC",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Число тегов подчёркивания отличается от пяти: нужна визуальная сверка выделений, не автоматическое исправление."
+      ]
+    },
+    {
+      "id": "2BF8A3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "2C4EBE",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2D40BC",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2D6025",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2E758B",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "2EC28B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2F1CB5",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2FAF64",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2FC7D6",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "2FF78A",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "30F5D4",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "311327",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "317779",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "31CB51",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "32203B",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "324964",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3278D2",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3281CA",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "333879",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "33BA3C",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "347983",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "34A537",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "352316",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "35F9AD",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3654CF",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "366012",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "37807F",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "37859F",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "39507B",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "39DECB",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3AE61A",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3BC2D8",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3BDBD8",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3BE49C",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3C08D7",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3C988A",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3CE3B4",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3CEC0E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3D42DF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3D5603",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3DC78B",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "3E1E8E",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3E21D8",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3F6D84",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3FAF3B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "3FCABA",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "41E1AC",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "420002",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "428BFF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "42DC9B",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "42FAB5",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "430886",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "432ADD",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "439D2C",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "43F35A",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "441E65",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "44BD0E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "44C186",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "453385",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "458FEF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "4674EE",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "469A6C",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "473E9C",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "47C7BD",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "48D90B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4900B6",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "497C8C",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "499DD2",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4B4F35",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "4BF0EE",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4C8BEB",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4CEF61",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4D6166",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "4DEAD8",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4E099B",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "4E5A40",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "4E6E33",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "4EA916",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "4F3C89",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "504DE4",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "5159D8",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "51F287",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "52440A",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "5280BD",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "53656E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "54095B",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "541808",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "545D8F",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "54C7F3",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "55BC7E",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "55DDEC",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "564F81",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "564FC6",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "580E03",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "598D63",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "59FDD1",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5A397B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5A83DF",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5AF7A4",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5AFE34",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "5BB9F2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5C069D",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "5D58C2",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5E2837",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "5F9412",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "5FC46B",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "60B53E",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "61B25C",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "61CAE3",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "621719",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "62221D",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6248D6",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6267B4",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "627BFA",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "62A5F9",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "62A8A9",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "62D1B4",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "6363B7",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "63DE3A",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6437C4",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "64534C",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "647930",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "64A453",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "64BAB0",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "64CB69",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "65A323",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "65C7FB",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "66A303",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "66BED5",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "674D9C",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "679B23",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "67E825",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "690525",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "69E49F",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "6A530E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6A94E2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6B71FF",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "6BDFBD",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "6BF8D8",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6C2B6C",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6C3603",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6E8DDA",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "6ECC3F",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6F39FF",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "6F64DE",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "6F7776",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7013D5",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "71187C",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "738248",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "74341C",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7506CC",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "76164B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "765222",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7756B9",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "78A254",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7AB7D7",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7BF565",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7CD0F3",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7E19AB",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "7FE8C6",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "7FF6B1",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "80CDD0",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "8130C5",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "823A3A",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "828CBC",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "831F56",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "832B01",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "8435CF",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "849E31",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "84A09F",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "84DC91",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "858B03",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "85F64B",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "860554",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "883E90",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "892937",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "893FA5",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "8A46DE",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "8C2175",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "8C38AE",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "8CE15C",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "8E5D59",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "8EB12F",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "90AA89",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "90B817",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "915C48",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "91A822",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "91B3CD",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "91DAC1",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "926BD7",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9273A5",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Число тегов подчёркивания отличается от пяти: нужна визуальная сверка выделений, не автоматическое исправление."
+      ]
+    },
+    {
+      "id": "92A23B",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "941F52",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "945299",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "94B403",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "950247",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "963449",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9683B2",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "96D974",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "97468C",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "97F8EB",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "9819CF",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "98489F",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "985484",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "991015",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "9A3344",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "9AD0A7",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9AFD41",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9B2535",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9B3176",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9B8488",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "9BC9C0",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9C3DE6",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9D14F3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9D2392",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9D74E9",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9DA278",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9E1098",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9E6BA9",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9EBAF2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9ECAD6",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "9F6D86",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "9F80FC",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9F9A43",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "9F9C78",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A0403A",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "A0983E",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A12B73",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A14C23",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "A25525",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A3BFA5",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A3FAC1",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A4248D",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A4548C",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "A7B6EA",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "A7FA5F",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "A827D9",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "A909B0",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "AAE143",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "AB4186",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "AC7183",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "AC9713",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "ACA486",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "AD7205",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "AE91AF",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "AEB336",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "AEB788",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B045C3",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B05882",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B17764",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B1B809",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B22D89",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B2315A",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B2F56F",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B3C04B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B4814B",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B507A2",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B5A555",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B5E8E4",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B6FBDF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B83CD8",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "B851D5",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B8970E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B89AD3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B8B6F7",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "B9A47F",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "BA4ED6",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "BABA13",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "BB5BA8",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "BBB81B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "BC3BD7",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "BC85F1",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "BCF56B",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "BD18BF",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "BF4E1B",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "BF9751",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "BFAE57",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C13CB6",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C1F6AE",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C26BDA",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "C26F4B",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "C2F0DC",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C34AF7",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C36032",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C3F6BC",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C50FE5",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C57D87",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C69403",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C7CF0B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C89F82",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C8C1D4",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C8CFE0",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "C914C0",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "C93798",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CA07BE",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CAB0D1",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CAB45F",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CACB9D",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CB11BB",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CB8FCB",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CC4CDC",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CC617E",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CCCA97",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CD2264",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CD2CCE",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CD5855",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CD6F3D",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CDA202",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CE3CB3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CEC4CA",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "CEEEFC",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "CEF6F8",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D19D8F",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "D1A6A5",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D1C396",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "D2DE30",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D30F40",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D36670",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D3D11A",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "D40813",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "D4F0CF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "D52745",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D6B7B0",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D820E1",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D822EE",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D86353",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D882B0",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "D8A6C7",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "D949E3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DA5810",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DA7A61",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DAA9CB",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DADEBB",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DB2B2B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DB39CE",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DB4776",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DB85C3",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DC1571",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DC851F",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DCF3FC",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DE0170",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DED39B",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DF4F14",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DF5743",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DF5CF1",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "DFDB41",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "DFE8C9",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "E04AAA",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E14EB6",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E17E48",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E19566",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E1D6F2",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E2313B",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "E29F76",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E32F82",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "E3F954",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E43CE2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E47C9F",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E48166",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E4D238",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E50C0B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E5DF39",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E68FF7",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E86C6A",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E8DABE",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E90686",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E9174D",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "E92465",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "E96B4A",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Число тегов подчёркивания отличается от пяти: нужна визуальная сверка выделений, не автоматическое исправление."
+      ]
+    },
+    {
+      "id": "E98B8B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EA05E1",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "EA06C4",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "EAC2EF",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EB0F97",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EB9D54",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "EBA6DF",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "ECF124",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "ED0E72",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "ED40CA",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EE0B89",
+      "task": 3,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "EECE4A",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EF4C5E",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "EFD46C",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EFD7CB",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EFDBCF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "EFFBAA",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F03FB7",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "F06518",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F26679",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "F2FA4D",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "F32163",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F3E10B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F46159",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F4E1F3",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F53CB8",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F5E433",
+      "task": 2,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Число тегов подчёркивания отличается от пяти: нужна визуальная сверка выделений, не автоматическое исправление."
+      ]
+    },
+    {
+      "id": "F675D2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F6854B",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F6C12B",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F748EC",
+      "task": 6,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F7EB5D",
+      "task": 2,
+      "historicallyVerifiedAnswer": false,
+      "technicalEligibility": false,
+      "formatStatus": "format_requires_review",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "F83782",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F93935",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F9547E",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "F95665",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "FA951C",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "FBB9F0",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "FBD2A1",
+      "task": 3,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "FBE27D",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "FD0C05",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "FDBB55",
+      "task": 1,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "FDF5A2",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "FE8FF6",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "FF49BF",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": false,
+      "formatStatus": "historical_format",
+      "notes": [
+        "Не проходит текущий технический допуск; проверить формат, контекст и блокирующие дефекты."
+      ]
+    },
+    {
+      "id": "FF5415",
+      "task": 5,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    },
+    {
+      "id": "FFFE6E",
+      "task": 4,
+      "historicallyVerifiedAnswer": true,
+      "technicalEligibility": true,
+      "formatStatus": "format_requires_review",
+      "notes": []
+    }
+  ]
+}

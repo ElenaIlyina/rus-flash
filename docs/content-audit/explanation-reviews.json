@@ -566,6 +566,138 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "539a7da0760c3e9ac4f44c63d8908cd06854270a540f328cf7a4bfa4f5be648c",
       "explanationSha256": "7bffe452b1c1bc906cffb832c6b1f444bb6591dbd9bd629212b0b86e67fb0aa0"
+    },
+    {
+      "changeId": "PRIORITY-1-6-014016",
+      "id": "014016",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "dc2eb15327ae68ea6443d90030e2a379b603214a6044b456ecce104226def2a0",
+      "explanationSha256": "83160169f7c3fbda1baba0754a5dbe82fd4582f532b52561c7eceeb89f817812"
+    },
+    {
+      "changeId": "PRIORITY-1-6-01752F",
+      "id": "01752F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "53cdfb67d5e24835194174b1c917ce5ab5ee275fc6c44a0fb6aca3c360e1edc7",
+      "explanationSha256": "e9ffa4e819ca7e2d9a8cc9ed924b56293aa5628777830d67cbf980efd6caa05d"
+    },
+    {
+      "changeId": "PRIORITY-1-6-0ABFEC",
+      "id": "0ABFEC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a37feb9fc6cf062dda3cb715b5e50b18a0e67c71b5db2c68726ffcbc7f7f2eee",
+      "explanationSha256": "de429a63e276508b39699e16d0717e3ac40c64a86d547595b30cd2303b27ae65"
+    },
+    {
+      "changeId": "PRIORITY-1-6-33BA3C",
+      "id": "33BA3C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7717c264bf7751642f31c5a17ecdb17b3d56b34f6d630124353241be9d9eb0e3",
+      "explanationSha256": "a2279d303b14c5cc86aaca7f159a2ec87ce5ad09d49c88e187459ae835f4eeb7"
+    },
+    {
+      "changeId": "PRIORITY-1-6-02E7EB",
+      "id": "02E7EB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a9bf639f6b240b9c46832348b7c10a0329f85c90f5ddd6db423e08b74ef6e1c5",
+      "explanationSha256": "cba2cffd2a805bf38c12280b2fa55c043acfc9155a257074c821ea939e5a1543"
+    },
+    {
+      "changeId": "PRIORITY-1-6-09C42C",
+      "id": "09C42C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d0bb8da590568c03cd4866a390d59922d1fc94ccbdf2e94d4ed4b7690382a775",
+      "explanationSha256": "089d9afa73e1828669138d00550a749a8a7d5793e81b1c434fdd28a0b236c3c1"
+    },
+    {
+      "changeId": "PRIORITY-1-6-011AA6",
+      "id": "011AA6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9464ef15ec6683da0d2811bdab6a92284c296ecdd5a7db94a63d19927e823620",
+      "explanationSha256": "a1496d9b5137a616215406114b0ba42e439027e0c506f9e7ba8c8e15c044fa09"
+    },
+    {
+      "changeId": "PRIORITY-1-6-121C9D",
+      "id": "121C9D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4fdfe49efb60a8e265eb71b8cad2297db57e5b456a4130d6ac774db6cdafa3af",
+      "explanationSha256": "2d673fa40c8fbd227208c2b1612fa5a6d315fe49a5dadab314c705c70f8aa4a7"
+    },
+    {
+      "changeId": "PRIORITY-1-6-012CAB",
+      "id": "012CAB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9508d4ed6f2e3120acce4bafd641a2201aee457c8f5f5cad721f4488da84bfdb",
+      "explanationSha256": "8a9370753097c1ebd5d9901bd3bba22552179ff1b6cd82dd19a8b7ef3bf86ac1"
+    },
+    {
+      "changeId": "PRIORITY-1-6-01C2C7",
+      "id": "01C2C7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "79051529e48d9e4297a838bfc2502d7de5564160815ab7c76bab1920d9078785",
+      "explanationSha256": "9eca84e47a65cae3299927abd4c98528082656c4acc1cee8808c7dfefb4eb9a5"
+    },
+    {
+      "changeId": "PRIORITY-1-6-060C0F",
+      "id": "060C0F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e2954f03f8d1e7f64114e578468be3e90ef833ea6a9bbb9fc72b54f13864df6a",
+      "explanationSha256": "ac698ef48cd63782e31a3a72113bc6fed93b728ec1391cf390c194f573d5b03d"
+    },
+    {
+      "changeId": "PRIORITY-1-6-079D68",
+      "id": "079D68",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Приоритет ЕГЭ 1–6: проверены условие, контекст и сохранённый ключ; заменено старое объяснение, добавлена индивидуальная подсказка. Условия и ответ не изменены; специализированные нормативные источники отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c1722921bf0719cc2ca4269d84861f579ae5155be60ddc4b3e39d9c37530ebdc",
+      "explanationSha256": "f5e89b761986e3dfa3293bbde344645f3a6b019a1fe6a9c4a04ad4b04218779b"
     }
   ]
 }

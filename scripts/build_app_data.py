@@ -49,6 +49,10 @@ def main():
     for entry in root_reviews:
         if entry['id'] in prefix_reviews: raise ValueError('Duplicate card review: ' + entry['id'])
         prefix_reviews[entry['id']] = entry
+    priority_reviews = json.loads((ROOT / 'data/knowledge/ege_1_6_card_reviews.json').read_text())['cards']
+    for entry in priority_reviews:
+        if entry['id'] in prefix_reviews: raise ValueError('Duplicate priority review: ' + entry['id'])
+        prefix_reviews[entry['id']] = entry
     for entry in prefix_reviews.values():
         for row in entry['rows']:
             for source_id in row['sourceIds']:
@@ -64,6 +68,9 @@ def main():
                 raise ValueError('Reviewed source changed; author approval and re-review required: ' + cid)
         if len(cid) != 6 or any(ch not in '0123456789ABCDEF' for ch in cid):
             raise ValueError(f'Invalid card ID: {cid}')
+        expected_explanation = prefix_reviews.get(cid, {}).get('explanationSha256')
+        if expected_explanation and hashlib.sha256(c.get('explanation','').encode()).hexdigest() != expected_explanation:
+            raise ValueError('Priority explanation changed; update review record: ' + cid)
         position = mapping(c)
         task = position['task']
         version_basis = {'card': c, 'position': position, 'assessmentPolicy': 'responses-v1'}
