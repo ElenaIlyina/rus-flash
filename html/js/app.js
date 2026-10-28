@@ -269,6 +269,20 @@ function renderBank(params) {
       .join("")}</select></label></div><div id="bank-results"></div>`;
   bankResults();
 }
+function cardTheoryLinks(c) {
+  const rules = (c.ruleRefs || [])
+    .map(
+      (ref) =>
+        `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`,
+    )
+    .join("");
+  return (
+    rules +
+    (c.task === 4
+      ? `<a class="text-link" href="#knowledge?list=stress&card=${c.id}">Полный список ударений по частям речи</a>`
+      : "")
+  );
+}
 async function renderCard(id, version) {
   currentCard = null;
   main.innerHTML =
@@ -294,13 +308,13 @@ async function renderCard(id, version) {
       <form id="answer-form" class="answer-form">${c.responseType !== "multiple_choice" ? `<label for="answer-input">${c.answer ? "Ваш ответ" : "Ваш ответ для самопроверки"}</label><input id="answer-input" autocomplete="off" placeholder="Введите ответ" ${c.answer ? "required" : ""}>` : ""}<div class="answer-actions">${canCheck ? `<button type="submit" class="button primary">Проверить ${icon("check")}</button>` : '<p class="muted">Автоматическая проверка недоступна: нет эталона или материал требует сверки.</p>'}<button type="button" class="button quiet" data-action="hint">Подсказка</button><button type="button" class="button quiet" data-action="reveal">${c.answer ? "Ответ и разбор" : "Открыть разбор"}</button></div></form>
       <section id="hint" class="aside-card" hidden aria-live="polite"></section><div id="answer-feedback" aria-live="polite"></div><button class="text-link" data-action="new-attempt">Начать новую попытку</button><section id="explanation" class="explanation" hidden></section>
       <div class="exercise-bottom"><button class="button quiet ${tags.hard ? "selected" : ""}" data-action="repeat" aria-pressed="${!!tags.hard}">${icon("repeat")} Повторить позже</button><button class="button secondary ${tags.studied ? "selected" : ""}" data-action="studied" aria-pressed="${!!tags.studied}">${icon("check")} ${tags.studied ? "Отмечено изученным" : "Отметить изученным"}</button><button class="button primary" data-action="next">Дальше ${icon("arrow")}</button></div>
-    </article><aside class="practice-aside"><div class="aside-card"><span class="eyebrow">СНАЧАЛА ПОНИМАНИЕ</span><h2>Правило рядом</h2><p>${c.ruleRefs?.length ? "Вспомните правило и посмотрите примеры по этой теме." : "Найдите нужную тему в справочнике."}</p><div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">Открыть справочник ${icon("arrow")}</button></div><div class="aside-tip">${icon("leaf")}<p>Не торопитесь. Можно вернуться к тексту, попробовать ещё раз или отложить карточку.</p></div><button class="text-link" data-action="report">Нашли неточность?</button></aside></div>`;
+    </article><aside class="practice-aside"><div class="aside-card"><span class="eyebrow">СНАЧАЛА ПОНИМАНИЕ</span><h2>Правило рядом</h2><p>${c.task === 4 ? "Сверьте ударение и форму слова в списке ФИПИ." : c.ruleRefs?.length ? "Вспомните правило и посмотрите примеры по этой теме." : "Найдите нужную тему в справочнике."}</p><div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">Открыть справочник ${icon("arrow")}</button></div><div class="aside-tip">${icon("leaf")}<p>Не торопитесь. Можно вернуться к тексту, попробовать ещё раз или отложить карточку.</p></div><button class="text-link" data-action="report">Нашли неточность?</button></aside></div>`;
 }
 function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}<div class="rule-links">${(c.ruleRefs || []).map((ref) => `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`).join("")}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -615,7 +629,7 @@ document.addEventListener("click", async (event) => {
     }
     case "card-rules":
       if (currentCard) {
-        location.hash = `knowledge?card=${currentCard.id}`;
+        location.hash = `knowledge?${currentCard.task === 4 ? "list=stress&" : ""}card=${currentCard.id}`;
       }
       break;
     case "report":

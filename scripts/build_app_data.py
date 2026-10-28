@@ -6,6 +6,7 @@ Run from any directory. Outputs are ignored and reproducible.
 """
 import hashlib
 import json
+import shutil
 from pathlib import Path
 from generate_manifest import classify, load_cards
 from exam_2027 import mapping, text
@@ -20,6 +21,12 @@ def main():
     if not cards:
         raise SystemExit('No cards found')
     (OUT / 'cards').mkdir(parents=True, exist_ok=True)
+    stress_list = json.loads((ROOT / 'data/knowledge/stress-list.json').read_text())
+    stress_pdf = ROOT / stress_list['sourceFile']
+    if hashlib.sha256(stress_pdf.read_bytes()).hexdigest() != stress_list['sourceSha256']:
+        raise ValueError('Stress list source checksum changed')
+    (OUT / 'stress-list.json').write_text(json.dumps(stress_list, ensure_ascii=False, separators=(',', ':')))
+    shutil.copyfile(stress_pdf, OUT / 'stress-list-source.pdf')
     catalog = []
     profile = json.loads((ROOT / 'data/ege_2027_positions.json').read_text())
     names = {str(p['number']): p['name'] for p in profile['positions']}

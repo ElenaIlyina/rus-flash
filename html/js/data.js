@@ -66,6 +66,22 @@ export function adaptCard(raw) {
 }
 
 let handbookPromise;
+let stressListPromise;
+export function loadStressList() {
+  if (!stressListPromise)
+    stressListPromise = fetch(new URL("stress-list.json", URL_ROOT))
+      .then((response) => {
+        if (!response.ok) throw new Error("Список ударений недоступен.");
+        return response.json();
+      })
+      .catch((error) => {
+        stressListPromise = null;
+        throw error;
+      });
+  return stressListPromise;
+}
+export const stressSourceUrl = new URL("stress-list-source.pdf", URL_ROOT).href;
+
 export function loadHandbook() {
   if (!handbookPromise)
     handbookPromise = fetch(new URL("handbook.json", URL_ROOT))

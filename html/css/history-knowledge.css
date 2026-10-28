@@ -284,6 +284,36 @@ dialog form {
   margin-top: 24px;
   overflow-wrap: anywhere;
 }
+.stress-intro {
+  margin-block: 20px;
+  color: var(--muted);
+}
+.stress-words {
+  columns: 2 270px;
+  column-gap: 36px;
+  padding-left: 22px;
+  margin-top: 24px;
+}
+.stress-words li {
+  break-inside: avoid;
+  padding-block: 6px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.stress-words b {
+  color: var(--ink);
+}
+.stress-words sup {
+  margin-left: 3px;
+}
+.stress-notes {
+  padding-left: 22px;
+  margin-block: 20px;
+  line-height: 1.7;
+}
+.stress-notes li + li {
+  margin-top: 12px;
+}
 .source-notes {
   border-top: 1px solid var(--line);
   padding-top: 20px;

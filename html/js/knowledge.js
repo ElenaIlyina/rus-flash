@@ -4,6 +4,7 @@ import {
   loadSourceParagraph,
 } from "./data.js";
 import { esc, rich } from "./ui.js";
+import { stressListPage } from "./stress-list.js";
 const partName = (part) =>
   part === "orthography" ? "Орфография" : "Пунктуация";
 const context = (meta) => (meta ? `&card=${meta.id}` : "");
@@ -16,6 +17,8 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
   const safeHeading = (kicker, title, subtitle) =>
     heading(kicker, esc(title), esc(subtitle));
   const meta = catalog.cards.find((c) => c.id === params.get("card"));
+  if (params.get("list") === "stress")
+    return stressListPage({ heading, backLink: back(meta) });
   const ruleId = params.get("rule"),
     sourceId = params.get("source"),
     editionId = params.get("edition");
@@ -101,6 +104,6 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
           "Выберите правило в справочнике.",
           '<a class="text-link" href="#knowledge">Открыть справочник</a>',
         )) +
-    `<section class="panel method-panel"><h2>Библиотека источников</h2>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}</section>`
+    `<section class="panel method-panel"><h2>Библиотека источников</h2><p><a class="text-link" href="#knowledge?list=stress${context(meta)}">Полный список ударений по частям речи · ФИПИ, 2026</a></p>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}</section>`
   );
 }
