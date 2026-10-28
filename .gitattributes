@@ -1,0 +1,2 @@
+# Preserve reference PDFs byte-for-byte and avoid treating their streams as code.
+*.pdf binary
