@@ -3,7 +3,7 @@
   "proposals": [
     {
       "id": "279C1A",
-      "status": "awaiting_author_approval",
+      "status": "applied",
       "date": "2026-10-28",
       "field": "question",
       "before": "Укажите варианты ответов, в которых во всех словах одного ряда пропущена одна и та же буква. Запишите номера ответов. симв..лизировать, дек..рация, отн..шение д..лина, к..ртонная (коробка), предпол..гать пров..нциальный, прис..гать (Родине), раст..рать с..мфония, перем..ститься, интелл..ктуальный сокр..щать, зак..зать, осч..стливить",
@@ -13,7 +13,13 @@
       "sourceQuestionSha256": "b09a3d9de90ac3c571ca330a342f0a58e7f378b7f96491cb7bed14f29852d251",
       "variantsUnchanged": true,
       "answerUnchanged": true,
-      "rawSourceRetainedInProposal": true
+      "rawSourceRetainedInProposal": true,
+      "approvedAt": "2026-10-28",
+      "appliedAt": "2026-10-28",
+      "approval": "Автор подтвердил: «Да, удалить дубль»",
+      "changedFields": [
+        "question"
+      ]
     }
   ]
 }

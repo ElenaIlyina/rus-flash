@@ -142,6 +142,10 @@ def main():
             page.locator('.explanation-sources summary').click()
             page.get_by_role('link',name='Ряд 4: Орфография, §34 · Эксмо, 2007',exact=True).click()
             page.locator('[data-source-id="lopatin-2007-orthography-34"]').wait_for()
+            page.goto(base+'#card/279C1A',wait_until='networkidle')
+            assert page.locator('.question-text').inner_text()=='Укажите варианты ответов, в которых во всех словах одного ряда пропущена одна и та же буква. Запишите номера ответов.'
+            assert page.locator('[name="answer-option"]').count()==5
+            assert 'симв..лизировать' in page.locator('.options').inner_text()
             assert not errors,errors
             browser.close()
     finally:

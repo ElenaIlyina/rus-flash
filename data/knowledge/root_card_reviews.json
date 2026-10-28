@@ -151,7 +151,7 @@
     {
       "id": "279C1A",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "b82ac8be40dedaa4fe6acc8cef1730efd238af0dc9fe1af52c7d9097c17ed589",
+      "sourceContentSha256": "329e4c1dfc6d5b00c824da78ef38b2ccec6901b0b3e5eb584a31a2b90404ab42",
       "hint": "Для каждого слова определите собственный способ проверки; одинаковая буква не означает одинаковое правило. Чередующиеся корни проверяйте по их условию, а в проверочном слове обязательно убедитесь в ударении на нужной гласной.",
       "rows": [
         {
@@ -216,7 +216,13 @@
           ],
           "reason": "Проверки: «сокращать» — краткий; «заказать» — заказ; «осчастливить» — счастье. Проверяемые гласные в этих словах под ударением: во всех пропусках А."
         }
-      ]
+      ],
+      "sourceEditApproval": {
+        "date": "2026-10-28",
+        "field": "question",
+        "reason": "Удалён только согласованный дубль вариантов; исходное question сохранено в docs/content-audit/card-edit-proposals.json.",
+        "previousSourceContentSha256": "b82ac8be40dedaa4fe6acc8cef1730efd238af0dc9fe1af52c7d9097c17ed589"
+      }
     },
     {
       "id": "2AFA71",
