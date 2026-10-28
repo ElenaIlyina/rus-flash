@@ -180,6 +180,42 @@
   color: var(--muted);
   font-size: 10px;
 }
+.paronym-comparison {
+  margin-block: 24px;
+}
+.paronym-comparison h3 {
+  margin-bottom: 16px;
+}
+.paronym-words {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 16px;
+}
+.paronym-word {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px;
+  background: #f5f3fa;
+  overflow-wrap: anywhere;
+}
+.paronym-word h4 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+.paronym-word p,
+.paronym-word li,
+.paronym-difference {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.paronym-word ul {
+  padding-left: 20px;
+  margin-top: 12px;
+}
+.paronym-difference {
+  margin-top: 16px;
+}
 .practice-layout {
   display: grid;
   grid-template-columns: minmax(0px, 1fr) 215px;

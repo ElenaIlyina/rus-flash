@@ -57,10 +57,15 @@ def main():
         if entry['id'] in prefix_reviews: raise ValueError('Duplicate card review: ' + entry['id'])
         prefix_reviews[entry['id']] = entry
     priority_reviews = json.loads((ROOT / 'data/knowledge/ege_1_6_card_reviews.json').read_text())['cards']
+    paronym_pairs = json.loads((ROOT / 'data/knowledge/paronyms.json').read_text())['pairs']
+    paronyms = {pair['id']:pair for pair in paronym_pairs}
+    if len(paronyms) != len(paronym_pairs): raise ValueError('Duplicate paronym pair ID')
     for entry in priority_reviews:
         if entry['id'] in prefix_reviews: raise ValueError('Duplicate priority review: ' + entry['id'])
         prefix_reviews[entry['id']] = entry
     for entry in prefix_reviews.values():
+        for pair_id in entry.get('paronymPairIds', []):
+            if pair_id not in paronyms: raise ValueError('Missing paronym pair: ' + pair_id)
         for row in entry['rows']:
             for source_id in row['sourceIds']:
                 if source_id not in source_ids: raise ValueError('Missing reviewed source: ' + source_id)
@@ -98,6 +103,7 @@ def main():
             'explanationStatus': review.get('explanationStatus', 'pending_subject_review' if c.get('explanation', '').strip() else 'missing'),
             'strategyHint': prefix_reviews.get(cid, {}).get('hint', ''),
             'explanationReviewStatus': prefix_reviews.get(cid, {}).get('status'),
+            'paronymComparisons': [paronyms[pid] for pid in prefix_reviews.get(cid, {}).get('paronymPairIds', [])],
             'explanationSourceRefs': [{'part':row['number'], 'sourceId':sid, 'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"} for row in prefix_reviews.get(cid, {}).get('rows', []) for sid in row['sourceIds']],
             'reviewNote': review.get('reason', '' if options_complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),
             'hasAnswer': bool(c.get('answer', '').strip()),

@@ -17,6 +17,7 @@ def check(root):
         'assets/data/catalog.json', 'assets/data/review-debug.json', 'assets/data/handbook.json', 'assets/data/handbook-sources.json',
         'assets/brand/slovo-za-slovo-school.png',
         'js/stress-list.js', 'assets/data/stress-list.json', 'assets/data/stress-list-source.pdf',
+        'js/paronyms.js',
     ]
     for relative in required:
         path = root / relative

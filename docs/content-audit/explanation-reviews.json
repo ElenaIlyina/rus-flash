@@ -698,6 +698,28 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "c1722921bf0719cc2ca4269d84861f579ae5155be60ddc4b3e39d9c37530ebdc",
       "explanationSha256": "f5e89b761986e3dfa3293bbde344645f3a6b019a1fe6a9c4a04ad4b04218779b"
+    },
+    {
+      "changeId": "PARONYM-COMPARE-012CAB",
+      "id": "012CAB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Сравнение паронимов вынесено в два сопоставимых блока: значения, сочетания и различие; в объяснении отдельно показаны контекст замены и форма ответа. Это авторские краткие пояснения, словарная сверка ещё не выполнена. Исходные поля и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8a9370753097c1ebd5d9901bd3bba22552179ff1b6cd82dd19a8b7ef3bf86ac1",
+      "explanationSha256": "8f5d6d93615d47a14392a3850f36af84f2bd438f6b6aa657a65f4523faebfe9e"
+    },
+    {
+      "changeId": "PARONYM-COMPARE-01C2C7",
+      "id": "01C2C7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "assistant_corrected_applied",
+      "reason": "Сравнение паронимов вынесено в два сопоставимых блока: значения, сочетания и различие; в объяснении отдельно показаны контекст замены и форма ответа. Это авторские краткие пояснения, словарная сверка ещё не выполнена. Исходные поля и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9eca84e47a65cae3299927abd4c98528082656c4acc1cee8808c7dfefb4eb9a5",
+      "explanationSha256": "338d5777cb67f4efeda4f828529c3ec90ff0110aa78d02ea540bee9a43be9a2c"
     }
   ]
 }

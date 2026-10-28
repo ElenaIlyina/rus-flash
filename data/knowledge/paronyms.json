@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "status": "authored_summaries_dictionary_verification_pending",
+  "pairs": [
+    {
+      "id": "lacquered-lacquering",
+      "words": [
+        {
+          "word": "Лакированный",
+          "meaning": "Покрытый лаком. Описывает предмет или поверхность после обработки.",
+          "examples": ["лакированная поверхность", "лакированный стол"],
+          "dictionaryRefs": []
+        },
+        {
+          "word": "Лакировочный",
+          "meaning": "Предназначенный для лакирования — нанесения лака. Описывает средство или оборудование для этой работы.",
+          "examples": ["лакировочный раствор", "лакировочный станок"],
+          "dictionaryRefs": []
+        }
+      ],
+      "distinction": "Предмет уже покрыт лаком — лакированный. Средство или оборудование для нанесения лака — лакировочное.",
+      "curriculumRef": {
+        "file": "docs/references/fipi-navigator-lexicon-orthoepy/lexicon.pdf",
+        "page": 3,
+        "role": "paronym_list_membership_only"
+      }
+    },
+    {
+      "id": "hostile-enemy",
+      "words": [
+        {
+          "word": "Враждебный",
+          "meaning": "Выражающий вражду, неприязнь; недружелюбный. В таком употреблении характеризует отношение или поведение.",
+          "examples": ["враждебный взгляд", "враждебное отношение"],
+          "dictionaryRefs": []
+        },
+        {
+          "word": "Вражеский",
+          "meaning": "Относящийся к врагу, принадлежащий противнику.",
+          "examples": ["вражеский полк", "вражеская армия"],
+          "dictionaryRefs": []
+        }
+      ],
+      "distinction": "В этой паре различаем недружелюбное отношение и принадлежность противнику. Значения могут сближаться: проверяйте всё словосочетание и контекст.",
+      "curriculumRef": {
+        "file": "docs/references/fipi-navigator-lexicon-orthoepy/lexicon.pdf",
+        "page": 2,
+        "role": "paronym_list_membership_only"
+      }
+    }
+  ]
+}

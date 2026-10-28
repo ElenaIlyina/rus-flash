@@ -32,6 +32,17 @@ def main():
                 assert page.locator('#answer-feedback .success').is_visible(),review['id']
                 page.get_by_role('button',name='Ответ и разбор',exact=True).click()
                 assert page.locator('#explanation .explanation-text').is_visible()
+                if review.get('paronymPairIds'):
+                    assert page.locator('.paronym-comparison').count()==len(review['paronymPairIds'])
+                    assert page.locator('.paronym-word').count()==2
+                    assert page.locator('.paronym-word li').count()==4
+                    for width in [320,390,768,1440]:
+                        page.set_viewport_size({'width':width,'height':900})
+                        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(review['id'],width)
+                        boxes=[word.bounding_box() for word in page.locator('.paronym-word').all()]
+                        if width==390: assert boxes[1]['y']>boxes[0]['y'],boxes
+                        if width==1440: assert abs(boxes[1]['y']-boxes[0]['y'])<1,boxes
+                    page.set_viewport_size({'width':390,'height':900})
                 assert page.locator('.debug-panel').count()==0
                 assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),review['id']
             assert not errors,errors
