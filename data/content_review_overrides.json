@@ -5,6 +5,24 @@
       "explanationStatus": "conflicts_with_historical_answer",
       "eligibleForProgress": false,
       "reason": "В answer и answer_verify записано 26, а объяснение обосновывает только предложение 2. В предложении 6 заявленный лексический повтор не установлен. До предметной/сетевой сверки не менять ответ и не учитывать в закреплении."
+    },
+    "012CAB": {
+      "explanationStatus": "dictionary_checked_answer_alternative_unresolved",
+      "eligibleForProgress": false,
+      "reason": "Словарь допускает «лаковый раствор», поэтому возможна замена «лаковым». До уточнения допустимых ответов автоматическая проверка отключена.",
+      "issueId": "PARONYM-ANSWER-001",
+      "sourceRefs": [
+        {
+          "dictionaryId": "ruslang-paronyms-user-copy",
+          "headword": "лаковый",
+          "pdfPage": 574,
+          "printedPage": 574,
+          "definitionQuote": "Лаковый раствор.",
+          "verificationMethod": "visual_page_read",
+          "reviewDate": "2026-10-29",
+          "sense": 1
+        }
+      ]
     }
   }
 }

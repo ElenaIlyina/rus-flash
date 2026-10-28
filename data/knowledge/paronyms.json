@@ -1,54 +1,202 @@
 {
   "schemaVersion": 1,
-  "status": "authored_summaries_dictionary_verification_pending",
+  "status": "selected_entries_verified_against_user_pdf",
   "pairs": [
     {
       "id": "lacquered-lacquering",
       "words": [
         {
           "word": "Лакированный",
-          "meaning": "Покрытый лаком. Описывает предмет или поверхность после обработки.",
-          "examples": ["лакированная поверхность", "лакированный стол"],
-          "dictionaryRefs": []
+          "meaning": "Покрытый лаком; сделанный из кожи, покрытой лаком; лаковый (2-е значение).",
+          "examples": ["лакированный пол", "лакированная шкатулка"],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лакированный",
+              "pdfPage": 573,
+              "printedPage": 573,
+              "definitionQuote": "Покрытый лаком; сделанный из кожи, покрытой лаком; лаковый (2 зн.).",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "vishnyakova-1984-user-copy",
+              "headword": "лакированный",
+              "pdfPage": 83,
+              "printedPage": null,
+              "definitionQuote": "Покрытый лаком.",
+              "sense": 1,
+              "usageLabel": null,
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
         },
         {
           "word": "Лакировочный",
-          "meaning": "Предназначенный для лакирования — нанесения лака. Описывает средство или оборудование для этой работы.",
-          "examples": ["лакировочный раствор", "лакировочный станок"],
-          "dictionaryRefs": []
+          "meaning": "Предназначенный для лакирования, связанный с нанесением слоя лака. В словаре объясняется через слово «лакировальный».",
+          "examples": ["лакировочное оборудование", "лакировочные работы"],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лакировочный",
+              "pdfPage": 574,
+              "printedPage": 574,
+              "definitionQuote": "То же, что лакировальный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лакировальный",
+              "pdfPage": 573,
+              "printedPage": 573,
+              "definitionQuote": "Предназначенный для лакирования (нанесения слоя лака на какую-л. поверхность), связанный с ним; лакировочный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "vishnyakova-1984-user-copy",
+              "headword": "лакировочный",
+              "pdfPage": 83,
+              "printedPage": null,
+              "definitionQuote": "Относящийся к лакированию, предназначенный для него.",
+              "sense": null,
+              "usageLabel": "спец.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Лаковый",
+          "meaning": "Относящийся к лаку, содержащий лак. Во 2-м значении — то же, что лакированный.",
+          "examples": ["лаковый раствор", "лаковый пол"],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лаковый",
+              "pdfPage": 574,
+              "printedPage": 574,
+              "definitionQuote": "Относящийся к лаку, лакам; содержащий лак.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29",
+              "sense": 1
+            },
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лаковый",
+              "pdfPage": 574,
+              "printedPage": 574,
+              "definitionQuote": "То же, что лакированный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29",
+              "sense": 2
+            }
+          ]
         }
       ],
-      "distinction": "Предмет уже покрыт лаком — лакированный. Средство или оборудование для нанесения лака — лакировочное.",
+      "distinction": "Лакированный предмет уже покрыт лаком; лакировочное средство предназначено для нанесения лака. У «лакового» несколько значений: словарь допускает и «лаковый раствор», и «лаковый пол».",
       "curriculumRef": {
         "file": "docs/references/fipi-navigator-lexicon-orthoepy/lexicon.pdf",
         "page": 3,
         "role": "paronym_list_membership_only"
       },
-      "reviewStatus": "awaiting_dictionary_verification"
+      "reviewStatus": "verified"
     },
     {
       "id": "hostile-enemy",
       "words": [
         {
           "word": "Враждебный",
-          "meaning": "Выражающий вражду, неприязнь; недружелюбный. В таком употреблении характеризует отношение или поведение.",
+          "meaning": "Полный вражды, ненависти, крайне неприязненный, недружелюбный.",
           "examples": ["враждебный взгляд", "враждебное отношение"],
-          "dictionaryRefs": []
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "враждебный",
+              "pdfPage": 224,
+              "printedPage": 224,
+              "definitionQuote": "Полный вражды, ненависти, крайне неприязненный, недружелюбный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
         },
         {
           "word": "Вражеский",
-          "meaning": "Относящийся к врагу, принадлежащий противнику.",
-          "examples": ["вражеский полк", "вражеская армия"],
-          "dictionaryRefs": []
+          "meaning": "Относящийся к военному противнику, неприятелю.",
+          "examples": ["вражеская оборона", "вражеские танки"],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "вражеский",
+              "pdfPage": 225,
+              "printedPage": 225,
+              "definitionQuote": "Относящийся к военному противнику, неприятелю.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
         }
       ],
-      "distinction": "В этой паре различаем недружелюбное отношение и принадлежность противнику. Значения могут сближаться: проверяйте всё словосочетание и контекст.",
+      "distinction": "Враждебный характеризует неприязнь и недружелюбие; вражеский — принадлежность к военному противнику. При выборе проверяйте смысл словосочетания в предложении.",
       "curriculumRef": {
         "file": "docs/references/fipi-navigator-lexicon-orthoepy/lexicon.pdf",
         "page": 2,
         "role": "paronym_list_membership_only"
       },
-      "reviewStatus": "awaiting_dictionary_verification"
+      "reviewStatus": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ruslang-paronyms-user-copy",
+      "title": "Словарь паронимов русского языка",
+      "sourceFile": "docs/references/ruslang-paronyms/source.pdf",
+      "sha256": "0f3a65e690673a97406f5938912dc735eaf88a24260c48d38bda26f8c3eb917d",
+      "pdfPages": 1174,
+      "sourceUrl": "https://ruslang.ru/sites/default/files/doc/normativnyje_slovari/Slovar_paronimov.pdf",
+      "provenance": "user_upload_and_user_supplied_official_url",
+      "receivedAt": "2026-10-29",
+      "authors": null,
+      "publisher": null,
+      "publicationYear": null,
+      "fileCreationDate": "2026-04-15",
+      "remoteBytesVerified": false,
+      "notes": [
+        "Файл начинается предисловием, титульный лист с авторами/выходными данными не обнаружен. Дата файла не является подтверждённым годом издания.",
+        "Предисловие на с. 1 и 5 описывает нормативный характер словаря. Полное совпадение с текущим файлом сайта через сеть не проверено: прокси CONNECT 403.",
+        "Извлечение текста теряет некоторые буквы и ударения. Выбранные статьи проверены по изображению страницы.",
+        "Указатель даёт, например, 239 вместо фактической с. 224 и 612 вместо 573; ссылки формируются по проверенным PDF-страницам."
+      ],
+      "citationLabel": "Нормативный словарь"
+    },
+    {
+      "id": "vishnyakova-1984-user-copy",
+      "title": "О. В. Вишнякова. Словарь паронимов русского языка",
+      "sourceFile": "docs/references/vishnyakova-1984/source.pdf",
+      "sha256": "4ae4fa9d345bbd090b21688e161ebd52a0a025ba2698772b4cca2b4b65a43b01",
+      "pdfPages": 191,
+      "declaredBookPages": 352,
+      "author": "О. В. Вишнякова",
+      "publisher": "Русский язык",
+      "publicationYear": 1984,
+      "provenance": "user_upload",
+      "receivedAt": "2026-10-29",
+      "sourceUrl": null,
+      "matchesFipiBibliographicRecord": true,
+      "fipiReference": {
+        "section": "Другие источники",
+        "number": 7,
+        "printedPage": 18
+      },
+      "fileCreationDate": "2003-09-23",
+      "notes": [
+        "Издательские данные прочитаны на PDF-страницах 1–2. Это электронная перевёрстка на 191 страницу; 352 страницы относятся к выходным данным печатной книги.",
+        "Ссылка на скачивание не передавалась. PDF-страница 83 содержит нужную пару и отмечена номером 83 в электронной копии; это не подтверждённая страница печатного оригинала."
+      ],
+      "citationLabel": "Вишнякова, 1984"
     }
   ]
 }

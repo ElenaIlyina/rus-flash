@@ -2,6 +2,7 @@
 """Balanced urgent set: source integrity, per-card hints and real answer checking."""
 import functools,hashlib,http.server,json,threading
 from collections import Counter
+from urllib.parse import urlsplit
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
@@ -9,6 +10,11 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     reviews=json.loads((ROOT/'data/knowledge/ege_1_6_card_reviews.json').read_text())['cards']
     catalog=json.loads((ROOT/'html/assets/data/catalog.json').read_text())['cards']
+    by_id={meta['id']:meta for meta in catalog}
+    book=json.loads((ROOT/'data/knowledge/paronyms.json').read_text())
+    pairs={pair['id']:pair for pair in book['pairs']}
+    dictionary_sources={source['id']:source for source in book.get('sources',[])}
+    downloaded=set()
     for meta in catalog:
         if meta['task']!=5 or meta.get('explanationReviewStatus')!='awaiting_dictionary_verification':continue
         runtime=json.loads((ROOT/'html/assets/data/cards'/f"{meta['id']}.json").read_text())
@@ -39,8 +45,17 @@ def main():
                 if page.locator('[name="answer-option"]').count():
                     for digit in card['answer']:page.locator(f'[name="answer-option"][value="{digit}"]').check()
                 else:page.locator('#answer-input').fill(card['answer'])
-                page.locator('#answer-form [type=submit]').click()
-                assert page.locator('#answer-feedback .success').is_visible(),review['id']
+                if by_id[review['id']].get('reviewNote'):
+                    assert page.locator('#answer-form [type=submit]').count()==0
+                    before=page.evaluate('localStorage.getItem("rusflash_learning_v1")')
+                    for candidate in ['лакировочным','лаковым']:
+                        page.locator('#answer-input').fill(candidate)
+                        page.locator('#answer-form').evaluate('(form) => form.requestSubmit()')
+                    assert page.evaluate('localStorage.getItem("rusflash_learning_v1")')==before
+                    assert by_id[review['id']]['eligibleForProgress'] is False
+                else:
+                    page.locator('#answer-form [type=submit]').click()
+                    assert page.locator('#answer-feedback .success').is_visible(),review['id']
                 page.get_by_role('button',name='Показать ответ' if dictionary_pending else 'Ответ и разбор',exact=True).click()
                 if dictionary_pending:
                     assert page.locator('#explanation .explanation-text').count()==0
@@ -50,8 +65,17 @@ def main():
                     assert page.locator('#explanation .explanation-text').is_visible()
                 if review.get('paronymPairIds') and not dictionary_pending:
                     assert page.locator('.paronym-comparison').count()==len(review['paronymPairIds'])
-                    assert page.locator('.paronym-word').count()==2
-                    assert page.locator('.paronym-word li').count()==4
+                    assert page.locator('.paronym-word').count()==sum(len(pairs[pid]['words']) for pid in review['paronymPairIds'])
+                    assert page.locator('.paronym-word li').count()==2*page.locator('.paronym-word').count()
+                    assert page.locator('.paronym-word .dictionary-sources a').count()>=page.locator('.paronym-word').count()
+                    for link in page.locator('.paronym-word .dictionary-sources a').all():
+                        url=link.get_attribute('href');sid=Path(urlsplit(url).path).stem
+                        assert '#page=' in url
+                        if sid in downloaded:continue
+                        response=page.request.get(url)
+                        assert response.ok
+                        assert hashlib.sha256(response.body()).hexdigest()==dictionary_sources[sid]['sha256']
+                        downloaded.add(sid)
                     for width in [320,390,768,1440]:
                         page.set_viewport_size({'width':width,'height':900})
                         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(review['id'],width)

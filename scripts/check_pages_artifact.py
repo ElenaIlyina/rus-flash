@@ -69,6 +69,13 @@ def check(root):
     for card in catalog['cards']:
         for ref in card.get('explanationSourceRefs', []):
             if ref['sourceId'] not in source_ids: raise ValueError('Missing explanation source for ' + card['id'])
+        refs = list(card.get('dictionarySourceRefs', []))
+        for pair in card.get('paronymComparisons', []):
+            refs.extend(ref for word in pair['words'] for ref in word['dictionaryRefs'])
+        for ref in refs:
+            sid = ref['dictionaryId']
+            if not re.fullmatch(r'[a-z0-9-]+', sid) or not (root / 'assets/data/dictionaries' / f'{sid}.pdf').is_file():
+                raise ValueError('Missing dictionary PDF for ' + card['id'])
     # Missing local ES module imports would otherwise cause a blank app on Pages.
     for path in (root / 'js').glob('*.js'):
         for imported in re.findall(r'\bfrom\s+[\'"]([^\'"]+)[\'"]', path.read_text()):

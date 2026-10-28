@@ -720,6 +720,28 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "9eca84e47a65cae3299927abd4c98528082656c4acc1cee8808c7dfefb4eb9a5",
       "explanationSha256": "338d5777cb67f4efeda4f828529c3ec90ff0110aa78d02ea540bee9a43be9a2c"
+    },
+    {
+      "changeId": "PARONYM-SOURCE-012CAB",
+      "id": "012CAB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "Прочитаны изображения словарных статей: определения и примеры заменены на подтверждённые, отсылка «лакировочный → лакировальный» разрешена. Для 012CAB найдено нормативное «лаковый раствор», возможный дополнительный ответ передан на сверку; ключ не изменён.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8f5d6d93615d47a14392a3850f36af84f2bd438f6b6aa657a65f4523faebfe9e",
+      "explanationSha256": "a37e06ebb370bc64198ffbc6fe0b33d5797982fa1c5dad4ec656b406eb2c06bb"
+    },
+    {
+      "changeId": "PARONYM-SOURCE-01C2C7",
+      "id": "01C2C7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "Прочитаны изображения словарных статей: определения и примеры заменены на подтверждённые, отсылка «лакировочный → лакировальный» разрешена. Для 012CAB найдено нормативное «лаковый раствор», возможный дополнительный ответ передан на сверку; ключ не изменён.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "338d5777cb67f4efeda4f828529c3ec90ff0110aa78d02ea540bee9a43be9a2c",
+      "explanationSha256": "129fd1206a45cb7adf02c478bbfbda7dcd80f6db0ae336c30f9e2328a5cc2db4"
     }
   ]
 }
