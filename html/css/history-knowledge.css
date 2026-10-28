@@ -288,3 +288,33 @@ dialog form {
   border-top: 1px solid var(--line);
   padding-top: 20px;
 }
+
+.debug-panel,
+.debug-settings {
+  border: 1px dashed #a58c4e;
+  background: #fff9e8;
+  padding: 18px;
+  border-radius: 12px;
+  margin-block: 20px;
+}
+.debug-panel p,
+.debug-settings p {
+  margin-block: 12px;
+  overflow-wrap: anywhere;
+}
+.debug-badge {
+  display: inline-block;
+  font-size: 11px;
+  color: #785a16;
+  background: #fff1c8;
+  padding: 4px 7px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.debug-settings summary {
+  cursor: pointer;
+}
+
+.row-top:has(.debug-badge) {
+  flex-wrap: wrap;
+}

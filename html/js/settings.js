@@ -1,3 +1,4 @@
+import { debugSettings } from "./review-debug.js";
 /** Author-approved scoring profile; preferences stay on the current device. */
 export const coefficientForRetention = (retention, answers = 10) =>
   retention ** (-1 / answers) - 1;
@@ -75,5 +76,5 @@ export function renderSettings(settings) {
   ${input("topicA", "Коэффициент a для тем", "Для заданий ЕГЭ. При меньшем весе простых упражнений тема меняется медленнее.")}
   <div class="progress-actions">${["cardA", "topicA"].map((key) => `<p>${key === "cardA" ? "Для карточки" : "Для темы"}: ${[0.01, 0.001, 0.0001].map((r) => `<button class="button quiet" type="button" data-action="retention" data-target="${key}" data-retention="${r}">${r * 100}% после 10 решений</button>`).join("")}</p>`).join("")}</div></details>
   <p>Верно с первой попытки — 1; с n-й попытки — 1/n; с подсказкой или просмотром ответа — 0. Чтение правила не снижает результат. Незавершённое решение не меняет оценку.</p>
-  <div class="progress-actions"><button class="button primary" type="submit">Сохранить настройки</button><button class="button secondary" type="button" data-action="reset-settings">По умолчанию</button></div><p id="settings-feedback" role="status"></p></form>`;
+  <div class="progress-actions"><button class="button primary" type="submit">Сохранить настройки</button><button class="button secondary" type="button" data-action="reset-settings">По умолчанию</button></div><p id="settings-feedback" role="status"></p></form>${debugSettings()}`;
 }

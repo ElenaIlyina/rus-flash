@@ -1,4 +1,13 @@
 import {
+  debugEnabled,
+  setDebugEnabled,
+  loadReviewDebug,
+  debugPage,
+  debugPanel,
+  debugBadge,
+  toggleAccepted,
+} from "./review-debug.js";
+import {
   loadSettings,
   saveSettings,
   renderSettings,
@@ -60,6 +69,8 @@ let catalog,
   renderVersion = 0,
   reveal = false;
 let pendingImport = null;
+let reviewDebug = [];
+const reviewEntry = (id) => reviewDebug.find((entry) => entry.id === id);
 const shuffleSeed = Math.floor(Math.random() * 0xffffffff);
 let filter = {
   query: "",
@@ -186,7 +197,7 @@ function bankResults() {
           .slice(0, filter.page * 24)
           .map(
             (c) =>
-              `<a class="bank-row" href="#card/${c.id}"><span class="row-icon group-number" aria-label="Группа ${c.task || "не определена"}">${esc(c.task || "—")}</span><div><div class="row-top"><span>${c.id}</span>${store.tags(c.id).fav ? '<span class="bank-favorite" aria-label="В избранном">⭐</span>' : ""}</div><h3>${esc(plain(c.title))}</h3><span class="row-status ${c.hasAnswer ? "" : "muted"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.hasAnswer ? "Эталон ещё не проверен" : "Эталон ещё не подготовлен"}${c.formatStatus === "historical_format" ? " · прежний формат" : ""}</span></div>${icon("arrow")}</a>`,
+              `<a class="bank-row" href="#card/${c.id}"><span class="row-icon group-number" aria-label="Группа ${c.task || "не определена"}">${esc(c.task || "—")}</span><div><div class="row-top"><span>${c.id}</span>${debugBadge(reviewEntry(c.id))}${store.tags(c.id).fav ? '<span class="bank-favorite" aria-label="В избранном">⭐</span>' : ""}</div><h3>${esc(plain(c.title))}</h3><span class="row-status ${c.hasAnswer ? "" : "muted"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.hasAnswer ? "Эталон ещё не проверен" : "Эталон ещё не подготовлен"}${c.formatStatus === "historical_format" ? " · прежний формат" : ""}</span></div>${icon("arrow")}</a>`,
           )
           .join(
             "",
@@ -211,6 +222,7 @@ function renderBank(params) {
       "Выберите карточку, тему или вернитесь к тому, что хочется повторить.",
     ) +
     `
+    ${debugEnabled() ? '<p><a class="text-link" href="#debug">DEBUG · Очередь ревью</a></p>' : ""}
     <div class="bank-tools"><label class="search-field">${icon("search")}<input id="bank-search" type="search" placeholder="Найти по тексту или ID" value="${esc(filter.query)}" aria-label="Поиск по тексту или ID"></label><label class="select-field"><span class="sr-only">Группа задания</span><select id="task-filter"><option value="">Все группы</option>${Object.entries(
       catalog.taskNames,
     )
@@ -272,7 +284,7 @@ async function renderCard(id, version) {
   const tags = store.tags(id);
   const status = learning().cardStates.get(id);
   const canCheck = Boolean(c.answer && !c.reviewNote);
-  main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
+  main.innerHTML = `${debugPanel(reviewEntry(id))}<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
     <div class="practice-layout"><article class="exercise"><div class="exercise-header"><span class="eyebrow">КАРТОЧКА ${id}</span><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
       <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span><span data-learning-score>Оценка карточки: ${learning().cardScores.get(id) === null ? "ещё нет" : learning().cardScores.get(id).toFixed(3)}</span></div>
       ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
@@ -410,7 +422,9 @@ async function render() {
     ? "Практика / Карточка"
     : (path === "settings"
         ? "Настройки обучения"
-        : navs.find((n) => n[0] === path)?.[1]) || "Заниматься";
+        : path === "debug"
+          ? "Отладка: ревью"
+          : navs.find((n) => n[0] === path)?.[1]) || "Заниматься";
   for (const target of ["#desktop-nav", "#mobile-nav"]) {
     const itemsHtml = navs
       .map(
@@ -425,7 +439,18 @@ async function render() {
         : itemsHtml;
   }
   try {
-    if (path.startsWith("card/")) await renderCard(path.slice(5), version);
+    reviewDebug = debugEnabled() ? await loadReviewDebug() : [];
+    if (version !== renderVersion) return;
+    if (path === "debug")
+      main.innerHTML = debugEnabled()
+        ? debugPage(reviewDebug, params.get("filter") || "pending")
+        : empty(
+            "knowledge",
+            "Отладка выключена",
+            "Включите ревью карточек в настройках.",
+            '<a class="text-link" href="#settings">Настройки</a>',
+          );
+    else if (path.startsWith("card/")) await renderCard(path.slice(5), version);
     else if (path === "bank") renderBank(params);
     else if (path === "progress") renderProgress(params);
     else if (path === "knowledge") await renderKnowledge(params, version);
@@ -443,7 +468,7 @@ async function render() {
   }
   if (version === renderVersion) {
     window.scrollTo({ top: 0 });
-    document.title = `${path.startsWith("card/") ? "Карточка " + path.slice(5) : (path === "settings" ? "Настройки обучения" : navs.find((n) => n[0] === path)?.[1]) || "Заниматься"} — Слово за слово`;
+    document.title = `${path.startsWith("card/") ? "Карточка " + path.slice(5) : (path === "settings" ? "Настройки обучения" : path === "debug" ? "Отладка: ревью" : navs.find((n) => n[0] === path)?.[1]) || "Заниматься"} — Слово за слово`;
   }
 }
 
@@ -464,6 +489,24 @@ document.addEventListener("click", async (event) => {
     return;
   }
   switch (button.dataset.action) {
+    case "debug-toggle":
+      try {
+        setDebugEnabled(!debugEnabled());
+        await render();
+      } catch {
+        toast("Не удалось сохранить режим отладки в браузере.");
+      }
+      break;
+    case "debug-accept":
+      if (debugEnabled() && reviewEntry(button.dataset.card)) {
+        try {
+          toggleAccepted(reviewEntry(button.dataset.card));
+          await render();
+        } catch {
+          toast("Не удалось сохранить отметку ревью.");
+        }
+      }
+      break;
     case "adjust-setting":
       adjustSetting(
         main.querySelector(`[name="${button.dataset.target}"]`),

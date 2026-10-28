@@ -13,8 +13,8 @@ def check(root):
     root = Path(root)
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
-        'js/settings.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/knowledge.js', 'js/progress-transfer.js',
-        'assets/data/catalog.json', 'assets/data/handbook.json', 'assets/data/handbook-sources.json',
+        'js/settings.js', 'js/review-debug.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/knowledge.js', 'js/progress-transfer.js',
+        'assets/data/catalog.json', 'assets/data/review-debug.json', 'assets/data/handbook.json', 'assets/data/handbook-sources.json',
         'assets/brand/slovo-za-slovo-school.png',
     ]
     for relative in required:

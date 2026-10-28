@@ -98,6 +98,27 @@ def main():
         'learningPolicyStatus': 'experimental_not_pedagogically_validated',
         'taskNames': names, 'cards': catalog,
     }, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    issues = json.loads((ROOT / 'data/knowledge/review_issues.json').read_text())['cards']
+    if set(issues) - {c['number'] for c in cards}: raise ValueError('Unknown card in review issues')
+    source_versions = {p['id']:p['textSha256'] for source in source_entries for p in source['paragraphs']}
+    debug = []
+    for c in cards:
+        cid = c['number']
+        entry = prefix_reviews.get(cid)
+        notes = list(issues.get(cid, []))
+        if overrides.get(cid, {}).get('reason'): notes.append(overrides[cid]['reason'])
+        if not entry and not notes: continue
+        task = mapping(c)['task']
+        rules = [r for r in handbook['paragraphs'] if task in r['tasks']]
+        refs = {sid for row in (entry or {}).get('rows', []) for sid in row['sourceIds']}
+        refs.update(ref['sourceId'] for rule in rules for ref in rule.get('sourceRefs', []))
+        basis = {'card':c, 'review':entry, 'rules':rules, 'sources':{sid:source_versions[sid] for sid in sorted(refs)}, 'issues':notes}
+        version = hashlib.sha256(json.dumps(basis,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+        parts = ['объяснение', 'источники по рядам'] if entry else ['замечания к материалу']
+        if entry and entry.get('hint'): parts.append('индивидуальная подсказка')
+        if entry and entry.get('sourceEditApproval'): parts.append('условие (согласовано)')
+        debug.append({'id':cid,'version':version,'parts':parts,'issues':notes})
+    (OUT / 'review-debug.json').write_text(json.dumps(debug,ensure_ascii=False,separators=(',', ':')))
     print(f'UI data: {len(catalog)} cards; source JSON unchanged')
 
 

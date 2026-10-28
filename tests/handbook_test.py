@@ -74,7 +74,7 @@ class HandbookTest(unittest.TestCase):
 
     def test_root_batch_preserves_fipi_source_and_has_exact_links(self):
         reviews=json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards']
-        self.assertEqual(len(reviews),5)
+        self.assertEqual(len(reviews),17)
         for review in reviews:
             card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
             self.assertEqual(render_prefix(card,review),card['explanation'])

@@ -357,6 +357,193 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "f94a07972628b3993f6085c17810c5f0c14c2079568533e25e5054d368a04652",
       "explanationSha256": "f3a487f2d28bcce839d083819e063a48fe9f0a03bc2f8b12f802075c7cda49c2"
+    },
+    {
+      "changeId": "ROOT-2B52B4",
+      "id": "2B52B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "910a32e726b27fbccef990e760beadf6059857568fc86b07eb99a55c8bc3eb44",
+      "explanationSha256": "381be0e96c279c31eca0ea44a33317d2d72a79d927ec6f96a4a313cb20e6f74a"
+    },
+    {
+      "changeId": "ROOT-30E9EE",
+      "id": "30E9EE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4a8a6c253ff448007b0963284471a37841a44ba2c8ea9fcbf5ae4cae1a143ad2",
+      "explanationSha256": "72a3e5a33490321a0576cb8be1409019d1cc3a90e667bbb47a96b0595559fc4a"
+    },
+    {
+      "changeId": "ROOT-4273B4",
+      "id": "4273B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "377fcc90f3f173f1e01d4387c4dd36457ffefa4a210df8896b5268c70651bf55",
+      "explanationSha256": "adf36492a6da59bc53d05368b4d5152b6b36b9bd6f1f46a929cc266bf4a6edfe"
+    },
+    {
+      "changeId": "ROOT-493862",
+      "id": "493862",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a51661f4246fb082621199d5004bb8ab2bbbec5a26f4221e93c6935560870076",
+      "explanationSha256": "c38d8e3ef4616e4849a4b0d246b245408e9ec792f1ff4131a9fd015191ba9b5b"
+    },
+    {
+      "changeId": "ROOT-50A136",
+      "id": "50A136",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c8f5804e887f0dd207eacdf32001fbe2ed9aae8a71193d94ceb2b5d12a377a9e",
+      "explanationSha256": "ef8cab8466557168f170b4356174bd9abeb708e148b45432bb92a633a197c2a3"
+    },
+    {
+      "changeId": "ROOT-6A5602",
+      "id": "6A5602",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1c4d98ed729a597b4e48166b9d7be7fedd571d348d5961089624de44c54edd79",
+      "explanationSha256": "e2d874da8ab422f98d6456bf972c7e94af1b1382088a6bfbc250385798aef65d"
+    },
+    {
+      "changeId": "ROOT-6ADB71",
+      "id": "6ADB71",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "237d9dbd6e479d8b01ab8bea8f51c1927242b816b1b7fd1051ef36f039e9b417",
+      "explanationSha256": "7eff4712f14580bd54344b1b77037ec40b587abcf1d10ab2ff48a5fd8be6bc30"
+    },
+    {
+      "changeId": "ROOT-727FB5",
+      "id": "727FB5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b995ecba300f2c6595375c0167d77c4d1516f02f0a197aa6fe03348e7b90e8d5",
+      "explanationSha256": "6648a48e55d092ea74ff137bcb91e2ae997bf9bbf0a1d743a3ed46afded4b46c"
+    },
+    {
+      "changeId": "ROOT-75D42E",
+      "id": "75D42E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8d27ea56b19fa2056332b5b44d0802db398fc5262cf826fb4658ad83c72ba242",
+      "explanationSha256": "71e1a79d03648708571185bef9f4dc6d3629017dcde9ce55ad3ce1092ed7e3d9"
+    },
+    {
+      "changeId": "ROOT-79954C",
+      "id": "79954C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c1154e99dc2f94e8f496c4d61a2dec2fdb9814f0a3a387d7cc13e99a210cb16b",
+      "explanationSha256": "487e1edd1d844b1da5612c3a12de39308800fbc9f2794a8e91ba44608eee490b"
+    },
+    {
+      "changeId": "ROOT-7E8660",
+      "id": "7E8660",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ebea80a6fff4dd0fd0a96cfe20082a41db9d6e7a4e797c70df9a290a829a23d4",
+      "explanationSha256": "2486b0111ac02e55eaf5ab74e9ea2fb057cf71c67c7b96373b63d2f014c949ca"
+    },
+    {
+      "changeId": "ROOT-81C8F9",
+      "id": "81C8F9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f268fbde52917266f5be91a1ab04633ce1ff993c39f1805bb6303a4bc802f537",
+      "explanationSha256": "5c28ce082270e2bc13dca8f69fbefd40a71e83ff291ca5a6bf619196799cbbb6"
+    },
+    {
+      "changeId": "ROOT-493862",
+      "id": "493862",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c38d8e3ef4616e4849a4b0d246b245408e9ec792f1ff4131a9fd015191ba9b5b",
+      "explanationSha256": "b9eb0d80d55659355ef5f2aa31eb8240076a61d7a7452b1f798676bd43da5a2a"
+    },
+    {
+      "changeId": "ROOT-6A5602",
+      "id": "6A5602",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e2d874da8ab422f98d6456bf972c7e94af1b1382088a6bfbc250385798aef65d",
+      "explanationSha256": "2aa4c3b641eb5307fc61c07784548e4cff4f96ffb813100197a24e8ea4d80062"
+    },
+    {
+      "changeId": "ROOT-81C8F9",
+      "id": "81C8F9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5c28ce082270e2bc13dca8f69fbefd40a71e83ff291ca5a6bf619196799cbbb6",
+      "explanationSha256": "8bef4d7be6ac2660e07a64e32caec413eb01abb39b834cb1315531543a570e95"
+    },
+    {
+      "changeId": "ROOT-6ADB71",
+      "id": "6ADB71",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7eff4712f14580bd54344b1b77037ec40b587abcf1d10ab2ff48a5fd8be6bc30",
+      "explanationSha256": "dc086783e0dcb3b2641ef8a69069b647430572c9f9a5766a0c03e3a71b814491"
+    },
+    {
+      "changeId": "ROOT-75D42E",
+      "id": "75D42E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "71e1a79d03648708571185bef9f4dc6d3629017dcde9ce55ad3ce1092ed7e3d9",
+      "explanationSha256": "39b7bb9cee05ea61b69553d1f1291256d6487a2d46d90226fd551790faf1b943"
     }
   ]
 }
