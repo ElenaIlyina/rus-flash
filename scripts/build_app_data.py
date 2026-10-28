@@ -45,9 +45,23 @@ def main():
             if ref['sourceId'] not in source_ids: raise ValueError('Missing source reference: ' + ref['sourceId'])
     (OUT / 'handbook.json').write_text(json.dumps(handbook, ensure_ascii=False, separators=(',', ':')))
     prefix_reviews = {r['id']:r for r in json.loads((ROOT / 'data/knowledge/prefix_card_reviews.json').read_text())['cards']}
+    root_reviews = json.loads((ROOT / 'data/knowledge/root_card_reviews.json').read_text())['cards']
+    for entry in root_reviews:
+        if entry['id'] in prefix_reviews: raise ValueError('Duplicate card review: ' + entry['id'])
+        prefix_reviews[entry['id']] = entry
+    for entry in prefix_reviews.values():
+        for row in entry['rows']:
+            for source_id in row['sourceIds']:
+                if source_id not in source_ids: raise ValueError('Missing reviewed source: ' + source_id)
     overrides = json.loads((ROOT / 'data/content_review_overrides.json').read_text())['cards']
     for c in cards:
         cid = c['number']
+        source_hash = prefix_reviews.get(cid, {}).get('sourceContentSha256')
+        if source_hash:
+            frozen = {key:value for key,value in c.items() if key != 'explanation'}
+            actual_hash = hashlib.sha256(json.dumps(frozen, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+            if actual_hash != source_hash:
+                raise ValueError('Reviewed source changed; author approval and re-review required: ' + cid)
         if len(cid) != 6 or any(ch not in '0123456789ABCDEF' for ch in cid):
             raise ValueError(f'Invalid card ID: {cid}')
         position = mapping(c)
@@ -68,6 +82,7 @@ def main():
             'ruleIds': [p['id'] for p in handbook['paragraphs'] if task in p['tasks']],
             'ruleRefs': [{'id':p['id'], 'label':f"§{p['number']}. {p['title']}"} for p in handbook['paragraphs'] if task in p['tasks']],
             'explanationStatus': review.get('explanationStatus', 'pending_subject_review' if c.get('explanation', '').strip() else 'missing'),
+            'strategyHint': prefix_reviews.get(cid, {}).get('hint', ''),
             'explanationReviewStatus': prefix_reviews.get(cid, {}).get('status'),
             'explanationSourceRefs': [{'part':row['number'], 'sourceId':sid, 'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"} for row in prefix_reviews.get(cid, {}).get('rows', []) for sid in row['sourceIds']],
             'reviewNote': review.get('reason', '' if options_complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),

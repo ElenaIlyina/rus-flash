@@ -291,6 +291,61 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "740259e3f15de543d0adbb5717f98b0fc6218d66f6c7bd873814dc5868ae51ac",
       "explanationSha256": "59826859abe3ecd4adf9f738566f22a7d0c662abbfc51cc0413540b63e5ac3d5"
+    },
+    {
+      "changeId": "ROOT-0C24B0",
+      "id": "0C24B0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a8e7e6e8e7a115ded46dcec53352518908a2e99be7c82ca330650a3780b138d2",
+      "explanationSha256": "38176680a46f38d13af0aa9e43fdea7b144dddfe0b7a29b6ee8892d690518a91"
+    },
+    {
+      "changeId": "ROOT-1A1A4B",
+      "id": "1A1A4B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "328315e521694b6bcae39bc9292d0bd6f3030a3d2547bdb6db7c5a9a4ce5f062",
+      "explanationSha256": "9c281d897890640fa2fc4d0379ddb21a0f5ff9581f0937eb5e1159855881e53d"
+    },
+    {
+      "changeId": "ROOT-279C1A",
+      "id": "279C1A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "352f6c02dc55770735e404da0f3d25f682ecd898aa645cf666489f52353a6f0c",
+      "explanationSha256": "fc8a5c20d20876929cfe27bc470900ccff13169cb5791fc88f4a79827cc1d2bc"
+    },
+    {
+      "changeId": "ROOT-2AFA71",
+      "id": "2AFA71",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7ee8678c8f647c9f26f87ceb86b2c2ce6ada2d7ddbb4de0b498d2a10c718c2f3",
+      "explanationSha256": "2ab02a3757537eb60ebffe62ad90fd45c21caceb8a0920244739a328b87e1622"
+    },
+    {
+      "changeId": "EXPL-003B4D-SEDINA",
+      "id": "003B4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "В паре седина — сед проверяется Е, а не ударная И; исправлено только выделение в объяснении. Лопатин, орфография §34, пример поседеть — сед.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "75394d8bc69e9ba809f3604f83a6c1f9f199a63bb1358a2efd84ea29b52874c1",
+      "explanationSha256": "f94a07972628b3993f6085c17810c5f0c14c2079568533e25e5054d368a04652"
     }
   ]
 }

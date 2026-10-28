@@ -72,6 +72,20 @@ class HandbookTest(unittest.TestCase):
             for row in review['rows']:
                 for sid in row['sourceIds']:self.assertIn(sid,self.by_id)
 
+    def test_root_batch_preserves_fipi_source_and_has_exact_links(self):
+        reviews=json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards']
+        self.assertEqual(len(reviews),4)
+        for review in reviews:
+            card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
+            self.assertEqual(render_prefix(card,review),card['explanation'])
+            self.assertGreater(len(review['hint']),100)
+            for row in review['rows']:
+                for sid in row['sourceIds']:self.assertIn(sid,self.by_id)
+            changed=copy.deepcopy(card)
+            changed['question']+=' Изменение без согласования'
+            with self.assertRaisesRegex(ValueError,'Source content changed'):
+                render_prefix(changed,review)
+
     def test_prefix_batch_checks_every_card_before_writing(self):
         reviews=json.loads((ROOT/'data/knowledge/prefix_card_reviews.json').read_text())['cards'][:2]
         reviews=copy.deepcopy(reviews)

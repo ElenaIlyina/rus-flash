@@ -121,6 +121,14 @@ def main():
             page.locator('[data-source-id="lopatin-2007-orthography-12"]').wait_for()
             assert page.locator('.page-heading img').count()==0
             assert not page.evaluate('Boolean(window.sourceInjected)')
+            page.goto(base+'#card/1A1A4B',wait_until='networkidle')
+            page.get_by_role('button',name='Подсказка',exact=True).click()
+            assert 'БЛЕСТ-/БЛИСТ-' in page.locator('#hint').inner_text()
+            page.get_by_role('button',name='Ответ и разбор',exact=True).click()
+            assert 'Ряд 5' in page.locator('#explanation').inner_text()
+            page.locator('.explanation-sources summary').click()
+            page.get_by_role('link',name='Ряд 3: Орфография, §34 · Эксмо, 2007',exact=True).click()
+            page.locator('[data-source-id="lopatin-2007-orthography-34"]').wait_for()
             assert not errors,errors
             browser.close()
     finally:

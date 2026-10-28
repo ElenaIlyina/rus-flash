@@ -500,7 +500,7 @@ document.addEventListener("click", async (event) => {
       store.markAssignment(currentCard.id, "assisted");
       const area = main.querySelector("#hint");
       area.hidden = false;
-      area.innerHTML = `<h3>Подсказка к способу решения</h3><p>${esc(strategyHint(currentCard.task))}</p><p class="muted">Подсказка использована: ответ в этой попытке не считается самостоятельным.</p>`;
+      area.innerHTML = `<h3>Подсказка к способу решения</h3><p>${esc(currentCard.strategyHint || strategyHint(currentCard.task))}</p><p class="muted">Подсказка использована: ответ в этой попытке не считается самостоятельным.</p>`;
       break;
     }
     case "new-attempt":

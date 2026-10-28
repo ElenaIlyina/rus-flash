@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce source-linked row-by-row explanations for the 12 inspected prefix cards.
+"""Reproduce source-linked row-by-row explanations for inspected same-letter gap cards.
 
 Default: check only. --write updates explanations and appends immutable review records.
 Does not change answers, source questions, or variants. Word forms are editorial data,
@@ -23,6 +23,9 @@ def variants(card):
 
 
 def render(card,review):
+    frozen={k:v for k,v in card.items() if k!='explanation'}
+    if review.get('sourceContentSha256') and hashlib.sha256(json.dumps(frozen,sort_keys=True,ensure_ascii=False).encode()).hexdigest()!=review['sourceContentSha256']:
+        raise ValueError('Source content changed; author approval and re-review required: '+card['number'])
     rows=variants(card)
     if len(rows)!=len(review['rows']):raise ValueError('Row count mismatch: '+card['number'])
     selected=[];blocks=[]
@@ -48,8 +51,9 @@ def render(card,review):
 
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--write',action='store_true');args=parser.parse_args()
-    reviews=json.loads((ROOT/'data/knowledge/prefix_card_reviews.json').read_text())['cards']
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--write',action='store_true');parser.add_argument('--group',choices=['prefix','roots'],default='prefix');args=parser.parse_args()
+    registry='root_card_reviews.json' if args.group=='roots' else 'prefix_card_reviews.json'
+    batch=json.loads((ROOT/'data/knowledge'/registry).read_text());reviews=batch['cards']
     log_path=ROOT/'docs/content-audit/explanation-reviews.json'
     log=json.loads(log_path.read_text())
     prepared=[]
@@ -59,7 +63,7 @@ def main():
         if not args.write:raise ValueError('Explanation differs from reviewed rows: '+review['id'])
         before=card['explanation'];card['explanation']=expected
         prepared.append((path, json.dumps(card,ensure_ascii=False,indent=2)+'\n'))
-        log['reviews'].append({'changeId':'PREFIX-'+review['id'],'id':review['id'],'reviewer':'assistant','reviewDate':'2026-10-27','status':review['status'],'reason':'Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.','answerUnchanged':True,'previousExplanationSha256':hashlib.sha256(before.encode()).hexdigest(),'explanationSha256':hashlib.sha256(expected.encode()).hexdigest()})
+        log['reviews'].append({'changeId':('ROOT-' if args.group=='roots' else 'PREFIX-')+review['id'],'id':review['id'],'reviewer':'assistant','reviewDate':batch.get('reviewDate','2026-10-27'),'status':review['status'],'reason':'Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. '+registry+'.','answerUnchanged':True,'previousExplanationSha256':hashlib.sha256(before.encode()).hexdigest(),'explanationSha256':hashlib.sha256(expected.encode()).hexdigest()})
     changed=len(prepared)
     if args.write and prepared:
         # Validate the complete batch before any mutation; keep the journal with the edits.
@@ -70,7 +74,7 @@ def main():
         except OSError:
             for path,value in snapshots.items():path.write_bytes(value)
             raise
-    print(f'Prefix explanations checked: {len(reviews)}; updated: {changed}')
+    print(f'Explanations checked: {len(reviews)}; updated: {changed}')
 
 
 if __name__=='__main__':main()

@@ -132,6 +132,82 @@
           "reviewStatus": "relevant_passage_read_by_assistant"
         }
       ]
+    },
+    {
+      "id": "roots-checked",
+      "number": 5,
+      "title": "Проверяемые гласные корня",
+      "tasks": [
+        9
+      ],
+      "body": "Подберите однокоренное слово или форму того же слова так, чтобы проверяемая гласная оказалась под ударением. Сохраняйте значение корня: осветить — свет, освятить — свят. Само наличие похожего слова не является проверкой.<br><b>Примеры:</b> сокращать — кра́ткий, программировать — програ́мма. Не подменяйте проверку чередующегося корня общим правилом.",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-33",
+          "part": "orthography",
+          "paragraph": 33,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-34",
+          "part": "orthography",
+          "paragraph": 34,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "id": "roots-alternating",
+      "number": 6,
+      "title": "Чередующиеся гласные корня",
+      "tasks": [
+        9
+      ],
+      "body": "Сначала установите конкретное чередование. Условия различаются: в ЛАГ-/ЛОЖ- важна следующая согласная; в СКАК-/СКОЧ- — К или Ч с учётом исключений; в ГАР-/ГОР- — ударение. Для ТЕР-/ТИР-, ПЕР-/ПИР- и БЛЕСТ-/БЛИСТ- проверяйте суффикс -А- непосредственно после корня.<br>Не переносите одно условие на все чередования и не выбирайте случайное проверочное слово.",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-35",
+          "part": "orthography",
+          "paragraph": 35,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-36",
+          "part": "orthography",
+          "paragraph": 36,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "id": "roots-dictionary",
+      "number": 7,
+      "title": "Когда нужен орфографический словарь",
+      "tasks": [
+        9
+      ],
+      "body": "Если написание не устанавливается проверкой ударением и не объясняется известным правилом чередования, обратитесь к орфографическому словарю. Справочник описывает метод, а словарная статья подтверждает конкретное слово.<br>Различайте «не удалось подобрать проверку» и «гласная действительно непроверяемая»: сначала проверьте производные слова и их ударение.",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-34",
+          "part": "orthography",
+          "paragraph": 34,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
     }
   ]
 }
