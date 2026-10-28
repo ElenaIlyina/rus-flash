@@ -108,6 +108,7 @@ def main():
         notes = list(issues.get(cid, []))
         if overrides.get(cid, {}).get('reason'): notes.append(overrides[cid]['reason'])
         if not entry and not notes: continue
+        if entry and entry.get('authorReviewRequired') is False and not notes: continue
         task = mapping(c)['task']
         rules = [r for r in handbook['paragraphs'] if task in r['tasks']]
         refs = {sid for row in (entry or {}).get('rows', []) for sid in row['sourceIds']}

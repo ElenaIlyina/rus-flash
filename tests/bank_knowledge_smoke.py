@@ -146,6 +146,23 @@ def main():
             assert page.locator('.question-text').inner_text()=='Укажите варианты ответов, в которых во всех словах одного ряда пропущена одна и та же буква. Запишите номера ответов.'
             assert page.locator('[name="answer-option"]').count()==5
             assert 'симв..лизировать' in page.locator('.options').inner_text()
+            page.goto(base+'#card/135475',wait_until='networkidle')
+            page.get_by_role('button',name='Подсказка',exact=True).click()
+            assert 'Слова уже написаны полностью' in page.locator('#hint').inner_text()
+            page.get_by_role('button',name='Ответ и разбор',exact=True).click()
+            explanation=page.locator('#explanation').inner_text()
+            assert 'экза́мен' in explanation and 'Ряд 5 — не подходит' in explanation
+            assert 'Пропущенные буквы' not in explanation
+            page.locator('.explanation-sources summary').click()
+            page.get_by_role('link',name='Ряд 5: Орфография, §35 · Эксмо, 2007',exact=True).click()
+            page.locator('[data-source-id="lopatin-2007-orthography-35"]').wait_for()
+            page.goto(base+'#card/2A9943',wait_until='networkidle')
+            page.get_by_role('button',name='Подсказка',exact=True).click()
+            assert 'проверка строится на ударении' in page.locator('#hint').inner_text()
+            page.get_by_role('button',name='Ответ и разбор',exact=True).click()
+            explanation=page.locator('#explanation').inner_text()
+            assert 'экза́мен' in explanation and 'Верно: 3, 4, 5' in explanation
+            assert 'Ряд 2 — не подходит' in explanation
             assert not errors,errors
             browser.close()
     finally:

@@ -74,7 +74,7 @@ class HandbookTest(unittest.TestCase):
 
     def test_root_batch_preserves_fipi_source_and_has_exact_links(self):
         reviews=json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards']
-        self.assertEqual(len(reviews),17)
+        self.assertEqual(len(reviews),19)
         for review in reviews:
             card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
             self.assertEqual(render_prefix(card,review),card['explanation'])
@@ -102,6 +102,29 @@ class HandbookTest(unittest.TestCase):
         wrong=copy.deepcopy(review)
         wrong['rows'][0]['words'][0]='рост'
         with self.assertRaisesRegex(ValueError,'differ from source'):
+            render_prefix(card,wrong)
+
+    def test_135475_uses_ready_words_and_correct_root_checks(self):
+        review=next(r for r in json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards'] if r['id']=='135475')
+        card=json.loads((ROOT/'data/card_135475.json').read_text())
+        text=render_prefix(card,review)
+        self.assertNotIn('Пропущенные буквы',text)
+        self.assertNotIn('пропуск',review['hint'])
+        self.assertIn('воспи́танный',text)
+        self.assertIn('экза́мен',text)
+        self.assertIn('пости́г',text)
+        self.assertEqual(card['answer'],'134')
+
+    def test_checked_root_gaps_are_not_scored_by_identical_letters(self):
+        review=next(r for r in json.loads((ROOT/'data/knowledge/root_card_reviews.json').read_text())['cards'] if r['id']=='2A9943')
+        card=json.loads((ROOT/'data/card_2A9943.json').read_text())
+        text=render_prefix(card,review)
+        self.assertIn('Верно: 3, 4, 5',text)
+        self.assertIn('сами буквы могут быть разными',text)
+        self.assertFalse(review['authorReviewRequired'])
+        wrong=copy.deepcopy(review)
+        wrong['rows'][1]['classifications']=['checked']*3
+        with self.assertRaisesRegex(ValueError,'disagrees'):
             render_prefix(card,wrong)
 
     def test_prefix_batch_checks_every_card_before_writing(self):

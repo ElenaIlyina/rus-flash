@@ -29,9 +29,9 @@ def render(card,review):
     rows=variants(card)
     if len(rows)!=len(review['rows']):raise ValueError('Row count mismatch: '+card['number'])
     kind=review.get('kind','same_letter_gap')
-    if kind not in {'same_letter_gap','checked_root_vowels'}:
+    if kind not in {'same_letter_gap','checked_root_vowels','checked_root_gaps'}:
         raise ValueError('Unsupported review kind: '+kind)
-    if kind=='checked_root_vowels' and 'безударная проверяемая гласная корня' not in card['question']:
+    if kind in {'checked_root_vowels','checked_root_gaps'} and 'безударная проверяемая гласная корня' not in card['question']:
         raise ValueError('Instruction does not match root classification: '+card['number'])
     selected=[];blocks=[]
     for index,(row,template) in enumerate(zip(review['rows'],rows),1):
@@ -57,13 +57,20 @@ def render(card,review):
             if not match:raise ValueError(f'Word does not fit {bare}: {word}')
             letter=match[1];letters.append(letter.upper())
             at=len(parts[0]);completed.append(html.escape(word[:at])+'<b>'+html.escape(letter)+'</b>'+html.escape(word[at+1:]))
-        fits=len(set(letters))==1
+        if kind=='checked_root_gaps':
+            kinds=row['classifications']
+            if len(kinds)!=len(patterns) or any(k not in {'checked','alternating','dictionary'} for k in kinds):
+                raise ValueError('Invalid gap classifications')
+            fits=all(k=='checked' for k in kinds)
+        else:
+            fits=len(set(letters))==1
         if fits:selected.append(str(row['number']))
         blocks.append(f"<b>Ряд {row['number']}{' — подходит' if fits else ' — не подходит'}.</b> "+', '.join(completed)+'. Пропущенные буквы: '+', '.join(letters)+'. '+html.escape(row['reason']))
     answer=''.join(selected)
     if answer!=card['answer'] or ''.join('1'if str(i+1)in selected else'0'for i in range(len(rows)))!=card['answer_verify']:
         raise ValueError('Editorial row selection disagrees with historically checked answer: '+card['number'])
     intro=('Слова уже написаны полностью. Выбираем ряды, где в каждом слове есть безударная гласная корня, которую можно проверить ударением. Чередующееся или словарное написание не подходит. Знак ударения в проверочном слове показывает, какую гласную проверяем.<br><br>' if kind=='checked_root_vowels' else '')
+    if kind=='checked_root_gaps':intro='Восстановим слова и для каждой вставленной гласной определим способ проверки. Подходит ряд, в котором все три гласные корня проверяются ударением; сами буквы могут быть разными. Проверочное слово должно сохранять значение корня.<br><br>'
     return 'Верно: '+', '.join(selected)+'.<br><br>'+intro+'<br><br>'.join(blocks)
 
 

@@ -544,6 +544,28 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "71e1a79d03648708571185bef9f4dc6d3629017dcde9ce55ad3ce1092ed7e3d9",
       "explanationSha256": "39b7bb9cee05ea61b69553d1f1291256d6487a2d46d90226fd551790faf1b943"
+    },
+    {
+      "changeId": "ROOT-135475",
+      "id": "135475",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Классификация гласных в готовых словах: разбор всех пяти рядов, без вымышленных пропусков и заглавных букв внутри слов. Ударение указано в проверочных словах. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "263e57a0ec4aaf09d6b5c38c0503d28f7e9aa46e5565ead214f31f9cd0f2f84b",
+      "explanationSha256": "58ca0d2fe67e73e5d122618a277096242d63d2ea757fa0a990a3dc17552347ea"
+    },
+    {
+      "changeId": "ROOT-2A9943",
+      "id": "2A9943",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-28",
+      "status": "assistant_corrected_applied",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску. Выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. root_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "539a7da0760c3e9ac4f44c63d8908cd06854270a540f328cf7a4bfa4f5be648c",
+      "explanationSha256": "7bffe452b1c1bc906cffb832c6b1f444bb6591dbd9bd629212b0b86e67fb0aa0"
     }
   ]
 }

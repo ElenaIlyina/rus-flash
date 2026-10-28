@@ -40,8 +40,10 @@ def main():
             page.reload(wait_until='networkidle')
             page.get_by_role('button',name='Разбор принят',exact=True).wait_for()
             page.goto(base+'#debug?filter=issues',wait_until='networkidle')
-            assert page.locator('a[href="#card/135475"]').count()==1
+            assert page.locator('a[href="#card/493862"]').count()==1
             assert page.locator('a[href="#card/279C1A"]').count()==0
+            page.goto(base+'#debug?filter=all',wait_until='networkidle')
+            assert page.locator('a[href="#card/2A9943"], a[href="#card/135475"]').count()==0
             for width in [320,390,768,1440]:
                 page.set_viewport_size({'width':width,'height':900})
                 assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),width
