@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "phoneticsSha256": "6e1b6dcaf835f6b7294c9426de406dea3614bb81d9d28e25fc423c9c8036f389",
+  "method": "Extract Cyrillic tokens with exactly one uppercase vowel from variants; compare lowercased forms, treating е/ё alike, to literal word forms in the source list before the exclusion note. No lemmatization, no stress/key validation and no 2027 eligibility decision. Inflected forms may be allowed by source notes even without a direct match.",
+  "task": 4,
+  "totalCards": 114,
+  "totalVariantWords": 570,
+  "directlyMatchedVariantWords": 495,
+  "cardsWithAllFormsDirectlyFound": 55,
+  "sourceExcludedForms": {
+    "нарост": [],
+    "поручни": [
+      "7E19AB",
+      "EFDBCF"
+    ],
+    "жилось": [
+      "1D6C06",
+      "3D42DF"
+    ],
+    "наврала": [
+      "27368C",
+      "366012",
+      "738248",
+      "B6FBDF",
+      "DB4776",
+      "EB9D54",
+      "FD0C05"
+    ],
+    "соврала": [],
+    "сорит": [],
+    "кормящий": [
+      "53656E"
+    ],
+    "подняв": [
+      "52440A",
+      "53656E",
+      "EB9D54"
+    ],
+    "донельзя": [
+      "7756B9",
+      "9B2535",
+      "B851D5",
+      "D4F0CF"
+    ],
+    "затемно": [
+      "3CEC0E",
+      "CACB9D"
+    ]
+  },
+  "affectedCardIds": [
+    "1D6C06",
+    "27368C",
+    "366012",
+    "3CEC0E",
+    "3D42DF",
+    "52440A",
+    "53656E",
+    "738248",
+    "7756B9",
+    "7E19AB",
+    "9B2535",
+    "B6FBDF",
+    "B851D5",
+    "CACB9D",
+    "D4F0CF",
+    "DB4776",
+    "EB9D54",
+    "EFDBCF",
+    "FD0C05"
+  ],
+  "starterCards": [
+    {
+      "id": "011AA6",
+      "cardSha256": "fd4c65418883f6c863eea7f9867bbac17b67f09d5162976f2dace4d1501a0abe",
+      "wordCount": 5,
+      "directMatches": [
+        {
+          "original": "взялАсь",
+          "sourceForms": [
+            "взялАсь"
+          ]
+        },
+        {
+          "original": "тамОжня",
+          "sourceForms": [
+            "тамОжня"
+          ]
+        },
+        {
+          "original": "принЯть",
+          "sourceForms": [
+            "принЯть"
+          ]
+        },
+        {
+          "original": "засЕленный",
+          "sourceForms": [
+            "заселЁнный"
+          ]
+        },
+        {
+          "original": "новостЕй",
+          "sourceForms": [
+            "новостЕй"
+          ]
+        }
+      ],
+      "unmatchedForms": []
+    },
+    {
+      "id": "121C9D",
+      "cardSha256": "d3cb3f8978729b90f6a90e7171125fe0942d0a709cef76ade04f27d7a5fa9705",
+      "wordCount": 5,
+      "directMatches": [
+        {
+          "original": "ногтЕй",
+          "sourceForms": [
+            "ногтЕй"
+          ]
+        },
+        {
+          "original": "нОвостей",
+          "sourceForms": [
+            "новостЕй"
+          ]
+        },
+        {
+          "original": "кремЕнь",
+          "sourceForms": [
+            "кремЕнь"
+          ]
+        },
+        {
+          "original": "приручЁнный",
+          "sourceForms": [
+            "приручЁнный"
+          ]
+        },
+        {
+          "original": "туфлЯ",
+          "sourceForms": [
+            "тУфля"
+          ]
+        }
+      ],
+      "unmatchedForms": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "receivedAt": "2026-10-29",
+  "provenance": "user_uploaded_pdf",
+  "landingPage": "https://fipi.ru/navigator-podgotovki/navigator-ege",
+  "downloadUrl": null,
+  "authentication": "Contents inspected locally; current online originals and 2027 applicability not independently verified.",
+  "documents": [
+    {
+      "localFile": "phonetics.pdf",
+      "uploadedFileName": "ru-1-fonetika.pdf",
+      "title": "Навигатор самостоятельной подготовки к ЕГЭ: Фонетика и орфоэпия",
+      "sha256": "6e1b6dcaf835f6b7294c9426de406dea3614bb81d9d28e25fc423c9c8036f389",
+      "pages": 7,
+      "observedHeaderYears": [
+        2026,
+        2025
+      ],
+      "bankCardIds": [
+        "B4814B",
+        "6A530E",
+        "828CBC",
+        "31CB51",
+        "DF4F14",
+        "CEC4CA",
+        "7E19AB",
+        "EFDBCF",
+        "EFFBAA",
+        "42DC9B",
+        "AAE143",
+        "9D14F3"
+      ]
+    },
+    {
+      "localFile": "lexicon.pdf",
+      "uploadedFileName": "ru-2-leksika-i-frazeologija.pdf",
+      "title": "Навигатор самостоятельной подготовки к ЕГЭ: Лексика и фразеология",
+      "sha256": "0c86848e7cef51b461ce895a5b055dc309c3696ff7cccc63e37785851e0d83c9",
+      "pages": 13,
+      "observedHeaderYears": [
+        2025
+      ],
+      "bankCardIds": [
+        "BF2621",
+        "7506CC",
+        "D5B501",
+        "860554",
+        "B291A8",
+        "DB39CE",
+        "8DA96F",
+        "10542D",
+        "86E041",
+        "4B4F35",
+        "065D97",
+        "E2313B",
+        "74EB97",
+        "14AF4C",
+        "AD0E15",
+        "DC851F",
+        "DAB89F",
+        "019533",
+        "961876",
+        "6BDFBD",
+        "76164B",
+        "F6854B",
+        "125B45",
+        "7CD0F3",
+        "DFDB41",
+        "16D9F4",
+        "950247",
+        "DCF3FC",
+        "963449",
+        "E1D6F2",
+        "9F9A43",
+        "D52745",
+        "EECE4A",
+        "F3E10B",
+        "E17E48",
+        "C7CF0B",
+        "0ED1F6",
+        "6C3603",
+        "1CAFFA",
+        "1D1FBE"
+      ]
+    }
+  ]
+}
