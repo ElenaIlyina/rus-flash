@@ -5,7 +5,7 @@
 Ответ: '3' верно / '2' неверно / прочее — ошибка.
 
 Режимы:
-  --tasks 7 8        все карты выбранных заданий (по html/cards_manifest.js)
+  --tasks 7,8        карты выбранных позиций по официальному проекту ЕГЭ-2027
   --ids 729EAA,...   конкретные карты (UPPER CASE, через запятую)
   --file ids.txt     по одному ID на строку
 По умолчанию: сверяет answer из data/card_<ID>.json с FIPI и печатает отчёт.
@@ -21,6 +21,8 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from generate_manifest import load_cards
+from exam_2027 import mapping
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJ = 'AF0ED3F2557F8FFC4C06F80B6803FD26'
@@ -28,8 +30,6 @@ INIT_URL = f'https://ege.fipi.ru/bank/questions.php?proj={PROJ}&page=1&pagesize=
 SOLVE_URL = 'https://ege.fipi.ru/bank/solve.php'
 
 ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
 
 
 def make_opener():
@@ -54,18 +54,8 @@ def fipi_check(op, guid, answer):
 
 
 def card_ids_for_tasks(tasks):
-    manifest_path = ROOT / 'html' / 'cards_manifest.js'
-    src = manifest_path.read_text(encoding='utf-8')
-    m = re.search(r'"tasks"\s*:\s*\{(.*?)\n\s*\}', src, re.S)
-    if not m:
-        raise RuntimeError('в cards_manifest.js не найден блок "tasks"')
-    ids = []
-    for t in tasks:
-        # каждая запись вида "7": ["03ADF2", ...]
-        entry = re.search(r'"%s"\s*:\s*\[(.*?)\]' % re.escape(str(t)), m.group(1), re.S)
-        if entry:
-            ids.extend(re.findall(r'"([0-9A-F]+)"', entry.group(1)))
-    return ids
+    selected = {int(t) for t in tasks}
+    return [card['number'] for card in load_cards() if mapping(card)['task'] in selected]
 
 
 def main():
@@ -109,7 +99,11 @@ def main():
             answer = verify
         # перечень ('134') конвертируем в битмаск; перестановки (длина = числу
         # вариантов, цифры без повторов) — как есть (§6).
-        nvar = len(card.get('variants') or [])
+        variants = card.get('variants') or []
+        if len(variants) == 1 and re.match(r'^\s*\d\)', variants[0]):
+            nvar = len(re.findall(r'\d\)', variants[0]))
+        else:
+            nvar = len(variants)
         if (not args.ans and answer.isdigit() and set(answer) <= set('123456789')
                 and answer == verify and nvar
                 and not (len(answer) == nvar and len(set(answer)) == nvar)):

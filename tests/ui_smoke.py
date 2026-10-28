@@ -43,7 +43,7 @@ def main():
             assert not any('/cards/' in url for url in requests), 'Home must not preload the bank'
             checks += 1
             if '--screenshots' in sys.argv:
-                folder = ROOT / 'docs/ui-preview'
+                folder = Path('/tmp/rus-flash-screenshots/ui')
                 folder.mkdir(parents=True, exist_ok=True)
                 page.screenshot(path=str(folder / 'desktop-home.png'), full_page=True)
             page.locator('#desktop-nav a[href="#bank"]').click()
@@ -62,9 +62,9 @@ def main():
             assert 'не совпало' in page.locator('#answer-feedback').inner_text()
             page.locator('#answer-input').fill(answer)
             page.locator('#answer-form [type=submit]').click()
-            assert 'Совпадает' in page.locator('#answer-feedback').inner_text()
+            assert 'Верно не с первой попытки' in page.locator('#answer-feedback').inner_text()
             history = page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events')
-            assert len(history) == 2 and history[-1]['assisted']
+            assert len(history) == 2 and not history[-1]['assisted'] and history[-1]['attemptNumber'] == 2
             page.locator('[data-action="favorite"]').click()
             assert page.evaluate('JSON.parse(localStorage.getItem("task_tags_012CAB")).fav')
             page.reload(wait_until='networkidle')
@@ -78,19 +78,20 @@ def main():
             page.locator('[data-filter=hard]').click()
             assert page.locator('.bank-row').count() == 0
             page.locator('[data-filter=all]').click()
+            page.locator('#bank-search').fill('012CAB')
             page.locator('.bank-row[href="#card/012CAB"]').click()
             page.locator('#answer-input').wait_for()
             checks += 1
             page.locator('[data-action="card-rules"]').click()
             page.get_by_role('heading', name='Справочник правил').wait_for()
-            assert 'База знаний ещё не подключена' in page.locator('main').inner_text()
+            assert 'Связанные правила ещё готовятся' in page.locator('main').inner_text()
             page.go_back(wait_until='networkidle')
             page.locator('#answer-input').wait_for()
             assert '012CAB' in page.locator('main').inner_text()
             checks += 1
             page.locator('#desktop-nav a[href="#progress"]').click()
             page.locator('.learning-overview').wait_for()
-            page.get_by_role('link', name='Моя реальная история').click()
+            page.locator('a[href="#progress?view=history"]').click()
             page.locator('.attempt-row').first.wait_for()
             assert page.locator('.attempt-row').count() == 2
             with page.expect_download() as info:
@@ -111,7 +112,7 @@ def main():
             for digit in bitmask['answer']:
                 page.locator(f'[name=answer-option][value="{digit}"]').check()
             page.locator('#answer-form [type=submit]').click()
-            assert 'Совпадает' in page.locator('#answer-feedback').inner_text()
+            assert 'Верно с первой попытки' in page.locator('#answer-feedback').inner_text()
             assert page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1).assisted') is False
             checks += 1
             # Imported markup may contain formatting, but never executable content.

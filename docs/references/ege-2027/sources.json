@@ -1,0 +1,25 @@
+{
+  "examYear": 2027,
+  "status": "official_fipi_draft",
+  "receivedAt": "2026-10-27",
+  "landingPage": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+  "archiveUrl": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ru_11_2027.zip",
+  "archiveSha256": "b109165272379b897447d980b4e729fa2aa0e1b2a77844693389ee226f19b6b9",
+  "documents": [
+    {
+      "file": "specification.pdf",
+      "sha256": "a615ab1653a5265dd3d7a39c110c8c94f6c6e0f59b6f3cb060a69008d7a2751a",
+      "status": "ПРОЕКТ"
+    },
+    {
+      "file": "demo.pdf",
+      "sha256": "a099403e7a0481cb6c87ec3f888ed5f5a9128e2b86c7beda900f7a30b059e673",
+      "status": "ПРОЕКТ"
+    },
+    {
+      "file": "codifier.pdf",
+      "sha256": "1888e4318d9d004b483ef9e6dcb7a0bb730577bf9aba6db48680e985995fda3f",
+      "status": "ПРОЕКТ"
+    }
+  ]
+}

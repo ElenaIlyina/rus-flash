@@ -157,22 +157,6 @@
   color: rgb(139, 133, 128);
   margin-top: 22px;
 }
-.editorial-note {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin: 22px 3px 0px;
-  color: rgb(155, 153, 152);
-}
-.editorial-note .icon {
-  width: 15px;
-  height: 15px;
-  margin-top: 3px;
-}
-.editorial-note p {
-  font-size: 10px;
-  line-height: 1.7;
-}
 .page-footer {
   max-width: 1280px;
   margin: auto;

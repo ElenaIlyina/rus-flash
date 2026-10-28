@@ -39,13 +39,17 @@ def main():
                 page.locator('.exercise').wait_for()
                 assert page.url.startswith(base + '#card/')
                 page.goto(base + '#progress?view=preview', wait_until='networkidle')
-                assert page.locator('.learning-number').inner_text() == '38%'
-                page.get_by_role('link', name='Моя реальная история').click()
+                assert page.locator('.learning-number').inner_text() == '0%'
+                assert page.locator('a[href*="view=preview"]').count() == 0
+                page.locator('a[href="#progress?view=history"]').click()
                 page.locator('.progress-grid').wait_for()
                 assert page.locator('.design-review').count() == 0
                 page.locator('#desktop-nav a[href="#study"]').click()
                 page.locator('.hero').wait_for()
                 assert page.url.startswith(base)
+                page.goto(base + '#knowledge?source=lopatin-2007-orthography-82', wait_until='networkidle')
+                page.locator('[data-source-id="lopatin-2007-orthography-82"]').wait_for()
+                assert 'Приставки' in page.locator('.source-paragraph').inner_text()
                 assert not errors, errors
                 assert not failed, failed
                 browser.close()

@@ -1,0 +1,296 @@
+{
+  "reviews": [
+    {
+      "id": "09169B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "Выделены именно пропущенные буквы, а не следующие за ними согласные/гласные; убраны ошибочные выделения карьЕра/объЁм.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5fa7c80800eec75f65fde2edca0bbc1b6c424b77fb1aef50b038e64f1019a351",
+      "explanationSha256": "db4a3b53e671077c731c16c1400a46789ea2ff7237532250828b97fe377efac7"
+    },
+    {
+      "id": "3602E0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "Исправлено восстановление пр..вкусный: превкусный (Е), а не привкусный (И).",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5447fc521b786c4890748509190a74a992aa737ff50d64223c5a4f3f38556397",
+      "explanationSha256": "a6de23039629917fa962ee90f611c4719f2987770d8fe0c5464bb3fe12460f5b"
+    },
+    {
+      "id": "AE2555",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "В условии по..грать: поиграть (И), а не подыграть (Ы). Ответ ряда при этом не меняется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c998da8c2e3997c73487467c22a0b1bf0d05c2e8404253cfed34af510eedd576",
+      "explanationSha256": "e94005e3a6c574bdbca7b7a0b1347ed1d830fc8e21cd798db177b32ba5dafe58"
+    },
+    {
+      "id": "003B4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "changes": {
+        "шелЕстеть (шЕлест)": "шЕлестеть (шЕлест)",
+        "рост-рок ▸ раст/рос": "раст/ращ/рос",
+        "по-лож ▸ лаг/лож": "лаг/лож",
+        "тв-р ▸ твор/твар": "твар/твор"
+      },
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ef7f8246438d4aa87059e393f38e1ba804db86200e62b5626cada703494d816d",
+      "explanationSha256": "ce5bd9163aadae74464b5c8f4079dbac1d3f58eab3e57bbefba93ddd74b9fd2b"
+    },
+    {
+      "id": "047290",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "changes": {
+        "аргУмент": "аргумЕнт",
+        "ворсИстый": "вОрсистый",
+        "атакОвать": "атАковать"
+      },
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cefa5f03f0817a8f12155a5faaf8b7c384c9ce63235425c2fd095811da28bb34",
+      "explanationSha256": "bb84d2c06e41f6343d27d041301d571ef7658325c76124a9fc8dfaab7c248e7f"
+    },
+    {
+      "id": "41634D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "4b970cefa80023605bf44992cf42a2c7f52c4a0ca72a304d9c277e7ce51b990f"
+    },
+    {
+      "id": "4E5B4C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "cd1d2332ae2a70ccfa2efa2ed197ae5792631d197bf53485c37b2834d85774f9"
+    },
+    {
+      "id": "8AA04D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "87478e4e18ceacf6a34fd8a59e8735b100f4c8035c8823c89a410463eb3d6030"
+    },
+    {
+      "id": "8E184E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "906185daaacb25dcbfd23dcad5f1fd9471b2c03379f173ef6e83acb2ceef312f"
+    },
+    {
+      "id": "8F0049",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "e3d141cc7e8831ca4f0f7eef2d9bab1fe74d94b98112d9e1e8fb603a9eb723f2"
+    },
+    {
+      "id": "8F9A42",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "12fefd0aab57f3575ab183cba2bf8df257980778f0b6921e795b4780ef72e18e"
+    },
+    {
+      "id": "F2B1F1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "c4fa4cf212b7a8f0a80b2dd68e19d42bdac15b1ccd64bb5ecde6fcd294861456"
+    },
+    {
+      "id": "FA72F2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "44ecea19e5107c49a29ea852b2cca9bf034c12cd58158a8a48bc61e6e5e4ac7f"
+    },
+    {
+      "id": "0AB17A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "new_draft_needs_subject_review",
+      "reason": "Добавлен отсутствовавший разбор по сохранённому условию и исторически проверенному ответу; редакторская приёмка отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanationSha256": "f279a58df7e8c447992071168b8e75d5ae1c76e1ab24c7e5e3cb851220b24bb2"
+    },
+    {
+      "changeId": "FIX-007",
+      "id": "003B4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "corrected_draft_needs_subject_review",
+      "reason": "В роскошный проверяется первая безударная О словом ро́скошь, а не ударная вторая О. Исправлено выделение: рОскошный (рОскошь).",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ce5bd9163aadae74464b5c8f4079dbac1d3f58eab3e57bbefba93ddd74b9fd2b",
+      "explanationSha256": "75394d8bc69e9ba809f3604f83a6c1f9f199a63bb1358a2efd84ea29b52874c1"
+    },
+    {
+      "changeId": "PREFIX-09169B",
+      "id": "09169B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "db4a3b53e671077c731c16c1400a46789ea2ff7237532250828b97fe377efac7",
+      "explanationSha256": "0a6cd9f2a9174b1f7fc87217827083f8fb73095e43b71c15b1cfa2424a9ec1bf"
+    },
+    {
+      "changeId": "PREFIX-0AC706",
+      "id": "0AC706",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "dc3055dbd5b8911238ea1028def89630813daceea1543d55309febf65e1ace25",
+      "explanationSha256": "198cbce0c50432f3c1233aacecb4fbfdcc7c55f64556aa47b6e3d6112a07d0dd"
+    },
+    {
+      "changeId": "PREFIX-1DD5F4",
+      "id": "1DD5F4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4950995c2b6a130291ce8a2dc7c44a5dd396c44a14d0769d77f99b677648b507",
+      "explanationSha256": "d9bb3a724b1a3a9a33ff7780aa4013451be9ece0253af71e10c745434703272f"
+    },
+    {
+      "changeId": "PREFIX-224E06",
+      "id": "224E06",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cbce0ed1982481502d93859c438e42e414c50e176038c3134914d629f40bcfda",
+      "explanationSha256": "49a2f2b76a5f56b39fb05c756575bb50f32b114f7469c380067d56e580aea26d"
+    },
+    {
+      "changeId": "PREFIX-3602E0",
+      "id": "3602E0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a6de23039629917fa962ee90f611c4719f2987770d8fe0c5464bb3fe12460f5b",
+      "explanationSha256": "8b5c5fcdcb568b69c9c06d7b9c0b8af81baa9f5444aba29039f30f9c4f5d5125"
+    },
+    {
+      "changeId": "PREFIX-6AE8B7",
+      "id": "6AE8B7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f1462b91b6029fb2c791d28d9cd4709d4137c848aef30d61381f912c27680f49",
+      "explanationSha256": "353c35ebff1ffb90d3ac67b5144cdc838f53e8d02ad8d73c4fe84bbab8787092"
+    },
+    {
+      "changeId": "PREFIX-7320B4",
+      "id": "7320B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "59e6aeb5c529ddcadf92c03ce05b54eb4e057e71308d02388d340eecdabd7c30",
+      "explanationSha256": "4004062a0fc8517bdd1298619c52398dd105b05cd48fbf59686e7b2a08325965"
+    },
+    {
+      "changeId": "PREFIX-7A809B",
+      "id": "7A809B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1baf4db3cd77acfc56a8274a5902e03ad6b9d83ceb648d684c54ff7b4661ebcc",
+      "explanationSha256": "b287461576fdf05fd26b410ebce2e3de267a798d7ecbcdd6a7d10327c87ccb93"
+    },
+    {
+      "changeId": "PREFIX-AE2555",
+      "id": "AE2555",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e94005e3a6c574bdbca7b7a0b1347ed1d830fc8e21cd798db177b32ba5dafe58",
+      "explanationSha256": "172f39ec1d69f59086cd4130fc64c9da9310a00573e77164295e5c888194c25a"
+    },
+    {
+      "changeId": "PREFIX-AFE7DA",
+      "id": "AFE7DA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "08b65952668792baf92e42bfb98a9762ec62a5fedcf9c6c5c2a6e40be0606ab0",
+      "explanationSha256": "ba883abeb362292bf2c5d3b7ecd870b9b823956be0efab8f097618308dec9740"
+    },
+    {
+      "changeId": "PREFIX-EECA69",
+      "id": "EECA69",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "231c3cdf9242729bd427c8e06fc68d0e9b000b259642bc43d6ee52b58b14255b",
+      "explanationSha256": "b9a345bc2a4e2d27420efc96b37e6107a70e5b02c8fa4e98610aeec5aecde3fb"
+    },
+    {
+      "changeId": "PREFIX-FAFA08",
+      "id": "FAFA08",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-27",
+      "status": "assistant_checked_draft_needs_subject_acceptance",
+      "reason": "Все пять рядов восстановлены по явно проверенным словам; каждая буква сопоставлена пропуску, выбор рядов совпал с answer и answer_verify. Источник: Лопатин (ред.), Эксмо, 2007; см. prefix_card_reviews.json.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "740259e3f15de543d0adbb5717f98b0fc6218d66f6c7bd873814dc5868ae51ac",
+      "explanationSha256": "59826859abe3ecd4adf9f738566f22a7d0c662abbfc51cc0413540b63e5ac3d5"
+    }
+  ]
+}

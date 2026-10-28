@@ -19,15 +19,13 @@ export async function loadCard(id) {
 }
 export function adaptCard(raw) {
   let options = raw.variants || [];
-  if (
-    raw.answer_type === "bitmask" &&
-    options.length === 1 &&
-    /^\s*\d\)/.test(options[0])
-  ) {
+  if (options.length === 1 && /^\s*\d\)/.test(options[0])) {
     options = options[0]
       .split(/(?=\d\))/)
       .map((s) => s.replace(/^\s*\d\)\s*/, "").trim())
       .filter(Boolean);
+  } else {
+    options = options.map((s) => String(s).replace(/^\s*\d\)\s*/, ""));
   }
   let instruction = raw.question;
   if (
@@ -47,11 +45,66 @@ export function adaptCard(raw) {
     errors: raw.errors || [],
     sentences: raw.sentences || [],
     responseType:
-      raw.answer_type === "bitmask" ? "multiple_choice" : "short_text",
+      raw.errors?.length && raw.sentences?.length
+        ? "matching"
+        : options.length > 0 &&
+            (raw.answer_type === "bitmask" ||
+              /(?:укажите|запишите)\s+(?:все\s+)?(?:варианты|номера)/i.test(
+                raw.question,
+              ) ||
+              /словарной статьи/i.test(raw.question))
+          ? "multiple_choice"
+          : /(?:укажите|запишите)[^.!?]*цифр/i.test(raw.question)
+            ? "position_set"
+            : "short_text",
     answer: (raw.answer || "").trim(),
     explanation: raw.explanation || "",
     // Imported legacy values have not acquired editorial verification.
     reviewStatus: "unverified",
     ruleIds: raw.rule_ids || [],
   };
+}
+
+let handbookPromise;
+export function loadHandbook() {
+  if (!handbookPromise)
+    handbookPromise = fetch(new URL("handbook.json", URL_ROOT))
+      .then((response) => {
+        if (!response.ok)
+          throw new Error("Справочник недоступен. Пересоберите данные сайта.");
+        return response.json();
+      })
+      .catch((error) => {
+        handbookPromise = null;
+        throw error;
+      });
+  return handbookPromise;
+}
+
+let sourceIndexPromise;
+export function loadHandbookSources() {
+  if (!sourceIndexPromise)
+    sourceIndexPromise = fetch(new URL("handbook-sources.json", URL_ROOT))
+      .then((response) => {
+        if (!response.ok)
+          throw new Error(
+            "Оглавление источников недоступно. Пересоберите данные сайта.",
+          );
+        return response.json();
+      })
+      .catch((error) => {
+        sourceIndexPromise = null;
+        throw error;
+      });
+  return sourceIndexPromise;
+}
+export async function loadSourceParagraph(id) {
+  if (!/^lopatin-2007-(orthography|punctuation)-[1-9][0-9]{0,2}$/.test(id))
+    return null;
+  const response = await fetch(
+    new URL(`handbook-sources/${id}.json`, URL_ROOT),
+  );
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error("Параграф источника недоступен.");
+  return response.json();
 }

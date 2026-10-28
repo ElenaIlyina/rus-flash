@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "title": "Краткий справочник «Слово за слово»",
+  "status": "authored_draft_needs_subject_review",
+  "sourceNote": "Краткие объяснения связаны с прочитанными параграфами пользовательской электронной копии: Лопатин (ред.), Эксмо, 2007. Это не издание АСТ-Пресс, 2020 из списка ФИПИ; постраничная и предметная сверка всего текста ещё не выполнена.",
+  "curriculumSource": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ru_11_2027.zip",
+  "paragraphs": [
+    {
+      "id": "prefixes-z-s",
+      "number": 1,
+      "title": "Приставки на З и С",
+      "tasks": [
+        10
+      ],
+      "body": "В приставках без-/бес-, воз-/вос-, из-/ис-, раз-/рас-, низ-/нис-, через-/черес- выбор З или С зависит от следующей буквы. Перед буквами, обозначающими глухие согласные (к, п, с, т, ф, х, ц, ч, ш, щ), пишется С; перед гласными и буквами звонких согласных — З.<br><b>Примеры:</b> бесшумный, испортить, разгрызть, безграничный.<br><b>Не смешивайте:</b> приставка С- не меняется перед звонким согласным: сделать, сбить. В словах «здесь», «здание», «здоровье» начальная З не относится к этому правилу выбора приставки.",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-82",
+          "part": "orthography",
+          "paragraph": 82,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-79",
+          "part": "orthography",
+          "paragraph": 79,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-81",
+          "part": "orthography",
+          "paragraph": 81,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "id": "prefixes-i-y",
+      "number": 2,
+      "title": "И и Ы после приставок",
+      "tasks": [
+        10
+      ],
+      "body": "После русской приставки на согласную начальное И корня обычно заменяется на Ы: играть — подыграть; искать — разыскать; исход — безысходный.<br>После приставки на гласную И сохраняется: поиграть. После МЕЖ- и СВЕРХ- также сохраняется И: межинститутский, сверхинтересный. И сохраняется после иноязычных приставок: постиндустриальный, суперинтересный.<br>В сложносокращённых словах сохраняется начальная буква второй части: мединститут. Написание «взимать» запоминается как исключение; нельзя заменять его на «взымать».",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-11",
+          "part": "orthography",
+          "paragraph": 11,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-12",
+          "part": "orthography",
+          "paragraph": 12,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-14",
+          "part": "orthography",
+          "paragraph": 14,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-36",
+          "part": "orthography",
+          "paragraph": 36,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "id": "separating-signs",
+      "number": 3,
+      "title": "Разделительные Ъ и Ь",
+      "tasks": [
+        10
+      ],
+      "body": "Разделительный Ъ пишется после приставки на согласную перед Е, Ё, Ю, Я: подъезд, съёжиться, предъюбилейный, объявление. Он пишется и в соответствующих сложных словах с начальными частями двух-, трёх-, четырёх-: двухъярусный.<br>Разделительный Ь употребляется внутри слова перед Е, Ё, Ю, Я, И: вьюга, пьеса, соловьи. В отдельных заимствованных словах — перед О: бульон.<br>Для выбора знака сначала определите строение слова: в «объём» есть граница приставки и корня, а «пьеса» не подчиняется правилу приставочного Ъ.",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-27",
+          "part": "orthography",
+          "paragraph": 27,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        },
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-28",
+          "part": "orthography",
+          "paragraph": 28,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "id": "pre-pri",
+      "number": 4,
+      "title": "ПРЕ- и ПРИ-",
+      "tasks": [
+        10
+      ],
+      "body": "ПРИ- может обозначать приближение или присоединение (приехать, приклеить), близость (пришкольный), неполноту действия (приоткрыть).<br>ПРЕ- может обозначать высокую степень признака (премудрый, превкусный) или значение, близкое ПЕРЕ- (преградить).<br>Эти значения не объясняют автоматически каждое слово с начальным ПРЕ-/ПРИ-. В ряде слов написание определяется словарём и значением: пребывать — прибывать, претворить — притворить. Если значение неочевидно, нужна словарная проверка; нельзя выбирать букву только по внешнему сходству.",
+      "reviewStatus": "source_linked_draft",
+      "sourceRefs": [
+        {
+          "editionId": "lopatin-2007",
+          "sourceId": "lopatin-2007-orthography-39",
+          "part": "orthography",
+          "paragraph": 39,
+          "printedPage": null,
+          "reviewStatus": "relevant_passage_read_by_assistant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,10 @@
 #!/usr/bin/env python3
-"""Generate html/cards_manifest.js from data/card_*.json + ege_specification_mapping.json.
+"""Legacy classifier retained for BEFORE/AFTER audit comparisons.
 
-Source of truth: data/card_*.json (question, kes, answer, answer_verify, explanation).
-Derived artifacts (regenerated, never hand-edited):
-  - html/cards_manifest.js  (window.CARDS_MANIFEST)
-  - html/card_*.html        (only when run with --cards)
-
-Usage:
-  python3 scripts/generate_manifest.py            # manifest only
-  python3 scripts/generate_manifest.py --cards    # manifest + regenerate card HTML
-
-The manifest drives:
-  - dashboard.html (task grouping, per-task solved counts, total "X / N")
-  - index.html     (sidebar counter "Банк заданий (N)")
+Shared extract_codes/load_cards helpers are reused by the current build.
+The current position classifier is exam_2027.py, based on the official draft.
+Optional CLI writes the historical cards_manifest.js for diagnostics only;
+the website and FIPI verification utility no longer consume that manifest.
 """
 import glob
 import json
@@ -209,18 +201,6 @@ def main():
     for t, ids in manifest['tasks'].items():
         name = manifest['task_names'].get(t, '')
         print(f'  task {t:>2}: {len(ids):>4}  {name}')
-
-    regenerate_cards = '--cards' in sys.argv
-    if regenerate_cards:
-        regen_cards_html(cards)
-        print('  card HTML regenerated: --cards')
-
-
-def regen_cards_html(cards):
-    """Regenerate html/card_*.html from JSON cards (not implemented yet)."""
-    print('  (card HTML regeneration not wired yet; JSON is the source of truth)',
-          file=sys.stderr)
-
 
 if __name__ == '__main__':
     main()

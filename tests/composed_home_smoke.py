@@ -22,7 +22,7 @@ def main():
             browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
             page = browser.new_page()
             page.on('pageerror', lambda error: errors.append(str(error)))
-            folder = ROOT / 'docs/composed-home'
+            folder = Path('/tmp/rus-flash-screenshots/home')
             if '--screenshots' in sys.argv:
                 folder.mkdir(parents=True, exist_ok=True)
             for width in [1440, 1024, 768, 390, 320]:
@@ -47,10 +47,10 @@ def main():
                 assert page.locator('.study-hero .button').count() == 0
                 assert page.locator('.study-hero .stat-strip').count() == 1
                 assert page.evaluate("document.querySelector('.home-coverage').previousElementSibling.matches('.stat-strip')")
-                assert page.locator('.aggregate-demo .skill-segment').count() == 4
-                assert page.locator('.aggregate-demo-badge').inner_text() == 'ДЕМО'
-                assert 'Охват 1516 / 2140' in page.locator('.aggregate-caption').inner_text()
-                assert 'Пора повторить: 268' in page.locator('.aggregate-caption').inner_text()
+                assert page.locator('.aggregate-progress .skill-segment').count() == 1
+                assert page.locator('.aggregate-demo-badge').count() == 0
+                assert 'Охват 0 / 2140' in page.locator('.aggregate-caption').inner_text()
+                assert 'Пора повторить: 0' in page.locator('.aggregate-caption').inner_text()
                 assert page.locator('.stat-strip strong').nth(1).inner_text() == '0'
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if width > 760:
@@ -73,8 +73,8 @@ def main():
                     page.screenshot(path=str(folder / f'home-{width}.png'), full_page=True)
             page.locator('#mobile-nav a[href="#progress"]').click()
             page.locator('.learning-overview').wait_for()
-            assert page.locator('.preview-badge').inner_text() == 'ДЕМО'
-            page.get_by_role('link', name='Моя реальная история').click()
+            assert page.locator('.preview-badge').count() == 0
+            page.locator('a[href="#progress?view=history"]').click()
             page.locator('.progress-grid').wait_for()
             assert page.url.endswith('#progress?view=history')
             page.goto(base + '#study', wait_until='networkidle')
@@ -91,13 +91,13 @@ def main():
                     time: new Date().toISOString(), correct: false, assisted: false})), lastCard: id
             }))""", card_id)
             page.goto(base, wait_until='networkidle')
-            assert 'Охват 1516 / 2140' in page.locator('.aggregate-caption').inner_text()
+            assert 'Охват 1 / 2140' in page.locator('.aggregate-caption').inner_text()
             assert page.locator('.stat-strip strong').nth(1).inner_text() == '1'
             assert not errors, errors
             browser.close()
     finally:
         server.shutdown()
-    print('PASS: composed home at 5 widths; notes/poster links; icon rail; default demo and real history')
+    print('PASS: composed home at 5 widths; notes/poster links; icon rail; real progress and history')
 
 
 if __name__ == '__main__':

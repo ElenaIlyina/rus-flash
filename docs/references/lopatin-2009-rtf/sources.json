@@ -1,0 +1,60 @@
+{
+  "id": "lopatin-2009-user-rtf",
+  "receivedAt": "2026-10-27",
+  "provenance": "user_upload",
+  "originalFilename": "Правила русской орфографии. Полный академический справочник () (z-library.sk, 1lib.sk, z-lib.sk).rtf",
+  "sourceUrl": null,
+  "file": "source.rtf.zip",
+  "member": "source.rtf",
+  "archiveSha256": "434b570cec5441881c3f8572052f05049a0ccf88caf5923c11edfccdf0c5ab41",
+  "rtfSha256": "557096065791a41447b23b3c4673f0862289c1c098066ac257ca53fd38ed9c2e",
+  "rtfSizeBytes": 10767130,
+  "title": "Правила русской орфографии и пунктуации. Полный академический справочник",
+  "editor": "В. В. Лопатин",
+  "declaredPublisher": "АСТ",
+  "declaredYear": 2009,
+  "declaredIsbn": "978-5-462-00930-3",
+  "declaredBookPages": 432,
+  "fileMetadataDate": "2009-11-20",
+  "matchesFipi2020Edition": false,
+  "relationshipToExistingPdf": "matching_declared_publication_details_not_full_text_identity_verified",
+  "extraction": {
+    "tool": "striprtf",
+    "version": "0.0.35",
+    "codePage": 1251,
+    "status": "preliminary_plain_text_inspection_not_published",
+    "observedParagraphEndpoints": {
+      "orthography": 219,
+      "punctuation": 167
+    },
+    "standaloneParagraphStarts": 375,
+    "fullyIndexed": false
+  },
+  "observations": [
+    {
+      "part": "orthography",
+      "paragraph": 11,
+      "text": "трёхимпулъсный",
+      "status": "same_known_typo_as_other_copies"
+    },
+    {
+      "part": "orthography",
+      "paragraph": 12,
+      "text": "выграться (играть)",
+      "status": "same_unresolved_example_as_other_copies"
+    },
+    {
+      "location": "table_of_contents",
+      "text": "Буквы ъ и 6",
+      "status": "suspected_recognition_error"
+    }
+  ],
+  "notes": [
+    "Исходный RTF сохранён без изменения внутри ZIP для уменьшения размера Git.",
+    "Дата метаданных файла не подменяет выходные данные книги.",
+    "Имя файла с названиями сайтов не подтверждает конкретный URL скачивания.",
+    "Преобразование в простой текст не подтверждает сохранность выделений, ударений и ссылок.",
+    "Часть заголовков склеена с предыдущим текстом; автоматическая индексация по началу строки находит 375 заголовков и недостаточна для полного импорта.",
+    "Ответы, объяснения, параграфы сайта и действующие привязки не изменены."
+  ]
+}
