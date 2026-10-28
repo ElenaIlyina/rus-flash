@@ -23,7 +23,8 @@
         "file": "docs/references/fipi-navigator-lexicon-orthoepy/lexicon.pdf",
         "page": 3,
         "role": "paronym_list_membership_only"
-      }
+      },
+      "reviewStatus": "awaiting_dictionary_verification"
     },
     {
       "id": "hostile-enemy",
@@ -46,7 +47,8 @@
         "file": "docs/references/fipi-navigator-lexicon-orthoepy/lexicon.pdf",
         "page": 2,
         "role": "paronym_list_membership_only"
-      }
+      },
+      "reviewStatus": "awaiting_dictionary_verification"
     }
   ]
 }

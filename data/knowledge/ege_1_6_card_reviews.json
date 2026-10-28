@@ -109,7 +109,11 @@
       "hint": "Проверьте, что обозначает выделенное прилагательное: уже обработанный предмет или средство для обработки. Подобранный пароним согласуйте с определяемым существительным.",
       "rows": [],
       "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending",
-      "paronymPairIds": ["lacquered-lacquering"]
+      "paronymPairIds": ["lacquered-lacquering"],
+      "dictionaryReview": {
+        "status": "pending",
+        "sourceRefs": []
+      }
     },
     {
       "id": "01C2C7",
@@ -122,7 +126,11 @@
       "hint": "Определите, что требуется передать: принадлежность противнику или недружелюбное отношение. Затем согласуйте подходящее слово с существительным в предложении.",
       "rows": [],
       "referenceStatus": "context_and_historical_key_checked_specialist_reference_pending",
-      "paronymPairIds": ["hostile-enemy"]
+      "paronymPairIds": ["hostile-enemy"],
+      "dictionaryReview": {
+        "status": "pending",
+        "sourceRefs": []
+      }
     },
     {
       "id": "060C0F",

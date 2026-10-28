@@ -85,6 +85,9 @@ def main():
             raise ValueError('Priority explanation changed; update review record: ' + cid)
         position = mapping(c)
         task = position['task']
+        dictionary_review = prefix_reviews.get(cid, {}).get('dictionaryReview', {})
+        dictionary_ready = task != 5 or (dictionary_review.get('status') == 'verified' and bool(dictionary_review.get('sourceRefs')))
+        public_card = c if dictionary_ready else {**c, 'explanation': ''}
         version_basis = {'card': c, 'position': position, 'assessmentPolicy': 'responses-v1'}
         material_version = max(2, int(hashlib.sha256(json.dumps(version_basis, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8], 16))
         trusted = bool(c.get('answer_verify', '').strip())
@@ -101,17 +104,17 @@ def main():
             'ruleIds': [p['id'] for p in handbook['paragraphs'] if task in p['tasks']],
             'ruleRefs': [{'id':p['id'], 'label':f"§{p['number']}. {p['title']}"} for p in handbook['paragraphs'] if task in p['tasks']],
             'explanationStatus': review.get('explanationStatus', 'pending_subject_review' if c.get('explanation', '').strip() else 'missing'),
-            'strategyHint': prefix_reviews.get(cid, {}).get('hint', ''),
-            'explanationReviewStatus': prefix_reviews.get(cid, {}).get('status'),
-            'paronymComparisons': [paronyms[pid] for pid in prefix_reviews.get(cid, {}).get('paronymPairIds', [])],
+            'strategyHint': prefix_reviews.get(cid, {}).get('hint', '') if dictionary_ready else '',
+            'explanationReviewStatus': prefix_reviews.get(cid, {}).get('status') if dictionary_ready else 'awaiting_dictionary_verification',
+            'paronymComparisons': [paronyms[pid] for pid in prefix_reviews.get(cid, {}).get('paronymPairIds', []) if dictionary_ready and paronyms[pid].get('reviewStatus') == 'verified' and all(word.get('dictionaryRefs') for word in paronyms[pid]['words'])],
             'explanationSourceRefs': [{'part':row['number'], 'sourceId':sid, 'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"} for row in prefix_reviews.get(cid, {}).get('rows', []) for sid in row['sourceIds']],
             'reviewNote': review.get('reason', '' if options_complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),
             'hasAnswer': bool(c.get('answer', '').strip()),
-            'hasExplanation': bool(c.get('explanation', '').strip()),
+            'hasExplanation': bool(public_card.get('explanation', '').strip()),
             'hasPassage': bool(text(c.get('text', ''))),
         })
         (OUT / 'cards' / f'{cid}.json').write_text(
-            json.dumps(c, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+            json.dumps(public_card, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (OUT / 'catalog.json').write_text(json.dumps({
         'schemaVersion': 1, 'classificationStatus': 'official_fipi_2027_draft',
         'classificationSource': 'docs/ege-2027-card-mapping.md',
