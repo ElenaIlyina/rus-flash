@@ -217,6 +217,17 @@ class FipiCheckRunnerTest(unittest.TestCase):
                 self.assertEqual([r['cardId'] for r in pending_report['results']], [new_sample['cardId'],'D30EAB'])
                 self.assertEqual(pending_report['previousReportSha256'],checker.PENDING_REPORT_SHA256)
                 self.assertEqual(next(r for r in pending_report['results'] if r['cardId']=='D30EAB')['attempts'][0]['wireAnswer'],'01001')
+                retry_output = standalone / 'retry-results.json'
+                completed = subprocess.run([
+                    sys.executable,'src/check_fipi_answers.py','--cards','src/cards','--retry-only',
+                    '--output',str(retry_output),'--base-url',f'http://127.0.0.1:{server.server_port}',
+                    '--delay','0','--batch-delay','0',
+                ],cwd=standalone,capture_output=True,text=True)
+                self.assertEqual(completed.returncode,0,completed.stdout+completed.stderr)
+                retry_report = json.loads(retry_output.read_text())
+                self.assertEqual([r['cardId'] for r in retry_report['results']],['D30EAB'])
+                self.assertEqual(retry_report['results'][0]['attempts'][0]['wireAnswer'],'01101')
+                self.assertEqual(retry_report['previousReportSha256'],checker.RETRY_REPORT_SHA256)
         finally:
             server.shutdown()
             server.server_close()
