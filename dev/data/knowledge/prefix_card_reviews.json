@@ -69,6 +69,16 @@
           ],
           "reason": "В ряду вставляются разные буквы; поэтому его выбирать нельзя."
         }
+      ],
+      "sourceContentSha256": "47e0aa0c96a218fd48838fef56a1cd3942b87abc8b4103d39f5bd4f18966a578",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "47e0aa0c96a218fd48838fef56a1cd3942b87abc8b4103d39f5bd4f18966a578",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
       ]
     },
     {
@@ -135,6 +145,16 @@
             "lopatin-2007-orthography-38"
           ],
           "reason": "В частях пере-, супер-, вне- пропущена Е; не следует подменять их приставкой ПРЕ-."
+        }
+      ],
+      "sourceContentSha256": "e341f56463f8c475c3162481082b28b108df8e519accd31c8e6c8529e9980970",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "e341f56463f8c475c3162481082b28b108df8e519accd31c8e6c8529e9980970",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -203,6 +223,16 @@
           ],
           "reason": "После русских приставок С-, БЕЗ-, ПОД- на согласную начальное И корня переходит в Ы."
         }
+      ],
+      "sourceContentSha256": "f898ea1062f2bcd57ef62280152fb1dddfa36fb10b27247d5fe31654536117a2",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "f898ea1062f2bcd57ef62280152fb1dddfa36fb10b27247d5fe31654536117a2",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
       ]
     },
     {
@@ -270,6 +300,16 @@
             "lopatin-2007-orthography-28"
           ],
           "reason": "В ряду вставляются разные буквы; поэтому его выбирать нельзя."
+        }
+      ],
+      "sourceContentSha256": "74668a6e0c4d31e5e65ca104e9e4d45071300e04a3cc7572dab3443799bdb314",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "74668a6e0c4d31e5e65ca104e9e4d45071300e04a3cc7572dab3443799bdb314",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -406,6 +446,16 @@
           ],
           "reason": "После приставки на согласную перед Ё, Я, Е нужен разделительный Ъ."
         }
+      ],
+      "sourceContentSha256": "3375dd772bfe0619e6bbb128336c6f55ecab8ec97994596ff040506a1f9d8d32",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "3375dd772bfe0619e6bbb128336c6f55ecab8ec97994596ff040506a1f9d8d32",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
       ]
     },
     {
@@ -472,6 +522,16 @@
           ],
           "reason": "После СВЕРХ- и иноязычной ПОСТ- И сохраняется; после ПО- на гласную также пишется И."
         }
+      ],
+      "sourceContentSha256": "ef9ce5a6dabf0f14ba271b70d3f797a23cd9d60bfb7cd543e6ecb8674d35e2eb",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "ef9ce5a6dabf0f14ba271b70d3f797a23cd9d60bfb7cd543e6ecb8674d35e2eb",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
       ]
     },
     {
@@ -537,6 +597,16 @@
             "lopatin-2007-orthography-38"
           ],
           "reason": "В ряду вставляются разные буквы; поэтому его выбирать нельзя."
+        }
+      ],
+      "sourceContentSha256": "33b938a48989dc597cd23a58919cb064d2301f58259508db3ae3f7c30992e288",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "33b938a48989dc597cd23a58919cb064d2301f58259508db3ae3f7c30992e288",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -606,6 +676,16 @@
           ],
           "reason": "В ряду вставляются разные буквы; поэтому его выбирать нельзя."
         }
+      ],
+      "sourceContentSha256": "be084ec7524c7a4c7e5277b91ecca6c74c0e34350e93a2cea95bca486daf2e1d",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "be084ec7524c7a4c7e5277b91ecca6c74c0e34350e93a2cea95bca486daf2e1d",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
       ]
     },
     {
@@ -673,6 +753,16 @@
             "lopatin-2007-orthography-38"
           ],
           "reason": "В написаниях НАД-, ЗА- и «позавчера» на месте пропуска стоит А."
+        }
+      ],
+      "sourceContentSha256": "ebdddf9411c829cf2b7966fd4a7b714fa811a3f12229327f415b07fe825bad30",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "ebdddf9411c829cf2b7966fd4a7b714fa811a3f12229327f415b07fe825bad30",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -810,6 +900,16 @@
             "lopatin-2007-orthography-79"
           ],
           "reason": "В приставках ПРЕД-, НАД-, ПОД- сохраняется согласная Д."
+        }
+      ],
+      "sourceContentSha256": "28cf3a1a4417f8cdc7a6cf2c3a73b83e159a1cd11da0bc1aeb91be79402d48b8",
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": null,
+          "sourceContentSha256": "28cf3a1a4417f8cdc7a6cf2c3a73b83e159a1cd11da0bc1aeb91be79402d48b8",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     }

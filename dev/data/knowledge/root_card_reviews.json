@@ -7,7 +7,7 @@
     {
       "id": "0C24B0",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "59986df615221987a5b6d9fffbef21ce55e2ec083583258912d00640ccbf37e5",
+      "sourceContentSha256": "7406070f022c0ae52de8658250af48cfa78d7b09744526f5b5126698df6d13d1",
       "hint": "Сначала разделите пропуски на проверяемые гласные, чередующиеся корни и словарные написания. Для СКАК-/СКОЧ- посмотрите следующую согласную, для ПЕР-/ПИР- и ТЕР-/ТИР- — есть ли сразу после корня суффикс -А-. Значение слова с указанным действием помогает выбрать проверку.",
       "rows": [
         {
@@ -80,7 +80,16 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "d6167f16b852f2f0e6379a4b0127b77f6e46715b6f9ec30c1ef1e1682a31e82d"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "59986df615221987a5b6d9fffbef21ce55e2ec083583258912d00640ccbf37e5",
+          "sourceContentSha256": "7406070f022c0ae52de8658250af48cfa78d7b09744526f5b5126698df6d13d1",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "1A1A4B",
@@ -157,7 +166,7 @@
     {
       "id": "279C1A",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "329e4c1dfc6d5b00c824da78ef38b2ccec6901b0b3e5eb584a31a2b90404ab42",
+      "sourceContentSha256": "08b8c14fcac760c854d75f60b5b674c18c595bb721364107347befa05d37881f",
       "hint": "Для каждого слова определите собственный способ проверки; одинаковая буква не означает одинаковое правило. Чередующиеся корни проверяйте по их условию, а в проверочном слове обязательно убедитесь в ударении на нужной гласной.",
       "rows": [
         {
@@ -228,12 +237,21 @@
         "field": "question",
         "reason": "Удалён только согласованный дубль вариантов; исходное question сохранено в docs/content-audit/card-edit-proposals.json.",
         "previousSourceContentSha256": "b82ac8be40dedaa4fe6acc8cef1730efd238af0dc9fe1af52c7d9097c17ed589"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "329e4c1dfc6d5b00c824da78ef38b2ccec6901b0b3e5eb584a31a2b90404ab42",
+          "sourceContentSha256": "08b8c14fcac760c854d75f60b5b674c18c595bb721364107347befa05d37881f",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2AFA71",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "e89ff9795cc478a99ce3ea813c5af6d2c99917a895a42409f55d1f0a994acac3",
+      "sourceContentSha256": "3f72837eb803a9cae5c7a0565ba5240e15914930e57144f3d5beca62fa9816c7",
       "hint": "Сохраняйте смысл, заданный в скобках, при подборе проверочного слова. Не проверяйте чередующиеся корни ударением. Если надёжной проверки нет, используйте словарь; затем сопоставьте буквы внутри каждого ряда.",
       "rows": [
         {
@@ -304,7 +322,16 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "70f55eb4644eaa7213cb9c44a64afa6701cf70836683d0631c94572b01109801"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "e89ff9795cc478a99ce3ea813c5af6d2c99917a895a42409f55d1f0a994acac3",
+          "sourceContentSha256": "3f72837eb803a9cae5c7a0565ba5240e15914930e57144f3d5beca62fa9816c7",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "003B4D",
@@ -408,7 +435,7 @@
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "d98a53bfadee8366929c5b80edde47da3b3abe291d4e3c4880152833df49ad78",
+      "sourceContentSha256": "b56f8310fa3211618fd9ba0f7c2ef9aeec36e1d80d10969900ce0b95e60ac08f",
       "hint": "Не смешивайте примирение людей с примеркой одежды, а давнего жителя — с тем, кто сторожит. В чередующихся корнях проверьте условия написания отдельно от проверочных слов.",
       "rows": [
         {
@@ -481,7 +508,16 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "0d7c9ea840b73e37eb34dbdd9bdaa473ea8fb3e2ea77797047fb0c483e0022f0"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "d98a53bfadee8366929c5b80edde47da3b3abe291d4e3c4880152833df49ad78",
+          "sourceContentSha256": "b56f8310fa3211618fd9ba0f7c2ef9aeec36e1d80d10969900ce0b95e60ac08f",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "30E9EE",
@@ -562,7 +598,7 @@
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "caf685bbaf11d55855e38b579dba36e4281ae5ed1aaeeadc6de155e55acc83d6",
+      "sourceContentSha256": "eb1ebe58e1ab71a4c667da9625dddc3d8a1bfea89df6f10d298dc8a28775a42e",
       "hint": "В словах про волосы выбирайте значение «ровный», а не «равный». Чередования и проверку ударением рассматривайте раздельно; контекст в скобках сохраняйте.",
       "rows": [
         {
@@ -635,14 +671,23 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "64db39e722f6979457e0eb829417ac35ee7c77920ff0e4593b08b0950eb06b19"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "caf685bbaf11d55855e38b579dba36e4281ae5ed1aaeeadc6de155e55acc83d6",
+          "sourceContentSha256": "eb1ebe58e1ab71a4c667da9625dddc3d8a1bfea89df6f10d298dc8a28775a42e",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "493862",
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "cd5c78f66112f6ecbd1d2a3c7c991124d6605b5ba60b830dcf1da14cba3e45b1",
+      "sourceContentSha256": "6f4a56e2a4e5817889067611c99c69e0442e6143f7e293a6c761ed6d5bce88ed",
       "hint": "Различайте «разрядить» и «разредить» по смыслу. В словах с чередованием соседняя согласная важнее случайно подобранного проверочного слова.",
       "rows": [
         {
@@ -706,6 +751,15 @@
             "lopatin-2007-orthography-34"
           ],
           "reason": "Проверки: «присягать» — прися́га; «напрямик» — пря́мо; «разрядить обстановку» связано с разря́дкой. Везде я; не путайте с разрежением воздуха."
+        }
+      ],
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "cd5c78f66112f6ecbd1d2a3c7c991124d6605b5ba60b830dcf1da14cba3e45b1",
+          "sourceContentSha256": "6f4a56e2a4e5817889067611c99c69e0442e6143f7e293a6c761ed6d5bce88ed",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -787,7 +841,7 @@
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "a7efe32bd656cd86c1abe63021414df959dd73c2ec9e645e8fd8a0cbcd361c9e",
+      "sourceContentSha256": "a4879c0791b98ad38ad676612aa498b742a70f705f9e1d193f1dc4ec52815212",
       "hint": "Отличайте человека, давно живущего в городе, от действия охраны. Учитывайте смысл посвящения стихов и увядания цветка; не переносите на них другие созвучные корни.",
       "rows": [
         {
@@ -858,14 +912,23 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "e04b2ddbc89f99b8482aaff7ec46302c89bbf5d959960e89cfb3090d1c5481da"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "a7efe32bd656cd86c1abe63021414df959dd73c2ec9e645e8fd8a0cbcd361c9e",
+          "sourceContentSha256": "a4879c0791b98ad38ad676612aa498b742a70f705f9e1d193f1dc4ec52815212",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "6ADB71",
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "e6363a0cb74ec2a68c8243beeddd51bc25eb0f037e79ec37ff0a13ddd755f961",
+      "sourceContentSha256": "438c909e80794d4bbd96492207b528e0c3cd4db059b26b4e20193a1b615ec602",
       "hint": "Не путайте равенство в уравнении с ровной поверхностью. В словах о печали корень проверяется по смыслу; правило гар-/гор- к нему не относится.",
       "rows": [
         {
@@ -936,14 +999,23 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "4761b696ffd2c9722f576eee4ac3c5f42f889f10f66470b6b380bf1d076e0c41"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "e6363a0cb74ec2a68c8243beeddd51bc25eb0f037e79ec37ff0a13ddd755f961",
+          "sourceContentSha256": "438c909e80794d4bbd96492207b528e0c3cd4db059b26b4e20193a1b615ec602",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "727FB5",
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "55536d3afdfbce7dce4b45973c365621f2b2c3b55053e8d28a8d7db7131e4e8d",
+      "sourceContentSha256": "eaccc105e03fa66a36827dc76c466b9f969801b94d7ce0871724751b284dbba3",
       "hint": "Контекст счёта задаёт равенство. Не применяйте к словам о покорении гор правило выбора гласной в словах о горении.",
       "rows": [
         {
@@ -1017,14 +1089,23 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "ef2376c573e6412487d0ea111b6c8150f298a554e4a56ca32530e77be809863a"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "55536d3afdfbce7dce4b45973c365621f2b2c3b55053e8d28a8d7db7131e4e8d",
+          "sourceContentSha256": "eaccc105e03fa66a36827dc76c466b9f969801b94d7ce0871724751b284dbba3",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "75D42E",
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "5230c386cf7524390a2b55cc3a31cccd034ccca1c35c3e655fd6d011f4ee884e",
+      "sourceContentSha256": "573a4d0716e5d47c1851e04ab58e2d7a84bf84ecbb8c548e381813e537c52771",
       "hint": "Различайте открывание окна и варку пищи, примерку одежды и примирение людей. В тер-/тир- и бер-/бир- проверьте суффикс непосредственно после корня.",
       "rows": [
         {
@@ -1096,7 +1177,16 @@
         "field": "question",
         "reason": "Автор согласовал удаление дословного дубля вариантов; исходная строка сохранена в card-edit-proposals.json.",
         "previousSourceContentSha256": "ceba620cc172e8c19e95b3c8b560f21f03e5d967d64060841ba8b0758e611e62"
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "5230c386cf7524390a2b55cc3a31cccd034ccca1c35c3e655fd6d011f4ee884e",
+          "sourceContentSha256": "573a4d0716e5d47c1851e04ab58e2d7a84bf84ecbb8c548e381813e537c52771",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "79954C",
@@ -1250,7 +1340,7 @@
       "kind": "same_letter_gap",
       "reviewBatch": "03",
       "status": "assistant_checked_draft_needs_subject_acceptance",
-      "sourceContentSha256": "81222bbfd86dda6e6dbe168d3c09c9d289f973390021824225b76ae8704875ff",
+      "sourceContentSha256": "835fb27aa742abfeab7becd19cccf2be7bc9cb9b4c2938d045ee3bd90d2f6c11",
       "hint": "Одинаковая буква может получиться по разным основаниям. Для производного существительного найдите исходный глагол; особые написания плав-/плов- проверяйте отдельно.",
       "rows": [
         {
@@ -1314,6 +1404,15 @@
           ],
           "reason": "«Положиться» — о перед ж в лаг-/лож-. «Выскочить» — о перед ч в скак-/скоч-. «Озарение» — а в безударном корне зар-/зор-."
         }
+      ],
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "81222bbfd86dda6e6dbe168d3c09c9d289f973390021824225b76ae8704875ff",
+          "sourceContentSha256": "835fb27aa742abfeab7becd19cccf2be7bc9cb9b4c2938d045ee3bd90d2f6c11",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
       ]
     },
     {
@@ -1321,7 +1420,7 @@
       "kind": "checked_root_vowels",
       "reviewBatch": "03-followup",
       "status": "assistant_corrected_applied",
-      "sourceContentSha256": "4781487ee21dd37acffa93bc27b73ebbb750103e03ef995194ea9ecd5e3c8faa",
+      "sourceContentSha256": "02789077f5635f985a27c3b6df3307b58d2bc46e7ea2cd2f22d479b922d67169",
       "hint": "Слова уже написаны полностью: нужно определить тип гласной корня. Для каждого слова подберите однокоренное проверочное слово с ударением на нужной гласной. Проверка должна относиться именно к корню, а не к приставке или суффиксу. В словах с чередованием применяйте отдельное правило. Ряд подходит только тогда, когда условию отвечают все три слова.",
       "rows": [
         {
@@ -1412,7 +1511,16 @@
           "reason": "«Центральный» — «центр»: проверяем е. «Направление» — «напра́вить»: проверяем а. В «загорелый» корень гар-/гор-, без ударения пишется о по правилу чередования (§35). Слово «загар» нельзя использовать как обычную проверку этой гласной. Поэтому ряд не подходит."
         }
       ],
-      "authorReviewRequired": false
+      "authorReviewRequired": false,
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "4781487ee21dd37acffa93bc27b73ebbb750103e03ef995194ea9ecd5e3c8faa",
+          "sourceContentSha256": "02789077f5635f985a27c3b6df3307b58d2bc46e7ea2cd2f22d479b922d67169",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2A9943",

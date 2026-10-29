@@ -8,7 +8,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77",
+      "sourceContentSha256": "bfb221bacbad35131d8546949922719c46bccb3b44d8f0fe13f7915d17c6c21d",
       "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879",
       "hint": "Слово со значением превышения количества требует зависимую группу в родительном падеже. Проверьте падеж числительного, даже если существительное после него уже склонено.",
       "rows": [],
@@ -52,7 +52,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77",
+          "sourceContentSha256": "bfb221bacbad35131d8546949922719c46bccb3b44d8f0fe13f7915d17c6c21d",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "0BB6E7",
@@ -60,7 +69,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "cbf8f5c09567a24feb0562b06de3f3197478bd156c6df1a733c6987b43437fb7",
+      "sourceContentSha256": "de39272d6270013e084c6a042095dbe2fbcf0470294ef42f49503d9604672126",
       "explanationSha256": "e8349c367ca8e718226b619eeaf6d93c2d4a840be580459e26851fefa072b88e",
       "hint": "Найдите личную форму глагола во множественном числе. У разноспрягаемого глагола нельзя выбирать окончание только по форме единственного числа.",
       "rows": [],
@@ -88,7 +97,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "cbf8f5c09567a24feb0562b06de3f3197478bd156c6df1a733c6987b43437fb7",
+          "sourceContentSha256": "de39272d6270013e084c6a042095dbe2fbcf0470294ef42f49503d9604672126",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "18355B",
@@ -96,7 +114,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "fc20fee1487c0ee209b7cbc70eda67ae7f7cbdde7359cdcc171f35e9536d0313",
+      "sourceContentSha256": "56b7d84c96dab0bc20947bee799f8d2d1ec7fc553a96265362961f273d681311",
       "explanationSha256": "77b0f4521a65073ba80d3e63dc3fe5615f6285531d06657828e9461b75a499d0",
       "hint": "Проверьте родительный падеж множественного числа у названия части тела. Окончание -ей не является универсальным для всех существительных.",
       "rows": [],
@@ -124,7 +142,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "fc20fee1487c0ee209b7cbc70eda67ae7f7cbdde7359cdcc171f35e9536d0313",
+          "sourceContentSha256": "56b7d84c96dab0bc20947bee799f8d2d1ec7fc553a96265362961f273d681311",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "187C1A",
@@ -132,7 +159,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "34e628068d4e52b401c522396690b280ee185f0c319f0c3d5916ceb4526e6e23",
+      "sourceContentSha256": "ae7d235e2cbb2ca56a77fbfe3acf0f74d350017f608a2ddb5ba2d5118f8da3b5",
       "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e",
       "hint": "Различайте личную форму прошедшего времени и деепричастие: вопрос «что сделав?» не требует механически сохранять основу формы на -л.",
       "rows": [],
@@ -160,7 +187,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "34e628068d4e52b401c522396690b280ee185f0c319f0c3d5916ceb4526e6e23",
+          "sourceContentSha256": "ae7d235e2cbb2ca56a77fbfe3acf0f74d350017f608a2ddb5ba2d5118f8da3b5",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "1F3478",
@@ -168,7 +204,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "17787d8f1541ada9b1f872013f4fa3bdb7cce81053c054d9e92be4c8efa873eb",
+      "sourceContentSha256": "414abf504c87c56591e1afa6b6d0ba107559f8badb66fc8b4de79f1d63260a8d",
       "explanationSha256": "48000a1fb9191e72f8578954f9c61799f9baa645a23055694b10cfbb47111cfb",
       "hint": "Назовите исходный глагол и нужную форму: лицо, число, время или наклонение. Не переносите основу одной формы во все остальные; проверьте чередования и возвратность.",
       "rows": [],
@@ -196,7 +232,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "17787d8f1541ada9b1f872013f4fa3bdb7cce81053c054d9e92be4c8efa873eb",
+          "sourceContentSha256": "414abf504c87c56591e1afa6b6d0ba107559f8badb66fc8b4de79f1d63260a8d",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "20ECC0",
@@ -204,7 +249,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1",
+      "sourceContentSha256": "d1054d0929d6f7ce3d3a058b38cd02c0552a42ae2d2d580a6fddafe20e9002b1",
       "explanationSha256": "78986b1967086f842ecc4cb5cde2c65387491e0d1dde8f642380a210cb6f83d4",
       "hint": "Сравните названия профессий: у них не обязательно одинаковое окончание во множественном числе. Сначала установите, где речь идёт об одном лице, а где — о нескольких.",
       "rows": [],
@@ -240,7 +285,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1",
+          "sourceContentSha256": "d1054d0929d6f7ce3d3a058b38cd02c0552a42ae2d2d580a6fddafe20e9002b1",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "247443",
@@ -248,7 +302,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "09d579cccb27f94019e5acce2c0419545b4afb64442670f65ac64e8910b46b40",
+      "sourceContentSha256": "90b835fb2723a79f8e3c1910edb413d1a1f3b37c1f5919f1f0b4ecf4d59fe8a9",
       "explanationSha256": "ab8cd129196b56e445d3b6a1b6f36428b6b8f3ce5cfbcd7dd56a9bfa8fc4c135",
       "hint": "После слова «много» проверьте родительный падеж множественного числа. У существительного женского рода возможны нулевое окончание и беглая гласная в основе.",
       "rows": [],
@@ -276,7 +330,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "09d579cccb27f94019e5acce2c0419545b4afb64442670f65ac64e8910b46b40",
+          "sourceContentSha256": "90b835fb2723a79f8e3c1910edb413d1a1f3b37c1f5919f1f0b4ecf4d59fe8a9",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "27713B",
@@ -284,7 +347,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6",
+      "sourceContentSha256": "bc6aea221b2c2d801dd08e023769ded0efea1de4b2d2456f0a1e01034ead12d4",
       "explanationSha256": "2131abf14e681bde17a75dac008d01103838b07bf3c7430e61505e60469e1df7",
       "hint": "Проверьте возвратность причастия. Сначала восстановите исходный глагол и задайте от него вопрос к слову «приз».",
       "rows": [],
@@ -312,7 +375,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6",
+          "sourceContentSha256": "bc6aea221b2c2d801dd08e023769ded0efea1de4b2d2456f0a1e01034ead12d4",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2850E4",
@@ -320,7 +392,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1b778ab4f3aad5ca1e56ee4138862f726c6c9c29752f65832b409ec7339f701b",
+      "sourceContentSha256": "963718f717723669dba789c0fb311185623d18d1a36fa4a06bb41cb36d0d1d36",
       "explanationSha256": "ce086ebf7f6957453ae80abc4658caef4fd8f449b390a9d9ccdf0e8f2fc653ca",
       "hint": "Проверьте простую сравнительную степень: у некоторых прилагательных при её образовании чередуются согласные.",
       "rows": [],
@@ -348,7 +420,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1b778ab4f3aad5ca1e56ee4138862f726c6c9c29752f65832b409ec7339f701b",
+          "sourceContentSha256": "963718f717723669dba789c0fb311185623d18d1a36fa4a06bb41cb36d0d1d36",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2A3746",
@@ -356,7 +437,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "47909278fe8082c7798fe451a312037750ebdceb6547a44a680c52b262c3a23a",
+      "sourceContentSha256": "d94c87de8d6f57b18e753a76847ff3b0a18efa9452e8ca5a05e73acbea5dbbfa",
       "explanationSha256": "a2f2b8fcce10a3189cb0af65fe3177bc1ad6cec929ef41a7b08a545e37b8ca6c",
       "hint": "Определите падеж по окончанию зависимого существительного. У количественного числительного с сотнями меняются обе части; проверьте первую часть в творительном падеже.",
       "rows": [],
@@ -384,7 +465,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "47909278fe8082c7798fe451a312037750ebdceb6547a44a680c52b262c3a23a",
+          "sourceContentSha256": "d94c87de8d6f57b18e753a76847ff3b0a18efa9452e8ca5a05e73acbea5dbbfa",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2AD233",
@@ -392,7 +482,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02",
+      "sourceContentSha256": "ffa35c491e0a946940b5bbffe3ea1b84b241b1da1f285d0b4defbdde65dae9f9",
       "explanationSha256": "bef7ca4aa98e3909105e12096140ef81aad6493c8eb61eff8c367d67fb6216ac",
       "hint": "Найдите существительное, которое должно согласовываться с определением во множественном числе. Проверьте его словарное окончание, не только ударение.",
       "rows": [],
@@ -420,7 +510,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02",
+          "sourceContentSha256": "ffa35c491e0a946940b5bbffe3ea1b84b241b1da1f285d0b4defbdde65dae9f9",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2B1518",
@@ -428,7 +527,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7427a314d17284445c43d4c972acb5df10fabba7eb9da6f5259fd371c4963e04",
+      "sourceContentSha256": "8fdedcfae0390f7562de62634f2e15c23ff6d20c560134e5cf22af848f580b03",
       "explanationSha256": "cca68c119035064b7f947d1971bab1a95c7f6a8c05b856660907e2a3dfef9943",
       "hint": "У названия обуви проверьте форму родительного падежа множественного числа. Зависимость от слова «пара» не делает окончание -ей обязательным.",
       "rows": [],
@@ -456,7 +555,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "7427a314d17284445c43d4c972acb5df10fabba7eb9da6f5259fd371c4963e04",
+          "sourceContentSha256": "8fdedcfae0390f7562de62634f2e15c23ff6d20c560134e5cf22af848f580b03",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2BD565",
@@ -464,7 +572,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5",
+      "sourceContentSha256": "b026db9acb5e9270b503f1a3e7a16079c317e8e4784c5f7d384475af7e235a6a",
       "explanationSha256": "28e3e90f2fd81940753cc178bc612f63a9d6285e4fd7e6bcc8c02569cd13414e",
       "hint": "Найдите сочетание, в котором сравнение выражено дважды. Сохраняйте невыделенное слово и исправьте только выделенное прилагательное.",
       "rows": [],
@@ -500,7 +608,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5",
+          "sourceContentSha256": "b026db9acb5e9270b503f1a3e7a16079c317e8e4784c5f7d384475af7e235a6a",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "2F7CFF",
@@ -508,7 +625,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "6db4bfe0d5220caf280ea5664fc92d3b98bdadbe418fcab6f47d9ad17cb794f7",
+      "sourceContentSha256": "1ccc5b1971165b2a4cc21e975e96f6e8939f9ad06efc812627c40872f549a1c3",
       "explanationSha256": "f577112af7ed79b86a7a424798eb977e2795942421c5f56ea5bb87df0256fcec",
       "hint": "Отличите порядковый номер экземпляра от количества предметов. Не переносите внутрь порядкового числительного форму творительного падежа количественного.",
       "rows": [],
@@ -536,7 +653,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "6db4bfe0d5220caf280ea5664fc92d3b98bdadbe418fcab6f47d9ad17cb794f7",
+          "sourceContentSha256": "1ccc5b1971165b2a4cc21e975e96f6e8939f9ad06efc812627c40872f549a1c3",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "3282E5",
@@ -544,7 +670,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674",
+      "sourceContentSha256": "eff0cedf97378a56d40b948399afde7ba31d272deb2348167bc577aba84f8ea6",
       "explanationSha256": "bc3810133d092eadddbccdfe40459bee88f3a473d3e6865086bffb5130f44e18",
       "hint": "Проверьте сравнение при описании действия. Если перед наречием уже стоит «более», не нужно дополнительно выражать сравнение суффиксом.",
       "rows": [],
@@ -580,7 +706,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674",
+          "sourceContentSha256": "eff0cedf97378a56d40b948399afde7ba31d272deb2348167bc577aba84f8ea6",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "32E17B",
@@ -588,7 +723,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "09f9317a807b974cf2f961a1759146de83902374051a0e90c2eb4ddd616db937",
+      "sourceContentSha256": "a662cc4c094e8c8b7686bf341e7883be7921c0c654588ddc50dc3d62e8a31ec9",
       "explanationSha256": "13a1f2dc3ef6806ac86df67a18a8827c39b04fecc3279a69a495d8c162cce438",
       "hint": "В сочетании со значением превышения количества проверьте родительный падеж числительного с сотнями. Нельзя оставить его в исходной форме.",
       "rows": [],
@@ -632,7 +767,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "09f9317a807b974cf2f961a1759146de83902374051a0e90c2eb4ddd616db937",
+          "sourceContentSha256": "a662cc4c094e8c8b7686bf341e7883be7921c0c654588ddc50dc3d62e8a31ec9",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "3F1F92",
@@ -640,7 +784,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "2aaf857c4839ccba530285be4aa7337059b5dccccc609a6be7e62a992dd77748",
+      "sourceContentSha256": "799a8751d8ad08c92a525f9fa9a8d82f6d250832f3ae759d85ef72fce94a1b7c",
       "explanationSha256": "2baaa46758c976caa75e454a7e90135350ba4cce623a5bab3327fd2c4e75f828",
       "hint": "Определите падеж числительного по вопросу к обозначению расстояния. Не смешивайте дательный и предложный падежи и не теряйте конечную согласную.",
       "rows": [],
@@ -668,7 +812,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "2aaf857c4839ccba530285be4aa7337059b5dccccc609a6be7e62a992dd77748",
+          "sourceContentSha256": "799a8751d8ad08c92a525f9fa9a8d82f6d250832f3ae759d85ef72fce94a1b7c",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "41D6D8",
@@ -676,7 +829,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51",
+      "sourceContentSha256": "174754f17a55fbb03e00bc64bf3cfc99e3910af65d45ae220b11f2580da09db6",
       "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78",
       "hint": "Сравнение можно выразить отдельным словом или формой самого прилагательного. Найдите сочетание, где использованы сразу оба способа.",
       "rows": [],
@@ -712,7 +865,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51",
+          "sourceContentSha256": "174754f17a55fbb03e00bc64bf3cfc99e3910af65d45ae220b11f2580da09db6",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "4B38A8",
@@ -720,7 +882,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b",
+      "sourceContentSha256": "9d11d83b8723a3574cacc1d871bebcb17e84d4634d408c80dc9b314f4a4fbc54",
       "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879",
       "hint": "Слово со значением превышения количества требует зависимую группу в родительном падеже. Проверьте падеж числительного, даже если существительное после него уже склонено.",
       "rows": [],
@@ -764,7 +926,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b",
+          "sourceContentSha256": "9d11d83b8723a3574cacc1d871bebcb17e84d4634d408c80dc9b314f4a4fbc54",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "521887",
@@ -772,7 +943,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350",
+      "sourceContentSha256": "e9daf0b7798b6258b496eb0240b3febffcb123cb963fcbbdcd3df66dd6aaa223",
       "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78",
       "hint": "Сравнение можно выразить отдельным словом или формой самого прилагательного. Найдите сочетание, где использованы сразу оба способа.",
       "rows": [],
@@ -808,7 +979,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350",
+          "sourceContentSha256": "e9daf0b7798b6258b496eb0240b3febffcb123cb963fcbbdcd3df66dd6aaa223",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "56EC13",
@@ -816,7 +996,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "cd4ac026e7ca89db814f7d394bbdba6f653a067beaed181ae76091f8802b3747",
+      "sourceContentSha256": "323cf180711b48d456105138ca91a9366fde9dc4b774a22964329773dda63f4b",
       "explanationSha256": "205ff749ffc00e564bad1c8b90d5d2a0bfa3c3dbf5a203eb8c3e2d30de24c535",
       "hint": "Предлог «без» требует родительного падежа. Проверьте, как изменяется существительное среднего рода на -мя: его основа в косвенных падежах удлиняется.",
       "rows": [],
@@ -844,7 +1024,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "cd4ac026e7ca89db814f7d394bbdba6f653a067beaed181ae76091f8802b3747",
+          "sourceContentSha256": "323cf180711b48d456105138ca91a9366fde9dc4b774a22964329773dda63f4b",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "5C0D5E",
@@ -852,7 +1041,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7c10310ee7d915727be402de9526c3ca3c14be48e643d532c4ea031159c10b06",
+      "sourceContentSha256": "c406dd71c32faab715dc5dab5547253584a34abc231b50fb329d04116b6f8160",
       "explanationSha256": "071929b172fe142284c99d385f1493bfb0bfa509c671ec9238be480e631539fc",
       "hint": "У числительного со значением 150 различаются формы именительного/винительного и всех косвенных падежей. Определите, какая нужна после «нет».",
       "rows": [],
@@ -880,7 +1069,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "7c10310ee7d915727be402de9526c3ca3c14be48e643d532c4ea031159c10b06",
+          "sourceContentSha256": "c406dd71c32faab715dc5dab5547253584a34abc231b50fb329d04116b6f8160",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "5CFD83",
@@ -888,7 +1086,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "d44f5b876be19501f7550837e3f04ab893e875344bb48bd8bf407c6a1c2fd239",
+      "sourceContentSha256": "4e21e5785ad6c9d521c2d8f318ae8827a0c6dab79037d4f27dd1e5c4a628566c",
       "explanationSha256": "16ed8119809207ded0488ce3fd458934cb6fa8c7a20e85ab27cbd17cd9a769c1",
       "hint": "Сочетание обозначает, в каком количестве книг что-то содержится. Определите падеж и полностью измените обе части числительного с сотнями.",
       "rows": [],
@@ -916,7 +1114,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "d44f5b876be19501f7550837e3f04ab893e875344bb48bd8bf407c6a1c2fd239",
+          "sourceContentSha256": "4e21e5785ad6c9d521c2d8f318ae8827a0c6dab79037d4f27dd1e5c4a628566c",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "5D5744",
@@ -924,7 +1131,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3",
+      "sourceContentSha256": "9f9640738f66a06f90d69b93427ba5d7a8ba44cd212511fa3b57b1cd21c5d220",
       "explanationSha256": "0992cc9babd127045ad13c497e612e6c3a5d111911660e35e52a737c014bf050",
       "hint": "В названии года определите последнее слово составного порядкового числительного. Именно оно получает падежное окончание; предыдущая часть сохраняется.",
       "rows": [],
@@ -968,7 +1175,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3",
+          "sourceContentSha256": "9f9640738f66a06f90d69b93427ba5d7a8ba44cd212511fa3b57b1cd21c5d220",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "617D1E",
@@ -976,7 +1192,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc",
+      "sourceContentSha256": "b63ddc76f6e76a2a4d66ba0c8356d0bc539470ea5235b9b0c4795d330536a7a7",
       "explanationSha256": "69c15f16b7b879a5b943522ef44b3099ef054c637df905be2b33dcc6dbdc957f",
       "hint": "Определите род существительного в начальной форме. У слов «оба» и «обе» разные основы склонения; множественное число этого различия не отменяет.",
       "rows": [],
@@ -1004,7 +1220,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc",
+          "sourceContentSha256": "b63ddc76f6e76a2a4d66ba0c8356d0bc539470ea5235b9b0c4795d330536a7a7",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "69CA59",
@@ -1012,7 +1237,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1be457615846bae4f23e1d9235f61f93882eb620f38fbcfbbaf5d6496843f754",
+      "sourceContentSha256": "1dd365f13a740d961482e9824df45993618653d2787b26f92ff064e214b7c636",
       "explanationSha256": "c483250f080e69e430145718d6c5ae1429686b1ffa5f6fd18b47e712784bccd5",
       "hint": "Проверьте прошедшее время глагола на -нуть в значении намокания: суффикс -ну- может не сохраняться.",
       "rows": [],
@@ -1040,7 +1265,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1be457615846bae4f23e1d9235f61f93882eb620f38fbcfbbaf5d6496843f754",
+          "sourceContentSha256": "1dd365f13a740d961482e9824df45993618653d2787b26f92ff064e214b7c636",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "6C3050",
@@ -1048,7 +1282,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "52f70afaa3e7abd3b9904a2644278a59c77b0b8dc70b7f5b9bb3a349029b8b29",
+      "sourceContentSha256": "ccad90b935fb894efad342a35924b522802130213d12ccd11dfd34abd16e4299",
       "explanationSha256": "6b5166cce231b72e75ca6e685a9f11be0afd95e39d84fe1ae0173dd97223a436",
       "hint": "Проверьте творительный падеж числительного с сотнями. Первая часть должна быть такой же, как у соответствующего простого числительного в этом падеже.",
       "rows": [],
@@ -1076,7 +1310,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "52f70afaa3e7abd3b9904a2644278a59c77b0b8dc70b7f5b9bb3a349029b8b29",
+          "sourceContentSha256": "ccad90b935fb894efad342a35924b522802130213d12ccd11dfd34abd16e4299",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "729EAA",
@@ -1084,7 +1327,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "439fa78ce9da7fb2d84568281565531bd2f01e5c1def63705c00e745940ff7dc",
+      "sourceContentSha256": "1e17cca2591416b6815b2bff66c5a785b827cf325f17c249c27ee5325ea1040e",
       "explanationSha256": "4b990c36bdbb7d8d077a9e788a49816be6d3c88d128f71eb1f83cdba0b6ca53c",
       "hint": "Проверьте родительный падеж множественного числа названия обуви. Не все существительные мужского рода требуют окончания -ов.",
       "rows": [],
@@ -1112,7 +1355,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "439fa78ce9da7fb2d84568281565531bd2f01e5c1def63705c00e745940ff7dc",
+          "sourceContentSha256": "1e17cca2591416b6815b2bff66c5a785b827cf325f17c249c27ee5325ea1040e",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "730999",
@@ -1120,7 +1372,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "a9c68bfced6dde09f6e1cd8d6958732319e668754e67d355d1ea2951944acd7d",
+      "sourceContentSha256": "29c63dcd6a4ca640b76d5773cf2a22ebcba175296a9237b369ae091feaefeffe",
       "explanationSha256": "38b77da965d68561600db595c8b142544ea1af4e202a8a4fbbd5fdc55b287002",
       "hint": "При обозначении количества после «около» и «более» нужен родительный падеж. Сверьте целую форму числительного, а не только его первую часть.",
       "rows": [],
@@ -1148,7 +1400,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "a9c68bfced6dde09f6e1cd8d6958732319e668754e67d355d1ea2951944acd7d",
+          "sourceContentSha256": "29c63dcd6a4ca640b76d5773cf2a22ebcba175296a9237b369ae091feaefeffe",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "74EFC9",
@@ -1156,7 +1417,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "9fab7fe29c5511a9de10d924d37c90badfc690bc0d0395e89f0c820f46405d70",
+      "sourceContentSha256": "1ec01fbac699ef46bebe723640f68cbe6b5c3e9a2ae60fa1f53dcefc65feaaf6",
       "explanationSha256": "d553703f053bdf296fe7af49ce703042be32bad6a43cf5407cad0fecd1b1136e",
       "hint": "Зависимое существительное обозначает предметы в творительном падеже. У числительного с сотнями обе части должны соответствовать этому падежу.",
       "rows": [],
@@ -1184,7 +1445,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "9fab7fe29c5511a9de10d924d37c90badfc690bc0d0395e89f0c820f46405d70",
+          "sourceContentSha256": "1ec01fbac699ef46bebe723640f68cbe6b5c3e9a2ae60fa1f53dcefc65feaaf6",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "7C773B",
@@ -1192,7 +1462,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "4a84823a36c272eab58f86ab8ce74c380a4a36d7d8924ece4dd4b4fc27086aa7",
+      "sourceContentSha256": "7923d5392a070312cc36c6d4f85e6973e79421949d82a02aa9829fd5f8745f7c",
       "explanationSha256": "bba8af60dc4de82a80b1d2cd3c2a9eb2c0b4a5088b30ffd413c02079c55739ee",
       "hint": "Проверьте форму побуждения к поездке. У глагола «ехать» она не получается простым добавлением окончания к основе инфинитива.",
       "rows": [],
@@ -1228,7 +1498,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "4a84823a36c272eab58f86ab8ce74c380a4a36d7d8924ece4dd4b4fc27086aa7",
+          "sourceContentSha256": "7923d5392a070312cc36c6d4f85e6973e79421949d82a02aa9829fd5f8745f7c",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "7D35EA",
@@ -1236,7 +1515,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "b26bed9cb739c3fdb3621f7e71f8381d22915dc83a7e6f7364c3c5788a9d15a5",
+      "sourceContentSha256": "46eefad992266a8257f109f433e80c88020c0e44edf04c12f1a3ac87f3e59ca4",
       "explanationSha256": "280c1c4e67797f44d1ff3ea831ba1585d72f0f4aeb3f9b3eede59697ac7f8da6",
       "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
       "rows": [],
@@ -1264,7 +1543,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "b26bed9cb739c3fdb3621f7e71f8381d22915dc83a7e6f7364c3c5788a9d15a5",
+          "sourceContentSha256": "46eefad992266a8257f109f433e80c88020c0e44edf04c12f1a3ac87f3e59ca4",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "810334",
@@ -1272,7 +1560,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "e9a7e142d3bbb4da49d28b7990ecf34ef2564d2ba0d3ccb675a06a4666438897",
+      "sourceContentSha256": "e72b029f04186c4225acf84547bc82ea9b3c51fa076718129230819817660ae7",
       "explanationSha256": "fddee67331d8679278b57924154bff46409dfde3174b7033e9d1acdb89950cfe",
       "hint": "При обозначении количества после «около» и «более» нужен родительный падеж. Сверьте целую форму числительного, а не только его первую часть.",
       "rows": [],
@@ -1300,7 +1588,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "e9a7e142d3bbb4da49d28b7990ecf34ef2564d2ba0d3ccb675a06a4666438897",
+          "sourceContentSha256": "e72b029f04186c4225acf84547bc82ea9b3c51fa076718129230819817660ae7",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "848E52",
@@ -1308,7 +1605,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "6fd3b027574294a8e11249c71cb1769baa6ee8a86892ab8d74b3d7c5d57f2e8a",
+      "sourceContentSha256": "42febb41e87fbbf2d819db4a82e6f441bca7cbf0e63d3a12653356a9d6ae954b",
       "explanationSha256": "1c31fe56ad68a9729bb2ae46a771d496238eedc5a6e46b7ad9adad1f3194c507",
       "hint": "Форма множественного числа может зависеть от значения слова. Здесь речь о местонахождении, а не о торжественном письменном приветствии.",
       "rows": [],
@@ -1336,7 +1633,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "6fd3b027574294a8e11249c71cb1769baa6ee8a86892ab8d74b3d7c5d57f2e8a",
+          "sourceContentSha256": "42febb41e87fbbf2d819db4a82e6f441bca7cbf0e63d3a12653356a9d6ae954b",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "84916E",
@@ -1344,7 +1650,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "468cde961eff710973464cd3210cc3ed0da89da30f6e25264093e7e4aeae9ce4",
+      "sourceContentSha256": "837b85abde9296c6e3fdbdc0426a719b3e7c975dd47dd3cab7acb953f0a47bf9",
       "explanationSha256": "c7be4cee24572d60eaa49d0754c8194ac34105ebebb8bb6cde2e3c702ba4b4ff",
       "hint": "Проверьте побуждение к поездке при обращении к нескольким людям. Сначала вспомните нормативную форму для одного человека, затем добавьте -те.",
       "rows": [],
@@ -1380,7 +1686,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "468cde961eff710973464cd3210cc3ed0da89da30f6e25264093e7e4aeae9ce4",
+          "sourceContentSha256": "837b85abde9296c6e3fdbdc0426a719b3e7c975dd47dd3cab7acb953f0a47bf9",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "86D4CC",
@@ -1388,7 +1703,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1fe0a12764422068c3552d66ee283bbe53320fa18cb267c2c874f184c825b026",
+      "sourceContentSha256": "2473cf6ed5d2c66468d2b330d0d24a69e11d9ffdbbf11c65fd084e33b59788a4",
       "explanationSha256": "4351c19dac54513bde12c1775e47d09890ac1145375db6dc99e3be75573405be",
       "hint": "Проверьте форму побуждения к поездке. У глагола «ехать» она не получается простым добавлением окончания к основе инфинитива.",
       "rows": [],
@@ -1424,7 +1739,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1fe0a12764422068c3552d66ee283bbe53320fa18cb267c2c874f184c825b026",
+          "sourceContentSha256": "2473cf6ed5d2c66468d2b330d0d24a69e11d9ffdbbf11c65fd084e33b59788a4",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "890AB3",
@@ -1432,7 +1756,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258",
+      "sourceContentSha256": "b3f301c30d46c807ece8e41f8c48d05f226cc2fe13c070e27d650f4ec3b37277",
       "explanationSha256": "702112228f35d4421627870a90bdd5dc3a787efa77ecc3bfb743020daddd3e7e",
       "hint": "Проверьте род существительного с названием сладкого продукта, затем выберите окончание творительного падежа.",
       "rows": [],
@@ -1460,7 +1784,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258",
+          "sourceContentSha256": "b3f301c30d46c807ece8e41f8c48d05f226cc2fe13c070e27d650f4ec3b37277",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "93AE9E",
@@ -1468,7 +1801,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "61ff5d0a7e4c5b19c49147f95374fc9f6b2d289c7c09d484d77de238944c291e",
+      "sourceContentSha256": "726b8a94c913c3a2f833d438b77cc6d9fd62ff5679c2febd70d692e0b1ebc5fe",
       "explanationSha256": "4ddc878d8f50410f3ce2d6b7b3221f678eeaa9b8b70f92319d0668330b3a7697",
       "hint": "У глаголов движения повелительное наклонение может иметь особую основу. Проверьте побуждение ненадолго приехать куда-то, не образуя его напрямую от инфинитива.",
       "rows": [],
@@ -1496,7 +1829,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "61ff5d0a7e4c5b19c49147f95374fc9f6b2d289c7c09d484d77de238944c291e",
+          "sourceContentSha256": "726b8a94c913c3a2f833d438b77cc6d9fd62ff5679c2febd70d692e0b1ebc5fe",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "944170",
@@ -1504,7 +1846,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "639253c1d30bc7d69a934773ce95ce279f9512582e53d4291df43cf458af003a",
+      "sourceContentSha256": "21a8127fb9651a6d7d02421d96f1b0e28525d657c4e6b5268c1191bc9904ff19",
       "explanationSha256": "c9eb75459cd994a4552e2f12b46fea8d577ed6b59e4659ea7bf773d3c8f1e447",
       "hint": "Проверьте именительный падеж множественного числа у названия профессии. Нельзя переносить окончание из слов «тренеры» или «бухгалтеры» на все профессии.",
       "rows": [],
@@ -1532,7 +1874,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "639253c1d30bc7d69a934773ce95ce279f9512582e53d4291df43cf458af003a",
+          "sourceContentSha256": "21a8127fb9651a6d7d02421d96f1b0e28525d657c4e6b5268c1191bc9904ff19",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "98BE1B",
@@ -1540,7 +1891,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "b3aa7c3fb4a7a8e61f9acce562030aa4bade0a1211ff0a00b64215794b941e98",
+      "sourceContentSha256": "9d7ed93ab9b9fa0a499b0ab46af62f3a1962129e502a141e4a2abfdadeaf9656",
       "explanationSha256": "ab6875381c3d73e6e0864f24765419f494ba6495f7bcf872b99e2a70426a6157",
       "hint": "Определите, какая форма нужна после слова со значением группы военнослужащих. У некоторых названий людей родительный падеж множественного числа имеет нулевое окончание.",
       "rows": [],
@@ -1568,7 +1919,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "b3aa7c3fb4a7a8e61f9acce562030aa4bade0a1211ff0a00b64215794b941e98",
+          "sourceContentSha256": "9d7ed93ab9b9fa0a499b0ab46af62f3a1962129e502a141e4a2abfdadeaf9656",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "99D255",
@@ -1576,7 +1936,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "bda80d315c1e27d2c2e4e83b1242d987f843afb6d9467acf54b485c75f8e4f17",
+      "sourceContentSha256": "15733d6c829ff66d2b4ed723375667f7a0ab1f6755517068882ae9214c17fdab",
       "explanationSha256": "4893f2cf5755b3ee7ae08b474cacaee56c507bbdfa0f2f226e43b1f903f1812d",
       "hint": "Проверьте побуждение отправиться из одного места в другое. У этого глагола движения повелительная форма не образуется механически из формы «выедешь».",
       "rows": [],
@@ -1604,7 +1964,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "bda80d315c1e27d2c2e4e83b1242d987f843afb6d9467acf54b485c75f8e4f17",
+          "sourceContentSha256": "15733d6c829ff66d2b4ed723375667f7a0ab1f6755517068882ae9214c17fdab",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "A42414",
@@ -1612,7 +1981,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "5d4f4fd601c8ceec7e45a452b6fc042dd5800ff1768dada8cbe13449b483338a",
+      "sourceContentSha256": "156578642d40e2834cd25d9704b88085bd9b9670ca4f240e63daf7453a3c7668",
       "explanationSha256": "5e4f2e04c4bdc98d1ea7329880df37f6aabca92b9ade09c0a326b97266d6a05c",
       "hint": "Найдите слово, которое должно выражать превосходную степень вместе с прилагательным. Не смешивайте его со сравнением количества.",
       "rows": [],
@@ -1640,7 +2009,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "5d4f4fd601c8ceec7e45a452b6fc042dd5800ff1768dada8cbe13449b483338a",
+          "sourceContentSha256": "156578642d40e2834cd25d9704b88085bd9b9670ca4f240e63daf7453a3c7668",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "A4CB01",
@@ -1648,7 +2026,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036",
+      "sourceContentSha256": "f4e0a5f1463e148e673c671f3e77215a61d2c35862e5d71a14af6e3a39ca8bd7",
       "explanationSha256": "ab767e1d3a40961e9c8193c49154713e63c73d84a1d16c437c39a82c5e7d27ba",
       "hint": "Проверьте личную форму глагола на -чь. Согласная основы может чередоваться: форма 1-го лица не задаёт одну и ту же согласную для всех лиц.",
       "rows": [],
@@ -1676,7 +2054,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036",
+          "sourceContentSha256": "f4e0a5f1463e148e673c671f3e77215a61d2c35862e5d71a14af6e3a39ca8bd7",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "A704AE",
@@ -1684,7 +2071,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "79824f669ca9dd90f37baa0dfc11914ce450b762aa957bbd8d717e5585dfd9a1",
+      "sourceContentSha256": "f7ed9e5a7f207af38ca3264e34c95c729d55e1f2a93cb939e66c5eb5cf2c0ce1",
       "explanationSha256": "15a4636143d9117aaedd068b6489b94611205ececd5965323c0d68f8a7ea535e",
       "hint": "У существительного среднего рода используется та же основа числительного, что и у мужского. Восстановите начальную форму существительного, затем выберите падежную форму.",
       "rows": [],
@@ -1712,7 +2099,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "79824f669ca9dd90f37baa0dfc11914ce450b762aa957bbd8d717e5585dfd9a1",
+          "sourceContentSha256": "f7ed9e5a7f207af38ca3264e34c95c729d55e1f2a93cb939e66c5eb5cf2c0ce1",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "A7C780",
@@ -1720,7 +2116,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1567f16de48a444bb319443cdda24b52b0a3c8f2d842f0c6a3aa7b20564957df",
+      "sourceContentSha256": "ed4f4d2248fac17a6ceb19548daec31804b0265ddebc453ee8d72e2dddef317e",
       "explanationSha256": "7fd0440439a573dd1e6cf2346772ad5cc249fd5cb828b561f8ddd68aefe7d831",
       "hint": "Найдите слово со значением принадлежности. Нейтральное притяжательное местоимение этого типа не получает падежного окончания.",
       "rows": [],
@@ -1756,7 +2152,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1567f16de48a444bb319443cdda24b52b0a3c8f2d842f0c6a3aa7b20564957df",
+          "sourceContentSha256": "ed4f4d2248fac17a6ceb19548daec31804b0265ddebc453ee8d72e2dddef317e",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "AA8707",
@@ -1764,7 +2169,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "bb53624a808044df55f161e26c791c2c67ba45550d64d914dd1c25d899ec16fd",
+      "sourceContentSha256": "809a4ba78d9f409d034064d162fd43e4b23977361ba7e499912c485218f86767",
       "explanationSha256": "095efe1b8aa3c18ec341e54e965f48355b5ebe386650955cdd187bdc6fed4814",
       "hint": "Предлог «с» здесь обозначает наличие некоторого количества денег. Задайте вопрос «с чем?» и измените обе части числительного с сотнями.",
       "rows": [],
@@ -1792,7 +2197,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "bb53624a808044df55f161e26c791c2c67ba45550d64d914dd1c25d899ec16fd",
+          "sourceContentSha256": "809a4ba78d9f409d034064d162fd43e4b23977361ba7e499912c485218f86767",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "AE0374",
@@ -1800,7 +2214,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5",
+      "sourceContentSha256": "6d5d5479b4bf266047b24fb5af4d53c82e55412629a018b8d5e35b968e6fe3e1",
       "explanationSha256": "8daf1e1dadc312263c0cae6fd4acd6c8a7a06417cb0073ce3517a08d8ba67a21",
       "hint": "Проверьте род существительного с названием сладкого продукта, затем выберите окончание творительного падежа.",
       "rows": [],
@@ -1828,7 +2242,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5",
+          "sourceContentSha256": "6d5d5479b4bf266047b24fb5af4d53c82e55412629a018b8d5e35b968e6fe3e1",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "B1C91E",
@@ -1836,7 +2259,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "8d73d248c3247d4b5d6d83dfe1b844b8a0affa4101e951a6f91e6ff014dc1b34",
+      "sourceContentSha256": "62e823dd91ee8042c612c104f112f10417b279e8ce9aab540160b20cb85b2599",
       "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692",
       "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
       "rows": [],
@@ -1864,7 +2287,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "8d73d248c3247d4b5d6d83dfe1b844b8a0affa4101e951a6f91e6ff014dc1b34",
+          "sourceContentSha256": "62e823dd91ee8042c612c104f112f10417b279e8ce9aab540160b20cb85b2599",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "B3DAE9",
@@ -1872,7 +2304,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f",
+      "sourceContentSha256": "ca42d5ad48f3229571cc5646da6a1b24c39ff61e0a84dad6d5ddc6f69ae3c49b",
       "explanationSha256": "ec5b91671c15b5e9e07cf57befe05d98d1ebc09c48b4ef39d6fe8ca3f06ae50d",
       "hint": "У повелительной формы на -и нет обязательного конечного й. Проверьте именно этот глагол, не подменяя его другой моделью движения.",
       "rows": [],
@@ -1900,7 +2332,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f",
+          "sourceContentSha256": "ca42d5ad48f3229571cc5646da6a1b24c39ff61e0a84dad6d5ddc6f69ae3c49b",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "B95F57",
@@ -1908,7 +2349,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "37cdfb5f9756015a01ee7e73524ab69156f4a16284288aaaf79f90256f054c43",
+      "sourceContentSha256": "f8160ce512f623727677ccdfe6f0e26f1d25534df8e90a7d22e399165b0be462",
       "explanationSha256": "7dd7cab4471128a91c0b05ea5477b465ea380178faa3a220adc1a4a144700d4c",
       "hint": "Проверьте родительный падеж множественного числа названия обуви. Не все существительные мужского рода требуют окончания -ов.",
       "rows": [],
@@ -1936,7 +2377,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "37cdfb5f9756015a01ee7e73524ab69156f4a16284288aaaf79f90256f054c43",
+          "sourceContentSha256": "f8160ce512f623727677ccdfe6f0e26f1d25534df8e90a7d22e399165b0be462",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "BCCEFC",
@@ -1944,7 +2394,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7f248b8108eb22083663524f9a7b056bb0dcddd32f6f9ef1be0e4a45dee108b0",
+      "sourceContentSha256": "e10020e914a0093b66c7b8112435a146cbd1511547388f37be1277619d382f47",
       "explanationSha256": "9455c4af721f5f1520d35adbb4c94f3f5530e6cadeb2ca5a6254a41468abc2e1",
       "hint": "Проверьте творительный падеж числительного с сотнями. Одного изменения первой части недостаточно: вторая тоже должна получить полное окончание.",
       "rows": [],
@@ -1972,7 +2422,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "7f248b8108eb22083663524f9a7b056bb0dcddd32f6f9ef1be0e4a45dee108b0",
+          "sourceContentSha256": "e10020e914a0093b66c7b8112435a146cbd1511547388f37be1277619d382f47",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "BE9871",
@@ -1980,7 +2439,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ebabd4ff8e83ddacbccb47928cbf23e5aa4f2056f2ccc8ac2d2ef03069535646",
+      "sourceContentSha256": "6b5fba24efabe52b6f54b406d234ff3acd23aaadaa7a30b10dee2e8d1a029f81",
       "explanationSha256": "6a6b045824e1404e44c3bc16903162bee26a7f25ca28ae00c7ce855bf237627f",
       "hint": "Отличите порядковый номер экземпляра от количества предметов. Не переносите внутрь порядкового числительного форму творительного падежа количественного.",
       "rows": [],
@@ -2008,7 +2467,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "ebabd4ff8e83ddacbccb47928cbf23e5aa4f2056f2ccc8ac2d2ef03069535646",
+          "sourceContentSha256": "6b5fba24efabe52b6f54b406d234ff3acd23aaadaa7a30b10dee2e8d1a029f81",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "C542DC",
@@ -2016,7 +2484,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "0e22e1f915cbfee3d20cdaf6f1ab0c9e6035dcce16529d5aeb1ca8613b774ad1",
+      "sourceContentSha256": "90a794cfdf9a2a28868c7e9f939448cc335ec79e131c6212e0634b01853fdfff",
       "explanationSha256": "52415ff62c36a1fc74d9d72625c8f06a12bc677bc72398ac29399cb4fa4ff87d",
       "hint": "После «мало» требуется родительный падеж. У существительных на -мя в косвенных падежах меняется не только окончание, но и основа.",
       "rows": [],
@@ -2044,7 +2512,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "0e22e1f915cbfee3d20cdaf6f1ab0c9e6035dcce16529d5aeb1ca8613b774ad1",
+          "sourceContentSha256": "90a794cfdf9a2a28868c7e9f939448cc335ec79e131c6212e0634b01853fdfff",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "C88373",
@@ -2052,7 +2529,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2",
+      "sourceContentSha256": "f6632129091a9f9ede54c7b6346287e5e4c2dfa8ca657649f2cfa9cefd95fb05",
       "explanationSha256": "04af04507fef549e7e185a347befac9e8efbaa93c7be2cdfcecab5b25e9bced6",
       "hint": "Мягкий знак в конце существительного не всегда означает женский род. Определите род, затем образуйте творительный падеж.",
       "rows": [],
@@ -2080,7 +2557,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2",
+          "sourceContentSha256": "f6632129091a9f9ede54c7b6346287e5e4c2dfa8ca657649f2cfa9cefd95fb05",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "CA147A",
@@ -2088,7 +2574,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb",
+      "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
       "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
       "rows": [],
@@ -2116,7 +2602,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb",
+          "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "D05218",
@@ -2124,7 +2619,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "9585334b0a579899934bc68b04991d505ad2f19191613168903adf574547b4c1",
+      "sourceContentSha256": "70f993d8442669c3294995e96b22cbbb753b254d0d963f1062199be8bc059b56",
       "explanationSha256": "6c09ed19cbbd7721e484229d39bdbef1298cf74d647dc71641558861f929aa84",
       "hint": "Проверьте родительный падеж множественного числа у названия плодов. Окончание -ов у одних названий фруктов нельзя переносить на все остальные.",
       "rows": [],
@@ -2152,7 +2647,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "9585334b0a579899934bc68b04991d505ad2f19191613168903adf574547b4c1",
+          "sourceContentSha256": "70f993d8442669c3294995e96b22cbbb753b254d0d963f1062199be8bc059b56",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "D754F9",
@@ -2160,7 +2664,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "947491bf2e2ba5480a47c724f5e6330f1019dca2d727368b6005000581b1ab6c",
+      "sourceContentSha256": "4bd3ee70ec27959cad5dad7c8f21993f5a50af4546ca3d4470ac3adaadc44d35",
       "explanationSha256": "ba72700bdd8cb65acf8caa7fb4eec7642c70192f1fd6e0bc078c7bb6a636cc30",
       "hint": "Предлог «из» требует родительного падежа. У существительного среднего рода на -це проверьте, появляется ли беглая гласная при нулевом окончании.",
       "rows": [],
@@ -2188,7 +2692,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "947491bf2e2ba5480a47c724f5e6330f1019dca2d727368b6005000581b1ab6c",
+          "sourceContentSha256": "4bd3ee70ec27959cad5dad7c8f21993f5a50af4546ca3d4470ac3adaadc44d35",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "D8BE94",
@@ -2196,7 +2709,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503",
+      "sourceContentSha256": "e8325aeb7f18e91eb30ad10ba548571ab76b840b455099682662449a241551ff",
       "explanationSha256": "5fa401714dbcfd5efdc30bf087b7729fe03c730b7cc5d8d7aaf1bd72ff6273b1",
       "hint": "Проверьте личную форму глагола на -овать. Сначала образуйте форму «я…»: сохраняется ли в ней весь суффикс инфинитива?",
       "rows": [],
@@ -2232,7 +2745,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503",
+          "sourceContentSha256": "e8325aeb7f18e91eb30ad10ba548571ab76b840b455099682662449a241551ff",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "DD4AE3",
@@ -2240,7 +2762,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a",
+      "sourceContentSha256": "3e7ea801efe51b9162f6a0573e4a0dd94840eed54a975ac449043c971bd91f1c",
       "explanationSha256": "d6fdde2ea1dd1ea819673bc4ec313a2101a4192903e91d201655e5788ee59061",
       "hint": "Найдите глагол в форме будущего времени. У глагола на -чь в разных личных формах чередуются согласные; приставка этого чередования не отменяет.",
       "rows": [],
@@ -2268,7 +2790,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a",
+          "sourceContentSha256": "3e7ea801efe51b9162f6a0573e4a0dd94840eed54a975ac449043c971bd91f1c",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "E60EB4",
@@ -2276,7 +2807,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0",
+      "sourceContentSha256": "4a65f2e6c1c8441eb82cb91abe958f0513c3f8e687a9907d3e503ac55c4c8d69",
       "explanationSha256": "6a134bffa1c61c32826091d6062613413ec3f4f2851484753d3e91f5a4823b31",
       "hint": "Найдите прилагательное, возле которого уже стоит «более». Исправьте только выделенное слово, не удаляя остальную часть конструкции.",
       "rows": [],
@@ -2312,7 +2843,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0",
+          "sourceContentSha256": "4a65f2e6c1c8441eb82cb91abe958f0513c3f8e687a9907d3e503ac55c4c8d69",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "E7D8E1",
@@ -2320,7 +2860,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "a6942f0c77811ca61ea14dfbca282b0a8ff7dfd2809ebffb94fb5e4dadb02875",
+      "sourceContentSha256": "78e5d7e850f80f379e0bffb355aecd80b122ae62cf8b2a43bd86102e00741bd6",
       "explanationSha256": "85ca8569d5260fa9f9c24fae67ef44a0154ba33712fde73624b82c10d2cfe4c1",
       "hint": "Проверьте личную форму глагола со значением уничтожения огнём. Согласные основы в формах «я…» и «ты…» различаются.",
       "rows": [],
@@ -2356,7 +2896,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "a6942f0c77811ca61ea14dfbca282b0a8ff7dfd2809ebffb94fb5e4dadb02875",
+          "sourceContentSha256": "78e5d7e850f80f379e0bffb355aecd80b122ae62cf8b2a43bd86102e00741bd6",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "E97CE0",
@@ -2364,7 +2913,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "a448701471b05a39d9ea658dc92d0c024a0c9d642ebd8ce48521f85f688aecc0",
+      "sourceContentSha256": "e09705cfd6d2ddc73428d9ff254d3ec47d9de473a7daf2e53b409e4bdeed2437",
       "explanationSha256": "19dc5564eba478ac12f530f6459c5746f7c2aa2114d8c23dc6ac028bb9558eb9",
       "hint": "Проверьте родительный падеж множественного числа у названия плодов. Окончание -ов у одних названий фруктов нельзя переносить на все остальные.",
       "rows": [],
@@ -2392,7 +2941,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "a448701471b05a39d9ea658dc92d0c024a0c9d642ebd8ce48521f85f688aecc0",
+          "sourceContentSha256": "e09705cfd6d2ddc73428d9ff254d3ec47d9de473a7daf2e53b409e4bdeed2437",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "ECF2E7",
@@ -2400,7 +2958,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7c0bcb40f0c7673d6f9f0f15656e9b379937b2717dfefbbd421c363e0f7e2381",
+      "sourceContentSha256": "b5c100a519f0f934d47b3104903050da2ff80c5eb19c3af3382b3026c804fd2e",
       "explanationSha256": "4900ea53c2acb9063c7a0aa1a7487e2e69f878d91ff5a80e7ea4b4a1837f11a3",
       "hint": "Для обозначения места у некоторых существительных есть особая предложная форма. Отличайте «где?» от «говорить о чём?».",
       "rows": [],
@@ -2428,7 +2986,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "7c0bcb40f0c7673d6f9f0f15656e9b379937b2717dfefbbd421c363e0f7e2381",
+          "sourceContentSha256": "b5c100a519f0f934d47b3104903050da2ff80c5eb19c3af3382b3026c804fd2e",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "ED6747",
@@ -2436,7 +3003,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "0f4fb2905bab16db4f8e9990964a9bc7880b71a8aff55296e335b642d795b63a",
+      "sourceContentSha256": "5e759ccfa9fac9360b4c334a29e644370151dd287a48fabf380b02328d846cf1",
       "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e",
       "hint": "Различайте личную форму прошедшего времени и деепричастие: вопрос «что сделав?» не требует механически сохранять основу формы на -л.",
       "rows": [],
@@ -2464,7 +3031,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "0f4fb2905bab16db4f8e9990964a9bc7880b71a8aff55296e335b642d795b63a",
+          "sourceContentSha256": "5e759ccfa9fac9360b4c334a29e644370151dd287a48fabf380b02328d846cf1",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "F05133",
@@ -2472,7 +3048,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850",
+      "sourceContentSha256": "f6f3b56a7e4804d85cd178b29d6cf17399724fd6317afe487e6114e1edc1f69c",
       "explanationSha256": "1fab82a2a058a81c8ec054c441729e73d9ffdb2355dccc1370643f08212a411c",
       "hint": "В названии года определите последнее слово составного порядкового числительного. Именно оно получает падежное окончание; предыдущая часть сохраняется.",
       "rows": [],
@@ -2516,7 +3092,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850",
+          "sourceContentSha256": "f6f3b56a7e4804d85cd178b29d6cf17399724fd6317afe487e6114e1edc1f69c",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "F23DF9",
@@ -2524,7 +3109,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0",
+      "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
       "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
       "rows": [],
@@ -2552,7 +3137,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0",
+          "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "F26529",
@@ -2560,7 +3154,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "3f2872a4cafb7f5447953f61ce50d363d8358245f33ccec333c6cac6ca03c2ea",
+      "sourceContentSha256": "f7b4f38acee1b23fb3b21554a6338f3fdf692fff16fc49d9d75cd15b464aa9bd",
       "explanationSha256": "acae2ec9c0930c324e9f16de504776f27599a694b42f9b4b3b6ca42f1c3df8f3",
       "hint": "Проверьте простую сравнительную степень прилагательного. Не любой суффикс со значением сравнения подходит к каждому слову.",
       "rows": [],
@@ -2588,7 +3182,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "3f2872a4cafb7f5447953f61ce50d363d8358245f33ccec333c6cac6ca03c2ea",
+          "sourceContentSha256": "f7b4f38acee1b23fb3b21554a6338f3fdf692fff16fc49d9d75cd15b464aa9bd",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "F43551",
@@ -2596,7 +3199,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ba2bc24cb97f16c6965afdf6e537223e8609f0e9f94515b5ded7c44963281492",
+      "sourceContentSha256": "c3a97eb4fed0d6dd316c176e88ca1b9fa8e49887dec3a33263999fe13b3b23bd",
       "explanationSha256": "ab8995c14fd590b447c0499b4a53012ba6f856b0c6f190ee7e85daece91b1622",
       "hint": "У названия обуви проверьте форму родительного падежа множественного числа. Зависимость от слова «пара» не делает окончание -ей обязательным.",
       "rows": [],
@@ -2624,7 +3227,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "ba2bc24cb97f16c6965afdf6e537223e8609f0e9f94515b5ded7c44963281492",
+          "sourceContentSha256": "c3a97eb4fed0d6dd316c176e88ca1b9fa8e49887dec3a33263999fe13b3b23bd",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "F5ED6D",
@@ -2632,7 +3244,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d",
+      "sourceContentSha256": "1cc66d132400e00c7397081ccb1f57d6da63d78e4819f2f8b83579ca8a735ec1",
       "explanationSha256": "9f50563222dd146ae6f5bbd67f912f92d0642ce7912fb360867ee5d3e89db74d",
       "hint": "Проверьте падеж после производного предлога. Начальное н- появляется у местоимения не после любого предлога.",
       "rows": [],
@@ -2668,7 +3280,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d",
+          "sourceContentSha256": "1cc66d132400e00c7397081ccb1f57d6da63d78e4819f2f8b83579ca8a735ec1",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "F61987",
@@ -2676,7 +3297,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "9c261b99309fe070cc19cf42061298554936068ad6dffaec794f6859cfae6cd1",
+      "sourceContentSha256": "bf992ad80751ff44014ef432027da387c7d0549e8881bc0d3d4df349871fbdd5",
       "explanationSha256": "4af9488b5847d631c702c7f5dd712c270d5bd668ddfd8ca5e3046561d2381dcc",
       "hint": "Проверьте родительный падеж множественного числа у названия одежды. Восстановите начальную форму и не подменяйте её склонение моделью другого существительного.",
       "rows": [],
@@ -2704,7 +3325,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "9c261b99309fe070cc19cf42061298554936068ad6dffaec794f6859cfae6cd1",
+          "sourceContentSha256": "bf992ad80751ff44014ef432027da387c7d0549e8881bc0d3d4df349871fbdd5",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "FB76CB",
@@ -2712,7 +3342,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7f61cddfc993c98741ac91ec2265d2db2fd061d71cd9f706fe4aebfe73eec430",
+      "sourceContentSha256": "53cd892910aa08614339f5d1b0b84ea826db8c2f863562cc5b6cab0e22e5bd14",
       "explanationSha256": "0b329ffd1eb66196cca55c40d4cbc706a69d3a56028e817312ef8273a6547d31",
       "hint": "Проверьте родительный падеж множественного числа у названия высокой обуви. Не переносите на него окончание из слова «носков».",
       "rows": [],
@@ -2740,7 +3370,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "7f61cddfc993c98741ac91ec2265d2db2fd061d71cd9f706fe4aebfe73eec430",
+          "sourceContentSha256": "53cd892910aa08614339f5d1b0b84ea826db8c2f863562cc5b6cab0e22e5bd14",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "FE285C",
@@ -2748,7 +3387,7 @@
       "kind": "word_form_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "5b4ab79fddcf46ebaabad063e8855af3fc03bbd5c4627ebb8c9a9830a738c65c",
+      "sourceContentSha256": "a8bdae3f7d0b05037adeab56d106222a9a83f23397cb50dba59d7bde473b8555",
       "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692",
       "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
       "rows": [],
@@ -2776,7 +3415,16 @@
             "reviewDate": "2026-10-29"
           }
         ]
-      }
+      },
+      "sourceFormatSync": [
+        {
+          "sourceArchiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+          "previousSourceContentSha256": "5b4ab79fddcf46ebaabad063e8855af3fc03bbd5c4627ebb8c9a9830a738c65c",
+          "sourceContentSha256": "a8bdae3f7d0b05037adeab56d106222a9a83f23397cb50dba59d7bde473b8555",
+          "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     }
   ]
 }

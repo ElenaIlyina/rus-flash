@@ -4,7 +4,7 @@
   "cards": [
     {
       "id": "011AA6",
-      "sourceContentSha256": "eb66da55e6d0b12c57a925de348b6ed8c70382842be2c3869e9847485793275b",
+      "sourceContentSha256": "4857893afa9e483d104c0e94416347622c593f057ddb0a13feb384bf2ec6af03",
       "options": [
         {
           "number": 1,
@@ -76,7 +76,8 @@
           "sourceEntry": "новостЕй, род. п. мн. ч. сущ. нОвость",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "eb66da55e6d0b12c57a925de348b6ed8c70382842be2c3869e9847485793275b"
     },
     {
       "id": "121C9D",
@@ -232,7 +233,7 @@
     },
     {
       "id": "31CB51",
-      "sourceContentSha256": "ec4b5cae0f7065d1cf9a9605313373fa9cbf076e2da396a4e8e49cb33f5d8e82",
+      "sourceContentSha256": "147da53c0ecf06c391af5de5d3aac284a3bf5cc75e52a06da712395ef8b7068e",
       "options": [
         {
           "number": 1,
@@ -304,11 +305,12 @@
           "sourceEntry": "крАлась, прош. вр. ж. р. глаг. крАсться",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "ec4b5cae0f7065d1cf9a9605313373fa9cbf076e2da396a4e8e49cb33f5d8e82"
     },
     {
       "id": "39507B",
-      "sourceContentSha256": "c115da32f43321f3b400c6f790a504b9f784c07993933090783bd0de271f6dc5",
+      "sourceContentSha256": "cff3f19c19d255ac895cc6b3e2d2e25dbc5dcb8599321b29f68889edd763959b",
       "options": [
         {
           "number": 1,
@@ -380,11 +382,12 @@
           "sourceEntry": "Отрочество",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "c115da32f43321f3b400c6f790a504b9f784c07993933090783bd0de271f6dc5"
     },
     {
       "id": "42DC9B",
-      "sourceContentSha256": "72add3b7cd3dc1ce78a52edd6a66b8bdf87f2945faa00a80ce8e96ae0de6f142",
+      "sourceContentSha256": "682c60b5ed71362e941da29331aace8eb05a884327575a84be486971b5b26f97",
       "options": [
         {
           "number": 1,
@@ -456,7 +459,8 @@
           "sourceEntry": "прозорлИвый; прозорлИва, кр. ф. ж. р.",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "72add3b7cd3dc1ce78a52edd6a66b8bdf87f2945faa00a80ce8e96ae0de6f142"
     },
     {
       "id": "453385",
@@ -536,7 +540,7 @@
     },
     {
       "id": "6A530E",
-      "sourceContentSha256": "69a6bbbe2b9616de2852a41fa88e82d9ffda16677359e9e3d91f8664970d3f9e",
+      "sourceContentSha256": "c77965c7ddd5f1eb11cede0000150a8ca16724eb7a50f6d24fb6590eae4fd6fe",
       "options": [
         {
           "number": 1,
@@ -608,11 +612,12 @@
           "sourceEntry": "нефтепровОд",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "69a6bbbe2b9616de2852a41fa88e82d9ffda16677359e9e3d91f8664970d3f9e"
     },
     {
       "id": "7756B9",
-      "sourceContentSha256": "f360e0960fb024c6a2c0f372942de0850abf43b16847577bd09a2a6c37676f99",
+      "sourceContentSha256": "aadae168dde715dc0a8de84d5d02ee30406b93395d896336bd2460a084405202",
       "options": [
         {
           "number": 1,
@@ -684,11 +689,12 @@
           "sourceEntry": "Отрочество",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f360e0960fb024c6a2c0f372942de0850abf43b16847577bd09a2a6c37676f99"
     },
     {
       "id": "7E19AB",
-      "sourceContentSha256": "b33b49b35471fb8e8d4909a28a0b06a97b63ee34e09ef946aedfe2b843615ac1",
+      "sourceContentSha256": "1e6194fb7ea1db1a92c42df12eb2c84ad4ba8db72fa298b19dcb2198394de01f",
       "options": [
         {
           "number": 1,
@@ -760,7 +766,8 @@
           "sourceEntry": "пОручни",
           "evidenceType": "excluded_word_historical"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "b33b49b35471fb8e8d4909a28a0b06a97b63ee34e09ef946aedfe2b843615ac1"
     },
     {
       "id": "8130C5",
@@ -840,7 +847,7 @@
     },
     {
       "id": "828CBC",
-      "sourceContentSha256": "f7ee853176a8def9d7d2104df2e9872a7b7bc437eec4efa675bb5c3e1ad5e74d",
+      "sourceContentSha256": "e9ecb5704025196ee8e14882fe387a23a74c64511fcee7210a1a82cbf89dc7a8",
       "options": [
         {
           "number": 1,
@@ -912,11 +919,12 @@
           "sourceEntry": "еретИк",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f7ee853176a8def9d7d2104df2e9872a7b7bc437eec4efa675bb5c3e1ad5e74d"
     },
     {
       "id": "9B2535",
-      "sourceContentSha256": "2ec090bcd4f0802ed263c16b011692de1b4c0d7d39a6557e5d48e285f27caa27",
+      "sourceContentSha256": "2861d14e8c010e8d618cd9c09ee0f07019fafc532e55b92a42cecc78ac701716",
       "options": [
         {
           "number": 1,
@@ -988,11 +996,12 @@
           "sourceEntry": "нАчатый",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2ec090bcd4f0802ed263c16b011692de1b4c0d7d39a6557e5d48e285f27caa27"
     },
     {
       "id": "9D14F3",
-      "sourceContentSha256": "ab531830f1901372c139bd38ec6c65982dfd0180e526cc895da498c4e11ffa60",
+      "sourceContentSha256": "f0bba892af2e7e69d637a613967f6906dff0c86a55adacba4cd829476fe631bd",
       "options": [
         {
           "number": 1,
@@ -1064,11 +1073,12 @@
           "sourceEntry": "закУпорив",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "ab531830f1901372c139bd38ec6c65982dfd0180e526cc895da498c4e11ffa60"
     },
     {
       "id": "AAE143",
-      "sourceContentSha256": "cc789aa879c29e0e86c0384bf42ee3e68c110876b09cb36dad19ac449dc85bfb",
+      "sourceContentSha256": "71faf9ab45d41987cfae8be5913c2ecc425bfbf44daf65dc18f9f231830641f0",
       "options": [
         {
           "number": 1,
@@ -1140,11 +1150,12 @@
           "sourceEntry": "тамОжня",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "cc789aa879c29e0e86c0384bf42ee3e68c110876b09cb36dad19ac449dc85bfb"
     },
     {
       "id": "B05882",
-      "sourceContentSha256": "fdf4c53489ef39ef8dc2ef165a5bcfec35cf59860a42983d9b69134096cb0c3a",
+      "sourceContentSha256": "5fe940981623bc0b33148774c575f23a00b223abd535542dcb54d1c3c9597877",
       "options": [
         {
           "number": 1,
@@ -1216,11 +1227,12 @@
           "sourceEntry": "укрепИт, 3-е л. ед. ч. глаг. укрепИть",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "fdf4c53489ef39ef8dc2ef165a5bcfec35cf59860a42983d9b69134096cb0c3a"
     },
     {
       "id": "C57D87",
-      "sourceContentSha256": "8457e31f481d9db964f056f8de52841141aca030e582b47a25ae928921597327",
+      "sourceContentSha256": "f85292633cbfa3e45f51bed9df489bdff01c9d273871f0cae04cbfca926984a1",
       "options": [
         {
           "number": 1,
@@ -1292,11 +1304,12 @@
           "sourceEntry": "дОнизу",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "8457e31f481d9db964f056f8de52841141aca030e582b47a25ae928921597327"
     },
     {
       "id": "CACB9D",
-      "sourceContentSha256": "f27678085a85d2ccb4b1f5e056ce31da45e50196b40bd361ac6c57b6e962cb95",
+      "sourceContentSha256": "3b52858a0481c23ef8ca8d72e42abf9f535f16c1094732a0996d5a7da6fa4a39",
       "options": [
         {
           "number": 1,
@@ -1368,11 +1381,12 @@
           "sourceEntry": "цепОчка",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f27678085a85d2ccb4b1f5e056ce31da45e50196b40bd361ac6c57b6e962cb95"
     },
     {
       "id": "CD6F3D",
-      "sourceContentSha256": "01a73ae34d7e4cba814e270523f500547b28dceb500d6b254fada2239cc1ac45",
+      "sourceContentSha256": "494a14826640221d0d89802818149ba32cb2d2bae9be47b4863433b99f39666d",
       "options": [
         {
           "number": 1,
@@ -1444,11 +1458,12 @@
           "sourceEntry": "укрепИт, 3-е л. ед. ч. глаг. укрепИть",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "01a73ae34d7e4cba814e270523f500547b28dceb500d6b254fada2239cc1ac45"
     },
     {
       "id": "CE3CB3",
-      "sourceContentSha256": "b7796d9aea6cec9e7e326784c1cae51841aaf965d5dccfc9471dbf32bcebdad0",
+      "sourceContentSha256": "04b3e5b874ea1674d7841e63f7fa11d1915add7685e2c2236cfb6918c69245d5",
       "options": [
         {
           "number": 1,
@@ -1520,11 +1535,12 @@
           "sourceEntry": "газопровОд",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "b7796d9aea6cec9e7e326784c1cae51841aaf965d5dccfc9471dbf32bcebdad0"
     },
     {
       "id": "CEC4CA",
-      "sourceContentSha256": "00403f323a6c06c0eb586c5ae5375c59b4d11eb337c489467713deecdbfb6361",
+      "sourceContentSha256": "ddd0f17831838cf38f89cf5bb5bb16eb3357d089ed7d0384e2db5c0641d8e238",
       "options": [
         {
           "number": 1,
@@ -1596,11 +1612,12 @@
           "sourceEntry": "снятА, кр. ф. ж. р. прич. снЯтый",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "00403f323a6c06c0eb586c5ae5375c59b4d11eb337c489467713deecdbfb6361"
     },
     {
       "id": "D949E3",
-      "sourceContentSha256": "0702439b61e077dd00a0ef269acd28bbb80a98ad5abcf0d70c89f46180aa18e9",
+      "sourceContentSha256": "239b9e7db0ac486b3bb87b9740f894020f3d549c1a43bd60dc4f4b342b68a6d2",
       "options": [
         {
           "number": 1,
@@ -1672,11 +1689,12 @@
           "sourceEntry": "заселЁнный; заселенА, кр. ф. ж. р.",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "0702439b61e077dd00a0ef269acd28bbb80a98ad5abcf0d70c89f46180aa18e9"
     },
     {
       "id": "DF4F14",
-      "sourceContentSha256": "93be39d2d82c19604da41780c713fa5c0e2a81ca4179fa8dcb9b83d7360f3288",
+      "sourceContentSha256": "b5b7c1f8bef8bfce3e7a8993c6259ad9402ed8e6804ceb837bdb19dbf35e6987",
       "options": [
         {
           "number": 1,
@@ -1748,11 +1766,12 @@
           "sourceEntry": "звонИт, 3-е л. ед. ч. глаг. звонИть",
           "evidenceType": "listed_personal_form_application"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "93be39d2d82c19604da41780c713fa5c0e2a81ca4179fa8dcb9b83d7360f3288"
     },
     {
       "id": "E14EB6",
-      "sourceContentSha256": "e7c8e1e321d29c8058e73e60b477ca857ac8e2ecb71d1319f3d47533e006af41",
+      "sourceContentSha256": "fc5a861cfc77cb374ee424e7baee1c5f1d3d0050937f4b7e596e9eea81ce081b",
       "options": [
         {
           "number": 1,
@@ -1824,11 +1843,12 @@
           "sourceEntry": "приручЁнный",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e7c8e1e321d29c8058e73e60b477ca857ac8e2ecb71d1319f3d47533e006af41"
     },
     {
       "id": "E3F954",
-      "sourceContentSha256": "1ecb8f25307532bced1d02e1b0ee8237aea5e457fb1f15f4c5882ce6f4115f08",
+      "sourceContentSha256": "f3cfcfc76645a30b81bfb805da238712bbf9464fc6e99245ab8a098ff2ae9e74",
       "options": [
         {
           "number": 1,
@@ -1900,7 +1920,8 @@
           "sourceEntry": "намЕрение",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "1ecb8f25307532bced1d02e1b0ee8237aea5e457fb1f15f4c5882ce6f4115f08"
     },
     {
       "id": "E47C9F",
@@ -1980,7 +2001,7 @@
     },
     {
       "id": "E5DF39",
-      "sourceContentSha256": "a312468eb2cce250294d09587b80ed9fdc27999e44cd7bbffcace43cae4662ca",
+      "sourceContentSha256": "71ad6745153dbec745eca80e78985c8342991aafc16c950ab991cad73c1fdf61",
       "options": [
         {
           "number": 1,
@@ -2052,11 +2073,12 @@
           "sourceEntry": "еретИк",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "a312468eb2cce250294d09587b80ed9fdc27999e44cd7bbffcace43cae4662ca"
     },
     {
       "id": "EFDBCF",
-      "sourceContentSha256": "3439bd5b035e3ed62f114846613d56c3f58e92a7520b2979292b9cde20e53de0",
+      "sourceContentSha256": "93fd2efcf001b2e857e88ba2180a226e343298bc062b5b83f6b6de99f057df03",
       "options": [
         {
           "number": 1,
@@ -2128,11 +2150,12 @@
           "sourceEntry": "звонИт, 3-е л. ед. ч. глаг. звонИть",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "3439bd5b035e3ed62f114846613d56c3f58e92a7520b2979292b9cde20e53de0"
     },
     {
       "id": "EFFBAA",
-      "sourceContentSha256": "fc08943a6f004e8fb7310bcc53c4b35d7c07277562920fa0db1683fe2561707d",
+      "sourceContentSha256": "9cc15231e678fafec93683486fd77ec68791029da6a7ae588b85ef80530bd46e",
       "options": [
         {
           "number": 1,
@@ -2204,7 +2227,8 @@
           "sourceEntry": "лЕкторов, род. п. мн. ч. сущ. лЕктор",
           "evidenceType": "listed_word"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "fc08943a6f004e8fb7310bcc53c4b35d7c07277562920fa0db1683fe2561707d"
     },
     {
       "id": "FFFE6E",
@@ -2283,5 +2307,6 @@
       ]
     }
   ],
-  "historicalCardsNotPrepared": 84
+  "historicalCardsNotPrepared": 84,
+  "formatSyncEvidence": "dev/docs/content-audit/raw-format-audit.json"
 }

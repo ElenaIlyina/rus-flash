@@ -4,7 +4,7 @@
   "cards": [
     {
       "id": "060C0F",
-      "sourceContentSha256": "3beb442a996e81a76d5a86ab68267233e4ab09cb63cffa7255b209b849651956",
+      "sourceContentSha256": "798f6f63cdf813fad53a616286533ee03184cb480d785ee7c27681df2b72a429",
       "answer": "Народный",
       "answerVerify": "Народный",
       "explanationSha256": "bb7dfa4c7b63d7e343d9ac7b321b6f3b04c5a0ab0f32474f28ec12565a118d48",
@@ -34,11 +34,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "3beb442a996e81a76d5a86ab68267233e4ab09cb63cffa7255b209b849651956"
     },
     {
       "id": "079D68",
-      "sourceContentSha256": "f698d3c65c501666a482937c7899b22fc2c8d8ed5eb455c22e1ab1e156d6b3c2",
+      "sourceContentSha256": "0adf68b8306e3667e81d34a7259c0ceeed367c1f10da7e0ef4d438065f2da7f0",
       "answer": "Другая",
       "answerVerify": "Другая",
       "explanationSha256": "6408d5ec56df804e9787cd21ab03bb47287012b6bc0eae226ecc921b3e34b072",
@@ -68,11 +69,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f698d3c65c501666a482937c7899b22fc2c8d8ed5eb455c22e1ab1e156d6b3c2"
     },
     {
       "id": "0CB0DD",
-      "sourceContentSha256": "49bde54dfc0d6fe0a780f8449e60fae1041741d39fab5ace346836272cddc8e5",
+      "sourceContentSha256": "b2e7c9dc7e93c83d38a1fe311706f6dd44090e31af4d3a08ccb1b9f3c5048f55",
       "answer": "Главную",
       "answerVerify": "Главную",
       "explanationSha256": "3c1b1d14eef15748130fd530a6b2555cc82593c20f21009f081700762c1c64a6",
@@ -102,11 +104,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "49bde54dfc0d6fe0a780f8449e60fae1041741d39fab5ace346836272cddc8e5"
     },
     {
       "id": "0CB588",
-      "sourceContentSha256": "5ec38a6b4b10302a55db5f70c7604ae9c823129d993718edada1dd82ace49b5e",
+      "sourceContentSha256": "ca5c461a53310f7279ff2aeb24da0d33e5d086dfa76a56477fd15178773c8d63",
       "answer": "обратно",
       "answerVerify": "обратно",
       "explanationSha256": "a02bcad488e95c8cf67a4615638e30bd4e968e11d62a09b0116c310a8a9cb7c2",
@@ -136,11 +139,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "5ec38a6b4b10302a55db5f70c7604ae9c823129d993718edada1dd82ace49b5e"
     },
     {
       "id": "16D9F4",
-      "sourceContentSha256": "4c792e6675f0528a8219cb7cbd942ae477e773e1903a0162c811b9d67c3b1796",
+      "sourceContentSha256": "b7952988623a79e26117026f887bb649a5710ee4c137522f2bcb0da5c8e78d78",
       "answer": "династии",
       "answerVerify": "династии",
       "explanationSha256": "65d98d43777b0a8c3c0c64ebdc4a7bb3face30e213e7b2452abf015e386bdb4c",
@@ -178,11 +182,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "4c792e6675f0528a8219cb7cbd942ae477e773e1903a0162c811b9d67c3b1796"
     },
     {
       "id": "1D1FBE",
-      "sourceContentSha256": "c6f35dbaa38b28e78b5a555e3dce3be53eb16624036fff1531a070197189f81b",
+      "sourceContentSha256": "76401a0d4024c01311150692bbe1a7aece3981d2cf5028a832895883a8de4f67",
       "answer": "чистого",
       "answerVerify": "чистого",
       "explanationSha256": "960fa2fccbef3d9555b8418d122d2ab9d5100c2a7bb6bdd61d4c6a611959df59",
@@ -223,11 +228,12 @@
           "reviewDate": "2026-10-29",
           "role": "phrase_form_only"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "c6f35dbaa38b28e78b5a555e3dce3be53eb16624036fff1531a070197189f81b"
     },
     {
       "id": "1FCD37",
-      "sourceContentSha256": "dcd65fca3b64104417281d5f1b4cb5074a0f7f75f70d7f08dba467af1bacbe5c",
+      "sourceContentSha256": "893cf4bff25ce09a23311a469ffd31eaf2b343cd3626393dcb04ea7b12adc810",
       "answer": "первая",
       "answerVerify": "первая",
       "explanationSha256": "821f7f36658a712521dcbc0ae81b5db7d8c946949b318e58441b99854931c9ef",
@@ -257,11 +263,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "dcd65fca3b64104417281d5f1b4cb5074a0f7f75f70d7f08dba467af1bacbe5c"
     },
     {
       "id": "1FF860",
-      "sourceContentSha256": "9a47952ba2bf82201220531783adfc1d775cc2e656c21f42f2b03eee85506465",
+      "sourceContentSha256": "9ad58233bf41951d7032b5e3a19f2779dbcf1b0c725cca0979440b042a6f35e5",
       "answer": "первую",
       "answerVerify": "первую",
       "explanationSha256": "59b576473fc54d465d0bd136f0d42bca68d55901f8f1d6703a0ca0264c9b7419",
@@ -291,11 +298,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "9a47952ba2bf82201220531783adfc1d775cc2e656c21f42f2b03eee85506465"
     },
     {
       "id": "270017",
-      "sourceContentSha256": "25727761f670cc6eb14818a7c0a52f1ef9d424aaa3a9428375addf170961d37d",
+      "sourceContentSha256": "6028c08f8582a1e8e56ea2c04d61b8f9addf5eb46cc00f7218a0ddd0117e0b75",
       "answer": "коренных",
       "answerVerify": "коренных",
       "explanationSha256": "cdbdb098f24e17bf767e807596b2a706d6b092f52de730b5013063b588967d76",
@@ -333,11 +341,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "25727761f670cc6eb14818a7c0a52f1ef9d424aaa3a9428375addf170961d37d"
     },
     {
       "id": "2C4EBE",
-      "sourceContentSha256": "880e3e8b0b2c404362a1b8dc2fdab54cae0296eb21f82a3c6269b5b73de84bcc",
+      "sourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c",
       "answer": "пристальное",
       "answerVerify": "пристальное",
       "explanationSha256": "f07bb2ddc07662718f0e66e82defeeb33a6baa4f3742b3e1e439fcac223b5658",
@@ -375,11 +384,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "880e3e8b0b2c404362a1b8dc2fdab54cae0296eb21f82a3c6269b5b73de84bcc"
     },
     {
       "id": "2EC28B",
-      "sourceContentSha256": "323a4ac938014e2258e99277368641a14835a2634db6d95efa8c5108e22e5cc6",
+      "sourceContentSha256": "75057ad2eb6485a30a7f5f11e35e2c8ff09baed53241df65ed3cfac2a13efc1e",
       "answer": "свою",
       "answerVerify": "свою",
       "explanationSha256": "7aef5e90738111b37647d2f30d89a51a8ae9327e81fafa0674177bd24097c2ba",
@@ -409,11 +419,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "323a4ac938014e2258e99277368641a14835a2634db6d95efa8c5108e22e5cc6"
     },
     {
       "id": "3281CA",
-      "sourceContentSha256": "1b5888fdcb680c937a93a29b93001a6a831c140da140782b8cc5fa7b608768cf",
+      "sourceContentSha256": "985455077bab067b9e368b4c88c148b213d4bed1515c4650a60e3387d3a6a3eb",
       "answer": "результатов",
       "answerVerify": "результатов",
       "explanationSha256": "91213ef67014c4e0586499b8e890badbf786700b54919169901d337aefd9a675",
@@ -451,11 +462,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "1b5888fdcb680c937a93a29b93001a6a831c140da140782b8cc5fa7b608768cf"
     },
     {
       "id": "352316",
-      "sourceContentSha256": "be684b5deb01e8188984d27ba86604ad283dcc40f95846b298137bcb71923fad",
+      "sourceContentSha256": "4f475a1821fec07dd625892b220c5254f7c2b917f74163c5e25dff7542c622ab",
       "answer": "вниз",
       "answerVerify": "вниз",
       "explanationSha256": "64e45b14c8b0c081bce9ccccd43a16ae25eb357efa091822d1e7aab56dd7b4fa",
@@ -485,11 +497,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "be684b5deb01e8188984d27ba86604ad283dcc40f95846b298137bcb71923fad"
     },
     {
       "id": "35F9AD",
-      "sourceContentSha256": "61cfb17c468746af149e1d9f82c0f5bbf180228b0f2c8b51973dfd2291e67f8a",
+      "sourceContentSha256": "670d3770223e8524cfbd7c34c4e8e0b7d81f244c5b1d541d7d3465fcc1c0c9e9",
       "answer": "цен",
       "answerVerify": "цен",
       "explanationSha256": "43a0b6a0e6f7c7b2135637e2ec3d6965a97643c1c52a8fe27f3404fb0d0d55f3",
@@ -519,11 +532,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "61cfb17c468746af149e1d9f82c0f5bbf180228b0f2c8b51973dfd2291e67f8a"
     },
     {
       "id": "3BE49C",
-      "sourceContentSha256": "0b7720fc596c44b4ba5d1f2da879538a7823e6671f98c092db44137b6f21b5e5",
+      "sourceContentSha256": "5b0ded369c993dedd728f70c9fb94754cf160eceb92b9fd03a541f4d163a1874",
       "answer": "Мировое",
       "answerVerify": "Мировое",
       "explanationSha256": "715180289e57359abd30a1dbabe7f66335329c189e87c0e454755d10f92c6510",
@@ -553,11 +567,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "0b7720fc596c44b4ba5d1f2da879538a7823e6671f98c092db44137b6f21b5e5"
     },
     {
       "id": "3C08D7",
-      "sourceContentSha256": "94a203e813c57f4b48b0b414f675d5cef3d952e498647ff979f041f4f1c2481d",
+      "sourceContentSha256": "8f52eea5400563b9725cafe356fa2e525ca8bfc75665d85fe93f7baa9235651b",
       "answer": "значение",
       "answerVerify": "значение",
       "explanationSha256": "d62a6955c6c3bee3cb91df1562bfc4f243166526fea61dd293448323c96bc632",
@@ -595,11 +610,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "94a203e813c57f4b48b0b414f675d5cef3d952e498647ff979f041f4f1c2481d"
     },
     {
       "id": "439D2C",
-      "sourceContentSha256": "9a77e092d85fc87c0b96113498d229138d13a88838a62413af11ecd8672dc980",
+      "sourceContentSha256": "67692ab08eedd9f228899e6ef8654813f5a5ef4c0751b41136bc0142e9bff52e",
       "answer": "необычном",
       "answerVerify": "необычном",
       "explanationSha256": "cb985c101b1d9415d0b2640573e74a13e6ff2e962d2045b690fd2ef9967b676d",
@@ -637,11 +653,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "9a77e092d85fc87c0b96113498d229138d13a88838a62413af11ecd8672dc980"
     },
     {
       "id": "5D58C2",
-      "sourceContentSha256": "b189648ee6ff4effac15421a571d51b817f77c0031f453c2ff1543181a817cfb",
+      "sourceContentSha256": "a9bffeb6d71919fecb341cd10ef9e292aef5a4451c8dc979bb48e7fdd6d1a0fa",
       "answer": "вызвать",
       "answerVerify": "вызвать",
       "explanationSha256": "0258aa1e98331a7f068fba4ac645ce22150a33ae98fc6d4a297de3d47884bc80",
@@ -679,11 +696,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "b189648ee6ff4effac15421a571d51b817f77c0031f453c2ff1543181a817cfb"
     },
     {
       "id": "5F9412",
-      "sourceContentSha256": "20e2a7107206c28b7363085404b4cd95d1f97e96c9f189c996099b288fb49442",
+      "sourceContentSha256": "4f376979606233ab43f897bd75a87d15444c64b54262f8ce53f8e05aadbf678e",
       "answer": "цельный",
       "answerVerify": "цельный",
       "explanationSha256": "8d67c7df1c1e404e38223c00463412914cdeb11e6fc03e4e7594810bd2845d97",
@@ -721,11 +739,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "20e2a7107206c28b7363085404b4cd95d1f97e96c9f189c996099b288fb49442"
     },
     {
       "id": "61CAE3",
-      "sourceContentSha256": "4c8282c6c2fc8fdd560265b3676461381663936a5fc0e4cf0ef4321c3cffbf9b",
+      "sourceContentSha256": "929f1eb243f0d24d050c71edafca7e0767a5b30397afb62c9aee8040b7c9ab23",
       "answer": "Правильное",
       "answerVerify": "Правильное",
       "explanationSha256": "c0af3130854d2958cdc7dc8d66ced76321b569c1bc09daee494332e66f9c318a",
@@ -763,11 +782,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "4c8282c6c2fc8fdd560265b3676461381663936a5fc0e4cf0ef4321c3cffbf9b"
     },
     {
       "id": "62221D",
-      "sourceContentSha256": "1eb7a5b17623747d616a8068a18b3058b94ab3aac15cf72ba0c2608c71d6053a",
+      "sourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31",
       "answer": "вызвал",
       "answerVerify": "вызвал",
       "explanationSha256": "5cf9e56dc0d965a3ff7a9ae38a7cbbdc539062de60a7804b68c58ffe94ee8f92",
@@ -805,11 +825,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "1eb7a5b17623747d616a8068a18b3058b94ab3aac15cf72ba0c2608c71d6053a"
     },
     {
       "id": "627BFA",
-      "sourceContentSha256": "2a2c5e59756dd39a93ae83e1f4617d4b8574f4901e4354bb01bb7bf27da4cb67",
+      "sourceContentSha256": "5b8cf69b6c5840f3d1f24b32ccdbcd1f1877772f42501494949c1bb6c990797f",
       "answer": "странных",
       "answerVerify": "странных",
       "explanationSha256": "501f9d70b6dbd2e07c91bd1178813ce1f25d2b63d9d83cb04e9500386d790aac",
@@ -847,11 +868,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2a2c5e59756dd39a93ae83e1f4617d4b8574f4901e4354bb01bb7bf27da4cb67"
     },
     {
       "id": "64BAB0",
-      "sourceContentSha256": "427475ce3f0f7d990f7b7dcda610813d26bf3a9a594d5e545cb7fae173c70b4e",
+      "sourceContentSha256": "50b8d97e9393e62b1557364ef0d273a10a5be7c419742a1eb00f5562f3fb6344",
       "answer": "глубокая",
       "answerVerify": "глубокая",
       "explanationSha256": "7dfa2a22127160d6ff7986893d10f068c2648ae0a22b84ca9015ecd4dd428730",
@@ -881,11 +903,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "427475ce3f0f7d990f7b7dcda610813d26bf3a9a594d5e545cb7fae173c70b4e"
     },
     {
       "id": "6C3603",
-      "sourceContentSha256": "f98bf9b3e89b13491083589568d12f9b2117e09ec059d535ea659ef61a6da2a9",
+      "sourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714",
       "answer": "победу",
       "answerVerify": "победу",
       "explanationSha256": "cb48ec7e81c01e311fd2ebaf82c0a0ad65767185582564f2f46c409a497f5ec3",
@@ -923,11 +946,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f98bf9b3e89b13491083589568d12f9b2117e09ec059d535ea659ef61a6da2a9"
     },
     {
       "id": "6ECC3F",
-      "sourceContentSha256": "b340154b0007c9096a4fe16f3e120513ff391e66680d8c8f627feb5a62be1bb6",
+      "sourceContentSha256": "c5945088e4e2969ca111a243f819c2a844d4f77f23f4659375da22c5d8427a65",
       "answer": "свою",
       "answerVerify": "свою",
       "explanationSha256": "738b0b213f8141aa49b6a7d6050940151ca04bfd57b6e2c15162464a011f0097",
@@ -957,11 +981,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "b340154b0007c9096a4fe16f3e120513ff391e66680d8c8f627feb5a62be1bb6"
     },
     {
       "id": "6F7776",
-      "sourceContentSha256": "df27b1e8112a2cfe47175920ae95f2b02cb640274910acbdd6b3feba3fb93081",
+      "sourceContentSha256": "76999d482c49a92190c5852acb4e96fa98907498abf2e28c7f5b5e6d8c114e17",
       "answer": "Другой",
       "answerVerify": "Другой",
       "explanationSha256": "2fcc0c29017a916389db19154ace9e58c1025533e49bfc3310260a8f1f5fd17d",
@@ -991,11 +1016,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "df27b1e8112a2cfe47175920ae95f2b02cb640274910acbdd6b3feba3fb93081"
     },
     {
       "id": "7013D5",
-      "sourceContentSha256": "c5bcaa90f67530ec730d9dda7b4ddf310e0120beb2c64939dad5cf71f7f46f17",
+      "sourceContentSha256": "579b891f2914f18d2c73641161237bcf01071681fc8372bcec27325b36de087d",
       "answer": "своём",
       "answerVerify": "своём",
       "explanationSha256": "e86059ffda081b3a1e48d6e73ba4961c6337bca59e847e62955b5c2f1b743a5a",
@@ -1041,11 +1067,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "c5bcaa90f67530ec730d9dda7b4ddf310e0120beb2c64939dad5cf71f7f46f17"
     },
     {
       "id": "74341C",
-      "sourceContentSha256": "e12d9b8ed99f6a73ab7c9af2a0e6e35b83457c35f2ecb0f7cd9a135bb139a647",
+      "sourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f",
       "answer": "стремительный",
       "answerVerify": "стремительный",
       "explanationSha256": "b5158854145c36ececb6f4cb4a9f964653ec90fdb8518a1034d96561a1467df0",
@@ -1083,11 +1110,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e12d9b8ed99f6a73ab7c9af2a0e6e35b83457c35f2ecb0f7cd9a135bb139a647"
     },
     {
       "id": "78A254",
-      "sourceContentSha256": "eeae43bbcbc9a6c3269d3fba5bad4a043d434ac76bfda185cc824eb1ac59db75",
+      "sourceContentSha256": "a8a37c1069014294f5df64add5b56d1e8df85b0c1dcab206217d7aeec8b0b97a",
       "answer": "руками",
       "answerVerify": "руками",
       "explanationSha256": "13b977b149cf745f1a835270cc2252f752114ae0ddbe11d447f3160515f231bd",
@@ -1125,11 +1153,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "eeae43bbcbc9a6c3269d3fba5bad4a043d434ac76bfda185cc824eb1ac59db75"
     },
     {
       "id": "7CD0F3",
-      "sourceContentSha256": "5dde1671f7bd242d35805ac0efca7b2c9ba4dd2f58455f343ddf42f9b156cd8b",
+      "sourceContentSha256": "6fcdcb99389adc6547d93c0c9627ac1d5b88d13d2b1c021195ce30f31a8edab6",
       "answer": "ответная",
       "answerVerify": "ответная",
       "explanationSha256": "d49ae02fc27be418dd76842ee83e826530977fc53b48b7411c8d840717a9caee",
@@ -1159,11 +1188,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "5dde1671f7bd242d35805ac0efca7b2c9ba4dd2f58455f343ddf42f9b156cd8b"
     },
     {
       "id": "849E31",
-      "sourceContentSha256": "f83388cff93f6e1727bd577fdc989d8930f0051ac50760bf99722f36376a86d9",
+      "sourceContentSha256": "3e4cfe93fd0978ab1fb7b240ea5aff281cde37cc7bea88e66fe82130f61816a7",
       "answer": "рук",
       "answerVerify": "рук",
       "explanationSha256": "f83e8404ff720864604397ca883fe233864a788d38a0c1ba9eaf1a0ddb64fc13",
@@ -1193,11 +1223,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f83388cff93f6e1727bd577fdc989d8930f0051ac50760bf99722f36376a86d9"
     },
     {
       "id": "84A09F",
-      "sourceContentSha256": "6ce5be7e9c9249b8ec9f92a42388f877489723359f0dbffc6a09ae7a422b1483",
+      "sourceContentSha256": "fd82e56ff78b74ab57e2aa496746f3b9eb88113cb0dda7135f5184b8fc7565c3",
       "answer": "выполнить",
       "answerVerify": "выполнить",
       "explanationSha256": "501a453f3555c016cbca0b01b75a2e15a51e7e1761b64d7ffd9502cba79853ab",
@@ -1235,11 +1266,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "6ce5be7e9c9249b8ec9f92a42388f877489723359f0dbffc6a09ae7a422b1483"
     },
     {
       "id": "8E5D59",
-      "sourceContentSha256": "e5bbe0fd7f72fbe083ca904f0bfb10558987c3b38101f07b9dfdb82ee6187373",
+      "sourceContentSha256": "236701bdb2f8f6336d38e86d49dfc6c19fa30bc52b40d7cb96c940b3953702ba",
       "answer": "положительных",
       "answerVerify": "положительных",
       "explanationSha256": "f3f912f5316e40fe2ee370968bb7e19385bc49c89cd01056813bf1edf52fafc6",
@@ -1269,11 +1301,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e5bbe0fd7f72fbe083ca904f0bfb10558987c3b38101f07b9dfdb82ee6187373"
     },
     {
       "id": "91A822",
-      "sourceContentSha256": "1c199800f960223d8aa23d18294c8697935adf591fcda126c020ca8c3882e162",
+      "sourceContentSha256": "d9f4ce3e4efacecffc11d4ecfcf4e1c3c09c01ebcc29223a7cf0701ff4813386",
       "answer": "правильного",
       "answerVerify": "правильного",
       "explanationSha256": "cfc657b99b84534c581a5dab59797029152d51af9b670f92dd5a31cc8816ba70",
@@ -1311,11 +1344,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "1c199800f960223d8aa23d18294c8697935adf591fcda126c020ca8c3882e162"
     },
     {
       "id": "926BD7",
-      "sourceContentSha256": "49fa2208c28cadf61fd030915530ae5437719b9756d71ce9e8262018455da3af",
+      "sourceContentSha256": "3f21c511b3a79a1a3740f3cce1eac34454916b95d399a5919ec45625d9c54ab2",
       "answer": "хороших",
       "answerVerify": "хороших",
       "explanationSha256": "de4e32abd59a05e4410ad1bfcae0335271a8dfc5df1a29e8e9d5ab4d72c01436",
@@ -1361,11 +1395,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "49fa2208c28cadf61fd030915530ae5437719b9756d71ce9e8262018455da3af"
     },
     {
       "id": "98489F",
-      "sourceContentSha256": "77d062fa94745d5bd706df8eff0c1fd403f7b6b97211dc404248cb773b3f1024",
+      "sourceContentSha256": "a91ea717f5bedc169ed34c6f0fb827ef48fbdfad4b0a0ae58bc881f37686e185",
       "answer": "огромных",
       "answerVerify": "огромных",
       "explanationSha256": "4ef59c24bc2d29cd91e94d3cd2712f8d2231b671397eafcd143c1296de59b9d6",
@@ -1403,11 +1438,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "77d062fa94745d5bd706df8eff0c1fd403f7b6b97211dc404248cb773b3f1024"
     },
     {
       "id": "9BC9C0",
-      "sourceContentSha256": "b3be5e1a844150835c9d4cb91aa4da0644bb9e0035dadb341e4587cc7e4e8850",
+      "sourceContentSha256": "eb50bd605d11d8fa1caee59c576b063e28c217f81914092c15dbc8fb4064525e",
       "answer": "свободная",
       "answerVerify": "свободная",
       "explanationSha256": "52746141a284163c748361bca6dad4b86aede89dbd23871aab28e97b6affe500",
@@ -1445,11 +1481,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "b3be5e1a844150835c9d4cb91aa4da0644bb9e0035dadb341e4587cc7e4e8850"
     },
     {
       "id": "9D74E9",
-      "sourceContentSha256": "60fede4612318af872d9aebbb4b7876f1b5ba238b983ef666cc39ecb249bca2b",
+      "sourceContentSha256": "dfc3cec0f864860fabc8055acb8104b4e4e9c75d07cf5463c8600566380106ed",
       "answer": "очень",
       "answerVerify": "очень",
       "explanationSha256": "c9b8a6b09b0f8f2a510406a8aaeda0e5de21db13f8e24e5d95c5e342976a93bf",
@@ -1479,11 +1516,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "60fede4612318af872d9aebbb4b7876f1b5ba238b983ef666cc39ecb249bca2b"
     },
     {
       "id": "9E1098",
-      "sourceContentSha256": "fba2c248596d568606c0a9eb123a9c4d52a375f32a8d8259156f30cde1eb2f4c",
+      "sourceContentSha256": "fb8b94c827cec3fcc90dfc158eb69d5b69e6c47b6061d8c622db61bc155e76a4",
       "answer": "ведущим",
       "answerVerify": "ведущим",
       "explanationSha256": "2bbebf16e6969658bcc747d2ef2b7870abbd81dc24be9edb73ae1d8d437fc505",
@@ -1521,11 +1559,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "fba2c248596d568606c0a9eb123a9c4d52a375f32a8d8259156f30cde1eb2f4c"
     },
     {
       "id": "A0983E",
-      "sourceContentSha256": "8c197495dcbca259a33ea3f865e59ffdafcf04eb6299c70380f240aaf9c9b206",
+      "sourceContentSha256": "3c2bcaa7c799fa23317b903f40bc709bb4bc0fbb0822ce479ad4458a037e9616",
       "answer": "большое",
       "answerVerify": "большое",
       "explanationSha256": "7fc11c79ca7b2a72874e13b88343f5eec606a092205272c0bafffdba525b4f34",
@@ -1563,11 +1602,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "8c197495dcbca259a33ea3f865e59ffdafcf04eb6299c70380f240aaf9c9b206"
     },
     {
       "id": "AE91AF",
-      "sourceContentSha256": "70676778e774aadc8c285f3bf462ed5be04821b0867fc55eaabffb403392f2db",
+      "sourceContentSha256": "70aae422c7739976067eb6cd546c7c7cbc5e64fab3b9177bc593d1851f961b46",
       "answer": "вновь",
       "answerVerify": "вновь",
       "explanationSha256": "89dd9880b95ee953dcc8653e236215d038694428c52180da999dd07fb7bce502",
@@ -1605,11 +1645,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "70676778e774aadc8c285f3bf462ed5be04821b0867fc55eaabffb403392f2db"
     },
     {
       "id": "B3C04B",
-      "sourceContentSha256": "c78a4dc553450ddf8faa39e2b183da31465162387f8e50b33320daade960886d",
+      "sourceContentSha256": "d3684fb250668a721d9a9d671d8c224831d5df95b3d65a0cff6b5225d89d7d9b",
       "answer": "популярных",
       "answerVerify": "популярных",
       "explanationSha256": "017b8b34542d7f9d13cb950ea99b33cd7a299c106ccf20357503cfaeab4ef4f4",
@@ -1647,11 +1688,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "c78a4dc553450ddf8faa39e2b183da31465162387f8e50b33320daade960886d"
     },
     {
       "id": "B5E8E4",
-      "sourceContentSha256": "1c2edc483c8faac1fa81f813d46b7cb58ef25aa1cb3761e5734c5ac05235367c",
+      "sourceContentSha256": "526532a9eda737d9c58e2a8de6b0bc5c4f7da9fd22f080372d371e146491ec00",
       "answer": "большую часть",
       "answerVerify": "большую часть",
       "explanationSha256": "7a112f8d948b220f623b526a7ff0f278a4be0ad621c2a2b7883e963f627c72af",
@@ -1689,11 +1731,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "1c2edc483c8faac1fa81f813d46b7cb58ef25aa1cb3761e5734c5ac05235367c"
     },
     {
       "id": "B83CD8",
-      "sourceContentSha256": "87c194ca56a3bf8e69e26a5828852843285781d999e91d9ad217802fc61827e2",
+      "sourceContentSha256": "f65c9c1647ed674447c94fbb16eb42ea4533215a08a2ca5d036e4381c1cf0d18",
       "answer": "изысканные",
       "answerVerify": "изысканные",
       "explanationSha256": "d901722f5d96ca5d53663d164a2aa929ac3ceddef28a5b0ec21921e69f1aaf94",
@@ -1731,11 +1774,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "87c194ca56a3bf8e69e26a5828852843285781d999e91d9ad217802fc61827e2"
     },
     {
       "id": "BFAE57",
-      "sourceContentSha256": "e27236bacfb7f1f2b1d9015b9c32101a78ce293dd02022e4ccb6275f14b28754",
+      "sourceContentSha256": "bc5f6f24386574d72b6f98dc573482a7b766a634d9d4751c10e1eb0b3e75e26c",
       "answer": "памятные",
       "answerVerify": "памятные",
       "explanationSha256": "5e66ede7e79450832bccb83069d98a6eadd2dd6d5efca7151395e0feebbe9fcf",
@@ -1773,11 +1817,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e27236bacfb7f1f2b1d9015b9c32101a78ce293dd02022e4ccb6275f14b28754"
     },
     {
       "id": "C1F6AE",
-      "sourceContentSha256": "8c67963752bb38d91b207c808c1d0fd011eb2b82d5f0a9b47a17557be1380220",
+      "sourceContentSha256": "063e056773b9b5d180f14c6f3af74009d65ed95ff16bc0f6e20fd0eda6f803dc",
       "answer": "результаты",
       "answerVerify": "результаты",
       "explanationSha256": "58dcad01fb21b2b4e14c6db639aaa0b0976d70848a7f57c385b3cdc7ef97c726",
@@ -1807,11 +1852,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "8c67963752bb38d91b207c808c1d0fd011eb2b82d5f0a9b47a17557be1380220"
     },
     {
       "id": "C3F6BC",
-      "sourceContentSha256": "bbf83ddea172cca038bf3c8691bc571d1b0804324752a12be9ac1d3c8469cf84",
+      "sourceContentSha256": "d3afc68fd6cbf94d6938d5b1ef95116a2cad5d699f8b797b7e39c4b6f2cac103",
       "answer": "навсегда",
       "answerVerify": "навсегда",
       "explanationSha256": "6b680c6b59232a677c55132b878bcd6e3862aea51476fdd188457004a27e0ba8",
@@ -1841,11 +1887,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "bbf83ddea172cca038bf3c8691bc571d1b0804324752a12be9ac1d3c8469cf84"
     },
     {
       "id": "C50FE5",
-      "sourceContentSha256": "0c60a2ec8f5a3f5c2a03014f2490b87fae29a1b3c43c9d1f85bf7788054a80c0",
+      "sourceContentSha256": "a450ba077b0447bc08b2bf2f94d696eed8cf551f491a4756271ddc5c476d4b93",
       "answer": "целеустремлённо",
       "answerVerify": "целеустремлённо",
       "explanationSha256": "771e21d4b793d84cbf799f471be6ad475efe006ad5e6df8e4167dd6c62a9f00f",
@@ -1883,11 +1930,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "0c60a2ec8f5a3f5c2a03014f2490b87fae29a1b3c43c9d1f85bf7788054a80c0"
     },
     {
       "id": "C7CF0B",
-      "sourceContentSha256": "aa2ef702c105196c46dc7122e6f4434908065a090ff22c4adadabb02c43fc441",
+      "sourceContentSha256": "7ded5921a347a48cf5c6fd1f9a96066b7ab5ab1e6472dbfbee44d29d604392fa",
       "answer": "производил",
       "answerVerify": "производил",
       "explanationSha256": "468cf05234f1e91ca8a3d7ff83aba7792fe345208521936f8062c35dee0968f6",
@@ -1925,11 +1973,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "aa2ef702c105196c46dc7122e6f4434908065a090ff22c4adadabb02c43fc441"
     },
     {
       "id": "CAB45F",
-      "sourceContentSha256": "27d0ad8149b687fedae6eef59c1d2c5adfef2496daf3b1b411e1df5b1e98ec25",
+      "sourceContentSha256": "64a4f762f9c2018063f09b0801ad63acdd0bfa5591b791c066834be298a4e0ac",
       "answer": "верное",
       "answerVerify": "верное",
       "explanationSha256": "261a39c35d3ae429097d229cbbc8104bfe54938079ba19589dcda2f418192cef",
@@ -1975,11 +2024,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "27d0ad8149b687fedae6eef59c1d2c5adfef2496daf3b1b411e1df5b1e98ec25"
     },
     {
       "id": "CB11BB",
-      "sourceContentSha256": "d292d08f06cb73d5a253f2efed2ad8178c066d8af746fba946a78caab41d6db7",
+      "sourceContentSha256": "18e02afa18711593c577ced94b56f13d3c3e2c2211671ee2e5a8e7c72de6c456",
       "answer": "неожиданных",
       "answerVerify": "неожиданных",
       "explanationSha256": "a341356a0fc8b27a706d78b2d7c4dada72c528beeeb7f86f8e29f536d0958409",
@@ -2017,11 +2067,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "d292d08f06cb73d5a253f2efed2ad8178c066d8af746fba946a78caab41d6db7"
     },
     {
       "id": "CD5855",
-      "sourceContentSha256": "7b5fbd68fff438697f0a577c3fd93d17c07f71d0aeb29ef0358bd7ad472588c2",
+      "sourceContentSha256": "84d1cdb24139187646c8ffc678dfece97d3e6393698488d157805bce2dcb5673",
       "answer": "будущего",
       "answerVerify": "будущего",
       "explanationSha256": "6ae71e44fc8c5b7e3fc8beb30bfbb5d057dff1b80e62b6c56e7eee977d651f2d",
@@ -2059,11 +2110,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "7b5fbd68fff438697f0a577c3fd93d17c07f71d0aeb29ef0358bd7ad472588c2"
     },
     {
       "id": "D52745",
-      "sourceContentSha256": "ee24784fd5c7be44400afc1152bd45a4b40a1c6c2daa6bfbbbf8d7db7a23b0de",
+      "sourceContentSha256": "bfd312e908ccd7014e6d0900dc2e1cb49eed1553d719188872b048f5ac6148c8",
       "answer": "постоянную",
       "answerVerify": "постоянную",
       "explanationSha256": "506d62bda1b5e173fd4f0d4b2c8ba0d33a899f2d1f6eec274584d2a003aefa73",
@@ -2093,11 +2145,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "ee24784fd5c7be44400afc1152bd45a4b40a1c6c2daa6bfbbbf8d7db7a23b0de"
     },
     {
       "id": "D820E1",
-      "sourceContentSha256": "dfc156bebe2f9e6881d12ff0826bd5a45f50cffc8582011d7eefa6de46ed8e5e",
+      "sourceContentSha256": "ecfa081cc7d5d56aa0d567b35b8844fa97a82f3588ca66246931678c840a9a4d",
       "answer": "бесплатно",
       "answerVerify": "бесплатно",
       "explanationSha256": "ee2e8bca0d935368252a7b5a5812435f84d8639ce1029f287d9a0b91a2bcdebe",
@@ -2143,11 +2196,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "dfc156bebe2f9e6881d12ff0826bd5a45f50cffc8582011d7eefa6de46ed8e5e"
     },
     {
       "id": "DA7A61",
-      "sourceContentSha256": "f9027bacdbed6388c43deb758a61c48c4d0a885b441def6de864ecddb23ebddc",
+      "sourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861",
       "answer": "представляют",
       "answerVerify": "представляют",
       "explanationSha256": "1baf2879575b7ed27e4e23d2599ad19a3d7b4caf342c20f2a4413fd0e44566cf",
@@ -2185,11 +2239,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f9027bacdbed6388c43deb758a61c48c4d0a885b441def6de864ecddb23ebddc"
     },
     {
       "id": "DCF3FC",
-      "sourceContentSha256": "a97d212dab9702dae14915cdc6987ab229abd2dd07e3fc6c8ea34cc35cebf379",
+      "sourceContentSha256": "ff47a759e08e7fe34ffd57d32714fc7295a08649c75b71f44512c059f3c9b7c0",
       "answer": "религиозного",
       "answerVerify": "религиозного",
       "explanationSha256": "4ad3786464c901d39b26716f067bea1bf803fe3b2db6e629a9779188ff10e020",
@@ -2227,11 +2282,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "a97d212dab9702dae14915cdc6987ab229abd2dd07e3fc6c8ea34cc35cebf379"
     },
     {
       "id": "E19566",
-      "sourceContentSha256": "8f6774b384b1e4fde8405dfc4fa8633f1417d3755e1058b19839e185d586c193",
+      "sourceContentSha256": "dfb384588187322df1e0fedb0e880fee71243c25af84eb02566a6876d28167d1",
       "answer": "взаимный",
       "answerVerify": "взаимный",
       "explanationSha256": "72a871001594b544c9cd59e9e23a78091e235b9d0cf04fe6a280a8f3fdf0e8eb",
@@ -2269,11 +2325,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "8f6774b384b1e4fde8405dfc4fa8633f1417d3755e1058b19839e185d586c193"
     },
     {
       "id": "E1D6F2",
-      "sourceContentSha256": "f4f2f415785c941bcf4ffaefdb62875b57120b423b67e65bfdd29631df4d44b9",
+      "sourceContentSha256": "4ae479f514071e37b4d30d62c55aabcb336448b3194eb413c76794e5c80888e1",
       "answer": "передовой",
       "answerVerify": "передовой",
       "explanationSha256": "116ecfcc93bb4c40cebd62ab844f3a93a1b8b6f03dc89395bf56eb465236f43b",
@@ -2311,11 +2368,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f4f2f415785c941bcf4ffaefdb62875b57120b423b67e65bfdd29631df4d44b9"
     },
     {
       "id": "E50C0B",
-      "sourceContentSha256": "80255b09cd3e37854cd344210ef8c670b1320eac15a73c1cf8fe6acc29d158d8",
+      "sourceContentSha256": "e0c21360f96de92bdd78c72a45101fcb9273762e6d120709dff459be8d0c347e",
       "answer": "заранее",
       "answerVerify": "заранее",
       "explanationSha256": "1d9fa2cb58901dce4a016cbd43651c28a80f8e3bf21cae7e8b96b7870c4b7399",
@@ -2361,11 +2419,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "80255b09cd3e37854cd344210ef8c670b1320eac15a73c1cf8fe6acc29d158d8"
     },
     {
       "id": "E68FF7",
-      "sourceContentSha256": "f893a75b15a63270a797903bdbd2c6488af6ee14526a08c5955e9b5f1a5be40f",
+      "sourceContentSha256": "e6fb9cd39da6cc35d8a9ba697a9a487c0a57cc8ab19db9bb493cb84e2d80a4a7",
       "answer": "утреннего",
       "answerVerify": "утреннего",
       "explanationSha256": "ae6226425934d4155b93315f7f2daae428390f73158a06347087fafcc75ea1a2",
@@ -2395,11 +2454,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "f893a75b15a63270a797903bdbd2c6488af6ee14526a08c5955e9b5f1a5be40f"
     },
     {
       "id": "E86C6A",
-      "sourceContentSha256": "86576d17d3db68edabe07ce6a123de55955d4fd3a19a40f7dbfb0af0b26feb47",
+      "sourceContentSha256": "0cfc41176aab0dff79f999981eddc05a2d0dd687cbf3ef502d00572a6309012d",
       "answer": "правильное",
       "answerVerify": "правильное",
       "explanationSha256": "11bec2d91f2905e41556fae9d7c6475538edf3d3407b2b95559f831c0238311a",
@@ -2437,11 +2497,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "86576d17d3db68edabe07ce6a123de55955d4fd3a19a40f7dbfb0af0b26feb47"
     },
     {
       "id": "E98B8B",
-      "sourceContentSha256": "9921fc2cb56b7cf9e4312613e72ddfcecb2fc6c71e83f1f35df76310621fc413",
+      "sourceContentSha256": "020c04507234f9dd0b8b434816c4020c95ab3348003f48d594f71386529a2653",
       "answer": "проблему",
       "answerVerify": "проблему",
       "explanationSha256": "050d46b87e27bc1e36ef2d75c32169514d79e44a5ec90142869ec6c4e730e7bd",
@@ -2471,11 +2532,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "9921fc2cb56b7cf9e4312613e72ddfcecb2fc6c71e83f1f35df76310621fc413"
     },
     {
       "id": "EFD46C",
-      "sourceContentSha256": "a6738fb7b30dba2497deaca7a97653b86bec4eb2b494a54d57bbe8a4727c71e8",
+      "sourceContentSha256": "26c4cc0f3554e553d6123121627d35746d87666d22bb0afbd88ecfeb1d11d0c5",
       "answer": "династии",
       "answerVerify": "династии",
       "explanationSha256": "ffb8f88067173947a4de6dcaedb85f9f212d124cb87f2dbc65cfa1049b3c212d",
@@ -2513,11 +2575,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "a6738fb7b30dba2497deaca7a97653b86bec4eb2b494a54d57bbe8a4727c71e8"
     },
     {
       "id": "F06518",
-      "sourceContentSha256": "9e4d45a8835884276dd0986ceb154a43b607ebbc3a7267e10c6a5c8b00b4e490",
+      "sourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3",
       "answer": "внимание",
       "answerVerify": "внимание",
       "explanationSha256": "5ab1e6ec90b015efb80a09ebecd14c44a112af7cb6973691221d494ebd969b06",
@@ -2555,11 +2618,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "9e4d45a8835884276dd0986ceb154a43b607ebbc3a7267e10c6a5c8b00b4e490"
     },
     {
       "id": "F3E10B",
-      "sourceContentSha256": "0be698ad39eb43bc7a44d33bb2c2a0db05651691b65f0626b9a805e6e0a37589",
+      "sourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125",
       "answer": "существующими",
       "answerVerify": "существующими",
       "explanationSha256": "d0b67638b7886c001c125250dc2dfe80efb69f84a788567c07f35088c230553c",
@@ -2597,11 +2661,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "0be698ad39eb43bc7a44d33bb2c2a0db05651691b65f0626b9a805e6e0a37589"
     },
     {
       "id": "F6854B",
-      "sourceContentSha256": "2ca3282539789767c4fbee4ab1aa92d977f8a0d9da061feed189b27ac4cb5c7e",
+      "sourceContentSha256": "61709fa8c28d7f535f37d50df23db22b64940e9d7a595820e57a7f90654c03f4",
       "answer": "бесплатно",
       "answerVerify": "бесплатно",
       "explanationSha256": "884ac892e189fe7bfa2f3ae90b597d717a549d464ef8528763d24f21aae9ebef",
@@ -2647,11 +2712,12 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2ca3282539789767c4fbee4ab1aa92d977f8a0d9da061feed189b27ac4cb5c7e"
     },
     {
       "id": "F748EC",
-      "sourceContentSha256": "8b0c03ea7d08ae34c6030847b6333c3c8f10abf7ed6229bd551781cbf0f36d44",
+      "sourceContentSha256": "594412ea29d90f399f80e2c7929e613af7d653adb851f77e200bfdc5c5948868",
       "answer": "совершил",
       "answerVerify": "совершил",
       "explanationSha256": "45615a3e425e70ac832606f596495b785dd74345f3e9377b10ec758e7624d098",
@@ -2697,7 +2763,9 @@
           "verificationMethod": "electronic_article_read",
           "reviewDate": "2026-10-29"
         }
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "8b0c03ea7d08ae34c6030847b6333c3c8f10abf7ed6229bd551781cbf0f36d44"
     }
-  ]
+  ],
+  "formatSyncEvidence": "dev/docs/content-audit/raw-format-audit.json"
 }

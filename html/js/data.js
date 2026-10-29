@@ -1,3 +1,5 @@
+import { plain } from "./ui.js";
+
 const URL_ROOT = new URL("../assets/data/", import.meta.url);
 export async function loadCatalog() {
   const response = await fetch(new URL("catalog.json", URL_ROOT));
@@ -28,6 +30,7 @@ export function adaptCard(raw) {
     options = options.map((s) => String(s).replace(/^\s*\d\)\s*/, ""));
   }
   let instruction = raw.question;
+  const questionText = plain(raw.question);
   if (
     raw.errors?.length &&
     raw.sentences?.length &&
@@ -50,11 +53,11 @@ export function adaptCard(raw) {
         : options.length > 0 &&
             (raw.answer_type === "bitmask" ||
               /(?:укажите|запишите)\s+(?:все\s+)?(?:варианты|номера)/i.test(
-                raw.question,
+                questionText,
               ) ||
-              /словарной статьи/i.test(raw.question))
+              /словарной статьи/i.test(questionText))
           ? "multiple_choice"
-          : /(?:укажите|запишите)[^.!?]*цифр/i.test(raw.question)
+          : /(?:укажите|запишите)[^.!?]*цифр/i.test(questionText)
             ? "position_set"
             : "short_text",
     answer: (raw.answer || "").trim(),

@@ -33,11 +33,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "35552c13c64a916f67233c57045dc498e86aca50e92858ecc4e70389f595b652",
+      "sourceContentSha256": "d18b1c2689c10d12466109c9c5723e5aadfea937a89ecc520ca0737579e52a62",
       "headwords": [
         "стиль",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "35552c13c64a916f67233c57045dc498e86aca50e92858ecc4e70389f595b652"
     },
     {
       "id": "09C42C",
@@ -70,7 +71,7 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "5ed8655e3e269949af4344aad5b53f2102d52de205194b900added7809f99ce7",
+      "sourceContentSha256": "d1ba8228dbf3f2565a80de93840502a43466b2c26f30af6f0b8f8d7b841e33d0",
       "headwords": [
         "стиль",
         "эпитет",
@@ -78,7 +79,8 @@
         "сравнение",
         "тезис",
         "обращение"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "5ed8655e3e269949af4344aad5b53f2102d52de205194b900added7809f99ce7"
     },
     {
       "id": "0BA3C6",
@@ -111,13 +113,14 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "1c0186c3ff8ccbb99f7cbdfa73cae20446436ebe9e5a3861312aa3aa974020bb",
+      "sourceContentSha256": "0cdd43612f82d498902ead3f97ca154de7d4477d9a72a528cbb9c3c9d6f8e8ad",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "1c0186c3ff8ccbb99f7cbdfa73cae20446436ebe9e5a3861312aa3aa974020bb"
     },
     {
       "id": "0CD8FF",
@@ -150,12 +153,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "fad1ef0e63c2c554eaaa00094c2e1d29fc9fb19d79337d909383cf25e09d4866",
+      "sourceContentSha256": "f5106268312c47d0ce17efb83baa84f33281524213382409ae798598eddf6158",
       "headwords": [
         "стиль",
         "термин",
         "рецензия"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "fad1ef0e63c2c554eaaa00094c2e1d29fc9fb19d79337d909383cf25e09d4866"
     },
     {
       "id": "11B23B",
@@ -188,13 +192,14 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "e6f2235389feb8f041366a072b322417caf4bc329fccb596157d54c7760cb337",
+      "sourceContentSha256": "a1a6127517ad4d5c4f7541b18bffdb282dab2ff3d910dc20a67e1512ec46d3b1",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e6f2235389feb8f041366a072b322417caf4bc329fccb596157d54c7760cb337"
     },
     {
       "id": "1D6F38",
@@ -227,10 +232,11 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "cfb971f83ded404113272ae19221d0f0b0250c681a03bb289538ca0f1f01f4da",
+      "sourceContentSha256": "48be180a3e2d31115dfa4e568e2dabf345b95f36ef9d97d4de774b136a99dcc1",
       "headwords": [
         "стиль"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "cfb971f83ded404113272ae19221d0f0b0250c681a03bb289538ca0f1f01f4da"
     },
     {
       "id": "22F594",
@@ -263,7 +269,7 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": true,
-      "sourceContentSha256": "7b38f4533ada18d41697c5e71690b69f303bfff538e5776f35f122b16abb3113",
+      "sourceContentSha256": "5d7fcf3fb14403566519b33b4061f033201fc6649b5e70a0ba6f4172ff76c9c5",
       "headwords": [
         "стиль",
         "термин",
@@ -273,7 +279,8 @@
         "заваль",
         "жертвователь",
         "нажить"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "7b38f4533ada18d41697c5e71690b69f303bfff538e5776f35f122b16abb3113"
     },
     {
       "id": "2D40BC",
@@ -345,14 +352,15 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "6f344bd258bf382a1ac498973ec3df7f2209323df14b8f74e52379f7a2ac3124",
+      "sourceContentSha256": "649aed9228892dc3046f8dd36472f170d64267098934563c2e25806629df7cd4",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора",
         "сравнение",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "6f344bd258bf382a1ac498973ec3df7f2209323df14b8f74e52379f7a2ac3124"
     },
     {
       "id": "311327",
@@ -385,12 +393,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "31141e29e732e9ce1385803e988805fe75a7ec59a793afc48557b21cfa7851c1",
+      "sourceContentSha256": "7d519ec75ca68c6a780b399c17da8a1a85f4ef2bf037ed2d3666ff1630c6afb5",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "31141e29e732e9ce1385803e988805fe75a7ec59a793afc48557b21cfa7851c1"
     },
     {
       "id": "499DD2",
@@ -423,12 +432,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "a17d469701e3b0aea5ec55ba5f86264d6e9cde2e8bd8faeda9d89e22412b0317",
+      "sourceContentSha256": "2ff93e6c9bba89bf1be0e65168a1dbc016eb88e5754ddaa5e74e74d2253c6e81",
       "headwords": [
         "стиль",
         "термин",
         "диалог"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "a17d469701e3b0aea5ec55ba5f86264d6e9cde2e8bd8faeda9d89e22412b0317"
     },
     {
       "id": "4BF0EE",
@@ -461,12 +471,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "2cdea6b66e3f38d9d41ac2ffd47b3361cfc20a2d47f0ee392491a909cc56d18e",
+      "sourceContentSha256": "6df666613c2712b026f398fcd2d4a0adf1d4c59544ccbfed97a0c834a69ca568",
       "headwords": [
         "стиль",
         "термин",
         "диалог"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2cdea6b66e3f38d9d41ac2ffd47b3361cfc20a2d47f0ee392491a909cc56d18e"
     },
     {
       "id": "4E099B",
@@ -499,13 +510,14 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "4178ebc8dc17b0eb8947fcfe30a4634410081e97867e2316064a7880b2715c1f",
+      "sourceContentSha256": "03945dcc0de20810a5267a36aecd013960e59f2c266c4cc9a0b92a921d398b8d",
       "headwords": [
         "стиль",
         "метафора",
         "сравнение",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "4178ebc8dc17b0eb8947fcfe30a4634410081e97867e2316064a7880b2715c1f"
     },
     {
       "id": "5159D8",
@@ -538,11 +550,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "2baded7120c4d2cfacf6f4852c961d783a08f880abd48004f5e03409aa3748d2",
+      "sourceContentSha256": "b6379aedc6133705f06cac9350e29c7aa0fe3a0bd554b8e7f6c97519fdb84dbd",
       "headwords": [
         "стиль",
         "эпитет"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2baded7120c4d2cfacf6f4852c961d783a08f880abd48004f5e03409aa3748d2"
     },
     {
       "id": "545D8F",
@@ -575,13 +588,14 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "e699f187a4750e0757c618677ff50e167d4e70309956eec49299527dd4393672",
+      "sourceContentSha256": "94e83a3ca12898e91770e5979663d3df831b2624fcb280b98a2efbde65271166",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e699f187a4750e0757c618677ff50e167d4e70309956eec49299527dd4393672"
     },
     {
       "id": "598D63",
@@ -614,10 +628,11 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "6b07d369db0e7ffa736cb449538783f36e341fe7cf44b403d44e615842504392",
+      "sourceContentSha256": "ab29938f4b877e49befaaf6a6f97ed844756a2dd12af3dc3c195facd3a47f81e",
       "headwords": [
         "стиль"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "6b07d369db0e7ffa736cb449538783f36e341fe7cf44b403d44e615842504392"
     },
     {
       "id": "5AF7A4",
@@ -650,12 +665,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "10c54f8f29bc7222912fa3646757c06ea520d52b9be511e7af72253850ae474c",
+      "sourceContentSha256": "32dace576f158ef07252f3c00b3c5dc4c51b750a3d83c1b95ed11437017a0334",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "10c54f8f29bc7222912fa3646757c06ea520d52b9be511e7af72253850ae474c"
     },
     {
       "id": "621719",
@@ -688,12 +704,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "9ca783c92bf30be91f8c10d0132cf35c40b2860a8d1afed1fe9528ab4f8bc69c",
+      "sourceContentSha256": "5a0ec935e117af36c433ff7881948cc07359a3386e20d6062e6418316827f80a",
       "headwords": [
         "стиль",
         "эпитет",
         "сравнение"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "9ca783c92bf30be91f8c10d0132cf35c40b2860a8d1afed1fe9528ab4f8bc69c"
     },
     {
       "id": "690525",
@@ -726,12 +743,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "cf40748417cb6a9dabc7ecde952569a0619f89d7ab6ed923d544db9e3fb94f3a",
+      "sourceContentSha256": "8cc4eadb2a81a8df2fd52f87f0cba2436d96753a4372469af7ba5e7f98e3bc0b",
       "headwords": [
         "стиль",
         "эпитет",
         "цитата"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "cf40748417cb6a9dabc7ecde952569a0619f89d7ab6ed923d544db9e3fb94f3a"
     },
     {
       "id": "7BF565",
@@ -764,11 +782,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "0e9f6e57efe35ad1f6244f3af0b967fa9f26371453aea0232ede6f162ecf1bbb",
+      "sourceContentSha256": "fccefea27afc49db89abcc9b541940f7a83663f654b4f289d4d2606e4259c46a",
       "headwords": [
         "стиль",
         "тезис"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "0e9f6e57efe35ad1f6244f3af0b967fa9f26371453aea0232ede6f162ecf1bbb"
     },
     {
       "id": "9AFD41",
@@ -801,12 +820,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "357ebbe3070ed6625f78ac8670ef0b4416d1d494acc1c9c1c89fa32f627afebe",
+      "sourceContentSha256": "eaa0820ec2ed0f6d60807e874ebde3999690ca616fd115ac3f0ae1edefd2a98d",
       "headwords": [
         "стиль",
         "эпитет",
         "тезис"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "357ebbe3070ed6625f78ac8670ef0b4416d1d494acc1c9c1c89fa32f627afebe"
     },
     {
       "id": "A25525",
@@ -839,10 +859,11 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "01ae833ecaa51a5ee7ca9d5dcf13e09a3453bad3355b74001591f390705d117c",
+      "sourceContentSha256": "de95384971b3b3bd3965827efeedbbbd21d14e7c130a7cecaa3c783709124b2e",
       "headwords": [
         "стиль"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "01ae833ecaa51a5ee7ca9d5dcf13e09a3453bad3355b74001591f390705d117c"
     },
     {
       "id": "B17764",
@@ -875,12 +896,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "2003f6a0ca8e4942029aff6d21cf5200401c1f958b7d35c042ec460f356aed62",
+      "sourceContentSha256": "a7925eb9767f20f842aeb1b1d986e6ccf9480830003ec1c651864e6380ee63af",
       "headwords": [
         "стиль",
         "повествование",
         "обращение"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2003f6a0ca8e4942029aff6d21cf5200401c1f958b7d35c042ec460f356aed62"
     },
     {
       "id": "B9A47F",
@@ -913,12 +935,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "557588ea9ddc6a72f3397b43a938e26afe646b148e915ff19336ec5a22c0cb66",
+      "sourceContentSha256": "6f8d291eff51fca59b8fe6f5789ffc530a4b433b9be0cf747de57013a7279902",
       "headwords": [
         "стиль",
         "эпитет",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "557588ea9ddc6a72f3397b43a938e26afe646b148e915ff19336ec5a22c0cb66"
     },
     {
       "id": "BF4E1B",
@@ -951,14 +974,15 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "3f58cbb83bd00c192b5c1c3039db89bc312cb6b6a73e2d256b4bb1760f06f55d",
+      "sourceContentSha256": "b42ffe00da6f1c10317137b6ea711a8b35104f97bd4d919e4e07653996bdc38f",
       "headwords": [
         "стиль",
         "эпитет",
         "метафора",
         "сравнение",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "3f58cbb83bd00c192b5c1c3039db89bc312cb6b6a73e2d256b4bb1760f06f55d"
     },
     {
       "id": "C69403",
@@ -991,11 +1015,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "e9ff6c08fec5b4e0245f0aebee7d6a4c6b455bc4decfd7e73ec723ab889ecc7a",
+      "sourceContentSha256": "3ab2f5084de17456e386be5661e3a1635e857ccc4959c3c5f3b4355ba8d7532d",
       "headwords": [
         "стиль",
         "эпитет"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "e9ff6c08fec5b4e0245f0aebee7d6a4c6b455bc4decfd7e73ec723ab889ecc7a"
     },
     {
       "id": "D1A6A5",
@@ -1028,11 +1053,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "bdc52db05ca10a526b61b1ceb7491d46beb58da7e89cf033b26eb1860ebae8a5",
+      "sourceContentSha256": "00d0335a6eee335e80d87b997f6bb6a338ab0830ac1b5cac21f8ef390a71487a",
       "headwords": [
         "стиль",
         "термин"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "bdc52db05ca10a526b61b1ceb7491d46beb58da7e89cf033b26eb1860ebae8a5"
     },
     {
       "id": "D36670",
@@ -1065,11 +1091,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "0b8aeff1ad08c155f216e723b3f954a682a6f0b7d579e775cf3c8a4318c23110",
+      "sourceContentSha256": "b20145379c2bfac9c1fa9d66ebe7d3c8f10e5263bf90452e23a1791ab500a851",
       "headwords": [
         "стиль",
         "тезис"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "0b8aeff1ad08c155f216e723b3f954a682a6f0b7d579e775cf3c8a4318c23110"
     },
     {
       "id": "D822EE",
@@ -1102,7 +1129,7 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "d962ff9e98ebd8efc1ad7fd09f721d22e4b6a0d37e86dd10863416e42080d402",
+      "sourceContentSha256": "e9e154c63e4d709e3d9aef0e69a31d19d00ed7a0398d22a4fc0ada2ea28d7c1d",
       "headwords": [
         "стиль",
         "инверсия",
@@ -1110,7 +1137,8 @@
         "заваль",
         "жертвователь",
         "нажить"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "d962ff9e98ebd8efc1ad7fd09f721d22e4b6a0d37e86dd10863416e42080d402"
     },
     {
       "id": "DC1571",
@@ -1143,11 +1171,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "9b0ce1ceb68e34544915d1f18e6789897a336e3d6df5ad30093b33596e1896ed",
+      "sourceContentSha256": "13224cc8653f2aa56790a08230e8ab7b7b8775db2a769033dd5d35745ef55eb0",
       "headwords": [
         "стиль",
         "цитата"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "9b0ce1ceb68e34544915d1f18e6789897a336e3d6df5ad30093b33596e1896ed"
     },
     {
       "id": "E04AAA",
@@ -1180,13 +1209,14 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": true,
-      "sourceContentSha256": "655e308f05f3c89a4973295a1c70bf5144cbc65af81a05053136206c110853fc",
+      "sourceContentSha256": "9c72235f22a3c2cd13920927ba1617d5e29b11da1050a75401aeac2f890f141e",
       "headwords": [
         "стиль",
         "эпитет",
         "термин",
         "норов"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "655e308f05f3c89a4973295a1c70bf5144cbc65af81a05053136206c110853fc"
     },
     {
       "id": "E4D238",
@@ -1219,12 +1249,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "2d0baef355dccb922fcf94a758cf7c28fd1cc49cab78b2582b57bd2f1401a94a",
+      "sourceContentSha256": "faef4cc424c813b6fecc2aa81b1b8f3037fad1b10e2b955026203f1e3119370a",
       "headwords": [
         "стиль",
         "термин",
         "диалог"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "2d0baef355dccb922fcf94a758cf7c28fd1cc49cab78b2582b57bd2f1401a94a"
     },
     {
       "id": "ECF124",
@@ -1257,11 +1288,12 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "c940a0d1293016fcf7cf301f780bbf8647450c627e7edbe4c9cdf7d9c0ae25f5",
+      "sourceContentSha256": "d63d9e0710900ce5c508b650d52807d212cd954877be80ab9ac56b3cbacacc8a",
       "headwords": [
         "стиль",
         "эпитет"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "c940a0d1293016fcf7cf301f780bbf8647450c627e7edbe4c9cdf7d9c0ae25f5"
     },
     {
       "id": "F95665",
@@ -1294,12 +1326,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "dc7316e548e35fa65880c3336733acdd8f4b3b8587e7a9101561a4c165477bf8",
+      "sourceContentSha256": "e159ebd8e09645b7ee26b9b19a52f122f5d4852f051fb40c8baee755562f7cf9",
       "headwords": [
         "стиль",
         "метафора",
         "тезис"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "dc7316e548e35fa65880c3336733acdd8f4b3b8587e7a9101561a4c165477bf8"
     },
     {
       "id": "FA951C",
@@ -1332,12 +1365,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "a78647fa507478a5934091df5efc7101609d2909ca609f54fd6f46f75f93daa6",
+      "sourceContentSha256": "edfb1432a5cc99813e999fd3c493f60259c707445c8750496f08073a6ebef4f3",
       "headwords": [
         "стиль",
         "эпитет",
         "диалог"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "a78647fa507478a5934091df5efc7101609d2909ca609f54fd6f46f75f93daa6"
     },
     {
       "id": "FBD2A1",
@@ -1370,11 +1404,13 @@
       ],
       "fullStylisticsReferencePending": true,
       "dictionaryLabelQualification": false,
-      "sourceContentSha256": "22d194dd9d131b9e00873a311941b7c1d3b4b5f9cba1c828f195fb0d4297c00d",
+      "sourceContentSha256": "7177358587271e4bc820a534b6af2ed7f83a9be9264e7be7a80a4cb432a1de80",
       "headwords": [
         "стиль"
-      ]
+      ],
+      "formatSyncPreviousSourceContentSha256": "22d194dd9d131b9e00873a311941b7c1d3b4b5f9cba1c828f195fb0d4297c00d"
     }
   ],
-  "cardsWithoutVerifiedKeyNotPrepared": 11
+  "cardsWithoutVerifiedKeyNotPrepared": 11,
+  "formatSyncEvidence": "dev/docs/content-audit/raw-format-audit.json"
 }

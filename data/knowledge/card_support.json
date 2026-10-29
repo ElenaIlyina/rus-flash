@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "cards": {
     "09169B": {
-      "sourceContentSha256": "c7a7ee73e8997a9064bb21800c547d1b1f6487101e4a74954bbb04a62d9319f6",
+      "sourceContentSha256": "47e0aa0c96a218fd48838fef56a1cd3942b87abc8b4103d39f5bd4f18966a578",
       "explanationSha256": "0a6cd9f2a9174b1f7fc87217827083f8fb73095e43b71c15b1cfa2424a9ec1bf",
       "explanationPublished": true,
       "hint": "",
@@ -47,7 +47,7 @@
       ]
     },
     "0AC706": {
-      "sourceContentSha256": "6971e037a15ce37f7f98a00066fb42a970133406a9fdb020dfefd6bd633dafda",
+      "sourceContentSha256": "e341f56463f8c475c3162481082b28b108df8e519accd31c8e6c8529e9980970",
       "explanationSha256": "198cbce0c50432f3c1233aacecb4fbfdcc7c55f64556aa47b6e3d6112a07d0dd",
       "explanationPublished": true,
       "hint": "",
@@ -87,7 +87,7 @@
       ]
     },
     "1DD5F4": {
-      "sourceContentSha256": "6cc429f56b42f289367664e272ac3e9c896b3eeb84d06704b71b780feca1a522",
+      "sourceContentSha256": "f898ea1062f2bcd57ef62280152fb1dddfa36fb10b27247d5fe31654536117a2",
       "explanationSha256": "d9bb3a724b1a3a9a33ff7780aa4013451be9ece0253af71e10c745434703272f",
       "explanationPublished": true,
       "hint": "",
@@ -127,7 +127,7 @@
       ]
     },
     "224E06": {
-      "sourceContentSha256": "692feb6f9cc67996d29cb94dd0f16872be01385d7d28080dd7f6b33846dab084",
+      "sourceContentSha256": "74668a6e0c4d31e5e65ca104e9e4d45071300e04a3cc7572dab3443799bdb314",
       "explanationSha256": "49a2f2b76a5f56b39fb05c756575bb50f32b114f7469c380067d56e580aea26d",
       "explanationPublished": true,
       "hint": "",
@@ -217,7 +217,7 @@
       ]
     },
     "6AE8B7": {
-      "sourceContentSha256": "960943a578bc2d50358ae78f8b198e36a68edade14cff491b2fcda5fbe8c6ff3",
+      "sourceContentSha256": "3375dd772bfe0619e6bbb128336c6f55ecab8ec97994596ff040506a1f9d8d32",
       "explanationSha256": "353c35ebff1ffb90d3ac67b5144cdc838f53e8d02ad8d73c4fe84bbab8787092",
       "explanationPublished": true,
       "hint": "",
@@ -257,7 +257,7 @@
       ]
     },
     "7320B4": {
-      "sourceContentSha256": "bf16f857860e0959eae40d48881ed03023ef10815873054520aa098dd803b45f",
+      "sourceContentSha256": "ef9ce5a6dabf0f14ba271b70d3f797a23cd9d60bfb7cd543e6ecb8674d35e2eb",
       "explanationSha256": "4004062a0fc8517bdd1298619c52398dd105b05cd48fbf59686e7b2a08325965",
       "explanationPublished": true,
       "hint": "",
@@ -292,7 +292,7 @@
       ]
     },
     "7A809B": {
-      "sourceContentSha256": "12f6b6ce68aa2fc4ab0dc0d19108aca7b234409f81aa8a603bc38a0eebb32c27",
+      "sourceContentSha256": "33b938a48989dc597cd23a58919cb064d2301f58259508db3ae3f7c30992e288",
       "explanationSha256": "b287461576fdf05fd26b410ebce2e3de267a798d7ecbcdd6a7d10327c87ccb93",
       "explanationPublished": true,
       "hint": "",
@@ -327,7 +327,7 @@
       ]
     },
     "AE2555": {
-      "sourceContentSha256": "fde5fda753f5c5f49a2f24dbbe148dc25e31192e523d631145621bd984485111",
+      "sourceContentSha256": "be084ec7524c7a4c7e5277b91ecca6c74c0e34350e93a2cea95bca486daf2e1d",
       "explanationSha256": "172f39ec1d69f59086cd4130fc64c9da9310a00573e77164295e5c888194c25a",
       "explanationPublished": true,
       "hint": "",
@@ -372,7 +372,7 @@
       ]
     },
     "AFE7DA": {
-      "sourceContentSha256": "ed4a8a7a2041439615c19f877171c511fdac0f275fee43fe784cf8088b4091b9",
+      "sourceContentSha256": "ebdddf9411c829cf2b7966fd4a7b714fa811a3f12229327f415b07fe825bad30",
       "explanationSha256": "ba883abeb362292bf2c5d3b7ecd870b9b823956be0efab8f097618308dec9740",
       "explanationPublished": true,
       "hint": "",
@@ -467,7 +467,7 @@
       ]
     },
     "FAFA08": {
-      "sourceContentSha256": "6795e26076d8da07faa1e050a7653cde692e7ce6ca7289b1bedbace4eae11b6e",
+      "sourceContentSha256": "28cf3a1a4417f8cdc7a6cf2c3a73b83e159a1cd11da0bc1aeb91be79402d48b8",
       "explanationSha256": "59826859abe3ecd4adf9f738566f22a7d0c662abbfc51cc0413540b63e5ac3d5",
       "explanationPublished": true,
       "hint": "",
@@ -512,7 +512,7 @@
       ]
     },
     "0C24B0": {
-      "sourceContentSha256": "59986df615221987a5b6d9fffbef21ce55e2ec083583258912d00640ccbf37e5",
+      "sourceContentSha256": "7406070f022c0ae52de8658250af48cfa78d7b09744526f5b5126698df6d13d1",
       "explanationSha256": "38176680a46f38d13af0aa9e43fdea7b144dddfe0b7a29b6ee8892d690518a91",
       "explanationPublished": true,
       "hint": "Сначала разделите пропуски на проверяемые гласные, чередующиеся корни и словарные написания. Для СКАК-/СКОЧ- посмотрите следующую согласную, для ПЕР-/ПИР- и ТЕР-/ТИР- — есть ли сразу после корня суффикс -А-. Значение слова с указанным действием помогает выбрать проверку.",
@@ -622,7 +622,7 @@
       ]
     },
     "279C1A": {
-      "sourceContentSha256": "329e4c1dfc6d5b00c824da78ef38b2ccec6901b0b3e5eb584a31a2b90404ab42",
+      "sourceContentSha256": "08b8c14fcac760c854d75f60b5b674c18c595bb721364107347befa05d37881f",
       "explanationSha256": "fc8a5c20d20876929cfe27bc470900ccff13169cb5791fc88f4a79827cc1d2bc",
       "explanationPublished": true,
       "hint": "Для каждого слова определите собственный способ проверки; одинаковая буква не означает одинаковое правило. Чередующиеся корни проверяйте по их условию, а в проверочном слове обязательно убедитесь в ударении на нужной гласной.",
@@ -667,7 +667,7 @@
       ]
     },
     "2AFA71": {
-      "sourceContentSha256": "e89ff9795cc478a99ce3ea813c5af6d2c99917a895a42409f55d1f0a994acac3",
+      "sourceContentSha256": "3f72837eb803a9cae5c7a0565ba5240e15914930e57144f3d5beca62fa9816c7",
       "explanationSha256": "2ab02a3757537eb60ebffe62ad90fd45c21caceb8a0920244739a328b87e1622",
       "explanationPublished": true,
       "hint": "Сохраняйте смысл, заданный в скобках, при подборе проверочного слова. Не проверяйте чередующиеся корни ударением. Если надёжной проверки нет, используйте словарь; затем сопоставьте буквы внутри каждого ряда.",
@@ -762,7 +762,7 @@
       ]
     },
     "2B52B4": {
-      "sourceContentSha256": "d98a53bfadee8366929c5b80edde47da3b3abe291d4e3c4880152833df49ad78",
+      "sourceContentSha256": "b56f8310fa3211618fd9ba0f7c2ef9aeec36e1d80d10969900ce0b95e60ac08f",
       "explanationSha256": "381be0e96c279c31eca0ea44a33317d2d72a79d927ec6f96a4a313cb20e6f74a",
       "explanationPublished": true,
       "hint": "Не смешивайте примирение людей с примеркой одежды, а давнего жителя — с тем, кто сторожит. В чередующихся корнях проверьте условия написания отдельно от проверочных слов.",
@@ -872,7 +872,7 @@
       ]
     },
     "4273B4": {
-      "sourceContentSha256": "caf685bbaf11d55855e38b579dba36e4281ae5ed1aaeeadc6de155e55acc83d6",
+      "sourceContentSha256": "eb1ebe58e1ab71a4c667da9625dddc3d8a1bfea89df6f10d298dc8a28775a42e",
       "explanationSha256": "adf36492a6da59bc53d05368b4d5152b6b36b9bd6f1f46a929cc266bf4a6edfe",
       "explanationPublished": true,
       "hint": "В словах про волосы выбирайте значение «ровный», а не «равный». Чередования и проверку ударением рассматривайте раздельно; контекст в скобках сохраняйте.",
@@ -927,7 +927,7 @@
       ]
     },
     "493862": {
-      "sourceContentSha256": "cd5c78f66112f6ecbd1d2a3c7c991124d6605b5ba60b830dcf1da14cba3e45b1",
+      "sourceContentSha256": "6f4a56e2a4e5817889067611c99c69e0442e6143f7e293a6c761ed6d5bce88ed",
       "explanationSha256": "b9eb0d80d55659355ef5f2aa31eb8240076a61d7a7452b1f798676bd43da5a2a",
       "explanationPublished": true,
       "hint": "Различайте «разрядить» и «разредить» по смыслу. В словах с чередованием соседняя согласная важнее случайно подобранного проверочного слова.",
@@ -1022,7 +1022,7 @@
       ]
     },
     "6A5602": {
-      "sourceContentSha256": "a7efe32bd656cd86c1abe63021414df959dd73c2ec9e645e8fd8a0cbcd361c9e",
+      "sourceContentSha256": "a4879c0791b98ad38ad676612aa498b742a70f705f9e1d193f1dc4ec52815212",
       "explanationSha256": "2aa4c3b641eb5307fc61c07784548e4cff4f96ffb813100197a24e8ea4d80062",
       "explanationPublished": true,
       "hint": "Отличайте человека, давно живущего в городе, от действия охраны. Учитывайте смысл посвящения стихов и увядания цветка; не переносите на них другие созвучные корни.",
@@ -1067,7 +1067,7 @@
       ]
     },
     "6ADB71": {
-      "sourceContentSha256": "e6363a0cb74ec2a68c8243beeddd51bc25eb0f037e79ec37ff0a13ddd755f961",
+      "sourceContentSha256": "438c909e80794d4bbd96492207b528e0c3cd4db059b26b4e20193a1b615ec602",
       "explanationSha256": "dc086783e0dcb3b2641ef8a69069b647430572c9f9a5766a0c03e3a71b814491",
       "explanationPublished": true,
       "hint": "Не путайте равенство в уравнении с ровной поверхностью. В словах о печали корень проверяется по смыслу; правило гар-/гор- к нему не относится.",
@@ -1112,7 +1112,7 @@
       ]
     },
     "727FB5": {
-      "sourceContentSha256": "55536d3afdfbce7dce4b45973c365621f2b2c3b55053e8d28a8d7db7131e4e8d",
+      "sourceContentSha256": "eaccc105e03fa66a36827dc76c466b9f969801b94d7ce0871724751b284dbba3",
       "explanationSha256": "6648a48e55d092ea74ff137bcb91e2ae997bf9bbf0a1d743a3ed46afded4b46c",
       "explanationPublished": true,
       "hint": "Контекст счёта задаёт равенство. Не применяйте к словам о покорении гор правило выбора гласной в словах о горении.",
@@ -1172,7 +1172,7 @@
       ]
     },
     "75D42E": {
-      "sourceContentSha256": "5230c386cf7524390a2b55cc3a31cccd034ccca1c35c3e655fd6d011f4ee884e",
+      "sourceContentSha256": "573a4d0716e5d47c1851e04ab58e2d7a84bf84ecbb8c548e381813e537c52771",
       "explanationSha256": "39b7bb9cee05ea61b69553d1f1291256d6487a2d46d90226fd551790faf1b943",
       "explanationPublished": true,
       "hint": "Различайте открывание окна и варку пищи, примерку одежды и примирение людей. В тер-/тир- и бер-/бир- проверьте суффикс непосредственно после корня.",
@@ -1327,7 +1327,7 @@
       ]
     },
     "81C8F9": {
-      "sourceContentSha256": "81222bbfd86dda6e6dbe168d3c09c9d289f973390021824225b76ae8704875ff",
+      "sourceContentSha256": "835fb27aa742abfeab7becd19cccf2be7bc9cb9b4c2938d045ee3bd90d2f6c11",
       "explanationSha256": "8bef4d7be6ac2660e07a64e32caec413eb01abb39b834cb1315531543a570e95",
       "explanationPublished": true,
       "hint": "Одинаковая буква может получиться по разным основаниям. Для производного существительного найдите исходный глагол; особые написания плав-/плов- проверяйте отдельно.",
@@ -1367,7 +1367,7 @@
       ]
     },
     "135475": {
-      "sourceContentSha256": "4781487ee21dd37acffa93bc27b73ebbb750103e03ef995194ea9ecd5e3c8faa",
+      "sourceContentSha256": "02789077f5635f985a27c3b6df3307b58d2bc46e7ea2cd2f22d479b922d67169",
       "explanationSha256": "58ca0d2fe67e73e5d122618a277096242d63d2ea757fa0a990a3dc17552347ea",
       "explanationPublished": true,
       "hint": "Слова уже написаны полностью: нужно определить тип гласной корня. Для каждого слова подберите однокоренное проверочное слово с ударением на нужной гласной. Проверка должна относиться именно к корню, а не к приставке или суффиксу. В словах с чередованием применяйте отдельное правило. Ряд подходит только тогда, когда условию отвечают все три слова.",
@@ -1487,7 +1487,7 @@
       "ruleSourceRefs": []
     },
     "0ABFEC": {
-      "sourceContentSha256": "0429b810c82a41887e79f1138f120ce77655a1d2c15a8dc27d7496c413061d9c",
+      "sourceContentSha256": "d2d4586eed6ddbfd77ea9349e7726564c8a84ca1b01991aede9c41330d036db9",
       "explanationSha256": "de429a63e276508b39699e16d0717e3ac40c64a86d547595b30cd2303b27ae65",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов прямой, акт, норма, система, установить найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -1522,7 +1522,7 @@
       "ruleSourceRefs": []
     },
     "33BA3C": {
-      "sourceContentSha256": "9979e9ad8f4aef411a2dbb6f7cc58794b08c211f48e2d540c96acd1010c4ae0f",
+      "sourceContentSha256": "c6ed6fbd323bfa0ca5d9168152a7886583fa21d8e83d9a20aa561b175e671f59",
       "explanationSha256": "a2279d303b14c5cc86aaca7f159a2ec87ce5ad09d49c88e187459ae835f4eeb7",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов эталон, культура, веяние, элемент, уход найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -1567,7 +1567,7 @@
       "ruleSourceRefs": []
     },
     "02E7EB": {
-      "sourceContentSha256": "35552c13c64a916f67233c57045dc498e86aca50e92858ecc4e70389f595b652",
+      "sourceContentSha256": "d18b1c2689c10d12466109c9c5723e5aadfea937a89ecc520ca0737579e52a62",
       "explanationSha256": "cba2cffd2a805bf38c12280b2fa55c043acfc9155a257074c821ea939e5a1543",
       "explanationPublished": true,
       "hint": "Отделите тему от цели: парк можно описывать, чтобы убедить в мысли о человеке и природе. Проверьте, одинаковую ли функцию выполняют специальное слово и образная «симфония».",
@@ -1587,7 +1587,7 @@
       "ruleSourceRefs": []
     },
     "09C42C": {
-      "sourceContentSha256": "5ed8655e3e269949af4344aad5b53f2102d52de205194b900added7809f99ce7",
+      "sourceContentSha256": "d1ba8228dbf3f2565a80de93840502a43466b2c26f30af6f0b8f8d7b841e33d0",
       "explanationSha256": "089d9afa73e1828669138d00550a749a8a7d5793e81b1c434fdd28a0b236c3c1",
       "explanationPublished": true,
       "hint": "Проверьте, что доказывает письмо Гумбольда и есть ли в тексте каждый названный синтаксический приём. Помета «разговорное» требует словарного подтверждения, а не бытовой темы слова.",
@@ -1627,7 +1627,7 @@
       "ruleSourceRefs": []
     },
     "011AA6": {
-      "sourceContentSha256": "eb66da55e6d0b12c57a925de348b6ed8c70382842be2c3869e9847485793275b",
+      "sourceContentSha256": "4857893afa9e483d104c0e94416347622c593f057ddb0a13feb384bf2ec6af03",
       "explanationSha256": "bb580f452781903e9da9e758b0bb9afd2b0a3cbce9172a7c847b0f0466699cb3",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: взялась, таможня, принять, заселенный, новостей. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -1689,7 +1689,7 @@
       "ruleSourceRefs": []
     },
     "012CAB": {
-      "sourceContentSha256": "60138b6e025fdf75d61b2f7daf73806455f350f1687182dce66fee65a389c5cd",
+      "sourceContentSha256": "d880ec3e49a34c8e60848479f584a1a7d3615bb303317c236d49b10ec0a36d50",
       "explanationSha256": "8890f75cfe7950cfd56f8e52147be540863c56a1b410d7848c32e174681f0832",
       "explanationPublished": true,
       "hint": "Проверьте, что обозначает выделенное прилагательное: уже обработанный предмет или средство для обработки. Подобранный пароним согласуйте с определяемым существительным.",
@@ -1736,7 +1736,7 @@
       "ruleSourceRefs": []
     },
     "01C2C7": {
-      "sourceContentSha256": "79f30f4fa497e0de6f26f5a990b9b5036c1cb089bc270638910a4eeff5dcfb28",
+      "sourceContentSha256": "61bc84e337d69c22a5db005528d64f56577193b84d069b22d05c6b81b5e29ee3",
       "explanationSha256": "129fd1206a45cb7adf02c478bbfbda7dcd80f6db0ae336c30f9e2328a5cc2db4",
       "explanationPublished": true,
       "hint": "Определите, что требуется передать: принадлежность противнику или недружелюбное отношение. Затем согласуйте подходящее слово с существительным в предложении.",
@@ -1758,7 +1758,7 @@
       "ruleSourceRefs": []
     },
     "060C0F": {
-      "sourceContentSha256": "3beb442a996e81a76d5a86ab68267233e4ab09cb63cffa7255b209b849651956",
+      "sourceContentSha256": "798f6f63cdf813fad53a616286533ee03184cb480d785ee7c27681df2b72a429",
       "explanationSha256": "bb7dfa4c7b63d7e343d9ac7b321b6f3b04c5a0ab0f32474f28ec12565a118d48",
       "explanationPublished": true,
       "hint": "Раскройте значение заимствованного существительного: не повторяет ли соседнее определение часть этого значения?",
@@ -1778,7 +1778,7 @@
       "ruleSourceRefs": []
     },
     "079D68": {
-      "sourceContentSha256": "f698d3c65c501666a482937c7899b22fc2c8d8ed5eb455c22e1ab1e156d6b3c2",
+      "sourceContentSha256": "0adf68b8306e3667e81d34a7259c0ceeed367c1f10da7e0ef4d438065f2da7f0",
       "explanationSha256": "6408d5ec56df804e9787cd21ab03bb47287012b6bc0eae226ecc921b3e34b072",
       "explanationPublished": true,
       "hint": "Проверьте, упомянут ли до этого ещё один вариант замены, который нужно отличить от названного.",
@@ -1798,7 +1798,7 @@
       "ruleSourceRefs": []
     },
     "03228B": {
-      "sourceContentSha256": "f2e7714137ad23c15aa12bd0ef0263f3fe10f81f955345834f2b58381f25fc02",
+      "sourceContentSha256": "fc876e6f60ec9385f8e621edb4fa29966ced291f5e6568ac45ce6c9f334e9d37",
       "explanationSha256": "0e6009103d692a26798f03d92e45034849b9071389f1624a57c66db57f7873b1",
       "explanationPublished": true,
       "hint": "Определите, что характеризует прилагательное: причинение страданий или строгость обязательного правила.",
@@ -1820,7 +1820,7 @@
       "ruleSourceRefs": []
     },
     "0395A2": {
-      "sourceContentSha256": "1bfb4b9053eb9bcd3f271bebd22f00e0117e7d73c0ccc3d0ed7181e9b9208230",
+      "sourceContentSha256": "2c012549c45dd6b5c62bfbf99cc36a213ee784ee1d6b74a5bec7611deb6a2b33",
       "explanationSha256": "3de3bef4a5698179758aff746e37a07301911d723c2bd4c27b9547e4a2977435",
       "explanationPublished": true,
       "hint": "Спросите, описана ли часть организма или материал, из которого изготовлен предмет.",
@@ -1842,7 +1842,7 @@
       "ruleSourceRefs": []
     },
     "06C27D": {
-      "sourceContentSha256": "fe8d6155dc4c1abee3d314da04632f380a92858ea6f446289908589349a446dc",
+      "sourceContentSha256": "176e087d06827e3ecb4979b378f80704e52ebcff9fc380118e08ee494ce02e20",
       "explanationSha256": "5c593f64c708bb8f6c41d19fc276ad7d1582c2ca71c33ef5cb455473b99345f8",
       "explanationPublished": true,
       "hint": "Установите, измеряется ли рост человека или речь идёт о сооружении, работе на большой высоте.",
@@ -1864,7 +1864,7 @@
       "ruleSourceRefs": []
     },
     "092CEF": {
-      "sourceContentSha256": "00e3c2bdf23e0c2f976af15ea1710aa36f7e8355735953b08873e3dad1f7b8da",
+      "sourceContentSha256": "bf04bee82acb320d7f83ab484b42125602877e35a677f26efec38e1610f5f969",
       "explanationSha256": "b073e30390c9a9ee9f8c2e65f4e46dba668eee1cf4b3f6591c27b028a0a8b3d0",
       "explanationPublished": true,
       "hint": "Различите полученную пользу и свойство того, что её приносит.",
@@ -1886,7 +1886,7 @@
       "ruleSourceRefs": []
     },
     "09BF8D": {
-      "sourceContentSha256": "69d407f69892901c363bf9d55b28952b1301d7d73cf9f7e08584e879dc29dfd8",
+      "sourceContentSha256": "9edf03727ee746a1d4be139acf95bbef5b01d547eba51296dc4ef589254d888b",
       "explanationSha256": "901c130250a51dabc8040fc0376d6633a229fb32c70881a112b96d22e7726ccf",
       "explanationPublished": true,
       "hint": "Подумайте, нужно ли окружить предмет физически или увидеть пространство в целом.",
@@ -1908,7 +1908,7 @@
       "ruleSourceRefs": []
     },
     "0D49BD": {
-      "sourceContentSha256": "7494958959ae318dbac16ecc907dbb36c91f4c984b727139d52ac853484e7a18",
+      "sourceContentSha256": "555e4e46390be1768d67dca04279db19faae4f9c22fafa60da912c44b8617852",
       "explanationSha256": "76b0a7d2da125087b2157f68f58c393eca7a08539c3a1f83e3f0e95c08f8bef7",
       "explanationPublished": true,
       "hint": "Посмотрите на конструкцию «… с величайшими»: обозначает ли слово метод исследования или возможность сопоставить два события?",
@@ -1935,7 +1935,7 @@
       "ruleSourceRefs": []
     },
     "0E2AAE": {
-      "sourceContentSha256": "05fd0cf6517cc980286b56bbc16750dd05d29539a8e336a252991db4c94bc6b5",
+      "sourceContentSha256": "73a351f237b1d990f2172a8dd43df811f55ce0d27e46867153dd26684869221c",
       "explanationSha256": "ddd910804d7ba2ece458d66c73409f190995a03b90569565c3d79acd55620666",
       "explanationPublished": true,
       "hint": "Определите, заняли ли люди пространство целиком или присоединились к уже существующему коллективу.",
@@ -1977,7 +1977,7 @@
       "ruleSourceRefs": []
     },
     "0ED1F6": {
-      "sourceContentSha256": "d6a8be0bd58762fa25b06632952de4d0205b565e5a56b6ab078dff0efcb8fb64",
+      "sourceContentSha256": "58cb7f1a849c5cb25b0570a9f1521c45c999eaea78a17086353778589b3a115a",
       "explanationSha256": "510077e2350a69776d410ab5c971d41bd3496a849289d8eb30192d67c5493133",
       "explanationPublished": true,
       "hint": "Найдите, что оценивает автор: выдающиеся заслуги или внушительный, торжественный облик.",
@@ -2004,7 +2004,7 @@
       "ruleSourceRefs": []
     },
     "10DBDD": {
-      "sourceContentSha256": "862012a025904252626b3a7d7b2cf76a774f07900346b9826d6d4981b0601ec1",
+      "sourceContentSha256": "8be5b2a04d1fd944d342ec1db335f406b62b019fb8865d4aba8212c941869863",
       "explanationSha256": "ae2846d7721e87a04514ce70b9c8f1cda5986d18da8254f44aa68f1ea33dc68d",
       "explanationPublished": true,
       "hint": "Отделите искусство исполнения роли от аккуратного выполнения поручений.",
@@ -2026,7 +2026,7 @@
       "ruleSourceRefs": []
     },
     "125B45": {
-      "sourceContentSha256": "9058d234997c4cd3343a7031a3036e4ef6f410c60ced490da12ffad5b657801c",
+      "sourceContentSha256": "48b63fbf8e6298213aa5aa763b253fb793e81c6caec60e6ffdec2f810fe063db",
       "explanationSha256": "2660a05a335805cda5383bc5170aa2b15271cbd1d7371206fcb73c3e5d1a0676",
       "explanationPublished": true,
       "hint": "Определите, говорится ли о совокупности слов языка или о словесной форме выражения мысли.",
@@ -2048,7 +2048,7 @@
       "ruleSourceRefs": []
     },
     "14E7B5": {
-      "sourceContentSha256": "ad7e566bfeee9235349f51b8c40948d7683a5fd435232bfa571b400dc88b875f",
+      "sourceContentSha256": "22b6b9a9eb4aa7971150e81c6b532b4a4734ddfb86b67a9cc7f431cbe0d15aa5",
       "explanationSha256": "966be155c4dff46e729ef47a5761ac142e35031b7764621ea0335fee42ddbe8d",
       "explanationPublished": true,
       "hint": "Подумайте, говорится ли об отсутствии отклика или об отсутствии ответственности за поступки.",
@@ -2070,7 +2070,7 @@
       "ruleSourceRefs": []
     },
     "15D204": {
-      "sourceContentSha256": "7851632f09a503eac9e8ce55b33b19d2590edf039640b48f3b7e996ccccb50db",
+      "sourceContentSha256": "2b06591701da1d119104e8c329aff0176afb8bf144513b46e39149e175ca676b",
       "explanationSha256": "89e57a23711ae50bda4152c9e4725cfc69f8e673db0aa52cff045c77a0b830e0",
       "explanationPublished": true,
       "hint": "Различите отправную основу процесса и то, что откуда-либо выходит или отправляется.",
@@ -2092,7 +2092,7 @@
       "ruleSourceRefs": []
     },
     "1CAFFA": {
-      "sourceContentSha256": "c5efc801b51d990cc75db6fa1d8dfa7324be03a30a8f39554ccbe1dd17597b18",
+      "sourceContentSha256": "d8ff173d39d4e04eb46838401492143f77d45876d611ac7f9ec10288e3b3fcbc",
       "explanationSha256": "883c1c81d2c86258e5a240443b7a342e87f5cee092b70781e1f2ce82bd1588e2",
       "explanationPublished": true,
       "hint": "Определите, предмет напоминает о прошлом или человек хорошо запоминает.",
@@ -2114,7 +2114,7 @@
       "ruleSourceRefs": []
     },
     "227BA2": {
-      "sourceContentSha256": "293955c8c39dd176563621129a320273ed90762410338bd629a5322e5976671a",
+      "sourceContentSha256": "70ec9d254e316944a42cafd014b8458f118d6bc9f8084304f925f922e4ded3b6",
       "explanationSha256": "2660a05a335805cda5383bc5170aa2b15271cbd1d7371206fcb73c3e5d1a0676",
       "explanationPublished": true,
       "hint": "Определите, говорится ли о совокупности слов языка или о словесной форме выражения мысли.",
@@ -2136,7 +2136,7 @@
       "ruleSourceRefs": []
     },
     "2351C7": {
-      "sourceContentSha256": "332ef5ef08a88b49ee4ccef21d9e82a0fa2eb2962fe4ab020a5a6e385f5ed6a9",
+      "sourceContentSha256": "7650f625833c3dcbe0bc01152dbec836b8eac7f104ba961401ef74ea0e43d421",
       "explanationSha256": "ab40fc328622fdf4eda2b5a81201a6a848994affc9b98ea11465ac406c54c475",
       "explanationPublished": true,
       "hint": "Различите местность с большим количеством болот и то, что относится к болоту или растёт на нём.",
@@ -2158,7 +2158,7 @@
       "ruleSourceRefs": []
     },
     "244259": {
-      "sourceContentSha256": "c73708cad2cef6c986a449f3442b6ec5332ccfd14c95687f1e1a971de1c72b67",
+      "sourceContentSha256": "6f2330a7864bf21506c9f6154c6f88dde6d1fce5f359e6f1fc84e617c9a061fd",
       "explanationSha256": "ae2846d7721e87a04514ce70b9c8f1cda5986d18da8254f44aa68f1ea33dc68d",
       "explanationPublished": true,
       "hint": "Отделите искусство исполнения роли от аккуратного выполнения поручений.",
@@ -2180,7 +2180,7 @@
       "ruleSourceRefs": []
     },
     "246ACD": {
-      "sourceContentSha256": "ac9b11828531498a9ddbeed53cb9d7d26ac205a6083764399b65b7500261db4c",
+      "sourceContentSha256": "694b785099ae9e10047ed6ecad94c9489c242ad1af76b34fcd0a44f2b7fc9337",
       "explanationSha256": "b590ee272bfbb6652355bcaf964d22d1febda4aa0fc41461669fcbe5ef4d6d57",
       "explanationPublished": true,
       "hint": "Спросите, речь идёт о ценном достижении или о высокомерии.",
@@ -2202,7 +2202,7 @@
       "ruleSourceRefs": []
     },
     "2827B4": {
-      "sourceContentSha256": "7b5eb29dfcbef6cc4fae96e1f710319c153140f3ea74de06e087e10e651de12c",
+      "sourceContentSha256": "9f42e519eafeb6d6e43611e39fc782b218bc347ef5513b2f723ba3402e48b164",
       "explanationSha256": "920e800098043e3959fa2fbf4b647254f087c33cbd5b791cb72b4ad87f9f5701",
       "explanationPublished": true,
       "hint": "Сопоставьте название области знания и оценку отношения к людям.",
@@ -2229,7 +2229,7 @@
       "ruleSourceRefs": []
     },
     "28F08A": {
-      "sourceContentSha256": "739c48efb9b19985a82d474ef6341aa014d8b66ef273abcb755a8dd1895b47c0",
+      "sourceContentSha256": "f3ece18cc8ec36e4dcf3382a163a688cdd12e0915f71e4133e5226828d76c560",
       "explanationSha256": "3fece2dc2047e08c3e1f3e5d2c4cfba635c02a276857dc52f2190831a0610800",
       "explanationPublished": true,
       "hint": "Подумайте, хочет ли автор измерить природу или передать чувство преклонения перед ней.",
@@ -2251,7 +2251,7 @@
       "ruleSourceRefs": []
     },
     "2A4136": {
-      "sourceContentSha256": "33bfb0138b63284d70aa0bcda38e2cd54c2ec4c115a6fcd738ef167a639eb8b5",
+      "sourceContentSha256": "6a5660ea4aa7cafdade0d49902c4ad8b9b2010c73c48935064eade26ee88e20b",
       "explanationSha256": "c124e3fdceef80f99def856831a7b58a1aab3af2ab3e90f640f2ab07d87588fd",
       "explanationPublished": true,
       "hint": "Различите название рода литературы и оценку отдельных публицистических черт.",
@@ -2273,7 +2273,7 @@
       "ruleSourceRefs": []
     },
     "2ABB99": {
-      "sourceContentSha256": "bcc869b21ba2c620ef1bcbbfe9d09b4633307b7c8efbc3da232f9aa41e8e9443",
+      "sourceContentSha256": "0816cb537d4a306799ab539fb35961ac55f394c3aecf41e2bf275440bd29abe4",
       "explanationSha256": "8da8f8f47227f44e299253765c9bcab3841bf6d20d33ef0c2f49215832cd1719",
       "explanationPublished": true,
       "hint": "Отделите сферу создания изобретений от находчивости как качества человека.",
@@ -2295,7 +2295,7 @@
       "ruleSourceRefs": []
     },
     "2D6025": {
-      "sourceContentSha256": "073f5d8a3709498c519c56e796c7bc21ce297f47a2121edb2858236ac554da96",
+      "sourceContentSha256": "b273c0541728cdcd5fefcee8fac9fad2626a180e3a829d8bc0e7af5d1d7500a9",
       "explanationSha256": "fae1f1d9900bba5dbdeb5fd0a7af74eb8bd63c4610d66fca4d7d622123b86e44",
       "explanationPublished": true,
       "hint": "Определите, интерес принадлежит зрителям или связан с работой органа зрения.",
@@ -2317,7 +2317,7 @@
       "ruleSourceRefs": []
     },
     "2F1CB5": {
-      "sourceContentSha256": "d58279436e533021005e3830507a04b4033942a1f5dba1f64ca94ac01ab9a87a",
+      "sourceContentSha256": "1f3efb9aff5b28b933b74dc5af34ed215f75e27f3609b3628d1a0a031788d4a5",
       "explanationSha256": "da89d6362f8556a51ec0bfac5514179d5fc8dde76fbbe6a3583a9249699f5d56",
       "explanationPublished": true,
       "hint": "Установите, говорится ли о силе ощущения или о нежелании человека с чем-либо мириться.",
@@ -2339,7 +2339,7 @@
       "ruleSourceRefs": []
     },
     "2FAF64": {
-      "sourceContentSha256": "5151c31dac07070be88dbe95b46280dd9cd53ee9d8e8e2c230a69833ad42997f",
+      "sourceContentSha256": "6f133db688629c0574faa7abd4a1b7bbd23561a67dce8771d9c5df61b9e07cce",
       "explanationSha256": "b3b375cd55b25765567e903d6a8ff1cebf3e5472a5aeea2e6f53c375b49c4ae8",
       "explanationPublished": true,
       "hint": "Сначала найдите слово, к которому относится прилагательное: описывается позиция человека или сила переживаемой боли?",
@@ -2361,7 +2361,7 @@
       "ruleSourceRefs": []
     },
     "2FC7D6": {
-      "sourceContentSha256": "39fad68c92731adaad1915ae6e731632ee2c2454a71c01f88f5be73a2c5917ac",
+      "sourceContentSha256": "aff77a354698907abdcdbcc15ccf22818ea9d4e9638f344431869f78c3ed24bd",
       "explanationSha256": "b1839e087abfa700e07627fe590015ae581871970604c0322e26c21d176ddca9",
       "explanationPublished": true,
       "hint": "Различите оценку значения или заслуг и впечатление от осанки, внешнего облика.",
@@ -2388,7 +2388,7 @@
       "ruleSourceRefs": []
     },
     "2FF78A": {
-      "sourceContentSha256": "2ddb95e082747ef76e252ffae02f2d4cfc8646af1fb7da70eca65d30c88b08b5",
+      "sourceContentSha256": "214a9f86dac1ef303a84b5b29dfb6c62cfa36266ee9a3847f6de56223145a2a9",
       "explanationSha256": "1411d8560c0a847083a4a23c1019ae583edbe3d07b3eeb486203cf8d6076da1b",
       "explanationPublished": true,
       "hint": "Проверьте прямое дополнение: одевают кого, а надевают что?",
@@ -2410,7 +2410,7 @@
       "ruleSourceRefs": []
     },
     "3654CF": {
-      "sourceContentSha256": "f57e0831b8769be0c70e4302cae25aafa4dd5e74e14be229152454d7215ec6fc",
+      "sourceContentSha256": "1c15797a4c5b24dbf2feca060127b81105fa8b198db343cc277e5a8aeffc0d85",
       "explanationSha256": "370b635dfee197083b734943d4ba555d366acf45e212e9e617b18336c69f7d57",
       "explanationPublished": true,
       "hint": "Спросите, имеется в виду исконное население или корень растения, слова.",
@@ -2437,7 +2437,7 @@
       "ruleSourceRefs": []
     },
     "37859F": {
-      "sourceContentSha256": "978878d9afd378605477dc0455dde1fe5f9c70fe20a98326b70f00cc012b5b7d",
+      "sourceContentSha256": "5d73dcad2a808a6ef039c9723b99afd2d913f9d49d46955250339bdbdb0344af",
       "explanationSha256": "176233ec8db6bfe6895ea912749032b2be9bd06adbc0e0945cf82e7c9aad61c3",
       "explanationPublished": true,
       "hint": "Попробуйте передать сочетание глаголом «являться»: говорится ли о свойстве исследования или о предоставлении кому-либо возможности?",
@@ -2464,7 +2464,7 @@
       "ruleSourceRefs": []
     },
     "3AE61A": {
-      "sourceContentSha256": "14c121d5b5da9d863fb3275b083356d94176b8ab34a1ade414d6c56fec81e37d",
+      "sourceContentSha256": "18a78626cece777b1083f61d3659eb90e5fd4c5bfa88914e8721534e4ec39cad",
       "explanationSha256": "4290700ee7a9eacb78d1d5ab9f782c0be26ef89410b1024fca8cf5bb47f119ca",
       "explanationPublished": true,
       "hint": "Различите увеличение имеющихся знаний и устранение того, чего в них не хватает.",
@@ -2506,7 +2506,7 @@
       "ruleSourceRefs": []
     },
     "3BC2D8": {
-      "sourceContentSha256": "1b6bca3d131cd53c2473ad78ddb745e0f4fcb9debfb3dbaa1556e17ed352edc3",
+      "sourceContentSha256": "14636551f66481d5704ed085473459f5560549d898ca7c9e6d645264d0e3ef27",
       "explanationSha256": "b92ac04d1adc98d70716f78fdf2c6691af1431c0b28665295a4e74315b772c3d",
       "explanationPublished": true,
       "hint": "Подумайте, подчёркивается большой возраст деревьев или отсутствие временных границ вообще.",
@@ -2528,7 +2528,7 @@
       "ruleSourceRefs": []
     },
     "3CE3B4": {
-      "sourceContentSha256": "f11a0dc50636ea76d7d5d49cf90d7316546bd3a2701c62c7f22b6cfd4cfd89d6",
+      "sourceContentSha256": "c087982fe7b2533301ad1ed0a9f977565812ab078f4a44f02f6b1fbdf65d9a92",
       "explanationSha256": "167cd39b2493def4c78e57667c3e6ba534a0c0b936800fa86781408c555e9c64",
       "explanationPublished": true,
       "hint": "Сформулируйте признак дерева через его возраст и отличите это от значения «существующий всегда».",
@@ -2550,7 +2550,7 @@
       "ruleSourceRefs": []
     },
     "3FAF3B": {
-      "sourceContentSha256": "a0f6395d3e29e0a63e11d9ae8c90674f550ee667a9f58dc3e2ce1575786c898c",
+      "sourceContentSha256": "509e289b1b30617f24bd89ed70a7360dfff6abab1a850173a1d89273bdca8444",
       "explanationSha256": "dbd3aa9888d3308aa711dbddeac4b04b886f5166cd78efa417f3060061c82b61",
       "explanationPublished": true,
       "hint": "Установите, это вода от дождя или промежуток времени с частыми дождями.",
@@ -2572,7 +2572,7 @@
       "ruleSourceRefs": []
     },
     "469A6C": {
-      "sourceContentSha256": "7c4c14e191b9bd80213590f4275a644f9918c77220053337ba76d317f9e36f78",
+      "sourceContentSha256": "380334110b6f783863f933feef8ee17dcdaf6d0f8a7e98503f226b7c12f964c6",
       "explanationSha256": "4d345215d3c46b7876d592cb8e41ae384cb14e8bc0916143d76972d969977397",
       "explanationPublished": true,
       "hint": "Выясните, подчёркивается длительное накопление пыли или постоянная повторяемость явления.",
@@ -2594,7 +2594,7 @@
       "ruleSourceRefs": []
     },
     "47C7BD": {
-      "sourceContentSha256": "bf16722807d5e962111f8537011cdf5701f4900917f07280c6ef24eb09d3ab2a",
+      "sourceContentSha256": "adaac657adcfc1fd90815535ac3a32f7180a21b6c92bfa6ddfa9cc9839f2e94f",
       "explanationSha256": "10bd3a9709af7f0be57e7e7a5c4774cb1bc4e658064201b64bc22c8896ac0420",
       "explanationPublished": true,
       "hint": "Различите возраст ребёнка и срок действия документа или период отчётности.",
@@ -2621,7 +2621,7 @@
       "ruleSourceRefs": []
     },
     "48D90B": {
-      "sourceContentSha256": "70418d1b8f8dff19212ffb98e06d5b06157074562c75f20988bc658533e71c8b",
+      "sourceContentSha256": "ef581198f9dbcf015b9fdf48b0f5a7cfa1db9446fca809a666c15ea7ffb57c43",
       "explanationSha256": "640383747559f15303608cc8f741e0c96b50e7c074dfa68e59fc988f1bd4f115",
       "explanationPublished": true,
       "hint": "Определите, человек не склонен делиться мыслями или предмет спрятан от наблюдения.",
@@ -2643,7 +2643,7 @@
       "ruleSourceRefs": []
     },
     "4900B6": {
-      "sourceContentSha256": "00539bb0f20dfa39e0cb70d4a0c607f44629b011e72453a7fc0915e1c97217f4",
+      "sourceContentSha256": "4b992c0c78d5bd412e01060cf77211b2f38922349828edfa30058a38d2a4a924",
       "explanationSha256": "3454ff05017b21fec9cc4e1845bfb8354f3cfd7117e65eaf778e07f4ff32a8d7",
       "explanationPublished": true,
       "hint": "Сравните управление глаголов: одеть кого? надеть что?",
@@ -2665,7 +2665,7 @@
       "ruleSourceRefs": []
     },
     "4C8BEB": {
-      "sourceContentSha256": "621334087d5b09ae63f01f0abb8086822a15244b6da51df165b282a1584598e4",
+      "sourceContentSha256": "92b255fdee6db3100b88ee9af05dd143d7d2be2e2d42b2dec89a78301ef8d27e",
       "explanationSha256": "57e36b218738691b3e0610a9bfe8d057450c7b066793156ded28b3343de111cb",
       "explanationPublished": true,
       "hint": "Найдите, речь о государственной деятельности или о тактичном поведении.",
@@ -2687,7 +2687,7 @@
       "ruleSourceRefs": []
     },
     "4CEF61": {
-      "sourceContentSha256": "0430297b65aea738e80bc93626c8335e5a1f1eb074d020d254165efb5ac35fca",
+      "sourceContentSha256": "5ecd9c091b78b267b7bdc07defb607b06fb618a90033cc97fa10452e8e429d22",
       "explanationSha256": "ebe0912248c7bb20d968fe36f98b1966e3facf3dbac646034e24dc8e619bf7da",
       "explanationPublished": true,
       "hint": "Различите то, что обеспечено гарантией, и документ или срок, содержащие условия гарантии.",
@@ -2709,7 +2709,7 @@
       "ruleSourceRefs": []
     },
     "4DEAD8": {
-      "sourceContentSha256": "3c26d24ea00c4860f9e169770e01ea4829a4d6feb056cfa3e0f30b52f2aa9308",
+      "sourceContentSha256": "a623ace4dc91e20ea9403d5606e1b54cacfa099afd777e6cbf84e08b72c107f9",
       "explanationSha256": "c124e3fdceef80f99def856831a7b58a1aab3af2ab3e90f640f2ab07d87588fd",
       "explanationPublished": true,
       "hint": "Различите название рода литературы и оценку отдельных публицистических черт.",
@@ -2731,7 +2731,7 @@
       "ruleSourceRefs": []
     },
     "55BC7E": {
-      "sourceContentSha256": "a27518cf3cb83d7968b02bb30be3b848e39351e2a5dde7bb104184eece64a5c7",
+      "sourceContentSha256": "5fa66ade51eaee49cab1f1612422162a23edc4c289743bdc1c0ec07a373607d1",
       "explanationSha256": "2e5ec430714713787ec684c8bf8e49539bf40bb2419459c32b810526ebc80d05",
       "explanationPublished": true,
       "hint": "Ищите в предложении признак экономии затрат и отличите его от общего отношения к экономике.",
@@ -2758,7 +2758,7 @@
       "ruleSourceRefs": []
     },
     "55DDEC": {
-      "sourceContentSha256": "933c424146b8f29ba3c9984f996af2e9d510f2c4269f6bdea7d89acc63c5d782",
+      "sourceContentSha256": "1aa79d1b5fb277e4f9b98bc49e932ce38df1e1173030ede626533e0bab5439da",
       "explanationSha256": "20ade738bcc2f21ec1dd1bd05c36301c84f9f6ddf2269afcca17060dc845fda8",
       "explanationPublished": true,
       "hint": "Спросите, оценивают ли хорошо получившуюся работу или того, кому часто сопутствует удача.",
@@ -2780,7 +2780,7 @@
       "ruleSourceRefs": []
     },
     "5A397B": {
-      "sourceContentSha256": "d2ef2b397103087f93e7446b2fe6d75422f1bc1b0fc810d79979f0f324576a51",
+      "sourceContentSha256": "fadc5427a2747bf3e3f14bdfb85acca1a5d80a091ca5987ed2b3e631d5971444",
       "explanationSha256": "4d345215d3c46b7876d592cb8e41ae384cb14e8bc0916143d76972d969977397",
       "explanationPublished": true,
       "hint": "Выясните, подчёркивается длительное накопление пыли или постоянная повторяемость явления.",
@@ -2802,7 +2802,7 @@
       "ruleSourceRefs": []
     },
     "5BB9F2": {
-      "sourceContentSha256": "54c11a0d3f08829939e83516cdcbf2df249d2ba664275c5e12df14d6b62d1cac",
+      "sourceContentSha256": "969f2497e1b259dc754939c55e2de09d25871d0197757a9f4fba1b0db6bcbc11",
       "explanationSha256": "2fa41c5a5284bbd0364b41d6b73fad014f231d967b4abad2a815fadf06c9e4fe",
       "explanationPublished": true,
       "hint": "Обратите внимание на перечисление после слова: это определение черты характера или положение предмета?",
@@ -2824,7 +2824,7 @@
       "ruleSourceRefs": []
     },
     "60B53E": {
-      "sourceContentSha256": "68a4eb6821b545a1dcb4f971d0caf99fa5daed9b02239764a5576bbdedd673a7",
+      "sourceContentSha256": "2e1ba62e99119817cc0717a07eaf5ba7ce5307fcf8eb2f19160cd5ce5db03005",
       "explanationSha256": "046feb0635156f322173d26a411c7501924a9437a0f9286b4df5cb198d6f5b44",
       "explanationPublished": true,
       "hint": "Определите, оценивается спортивное мастерство или принадлежность к технике и оборудованию.",
@@ -2846,7 +2846,7 @@
       "ruleSourceRefs": []
     },
     "6248D6": {
-      "sourceContentSha256": "d2ff72f8fafaec4120a3a6410eec58efdb75daa61ef9bf007c1c496e27bea601",
+      "sourceContentSha256": "0744f2a0195f3cf6a1e77903460562ab6f2f63db4d56cd998d94f0bf33c33dc0",
       "explanationSha256": "b6f08667642e51eff95ec5fd65bc5cfca0e65f1ee0fdf58ed6ac080fc729afce",
       "explanationPublished": true,
       "hint": "Спросите, речь о фрагменте содержания произведения или о клочке бумаги.",
@@ -2868,7 +2868,7 @@
       "ruleSourceRefs": []
     },
     "6267B4": {
-      "sourceContentSha256": "0f87709f01be654edaea38ddcfa1d5716dc23dc3d2c3ee266384d60b3bdd4e0f",
+      "sourceContentSha256": "8aa1fcff19db65efeb0d3f68bfbc1d4c184cd5cd8793e8eeca154cdbf8ef2d56",
       "explanationSha256": "167cd39b2493def4c78e57667c3e6ba534a0c0b936800fa86781408c555e9c64",
       "explanationPublished": true,
       "hint": "Сформулируйте признак дерева через его возраст и отличите это от значения «существующий всегда».",
@@ -2890,7 +2890,7 @@
       "ruleSourceRefs": []
     },
     "62A5F9": {
-      "sourceContentSha256": "583ac9770e0ffcf14092fa1e2eb94230d3534796215a400621f49f5a9e90b4f9",
+      "sourceContentSha256": "defe3bea09def5218598e335498228a040311aa3e67e750d721e2ac548900de3",
       "explanationSha256": "d936980525208e161aec784433310c128efdb5abe229dd5c2e707ec07f028be3",
       "explanationPublished": true,
       "hint": "Спросите, оценивают ли хорошо получившуюся работу или того, кому часто сопутствует удача.",
@@ -2912,7 +2912,7 @@
       "ruleSourceRefs": []
     },
     "6363B7": {
-      "sourceContentSha256": "d810619bbd13d401e668ee576e085c64b51a1bd1abe49d49bcb7a508e4cdbadc",
+      "sourceContentSha256": "72c9999df27c3fa8a8b39816adda089550f0c86e443fda0f02be85912a55d455",
       "explanationSha256": "9fbef87562f33527071f68fd8b541982a7b9cb7c3627f7ba65f26d3937bb9ca5",
       "explanationPublished": true,
       "hint": "Различите состояние ледового покрова и признак «состоящий изо льда» либо «очень холодный».",
@@ -2934,7 +2934,7 @@
       "ruleSourceRefs": []
     },
     "6437C4": {
-      "sourceContentSha256": "a82bed3530eb295c98f258fadb2ebb46d8f8553288d1cf80c4558976797c6313",
+      "sourceContentSha256": "fb02d6f9af957f813cf737b39de8be477629d8f094933b235f94a1e9237a770b",
       "explanationSha256": "809122938f7f79eb05d32494d29e00fdb1ffde45531726269c2b87f24fd17177",
       "explanationPublished": true,
       "hint": "Различите состояние ледового покрова и признак «состоящий изо льда» либо «очень холодный».",
@@ -2956,7 +2956,7 @@
       "ruleSourceRefs": []
     },
     "64534C": {
-      "sourceContentSha256": "e6572a750c8a41e7f2afe4437752f3a1090ca6cc4606a0417644b75a6e63ceb9",
+      "sourceContentSha256": "d336a3ed09e8e43f0647d60d33d1703b6e828e6a3b5eee1f36b1ccda394c21ac",
       "explanationSha256": "8605468fe1353f01d4599cc3e4f57999b62cd117a950df307c58989541c66323",
       "explanationPublished": true,
       "hint": "Отделите происхождение объекта — природное или созданное человеком — от мастерства изготовления.",
@@ -2978,7 +2978,7 @@
       "ruleSourceRefs": []
     },
     "647930": {
-      "sourceContentSha256": "a266c9b2f81f1795cd5b9349d00d20ca9c4be4a161ca2f9c1b31c77af9806323",
+      "sourceContentSha256": "d485ec9da37308bacfc1c3a3e279b2bb20592b0a6a41e0273ad4a6496eeab98e",
       "explanationSha256": "dc7a018d0f44cddd93cd30ca24b55414306283c2b3d424dba6931ade1deffbae",
       "explanationPublished": true,
       "hint": "Определите, речь о принадлежности монарху или о внешнем впечатлении величия и достоинства.",
@@ -3005,7 +3005,7 @@
       "ruleSourceRefs": []
     },
     "64CB69": {
-      "sourceContentSha256": "a62372d41c321a13bca2e4528217558920c6ca005ed505919ceee896a3f8c33e",
+      "sourceContentSha256": "56cd216214a7b384f27e3e57cb9b4ee2171abc6356a58865ea37cd578eeba6e4",
       "explanationSha256": "c93463426c9733d2423b15f036cac88b454fc7796c2fd13a97d1e5f9e2a5efb2",
       "explanationPublished": true,
       "hint": "Установите, назван метод исследования или возможность сопоставления двух объектов.",
@@ -3032,7 +3032,7 @@
       "ruleSourceRefs": []
     },
     "66BED5": {
-      "sourceContentSha256": "854d96aeb05781992ab7b866ccd0f41aea343df6b42599a069a8c14ecab7a2f3",
+      "sourceContentSha256": "bc39e9bcd998a3fc191fa2fb665bebdb9dc8a37f587c869343ef08bea14f01ce",
       "explanationSha256": "da89d6362f8556a51ec0bfac5514179d5fc8dde76fbbe6a3583a9249699f5d56",
       "explanationPublished": true,
       "hint": "Установите, говорится ли о силе ощущения или о нежелании человека с чем-либо мириться.",
@@ -3054,7 +3054,7 @@
       "ruleSourceRefs": []
     },
     "679B23": {
-      "sourceContentSha256": "2319c9cf19a95fed2f5d92ba79cae99f13d0d7b80043bf4f391e2b05be2d0bbc",
+      "sourceContentSha256": "7e3438cb6d85792095557ddae02b24299a9aded01d3b0b4790b18b591682c6da",
       "explanationSha256": "e712a6c9040d793eb90a83275cef080d962259c1f94be06cb53c25e1f93dd637",
       "explanationPublished": true,
       "hint": "Обратите внимание на противопоставление природной речке: какой признак оно задаёт?",
@@ -3076,7 +3076,7 @@
       "ruleSourceRefs": []
     },
     "6A94E2": {
-      "sourceContentSha256": "bd3ce8883f1925712ca6049c67c98f2d2ab1cee3d51230530db3ddfc954f8d6e",
+      "sourceContentSha256": "cba465d5c4a8df63c3141bf263cc141322ac5e6830f8a39edb13d1ca5562997b",
       "explanationSha256": "df30f473978e8e73c76ff3b92f4ab48e91fe2c4987e864814682158f29190a66",
       "explanationPublished": true,
       "hint": "Различите погоду в течение дня и предмет или воду, связанные с дождём.",
@@ -3098,7 +3098,7 @@
       "ruleSourceRefs": []
     },
     "6C2B6C": {
-      "sourceContentSha256": "565f30a63243c03e9c12fef2c96668aeecf7e75f0f168a6be226d74f7dea58d2",
+      "sourceContentSha256": "958942b1f969eb8c70bac8ec50de13343b0c333a45706b7a65714d89584c2a2a",
       "explanationSha256": "6085da864f130872ec7e31ae341eab8e6f85e03000d824aee8b704b8ff72994e",
       "explanationPublished": true,
       "hint": "Найдите значение конструкции «… к фальши»: это отношение сообщества или сила неприятного ощущения?",
@@ -3120,7 +3120,7 @@
       "ruleSourceRefs": []
     },
     "6F64DE": {
-      "sourceContentSha256": "f571140e211eac3b414e33e531820bac0e4e46e5888e4dfec0054555b3e526fe",
+      "sourceContentSha256": "8791060341eaf7cb9514f09c8422a73dfb4127cab0a28db64e2928a8d578c288",
       "explanationSha256": "09e90c253819593be9178830ca670c09d3f69028577b2799dbef6f7e6b7481ac",
       "explanationPublished": true,
       "hint": "Определите оценку начинания: речь об основателе движения или инициаторе ссоры, беспорядков.",
@@ -3142,7 +3142,7 @@
       "ruleSourceRefs": []
     },
     "76164B": {
-      "sourceContentSha256": "2e5e9cf7a2fc72d36b039ddafbb7663bf05d8797965a5b92460f24f554f5ba67",
+      "sourceContentSha256": "b3ec5690bfde668dada4b5ef43104f4ac3d220d0471864660b04fd7db71e1f8d",
       "explanationSha256": "4c33e0eec60b94f386a6cf1697cb3922326eff0041c9ea856112fb98b680c97b",
       "explanationPublished": true,
       "hint": "Установите, сам человек хорошо помнит или другие вспоминают о нём.",
@@ -3164,7 +3164,7 @@
       "ruleSourceRefs": []
     },
     "7FF6B1": {
-      "sourceContentSha256": "3db5d7a93c19fa49e7a20e29f5721a80d0e0fdee1af35d8f9272a7de13ddc171",
+      "sourceContentSha256": "ccb60ede5c2723f28ea2cfea57c74dc102f60bd9f93a060f407ad33a1a4e45ca",
       "explanationSha256": "f5e39bec2ec7b103c571278d67aceef5158b56a55ce685c08959f65065672144",
       "explanationPublished": true,
       "hint": "Различите оценку значения или заслуг и впечатление от осанки, внешнего облика.",
@@ -3191,7 +3191,7 @@
       "ruleSourceRefs": []
     },
     "831F56": {
-      "sourceContentSha256": "a4cca69e04a773570e02d46e0064c5cfca22cb178295ec6ef356948d19c3b204",
+      "sourceContentSha256": "b03ba2f9331b3433fc51bc96ffff45411e8f745a1bd43381b44be12cb041f55a",
       "explanationSha256": "e1276c679ddd34cf9e31a7f51e87d201f614236719f2cb80c35707cb879766c2",
       "explanationPublished": true,
       "hint": "Различите выдающихся представителей, которыми гордятся, и высокомерие как черту характера.",
@@ -3213,7 +3213,7 @@
       "ruleSourceRefs": []
     },
     "832B01": {
-      "sourceContentSha256": "01f84df1e9892544e98aa07630b28c08888f5c4d2345a30d00ddf2f5fbb49d26",
+      "sourceContentSha256": "26fdf59774d9ede9b1a7ef65b238bf8c04922fda38ea0530e3e1b934aadefd9f",
       "explanationSha256": "510077e2350a69776d410ab5c971d41bd3496a849289d8eb30192d67c5493133",
       "explanationPublished": true,
       "hint": "Найдите, что оценивает автор: выдающиеся заслуги или внушительный, торжественный облик.",
@@ -3240,7 +3240,7 @@
       "ruleSourceRefs": []
     },
     "8435CF": {
-      "sourceContentSha256": "c44fc3aeab80a70131abd3830ca952135508b3743772f40ae7507a6ab9a39419",
+      "sourceContentSha256": "0b9e267302f8e1500b75de9b8fb8b1f2e92711fc984932f0722c07d65399341b",
       "explanationSha256": "8fdf55ca1b2f47ec575b3cf3f2ae3899a82017b56a341f4f14dfcbed434cdf16",
       "explanationPublished": true,
       "hint": "Различите результаты развития оборудования и мастерство человека в выполнении приёмов.",
@@ -3262,7 +3262,7 @@
       "ruleSourceRefs": []
     },
     "858B03": {
-      "sourceContentSha256": "3cba14da84e0b150e99e43f16418aaa57f443d702c7258c434f0e76b26743693",
+      "sourceContentSha256": "d50444709b597ffb242629458a375dd8715e42b70b0ff639f4f153ca990fb312",
       "explanationSha256": "783167c6b25c7bf200f8db5432c389ebb7c9c467c5595fa44ed23bff66e6ea85",
       "explanationPublished": true,
       "hint": "Подумайте, опыт копился веками или говорится о том, что существует вне времени.",
@@ -3284,7 +3284,7 @@
       "ruleSourceRefs": []
     },
     "8CE15C": {
-      "sourceContentSha256": "3fd047b4d666ad7ae06dd12c3d09b7702ebbb78a784f6f445eab344eebe9e3a9",
+      "sourceContentSha256": "216d9c79dd4772e7b84f4fcba9ca199681428171024cb38f4d8322b59fd35491",
       "explanationSha256": "640383747559f15303608cc8f741e0c96b50e7c074dfa68e59fc988f1bd4f115",
       "explanationPublished": true,
       "hint": "Определите, человек не склонен делиться мыслями или предмет спрятан от наблюдения.",
@@ -3306,7 +3306,7 @@
       "ruleSourceRefs": []
     },
     "8EB12F": {
-      "sourceContentSha256": "e927dc5824d3b258ca5a19777bf1978a2679fd0623b16d5ed9c10875318bfde7",
+      "sourceContentSha256": "8825bdef22ca8ecbac613cf1e3da1206e3a0ec55529914f389b5654bec6b832f",
       "explanationSha256": "881a7c0dbc8077563850e1466bc62bcf1c3c54539ea54cfbdfda516ffc4ddf01",
       "explanationPublished": true,
       "hint": "Различите лучший отобранный материал и этап, предназначенный для отбора.",
@@ -3328,7 +3328,7 @@
       "ruleSourceRefs": []
     },
     "90AA89": {
-      "sourceContentSha256": "c2664fd562ad6ce4b00b7b658035fe5428c56f90d6a2aaac1308cbbd6e5fdb36",
+      "sourceContentSha256": "f5dc50adb6ae210af55084e29b5073951642a226ce72b32a610dc42b7dab98ed",
       "explanationSha256": "9e61a8590ad56444106f1b945c52b1bb4cac844c595da23507a97b0e3f657b31",
       "explanationPublished": true,
       "hint": "Проверьте конструкцию «что на что»: какой из двух глаголов её допускает?",
@@ -3350,7 +3350,7 @@
       "ruleSourceRefs": []
     },
     "91DAC1": {
-      "sourceContentSha256": "8e45c9af15cd459b6916eb273439e501050a8383867ae106dda13601ddf03172",
+      "sourceContentSha256": "2584087bc056061dc7f88ed82c9c17bfdc586f418890cbdb34f8c1608bb025b1",
       "explanationSha256": "6c9c9ebcf2011755f85dc986299f7209b54e301b6ad029f5a5365d764e79f9ae",
       "explanationPublished": true,
       "hint": "Различите полезное воздействие и деятельность по помощи нуждающимся.",
@@ -3372,7 +3372,7 @@
       "ruleSourceRefs": []
     },
     "941F52": {
-      "sourceContentSha256": "3107ed789936235200c6614ccf1cab6018b78036b837c4f5b37081658be227e7",
+      "sourceContentSha256": "6ac7ac6ac94c963b664c1c8dfecc0ea435381bf3b0e53ab4bf59443d22d3df78",
       "explanationSha256": "41b764a9e61f5caa31b090e3d4f1d66e914ab3edd4e750656dd71d513a85ea93",
       "explanationPublished": true,
       "hint": "Различите выдающихся представителей, которыми гордятся, и высокомерие как черту характера.",
@@ -3394,7 +3394,7 @@
       "ruleSourceRefs": []
     },
     "950247": {
-      "sourceContentSha256": "3ebc81f057198ec7928dc90bb6b43f55d2fd0cd58a50c1ce740189f4485ab37a",
+      "sourceContentSha256": "672bc74be2de4135111d53211762a6559632680b25be05e2c759aa1a3cd02412",
       "explanationSha256": "7eef99e85d97a909bf490ee1386752c9de726e00e23929d84826c22ac3179e21",
       "explanationPublished": true,
       "hint": "Посмотрите, оценивают ли умение исполнителя или называют работы по обновлению оборудования.",
@@ -3416,7 +3416,7 @@
       "ruleSourceRefs": []
     },
     "963449": {
-      "sourceContentSha256": "e08078a8f7ccbc635399872c6124d030332294676e930d6d12dc6c4f2a4d79e3",
+      "sourceContentSha256": "1093a147d54a22ad7deb6c12d0389b936c9c9188ee8c37ddad05925ad9e5ce3e",
       "explanationSha256": "cf9c674e7b2d195360b06d686064c4d8cda8ce5ae92ed0df3b80f99b5b5b0713",
       "explanationPublished": true,
       "hint": "Различите часть тела лошади и деятельность с использованием лошадей.",
@@ -3438,7 +3438,7 @@
       "ruleSourceRefs": []
     },
     "96D974": {
-      "sourceContentSha256": "b31389324f46d2af5b8ec03873d499faf620b550dd01bb57eb6de6ea8afa9cf1",
+      "sourceContentSha256": "5e58cebb826c11e87ca9b25ea135031c22b950482d732c1f6ab9a9ae6e13b93f",
       "explanationSha256": "b0c35b3a13df6f7224b53ed7dfb6aedddfa27cd5f627b4c59a6babb125fcf540",
       "explanationPublished": true,
       "hint": "Определите, говорится ли о силе жары или об отношении человека к чему-либо.",
@@ -3460,7 +3460,7 @@
       "ruleSourceRefs": []
     },
     "9AD0A7": {
-      "sourceContentSha256": "23dc193dac351a0c30ded846701774f7adcfa44d13954c58448fd57250f198c8",
+      "sourceContentSha256": "4470a2b4ab1a020640533093ebd7b7b4ccb754f300c3035d12fe6c1713164bc0",
       "explanationSha256": "d7c5867d12a60daa77e5f4a1e7864cd19b963650e88c8ec5b239923749cc1ad3",
       "explanationPublished": true,
       "hint": "Различите выражение уважения к другому и качество того, кто заслуживает уважения.",
@@ -3487,7 +3487,7 @@
       "ruleSourceRefs": []
     },
     "9B3176": {
-      "sourceContentSha256": "bc1b7f030e4e3174112b9985dc4bc95fbf9a9cdf12a85508794273394d8116cd",
+      "sourceContentSha256": "0341e875a8492b7896d82f533c8d2aa4239a30e12239bdfe3db42bc7dff3572d",
       "explanationSha256": "ceb4a26b867bf8fd1491997786bf3357b9de4ee46b2f42091f878839ff974e7b",
       "explanationPublished": true,
       "hint": "Разберите сочетание с предлогом «к»: общество испытывает мучение или не принимает определённое поведение?",
@@ -3509,7 +3509,7 @@
       "ruleSourceRefs": []
     },
     "9D2392": {
-      "sourceContentSha256": "38218cf9c1ff47918c72a4229ef6d85f18da8b01e61f0da426e4c4ad1cabb50e",
+      "sourceContentSha256": "ddd8f2db545c937de241de8fb61187426f96e44a7fc2cca0d8a1048949f90138",
       "explanationSha256": "3de3bef4a5698179758aff746e37a07301911d723c2bd4c27b9547e4a2977435",
       "explanationPublished": true,
       "hint": "Спросите, описана ли часть организма или материал, из которого изготовлен предмет.",
@@ -3531,7 +3531,7 @@
       "ruleSourceRefs": []
     },
     "9DA278": {
-      "sourceContentSha256": "038cfbd268a5ce303f20217bed99ccc22862feb6cb8535bb45ecc0787729914c",
+      "sourceContentSha256": "fb8dba21c155ffbcdef602ef4a52450aa05e4726f8efb07d4e1aef6d29fcac45",
       "explanationSha256": "424715cabbf21928feb482b8551bb98a4657a0cdfc3cace5cbc25f01dd92ec45",
       "explanationPublished": true,
       "hint": "Спросите, предмет изготовлен из глины или природная почва содержит её в большом количестве.",
@@ -3553,7 +3553,7 @@
       "ruleSourceRefs": []
     },
     "9E6BA9": {
-      "sourceContentSha256": "c05eba9026921b4ff62f2742c49dabaed17c0754867ebc71f3e82b59773a5863",
+      "sourceContentSha256": "cf2af7e3cb58f21e41093cd043fa600401b6de1d78c0f6204463cfd716969e0b",
       "explanationSha256": "b0c35b3a13df6f7224b53ed7dfb6aedddfa27cd5f627b4c59a6babb125fcf540",
       "explanationPublished": true,
       "hint": "Определите, говорится ли о силе жары или об отношении человека к чему-либо.",
@@ -3575,7 +3575,7 @@
       "ruleSourceRefs": []
     },
     "9EBAF2": {
-      "sourceContentSha256": "ca6a508d7f5a32424705cd00a57f442d664ddf13058f0f5ad96c61b85da81689",
+      "sourceContentSha256": "dfddf48ad0a85d749a8dea3fec4990532349c05efb6ddb9b67b8daf6e75bd20a",
       "explanationSha256": "793af26d157a79e2d3c56f0f244ccd66375b5735213761f8071740c49e79b46f",
       "explanationPublished": true,
       "hint": "Определите прямое дополнение и проверьте конструкцию «что на что».",
@@ -3597,7 +3597,7 @@
       "ruleSourceRefs": []
     },
     "9F9A43": {
-      "sourceContentSha256": "83db3bd6851a795a8a7a5260fca0dc62a6417010931e9b415411108ac46ac5b4",
+      "sourceContentSha256": "7916be247a71bb5b8712643334cd64edd783ce89a97b0695a477c4699f4d87c6",
       "explanationSha256": "b878873167675de13ec6c7855a43588710a34a61bab711fa0ba5b3ddc0cc47e4",
       "explanationPublished": true,
       "hint": "Различите возраст владельца или предмета и срок действия документа.",
@@ -3624,7 +3624,7 @@
       "ruleSourceRefs": []
     },
     "9F9C78": {
-      "sourceContentSha256": "3f14bf79c985cf7abfe5824deb9c33a7846bdbe873544f2546924c915806824b",
+      "sourceContentSha256": "f0b8ec1f7f9dd8cc9fdf3f290db26270dfc0c5af833498f26bed626d805b8ed3",
       "explanationSha256": "89d7c25d420abd57c51db95acd5408cc8e10e38021959883a078f898fb0a8e8a",
       "explanationPublished": true,
       "hint": "Определите, говорится ли о рабочей обстановке или о пользе конкретного совета, предложения.",
@@ -3656,7 +3656,7 @@
       "ruleSourceRefs": []
     },
     "A12B73": {
-      "sourceContentSha256": "116c6adfee0c8c8ad964b9c769b503de727ddfa250de06bcdec2ad61b2f5c7d2",
+      "sourceContentSha256": "5c4102641b5ef4134b6e60e15f0f1c0ce0018130327a118d38eaeac2564e6c60",
       "explanationSha256": "7c7d8cc4686b59620c581a277910ae7c389f87d7fb9c329c4bd1547fedb0b51f",
       "explanationPublished": true,
       "hint": "Спросите, возраст выражает уважение сам или заслуживает его?",
@@ -3683,7 +3683,7 @@
       "ruleSourceRefs": []
     },
     "A3BFA5": {
-      "sourceContentSha256": "b4cf7b15a5d36d3333a57e4817139b1d0197a61b7d4a5144a70e01a52628f554",
+      "sourceContentSha256": "c200aacb2a940d1f87a44b6d9d630937a18b596cacf8f28bec1a775921ee3129",
       "explanationSha256": "cd24e1d1202b1b0649aa451f7ed52df006ecc48944c22fc71ecb300c68968676",
       "explanationPublished": true,
       "hint": "Различите собственный пример человека и характеристику развития личности.",
@@ -3705,7 +3705,7 @@
       "ruleSourceRefs": []
     },
     "AB4186": {
-      "sourceContentSha256": "07e2b06af4c1f314ff0aa3f140bae09fea08f947b65c1dd2bfff08a781f0cc0d",
+      "sourceContentSha256": "0068b2f97258fb19774c742d2fb79b0c285742edc31752cc6eca59fc332f2085",
       "explanationSha256": "cf9c674e7b2d195360b06d686064c4d8cda8ce5ae92ed0df3b80f99b5b5b0713",
       "explanationPublished": true,
       "hint": "Различите часть тела лошади и деятельность с использованием лошадей.",
@@ -3727,7 +3727,7 @@
       "ruleSourceRefs": []
     },
     "AC9713": {
-      "sourceContentSha256": "a32c4ca8dcfed1b133d1ae0e7ce709e0e5054b60b9372a1d12c91fb2a7c2435f",
+      "sourceContentSha256": "9d6a3ef2e5fe5aa686c2ec4236344352b3c69d226d5c5d2286d8f918982a8f90",
       "explanationSha256": "e689f614fd4fa28058cd6d42e9efbb99c266a64d594d2b5722661ba98b072364",
       "explanationPublished": true,
       "hint": "Установите, говорится о неприязненном отношении или об обороне противника.",
@@ -3749,7 +3749,7 @@
       "ruleSourceRefs": []
     },
     "ACA486": {
-      "sourceContentSha256": "809e6c85bd6e0f02a09b0528d8c1ae680a7dd37666d9aaca1d8a8f3f8f6d9a41",
+      "sourceContentSha256": "898b72de03a8534f47658fea155fe497a5f618d5e525aca958f6f849f1823670",
       "explanationSha256": "10bd3a9709af7f0be57e7e7a5c4774cb1bc4e658064201b64bc22c8896ac0420",
       "explanationPublished": true,
       "hint": "Различите возраст ребёнка и срок действия документа или период отчётности.",
@@ -3776,7 +3776,7 @@
       "ruleSourceRefs": []
     },
     "B2315A": {
-      "sourceContentSha256": "07b44341896af263203fda3b26192f3fa66614a4cf6f243772b372bddd512684",
+      "sourceContentSha256": "957b2b30592ae236ee5dc3ae6d19bcd9b4aa7216a5b79a2fce6f8a103a0af3bf",
       "explanationSha256": "509389972da0cf95293eaf3f7e0c136fc45f61701649f5d186a954425add84be",
       "explanationPublished": true,
       "hint": "Различите того, кто не терпит других, и того, кого трудно вытерпеть окружающим.",
@@ -3798,7 +3798,7 @@
       "ruleSourceRefs": []
     },
     "B2F56F": {
-      "sourceContentSha256": "0ee39714a988465c4daf7b2719d90a9872df42779fbae63699cc3278c6f5b14b",
+      "sourceContentSha256": "28de8dbacd2640d4f2dd91b1a3d50d2b4137ce72dc4adafa4fe80ab6279e236d",
       "explanationSha256": "df30f473978e8e73c76ff3b92f4ab48e91fe2c4987e864814682158f29190a66",
       "explanationPublished": true,
       "hint": "Различите погоду в течение дня и предмет или воду, связанные с дождём.",
@@ -3820,7 +3820,7 @@
       "ruleSourceRefs": []
     },
     "BBB81B": {
-      "sourceContentSha256": "c2a6a5d52bc8f183c12de47464f8c7c6cf9477c8034dd8d8c858ded496469a8d",
+      "sourceContentSha256": "cd297af3d992b23542f9fa8d20a52ec2f5e47af9eedf385fa9bd54cdf8dbc218",
       "explanationSha256": "e166ce475398f9739705634fc3454c81d68eb04f7a16cddabdb91812edcda61c",
       "explanationPublished": true,
       "hint": "Определите, ситуация создаёт угрозу или человек испытывает опасение.",
@@ -3842,7 +3842,7 @@
       "ruleSourceRefs": []
     },
     "C34AF7": {
-      "sourceContentSha256": "063d387e00bcee737e8f2b093812fc99977763940bdccce07fd7521985875a6b",
+      "sourceContentSha256": "27d2f5d1df82c8d72078a3bca3d7dd01753b48d391a3b4924011fe712bdceec6",
       "explanationSha256": "0046cdc9080c316fcbee56173e1cbe09d56dad2b442e848ee84c6a82f0c95c17",
       "explanationPublished": true,
       "hint": "Подумайте, подчёркнуто обилие камней на поверхности или то, что предмет сделан, состоит из камня.",
@@ -3864,7 +3864,7 @@
       "ruleSourceRefs": []
     },
     "C8C1D4": {
-      "sourceContentSha256": "3bae6a834acecf7b9b58538ce06e6120dc10cdaf5eb61c864d8de326db43690c",
+      "sourceContentSha256": "3a18d52311162c796e4343bf0df91c460c373dd36680141b01413c36f2501020",
       "explanationSha256": "145e7c07b20104afc21c5aca31245160ca6f2c0087a4ad079b70370d47face5d",
       "explanationPublished": true,
       "hint": "Различите полезный результат деятельности и внешнее впечатление, которое она производит.",
@@ -3891,7 +3891,7 @@
       "ruleSourceRefs": []
     },
     "C914C0": {
-      "sourceContentSha256": "841736df16e236df903e99ff0ef0e608c7282e997fe41502d9de391c50471a20",
+      "sourceContentSha256": "66d243d0eb5afda246949834456ca1cb64bd1575bea611a1da877530f53c4c7e",
       "explanationSha256": "b2ac914c17466fc86737f4fea3e81fa0e104cbfcbbc830974013a58326ab5f0c",
       "explanationPublished": true,
       "hint": "Найдите пояснение в конце предложения: оно описывает черту характера или что-то спрятанное?",
@@ -3913,7 +3913,7 @@
       "ruleSourceRefs": []
     },
     "CEF6F8": {
-      "sourceContentSha256": "1550f5e4614cd740740e77db034e3bcbbc54b47759056972cfcd2c27255ff937",
+      "sourceContentSha256": "727878c420a0840d08cda606d7c3d7f2f8a77d24917684ac210eebeafa74c0ea",
       "explanationSha256": "7eef99e85d97a909bf490ee1386752c9de726e00e23929d84826c22ac3179e21",
       "explanationPublished": true,
       "hint": "Посмотрите, оценивают ли умение исполнителя или называют работы по обновлению оборудования.",
@@ -3935,7 +3935,7 @@
       "ruleSourceRefs": []
     },
     "D6B7B0": {
-      "sourceContentSha256": "aabfa8c22257437cab8bb030a5111f64297a7477a58843a0775f7e1f80abbfdd",
+      "sourceContentSha256": "4996a97200f1896e2a0e63239bb7bcd6a6d718353f5193f4095a20f78b8cb959",
       "explanationSha256": "0046cdc9080c316fcbee56173e1cbe09d56dad2b442e848ee84c6a82f0c95c17",
       "explanationPublished": true,
       "hint": "Подумайте, подчёркнуто обилие камней на поверхности или то, что предмет сделан, состоит из камня.",
@@ -3957,7 +3957,7 @@
       "ruleSourceRefs": []
     },
     "DA5810": {
-      "sourceContentSha256": "3a4257f50c711d35f50c51f75c95f428b794ccc5cb51de9b8f206b7c8e768e65",
+      "sourceContentSha256": "3df4c7cd9e95ee2f2dd75d19242a30816d060d008d7e271272536506d94287c4",
       "explanationSha256": "e10d0c09e5e0c51629ac41be8f5bd76e0ca1a292956bee2895c22e07ea5a9a10",
       "explanationPublished": true,
       "hint": "Спросите, передаются сами сведения или оценивается осведомлённость их получателя.",
@@ -3979,7 +3979,7 @@
       "ruleSourceRefs": []
     },
     "DADEBB": {
-      "sourceContentSha256": "c015fc3c906e14bdb69ba1975c2fb273033d8126879f65afb5f6efeef8ab4558",
+      "sourceContentSha256": "0c519561ee63fd42d0409dfcfff1e4ae21bc8a6d1b5225ff2e511e85ade388d8",
       "explanationSha256": "5a23fb0a078e18ac343821c4a348c0bdade8d1f8f1af9e6d1b8c65eb26339502",
       "explanationPublished": true,
       "hint": "Подумайте, подчёркивается большой возраст деревьев или отсутствие временных границ вообще.",
@@ -4001,7 +4001,7 @@
       "ruleSourceRefs": []
     },
     "DB2B2B": {
-      "sourceContentSha256": "04943c0e0231a7d067ff8edb466fdb65d441d45d136fed8a4b2bcbd6a303250a",
+      "sourceContentSha256": "26638fe707a85340232923d098911469bb0acf8c67329258944c15be8467ebc1",
       "explanationSha256": "693061e2310bd0446014bbc219b3d9dff22c706c236d34e1d0e83904abe874af",
       "explanationPublished": true,
       "hint": "Различите естественность исполнения роли и отношение к организму, веществу либо неразрывной связи.",
@@ -4023,7 +4023,7 @@
       "ruleSourceRefs": []
     },
     "DFDB41": {
-      "sourceContentSha256": "223c21da890450e30ae915445dfadfd0420505857d4c924aabef100adc00391d",
+      "sourceContentSha256": "ceaab23b7177f0dc56a722ede1d6f9baa38cf1fe9c4827e8216845a7f12ae613",
       "explanationSha256": "a5e0af02905eacfdcc7fa43266ab538f9beb9dddefb70bcb94fee772764ee22f",
       "explanationPublished": true,
       "hint": "Различите того, кто не терпит других, и того, кого трудно вытерпеть окружающим.",
@@ -4045,7 +4045,7 @@
       "ruleSourceRefs": []
     },
     "E17E48": {
-      "sourceContentSha256": "0aa33729e7cc4a86d82a73bd38fd3e45a4aff22d3ef7fee18b6f75a19297a32c",
+      "sourceContentSha256": "b6eac0e6ce06831a0f94d143c8a70acac11a2b6607e880c03480ec52949a72c6",
       "explanationSha256": "78c5f3f15e13b01201a679cb8e80d735a6ec41ecf7f3194563dd9c0954a8f22d",
       "explanationPublished": true,
       "hint": "Сосчитайте полезные действия и проверьте, противопоставлены ли они по смыслу.",
@@ -4087,7 +4087,7 @@
       "ruleSourceRefs": []
     },
     "E43CE2": {
-      "sourceContentSha256": "78fdf60447ee40983f565ebbb4e79d89e5df22029a8fd38cb9d9ced4b19fae1e",
+      "sourceContentSha256": "02386bfc081a5f894fa7042ee0a7405ad4f01aba332b76de538f229dab34eab3",
       "explanationSha256": "c001a2d22855f4e33e859048b7a595c04eb60b971c3dcad7799ac7b9505c7c1a",
       "explanationPublished": true,
       "hint": "Проверьте прямое дополнение: человек надевает вещь или одевает кого-то в неё?",
@@ -4109,7 +4109,7 @@
       "ruleSourceRefs": []
     },
     "E48166": {
-      "sourceContentSha256": "c749e1867ecae889600d1a8ebda6b28c44660a35b4cd01bf4bd8e1787078771f",
+      "sourceContentSha256": "12864828c08a69ab816f05c45350e0b5b7d630303dd09dd5fe6cd5af04a762c1",
       "explanationSha256": "365af0f1e6a4d6d3007fcc8d01d956f92a1cdbc364be9ca2ea9481ce027bf907",
       "explanationPublished": true,
       "hint": "Отделите дерево от его плодов и продуктов, приготовленных из этих плодов.",
@@ -4131,7 +4131,7 @@
       "ruleSourceRefs": []
     },
     "E8DABE": {
-      "sourceContentSha256": "bdcb11a6b1391754d99adfbb3b6929c803432ce14855fd21c81335476db3a726",
+      "sourceContentSha256": "7f49d33aed25de4196e374e6644692fae1d502e1c4e1ebdbfa0b0b5437125c95",
       "explanationSha256": "53f10a8b714a42411346436479e704b4faedfd1a6bce915e85e2f0c81202b73e",
       "explanationPublished": true,
       "hint": "Учитывайте не только значение продолжительности, но и нейтральный научный стиль определения.",
@@ -4153,7 +4153,7 @@
       "ruleSourceRefs": []
     },
     "E90686": {
-      "sourceContentSha256": "1407ed97615d657a98bd52faffe325b1a7cc459ba420c22d0df9d623763c42c0",
+      "sourceContentSha256": "84a00ebb509667f6a40f538f5f31d91945d9b7e524387f564b3f76a2ebe45cd4",
       "explanationSha256": "920e800098043e3959fa2fbf4b647254f087c33cbd5b791cb72b4ad87f9f5701",
       "explanationPublished": true,
       "hint": "Сопоставьте название области знания и оценку отношения к людям.",
@@ -4180,7 +4180,7 @@
       "ruleSourceRefs": []
     },
     "EAC2EF": {
-      "sourceContentSha256": "c55e6e9963b1e1cfbea1a248ab314314a96c63f4608f7c9d7781445b9ff78437",
+      "sourceContentSha256": "a578203c94fb92211eeedaa0efe2e0e65250c0f9d032e275351e635f7d7a52d8",
       "explanationSha256": "4ef728d3a2924ea2937dea49127a1cbb47042f09e0dd7fa4e5e3c1dee6cb4460",
       "explanationPublished": true,
       "hint": "Сравните модели «одеть кого во что» и «надеть что на кого».",
@@ -4202,7 +4202,7 @@
       "ruleSourceRefs": []
     },
     "EB0F97": {
-      "sourceContentSha256": "61f8c937ef446f164f2cf1a00d80698e937a0a3034d47af05344959453d55245",
+      "sourceContentSha256": "a81ca679a10183eaec568fab7f8bcece6611765984109501b238e1a176ae4b71",
       "explanationSha256": "e82b08992fb395a2cd463bed828bdf993c4fd99bf18720d1dc8e8e79020fe564",
       "explanationPublished": true,
       "hint": "Посмотрите на конструкцию «по яркости … с»: это метод исследования или сопоставимость двух впечатлений?",
@@ -4229,7 +4229,7 @@
       "ruleSourceRefs": []
     },
     "EECE4A": {
-      "sourceContentSha256": "0eb3143075457240056ad97211e40e2a7850211f0f323eeddc0d3542023d0836",
+      "sourceContentSha256": "36e1889a8d9a48bc972d7d455e3b577c9e8f17a76bca6dcd62c0b768cd169998",
       "explanationSha256": "379ca00c109b77c4c81a38be5450d2ac32953c0fb1a1ae18f0db1613d2a574da",
       "explanationPublished": true,
       "hint": "Сначала найдите слово, к которому относится прилагательное: описывается позиция человека или сила переживаемой боли?",
@@ -4251,7 +4251,7 @@
       "ruleSourceRefs": []
     },
     "EFD7CB": {
-      "sourceContentSha256": "df4c30e6e7c3b9ccda9559932387b4976f8cc9d922b100c6365eac6c8c0978d4",
+      "sourceContentSha256": "17de9dbbef782c667f65254d0c5f7cf0fda6bffd82363facb41784c6aea6d63f",
       "explanationSha256": "c21f9fbff694d3e57dadd01dedbd032867a7ccfefd4dca1daaa7394a872024ea",
       "explanationPublished": true,
       "hint": "Различите чувство благодарности и принятое название документа, в котором её выражают.",
@@ -4273,7 +4273,7 @@
       "ruleSourceRefs": []
     },
     "F46159": {
-      "sourceContentSha256": "aadf5df77144231fc60ef7b49f0e40e254301f741f04d058faac71922b6d1ef3",
+      "sourceContentSha256": "b0de1e547fd7ca97f132225ba63ad5c5e34a4468d3529159db92428fbe46dac6",
       "explanationSha256": "f5452955d63b8dcf64e3b3476146ee48ffd1326432a51c7f8bb2bc377e202ff6",
       "explanationPublished": true,
       "hint": "Подумайте, говорится ли об отсутствии отклика или об отсутствии ответственности за поступки.",
@@ -4295,7 +4295,7 @@
       "ruleSourceRefs": []
     },
     "F53CB8": {
-      "sourceContentSha256": "a8ae10cbf03e8af7339b16809463d7b494da0ca5b58b840e1217adec2d6a5207",
+      "sourceContentSha256": "e3e956d9dc329f5f0ac76d36b6f1a1909518361d39fcb11ee454f34d54e0c6fc",
       "explanationSha256": "424715cabbf21928feb482b8551bb98a4657a0cdfc3cace5cbc25f01dd92ec45",
       "explanationPublished": true,
       "hint": "Спросите, предмет изготовлен из глины или природная почва содержит её в большом количестве.",
@@ -4317,7 +4317,7 @@
       "ruleSourceRefs": []
     },
     "F675D2": {
-      "sourceContentSha256": "368381327fe225d5073883b6a5077f18fc0c96bd2110c1a98c4a5ece4887bf7a",
+      "sourceContentSha256": "2ecfbffc9212383534b5733610d34ca2551b02fbcb076e9a1c2a838d3bb858ab",
       "explanationSha256": "ba56800c7c1a78fd6f239c44d854d2e52c61e28d51c1551fd91266a77436f4a4",
       "explanationPublished": true,
       "hint": "Подумайте, измеряются помещения для проживания или характеризуется сфера обеспечения жильём.",
@@ -4339,7 +4339,7 @@
       "ruleSourceRefs": []
     },
     "F6C12B": {
-      "sourceContentSha256": "e40ea52ad4def97721be35dfa1867b647fc4d1e832e0472300218fadc782dfcd",
+      "sourceContentSha256": "1e96494b2c4a3756f63c9e4b059a742300726f16b2850777a3d350b4938f6c36",
       "explanationSha256": "783167c6b25c7bf200f8db5432c389ebb7c9c467c5595fa44ed23bff66e6ea85",
       "explanationPublished": true,
       "hint": "Подумайте, опыт копился веками или говорится о том, что существует вне времени.",
@@ -4361,7 +4361,7 @@
       "ruleSourceRefs": []
     },
     "F83782": {
-      "sourceContentSha256": "b99c48ee511f6f3f18412a8e20a8cb4ad091754e09596398ad4474c661856641",
+      "sourceContentSha256": "374a50f694ce5dd44c21d88b1cab185f40f822e72e49e2356e2323f52c551e9e",
       "explanationSha256": "5b732b28cd45ec6dc0128733c27a451ba1bb426e40106455aec3c070bf4319cd",
       "explanationPublished": true,
       "hint": "Различите начальную точку действия и то, что откуда-либо отправляется.",
@@ -4383,7 +4383,7 @@
       "ruleSourceRefs": []
     },
     "FDF5A2": {
-      "sourceContentSha256": "ab48044eb5dc14ef4b9940e8ea20eb16ef5129bcf5d02ee7733e62407866f4bc",
+      "sourceContentSha256": "3a79225a0c98e41ea74ab705445bbf501c2666e9ad7e0162134b908e98bbedcf",
       "explanationSha256": "145e7c07b20104afc21c5aca31245160ca6f2c0087a4ad079b70370d47face5d",
       "explanationPublished": true,
       "hint": "Различите полезный результат деятельности и внешнее впечатление, которое она производит.",
@@ -4410,7 +4410,7 @@
       "ruleSourceRefs": []
     },
     "FF5415": {
-      "sourceContentSha256": "e78a2488ea28e98384d5760579a9e96f813f6970612a88ada372351ecd55c985",
+      "sourceContentSha256": "6851d9e6ab01bc13af6f0f821ac734f0bbd2f911cba943387ba811e5a185f000",
       "explanationSha256": "f4534f22eb934be31178e5fffcfb3506e881feacf3eaa349c26f9f1c75331f7c",
       "explanationPublished": true,
       "hint": "Установите, документ фиксирует условия гарантии или сам описывается как заранее обеспеченный результат.",
@@ -4432,7 +4432,7 @@
       "ruleSourceRefs": []
     },
     "0CB0DD": {
-      "sourceContentSha256": "49bde54dfc0d6fe0a780f8449e60fae1041741d39fab5ace346836272cddc8e5",
+      "sourceContentSha256": "b2e7c9dc7e93c83d38a1fe311706f6dd44090e31af4d3a08ccb1b9f3c5048f55",
       "explanationSha256": "3c1b1d14eef15748130fd530a6b2555cc82593c20f21009f081700762c1c64a6",
       "explanationPublished": true,
       "hint": "Попробуйте заменить существительное его толкованием: не получится ли повтор одного признака?",
@@ -4452,7 +4452,7 @@
       "ruleSourceRefs": []
     },
     "0CB588": {
-      "sourceContentSha256": "5ec38a6b4b10302a55db5f70c7604ae9c823129d993718edada1dd82ace49b5e",
+      "sourceContentSha256": "ca5c461a53310f7279ff2aeb24da0d33e5d086dfa76a56477fd15178773c8d63",
       "explanationSha256": "a02bcad488e95c8cf67a4615638e30bd4e968e11d62a09b0116c310a8a9cb7c2",
       "explanationPublished": true,
       "hint": "Проверьте, содержится ли направление движения уже в значении глагола.",
@@ -4472,7 +4472,7 @@
       "ruleSourceRefs": []
     },
     "16D9F4": {
-      "sourceContentSha256": "4c792e6675f0528a8219cb7cbd942ae477e773e1903a0162c811b9d67c3b1796",
+      "sourceContentSha256": "b7952988623a79e26117026f887bb649a5710ee4c137522f2bcb0da5c8e78d78",
       "explanationSha256": "65d98d43777b0a8c3c0c64ebdc4a7bb3face30e213e7b2452abf015e386bdb4c",
       "explanationPublished": true,
       "hint": "Сопоставьте два соседних существительных, обозначающих происхождение правителей. Проверьте, какое из них можно убрать без нарушения связи с фамилией.",
@@ -4497,7 +4497,7 @@
       "ruleSourceRefs": []
     },
     "1D1FBE": {
-      "sourceContentSha256": "c6f35dbaa38b28e78b5a555e3dce3be53eb16624036fff1531a070197189f81b",
+      "sourceContentSha256": "76401a0d4024c01311150692bbe1a7aece3981d2cf5028a832895883a8de4f67",
       "explanationSha256": "960fa2fccbef3d9555b8418d122d2ab9d5100c2a7bb6bdd61d4c6a611959df59",
       "explanationPublished": true,
       "hint": "Отличите буквальное описание бумаги от устойчивого выражения о начале новой жизни.",
@@ -4522,7 +4522,7 @@
       "ruleSourceRefs": []
     },
     "1FCD37": {
-      "sourceContentSha256": "dcd65fca3b64104417281d5f1b4cb5074a0f7f75f70d7f08dba467af1bacbe5c",
+      "sourceContentSha256": "893cf4bff25ce09a23311a469ffd31eaf2b343cd3626393dcb04ea7b12adc810",
       "explanationSha256": "821f7f36658a712521dcbc0ae81b5db7d8c946949b318e58441b99854931c9ef",
       "explanationPublished": true,
       "hint": "Проверьте, означает ли название события уже первый показ и есть ли в контексте противопоставление нескольких разных премьер.",
@@ -4542,7 +4542,7 @@
       "ruleSourceRefs": []
     },
     "1FF860": {
-      "sourceContentSha256": "9a47952ba2bf82201220531783adfc1d775cc2e656c21f42f2b03eee85506465",
+      "sourceContentSha256": "9ad58233bf41951d7032b5e3a19f2779dbcf1b0c725cca0979440b042a6f35e5",
       "explanationSha256": "59b576473fc54d465d0bd136f0d42bca68d55901f8f1d6703a0ca0264c9b7419",
       "explanationPublished": true,
       "hint": "Проверьте, означает ли название события уже первый показ и есть ли в контексте противопоставление нескольких разных премьер.",
@@ -4562,7 +4562,7 @@
       "ruleSourceRefs": []
     },
     "270017": {
-      "sourceContentSha256": "25727761f670cc6eb14818a7c0a52f1ef9d424aaa3a9428375addf170961d37d",
+      "sourceContentSha256": "6028c08f8582a1e8e56ea2c04d61b8f9addf5eb46cc00f7218a0ddd0117e0b75",
       "explanationSha256": "cdbdb098f24e17bf767e807596b2a706d6b092f52de730b5013063b588967d76",
       "explanationPublished": true,
       "hint": "Раскройте значение названия жителей и сопоставьте его с определением перед ним.",
@@ -4587,7 +4587,7 @@
       "ruleSourceRefs": []
     },
     "2C4EBE": {
-      "sourceContentSha256": "880e3e8b0b2c404362a1b8dc2fdab54cae0296eb21f82a3c6269b5b73de84bcc",
+      "sourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c",
       "explanationSha256": "f07bb2ddc07662718f0e66e82defeeb33a6baa4f3742b3e1e439fcac223b5658",
       "explanationPublished": true,
       "hint": "Определите, что нужно выразить: руководящую роль или сосредоточенность интереса к проблеме.",
@@ -4612,7 +4612,7 @@
       "ruleSourceRefs": []
     },
     "2EC28B": {
-      "sourceContentSha256": "323a4ac938014e2258e99277368641a14835a2634db6d95efa8c5108e22e5cc6",
+      "sourceContentSha256": "75057ad2eb6485a30a7f5f11e35e2c8ff09baed53241df65ed3cfac2a13efc1e",
       "explanationSha256": "7aef5e90738111b37647d2f30d89a51a8ae9327e81fafa0674177bd24097c2ba",
       "explanationPublished": true,
       "hint": "Выясните, чью жизнь описывает автор автобиографии и требуется ли дополнительно противопоставлять его документ чужому.",
@@ -4632,7 +4632,7 @@
       "ruleSourceRefs": []
     },
     "3281CA": {
-      "sourceContentSha256": "1b5888fdcb680c937a93a29b93001a6a831c140da140782b8cc5fa7b608768cf",
+      "sourceContentSha256": "985455077bab067b9e368b4c88c148b213d4bed1515c4650a60e3387d3a6a3eb",
       "explanationSha256": "91213ef67014c4e0586499b8e890badbf786700b54919169901d337aefd9a675",
       "explanationPublished": true,
       "hint": "Сравните значения двух соседних существительных. Сохранится ли смысл, если убрать одно из них?",
@@ -4657,7 +4657,7 @@
       "ruleSourceRefs": []
     },
     "352316": {
-      "sourceContentSha256": "be684b5deb01e8188984d27ba86604ad283dcc40f95846b298137bcb71923fad",
+      "sourceContentSha256": "4f475a1821fec07dd625892b220c5254f7c2b917f74163c5e25dff7542c622ab",
       "explanationSha256": "64e45b14c8b0c081bce9ccccd43a16ae25eb357efa091822d1e7aab56dd7b4fa",
       "explanationPublished": true,
       "hint": "Спросите, добавляет ли наречие новое направление или лишь повторяет смысл падения.",
@@ -4677,7 +4677,7 @@
       "ruleSourceRefs": []
     },
     "35F9AD": {
-      "sourceContentSha256": "61cfb17c468746af149e1d9f82c0f5bbf180228b0f2c8b51973dfd2291e67f8a",
+      "sourceContentSha256": "670d3770223e8524cfbd7c34c4e8e0b7d81f244c5b1d541d7d3465fcc1c0c9e9",
       "explanationSha256": "43a0b6a0e6f7c7b2135637e2ec3d6965a97643c1c52a8fe27f3404fb0d0d55f3",
       "explanationPublished": true,
       "hint": "Раскройте значение слова «прейскурант» и проверьте, какая информация уже заключена в нём.",
@@ -4697,7 +4697,7 @@
       "ruleSourceRefs": []
     },
     "3BE49C": {
-      "sourceContentSha256": "0b7720fc596c44b4ba5d1f2da879538a7823e6671f98c092db44137b6f21b5e5",
+      "sourceContentSha256": "5b0ded369c993dedd728f70c9fb94754cf160eceb92b9fd03a541f4d163a1874",
       "explanationSha256": "715180289e57359abd30a1dbabe7f66335329c189e87c0e454755d10f92c6510",
       "explanationPublished": true,
       "hint": "Определите, обозначает ли существительное людей в целом и есть ли необходимость дополнительно ограничивать их каким-либо миром.",
@@ -4717,7 +4717,7 @@
       "ruleSourceRefs": []
     },
     "3C08D7": {
-      "sourceContentSha256": "94a203e813c57f4b48b0b414f675d5cef3d952e498647ff979f041f4f1c2481d",
+      "sourceContentSha256": "8f52eea5400563b9725cafe356fa2e525ca8bfc75665d85fe93f7baa9235651b",
       "explanationSha256": "d62a6955c6c3bee3cb91df1562bfc4f243166526fea61dd293448323c96bc632",
       "explanationPublished": true,
       "hint": "Перескажите мысль: строительство становится важным или само начинает на что-то смотреть, сосредоточиваться?",
@@ -4742,7 +4742,7 @@
       "ruleSourceRefs": []
     },
     "439D2C": {
-      "sourceContentSha256": "9a77e092d85fc87c0b96113498d229138d13a88838a62413af11ecd8672dc980",
+      "sourceContentSha256": "67692ab08eedd9f228899e6ef8654813f5a5ef4c0751b41136bc0142e9bff52e",
       "explanationSha256": "cb985c101b1d9415d0b2640573e74a13e6ff2e962d2045b690fd2ef9967b676d",
       "explanationPublished": true,
       "hint": "Учитывайте многозначность слова «феномен»: нейтральное явление и нечто исключительное — разные прочтения.",
@@ -4767,7 +4767,7 @@
       "ruleSourceRefs": []
     },
     "5D58C2": {
-      "sourceContentSha256": "b189648ee6ff4effac15421a571d51b817f77c0031f453c2ff1543181a817cfb",
+      "sourceContentSha256": "a9bffeb6d71919fecb341cd10ef9e292aef5a4451c8dc979bb48e7fdd6d1a0fa",
       "explanationSha256": "0258aa1e98331a7f068fba4ac645ce22150a33ae98fc6d4a297de3d47884bc80",
       "explanationPublished": true,
       "hint": "Подберите глагол со значением «стать причиной появления ответной реакции» и сохраните инфинитив после «способны».",
@@ -4792,7 +4792,7 @@
       "ruleSourceRefs": []
     },
     "5F9412": {
-      "sourceContentSha256": "20e2a7107206c28b7363085404b4cd95d1f97e96c9f189c996099b288fb49442",
+      "sourceContentSha256": "4f376979606233ab43f897bd75a87d15444c64b54262f8ce53f8e05aadbf678e",
       "explanationSha256": "8d67c7df1c1e404e38223c00463412914cdeb11e6fc03e4e7594810bd2845d97",
       "explanationPublished": true,
       "hint": "Проверьте, входит ли признак единого куска в само название каменной глыбы.",
@@ -4817,7 +4817,7 @@
       "ruleSourceRefs": []
     },
     "61CAE3": {
-      "sourceContentSha256": "4c8282c6c2fc8fdd560265b3676461381663936a5fc0e4cf0ef4321c3cffbf9b",
+      "sourceContentSha256": "929f1eb243f0d24d050c71edafca7e0767a5b30397afb62c9aee8040b7c9ab23",
       "explanationSha256": "c0af3130854d2958cdc7dc8d66ced76321b569c1bc09daee494332e66f9c318a",
       "explanationPublished": true,
       "hint": "Сопоставьте значение термина о написании слов с однокоренным определением. Какую новую информацию добавляет определение?",
@@ -4842,7 +4842,7 @@
       "ruleSourceRefs": []
     },
     "62221D": {
-      "sourceContentSha256": "1eb7a5b17623747d616a8068a18b3058b94ab3aac15cf72ba0c2608c71d6053a",
+      "sourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31",
       "explanationSha256": "5cf9e56dc0d965a3ff7a9ae38a7cbbdc539062de60a7804b68c58ffe94ee8f92",
       "explanationPublished": true,
       "hint": "Определите, какой глагол обозначает появление отклика на воздействие, затем согласуйте его со словом «фильм».",
@@ -4867,7 +4867,7 @@
       "ruleSourceRefs": []
     },
     "627BFA": {
-      "sourceContentSha256": "2a2c5e59756dd39a93ae83e1f4617d4b8574f4901e4354bb01bb7bf27da4cb67",
+      "sourceContentSha256": "5b8cf69b6c5840f3d1f24b32ccdbcd1f1877772f42501494949c1bb6c990797f",
       "explanationSha256": "501f9d70b6dbd2e07c91bd1178813ce1f25d2b63d9d83cb04e9500386d790aac",
       "explanationPublished": true,
       "hint": "Найдите само противоречие в политике. Уточняет ли определение отдельный признак или только подчёркивает уже названную необычность?",
@@ -4892,7 +4892,7 @@
       "ruleSourceRefs": []
     },
     "64BAB0": {
-      "sourceContentSha256": "427475ce3f0f7d990f7b7dcda610813d26bf3a9a594d5e545cb7fae173c70b4e",
+      "sourceContentSha256": "50b8d97e9393e62b1557364ef0d273a10a5be7c419742a1eb00f5562f3fb6344",
       "explanationSha256": "7dfa2a22127160d6ff7986893d10f068c2648ae0a22b84ca9015ecd4dd428730",
       "explanationPublished": true,
       "hint": "Раскройте прямое значение существительного: назван ли признак глубины уже в его толковании?",
@@ -4912,7 +4912,7 @@
       "ruleSourceRefs": []
     },
     "6C3603": {
-      "sourceContentSha256": "f98bf9b3e89b13491083589568d12f9b2117e09ec059d535ea659ef61a6da2a9",
+      "sourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714",
       "explanationSha256": "cb48ec7e81c01e311fd2ebaf82c0a0ad65767185582564f2f46c409a497f5ec3",
       "explanationPublished": true,
       "hint": "Оставьте глагол из предложения и вспомните его устойчивое сочетание со словом, обозначающим успех в состязании.",
@@ -4937,7 +4937,7 @@
       "ruleSourceRefs": []
     },
     "6ECC3F": {
-      "sourceContentSha256": "b340154b0007c9096a4fe16f3e120513ff391e66680d8c8f627feb5a62be1bb6",
+      "sourceContentSha256": "c5945088e4e2969ca111a243f819c2a844d4f77f23f4659375da22c5d8427a65",
       "explanationSha256": "738b0b213f8141aa49b6a7d6050940151ca04bfd57b6e2c15162464a011f0097",
       "explanationPublished": true,
       "hint": "Выясните, чью жизнь описывает автор автобиографии и требуется ли дополнительно противопоставлять его документ чужому.",
@@ -4957,7 +4957,7 @@
       "ruleSourceRefs": []
     },
     "6F7776": {
-      "sourceContentSha256": "df27b1e8112a2cfe47175920ae95f2b02cb640274910acbdd6b3feba3fb93081",
+      "sourceContentSha256": "76999d482c49a92190c5852acb4e96fa98907498abf2e28c7f5b5e6d8c114e17",
       "explanationSha256": "2fcc0c29017a916389db19154ace9e58c1025533e49bfc3310260a8f1f5fd17d",
       "explanationPublished": true,
       "hint": "Проверьте, отсылает ли определение к уже названному альтернативному занятию или лишь повторно выражает идею замены.",
@@ -4977,7 +4977,7 @@
       "ruleSourceRefs": []
     },
     "7013D5": {
-      "sourceContentSha256": "c5bcaa90f67530ec730d9dda7b4ddf310e0120beb2c64939dad5cf71f7f46f17",
+      "sourceContentSha256": "579b891f2914f18d2c73641161237bcf01071681fc8372bcec27325b36de087d",
       "explanationSha256": "e86059ffda081b3a1e48d6e73ba4961c6337bca59e847e62955b5c2f1b743a5a",
       "explanationPublished": true,
       "hint": "Установите, к кому относится рассказ о жизни, и подумайте, есть ли противопоставление романа Набокова чужому произведению.",
@@ -5007,7 +5007,7 @@
       "ruleSourceRefs": []
     },
     "74341C": {
-      "sourceContentSha256": "e12d9b8ed99f6a73ab7c9af2a0e6e35b83457c35f2ecb0f7cd9a135bb139a647",
+      "sourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f",
       "explanationSha256": "b5158854145c36ececb6f4cb4a9f964653ec90fdb8518a1034d96561a1467df0",
       "explanationPublished": true,
       "hint": "Отделите быстроту развития от поспешности решения или поступка и учтите стилистическую окраску слова.",
@@ -5032,7 +5032,7 @@
       "ruleSourceRefs": []
     },
     "78A254": {
-      "sourceContentSha256": "eeae43bbcbc9a6c3269d3fba5bad4a043d434ac76bfda185cc824eb1ac59db75",
+      "sourceContentSha256": "a8a37c1069014294f5df64add5b56d1e8df85b0c1dcab206217d7aeec8b0b97a",
       "explanationSha256": "13b977b149cf745f1a835270cc2252f752114ae0ddbe11d447f3160515f231bd",
       "explanationPublished": true,
       "hint": "Проверьте значение именно глагола о жестикуляции, не подменяя его более широким значением слова «жест».",
@@ -5057,7 +5057,7 @@
       "ruleSourceRefs": []
     },
     "7CD0F3": {
-      "sourceContentSha256": "5dde1671f7bd242d35805ac0efca7b2c9ba4dd2f58455f343ddf42f9b156cd8b",
+      "sourceContentSha256": "6fcdcb99389adc6547d93c0c9627ac1d5b88d13d2b1c021195ce30f31a8edab6",
       "explanationSha256": "d49ae02fc27be418dd76842ee83e826530977fc53b48b7411c8d840717a9caee",
       "explanationPublished": true,
       "hint": "Разберите значение приставки и всего военного термина: содержит ли оно уже ответ на наступление?",
@@ -5077,7 +5077,7 @@
       "ruleSourceRefs": []
     },
     "849E31": {
-      "sourceContentSha256": "f83388cff93f6e1727bd577fdc989d8930f0051ac50760bf99722f36376a86d9",
+      "sourceContentSha256": "3e4cfe93fd0978ab1fb7b240ea5aff281cde37cc7bea88e66fe82130f61816a7",
       "explanationSha256": "f83e8404ff720864604397ca883fe233864a788d38a0c1ba9eaf1a0ddb64fc13",
       "explanationPublished": true,
       "hint": "Раскройте анатомическое значение существительного и проверьте, нужно ли ещё раз называть часть тела, к которой оно относится.",
@@ -5097,7 +5097,7 @@
       "ruleSourceRefs": []
     },
     "84A09F": {
-      "sourceContentSha256": "6ce5be7e9c9249b8ec9f92a42388f877489723359f0dbffc6a09ae7a422b1483",
+      "sourceContentSha256": "fd82e56ff78b74ab57e2aa496746f3b9eb88113cb0dda7135f5184b8fc7565c3",
       "explanationSha256": "501a453f3555c016cbca0b01b75a2e15a51e7e1761b64d7ffd9502cba79853ab",
       "explanationPublished": true,
       "hint": "Сохраните существительное «задание» и вспомните привычный глагол исполнения поручения.",
@@ -5122,7 +5122,7 @@
       "ruleSourceRefs": []
     },
     "8E5D59": {
-      "sourceContentSha256": "e5bbe0fd7f72fbe083ca904f0bfb10558987c3b38101f07b9dfdb82ee6187373",
+      "sourceContentSha256": "236701bdb2f8f6336d38e86d49dfc6c19fa30bc52b40d7cb96c940b3953702ba",
       "explanationSha256": "f3f912f5316e40fe2ee370968bb7e19385bc49c89cd01056813bf1edf52fafc6",
       "explanationPublished": true,
       "hint": "Проверьте, какой знак оценки уже содержится в значении существительного.",
@@ -5142,7 +5142,7 @@
       "ruleSourceRefs": []
     },
     "91A822": {
-      "sourceContentSha256": "1c199800f960223d8aa23d18294c8697935adf591fcda126c020ca8c3882e162",
+      "sourceContentSha256": "d9f4ce3e4efacecffc11d4ecfcf4e1c3c09c01ebcc29223a7cf0701ff4813386",
       "explanationSha256": "cfc657b99b84534c581a5dab59797029152d51af9b670f92dd5a31cc8816ba70",
       "explanationPublished": true,
       "hint": "Сопоставьте значение термина о написании слов с однокоренным определением. Какую новую информацию добавляет определение?",
@@ -5167,7 +5167,7 @@
       "ruleSourceRefs": []
     },
     "926BD7": {
-      "sourceContentSha256": "49fa2208c28cadf61fd030915530ae5437719b9756d71ce9e8262018455da3af",
+      "sourceContentSha256": "3f21c511b3a79a1a3740f3cce1eac34454916b95d399a5919ec45625d9c54ab2",
       "explanationSha256": "de4e32abd59a05e4410ad1bfcae0335271a8dfc5df1a29e8e9d5ab4d72c01436",
       "explanationPublished": true,
       "hint": "Сопоставьте два определения результата именно в контексте соревнований, а не любое употребление слова «высокий».",
@@ -5197,7 +5197,7 @@
       "ruleSourceRefs": []
     },
     "98489F": {
-      "sourceContentSha256": "77d062fa94745d5bd706df8eff0c1fd403f7b6b97211dc404248cb773b3f1024",
+      "sourceContentSha256": "a91ea717f5bedc169ed34c6f0fb827ef48fbdfad4b0a0ae58bc881f37686e185",
       "explanationSha256": "4ef59c24bc2d29cd91e94d3cd2712f8d2231b671397eafcd143c1296de59b9d6",
       "explanationPublished": true,
       "hint": "Проверьте, уточняется ли конкретный размер города или лишь повторяется общий признак крупного населённого пункта.",
@@ -5222,7 +5222,7 @@
       "ruleSourceRefs": []
     },
     "9BC9C0": {
-      "sourceContentSha256": "b3be5e1a844150835c9d4cb91aa4da0644bb9e0035dadb341e4587cc7e4e8850",
+      "sourceContentSha256": "eb50bd605d11d8fa1caee59c576b063e28c217f81914092c15dbc8fb4064525e",
       "explanationSha256": "52746141a284163c748361bca6dad4b86aede89dbd23871aab28e97b6affe500",
       "explanationPublished": true,
       "hint": "Проследите словарную отсылку: если должность вакантна, занята ли она?",
@@ -5247,7 +5247,7 @@
       "ruleSourceRefs": []
     },
     "9D74E9": {
-      "sourceContentSha256": "60fede4612318af872d9aebbb4b7876f1b5ba238b983ef666cc39ecb249bca2b",
+      "sourceContentSha256": "dfc3cec0f864860fabc8055acb8104b4e4e9c75d07cf5463c8600566380106ed",
       "explanationSha256": "c9b8a6b09b0f8f2a510406a8aaeda0e5de21db13f8e24e5d95c5e342976a93bf",
       "explanationPublished": true,
       "hint": "Проверьте, выражена ли наибольшая благоприятность уже прилагательным и требуется ли ещё один усилитель.",
@@ -5267,7 +5267,7 @@
       "ruleSourceRefs": []
     },
     "9E1098": {
-      "sourceContentSha256": "fba2c248596d568606c0a9eb123a9c4d52a375f32a8d8259156f30cde1eb2f4c",
+      "sourceContentSha256": "fb8b94c827cec3fcc90dfc158eb69d5b69e6c47b6061d8c622db61bc155e76a4",
       "explanationSha256": "2bbebf16e6969658bcc747d2ef2b7870abbd81dc24be9edb73ae1d8d437fc505",
       "explanationPublished": true,
       "hint": "Раскройте переносное значение музыкального термина и сравните его с определением перед ним.",
@@ -5292,7 +5292,7 @@
       "ruleSourceRefs": []
     },
     "A0983E": {
-      "sourceContentSha256": "8c197495dcbca259a33ea3f865e59ffdafcf04eb6299c70380f240aaf9c9b206",
+      "sourceContentSha256": "3c2bcaa7c799fa23317b903f40bc709bb4bc0fbb0822ce479ad4458a037e9616",
       "explanationSha256": "7fc11c79ca7b2a72874e13b88343f5eec606a092205272c0bafffdba525b4f34",
       "explanationPublished": true,
       "hint": "Определите, говорится о руководящей роли или о том, насколько много внимания получает проблема.",
@@ -5317,7 +5317,7 @@
       "ruleSourceRefs": []
     },
     "AE91AF": {
-      "sourceContentSha256": "70676778e774aadc8c285f3bf462ed5be04821b0867fc55eaabffb403392f2db",
+      "sourceContentSha256": "70aae422c7739976067eb6cd546c7c7cbc5e64fab3b9177bc593d1851f961b46",
       "explanationSha256": "89dd9880b95ee953dcc8653e236215d038694428c52180da999dd07fb7bce502",
       "explanationPublished": true,
       "hint": "Подставьте толкование глагола и сравните его со значением наречия перед ним.",
@@ -5342,7 +5342,7 @@
       "ruleSourceRefs": []
     },
     "B3C04B": {
-      "sourceContentSha256": "c78a4dc553450ddf8faa39e2b183da31465162387f8e50b33320daade960886d",
+      "sourceContentSha256": "d3684fb250668a721d9a9d671d8c224831d5df95b3d65a0cff6b5225d89d7d9b",
       "explanationSha256": "017b8b34542d7f9d13cb950ea99b33cd7a299c106ccf20357503cfaeab4ef4f4",
       "explanationPublished": true,
       "hint": "Раскройте значение музыкального названия и проверьте, добавляет ли определение самостоятельный признак.",
@@ -5367,7 +5367,7 @@
       "ruleSourceRefs": []
     },
     "B5E8E4": {
-      "sourceContentSha256": "1c2edc483c8faac1fa81f813d46b7cb58ef25aa1cb3761e5734c5ac05235367c",
+      "sourceContentSha256": "526532a9eda737d9c58e2a8de6b0bc5c4f7da9fd22f080372d371e146491ec00",
       "explanationSha256": "7a112f8d948b220f623b526a7ff0f278a4be0ad621c2a2b7883e963f627c72af",
       "explanationPublished": true,
       "hint": "Различите большинство отдельных объектов и долю продолжительности. Проверьте, требует ли смысл ответа словосочетания.",
@@ -5392,7 +5392,7 @@
       "ruleSourceRefs": []
     },
     "B83CD8": {
-      "sourceContentSha256": "87c194ca56a3bf8e69e26a5828852843285781d999e91d9ad217802fc61827e2",
+      "sourceContentSha256": "f65c9c1647ed674447c94fbb16eb42ea4533215a08a2ca5d036e4381c1cf0d18",
       "explanationSha256": "d901722f5d96ca5d53663d164a2aa929ac3ceddef28a5b0ec21921e69f1aaf94",
       "explanationPublished": true,
       "hint": "Сопоставьте два определения блюда с его словарным значением: какое повторяет оценку, а какое уточняет происхождение?",
@@ -5417,7 +5417,7 @@
       "ruleSourceRefs": []
     },
     "BFAE57": {
-      "sourceContentSha256": "e27236bacfb7f1f2b1d9015b9c32101a78ce293dd02022e4ccb6275f14b28754",
+      "sourceContentSha256": "bc5f6f24386574d72b6f98dc573482a7b766a634d9d4751c10e1eb0b3e75e26c",
       "explanationSha256": "5e66ede7e79450832bccb83069d98a6eadd2dd6d5efca7151395e0feebbe9fcf",
       "explanationPublished": true,
       "hint": "Проверьте, не входит ли назначение «на память» уже в значение существительного.",
@@ -5442,7 +5442,7 @@
       "ruleSourceRefs": []
     },
     "C1F6AE": {
-      "sourceContentSha256": "8c67963752bb38d91b207c808c1d0fd011eb2b82d5f0a9b47a17557be1380220",
+      "sourceContentSha256": "063e056773b9b5d180f14c6f3af74009d65ed95ff16bc0f6e20fd0eda6f803dc",
       "explanationSha256": "58dcad01fb21b2b4e14c6db639aaa0b0976d70848a7f57c385b3cdc7ef97c726",
       "explanationPublished": true,
       "hint": "Сопоставьте существительные, называющие итог деятельности. Не приписывайте слову обязательную отрицательную оценку без словарного основания.",
@@ -5462,7 +5462,7 @@
       "ruleSourceRefs": []
     },
     "C3F6BC": {
-      "sourceContentSha256": "bbf83ddea172cca038bf3c8691bc571d1b0804324752a12be9ac1d3c8469cf84",
+      "sourceContentSha256": "d3afc68fd6cbf94d6938d5b1ef95116a2cad5d699f8b797b7e39c4b6f2cac103",
       "explanationSha256": "6b680c6b59232a677c55132b878bcd6e3862aea51476fdd188457004a27e0ba8",
       "explanationPublished": true,
       "hint": "Сопоставьте два указания на длительность памяти: какое можно убрать, сохранив другое?",
@@ -5482,7 +5482,7 @@
       "ruleSourceRefs": []
     },
     "C50FE5": {
-      "sourceContentSha256": "0c60a2ec8f5a3f5c2a03014f2490b87fae29a1b3c43c9d1f85bf7788054a80c0",
+      "sourceContentSha256": "a450ba077b0447bc08b2bf2f94d696eed8cf551f491a4756271ddc5c476d4b93",
       "explanationSha256": "771e21d4b793d84cbf799f471be6ad475efe006ad5e6df8e4167dd6c62a9f00f",
       "explanationPublished": true,
       "hint": "Не ограничивайтесь поиском одинакового корня: проверьте, добавляет ли наречие новое качество движения к уже названной цели.",
@@ -5507,7 +5507,7 @@
       "ruleSourceRefs": []
     },
     "C7CF0B": {
-      "sourceContentSha256": "aa2ef702c105196c46dc7122e6f4434908065a090ff22c4adadabb02c43fc441",
+      "sourceContentSha256": "7ded5921a347a48cf5c6fd1f9a96066b7ab5ab1e6472dbfbee44d29d604392fa",
       "explanationSha256": "468cf05234f1e91ca8a3d7ff83aba7792fe345208521936f8062c35dee0968f6",
       "explanationPublished": true,
       "hint": "Вспомните устойчивое сочетание с существительным «впечатление», затем сохраните прошедшее время глагола.",
@@ -5532,7 +5532,7 @@
       "ruleSourceRefs": []
     },
     "CAB45F": {
-      "sourceContentSha256": "27d0ad8149b687fedae6eef59c1d2c5adfef2496daf3b1b411e1df5b1e98ec25",
+      "sourceContentSha256": "64a4f762f9c2018063f09b0801ad63acdd0bfa5591b791c066834be298a4e0ac",
       "explanationSha256": "261a39c35d3ae429097d229cbbc8104bfe54938079ba19589dcda2f418192cef",
       "explanationPublished": true,
       "hint": "Раскройте значение термина и замените определение его синонимом: не повторяется ли правильность дважды?",
@@ -5562,7 +5562,7 @@
       "ruleSourceRefs": []
     },
     "CB11BB": {
-      "sourceContentSha256": "d292d08f06cb73d5a253f2efed2ad8178c066d8af746fba946a78caab41d6db7",
+      "sourceContentSha256": "18e02afa18711593c577ced94b56f13d3c3e2c2211671ee2e5a8e7c72de6c456",
       "explanationSha256": "a341356a0fc8b27a706d78b2d7c4dada72c528beeeb7f86f8e29f536d0958409",
       "explanationPublished": true,
       "hint": "Замените существительное его словарным толкованием и посмотрите, не возникнет ли повтор.",
@@ -5587,7 +5587,7 @@
       "ruleSourceRefs": []
     },
     "CD5855": {
-      "sourceContentSha256": "7b5fbd68fff438697f0a577c3fd93d17c07f71d0aeb29ef0358bd7ad472588c2",
+      "sourceContentSha256": "84d1cdb24139187646c8ffc678dfece97d3e6393698488d157805bce2dcb5673",
       "explanationSha256": "6ae71e44fc8c5b7e3fc8beb30bfbb5d057dff1b80e62b6c56e7eee977d651f2d",
       "explanationPublished": true,
       "hint": "Определите переносное значение многозначного слова: относится ли оно уже к будущему?",
@@ -5612,7 +5612,7 @@
       "ruleSourceRefs": []
     },
     "D52745": {
-      "sourceContentSha256": "ee24784fd5c7be44400afc1152bd45a4b40a1c6c2daa6bfbbbf8d7db7a23b0de",
+      "sourceContentSha256": "bfd312e908ccd7014e6d0900dc2e1cb49eed1553d719188872b048f5ac6148c8",
       "explanationSha256": "506d62bda1b5e173fd4f0d4b2c8ba0d33a899f2d1f6eec274584d2a003aefa73",
       "explanationPublished": true,
       "hint": "Уточните требуемый смысл продолжительности помощи. Не выводите запрет сочетания только из отсутствия примера в короткой статье.",
@@ -5632,7 +5632,7 @@
       "ruleSourceRefs": []
     },
     "D820E1": {
-      "sourceContentSha256": "dfc156bebe2f9e6881d12ff0826bd5a45f50cffc8582011d7eefa6de46ed8e5e",
+      "sourceContentSha256": "ecfa081cc7d5d56aa0d567b35b8844fa97a82f3588ca66246931678c840a9a4d",
       "explanationSha256": "ee2e8bca0d935368252a7b5a5812435f84d8639ce1029f287d9a0b91a2bcdebe",
       "explanationPublished": true,
       "hint": "Определите, предполагается ли плата за сам подарок и уточняет ли наречие что-то помимо этого.",
@@ -5662,7 +5662,7 @@
       "ruleSourceRefs": []
     },
     "DA7A61": {
-      "sourceContentSha256": "f9027bacdbed6388c43deb758a61c48c4d0a885b441def6de864ecddb23ebddc",
+      "sourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861",
       "explanationSha256": "1baf2879575b7ed27e4e23d2599ad19a3d7b4caf342c20f2a4413fd0e44566cf",
       "explanationPublished": true,
       "hint": "Перескажите сказуемое через «являются ценными» и подберите глагол для такой характеристики картин.",
@@ -5687,7 +5687,7 @@
       "ruleSourceRefs": []
     },
     "DCF3FC": {
-      "sourceContentSha256": "a97d212dab9702dae14915cdc6987ab229abd2dd07e3fc6c8ea34cc35cebf379",
+      "sourceContentSha256": "ff47a759e08e7fe34ffd57d32714fc7295a08649c75b71f44512c059f3c9b7c0",
       "explanationSha256": "4ad3786464c901d39b26716f067bea1bf803fe3b2db6e629a9779188ff10e020",
       "explanationPublished": true,
       "hint": "Раскройте значение существительного: указание на религию содержится в нём самом или добавляется только определением?",
@@ -5712,7 +5712,7 @@
       "ruleSourceRefs": []
     },
     "E19566": {
-      "sourceContentSha256": "8f6774b384b1e4fde8405dfc4fa8633f1417d3755e1058b19839e185d586c193",
+      "sourceContentSha256": "dfb384588187322df1e0fedb0e880fee71243c25af84eb02566a6876d28167d1",
       "explanationSha256": "72a871001594b544c9cd59e9e23a78091e235b9d0cf04fe6a280a8f3fdf0e8eb",
       "explanationPublished": true,
       "hint": "Проверьте, предполагает ли названный способ общения обмен между сторонами и есть ли отдельное противопоставление односторонней речи.",
@@ -5737,7 +5737,7 @@
       "ruleSourceRefs": []
     },
     "E1D6F2": {
-      "sourceContentSha256": "f4f2f415785c941bcf4ffaefdb62875b57120b423b67e65bfdd29631df4d44b9",
+      "sourceContentSha256": "4ae479f514071e37b4d30d62c55aabcb336448b3194eb413c76794e5c80888e1",
       "explanationSha256": "116ecfcc93bb4c40cebd62ab844f3a93a1b8b6f03dc89395bf56eb465236f43b",
       "explanationPublished": true,
       "hint": "Используйте военное, а не переносное значение существительного и проверьте, обозначает ли оно уже положение впереди.",
@@ -5762,7 +5762,7 @@
       "ruleSourceRefs": []
     },
     "E50C0B": {
-      "sourceContentSha256": "80255b09cd3e37854cd344210ef8c670b1320eac15a73c1cf8fe6acc29d158d8",
+      "sourceContentSha256": "e0c21360f96de92bdd78c72a45101fcb9273762e6d120709dff459be8d0c347e",
       "explanationSha256": "1d9fa2cb58901dce4a016cbd43651c28a80f8e3bf21cae7e8b96b7870c4b7399",
       "explanationPublished": true,
       "hint": "Проследите отсылку от глагола к существительному: событие уже наступило или только предстоит?",
@@ -5792,7 +5792,7 @@
       "ruleSourceRefs": []
     },
     "E68FF7": {
-      "sourceContentSha256": "f893a75b15a63270a797903bdbd2c6488af6ee14526a08c5955e9b5f1a5be40f",
+      "sourceContentSha256": "e6fb9cd39da6cc35d8a9ba697a9a487c0a57cc8ab19db9bb493cb84e2d80a4a7",
       "explanationSha256": "ae6226425934d4155b93315f7f2daae428390f73158a06347087fafcc75ea1a2",
       "explanationPublished": true,
       "hint": "Выберите прямое значение названия времени суток и сопоставьте его с определением.",
@@ -5812,7 +5812,7 @@
       "ruleSourceRefs": []
     },
     "E86C6A": {
-      "sourceContentSha256": "86576d17d3db68edabe07ce6a123de55955d4fd3a19a40f7dbfb0af0b26feb47",
+      "sourceContentSha256": "0cfc41176aab0dff79f999981eddc05a2d0dd687cbf3ef502d00572a6309012d",
       "explanationSha256": "11bec2d91f2905e41556fae9d7c6475538edf3d3407b2b95559f831c0238311a",
       "explanationPublished": true,
       "hint": "Сопоставьте значение термина о написании слов с однокоренным определением. Какую новую информацию добавляет определение?",
@@ -5837,7 +5837,7 @@
       "ruleSourceRefs": []
     },
     "E98B8B": {
-      "sourceContentSha256": "9921fc2cb56b7cf9e4312613e72ddfcecb2fc6c71e83f1f35df76310621fc413",
+      "sourceContentSha256": "020c04507234f9dd0b8b434816c4020c95ab3348003f48d594f71386529a2653",
       "explanationSha256": "050d46b87e27bc1e36ef2d75c32169514d79e44a5ec90142869ec6c4e730e7bd",
       "explanationPublished": true,
       "hint": "Проверьте, предложены ли два противоположных варианта выбора или поставлен открытый вопрос для исследования.",
@@ -5857,7 +5857,7 @@
       "ruleSourceRefs": []
     },
     "EFD46C": {
-      "sourceContentSha256": "a6738fb7b30dba2497deaca7a97653b86bec4eb2b494a54d57bbe8a4727c71e8",
+      "sourceContentSha256": "26c4cc0f3554e553d6123121627d35746d87666d22bb0afbd88ecfeb1d11d0c5",
       "explanationSha256": "ffb8f88067173947a4de6dcaedb85f9f212d124cb87f2dbc65cfa1049b3c212d",
       "explanationPublished": true,
       "hint": "Сопоставьте два соседних существительных, обозначающих происхождение правителей. Проверьте, какое из них можно убрать без нарушения связи с фамилией.",
@@ -5882,7 +5882,7 @@
       "ruleSourceRefs": []
     },
     "F06518": {
-      "sourceContentSha256": "9e4d45a8835884276dd0986ceb154a43b607ebbc3a7267e10c6a5c8b00b4e490",
+      "sourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3",
       "explanationSha256": "5ab1e6ec90b015efb80a09ebecd14c44a112af7cb6973691221d494ebd969b06",
       "explanationPublished": true,
       "hint": "Сохраните глагол из предложения и проверьте его устойчивую связь с существительным. Не заменяйте сразу оба слова.",
@@ -5907,7 +5907,7 @@
       "ruleSourceRefs": []
     },
     "F3E10B": {
-      "sourceContentSha256": "0be698ad39eb43bc7a44d33bb2c2a0db05651691b65f0626b9a805e6e0a37589",
+      "sourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125",
       "explanationSha256": "d0b67638b7886c001c125250dc2dfe80efb69f84a788567c07f35088c230553c",
       "explanationPublished": true,
       "hint": "Различите результат, которого добиваются, и недостатки, которые уже имеются и должны быть устранены.",
@@ -5932,7 +5932,7 @@
       "ruleSourceRefs": []
     },
     "F6854B": {
-      "sourceContentSha256": "2ca3282539789767c4fbee4ab1aa92d977f8a0d9da061feed189b27ac4cb5c7e",
+      "sourceContentSha256": "61709fa8c28d7f535f37d50df23db22b64940e9d7a595820e57a7f90654c03f4",
       "explanationSha256": "884ac892e189fe7bfa2f3ae90b597d717a549d464ef8528763d24f21aae9ebef",
       "explanationPublished": true,
       "hint": "Определите, предполагается ли плата за сам подарок и уточняет ли наречие что-то помимо этого.",
@@ -5962,7 +5962,7 @@
       "ruleSourceRefs": []
     },
     "F748EC": {
-      "sourceContentSha256": "8b0c03ea7d08ae34c6030847b6333c3c8f10abf7ed6229bd551781cbf0f36d44",
+      "sourceContentSha256": "594412ea29d90f399f80e2c7929e613af7d653adb851f77e200bfdc5c5948868",
       "explanationSha256": "45615a3e425e70ac832606f596495b785dd74345f3e9377b10ec758e7624d098",
       "explanationPublished": true,
       "hint": "Сравните сочетания с названием действия и с названием качества человека. Какой глагол нужен при сохранённом слове «поступок»?",
@@ -6023,7 +6023,7 @@
       "ruleSourceRefs": []
     },
     "31CB51": {
-      "sourceContentSha256": "ec4b5cae0f7065d1cf9a9605313373fa9cbf076e2da396a4e8e49cb33f5d8e82",
+      "sourceContentSha256": "147da53c0ecf06c391af5de5d3aac284a3bf5cc75e52a06da712395ef8b7068e",
       "explanationSha256": "d67721832fc67ec1864370aebb8537ea96f88c50d2451b6db3ab7b16d4b58156",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: снята, сливовый, досуха, сосредоточение, кралась. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6054,7 +6054,7 @@
       "ruleSourceRefs": []
     },
     "39507B": {
-      "sourceContentSha256": "c115da32f43321f3b400c6f790a504b9f784c07993933090783bd0de271f6dc5",
+      "sourceContentSha256": "cff3f19c19d255ac895cc6b3e2d2e25dbc5dcb8599321b29f68889edd763959b",
       "explanationSha256": "908a1127a49a387ca1db7acb86d2bc1f06df175abdf27eb5ae743cae923119bb",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: туфля, поняв, доверху, лекторов, отрочество. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6085,7 +6085,7 @@
       "ruleSourceRefs": []
     },
     "42DC9B": {
-      "sourceContentSha256": "72add3b7cd3dc1ce78a52edd6a66b8bdf87f2945faa00a80ce8e96ae0de6f142",
+      "sourceContentSha256": "682c60b5ed71362e941da29331aace8eb05a884327575a84be486971b5b26f97",
       "explanationSha256": "82804b57d9a2bb48379db7eb2a3eddab108993e4bb701277dbf95fd60e62da8d",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: туфля, опошлить, газопровод, углубить, прозорлива. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6147,7 +6147,7 @@
       "ruleSourceRefs": []
     },
     "6A530E": {
-      "sourceContentSha256": "69a6bbbe2b9616de2852a41fa88e82d9ffda16677359e9e3d91f8664970d3f9e",
+      "sourceContentSha256": "c77965c7ddd5f1eb11cede0000150a8ca16724eb7a50f6d24fb6590eae4fd6fe",
       "explanationSha256": "a62900297008b6a645e0a7a03fb3db1eb5dc24eabd6896faec828b414b929dc7",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: сливовый, облегченный, закупорив, красивее, нефтепровод. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6178,7 +6178,7 @@
       "ruleSourceRefs": []
     },
     "7756B9": {
-      "sourceContentSha256": "f360e0960fb024c6a2c0f372942de0850abf43b16847577bd09a2a6c37676f99",
+      "sourceContentSha256": "aadae168dde715dc0a8de84d5d02ee30406b93395d896336bd2460a084405202",
       "explanationSha256": "25f65f0028273389bc4c4a72f910c44cf0ccfdcc3854df3e0689561d8a767458",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: поняв, донельзя, туфля, нефтепровод, отрочество. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6209,7 +6209,7 @@
       "ruleSourceRefs": []
     },
     "7E19AB": {
-      "sourceContentSha256": "b33b49b35471fb8e8d4909a28a0b06a97b63ee34e09ef946aedfe2b843615ac1",
+      "sourceContentSha256": "1e6194fb7ea1db1a92c42df12eb2c84ad4ba8db72fa298b19dcb2198394de01f",
       "explanationSha256": "1ef39779cc564c71c81c9607c977b17966ff2898e2db6033d8801f63f009fffa",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: значимость, облегчит, углубленный, корысть, поручни. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6271,7 +6271,7 @@
       "ruleSourceRefs": []
     },
     "828CBC": {
-      "sourceContentSha256": "f7ee853176a8def9d7d2104df2e9872a7b7bc437eec4efa675bb5c3e1ad5e74d",
+      "sourceContentSha256": "e9ecb5704025196ee8e14882fe387a23a74c64511fcee7210a1a82cbf89dc7a8",
       "explanationSha256": "9b02398397e97d83240587f5e7504934ac133bf5f01ab7a832f10b542c61a501",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: дешевизна, мозаичный, досуха, черпать, еретик. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6302,7 +6302,7 @@
       "ruleSourceRefs": []
     },
     "9B2535": {
-      "sourceContentSha256": "2ec090bcd4f0802ed263c16b011692de1b4c0d7d39a6557e5d48e285f27caa27",
+      "sourceContentSha256": "2861d14e8c010e8d618cd9c09ee0f07019fafc532e55b92a42cecc78ac701716",
       "explanationSha256": "5b17e7d3d68439eb71e53ce43538416ad6a12bcd0422f815017af0de67ba10dc",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: партер, вручит, донельзя, жалюзи, начатый. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6333,7 +6333,7 @@
       "ruleSourceRefs": []
     },
     "9D14F3": {
-      "sourceContentSha256": "ab531830f1901372c139bd38ec6c65982dfd0180e526cc895da498c4e11ffa60",
+      "sourceContentSha256": "f0bba892af2e7e69d637a613967f6906dff0c86a55adacba4cd829476fe631bd",
       "explanationSha256": "2170e022dd0d9aa89e6fb05e6a7571a250b521ccfcd46e44434719e35f620822",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: начавший, мозаичный, доверху, черпать, закупорив. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6364,7 +6364,7 @@
       "ruleSourceRefs": []
     },
     "AAE143": {
-      "sourceContentSha256": "cc789aa879c29e0e86c0384bf42ee3e68c110876b09cb36dad19ac449dc85bfb",
+      "sourceContentSha256": "71faf9ab45d41987cfae8be5913c2ecc425bfbf44daf65dc18f9f231830641f0",
       "explanationSha256": "b1d1a6dc9cd3593de0d3e06b54a086338602f1e1cd5d37c00eb6aac412f3cf19",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: локтя, наделит, кровоточить, снята, таможня. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6395,7 +6395,7 @@
       "ruleSourceRefs": []
     },
     "B05882": {
-      "sourceContentSha256": "fdf4c53489ef39ef8dc2ef165a5bcfec35cf59860a42983d9b69134096cb0c3a",
+      "sourceContentSha256": "5fe940981623bc0b33148774c575f23a00b223abd535542dcb54d1c3c9597877",
       "explanationSha256": "b564612aa506bbfe41dcd4eb0a943c628325ea0c80fd5dfa10fe0007e2566cd3",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: вовремя, краны, пломбировать, бралась, укрепит. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6426,7 +6426,7 @@
       "ruleSourceRefs": []
     },
     "C57D87": {
-      "sourceContentSha256": "8457e31f481d9db964f056f8de52841141aca030e582b47a25ae928921597327",
+      "sourceContentSha256": "f85292633cbfa3e45f51bed9df489bdff01c9d273871f0cae04cbfca926984a1",
       "explanationSha256": "ab4abd401023ee106c9574a80f96190faef67b1f4540542a4f317ef2e3e35670",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: позвала, еретик, облегчит, поняв, донизу. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6457,7 +6457,7 @@
       "ruleSourceRefs": []
     },
     "CACB9D": {
-      "sourceContentSha256": "f27678085a85d2ccb4b1f5e056ce31da45e50196b40bd361ac6c57b6e962cb95",
+      "sourceContentSha256": "3b52858a0481c23ef8ca8d72e42abf9f535f16c1094732a0996d5a7da6fa4a39",
       "explanationSha256": "5aa442f5b2713dd5439847167c8e029f96400add0d62c503fd7f15ee98e7c7d7",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: затемно, газопровод, кремень, ногтей, цепочка. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6488,7 +6488,7 @@
       "ruleSourceRefs": []
     },
     "CD6F3D": {
-      "sourceContentSha256": "01a73ae34d7e4cba814e270523f500547b28dceb500d6b254fada2239cc1ac45",
+      "sourceContentSha256": "494a14826640221d0d89802818149ba32cb2d2bae9be47b4863433b99f39666d",
       "explanationSha256": "1851a4e546075d4cdbcb3141790b92ff5992bbe04b74ec6498397e94a5bafe62",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: вовремя, лгала, пломбировать, позвала, укрепит. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6519,7 +6519,7 @@
       "ruleSourceRefs": []
     },
     "CE3CB3": {
-      "sourceContentSha256": "b7796d9aea6cec9e7e326784c1cae51841aaf965d5dccfc9471dbf32bcebdad0",
+      "sourceContentSha256": "04b3e5b874ea1674d7841e63f7fa11d1915add7685e2c2236cfb6918c69245d5",
       "explanationSha256": "8a3aafef215e08292e3d190d50122bdfd76795e5b2b7bc62805d72218d4dbd58",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: сливовый, облегчит, приданое, добралась, газопровод. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6550,7 +6550,7 @@
       "ruleSourceRefs": []
     },
     "CEC4CA": {
-      "sourceContentSha256": "00403f323a6c06c0eb586c5ae5375c59b4d11eb337c489467713deecdbfb6361",
+      "sourceContentSha256": "ddd0f17831838cf38f89cf5bb5bb16eb3357d089ed7d0384e2db5c0641d8e238",
       "explanationSha256": "2872ac489332b86f2662ceca229803cb1825647ec3489540f56e4a5f5120c926",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: низведенный, начавшись, сливовый, иксы, снята. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6581,7 +6581,7 @@
       "ruleSourceRefs": []
     },
     "D949E3": {
-      "sourceContentSha256": "0702439b61e077dd00a0ef269acd28bbb80a98ad5abcf0d70c89f46180aa18e9",
+      "sourceContentSha256": "239b9e7db0ac486b3bb87b9740f894020f3d549c1a43bd60dc4f4b342b68a6d2",
       "explanationSha256": "a1825e76de65b361b10fd26c42045ff27df217ab8eb9a6b5ee151caa5cf98fc5",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: накренятся, начал, аэропорты, озлобить, заселенный. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6612,7 +6612,7 @@
       "ruleSourceRefs": []
     },
     "DF4F14": {
-      "sourceContentSha256": "93be39d2d82c19604da41780c713fa5c0e2a81ca4179fa8dcb9b83d7360f3288",
+      "sourceContentSha256": "b5b7c1f8bef8bfce3e7a8993c6259ad9402ed8e6804ceb837bdb19dbf35e6987",
       "explanationSha256": "8a2eb85d81c0ae20f86cbc2c39a3b80e5fbdc8ee4b3815909355627059864fa0",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: приданое, оптовый, щелкать, вовремя, звонишь. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6643,7 +6643,7 @@
       "ruleSourceRefs": []
     },
     "E14EB6": {
-      "sourceContentSha256": "e7c8e1e321d29c8058e73e60b477ca857ac8e2ecb71d1319f3d47533e006af41",
+      "sourceContentSha256": "fc5a861cfc77cb374ee424e7baee1c5f1d3d0050937f4b7e596e9eea81ce081b",
       "explanationSha256": "ac0193d6b7692496a53f020eaaf2ffd3475c1cf0d687e6d9517b1e3f698c3933",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: еретик, мозаичный, доверху, черпать, прирученный. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6674,7 +6674,7 @@
       "ruleSourceRefs": []
     },
     "E3F954": {
-      "sourceContentSha256": "1ecb8f25307532bced1d02e1b0ee8237aea5e457fb1f15f4c5882ce6f4115f08",
+      "sourceContentSha256": "f3cfcfc76645a30b81bfb805da238712bbf9464fc6e99245ab8a098ff2ae9e74",
       "explanationSha256": "6c834a7ddde2d130d53483d7dd0e9c54c21ef9fedd861e79f5b1da646eed6e24",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: шофер, ненадолго, послала, жалюзи, намерение. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6736,7 +6736,7 @@
       "ruleSourceRefs": []
     },
     "E5DF39": {
-      "sourceContentSha256": "a312468eb2cce250294d09587b80ed9fdc27999e44cd7bbffcace43cae4662ca",
+      "sourceContentSha256": "71ad6745153dbec745eca80e78985c8342991aafc16c950ab991cad73c1fdf61",
       "explanationSha256": "3d316c97a0a7faf3e2b6fe3bdb687282a5934d9faf51100b40741ae61ec8ba05",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: клеить, рвала, закупорив, красивее, еретик. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6767,7 +6767,7 @@
       "ruleSourceRefs": []
     },
     "EFDBCF": {
-      "sourceContentSha256": "3439bd5b035e3ed62f114846613d56c3f58e92a7520b2979292b9cde20e53de0",
+      "sourceContentSha256": "93fd2efcf001b2e857e88ba2180a226e343298bc062b5b83f6b6de99f057df03",
       "explanationSha256": "f513c6d8694a2fb6d09bd7ecd23bb5a6a2ffc10b576215688b6c0a93d6705ccd",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: поручни, принятый, кашлянуть, рвала, звонит. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6798,7 +6798,7 @@
       "ruleSourceRefs": []
     },
     "EFFBAA": {
-      "sourceContentSha256": "fc08943a6f004e8fb7310bcc53c4b35d7c07277562920fa0db1683fe2561707d",
+      "sourceContentSha256": "9cc15231e678fafec93683486fd77ec68791029da6a7ae588b85ef80530bd46e",
       "explanationSha256": "e27ada0c52b5b23d15c29e615af1dbd61f7c2f1249117923bde626efef234fe3",
       "explanationPublished": true,
       "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: заселенный, пломбировать, бралась, послала, лекторов. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
@@ -6920,7 +6920,7 @@
       "ruleSourceRefs": []
     },
     "09C71B": {
-      "sourceContentSha256": "70623df03d12ddcba97b306cd1cd16299c867870d7cd18c1bea8470b99a7b05a",
+      "sourceContentSha256": "017cbc35d388b7868cd02a77153116c50139bbd11cc4ee3f195e6907fee05eb9",
       "explanationSha256": "234a64ab38e52a3fee3f5d9d60a6173b7e7c436868bdab88d9ce5e5734de34c6",
       "explanationPublished": true,
       "hint": "Условие требует: наречие времени. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с военной выправкой – сказывались годы сначала в царской, [пропуск] в Красной армии. Постоянную бледность он объяснял тем, что был…».",
@@ -6955,7 +6955,7 @@
       "ruleSourceRefs": []
     },
     "12BBAB": {
-      "sourceContentSha256": "6a318df454eaed61edb8a3b33b597e5e658689cbe74ccb1c00e95bfe3e21b69b",
+      "sourceContentSha256": "2e313e8d925ddbc13da55a7498754d946722bb2488f11f884ec8e3e44a4ef638",
       "explanationSha256": "8de69888efa872cee17b9aee0495b2fcc6af896f590455cae09016464379067b",
       "explanationPublished": true,
       "hint": "Условие требует: наречие времени. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с военной выправкой – сказывались годы сначала в царской, [пропуск] в Красной Армии. Постоянную бледность он объяснял тем, что был…».",
@@ -6970,7 +6970,7 @@
       "ruleSourceRefs": []
     },
     "14FA69": {
-      "sourceContentSha256": "34d41235765b02d46f03dfc20702ee2013808f883218217a46f991d6d02e0e8e",
+      "sourceContentSha256": "48a757d45a83424de02ae8e09c8e2fcfce41f5a97d5a82441a5064a033b80ec6",
       "explanationSha256": "47a1eae8bfb317d6b729c450fe7df5dcd284a26ef9ac769ee4261fc54895c74b",
       "explanationPublished": true,
       "hint": "Условие требует: усилительную частицу. Проверьте, что подчёркивается: напоминание об известном или выделение конкретного предмета. Частица не заменяет союз и не называет предмет. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Мы – в снег, и они – в снег. Нам очень нужен был пленный, было [пропуск] объявлено: «За пленного – отпуск домой». Я успел заметить:…».",
@@ -7395,7 +7395,7 @@
       "ruleSourceRefs": []
     },
     "8C38AE": {
-      "sourceContentSha256": "629cc4cce177ef337763206d53c590e4bdd2a020e51ea22fce0be2c00f6ff9c3",
+      "sourceContentSha256": "9bd7112f148a3c3ddd83dae60c76ae0d9b0c4b36b82c87a0ea06017dfc31d228",
       "explanationSha256": "e27e2b3ca73779ff7d388227931e61dfbddc1a91eacdc29418f008958474bace",
       "explanationPublished": true,
       "hint": "Условие требует: производный предлог. Посмотрите на зависимое существительное и его падеж. Вставленное слово должно оформлять связь с остальной конструкцией. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Им была прожита с сознательно зорким вниманием долгая жизнь [пропуск] катаклизмов сменявших друг друга эпох: никогда не забуду, как в…».",
@@ -7410,7 +7410,7 @@
       "ruleSourceRefs": []
     },
     "90B817": {
-      "sourceContentSha256": "c5755496ac6ae2129f0a079ee351e9f43913c14e7ba2f99286064e930c14632a",
+      "sourceContentSha256": "19affe30b112fde7f11ad7cc3c0611f79944cf6bfd8800ced4afdd72d7d5a195",
       "explanationSha256": "31c74f4d407bfde98eb406e5e1f4b59e40f438c7d12f8a240da2a05d41d1d780",
       "explanationPublished": true,
       "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Есть ли вообще в человеке какое-то внутренне устойчивое ядро? [пропуск] феномен может быть осмыслен, по-видимому, двояким способом: либо…».",
@@ -7860,7 +7860,7 @@
       "ruleSourceRefs": []
     },
     "082CB8": {
-      "sourceContentSha256": "55df8478cac0ccf9186ba34bb0cc034a5d1a16da3f7baebed8001001e08baf8a",
+      "sourceContentSha256": "e039f83229338b12ee2fdb275e06d2124ac97710051a452c63d7614689177fc4",
       "explanationSha256": "1e642f7cde14e1027fdb24f0e9111d9e854ac18d3c241745082216a416422f78",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов печатать, работа, опомниться, поступать, потерять найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -7900,7 +7900,7 @@
       "ruleSourceRefs": []
     },
     "2BA3EC": {
-      "sourceContentSha256": "7e139652c39a6e3807dbd844147b00b032c6ddf7d609bed19e015380496b1f03",
+      "sourceContentSha256": "3e2c6eca861e687282dae8530f479df445bc9dd98fb5af4462649dd7ca616c4a",
       "explanationSha256": "1f2b9bf93cfb8198e6a8d55c41f3b2d1e845347c0b5b2e3f928c256b1c3d33d4",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов эпиграф, звучать, масса, наследный, инкогнито найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -7935,7 +7935,7 @@
       "ruleSourceRefs": []
     },
     "5A83DF": {
-      "sourceContentSha256": "86ac15e907780e023c73ed9af0375ef5850d9051c99b0df017ca03a6dac1275c",
+      "sourceContentSha256": "459454096708999b75374242223ec1f1925ca686904601077c1ae59e39bb38d8",
       "explanationSha256": "9e362e0b2e07bb0d8878de410608b4c91c1ee38970d0fb0a39ca7068b8e6b166",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов содержание, элемент, ввести, вырабатывать, первичный найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -7970,7 +7970,7 @@
       "ruleSourceRefs": []
     },
     "62A8A9": {
-      "sourceContentSha256": "fdf9185a3dd4a25d8348b6dfc08d8c282b011101c237a296943d66254bcb0ae5",
+      "sourceContentSha256": "c57809ab1d56d11b9aedc493b6f934597d847a5d8315d6852a42c13f59cb387d",
       "explanationSha256": "bcb93a35ce2018f4ae838da61ec81ceee57c1221f4a6e36cad5a896b006c565d",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов осветить, масса, чужой, взгляд, вопрос найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8005,7 +8005,7 @@
       "ruleSourceRefs": []
     },
     "7AB7D7": {
-      "sourceContentSha256": "de509421e04d589267b338d545e477bac3eca41d4c61ada79db36c059d958691",
+      "sourceContentSha256": "ebc3ac799951ef2095fbb0dfc0026bed1b60b2060c7736ac5fa70431337374a9",
       "explanationSha256": "afbfac0fa3aaa06400e183873e1e0b30d283147ae0cd8b665d0d7af40a9e5ac1",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов земля, собирать, разводить, верста, шум найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8040,7 +8040,7 @@
       "ruleSourceRefs": []
     },
     "883E90": {
-      "sourceContentSha256": "bc672b9043f7a89b09a2a165c429325b6bfd5cddfb780dc194b6752bf545ffde",
+      "sourceContentSha256": "2deafa373d261e0c5048415835cb8621d85978db5f13f75b260911dcbb9176c7",
       "explanationSha256": "8d11aaf6f0c767b5ff371f6821967b2d1ae041bf16a3bf52ad2c0fb680045224",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов хаос, порог, увал, полый, древесный найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8075,7 +8075,7 @@
       "ruleSourceRefs": []
     },
     "9273A5": {
-      "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152",
+      "sourceContentSha256": "64d2f534c49482599d864de5be6f37e57afbd6b80650e4a547284e693c27ee3b",
       "explanationSha256": "1c718ac2d2489844994279fee71bf248a6e20bc85ca5c8d0250f48214591977d",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов фундамент, ползти, образ, храм, жизнь найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8110,7 +8110,7 @@
       "ruleSourceRefs": []
     },
     "9819CF": {
-      "sourceContentSha256": "a6505c9cb475c5d61804b33aa3b69ed022630c1fbc3b7c2ba30260aa1ddca5f2",
+      "sourceContentSha256": "702cfa94abcbe1abfe2b983515d563dc11473c0197ed8b754600a2063ae5799a",
       "explanationSha256": "d1fa203a9b8062e2dd34b00bb406325d9d56c4d647b155dfe60b4ce5058fb969",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов характеристика, тип, позиция, общий, выступать найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8145,7 +8145,7 @@
       "ruleSourceRefs": []
     },
     "A3FAC1": {
-      "sourceContentSha256": "6dc5a65bf6228650a106a16e9cb72387511f350a1604a0f3aa460583c7c9e33f",
+      "sourceContentSha256": "01cf215a20b1d335bd123f281374c8cf074057e6eab0898e73dfa6deeeffecff",
       "explanationSha256": "d3d0e16c1b4148c01b869d33f967d55820a963c30cff1f55614d165a1cf8de53",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов мир, тройка, сизый, блеск, передать найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8180,7 +8180,7 @@
       "ruleSourceRefs": []
     },
     "B5A555": {
-      "sourceContentSha256": "3be0f7b7961108f99ad97d8fac22cf313e7ecec21af0ad49372943f9a541a827",
+      "sourceContentSha256": "62747029ee9528d057a978848ae8ed437050870ff1782cebbbd7247b0628b5b7",
       "explanationSha256": "4dc07262f4a8ab54a2e747e696a24ddc5f17f781c55e1fbddb8575595982de9a",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов лицо, край, средство, следовать, элемент найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8215,7 +8215,7 @@
       "ruleSourceRefs": []
     },
     "BCF56B": {
-      "sourceContentSha256": "1b3452f0db5003adefb31e1441ca4ea7b61be14dec98c64964500875d0e75602",
+      "sourceContentSha256": "57d69830d1c6de04700df86b8ee5a1cd26bf68162279180feab1eafff50673a9",
       "explanationSha256": "5ec157763c42e2b59655ea6ab59fbf8db6ac0e00cffaa76fc1b1b045f622da47",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов жизнь, типовой, проект, скромный, повторять найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8250,7 +8250,7 @@
       "ruleSourceRefs": []
     },
     "CD2CCE": {
-      "sourceContentSha256": "3fad8fc2519e31253102489fd1759ee03f384091379b64f98a4685857b5ff1e8",
+      "sourceContentSha256": "fa8e567debe6138923ce8482be26a49e67479b1d54b9f1362414a4bc3f11752f",
       "explanationSha256": "857fa40035b8d200252be491b6df0a50f30400cc5da3c65b308a33bc818732dc",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов обычай, послать, свежий, отличие, горячий найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8285,7 +8285,7 @@
       "ruleSourceRefs": []
     },
     "E29F76": {
-      "sourceContentSha256": "eba825b0d80f37c91683cf1c0da9042815c6ae969ab9cbd983b227291307bfa0",
+      "sourceContentSha256": "b7c857509782f572a116e60f01521b0cffd1818db7ed0a957555b7e057108774",
       "explanationSha256": "3a80ac852b0b60503c9455f7c800eb0541e6e4974f2a2fb32d848218d9c9e3f2",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов длина, расположение, художественный, представление, живой найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8325,7 +8325,7 @@
       "ruleSourceRefs": []
     },
     "E9174D": {
-      "sourceContentSha256": "f0bbc2d71c99b0193feeab625d07cda109486b3c4a59bc541b8e8028a7243799",
+      "sourceContentSha256": "ce883df0767031d8ce16f2bd7a628826f51bd4abd13238e926137980c92e45c7",
       "explanationSha256": "47ac60b436fcc8548c76dc59cb99eb184bb481393a4637238417d640938c833e",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов прийти, духовный, характер, прозрение, кровь найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8365,7 +8365,7 @@
       "ruleSourceRefs": []
     },
     "E96B4A": {
-      "sourceContentSha256": "83beeb4dd0bff63d9597ea69558a8e69b19238cfad636e7e0266100e9b57f93b",
+      "sourceContentSha256": "98bc447b6545759ba0d9126ca92dd511770124f392de64c5c52616512e82915f",
       "explanationSha256": "aec7545d2e1b0a8795f1300c19106c82bb8e858ce17ca592431e4f5fc5427cb8",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов готовый, оценивать, ход, сфера, свободный найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8400,7 +8400,7 @@
       "ruleSourceRefs": []
     },
     "F4E1F3": {
-      "sourceContentSha256": "770e218b4b09deb3139b56d046c34257d367b7ea45cd98f76ad66cdf4ee8b750",
+      "sourceContentSha256": "6b6d8337753ffad5a1e9a04489ef512895a898aff16c597bd3c5c19af50d4f37",
       "explanationSha256": "39e3b14b51de7d4ef807b57920b93f024bb87746cd8847b6f0b4eeb7812cb7a0",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов сокращение, режим, масштабный, считаться, оценка найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8440,7 +8440,7 @@
       "ruleSourceRefs": []
     },
     "F5E433": {
-      "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002",
+      "sourceContentSha256": "af5444d5514a76be60d390963a2eb923faf479562ae4a2e799db78140b6a343a",
       "explanationSha256": "a2b9dadb7d36b62cd1477fc9b72b211692f2e80f21b9153e29719d2f9617f930",
       "explanationPublished": true,
       "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов стиль, опыт, прямой, ловить, сила найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
@@ -8475,7 +8475,7 @@
       "ruleSourceRefs": []
     },
     "0BA3C6": {
-      "sourceContentSha256": "1c0186c3ff8ccbb99f7cbdfa73cae20446436ebe9e5a3861312aa3aa974020bb",
+      "sourceContentSha256": "0cdd43612f82d498902ead3f97ca154de7d4477d9a72a528cbb9c3c9d6f8e8ad",
       "explanationSha256": "30a03e5bf5e39cc2320b28cd0b449e7c917b698d516e192c68b94aa09c54a53c",
       "explanationPublished": true,
       "hint": "Текст объясняет виды ударения. Сравните определение понятия с предписанием, а специальное сочетание — с эмоциональным тропом.",
@@ -8505,7 +8505,7 @@
       "ruleSourceRefs": []
     },
     "0CD8FF": {
-      "sourceContentSha256": "fad1ef0e63c2c554eaaa00094c2e1d29fc9fb19d79337d909383cf25e09d4866",
+      "sourceContentSha256": "f5106268312c47d0ce17efb83baa84f33281524213382409ae798598eddf6158",
       "explanationSha256": "f4c08758864201b07a82a168ac2b6441f0e11ae54b5d64a17f15a0f3c8873a2f",
       "explanationPublished": true,
       "hint": "Автор может научно рассказывать об официальном стиле. Не приписывайте тексту автоматически тот стиль, который является его темой.",
@@ -8530,7 +8530,7 @@
       "ruleSourceRefs": []
     },
     "11B23B": {
-      "sourceContentSha256": "e6f2235389feb8f041366a072b322417caf4bc329fccb596157d54c7760cb337",
+      "sourceContentSha256": "a1a6127517ad4d5c4f7541b18bffdb282dab2ff3d910dc20a67e1512ec46d3b1",
       "explanationSha256": "f8a9949414677b13848de4c6f0e13405468eabc6987b80feca439b750e1d26b7",
       "explanationPublished": true,
       "hint": "Рассмотрите термины передачи чужой речи. Не каждое определение при существительном является эпитетом; проверьте весь перечень примеров.",
@@ -8560,7 +8560,7 @@
       "ruleSourceRefs": []
     },
     "1D6F38": {
-      "sourceContentSha256": "cfb971f83ded404113272ae19221d0f0b0250c681a03bb289538ca0f1f01f4da",
+      "sourceContentSha256": "48be180a3e2d31115dfa4e568e2dabf345b95f36ef9d97d4de774b136a99dcc1",
       "explanationSha256": "5266d7cc666b6bdaef965b983ae0aa032aac70dc38f43391689a51511d8c4fcd",
       "explanationPublished": true,
       "hint": "Выясните, что делают правила пешеходов: устанавливают обязанности или объясняют научную закономерность. Наличие придаточного ещё не означает, что оно часто используется.",
@@ -8575,7 +8575,7 @@
       "ruleSourceRefs": []
     },
     "22F594": {
-      "sourceContentSha256": "7b38f4533ada18d41697c5e71690b69f303bfff538e5776f35f122b16abb3113",
+      "sourceContentSha256": "5d7fcf3fb14403566519b33b4061f033201fc6649b5e70a0ba6f4172ff76c9c5",
       "explanationSha256": "6f63f2d4927acc7c2295971ad43f9dd74d9186c204e839ed882c2bebad4acf0c",
       "explanationPublished": true,
       "hint": "Сопоставьте исходное суждение о Филиппове с примерами его поступков. Отдельно проверьте точные лексические пометы — они относятся к конкретному значению слова.",
@@ -8655,7 +8655,7 @@
       "ruleSourceRefs": []
     },
     "30F5D4": {
-      "sourceContentSha256": "6f344bd258bf382a1ac498973ec3df7f2209323df14b8f74e52379f7a2ac3124",
+      "sourceContentSha256": "649aed9228892dc3046f8dd36472f170d64267098934563c2e25806629df7cd4",
       "explanationSha256": "0ad844de13efb8cc5ab6ae62216436d409f0449dab61a5abfaf6602ed808d497",
       "explanationPublished": true,
       "hint": "Обратите внимание на образ рек и авторскую оценку Пушкина. Упоминание биографии не превращает эмоциональное размышление в научный доклад.",
@@ -8690,7 +8690,7 @@
       "ruleSourceRefs": []
     },
     "311327": {
-      "sourceContentSha256": "31141e29e732e9ce1385803e988805fe75a7ec59a793afc48557b21cfa7851c1",
+      "sourceContentSha256": "7d519ec75ca68c6a780b399c17da8a1a85f4ef2bf037ed2d3666ff1630c6afb5",
       "explanationSha256": "9470d0db49a05b29adb218c3ec7ddde0eb4addeb2ecb4fc2bac68e3ae7bd9b7e",
       "explanationPublished": true,
       "hint": "Определите, рассказывает ли автор о признаках предмета или доказывает мысль о культурной традиции. Проверьте, все ли слова в спорном перечне имеют заявленные пометы.",
@@ -8715,7 +8715,7 @@
       "ruleSourceRefs": []
     },
     "499DD2": {
-      "sourceContentSha256": "a17d469701e3b0aea5ec55ba5f86264d6e9cde2e8bd8faeda9d89e22412b0317",
+      "sourceContentSha256": "2ff93e6c9bba89bf1be0e65168a1dbc016eb88e5754ddaa5e74e74d2253c6e81",
       "explanationSha256": "dad9f822fe544e8d31fd798c0a302122ee46bbf18babe429e4d836fb85775c44",
       "explanationPublished": true,
       "hint": "Найдите определения системы и алгоритма. Упоминание учёных ещё не означает описания их внешности или инструкции для них.",
@@ -8740,7 +8740,7 @@
       "ruleSourceRefs": []
     },
     "4BF0EE": {
-      "sourceContentSha256": "2cdea6b66e3f38d9d41ac2ffd47b3361cfc20a2d47f0ee392491a909cc56d18e",
+      "sourceContentSha256": "6df666613c2712b026f398fcd2d4a0adf1d4c59544ccbfed97a0c834a69ca568",
       "explanationSha256": "9d20232672e3b95a2a56c59113d155ee53dfed83baf1de1708ebdff9056410ab",
       "explanationPublished": true,
       "hint": "Сравните живые реплики героев с официальным предписанием. Названия пород могут быть специальными словами, но важно, служат ли они здесь научному объяснению.",
@@ -8765,7 +8765,7 @@
       "ruleSourceRefs": []
     },
     "4E099B": {
-      "sourceContentSha256": "4178ebc8dc17b0eb8947fcfe30a4634410081e97867e2316064a7880b2715c1f",
+      "sourceContentSha256": "03945dcc0de20810a5267a36aecd013960e59f2c266c4cc9a0b92a921d398b8d",
       "explanationSha256": "6450d7ab9a08da31a66524427885266eacd9f0fa2a4596f0f8d8a5f11520d3e7",
       "explanationPublished": true,
       "hint": "В сочетаниях с «как» различайте уподобление и указание роли. Сопоставьте книжное объяснение чужой речи с признаками ситуативного разговора.",
@@ -8795,7 +8795,7 @@
       "ruleSourceRefs": []
     },
     "5159D8": {
-      "sourceContentSha256": "2baded7120c4d2cfacf6f4852c961d783a08f880abd48004f5e03409aa3748d2",
+      "sourceContentSha256": "b6379aedc6133705f06cac9350e29c7aa0fe3a0bd554b8e7f6c97519fdb84dbd",
       "explanationSha256": "cba7692cf125d61837c86424dab84ebcf181da9e350af8cf50c7ac1d5f9dace0",
       "explanationPublished": true,
       "hint": "Различите официальный документ и объяснение читателю, зачем слышать литературный текст. Проверьте, создают ли названные определения образ или прямо называют признак.",
@@ -8815,7 +8815,7 @@
       "ruleSourceRefs": []
     },
     "545D8F": {
-      "sourceContentSha256": "e699f187a4750e0757c618677ff50e167d4e70309956eec49299527dd4393672",
+      "sourceContentSha256": "94e83a3ca12898e91770e5979663d3df831b2624fcb280b98a2efbde65271166",
       "explanationSha256": "6b0967ff79a6f09a8c2c31da3bfc816f7ba8c237d717231dce99f87f86883b61",
       "explanationPublished": true,
       "hint": "Найдите оценку личности Лихачёва и образные сочетания о памяти. Вопросительные предложения встречаются и в книжном рассуждении.",
@@ -8845,7 +8845,7 @@
       "ruleSourceRefs": []
     },
     "598D63": {
-      "sourceContentSha256": "6b07d369db0e7ffa736cb449538783f36e341fe7cf44b403d44e615842504392",
+      "sourceContentSha256": "ab29938f4b877e49befaaf6a6f97ed844756a2dd12af3dc3c195facd3a47f81e",
       "explanationSha256": "ab664693ff0bdaf1c3d93a15e9b15ef0961a9d27fbb2c8be75f119a68d705301",
       "explanationPublished": true,
       "hint": "В статье Конституции различите установление нормы и учебное объяснение нормы. Проверьте, чем организованы пункты и есть ли частые вводные конструкции.",
@@ -8860,7 +8860,7 @@
       "ruleSourceRefs": []
     },
     "5AF7A4": {
-      "sourceContentSha256": "10c54f8f29bc7222912fa3646757c06ea520d52b9be511e7af72253850ae474c",
+      "sourceContentSha256": "32dace576f158ef07252f3c00b3c5dc4c51b750a3d83c1b95ed11437017a0334",
       "explanationSha256": "39e8c19dc0095aba4e9ab9daafebf148fd38d4de83351253eabc46697dc9374b",
       "explanationPublished": true,
       "hint": "Проверьте функцию строительных названий и буквальных обозначений цвета и размера. Не всякое прилагательное — эмоциональный эпитет.",
@@ -8885,7 +8885,7 @@
       "ruleSourceRefs": []
     },
     "621719": {
-      "sourceContentSha256": "9ca783c92bf30be91f8c10d0132cf35c40b2860a8d1afed1fe9528ab4f8bc69c",
+      "sourceContentSha256": "5a0ec935e117af36c433ff7881948cc07359a3386e20d6062e6418316827f80a",
       "explanationSha256": "81761ae92435a3e631e891fc670fd8f370ba2e615133aca37e599402b89887a6",
       "explanationPublished": true,
       "hint": "Определите, требуют ли вопросы художника ответа собеседника. Не путайте передачу чувства через картину и через вводные или вставные конструкции.",
@@ -8910,7 +8910,7 @@
       "ruleSourceRefs": []
     },
     "690525": {
-      "sourceContentSha256": "cf40748417cb6a9dabc7ecde952569a0619f89d7ab6ed923d544db9e3fb94f3a",
+      "sourceContentSha256": "8cc4eadb2a81a8df2fd52f87f0cba2436d96753a4372469af7ba5e7f98e3bc0b",
       "explanationSha256": "f225b23d4f7f688ae8382c82d6d056136a2cb910dfab24fdc93feda128ce145a",
       "explanationPublished": true,
       "hint": "Сравните общий вывод о ценности дневников с конкретными записями инженера. Упоминание котла не равно рассказу о строительстве гидроэлектростанции.",
@@ -8935,7 +8935,7 @@
       "ruleSourceRefs": []
     },
     "7BF565": {
-      "sourceContentSha256": "0e9f6e57efe35ad1f6244f3af0b967fa9f26371453aea0232ede6f162ecf1bbb",
+      "sourceContentSha256": "fccefea27afc49db89abcc9b541940f7a83663f654b4f289d4d2606e4259c46a",
       "explanationSha256": "3837b09354ed1c6fe17c48b428a44ed6870cfdbcad04a9e29a67725ee6ab76ea",
       "explanationPublished": true,
       "hint": "Местоимение «мы» может объединять автора и читателей в разных стилях. Проверьте, как последний пример конкретизирует мысль о друзьях кумира.",
@@ -8955,7 +8955,7 @@
       "ruleSourceRefs": []
     },
     "9AFD41": {
-      "sourceContentSha256": "357ebbe3070ed6625f78ac8670ef0b4416d1d494acc1c9c1c89fa32f627afebe",
+      "sourceContentSha256": "eaa0820ec2ed0f6d60807e874ebde3999690ca616fd115ac3f0ae1edefd2a98d",
       "explanationSha256": "7cd733cc8f99b8e632ec015291b63d04158db4227a2e793bdb813ac48c20df88",
       "explanationPublished": true,
       "hint": "Ищите личное переживание города и образы, а не только исторические даты. Сопоставьте разные приезды рассказчика в Севастополь.",
@@ -8980,7 +8980,7 @@
       "ruleSourceRefs": []
     },
     "A25525": {
-      "sourceContentSha256": "01ae833ecaa51a5ee7ca9d5dcf13e09a3453bad3355b74001591f390705d117c",
+      "sourceContentSha256": "de95384971b3b3bd3965827efeedbbbd21d14e7c130a7cecaa3c783709124b2e",
       "explanationSha256": "4e6a0d68ecf066d02899004bd53a5f645bcafac461e551d9159bf6b4202b74b8",
       "explanationPublished": true,
       "hint": "В законе о рекламе проверьте точные условия нормы и порядок контроля. Процедура не обязательно является доказательством научного тезиса.",
@@ -8995,7 +8995,7 @@
       "ruleSourceRefs": []
     },
     "B17764": {
-      "sourceContentSha256": "2003f6a0ca8e4942029aff6d21cf5200401c1f958b7d35c042ec460f356aed62",
+      "sourceContentSha256": "a7925eb9767f20f842aeb1b1d986e6ccf9480830003ec1c651864e6380ee63af",
       "explanationSha256": "933458e35c60ac0d1e275e30eb4a6d4f3a9c92a93af3da5a29740ee1c7eedd00",
       "explanationPublished": true,
       "hint": "Движение облаков может быть частью динамического описания. Различите риторическое обращение, восклицание и подлежащее «вы».",
@@ -9020,7 +9020,7 @@
       "ruleSourceRefs": []
     },
     "B9A47F": {
-      "sourceContentSha256": "557588ea9ddc6a72f3397b43a938e26afe646b148e915ff19336ec5a22c0cb66",
+      "sourceContentSha256": "6f8d291eff51fca59b8fe6f5789ffc530a4b433b9be0cf747de57013a7279902",
       "explanationSha256": "2c71243bf4174092ee2ca92377c7c39da3234840ffc0476c507c29a6be52754a",
       "explanationPublished": true,
       "hint": "Установите основную цель инструкции об огнетушителях. Повтор термина не доказывает эмоциональную анафору, а техническое определение не обязательно является эпитетом.",
@@ -9045,7 +9045,7 @@
       "ruleSourceRefs": []
     },
     "BF4E1B": {
-      "sourceContentSha256": "3f58cbb83bd00c192b5c1c3039db89bc312cb6b6a73e2d256b4bb1760f06f55d",
+      "sourceContentSha256": "b42ffe00da6f1c10317137b6ea711a8b35104f97bd4d919e4e07653996bdc38f",
       "explanationSha256": "cf481e06a12e9a42e85c6d06a9907331a2cd405378f09c698741706a17c6c37d",
       "explanationPublished": true,
       "hint": "Определите, что делает второе предложение финального абзаца: объясняет причину или продолжает картину. Бытовые старинные слова не становятся из-за редкости научными терминами.",
@@ -9080,7 +9080,7 @@
       "ruleSourceRefs": []
     },
     "C69403": {
-      "sourceContentSha256": "e9ff6c08fec5b4e0245f0aebee7d6a4c6b455bc4decfd7e73ec723ab889ecc7a",
+      "sourceContentSha256": "3ab2f5084de17456e386be5661e3a1635e857ccc4959c3c5f3b4355ba8d7532d",
       "explanationSha256": "c8e0a513b6f1b03a97e1f38a3ee0dfd27e1d9036e0850f2a35d9442b6447b3eb",
       "explanationPublished": true,
       "hint": "Проследите связь общего суждения о докторе Лизе с примерами помощи. Проверьте итоговую мысль и реальные конструкции вместо общего впечатления о простоте текста.",
@@ -9100,7 +9100,7 @@
       "ruleSourceRefs": []
     },
     "D1A6A5": {
-      "sourceContentSha256": "bdc52db05ca10a526b61b1ceb7491d46beb58da7e89cf033b26eb1860ebae8a5",
+      "sourceContentSha256": "00d0335a6eee335e80d87b997f6bb6a338ab0830ac1b5cac21f8ef390a71487a",
       "explanationSha256": "123c46606a6cb096d3030a5d2dbddd6b25ea8e0713b27b18514ba090f0e589aa",
       "explanationPublished": true,
       "hint": "Сравните специальную лексику климата с признаками разговорной беседы. Оценка научного стиля не требует доказывать физическую истинность каждой фразы.",
@@ -9120,7 +9120,7 @@
       "ruleSourceRefs": []
     },
     "D36670": {
-      "sourceContentSha256": "0b8aeff1ad08c155f216e723b3f954a682a6f0b7d579e775cf3c8a4318c23110",
+      "sourceContentSha256": "b20145379c2bfac9c1fa9d66ebe7d3c8f10e5263bf90452e23a1791ab500a851",
       "explanationSha256": "d2e0c70e9db194c44b48762fa58e6a3e5c6812b19f7f3a9f90a4ff4f9d35014e",
       "explanationPublished": true,
       "hint": "Отделите биографический факт о Зощенко от предположения рассказчика. Начальный портрет человека не обязательно является тезисом для научного доказательства.",
@@ -9140,7 +9140,7 @@
       "ruleSourceRefs": []
     },
     "D822EE": {
-      "sourceContentSha256": "d962ff9e98ebd8efc1ad7fd09f721d22e4b6a0d37e86dd10863416e42080d402",
+      "sourceContentSha256": "e9e154c63e4d709e3d9aef0e69a31d19d00ed7a0398d22a4fc0ada2ea28d7c1d",
       "explanationSha256": "799ea277e1c03a8c968c5fe39c70429e914ec9da373a5b67bd4a5fc242615cc4",
       "explanationPublished": true,
       "hint": "В рассказе о булочнике проверьте бытовые словарные пометы и функцию перечислений. Последовательные события не делают текст описанием.",
@@ -9180,7 +9180,7 @@
       "ruleSourceRefs": []
     },
     "DC1571": {
-      "sourceContentSha256": "9b0ce1ceb68e34544915d1f18e6789897a336e3d6df5ad30093b33596e1896ed",
+      "sourceContentSha256": "13224cc8653f2aa56790a08230e8ab7b7b8775db2a769033dd5d35745ef55eb0",
       "explanationSha256": "e1f14328a242f7c97699d74a253b1b3e35f6ab562478c75b7d148a7bdeabee05",
       "explanationPublished": true,
       "hint": "Найдите проблему речевой агрессии, аргументы и общий вывод. Числа и цитата могут поддерживать убеждение читателя, а не только научное сообщение.",
@@ -9200,7 +9200,7 @@
       "ruleSourceRefs": []
     },
     "E04AAA": {
-      "sourceContentSha256": "655e308f05f3c89a4973295a1c70bf5144cbc65af81a05053136206c110853fc",
+      "sourceContentSha256": "9c72235f22a3c2cd13920927ba1617d5e29b11da1050a75401aeac2f890f141e",
       "explanationSha256": "4f4d5d6ae2707937d07684f5975422dc739f78b53a09800bef523d4d7aadb7bd",
       "explanationPublished": true,
       "hint": "Сравните образные названия реки и леса с настоящими терминами. Проверьте, является ли каждый пример определения эмоциональным эпитетом.",
@@ -9230,7 +9230,7 @@
       "ruleSourceRefs": []
     },
     "E4D238": {
-      "sourceContentSha256": "2d0baef355dccb922fcf94a758cf7c28fd1cc49cab78b2582b57bd2f1401a94a",
+      "sourceContentSha256": "faef4cc424c813b6fecc2aa81b1b8f3037fad1b10e2b955026203f1e3119370a",
       "explanationSha256": "aaef3909d1df2ba15fc67cf6f402b81c83a5dd32f8c8e845e079e637616769e7",
       "explanationPublished": true,
       "hint": "Проверьте предложенную классификацию каждого примера: есть ли второстепенные члены, сколько грамматических основ. Не доверяйте только словам «простое» и «сложное» в варианте.",
@@ -9255,7 +9255,7 @@
       "ruleSourceRefs": []
     },
     "ECF124": {
-      "sourceContentSha256": "c940a0d1293016fcf7cf301f780bbf8647450c627e7edbe4c9cdf7d9c0ae25f5",
+      "sourceContentSha256": "d63d9e0710900ce5c508b650d52807d212cd954877be80ab9ac56b3cbacacc8a",
       "explanationSha256": "41c01986a075ade448d9db78a5d095898f85ce41b1b6c73089aca4920474e3e9",
       "explanationPublished": true,
       "hint": "Отделите речь автора от цитат Пушкина и Даля. Проследите, чем объясняется работа над словарём: конфликтом или поддержкой.",
@@ -9275,7 +9275,7 @@
       "ruleSourceRefs": []
     },
     "F95665": {
-      "sourceContentSha256": "dc7316e548e35fa65880c3336733acdd8f4b3b8587e7a9101561a4c165477bf8",
+      "sourceContentSha256": "e159ebd8e09645b7ee26b9b19a52f122f5d4852f051fb40c8baee755562f7cf9",
       "explanationSha256": "4fddb8c4dc38305a5506e877d47d0ced0e3512fecf1fb4dd9be2777374da3f53",
       "explanationPublished": true,
       "hint": "В варианте с метафорой проверьте обе части: действительно ли она есть и подтверждается ли именно в последнем абзаце. Сравните честный труд и представление о «кормушке».",
@@ -9300,7 +9300,7 @@
       "ruleSourceRefs": []
     },
     "FA951C": {
-      "sourceContentSha256": "a78647fa507478a5934091df5efc7101609d2909ca609f54fd6f46f75f93daa6",
+      "sourceContentSha256": "edfb1432a5cc99813e999fd3c493f60259c707445c8750496f08073a6ebef4f3",
       "explanationSha256": "03d9ad4a4f93b72d2ed250fae1275c1e582a873508a79949b5deb408f67de17f",
       "explanationPublished": true,
       "hint": "Лингвистические понятия не относятся автоматически к общественно-политической лексике. Различите именную часть сказуемого и образное определение.",
@@ -9325,7 +9325,7 @@
       "ruleSourceRefs": []
     },
     "FBD2A1": {
-      "sourceContentSha256": "22d194dd9d131b9e00873a311941b7c1d3b4b5f9cba1c828f195fb0d4297c00d",
+      "sourceContentSha256": "7177358587271e4bc820a534b6af2ed7f83a9be9264e7be7a80a4cb432a1de80",
       "explanationSha256": "17dbfd8014b7d93753e82d88b6fe3a144d4ec32d98ea7104c790307272518f4c",
       "explanationPublished": true,
       "hint": "Проверьте, ради чего автор говорит о садах: только для создания картины или для размышления о человеке и природе. Найдите реальные глагольные формы, а не выводите их из темы.",
@@ -9340,7 +9340,7 @@
       "ruleSourceRefs": []
     },
     "09D8E7": {
-      "sourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77",
+      "sourceContentSha256": "bfb221bacbad35131d8546949922719c46bccb3b44d8f0fe13f7915d17c6c21d",
       "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879",
       "explanationPublished": true,
       "hint": "Слово со значением превышения количества требует зависимую группу в родительном падеже. Проверьте падеж числительного, даже если существительное после него уже склонено.",
@@ -9365,7 +9365,7 @@
       "ruleSourceRefs": []
     },
     "0BB6E7": {
-      "sourceContentSha256": "cbf8f5c09567a24feb0562b06de3f3197478bd156c6df1a733c6987b43437fb7",
+      "sourceContentSha256": "de39272d6270013e084c6a042095dbe2fbcf0470294ef42f49503d9604672126",
       "explanationSha256": "e8349c367ca8e718226b619eeaf6d93c2d4a840be580459e26851fefa072b88e",
       "explanationPublished": true,
       "hint": "Найдите личную форму глагола во множественном числе. У разноспрягаемого глагола нельзя выбирать окончание только по форме единственного числа.",
@@ -9380,7 +9380,7 @@
       "ruleSourceRefs": []
     },
     "18355B": {
-      "sourceContentSha256": "fc20fee1487c0ee209b7cbc70eda67ae7f7cbdde7359cdcc171f35e9536d0313",
+      "sourceContentSha256": "56b7d84c96dab0bc20947bee799f8d2d1ec7fc553a96265362961f273d681311",
       "explanationSha256": "77b0f4521a65073ba80d3e63dc3fe5615f6285531d06657828e9461b75a499d0",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа у названия части тела. Окончание -ей не является универсальным для всех существительных.",
@@ -9395,7 +9395,7 @@
       "ruleSourceRefs": []
     },
     "187C1A": {
-      "sourceContentSha256": "34e628068d4e52b401c522396690b280ee185f0c319f0c3d5916ceb4526e6e23",
+      "sourceContentSha256": "ae7d235e2cbb2ca56a77fbfe3acf0f74d350017f608a2ddb5ba2d5118f8da3b5",
       "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e",
       "explanationPublished": true,
       "hint": "Различайте личную форму прошедшего времени и деепричастие: вопрос «что сделав?» не требует механически сохранять основу формы на -л.",
@@ -9410,7 +9410,7 @@
       "ruleSourceRefs": []
     },
     "1F3478": {
-      "sourceContentSha256": "17787d8f1541ada9b1f872013f4fa3bdb7cce81053c054d9e92be4c8efa873eb",
+      "sourceContentSha256": "414abf504c87c56591e1afa6b6d0ba107559f8badb66fc8b4de79f1d63260a8d",
       "explanationSha256": "48000a1fb9191e72f8578954f9c61799f9baa645a23055694b10cfbb47111cfb",
       "explanationPublished": true,
       "hint": "Назовите исходный глагол и нужную форму: лицо, число, время или наклонение. Не переносите основу одной формы во все остальные; проверьте чередования и возвратность.",
@@ -9425,7 +9425,7 @@
       "ruleSourceRefs": []
     },
     "20ECC0": {
-      "sourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1",
+      "sourceContentSha256": "d1054d0929d6f7ce3d3a058b38cd02c0552a42ae2d2d580a6fddafe20e9002b1",
       "explanationSha256": "78986b1967086f842ecc4cb5cde2c65387491e0d1dde8f642380a210cb6f83d4",
       "explanationPublished": true,
       "hint": "Сравните названия профессий: у них не обязательно одинаковое окончание во множественном числе. Сначала установите, где речь идёт об одном лице, а где — о нескольких.",
@@ -9445,7 +9445,7 @@
       "ruleSourceRefs": []
     },
     "247443": {
-      "sourceContentSha256": "09d579cccb27f94019e5acce2c0419545b4afb64442670f65ac64e8910b46b40",
+      "sourceContentSha256": "90b835fb2723a79f8e3c1910edb413d1a1f3b37c1f5919f1f0b4ecf4d59fe8a9",
       "explanationSha256": "ab8cd129196b56e445d3b6a1b6f36428b6b8f3ce5cfbcd7dd56a9bfa8fc4c135",
       "explanationPublished": true,
       "hint": "После слова «много» проверьте родительный падеж множественного числа. У существительного женского рода возможны нулевое окончание и беглая гласная в основе.",
@@ -9460,7 +9460,7 @@
       "ruleSourceRefs": []
     },
     "27713B": {
-      "sourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6",
+      "sourceContentSha256": "bc6aea221b2c2d801dd08e023769ded0efea1de4b2d2456f0a1e01034ead12d4",
       "explanationSha256": "2131abf14e681bde17a75dac008d01103838b07bf3c7430e61505e60469e1df7",
       "explanationPublished": true,
       "hint": "Проверьте возвратность причастия. Сначала восстановите исходный глагол и задайте от него вопрос к слову «приз».",
@@ -9475,7 +9475,7 @@
       "ruleSourceRefs": []
     },
     "2850E4": {
-      "sourceContentSha256": "1b778ab4f3aad5ca1e56ee4138862f726c6c9c29752f65832b409ec7339f701b",
+      "sourceContentSha256": "963718f717723669dba789c0fb311185623d18d1a36fa4a06bb41cb36d0d1d36",
       "explanationSha256": "ce086ebf7f6957453ae80abc4658caef4fd8f449b390a9d9ccdf0e8f2fc653ca",
       "explanationPublished": true,
       "hint": "Проверьте простую сравнительную степень: у некоторых прилагательных при её образовании чередуются согласные.",
@@ -9490,7 +9490,7 @@
       "ruleSourceRefs": []
     },
     "2A3746": {
-      "sourceContentSha256": "47909278fe8082c7798fe451a312037750ebdceb6547a44a680c52b262c3a23a",
+      "sourceContentSha256": "d94c87de8d6f57b18e753a76847ff3b0a18efa9452e8ca5a05e73acbea5dbbfa",
       "explanationSha256": "a2f2b8fcce10a3189cb0af65fe3177bc1ad6cec929ef41a7b08a545e37b8ca6c",
       "explanationPublished": true,
       "hint": "Определите падеж по окончанию зависимого существительного. У количественного числительного с сотнями меняются обе части; проверьте первую часть в творительном падеже.",
@@ -9505,7 +9505,7 @@
       "ruleSourceRefs": []
     },
     "2AD233": {
-      "sourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02",
+      "sourceContentSha256": "ffa35c491e0a946940b5bbffe3ea1b84b241b1da1f285d0b4defbdde65dae9f9",
       "explanationSha256": "bef7ca4aa98e3909105e12096140ef81aad6493c8eb61eff8c367d67fb6216ac",
       "explanationPublished": true,
       "hint": "Найдите существительное, которое должно согласовываться с определением во множественном числе. Проверьте его словарное окончание, не только ударение.",
@@ -9520,7 +9520,7 @@
       "ruleSourceRefs": []
     },
     "2B1518": {
-      "sourceContentSha256": "7427a314d17284445c43d4c972acb5df10fabba7eb9da6f5259fd371c4963e04",
+      "sourceContentSha256": "8fdedcfae0390f7562de62634f2e15c23ff6d20c560134e5cf22af848f580b03",
       "explanationSha256": "cca68c119035064b7f947d1971bab1a95c7f6a8c05b856660907e2a3dfef9943",
       "explanationPublished": true,
       "hint": "У названия обуви проверьте форму родительного падежа множественного числа. Зависимость от слова «пара» не делает окончание -ей обязательным.",
@@ -9535,7 +9535,7 @@
       "ruleSourceRefs": []
     },
     "2BD565": {
-      "sourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5",
+      "sourceContentSha256": "b026db9acb5e9270b503f1a3e7a16079c317e8e4784c5f7d384475af7e235a6a",
       "explanationSha256": "28e3e90f2fd81940753cc178bc612f63a9d6285e4fd7e6bcc8c02569cd13414e",
       "explanationPublished": true,
       "hint": "Найдите сочетание, в котором сравнение выражено дважды. Сохраняйте невыделенное слово и исправьте только выделенное прилагательное.",
@@ -9555,7 +9555,7 @@
       "ruleSourceRefs": []
     },
     "2F7CFF": {
-      "sourceContentSha256": "6db4bfe0d5220caf280ea5664fc92d3b98bdadbe418fcab6f47d9ad17cb794f7",
+      "sourceContentSha256": "1ccc5b1971165b2a4cc21e975e96f6e8939f9ad06efc812627c40872f549a1c3",
       "explanationSha256": "f577112af7ed79b86a7a424798eb977e2795942421c5f56ea5bb87df0256fcec",
       "explanationPublished": true,
       "hint": "Отличите порядковый номер экземпляра от количества предметов. Не переносите внутрь порядкового числительного форму творительного падежа количественного.",
@@ -9570,7 +9570,7 @@
       "ruleSourceRefs": []
     },
     "3282E5": {
-      "sourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674",
+      "sourceContentSha256": "eff0cedf97378a56d40b948399afde7ba31d272deb2348167bc577aba84f8ea6",
       "explanationSha256": "bc3810133d092eadddbccdfe40459bee88f3a473d3e6865086bffb5130f44e18",
       "explanationPublished": true,
       "hint": "Проверьте сравнение при описании действия. Если перед наречием уже стоит «более», не нужно дополнительно выражать сравнение суффиксом.",
@@ -9590,7 +9590,7 @@
       "ruleSourceRefs": []
     },
     "32E17B": {
-      "sourceContentSha256": "09f9317a807b974cf2f961a1759146de83902374051a0e90c2eb4ddd616db937",
+      "sourceContentSha256": "a662cc4c094e8c8b7686bf341e7883be7921c0c654588ddc50dc3d62e8a31ec9",
       "explanationSha256": "13a1f2dc3ef6806ac86df67a18a8827c39b04fecc3279a69a495d8c162cce438",
       "explanationPublished": true,
       "hint": "В сочетании со значением превышения количества проверьте родительный падеж числительного с сотнями. Нельзя оставить его в исходной форме.",
@@ -9615,7 +9615,7 @@
       "ruleSourceRefs": []
     },
     "3F1F92": {
-      "sourceContentSha256": "2aaf857c4839ccba530285be4aa7337059b5dccccc609a6be7e62a992dd77748",
+      "sourceContentSha256": "799a8751d8ad08c92a525f9fa9a8d82f6d250832f3ae759d85ef72fce94a1b7c",
       "explanationSha256": "2baaa46758c976caa75e454a7e90135350ba4cce623a5bab3327fd2c4e75f828",
       "explanationPublished": true,
       "hint": "Определите падеж числительного по вопросу к обозначению расстояния. Не смешивайте дательный и предложный падежи и не теряйте конечную согласную.",
@@ -9630,7 +9630,7 @@
       "ruleSourceRefs": []
     },
     "41D6D8": {
-      "sourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51",
+      "sourceContentSha256": "174754f17a55fbb03e00bc64bf3cfc99e3910af65d45ae220b11f2580da09db6",
       "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78",
       "explanationPublished": true,
       "hint": "Сравнение можно выразить отдельным словом или формой самого прилагательного. Найдите сочетание, где использованы сразу оба способа.",
@@ -9650,7 +9650,7 @@
       "ruleSourceRefs": []
     },
     "4B38A8": {
-      "sourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b",
+      "sourceContentSha256": "9d11d83b8723a3574cacc1d871bebcb17e84d4634d408c80dc9b314f4a4fbc54",
       "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879",
       "explanationPublished": true,
       "hint": "Слово со значением превышения количества требует зависимую группу в родительном падеже. Проверьте падеж числительного, даже если существительное после него уже склонено.",
@@ -9675,7 +9675,7 @@
       "ruleSourceRefs": []
     },
     "521887": {
-      "sourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350",
+      "sourceContentSha256": "e9daf0b7798b6258b496eb0240b3febffcb123cb963fcbbdcd3df66dd6aaa223",
       "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78",
       "explanationPublished": true,
       "hint": "Сравнение можно выразить отдельным словом или формой самого прилагательного. Найдите сочетание, где использованы сразу оба способа.",
@@ -9695,7 +9695,7 @@
       "ruleSourceRefs": []
     },
     "56EC13": {
-      "sourceContentSha256": "cd4ac026e7ca89db814f7d394bbdba6f653a067beaed181ae76091f8802b3747",
+      "sourceContentSha256": "323cf180711b48d456105138ca91a9366fde9dc4b774a22964329773dda63f4b",
       "explanationSha256": "205ff749ffc00e564bad1c8b90d5d2a0bfa3c3dbf5a203eb8c3e2d30de24c535",
       "explanationPublished": true,
       "hint": "Предлог «без» требует родительного падежа. Проверьте, как изменяется существительное среднего рода на -мя: его основа в косвенных падежах удлиняется.",
@@ -9710,7 +9710,7 @@
       "ruleSourceRefs": []
     },
     "5C0D5E": {
-      "sourceContentSha256": "7c10310ee7d915727be402de9526c3ca3c14be48e643d532c4ea031159c10b06",
+      "sourceContentSha256": "c406dd71c32faab715dc5dab5547253584a34abc231b50fb329d04116b6f8160",
       "explanationSha256": "071929b172fe142284c99d385f1493bfb0bfa509c671ec9238be480e631539fc",
       "explanationPublished": true,
       "hint": "У числительного со значением 150 различаются формы именительного/винительного и всех косвенных падежей. Определите, какая нужна после «нет».",
@@ -9725,7 +9725,7 @@
       "ruleSourceRefs": []
     },
     "5CFD83": {
-      "sourceContentSha256": "d44f5b876be19501f7550837e3f04ab893e875344bb48bd8bf407c6a1c2fd239",
+      "sourceContentSha256": "4e21e5785ad6c9d521c2d8f318ae8827a0c6dab79037d4f27dd1e5c4a628566c",
       "explanationSha256": "16ed8119809207ded0488ce3fd458934cb6fa8c7a20e85ab27cbd17cd9a769c1",
       "explanationPublished": true,
       "hint": "Сочетание обозначает, в каком количестве книг что-то содержится. Определите падеж и полностью измените обе части числительного с сотнями.",
@@ -9740,7 +9740,7 @@
       "ruleSourceRefs": []
     },
     "5D5744": {
-      "sourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3",
+      "sourceContentSha256": "9f9640738f66a06f90d69b93427ba5d7a8ba44cd212511fa3b57b1cd21c5d220",
       "explanationSha256": "0992cc9babd127045ad13c497e612e6c3a5d111911660e35e52a737c014bf050",
       "explanationPublished": true,
       "hint": "В названии года определите последнее слово составного порядкового числительного. Именно оно получает падежное окончание; предыдущая часть сохраняется.",
@@ -9765,7 +9765,7 @@
       "ruleSourceRefs": []
     },
     "617D1E": {
-      "sourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc",
+      "sourceContentSha256": "b63ddc76f6e76a2a4d66ba0c8356d0bc539470ea5235b9b0c4795d330536a7a7",
       "explanationSha256": "69c15f16b7b879a5b943522ef44b3099ef054c637df905be2b33dcc6dbdc957f",
       "explanationPublished": true,
       "hint": "Определите род существительного в начальной форме. У слов «оба» и «обе» разные основы склонения; множественное число этого различия не отменяет.",
@@ -9780,7 +9780,7 @@
       "ruleSourceRefs": []
     },
     "69CA59": {
-      "sourceContentSha256": "1be457615846bae4f23e1d9235f61f93882eb620f38fbcfbbaf5d6496843f754",
+      "sourceContentSha256": "1dd365f13a740d961482e9824df45993618653d2787b26f92ff064e214b7c636",
       "explanationSha256": "c483250f080e69e430145718d6c5ae1429686b1ffa5f6fd18b47e712784bccd5",
       "explanationPublished": true,
       "hint": "Проверьте прошедшее время глагола на -нуть в значении намокания: суффикс -ну- может не сохраняться.",
@@ -9795,7 +9795,7 @@
       "ruleSourceRefs": []
     },
     "6C3050": {
-      "sourceContentSha256": "52f70afaa3e7abd3b9904a2644278a59c77b0b8dc70b7f5b9bb3a349029b8b29",
+      "sourceContentSha256": "ccad90b935fb894efad342a35924b522802130213d12ccd11dfd34abd16e4299",
       "explanationSha256": "6b5166cce231b72e75ca6e685a9f11be0afd95e39d84fe1ae0173dd97223a436",
       "explanationPublished": true,
       "hint": "Проверьте творительный падеж числительного с сотнями. Первая часть должна быть такой же, как у соответствующего простого числительного в этом падеже.",
@@ -9810,7 +9810,7 @@
       "ruleSourceRefs": []
     },
     "729EAA": {
-      "sourceContentSha256": "439fa78ce9da7fb2d84568281565531bd2f01e5c1def63705c00e745940ff7dc",
+      "sourceContentSha256": "1e17cca2591416b6815b2bff66c5a785b827cf325f17c249c27ee5325ea1040e",
       "explanationSha256": "4b990c36bdbb7d8d077a9e788a49816be6d3c88d128f71eb1f83cdba0b6ca53c",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа названия обуви. Не все существительные мужского рода требуют окончания -ов.",
@@ -9825,7 +9825,7 @@
       "ruleSourceRefs": []
     },
     "730999": {
-      "sourceContentSha256": "a9c68bfced6dde09f6e1cd8d6958732319e668754e67d355d1ea2951944acd7d",
+      "sourceContentSha256": "29c63dcd6a4ca640b76d5773cf2a22ebcba175296a9237b369ae091feaefeffe",
       "explanationSha256": "38b77da965d68561600db595c8b142544ea1af4e202a8a4fbbd5fdc55b287002",
       "explanationPublished": true,
       "hint": "При обозначении количества после «около» и «более» нужен родительный падеж. Сверьте целую форму числительного, а не только его первую часть.",
@@ -9840,7 +9840,7 @@
       "ruleSourceRefs": []
     },
     "74EFC9": {
-      "sourceContentSha256": "9fab7fe29c5511a9de10d924d37c90badfc690bc0d0395e89f0c820f46405d70",
+      "sourceContentSha256": "1ec01fbac699ef46bebe723640f68cbe6b5c3e9a2ae60fa1f53dcefc65feaaf6",
       "explanationSha256": "d553703f053bdf296fe7af49ce703042be32bad6a43cf5407cad0fecd1b1136e",
       "explanationPublished": true,
       "hint": "Зависимое существительное обозначает предметы в творительном падеже. У числительного с сотнями обе части должны соответствовать этому падежу.",
@@ -9855,7 +9855,7 @@
       "ruleSourceRefs": []
     },
     "7C773B": {
-      "sourceContentSha256": "4a84823a36c272eab58f86ab8ce74c380a4a36d7d8924ece4dd4b4fc27086aa7",
+      "sourceContentSha256": "7923d5392a070312cc36c6d4f85e6973e79421949d82a02aa9829fd5f8745f7c",
       "explanationSha256": "bba8af60dc4de82a80b1d2cd3c2a9eb2c0b4a5088b30ffd413c02079c55739ee",
       "explanationPublished": true,
       "hint": "Проверьте форму побуждения к поездке. У глагола «ехать» она не получается простым добавлением окончания к основе инфинитива.",
@@ -9875,7 +9875,7 @@
       "ruleSourceRefs": []
     },
     "7D35EA": {
-      "sourceContentSha256": "b26bed9cb739c3fdb3621f7e71f8381d22915dc83a7e6f7364c3c5788a9d15a5",
+      "sourceContentSha256": "46eefad992266a8257f109f433e80c88020c0e44edf04c12f1a3ac87f3e59ca4",
       "explanationSha256": "280c1c4e67797f44d1ff3ea831ba1585d72f0f4aeb3f9b3eede59697ac7f8da6",
       "explanationPublished": true,
       "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
@@ -9890,7 +9890,7 @@
       "ruleSourceRefs": []
     },
     "810334": {
-      "sourceContentSha256": "e9a7e142d3bbb4da49d28b7990ecf34ef2564d2ba0d3ccb675a06a4666438897",
+      "sourceContentSha256": "e72b029f04186c4225acf84547bc82ea9b3c51fa076718129230819817660ae7",
       "explanationSha256": "fddee67331d8679278b57924154bff46409dfde3174b7033e9d1acdb89950cfe",
       "explanationPublished": true,
       "hint": "При обозначении количества после «около» и «более» нужен родительный падеж. Сверьте целую форму числительного, а не только его первую часть.",
@@ -9905,7 +9905,7 @@
       "ruleSourceRefs": []
     },
     "848E52": {
-      "sourceContentSha256": "6fd3b027574294a8e11249c71cb1769baa6ee8a86892ab8d74b3d7c5d57f2e8a",
+      "sourceContentSha256": "42febb41e87fbbf2d819db4a82e6f441bca7cbf0e63d3a12653356a9d6ae954b",
       "explanationSha256": "1c31fe56ad68a9729bb2ae46a771d496238eedc5a6e46b7ad9adad1f3194c507",
       "explanationPublished": true,
       "hint": "Форма множественного числа может зависеть от значения слова. Здесь речь о местонахождении, а не о торжественном письменном приветствии.",
@@ -9920,7 +9920,7 @@
       "ruleSourceRefs": []
     },
     "84916E": {
-      "sourceContentSha256": "468cde961eff710973464cd3210cc3ed0da89da30f6e25264093e7e4aeae9ce4",
+      "sourceContentSha256": "837b85abde9296c6e3fdbdc0426a719b3e7c975dd47dd3cab7acb953f0a47bf9",
       "explanationSha256": "c7be4cee24572d60eaa49d0754c8194ac34105ebebb8bb6cde2e3c702ba4b4ff",
       "explanationPublished": true,
       "hint": "Проверьте побуждение к поездке при обращении к нескольким людям. Сначала вспомните нормативную форму для одного человека, затем добавьте -те.",
@@ -9940,7 +9940,7 @@
       "ruleSourceRefs": []
     },
     "86D4CC": {
-      "sourceContentSha256": "1fe0a12764422068c3552d66ee283bbe53320fa18cb267c2c874f184c825b026",
+      "sourceContentSha256": "2473cf6ed5d2c66468d2b330d0d24a69e11d9ffdbbf11c65fd084e33b59788a4",
       "explanationSha256": "4351c19dac54513bde12c1775e47d09890ac1145375db6dc99e3be75573405be",
       "explanationPublished": true,
       "hint": "Проверьте форму побуждения к поездке. У глагола «ехать» она не получается простым добавлением окончания к основе инфинитива.",
@@ -9960,7 +9960,7 @@
       "ruleSourceRefs": []
     },
     "890AB3": {
-      "sourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258",
+      "sourceContentSha256": "b3f301c30d46c807ece8e41f8c48d05f226cc2fe13c070e27d650f4ec3b37277",
       "explanationSha256": "702112228f35d4421627870a90bdd5dc3a787efa77ecc3bfb743020daddd3e7e",
       "explanationPublished": true,
       "hint": "Проверьте род существительного с названием сладкого продукта, затем выберите окончание творительного падежа.",
@@ -9975,7 +9975,7 @@
       "ruleSourceRefs": []
     },
     "93AE9E": {
-      "sourceContentSha256": "61ff5d0a7e4c5b19c49147f95374fc9f6b2d289c7c09d484d77de238944c291e",
+      "sourceContentSha256": "726b8a94c913c3a2f833d438b77cc6d9fd62ff5679c2febd70d692e0b1ebc5fe",
       "explanationSha256": "4ddc878d8f50410f3ce2d6b7b3221f678eeaa9b8b70f92319d0668330b3a7697",
       "explanationPublished": true,
       "hint": "У глаголов движения повелительное наклонение может иметь особую основу. Проверьте побуждение ненадолго приехать куда-то, не образуя его напрямую от инфинитива.",
@@ -9990,7 +9990,7 @@
       "ruleSourceRefs": []
     },
     "944170": {
-      "sourceContentSha256": "639253c1d30bc7d69a934773ce95ce279f9512582e53d4291df43cf458af003a",
+      "sourceContentSha256": "21a8127fb9651a6d7d02421d96f1b0e28525d657c4e6b5268c1191bc9904ff19",
       "explanationSha256": "c9eb75459cd994a4552e2f12b46fea8d577ed6b59e4659ea7bf773d3c8f1e447",
       "explanationPublished": true,
       "hint": "Проверьте именительный падеж множественного числа у названия профессии. Нельзя переносить окончание из слов «тренеры» или «бухгалтеры» на все профессии.",
@@ -10005,7 +10005,7 @@
       "ruleSourceRefs": []
     },
     "98BE1B": {
-      "sourceContentSha256": "b3aa7c3fb4a7a8e61f9acce562030aa4bade0a1211ff0a00b64215794b941e98",
+      "sourceContentSha256": "9d7ed93ab9b9fa0a499b0ab46af62f3a1962129e502a141e4a2abfdadeaf9656",
       "explanationSha256": "ab6875381c3d73e6e0864f24765419f494ba6495f7bcf872b99e2a70426a6157",
       "explanationPublished": true,
       "hint": "Определите, какая форма нужна после слова со значением группы военнослужащих. У некоторых названий людей родительный падеж множественного числа имеет нулевое окончание.",
@@ -10020,7 +10020,7 @@
       "ruleSourceRefs": []
     },
     "99D255": {
-      "sourceContentSha256": "bda80d315c1e27d2c2e4e83b1242d987f843afb6d9467acf54b485c75f8e4f17",
+      "sourceContentSha256": "15733d6c829ff66d2b4ed723375667f7a0ab1f6755517068882ae9214c17fdab",
       "explanationSha256": "4893f2cf5755b3ee7ae08b474cacaee56c507bbdfa0f2f226e43b1f903f1812d",
       "explanationPublished": true,
       "hint": "Проверьте побуждение отправиться из одного места в другое. У этого глагола движения повелительная форма не образуется механически из формы «выедешь».",
@@ -10035,7 +10035,7 @@
       "ruleSourceRefs": []
     },
     "A42414": {
-      "sourceContentSha256": "5d4f4fd601c8ceec7e45a452b6fc042dd5800ff1768dada8cbe13449b483338a",
+      "sourceContentSha256": "156578642d40e2834cd25d9704b88085bd9b9670ca4f240e63daf7453a3c7668",
       "explanationSha256": "5e4f2e04c4bdc98d1ea7329880df37f6aabca92b9ade09c0a326b97266d6a05c",
       "explanationPublished": true,
       "hint": "Найдите слово, которое должно выражать превосходную степень вместе с прилагательным. Не смешивайте его со сравнением количества.",
@@ -10050,7 +10050,7 @@
       "ruleSourceRefs": []
     },
     "A4CB01": {
-      "sourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036",
+      "sourceContentSha256": "f4e0a5f1463e148e673c671f3e77215a61d2c35862e5d71a14af6e3a39ca8bd7",
       "explanationSha256": "ab767e1d3a40961e9c8193c49154713e63c73d84a1d16c437c39a82c5e7d27ba",
       "explanationPublished": true,
       "hint": "Проверьте личную форму глагола на -чь. Согласная основы может чередоваться: форма 1-го лица не задаёт одну и ту же согласную для всех лиц.",
@@ -10065,7 +10065,7 @@
       "ruleSourceRefs": []
     },
     "A704AE": {
-      "sourceContentSha256": "79824f669ca9dd90f37baa0dfc11914ce450b762aa957bbd8d717e5585dfd9a1",
+      "sourceContentSha256": "f7ed9e5a7f207af38ca3264e34c95c729d55e1f2a93cb939e66c5eb5cf2c0ce1",
       "explanationSha256": "15a4636143d9117aaedd068b6489b94611205ececd5965323c0d68f8a7ea535e",
       "explanationPublished": true,
       "hint": "У существительного среднего рода используется та же основа числительного, что и у мужского. Восстановите начальную форму существительного, затем выберите падежную форму.",
@@ -10080,7 +10080,7 @@
       "ruleSourceRefs": []
     },
     "A7C780": {
-      "sourceContentSha256": "1567f16de48a444bb319443cdda24b52b0a3c8f2d842f0c6a3aa7b20564957df",
+      "sourceContentSha256": "ed4f4d2248fac17a6ceb19548daec31804b0265ddebc453ee8d72e2dddef317e",
       "explanationSha256": "7fd0440439a573dd1e6cf2346772ad5cc249fd5cb828b561f8ddd68aefe7d831",
       "explanationPublished": true,
       "hint": "Найдите слово со значением принадлежности. Нейтральное притяжательное местоимение этого типа не получает падежного окончания.",
@@ -10100,7 +10100,7 @@
       "ruleSourceRefs": []
     },
     "AA8707": {
-      "sourceContentSha256": "bb53624a808044df55f161e26c791c2c67ba45550d64d914dd1c25d899ec16fd",
+      "sourceContentSha256": "809a4ba78d9f409d034064d162fd43e4b23977361ba7e499912c485218f86767",
       "explanationSha256": "095efe1b8aa3c18ec341e54e965f48355b5ebe386650955cdd187bdc6fed4814",
       "explanationPublished": true,
       "hint": "Предлог «с» здесь обозначает наличие некоторого количества денег. Задайте вопрос «с чем?» и измените обе части числительного с сотнями.",
@@ -10115,7 +10115,7 @@
       "ruleSourceRefs": []
     },
     "AE0374": {
-      "sourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5",
+      "sourceContentSha256": "6d5d5479b4bf266047b24fb5af4d53c82e55412629a018b8d5e35b968e6fe3e1",
       "explanationSha256": "8daf1e1dadc312263c0cae6fd4acd6c8a7a06417cb0073ce3517a08d8ba67a21",
       "explanationPublished": true,
       "hint": "Проверьте род существительного с названием сладкого продукта, затем выберите окончание творительного падежа.",
@@ -10130,7 +10130,7 @@
       "ruleSourceRefs": []
     },
     "B1C91E": {
-      "sourceContentSha256": "8d73d248c3247d4b5d6d83dfe1b844b8a0affa4101e951a6f91e6ff014dc1b34",
+      "sourceContentSha256": "62e823dd91ee8042c612c104f112f10417b279e8ce9aab540160b20cb85b2599",
       "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692",
       "explanationPublished": true,
       "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
@@ -10145,7 +10145,7 @@
       "ruleSourceRefs": []
     },
     "B3DAE9": {
-      "sourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f",
+      "sourceContentSha256": "ca42d5ad48f3229571cc5646da6a1b24c39ff61e0a84dad6d5ddc6f69ae3c49b",
       "explanationSha256": "ec5b91671c15b5e9e07cf57befe05d98d1ebc09c48b4ef39d6fe8ca3f06ae50d",
       "explanationPublished": true,
       "hint": "У повелительной формы на -и нет обязательного конечного й. Проверьте именно этот глагол, не подменяя его другой моделью движения.",
@@ -10160,7 +10160,7 @@
       "ruleSourceRefs": []
     },
     "B95F57": {
-      "sourceContentSha256": "37cdfb5f9756015a01ee7e73524ab69156f4a16284288aaaf79f90256f054c43",
+      "sourceContentSha256": "f8160ce512f623727677ccdfe6f0e26f1d25534df8e90a7d22e399165b0be462",
       "explanationSha256": "7dd7cab4471128a91c0b05ea5477b465ea380178faa3a220adc1a4a144700d4c",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа названия обуви. Не все существительные мужского рода требуют окончания -ов.",
@@ -10175,7 +10175,7 @@
       "ruleSourceRefs": []
     },
     "BCCEFC": {
-      "sourceContentSha256": "7f248b8108eb22083663524f9a7b056bb0dcddd32f6f9ef1be0e4a45dee108b0",
+      "sourceContentSha256": "e10020e914a0093b66c7b8112435a146cbd1511547388f37be1277619d382f47",
       "explanationSha256": "9455c4af721f5f1520d35adbb4c94f3f5530e6cadeb2ca5a6254a41468abc2e1",
       "explanationPublished": true,
       "hint": "Проверьте творительный падеж числительного с сотнями. Одного изменения первой части недостаточно: вторая тоже должна получить полное окончание.",
@@ -10190,7 +10190,7 @@
       "ruleSourceRefs": []
     },
     "BE9871": {
-      "sourceContentSha256": "ebabd4ff8e83ddacbccb47928cbf23e5aa4f2056f2ccc8ac2d2ef03069535646",
+      "sourceContentSha256": "6b5fba24efabe52b6f54b406d234ff3acd23aaadaa7a30b10dee2e8d1a029f81",
       "explanationSha256": "6a6b045824e1404e44c3bc16903162bee26a7f25ca28ae00c7ce855bf237627f",
       "explanationPublished": true,
       "hint": "Отличите порядковый номер экземпляра от количества предметов. Не переносите внутрь порядкового числительного форму творительного падежа количественного.",
@@ -10205,7 +10205,7 @@
       "ruleSourceRefs": []
     },
     "C542DC": {
-      "sourceContentSha256": "0e22e1f915cbfee3d20cdaf6f1ab0c9e6035dcce16529d5aeb1ca8613b774ad1",
+      "sourceContentSha256": "90a794cfdf9a2a28868c7e9f939448cc335ec79e131c6212e0634b01853fdfff",
       "explanationSha256": "52415ff62c36a1fc74d9d72625c8f06a12bc677bc72398ac29399cb4fa4ff87d",
       "explanationPublished": true,
       "hint": "После «мало» требуется родительный падеж. У существительных на -мя в косвенных падежах меняется не только окончание, но и основа.",
@@ -10220,7 +10220,7 @@
       "ruleSourceRefs": []
     },
     "C88373": {
-      "sourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2",
+      "sourceContentSha256": "f6632129091a9f9ede54c7b6346287e5e4c2dfa8ca657649f2cfa9cefd95fb05",
       "explanationSha256": "04af04507fef549e7e185a347befac9e8efbaa93c7be2cdfcecab5b25e9bced6",
       "explanationPublished": true,
       "hint": "Мягкий знак в конце существительного не всегда означает женский род. Определите род, затем образуйте творительный падеж.",
@@ -10235,7 +10235,7 @@
       "ruleSourceRefs": []
     },
     "CA147A": {
-      "sourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb",
+      "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
       "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
       "explanationPublished": true,
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
@@ -10250,7 +10250,7 @@
       "ruleSourceRefs": []
     },
     "D05218": {
-      "sourceContentSha256": "9585334b0a579899934bc68b04991d505ad2f19191613168903adf574547b4c1",
+      "sourceContentSha256": "70f993d8442669c3294995e96b22cbbb753b254d0d963f1062199be8bc059b56",
       "explanationSha256": "6c09ed19cbbd7721e484229d39bdbef1298cf74d647dc71641558861f929aa84",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа у названия плодов. Окончание -ов у одних названий фруктов нельзя переносить на все остальные.",
@@ -10265,7 +10265,7 @@
       "ruleSourceRefs": []
     },
     "D754F9": {
-      "sourceContentSha256": "947491bf2e2ba5480a47c724f5e6330f1019dca2d727368b6005000581b1ab6c",
+      "sourceContentSha256": "4bd3ee70ec27959cad5dad7c8f21993f5a50af4546ca3d4470ac3adaadc44d35",
       "explanationSha256": "ba72700bdd8cb65acf8caa7fb4eec7642c70192f1fd6e0bc078c7bb6a636cc30",
       "explanationPublished": true,
       "hint": "Предлог «из» требует родительного падежа. У существительного среднего рода на -це проверьте, появляется ли беглая гласная при нулевом окончании.",
@@ -10280,7 +10280,7 @@
       "ruleSourceRefs": []
     },
     "D8BE94": {
-      "sourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503",
+      "sourceContentSha256": "e8325aeb7f18e91eb30ad10ba548571ab76b840b455099682662449a241551ff",
       "explanationSha256": "5fa401714dbcfd5efdc30bf087b7729fe03c730b7cc5d8d7aaf1bd72ff6273b1",
       "explanationPublished": true,
       "hint": "Проверьте личную форму глагола на -овать. Сначала образуйте форму «я…»: сохраняется ли в ней весь суффикс инфинитива?",
@@ -10300,7 +10300,7 @@
       "ruleSourceRefs": []
     },
     "DD4AE3": {
-      "sourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a",
+      "sourceContentSha256": "3e7ea801efe51b9162f6a0573e4a0dd94840eed54a975ac449043c971bd91f1c",
       "explanationSha256": "d6fdde2ea1dd1ea819673bc4ec313a2101a4192903e91d201655e5788ee59061",
       "explanationPublished": true,
       "hint": "Найдите глагол в форме будущего времени. У глагола на -чь в разных личных формах чередуются согласные; приставка этого чередования не отменяет.",
@@ -10315,7 +10315,7 @@
       "ruleSourceRefs": []
     },
     "E60EB4": {
-      "sourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0",
+      "sourceContentSha256": "4a65f2e6c1c8441eb82cb91abe958f0513c3f8e687a9907d3e503ac55c4c8d69",
       "explanationSha256": "6a134bffa1c61c32826091d6062613413ec3f4f2851484753d3e91f5a4823b31",
       "explanationPublished": true,
       "hint": "Найдите прилагательное, возле которого уже стоит «более». Исправьте только выделенное слово, не удаляя остальную часть конструкции.",
@@ -10335,7 +10335,7 @@
       "ruleSourceRefs": []
     },
     "E7D8E1": {
-      "sourceContentSha256": "a6942f0c77811ca61ea14dfbca282b0a8ff7dfd2809ebffb94fb5e4dadb02875",
+      "sourceContentSha256": "78e5d7e850f80f379e0bffb355aecd80b122ae62cf8b2a43bd86102e00741bd6",
       "explanationSha256": "85ca8569d5260fa9f9c24fae67ef44a0154ba33712fde73624b82c10d2cfe4c1",
       "explanationPublished": true,
       "hint": "Проверьте личную форму глагола со значением уничтожения огнём. Согласные основы в формах «я…» и «ты…» различаются.",
@@ -10355,7 +10355,7 @@
       "ruleSourceRefs": []
     },
     "E97CE0": {
-      "sourceContentSha256": "a448701471b05a39d9ea658dc92d0c024a0c9d642ebd8ce48521f85f688aecc0",
+      "sourceContentSha256": "e09705cfd6d2ddc73428d9ff254d3ec47d9de473a7daf2e53b409e4bdeed2437",
       "explanationSha256": "19dc5564eba478ac12f530f6459c5746f7c2aa2114d8c23dc6ac028bb9558eb9",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа у названия плодов. Окончание -ов у одних названий фруктов нельзя переносить на все остальные.",
@@ -10370,7 +10370,7 @@
       "ruleSourceRefs": []
     },
     "ECF2E7": {
-      "sourceContentSha256": "7c0bcb40f0c7673d6f9f0f15656e9b379937b2717dfefbbd421c363e0f7e2381",
+      "sourceContentSha256": "b5c100a519f0f934d47b3104903050da2ff80c5eb19c3af3382b3026c804fd2e",
       "explanationSha256": "4900ea53c2acb9063c7a0aa1a7487e2e69f878d91ff5a80e7ea4b4a1837f11a3",
       "explanationPublished": true,
       "hint": "Для обозначения места у некоторых существительных есть особая предложная форма. Отличайте «где?» от «говорить о чём?».",
@@ -10385,7 +10385,7 @@
       "ruleSourceRefs": []
     },
     "ED6747": {
-      "sourceContentSha256": "0f4fb2905bab16db4f8e9990964a9bc7880b71a8aff55296e335b642d795b63a",
+      "sourceContentSha256": "5e759ccfa9fac9360b4c334a29e644370151dd287a48fabf380b02328d846cf1",
       "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e",
       "explanationPublished": true,
       "hint": "Различайте личную форму прошедшего времени и деепричастие: вопрос «что сделав?» не требует механически сохранять основу формы на -л.",
@@ -10400,7 +10400,7 @@
       "ruleSourceRefs": []
     },
     "F05133": {
-      "sourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850",
+      "sourceContentSha256": "f6f3b56a7e4804d85cd178b29d6cf17399724fd6317afe487e6114e1edc1f69c",
       "explanationSha256": "1fab82a2a058a81c8ec054c441729e73d9ffdb2355dccc1370643f08212a411c",
       "explanationPublished": true,
       "hint": "В названии года определите последнее слово составного порядкового числительного. Именно оно получает падежное окончание; предыдущая часть сохраняется.",
@@ -10425,7 +10425,7 @@
       "ruleSourceRefs": []
     },
     "F23DF9": {
-      "sourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0",
+      "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
       "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
       "explanationPublished": true,
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
@@ -10440,7 +10440,7 @@
       "ruleSourceRefs": []
     },
     "F26529": {
-      "sourceContentSha256": "3f2872a4cafb7f5447953f61ce50d363d8358245f33ccec333c6cac6ca03c2ea",
+      "sourceContentSha256": "f7b4f38acee1b23fb3b21554a6338f3fdf692fff16fc49d9d75cd15b464aa9bd",
       "explanationSha256": "acae2ec9c0930c324e9f16de504776f27599a694b42f9b4b3b6ca42f1c3df8f3",
       "explanationPublished": true,
       "hint": "Проверьте простую сравнительную степень прилагательного. Не любой суффикс со значением сравнения подходит к каждому слову.",
@@ -10455,7 +10455,7 @@
       "ruleSourceRefs": []
     },
     "F43551": {
-      "sourceContentSha256": "ba2bc24cb97f16c6965afdf6e537223e8609f0e9f94515b5ded7c44963281492",
+      "sourceContentSha256": "c3a97eb4fed0d6dd316c176e88ca1b9fa8e49887dec3a33263999fe13b3b23bd",
       "explanationSha256": "ab8995c14fd590b447c0499b4a53012ba6f856b0c6f190ee7e85daece91b1622",
       "explanationPublished": true,
       "hint": "У названия обуви проверьте форму родительного падежа множественного числа. Зависимость от слова «пара» не делает окончание -ей обязательным.",
@@ -10470,7 +10470,7 @@
       "ruleSourceRefs": []
     },
     "F5ED6D": {
-      "sourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d",
+      "sourceContentSha256": "1cc66d132400e00c7397081ccb1f57d6da63d78e4819f2f8b83579ca8a735ec1",
       "explanationSha256": "9f50563222dd146ae6f5bbd67f912f92d0642ce7912fb360867ee5d3e89db74d",
       "explanationPublished": true,
       "hint": "Проверьте падеж после производного предлога. Начальное н- появляется у местоимения не после любого предлога.",
@@ -10490,7 +10490,7 @@
       "ruleSourceRefs": []
     },
     "F61987": {
-      "sourceContentSha256": "9c261b99309fe070cc19cf42061298554936068ad6dffaec794f6859cfae6cd1",
+      "sourceContentSha256": "bf992ad80751ff44014ef432027da387c7d0549e8881bc0d3d4df349871fbdd5",
       "explanationSha256": "4af9488b5847d631c702c7f5dd712c270d5bd668ddfd8ca5e3046561d2381dcc",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа у названия одежды. Восстановите начальную форму и не подменяйте её склонение моделью другого существительного.",
@@ -10505,7 +10505,7 @@
       "ruleSourceRefs": []
     },
     "FB76CB": {
-      "sourceContentSha256": "7f61cddfc993c98741ac91ec2265d2db2fd061d71cd9f706fe4aebfe73eec430",
+      "sourceContentSha256": "53cd892910aa08614339f5d1b0b84ea826db8c2f863562cc5b6cab0e22e5bd14",
       "explanationSha256": "0b329ffd1eb66196cca55c40d4cbc706a69d3a56028e817312ef8273a6547d31",
       "explanationPublished": true,
       "hint": "Проверьте родительный падеж множественного числа у названия высокой обуви. Не переносите на него окончание из слова «носков».",
@@ -10520,7 +10520,7 @@
       "ruleSourceRefs": []
     },
     "FE285C": {
-      "sourceContentSha256": "5b4ab79fddcf46ebaabad063e8855af3fc03bbd5c4627ebb8c9a9830a738c65c",
+      "sourceContentSha256": "a8bdae3f7d0b05037adeab56d106222a9a83f23397cb50dba59d7bde473b8555",
       "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692",
       "explanationPublished": true,
       "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",

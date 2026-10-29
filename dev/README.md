@@ -23,7 +23,9 @@ dev/
 
 1. Подготовить карточки и словарные доказательства, обновить реестры (в том числе `task_7_card_reviews.json`) в
    `dev/data/knowledge/` и журнал объяснений в `dev/docs/content-audit/`.
-   Условия и ключи ФИПИ изменяются только по согласованию автора.
+   Условия и ключи ФИПИ изменяются только по согласованию автора. Автор также
+   разрешила восстановление условий/вариантов/выделений по сохранённому сырому
+   источнику: [границы и исключения](docs/content-audit/raw-format-audit.md).
 2. Выполнить `python3 dev/scripts/publish_content.py`. Инструмент проверит
    исходники, хеши и ссылки и обновит только подготовленные данные приложения:
    `card_support.json`, `paronyms.json`, `dictionary_sources.json`, профиль
@@ -49,7 +51,8 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 ## Проверки
 
-Стандартная библиотека:
+Сборка использует стандартную библиотеку. Для модульных проверок сырого HTML
+нужен `lxml` из `requirements.txt`; для браузерных — Playwright и Chromium.
 
 ```bash
 bash scripts/install.sh
@@ -82,3 +85,7 @@ dev/.venv/bin/python dev/tests/review_debug_smoke.py
 Проверка сервером ФИПИ на компьютере автора:
 `python3 dev/scripts/check_fipi_answers.py --cards src/cards`.
 [Настройки пауз, журнал и продолжение](docs/fipi-answer-checks.md).
+
+Сверка условий и вариантов по выгрузке: `python3 dev/scripts/audit_fipi_format.py --check`.
+[Отчёт и исключения](docs/content-audit/raw-format-audit.md),
+браузерная проверка: `python3 dev/tests/fipi_format_smoke.py`.
