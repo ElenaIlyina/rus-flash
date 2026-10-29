@@ -45,7 +45,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "88925f89743dbbc9b0ad82248c472b0b622e6abd938ccf6121a72ce082e93e31",
+      "sourceContentSha256": "4ca6037772b44a712c683d0bddc27727e76d726afbb07b0ad7aaafee23eda3c4",
       "headwords": [
         "печатать",
         "работа",
@@ -65,7 +65,7 @@
         "previousSourceContentSha256": "a339c4bf1353af1982543f1d20cfd2b69202d851e9ba8448a380049b56931484",
         "sourceContentSha256": "55df8478cac0ccf9186ba34bb0cc034a5d1a16da3f7baebed8001001e08baf8a"
       },
-      "formatSyncPreviousSourceContentSha256": "e039f83229338b12ee2fdb275e06d2124ac97710051a452c63d7614689177fc4"
+      "formatSyncPreviousSourceContentSha256": "88925f89743dbbc9b0ad82248c472b0b622e6abd938ccf6121a72ce082e93e31"
     },
     {
       "id": "0ABFEC",
@@ -110,7 +110,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "8a71868bc33e6461989b4e1b752d1142a68d2912ce30482de92dd5aa252e3392",
+      "sourceContentSha256": "0abee8cd4307ac5e98df151973e9f1a69d335d0fd38f4711c8bb3299c630dcf1",
       "headwords": [
         "прямой",
         "акт",
@@ -118,7 +118,7 @@
         "система",
         "установить"
       ],
-      "formatSyncPreviousSourceContentSha256": "d2d4586eed6ddbfd77ea9349e7726564c8a84ca1b01991aede9c41330d036db9"
+      "formatSyncPreviousSourceContentSha256": "8a71868bc33e6461989b4e1b752d1142a68d2912ce30482de92dd5aa252e3392"
     },
     {
       "id": "2BA3EC",
@@ -163,7 +163,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "e66e3eddf3cebe78f3d671aec2934efe9aad0ac2e59a3932822adc9300d01b7c",
+      "sourceContentSha256": "73424971721d7fee410598cb478d7893c8d743112a7d1bfe8aeff387d349fd43",
       "headwords": [
         "эпиграф",
         "звучать",
@@ -184,7 +184,7 @@
         "previousSourceContentSha256": "115acd13e7a66056584f8066c61f51ae3a8874e3150656c603ae20bd8435a960",
         "sourceContentSha256": "7e139652c39a6e3807dbd844147b00b032c6ddf7d609bed19e015380496b1f03"
       },
-      "formatSyncPreviousSourceContentSha256": "3e2c6eca861e687282dae8530f479df445bc9dd98fb5af4462649dd7ca616c4a"
+      "formatSyncPreviousSourceContentSha256": "e66e3eddf3cebe78f3d671aec2934efe9aad0ac2e59a3932822adc9300d01b7c"
     },
     {
       "id": "33BA3C",
@@ -229,7 +229,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "410bfb550fec7f3d6e059c7610c50fcc86a4cd629098a084f103b9ebfcc448b1",
+      "sourceContentSha256": "5b9b6998c974b97adb0f9d303ac7c68a39b024fe53107aedb09ac90765112267",
       "headwords": [
         "эталон",
         "культура",
@@ -239,7 +239,7 @@
         "уйти",
         "ухаживать"
       ],
-      "formatSyncPreviousSourceContentSha256": "c6ed6fbd323bfa0ca5d9168152a7886583fa21d8e83d9a20aa561b175e671f59"
+      "formatSyncPreviousSourceContentSha256": "410bfb550fec7f3d6e059c7610c50fcc86a4cd629098a084f103b9ebfcc448b1"
     },
     {
       "id": "5A83DF",
@@ -284,7 +284,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "f904ac71ed73c7966786177dcb9ff3e98e2860074739fd38cc69855047591022",
+      "sourceContentSha256": "e01fdd3cb6ba64e0caeda95c451002f8d4592ee2f3e40ab057ad0459bacae0f3",
       "headwords": [
         "содержание",
         "элемент",
@@ -292,7 +292,7 @@
         "выработать",
         "первичный"
       ],
-      "formatSyncPreviousSourceContentSha256": "459454096708999b75374242223ec1f1925ca686904601077c1ae59e39bb38d8"
+      "formatSyncPreviousSourceContentSha256": "f904ac71ed73c7966786177dcb9ff3e98e2860074739fd38cc69855047591022"
     },
     {
       "id": "62A8A9",
@@ -337,7 +337,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "c065e1b565bfdc7f32e955a8424cadefda4191382532e8b2c2139be36e088b02",
+      "sourceContentSha256": "f2f47adcbe06b6dc7f2266a04339c35d79589905295fddc7fb448028353399b5",
       "headwords": [
         "осветить",
         "масса",
@@ -345,7 +345,7 @@
         "взгляд",
         "вопрос"
       ],
-      "formatSyncPreviousSourceContentSha256": "c57809ab1d56d11b9aedc493b6f934597d847a5d8315d6852a42c13f59cb387d"
+      "formatSyncPreviousSourceContentSha256": "c065e1b565bfdc7f32e955a8424cadefda4191382532e8b2c2139be36e088b02"
     },
     {
       "id": "7AB7D7",
@@ -390,7 +390,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "1d00c31101804df0145a9fbca12033168a1174f3603b3585f2a34d7d0496d86e",
+      "sourceContentSha256": "1e413213c76640e977d07250adb0a13ab5a5fc3215f3c5b028b46b8effc0a431",
       "headwords": [
         "земля",
         "собрать",
@@ -398,7 +398,7 @@
         "верста",
         "шум"
       ],
-      "formatSyncPreviousSourceContentSha256": "ebc3ac799951ef2095fbb0dfc0026bed1b60b2060c7736ac5fa70431337374a9"
+      "formatSyncPreviousSourceContentSha256": "1d00c31101804df0145a9fbca12033168a1174f3603b3585f2a34d7d0496d86e"
     },
     {
       "id": "883E90",
@@ -443,7 +443,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "ac15037fadd48fcaec7387c12d91cb8317cfb1cb37bde7c08d02954bdadc92c4",
+      "sourceContentSha256": "678d9461a0e74d28f0c0fc0231b002e14893880aee44a4066cc15bca6599d026",
       "headwords": [
         "хаос",
         "порог",
@@ -451,7 +451,7 @@
         "полый",
         "древесный"
       ],
-      "formatSyncPreviousSourceContentSha256": "2deafa373d261e0c5048415835cb8621d85978db5f13f75b260911dcbb9176c7"
+      "formatSyncPreviousSourceContentSha256": "ac15037fadd48fcaec7387c12d91cb8317cfb1cb37bde7c08d02954bdadc92c4"
     },
     {
       "id": "9273A5",
@@ -496,7 +496,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "1d5dbb284a3c1c5945f679ece5d9b685ca16a4a3c00a30cfc702f657a55798ff",
+      "sourceContentSha256": "26d04c4a33c348fa103f38f81044ca8ce8fb809e91eaca68244c339c3c29d03a",
       "headwords": [
         "фундамент",
         "ползти",
@@ -515,7 +515,7 @@
         "previousSourceContentSha256": "1e2ba89f7e0d33532af54f205ddd125203820a971b7222bb08a408cd60bf4c46",
         "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152"
       },
-      "formatSyncPreviousSourceContentSha256": "64d2f534c49482599d864de5be6f37e57afbd6b80650e4a547284e693c27ee3b"
+      "formatSyncPreviousSourceContentSha256": "1d5dbb284a3c1c5945f679ece5d9b685ca16a4a3c00a30cfc702f657a55798ff"
     },
     {
       "id": "9819CF",
@@ -560,7 +560,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "1b8affc39674592fdfed22674ce9c45cc24d9fbe32955bc321a1f627b2521632",
+      "sourceContentSha256": "82b67ae093eda5c79dc3094aa22bbd2d20e3be69ee11c522439f5dd898b525b6",
       "headwords": [
         "характеристика",
         "тип",
@@ -568,7 +568,7 @@
         "общий",
         "выступать"
       ],
-      "formatSyncPreviousSourceContentSha256": "702cfa94abcbe1abfe2b983515d563dc11473c0197ed8b754600a2063ae5799a"
+      "formatSyncPreviousSourceContentSha256": "1b8affc39674592fdfed22674ce9c45cc24d9fbe32955bc321a1f627b2521632"
     },
     {
       "id": "A3FAC1",
@@ -613,7 +613,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "3a3d357f4d05da81c93bf12a11282f07c5d301b288a5fc310175009084ecf7b0",
+      "sourceContentSha256": "54fa3fdbbfd41b826a97d912bcc27eff560f508fc3abbe9f41ca555ecd75e9a6",
       "headwords": [
         "мир",
         "тройка",
@@ -621,7 +621,7 @@
         "блеск",
         "передать"
       ],
-      "formatSyncPreviousSourceContentSha256": "01cf215a20b1d335bd123f281374c8cf074057e6eab0898e73dfa6deeeffecff"
+      "formatSyncPreviousSourceContentSha256": "3a3d357f4d05da81c93bf12a11282f07c5d301b288a5fc310175009084ecf7b0"
     },
     {
       "id": "B5A555",
@@ -666,7 +666,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_sensitive_key_preserved",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "4a9a99df118673442873d413709d76cf18ea477e004d9474ed5db3e15c3c745c",
+      "sourceContentSha256": "02bc64632871fa2035fe45fdb90df6640335650f9bd7c33278f27293204f465e",
       "headwords": [
         "лицо",
         "край",
@@ -674,7 +674,7 @@
         "следовать",
         "элемент"
       ],
-      "formatSyncPreviousSourceContentSha256": "62747029ee9528d057a978848ae8ed437050870ff1782cebbbd7247b0628b5b7"
+      "formatSyncPreviousSourceContentSha256": "4a9a99df118673442873d413709d76cf18ea477e004d9474ed5db3e15c3c745c"
     },
     {
       "id": "BCF56B",
@@ -719,7 +719,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": true,
-      "sourceContentSha256": "88332f65419cfc462762fb008256e67b47109a23948f6cb1d51b6acdb3d791c1",
+      "sourceContentSha256": "efba809a24260c8431982320ad09662afd31441dd6b64492573ef801437390c5",
       "headwords": [
         "жизнь",
         "типовой",
@@ -727,7 +727,7 @@
         "скромный",
         "повторить"
       ],
-      "formatSyncPreviousSourceContentSha256": "57d69830d1c6de04700df86b8ee5a1cd26bf68162279180feab1eafff50673a9"
+      "formatSyncPreviousSourceContentSha256": "88332f65419cfc462762fb008256e67b47109a23948f6cb1d51b6acdb3d791c1"
     },
     {
       "id": "CD2CCE",
@@ -772,7 +772,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_sensitive_key_preserved",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "bea00f1ab194c55c189947c343780134d6b7ef01faf57cfcf9df6ed881f449af",
+      "sourceContentSha256": "292652e57a7f5f4072e0835d73dd362807314068abc58c4ebb1549315afda800",
       "headwords": [
         "обычай",
         "послать",
@@ -780,7 +780,7 @@
         "отличие",
         "горячий"
       ],
-      "formatSyncPreviousSourceContentSha256": "fa8e567debe6138923ce8482be26a49e67479b1d54b9f1362414a4bc3f11752f"
+      "formatSyncPreviousSourceContentSha256": "bea00f1ab194c55c189947c343780134d6b7ef01faf57cfcf9df6ed881f449af"
     },
     {
       "id": "E29F76",
@@ -825,7 +825,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "1c755032135a602df2635926af17f77934cae12f88095d21b507db64d25a99b9",
+      "sourceContentSha256": "c95e067d753aca932eb0af9079ae822b110c14627a2eb27c967a2f57e4ac272a",
       "headwords": [
         "длина",
         "расположение",
@@ -834,7 +834,7 @@
         "представление",
         "живой"
       ],
-      "formatSyncPreviousSourceContentSha256": "b7c857509782f572a116e60f01521b0cffd1818db7ed0a957555b7e057108774"
+      "formatSyncPreviousSourceContentSha256": "1c755032135a602df2635926af17f77934cae12f88095d21b507db64d25a99b9"
     },
     {
       "id": "E9174D",
@@ -879,7 +879,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "3da1b8330d89d52f223abd59ad384ce5f081544d4a9920ca2d32d913664445f6",
+      "sourceContentSha256": "0d66eb4fc789136304fe0545e4c35420e8357b7626b5ab71c282179bd76b7070",
       "headwords": [
         "прийти",
         "духовный",
@@ -888,7 +888,7 @@
         "прозрение",
         "кровь"
       ],
-      "formatSyncPreviousSourceContentSha256": "ce883df0767031d8ce16f2bd7a628826f51bd4abd13238e926137980c92e45c7"
+      "formatSyncPreviousSourceContentSha256": "3da1b8330d89d52f223abd59ad384ce5f081544d4a9920ca2d32d913664445f6"
     },
     {
       "id": "E96B4A",
@@ -933,7 +933,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": true,
-      "sourceContentSha256": "441aa60a2b459f71c949d58e519c46db986ae48279df64c2b9eddf900aaeda96",
+      "sourceContentSha256": "8459beeb27846260bd1f46c43b7121544e8d3559c74c96d2e79e6f3b24c39fec",
       "headwords": [
         "готовый",
         "оценить",
@@ -953,7 +953,7 @@
         "previousSourceContentSha256": "85f589c6890bb0fb893417a8d0e69042e40c8b0be4c3493789c2f3ede518026d",
         "sourceContentSha256": "83beeb4dd0bff63d9597ea69558a8e69b19238cfad636e7e0266100e9b57f93b"
       },
-      "formatSyncPreviousSourceContentSha256": "98bc447b6545759ba0d9126ca92dd511770124f392de64c5c52616512e82915f"
+      "formatSyncPreviousSourceContentSha256": "441aa60a2b459f71c949d58e519c46db986ae48279df64c2b9eddf900aaeda96"
     },
     {
       "id": "F4E1F3",
@@ -998,7 +998,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "4d53a142f46493b56ceaa5a35c0b66e6153930b6c140f0bcfa3ca12a60c3150f",
+      "sourceContentSha256": "ae51c284efbc0bd5ed7a0f3ff486925e1ee500da651be8c6247402530291d535",
       "headwords": [
         "сокращение",
         "сократить",
@@ -1007,7 +1007,7 @@
         "считаться",
         "оценка"
       ],
-      "formatSyncPreviousSourceContentSha256": "6b6d8337753ffad5a1e9a04489ef512895a898aff16c597bd3c5c19af50d4f37"
+      "formatSyncPreviousSourceContentSha256": "4d53a142f46493b56ceaa5a35c0b66e6153930b6c140f0bcfa3ca12a60c3150f"
     },
     {
       "id": "F5E433",
@@ -1052,7 +1052,7 @@
       "highlightRestorationPending": false,
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
-      "sourceContentSha256": "4b18c9a62156eb8e1d395310c63c1b90a0db0d208fc167449578e8bc8f35cfab",
+      "sourceContentSha256": "af4ada415d666b52d7e111ea3537a5a58e9afeba5f4e84521beb153880d5b4f7",
       "headwords": [
         "стиль",
         "опыт",
@@ -1072,9 +1072,9 @@
         "previousSourceContentSha256": "5da49e575c0acfe895fbabe336ee942e0278f910bef6c565fa21965e92c6de3a",
         "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002"
       },
-      "formatSyncPreviousSourceContentSha256": "af5444d5514a76be60d390963a2eb923faf479562ae4a2e799db78140b6a343a"
+      "formatSyncPreviousSourceContentSha256": "4b18c9a62156eb8e1d395310c63c1b90a0db0d208fc167449578e8bc8f35cfab"
     }
   ],
   "otherCardsNotPrepared": 63,
-  "formatSyncEvidence": "dev/docs/content-audit/full-page-passages.json"
+  "formatSyncEvidence": "dev/docs/content-audit/verified-answer-import.json"
 }

@@ -87,12 +87,12 @@
       "substitution": "…ящные. Он ходил легко и быстро, с военной выправкой – сказывались годы сначала в царской, позже в Красной армии. Постоянную бледность он объяснял тем, что был отравлен газами на фронте. Но мне казалось, что и о…",
       "reason": "Служба сначала в царской, затем в Красной армии — последовательные этапы. Наречие обозначает более позднее время, а не причину или противопоставление. В этой карточке ключ — «позже».",
       "fullGrammarReferencePending": true,
-      "sourceContentSha256": "930cb84062c92c7d9539bdd7841fc798ce0442650caf499e006ab0e782dcf552",
+      "sourceContentSha256": "5b8830e85b976cded0707521e9e765c512e225b17189d2d2b3d65f8db8cc95f1",
       "headwords": [
         "поздно",
         "затем"
       ],
-      "formatSyncPreviousSourceContentSha256": "017cbc35d388b7868cd02a77153116c50139bbd11cc4ee3f195e6907fee05eb9"
+      "formatSyncPreviousSourceContentSha256": "930cb84062c92c7d9539bdd7841fc798ce0442650caf499e006ab0e782dcf552"
     },
     {
       "id": "0FCFA8",
@@ -283,11 +283,11 @@
       "substitution": "…нностью работы нервной системы является то, что одна группа нервов ускоряет сердцебиение, но другая замедляет его, действуя как своеобразный тормоз.…",
       "reason": "Действия двух групп нервов противоположны: одна ускоряет сердцебиение, другая замедляет. Противительный союз связывает эти разнонаправленные действия. В этой карточке ожидается «но».",
       "fullGrammarReferencePending": true,
-      "sourceContentSha256": "be1f7712f146e2f0daccdcdb818e4cca544770a75cd043665d7dced2fb831ce4",
+      "sourceContentSha256": "f59baeb97096a58111ba13c6a7df8e49cac11cfb42215783cc7d29d8a9af7360",
       "headwords": [
         "но"
       ],
-      "formatSyncPreviousSourceContentSha256": "d879ed2110e713ea857143a089f42acde7021b1ac83a36987896fc84f79c1ab7"
+      "formatSyncPreviousSourceContentSha256": "be1f7712f146e2f0daccdcdb818e4cca544770a75cd043665d7dced2fb831ce4"
     },
     {
       "id": "4674EE",
@@ -890,5 +890,5 @@
     }
   ],
   "historicalCardsNotPrepared": 9,
-  "formatSyncEvidence": "dev/docs/content-audit/full-page-passages.json"
+  "formatSyncEvidence": "dev/docs/content-audit/verified-answer-import.json"
 }

@@ -333,7 +333,7 @@ function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -350,7 +350,7 @@ function checkAnswer(event) {
     area.innerHTML = '<p class="feedback warning">Сначала укажите ответ.</p>';
     return;
   }
-  const correct = checkResponse(c.responseType, actual, c.answer);
+  const correct = checkResponse(c.responseType, actual, c.acceptedAnswers);
   // One completion result per assignment; intermediate errors remain in history.
   const assignment = store.assignment(c.id);
   if (assignment.completed) {

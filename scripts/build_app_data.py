@@ -98,6 +98,10 @@ def main():
             raise ValueError('Invalid card ID: '+cid)
         if 'content_issue' in card and not isinstance(card['content_issue'],str):
             raise ValueError('content_issue must be a plain string: '+cid)
+        if 'accepted_answers' in card:
+            values=card['accepted_answers']
+            if not isinstance(values,list) or not values or any(not isinstance(v,str) or not v.strip() for v in values) or card['answer'] not in values:
+                raise ValueError('Invalid accepted_answers: '+cid)
         entry = support.get(cid,{})
         if entry:
             frozen = {k:v for k,v in card.items() if k!='explanation'}

@@ -61,6 +61,7 @@ export function adaptCard(raw) {
             ? "position_set"
             : "short_text",
     answer: (raw.answer || "").trim(),
+    acceptedAnswers: Array.isArray(raw.accepted_answers) ? raw.accepted_answers : [(raw.answer || "").trim()],
     explanation: raw.explanation || "",
     contentIssue: typeof raw.content_issue === "string" ? raw.content_issue.trim() : "",
     ruleIds: raw.rule_ids || [],

@@ -37,8 +37,8 @@ class ContentAuditTest(unittest.TestCase):
 
     def test_inventory_retains_all_payloads(self):
         rows=inventory(self.cards)
-        self.assertEqual(len(rows),935)
-        self.assertEqual(len({r['id'] for r in rows}),935)
+        self.assertEqual(len(rows),2069)
+        self.assertEqual(len({r['id'] for r in rows}),2069)
         for r in rows:
             self.assertEqual(r['answer_verify'],self.by_id[r['id']]['answer_verify'])
         conflicts=[r['id'] for r in rows if r['explanation_header_check']=='header_conflicts_with_answer']

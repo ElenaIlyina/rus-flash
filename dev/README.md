@@ -92,3 +92,6 @@ dev/.venv/bin/python dev/tests/review_debug_smoke.py
 
 Сверка общих текстов: `python3 dev/scripts/audit_fipi_passages.py --check`.
 [Полная страница, группы и результат](docs/content-audit/full-page-passages.md).
+
+Проверка переноса ключей: `python3 dev/scripts/import_verified_fipi_answers.py --check`.
+[2069 рабочих ключей, альтернативы и журнал](docs/content-audit/verified-answer-import.md).

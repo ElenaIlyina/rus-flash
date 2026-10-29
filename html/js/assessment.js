@@ -7,6 +7,8 @@ function text(value) {
     .replaceAll("ё", "е");
 }
 export function checkResponse(type, actual, expected) {
+  if (Array.isArray(expected))
+    return expected.some((answer) => checkResponse(type, actual, answer));
   if (type === "multiple_choice" || type === "position_set") {
     const canonical = (value) =>
       text(value)
