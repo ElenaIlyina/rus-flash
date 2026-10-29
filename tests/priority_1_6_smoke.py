@@ -2,7 +2,7 @@
 """Balanced urgent set: source integrity, per-card hints and real answer checking."""
 import functools,hashlib,http.server,json,threading
 from collections import Counter
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, parse_qs
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
@@ -21,7 +21,8 @@ def main():
         source=json.loads((ROOT/'data'/f"card_{meta['id']}.json").read_text())
         assert not runtime['explanation'] and not meta['paronymComparisons'] and not meta['strategyHint']
         assert {k:v for k,v in runtime.items() if k!='explanation'}=={k:v for k,v in source.items() if k!='explanation'}
-    assert Counter(r['task'] for r in reviews)==Counter({i:2 for i in range(1,7)})
+    expected=Counter({i:2 for i in range(1,7)});expected[5]=114
+    assert Counter(r['task'] for r in reviews)==expected
     for review in reviews:
         card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
         source={k:v for k,v in card.items() if k!='explanation'}
@@ -33,7 +34,8 @@ def main():
         with sync_playwright() as p:
             browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
             page=browser.new_page(viewport={'width':390,'height':900});page.on('pageerror',lambda e:errors.append(str(e)))
-            for review in reviews:
+            for index,review in enumerate(reviews):
+                if index%20==0: print(f'Browser: {index}/{len(reviews)} cards',flush=True)
                 card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
                 page.goto(f'http://127.0.0.1:{server.server_port}/#card/{review["id"]}',wait_until='networkidle')
                 if review['id']=='012CAB':
@@ -87,14 +89,21 @@ def main():
                     assert page.locator('.paronym-word li').count()==2*page.locator('.paronym-word').count()
                     assert page.locator('.paronym-word .dictionary-sources a').count()>=page.locator('.paronym-word').count()
                     for link in page.locator('.paronym-word .dictionary-sources a').all():
-                        url=link.get_attribute('href');sid=Path(urlsplit(url).path).stem
+                        url=link.get_attribute('href')
+                        if url.startswith('#knowledge?dictionary='):
+                            args=parse_qs(url.split('?',1)[1]);sid=args['dictionary'][0]
+                            source=dictionary_sources[sid]
+                            articles=json.loads((ROOT/source['articlesFile']).read_text())['entries']
+                            assert any(a['id']==args['entry'][0] for a in articles)
+                            continue
+                        sid=Path(urlsplit(url).path).stem
                         assert '#page=' in url
                         if sid in downloaded:continue
                         response=page.request.get(url)
                         assert response.ok
                         assert hashlib.sha256(response.body()).hexdigest()==dictionary_sources[sid]['sha256']
                         downloaded.add(sid)
-                    for width in [320,390,768,1440]:
+                    for width in ([320,390,768,1440] if review['id'] in {'012CAB','01C2C7','C8C1D4','3AE61A','E17E48'} else [390]):
                         page.set_viewport_size({'width':width,'height':900})
                         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(review['id'],width)
                         boxes=[word.bounding_box() for word in page.locator('.paronym-word').all()]
@@ -106,5 +115,5 @@ def main():
             assert not errors,errors
             browser.close()
     finally:server.shutdown()
-    print('PASS: urgent cards 1–6; source integrity; answer checking; dictionary gate for all pending paronym cards; mobile layout')
+    print('PASS: 114 task 5 cards + urgent set 1–6; source integrity; answer checking; dictionary sources; mobile layout')
 if __name__=='__main__':main()

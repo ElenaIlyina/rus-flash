@@ -284,7 +284,9 @@ function cardTheoryLinks(c) {
     rules +
     (c.task === 4
       ? `<a class="text-link" href="#knowledge?list=stress&card=${c.id}">Полный список ударений по частям речи</a>`
-      : "")
+      : c.task === 5
+        ? `<a class="text-link" href="#knowledge?list=paronyms&card=${c.id}">Алфавитный список паронимов</a><a class="text-link" href="#knowledge?list=paronyms&view=theory&card=${c.id}">Как различать паронимы</a>`
+        : "")
   );
 }
 async function renderCard(id, version) {
@@ -318,7 +320,7 @@ function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${renderParonymComparisons(c.paronymComparisons)}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>Словарные источники разбора</summary>${renderDictionaryReferences(c.dictionarySourceRefs)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>Словарные источники разбора</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -633,7 +635,7 @@ document.addEventListener("click", async (event) => {
     }
     case "card-rules":
       if (currentCard) {
-        location.hash = `knowledge?${currentCard.task === 4 ? "list=stress&" : ""}card=${currentCard.id}`;
+        location.hash = `knowledge?${currentCard.task === 4 ? "list=stress&" : currentCard.task === 5 ? "list=paronyms&" : ""}card=${currentCard.id}`;
       }
       break;
     case "report":

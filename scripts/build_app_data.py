@@ -12,9 +12,17 @@ from generate_manifest import classify, load_cards
 from exam_2027 import mapping, text
 from handbook_fb2 import read_handbook, apply_errata
 from paronym_sources import validate_sources, publication_ready
+from paronym_inventory import inventory as paronym_inventory
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'html' / 'assets' / 'data'
+
+
+def public_dictionary_ref(ref, sources):
+    """Keep audit quotes and extraction metadata out of the initial UI payload."""
+    source = sources[ref['dictionaryId']]
+    return {**{key:ref[key] for key in ('dictionaryId', 'headword', 'pdfPage', 'entryId') if key in ref},
+            'label':source.get('citationLabel', source['title'])}
 
 
 def main():
@@ -22,6 +30,13 @@ def main():
     if not cards:
         raise SystemExit('No cards found')
     (OUT / 'cards').mkdir(parents=True, exist_ok=True)
+    paronym_mapping = json.loads((ROOT / 'data/knowledge/paronym_inventory.json').read_text())
+    paronym_list = paronym_inventory(cards, paronym_mapping, mapping)
+    list_source = ROOT / paronym_mapping['source']['file']
+    if hashlib.sha256(list_source.read_bytes()).hexdigest() != paronym_mapping['source']['sha256']:
+        raise ValueError('Paronym list source checksum changed')
+    (OUT / 'paronym-index.json').write_text(json.dumps({k:v for k,v in paronym_list.items() if k!='cards'}, ensure_ascii=False, separators=(',', ':')))
+    shutil.copyfile(list_source, OUT / 'paronym-index-source.pdf')
     stress_list = json.loads((ROOT / 'data/knowledge/stress-list.json').read_text())
     stress_pdf = ROOT / stress_list['sourceFile']
     if hashlib.sha256(stress_pdf.read_bytes()).hexdigest() != stress_list['sourceSha256']:
@@ -63,7 +78,11 @@ def main():
     dictionary_out = OUT / 'dictionaries'
     dictionary_out.mkdir(exist_ok=True)
     for sid, source in paronym_sources.items():
-        shutil.copyfile(ROOT / source['sourceFile'], dictionary_out / f'{sid}.pdf')
+        if source.get('format') == 'mobi':
+            articles = {'title':source['title'], 'entries':list(source['_articles'].values())}
+            (dictionary_out / f'{sid}.json').write_text(json.dumps(articles, ensure_ascii=False, separators=(',', ':')))
+        else:
+            shutil.copyfile(ROOT / source['sourceFile'], dictionary_out / f'{sid}.pdf')
     paronym_pairs = paronym_book['pairs']
     paronyms = {pair['id']:pair for pair in paronym_pairs}
     if len(paronyms) != len(paronym_pairs): raise ValueError('Duplicate paronym pair ID')
@@ -112,8 +131,8 @@ def main():
             'explanationStatus': review.get('explanationStatus', 'pending_subject_review' if c.get('explanation', '').strip() else 'missing'),
             'strategyHint': prefix_reviews.get(cid, {}).get('hint', '') if dictionary_ready else '',
             'explanationReviewStatus': prefix_reviews.get(cid, {}).get('status') if dictionary_ready else 'awaiting_dictionary_verification',
-            'dictionarySourceRefs': [{**ref, 'label': paronym_sources[ref['dictionaryId']].get('citationLabel', paronym_sources[ref['dictionaryId']]['title'])} for ref in prefix_reviews.get(cid, {}).get('dictionaryReview', {}).get('sourceRefs', [])] if dictionary_ready else [],
-            'paronymComparisons': [{**paronyms[pid], 'words': [{**word, 'dictionaryRefs': [{**ref, 'label': paronym_sources[ref['dictionaryId']].get('citationLabel', paronym_sources[ref['dictionaryId']]['title'])} for ref in word['dictionaryRefs']]} for word in paronyms[pid]['words']]} for pid in prefix_reviews.get(cid, {}).get('paronymPairIds', []) if dictionary_ready and paronyms[pid].get('reviewStatus') == 'verified'],
+            'dictionarySourceRefs': [public_dictionary_ref(ref, paronym_sources) for ref in prefix_reviews.get(cid, {}).get('dictionaryReview', {}).get('sourceRefs', [])] if dictionary_ready else [],
+            'paronymComparisons': [{**paronyms[pid], 'words': [{**word, 'dictionaryRefs': [public_dictionary_ref(ref, paronym_sources) for ref in word['dictionaryRefs']]} for word in paronyms[pid]['words']]} for pid in prefix_reviews.get(cid, {}).get('paronymPairIds', []) if dictionary_ready and paronyms[pid].get('reviewStatus') == 'verified'],
             'explanationSourceRefs': [{'part':row['number'], 'sourceId':sid, 'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"} for row in prefix_reviews.get(cid, {}).get('rows', []) for sid in row['sourceIds']],
             'reviewNote': review.get('reason', '' if options_complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),
             'hasAnswer': bool(c.get('answer', '').strip()),

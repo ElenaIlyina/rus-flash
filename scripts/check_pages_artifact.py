@@ -18,6 +18,7 @@ def check(root):
         'assets/brand/slovo-za-slovo-school.png',
         'js/stress-list.js', 'assets/data/stress-list.json', 'assets/data/stress-list-source.pdf',
         'js/paronyms.js',
+        'assets/data/paronym-index.json', 'assets/data/paronym-index-source.pdf',
     ]
     for relative in required:
         path = root / relative
@@ -74,8 +75,14 @@ def check(root):
             refs.extend(ref for word in pair['words'] for ref in word['dictionaryRefs'])
         for ref in refs:
             sid = ref['dictionaryId']
-            if not re.fullmatch(r'[a-z0-9-]+', sid) or not (root / 'assets/data/dictionaries' / f'{sid}.pdf').is_file():
-                raise ValueError('Missing dictionary PDF for ' + card['id'])
+            extension = 'json' if ref.get('entryId') else 'pdf'
+            path = root / 'assets/data/dictionaries' / f'{sid}.{extension}'
+            if not re.fullmatch(r'[a-z0-9-]+', sid) or not path.is_file():
+                raise ValueError('Missing dictionary source for ' + card['id'])
+            if extension == 'json':
+                articles = json.loads(path.read_text())['entries']
+                if not any(a['id'] == ref['entryId'] and a['headword'] == ref['headword'] for a in articles):
+                    raise ValueError('Missing dictionary article for ' + card['id'])
     # Missing local ES module imports would otherwise cause a blank app on Pages.
     for path in (root / 'js').glob('*.js'):
         for imported in re.findall(r'\bfrom\s+[\'"]([^\'"]+)[\'"]', path.read_text()):

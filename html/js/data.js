@@ -66,6 +66,47 @@ export function adaptCard(raw) {
 }
 
 let handbookPromise;
+let paronymIndexPromise;
+export function loadParonymIndex() {
+  if (!paronymIndexPromise)
+    paronymIndexPromise = fetch(new URL("paronym-index.json", URL_ROOT))
+      .then((response) => {
+        if (!response.ok) throw new Error("Список паронимов недоступен.");
+        return response.json();
+      })
+      .catch((error) => {
+        paronymIndexPromise = null;
+        throw error;
+      });
+  return paronymIndexPromise;
+}
+export const paronymListSourceUrl = new URL(
+  "paronym-index-source.pdf",
+  URL_ROOT,
+).href;
+
+const dictionaryPromises = new Map();
+export async function loadDictionaryArticle(dictionaryId, entryId) {
+  if (!/^[a-z0-9-]+$/.test(dictionaryId || "")) return null;
+  if (!dictionaryPromises.has(dictionaryId)) {
+    dictionaryPromises.set(
+      dictionaryId,
+      fetch(new URL(`dictionaries/${dictionaryId}.json`, URL_ROOT))
+        .then((response) => {
+          if (!response.ok) throw new Error("Словарная статья недоступна.");
+          return response.json();
+        })
+        .catch((error) => {
+          dictionaryPromises.delete(dictionaryId);
+          throw error;
+        }),
+    );
+  }
+  const dictionary = await dictionaryPromises.get(dictionaryId);
+  const article = dictionary.entries.find((entry) => entry.id === entryId);
+  return article ? { ...article, title: dictionary.title } : null;
+}
+
 let stressListPromise;
 export function loadStressList() {
   if (!stressListPromise)

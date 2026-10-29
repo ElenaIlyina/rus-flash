@@ -753,6 +753,1126 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "a37e06ebb370bc64198ffbc6fe0b33d5797982fa1c5dad4ec656b406eb2c06bb",
       "explanationSha256": "8890f75cfe7950cfd56f8e52147be540863c56a1b410d7848c32e174681f0832"
+    },
+    {
+      "id": "03228B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "94cafe10d354ecb0c64e0685e59385f5cf4d42e11dd952383c275b22286443c1",
+      "explanationSha256": "0e6009103d692a26798f03d92e45034849b9071389f1624a57c66db57f7873b1"
+    },
+    {
+      "id": "0395A2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2cc8368a1babd8d3d37d695203ed932c92571ad977ce8890aae55ea8efeff149",
+      "explanationSha256": "3de3bef4a5698179758aff746e37a07301911d723c2bd4c27b9547e4a2977435"
+    },
+    {
+      "id": "06C27D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "215746876b91353c017290235121391978a28b23fc7ab9f8aa4568aaa26ffb63",
+      "explanationSha256": "5c593f64c708bb8f6c41d19fc276ad7d1582c2ca71c33ef5cb455473b99345f8"
+    },
+    {
+      "id": "092CEF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "da989a6027c5fabd172d1ac0440c2102341991eeb05285afeb52d8f0fb45baf5",
+      "explanationSha256": "b073e30390c9a9ee9f8c2e65f4e46dba668eee1cf4b3f6591c27b028a0a8b3d0"
+    },
+    {
+      "id": "09BF8D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f64849321c50c69b6741dea14d5e3f4f2d62b21867b794343a7b1c0604818419",
+      "explanationSha256": "901c130250a51dabc8040fc0376d6633a229fb32c70881a112b96d22e7726ccf"
+    },
+    {
+      "id": "0D49BD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9939eb977ab9a503585b0090462299e33e98d0ed5f4e67e342f83a5515de8a65",
+      "explanationSha256": "76b0a7d2da125087b2157f68f58c393eca7a08539c3a1f83e3f0e95c08f8bef7"
+    },
+    {
+      "id": "0E2AAE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f6f9fadd097b6ff6a282eae0de51b52a3efccf5b8f0cd774384c1e7991107e2c",
+      "explanationSha256": "ddd910804d7ba2ece458d66c73409f190995a03b90569565c3d79acd55620666"
+    },
+    {
+      "id": "0ED1F6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3858abd6ccfb3c89b056ccc3f9afddbf9c69a07c093019b3288fc42db5818fc2",
+      "explanationSha256": "510077e2350a69776d410ab5c971d41bd3496a849289d8eb30192d67c5493133"
+    },
+    {
+      "id": "10DBDD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "35f44aa571b9b207173b831aef2e687b957d8164094ae3f1c83cb73a96648edb",
+      "explanationSha256": "ae2846d7721e87a04514ce70b9c8f1cda5986d18da8254f44aa68f1ea33dc68d"
+    },
+    {
+      "id": "125B45",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "22fadb6f6cd08ce297beac1df3809942cccc26f798b78abe41e8311dc9193f90",
+      "explanationSha256": "2660a05a335805cda5383bc5170aa2b15271cbd1d7371206fcb73c3e5d1a0676"
+    },
+    {
+      "id": "14E7B5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "961c71697f826abb4dddcb06f4410b23ae970d3e09acc67688ba14ffbda9d36a",
+      "explanationSha256": "966be155c4dff46e729ef47a5761ac142e35031b7764621ea0335fee42ddbe8d"
+    },
+    {
+      "id": "15D204",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e9391c06c09ac2bd1d8dd4cc8c9fe38966cedc35e92d4d33fcb0720ce2aee946",
+      "explanationSha256": "89e57a23711ae50bda4152c9e4725cfc69f8e673db0aa52cff045c77a0b830e0"
+    },
+    {
+      "id": "1CAFFA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b257d6ffe76370d339ba5cae0f26c93262f782f4063b27d1f89ef092399a218a",
+      "explanationSha256": "883c1c81d2c86258e5a240443b7a342e87f5cee092b70781e1f2ce82bd1588e2"
+    },
+    {
+      "id": "227BA2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6e23c0ac5ecd2ade270da57334fdec64c849bf21da0f622140fc44278d6abe41",
+      "explanationSha256": "2660a05a335805cda5383bc5170aa2b15271cbd1d7371206fcb73c3e5d1a0676"
+    },
+    {
+      "id": "2351C7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ffb00a03e3ccb0fc8a6a384962791ab80c4a23bfb10d9dd2fdfb0196a93a9b96",
+      "explanationSha256": "ab40fc328622fdf4eda2b5a81201a6a848994affc9b98ea11465ac406c54c475"
+    },
+    {
+      "id": "244259",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9cb61f2908a0cef86111dfa62a888af1b8740acfd0bb497eec88f4bc5bcc0f52",
+      "explanationSha256": "ae2846d7721e87a04514ce70b9c8f1cda5986d18da8254f44aa68f1ea33dc68d"
+    },
+    {
+      "id": "246ACD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d7e5a7c1eae9362f0bb7ac0d4bfe3f98078c06874c9c1f832d88943270389c49",
+      "explanationSha256": "b590ee272bfbb6652355bcaf964d22d1febda4aa0fc41461669fcbe5ef4d6d57"
+    },
+    {
+      "id": "2827B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6a2cd54053bf6bd9332fa3d074ab2b5a0a63d766a07985616c0e18b80d95c789",
+      "explanationSha256": "920e800098043e3959fa2fbf4b647254f087c33cbd5b791cb72b4ad87f9f5701"
+    },
+    {
+      "id": "28F08A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0736208eb61b887d71d50fda2d98391c904596fa937565cb8c9957afc33fae1a",
+      "explanationSha256": "3fece2dc2047e08c3e1f3e5d2c4cfba635c02a276857dc52f2190831a0610800"
+    },
+    {
+      "id": "2A4136",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c65f160c31c63db769908482897d8a400276ed151e9e58b490b13ff7125aecea",
+      "explanationSha256": "c124e3fdceef80f99def856831a7b58a1aab3af2ab3e90f640f2ab07d87588fd"
+    },
+    {
+      "id": "2ABB99",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e8d535c382a6b821454a3e0da94431670593821af9d38995651b8f8b18ac9c32",
+      "explanationSha256": "8da8f8f47227f44e299253765c9bcab3841bf6d20d33ef0c2f49215832cd1719"
+    },
+    {
+      "id": "2D6025",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3abc550ba89290602c74ab97baa84f525612289f29e9d27077320734e563f179",
+      "explanationSha256": "fae1f1d9900bba5dbdeb5fd0a7af74eb8bd63c4610d66fca4d7d622123b86e44"
+    },
+    {
+      "id": "2F1CB5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c7b756908f7a6c0d3b6775a5692d62d791988a9929019ab2be8f71454a1094eb",
+      "explanationSha256": "da89d6362f8556a51ec0bfac5514179d5fc8dde76fbbe6a3583a9249699f5d56"
+    },
+    {
+      "id": "2FAF64",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ea0ce32c4d33e051a65ad6eca93be142dc400e7e3c96a6914144721b3654b07c",
+      "explanationSha256": "b3b375cd55b25765567e903d6a8ff1cebf3e5472a5aeea2e6f53c375b49c4ae8"
+    },
+    {
+      "id": "2FC7D6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "75a00884c5cb0542726a7b31eb5aece4fc9a67093962146734f5c02f85a0fc5d",
+      "explanationSha256": "b1839e087abfa700e07627fe590015ae581871970604c0322e26c21d176ddca9"
+    },
+    {
+      "id": "2FF78A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3dbd1c764dbd97eb613d46ae9daef374f5c188f281e13be00a7e965c75b0e457",
+      "explanationSha256": "1411d8560c0a847083a4a23c1019ae583edbe3d07b3eeb486203cf8d6076da1b"
+    },
+    {
+      "id": "3654CF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6b1007024d8410630f5d3f816e75970591bbae86028635491c2561be05f46814",
+      "explanationSha256": "370b635dfee197083b734943d4ba555d366acf45e212e9e617b18336c69f7d57"
+    },
+    {
+      "id": "37859F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bbe3b69ec1180eaba527a0f737687bad0947728abe44f44edc8493e6370fed25",
+      "explanationSha256": "176233ec8db6bfe6895ea912749032b2be9bd06adbc0e0945cf82e7c9aad61c3"
+    },
+    {
+      "id": "3AE61A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "31d439f3ec25ade0dec5431220e76fd65163a16fab5645c531a84ed3d4e0128f",
+      "explanationSha256": "4290700ee7a9eacb78d1d5ab9f782c0be26ef89410b1024fca8cf5bb47f119ca"
+    },
+    {
+      "id": "3BC2D8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f5e0805bf1e987f52542335d9d67d90f7794f420db0bccd6de4ebd8c059187e0",
+      "explanationSha256": "b92ac04d1adc98d70716f78fdf2c6691af1431c0b28665295a4e74315b772c3d"
+    },
+    {
+      "id": "3CE3B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f6981f20b482ae00e0fb16fe04b2386a4e2c5e990da6eef2a64f1ad190f8815c",
+      "explanationSha256": "167cd39b2493def4c78e57667c3e6ba534a0c0b936800fa86781408c555e9c64"
+    },
+    {
+      "id": "3FAF3B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b5c058ed9d5945acc4d508bbb0a90ca013afccac2c469b90423292a17675c470",
+      "explanationSha256": "dbd3aa9888d3308aa711dbddeac4b04b886f5166cd78efa417f3060061c82b61"
+    },
+    {
+      "id": "469A6C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6a33665db4cdde04f7e675088e97953aa328bf8fcfd417414f4569c919180d70",
+      "explanationSha256": "4d345215d3c46b7876d592cb8e41ae384cb14e8bc0916143d76972d969977397"
+    },
+    {
+      "id": "47C7BD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6e54f1cc18adbbef1efcf4498c52dff2ec8a0df35af5c8a6abf3f192cb61d50b",
+      "explanationSha256": "10bd3a9709af7f0be57e7e7a5c4774cb1bc4e658064201b64bc22c8896ac0420"
+    },
+    {
+      "id": "48D90B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "98bc484498b56ae1b44682972e08d120c4b677e979d4949d5a80e39d1bc91a21",
+      "explanationSha256": "640383747559f15303608cc8f741e0c96b50e7c074dfa68e59fc988f1bd4f115"
+    },
+    {
+      "id": "4900B6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "27651ea748136b600be95f08ee79a4ccc6def0210fabf07c6ddc44d27c713d99",
+      "explanationSha256": "3454ff05017b21fec9cc4e1845bfb8354f3cfd7117e65eaf778e07f4ff32a8d7"
+    },
+    {
+      "id": "4C8BEB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "85c86e64b93b359da858120fb85a4a8c99432077234972f943227d02878fc38d",
+      "explanationSha256": "57e36b218738691b3e0610a9bfe8d057450c7b066793156ded28b3343de111cb"
+    },
+    {
+      "id": "4CEF61",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1685734cca658a061e46b5ef0151f1c3b985bc3410d8bdf0a5e55bc67451b7ff",
+      "explanationSha256": "ebe0912248c7bb20d968fe36f98b1966e3facf3dbac646034e24dc8e619bf7da"
+    },
+    {
+      "id": "4DEAD8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8a78c52d95a37162c892c4fd37ebe9f389265bb112853f39bf321dfd00c6b086",
+      "explanationSha256": "c124e3fdceef80f99def856831a7b58a1aab3af2ab3e90f640f2ab07d87588fd"
+    },
+    {
+      "id": "55BC7E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a86abcb6c4da01b6c597f925b877dde05ad49df03a3d3640837f862602a7d9ce",
+      "explanationSha256": "2e5ec430714713787ec684c8bf8e49539bf40bb2419459c32b810526ebc80d05"
+    },
+    {
+      "id": "55DDEC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7f7da5bb6db32f57e98575b91ea22d70319dbe1f78adbce2960ae8b6509af9c1",
+      "explanationSha256": "20ade738bcc2f21ec1dd1bd05c36301c84f9f6ddf2269afcca17060dc845fda8"
+    },
+    {
+      "id": "5A397B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cf69f9ffc3d6fa99f1a2c0cdc7dbec76097f3051b4d88b5b950d1d30abaf6dd6",
+      "explanationSha256": "4d345215d3c46b7876d592cb8e41ae384cb14e8bc0916143d76972d969977397"
+    },
+    {
+      "id": "5BB9F2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7b34cf08c7b534bb734a4653fa911348d78682680b272bc08462d380001e69fc",
+      "explanationSha256": "2fa41c5a5284bbd0364b41d6b73fad014f231d967b4abad2a815fadf06c9e4fe"
+    },
+    {
+      "id": "60B53E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a75b8af4c2f10a2ff23c19e7766bedc20d9bd47ea62878a7ea2ac5504fd9101f",
+      "explanationSha256": "046feb0635156f322173d26a411c7501924a9437a0f9286b4df5cb198d6f5b44"
+    },
+    {
+      "id": "6248D6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8c676f34ebe3bbc62b9c4dd44482079b0af29a442c7a245ffea5fe3feef72e08",
+      "explanationSha256": "b6f08667642e51eff95ec5fd65bc5cfca0e65f1ee0fdf58ed6ac080fc729afce"
+    },
+    {
+      "id": "6267B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c353e398416ec7c4695d6e8e936ed7d9ea30f07664dfaf4ad08ac4ca1be30d52",
+      "explanationSha256": "167cd39b2493def4c78e57667c3e6ba534a0c0b936800fa86781408c555e9c64"
+    },
+    {
+      "id": "62A5F9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f7b8868409a6bf4b44819af0ebbab962af8d9e624590ffb45c991307c3db25bc",
+      "explanationSha256": "d936980525208e161aec784433310c128efdb5abe229dd5c2e707ec07f028be3"
+    },
+    {
+      "id": "6363B7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1f5f9645cf6c91f20ee9c9c823e50f587c40059257279d0f6cc31ce9eefbf334",
+      "explanationSha256": "9fbef87562f33527071f68fd8b541982a7b9cb7c3627f7ba65f26d3937bb9ca5"
+    },
+    {
+      "id": "6437C4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "acbee9d1a55919f9caef08ecdf424e5c43fc392c32e6dbc2aa3af1e3114da704",
+      "explanationSha256": "809122938f7f79eb05d32494d29e00fdb1ffde45531726269c2b87f24fd17177"
+    },
+    {
+      "id": "64534C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f8a31dca45d6bf56975955a839eb904f4e4b019b714815a76cc9d1bebd2ebc59",
+      "explanationSha256": "8605468fe1353f01d4599cc3e4f57999b62cd117a950df307c58989541c66323"
+    },
+    {
+      "id": "647930",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "19eb76010a9ac23ea5a42dcca024a226f5dc1f97a2efc73008fb060d838efcaa",
+      "explanationSha256": "dc7a018d0f44cddd93cd30ca24b55414306283c2b3d424dba6931ade1deffbae"
+    },
+    {
+      "id": "64CB69",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7b3d49953ffdda085de89bc50da45b89953c298028464bd055e36136206e8679",
+      "explanationSha256": "c93463426c9733d2423b15f036cac88b454fc7796c2fd13a97d1e5f9e2a5efb2"
+    },
+    {
+      "id": "66BED5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e81c9c3bb9edc07d166b5535c1e6588bee2571bce728389fe9a4b05f785f91a0",
+      "explanationSha256": "da89d6362f8556a51ec0bfac5514179d5fc8dde76fbbe6a3583a9249699f5d56"
+    },
+    {
+      "id": "679B23",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7411886dc4b86066128ea4834ec6a22a7bf5f9082feb53e3801607d784d110ba",
+      "explanationSha256": "e712a6c9040d793eb90a83275cef080d962259c1f94be06cb53c25e1f93dd637"
+    },
+    {
+      "id": "6A94E2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8be9e537ff10229473a3c4e65dadca7502c94a059aa9a028003d9b94fc1e238c",
+      "explanationSha256": "df30f473978e8e73c76ff3b92f4ab48e91fe2c4987e864814682158f29190a66"
+    },
+    {
+      "id": "6C2B6C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "60db0a47082b24b1b41714515f1f8b10a385c7ea97e564915782a49df7e1c876",
+      "explanationSha256": "6085da864f130872ec7e31ae341eab8e6f85e03000d824aee8b704b8ff72994e"
+    },
+    {
+      "id": "6F64DE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "eebecb64b3c316f3eb54583508436e349ad484a65379c5c4a4ebfed4e77e3305",
+      "explanationSha256": "09e90c253819593be9178830ca670c09d3f69028577b2799dbef6f7e6b7481ac"
+    },
+    {
+      "id": "76164B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "60687059efeb8da070363b03234325b81ddeec90f663604ac2c602dc62d63a0b",
+      "explanationSha256": "4c33e0eec60b94f386a6cf1697cb3922326eff0041c9ea856112fb98b680c97b"
+    },
+    {
+      "id": "7FF6B1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "89f7bffa3def8c144a174306158e482707977f737cde2c7c7113a9ea65287b62",
+      "explanationSha256": "f5e39bec2ec7b103c571278d67aceef5158b56a55ce685c08959f65065672144"
+    },
+    {
+      "id": "831F56",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "86351fd6c699fbbc835ae5c3e161fefbaaa6c4205c83ffdffa3782c6fdd77d31",
+      "explanationSha256": "e1276c679ddd34cf9e31a7f51e87d201f614236719f2cb80c35707cb879766c2"
+    },
+    {
+      "id": "832B01",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cbe9c70c22436f7e1b8982dc160d030eca2c2e590a02fecd7e5d38394142501e",
+      "explanationSha256": "510077e2350a69776d410ab5c971d41bd3496a849289d8eb30192d67c5493133"
+    },
+    {
+      "id": "8435CF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "65078e30dabe5b4599640f70a2c5668db9e181fb135321ba00102ef3c8d25894",
+      "explanationSha256": "8fdf55ca1b2f47ec575b3cf3f2ae3899a82017b56a341f4f14dfcbed434cdf16"
+    },
+    {
+      "id": "858B03",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5152a973c123dfece74bbfb43e6c3bf5574d7071321107adebd64a5b81dbfa0a",
+      "explanationSha256": "783167c6b25c7bf200f8db5432c389ebb7c9c467c5595fa44ed23bff66e6ea85"
+    },
+    {
+      "id": "8CE15C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "16c23f4ba79be9c56c28e7c99a091bb44e9d2b2a51f2065366c1a701e17e3834",
+      "explanationSha256": "640383747559f15303608cc8f741e0c96b50e7c074dfa68e59fc988f1bd4f115"
+    },
+    {
+      "id": "8EB12F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "205ad657a3ede06724afebc4d05c9ddff581cd4ade0d394f3f20c343e821dbcb",
+      "explanationSha256": "881a7c0dbc8077563850e1466bc62bcf1c3c54539ea54cfbdfda516ffc4ddf01"
+    },
+    {
+      "id": "90AA89",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "39fe94f5f7da3e8066566d9256dadd1dbd2384c2abe2a8623466186c08c6d101",
+      "explanationSha256": "9e61a8590ad56444106f1b945c52b1bb4cac844c595da23507a97b0e3f657b31"
+    },
+    {
+      "id": "91DAC1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f680ff35fad25956b10baa11e0aa95784211d4bbf358370fc3f3d5377c1aae8e",
+      "explanationSha256": "6c9c9ebcf2011755f85dc986299f7209b54e301b6ad029f5a5365d764e79f9ae"
+    },
+    {
+      "id": "941F52",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "eaae02c45032c5196b29b6ae32565ba6dec6e24337f031961d54900cef3b3f26",
+      "explanationSha256": "41b764a9e61f5caa31b090e3d4f1d66e914ab3edd4e750656dd71d513a85ea93"
+    },
+    {
+      "id": "950247",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e1882c4722e109291d7496ef45a033e06583e5691c81a5276175817f2cbf50df",
+      "explanationSha256": "7eef99e85d97a909bf490ee1386752c9de726e00e23929d84826c22ac3179e21"
+    },
+    {
+      "id": "963449",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "640b866a14864d70df124305bb0d79a7f19234f9126d85a621ee2207fef22916",
+      "explanationSha256": "cf9c674e7b2d195360b06d686064c4d8cda8ce5ae92ed0df3b80f99b5b5b0713"
+    },
+    {
+      "id": "96D974",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "25f8568f6e1c66e398fb444710e4a1270f1d80703e5e50e7d30c4c9e40ba096e",
+      "explanationSha256": "b0c35b3a13df6f7224b53ed7dfb6aedddfa27cd5f627b4c59a6babb125fcf540"
+    },
+    {
+      "id": "9AD0A7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ba0f5ab98c45cd56b32befbe34199af8c7c17480b7f152d93edb7c91bda43da3",
+      "explanationSha256": "d7c5867d12a60daa77e5f4a1e7864cd19b963650e88c8ec5b239923749cc1ad3"
+    },
+    {
+      "id": "9B3176",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e4254240253b845314899c17e0b89c23caa98df54bfb4123fafb0c1da93d4313",
+      "explanationSha256": "ceb4a26b867bf8fd1491997786bf3357b9de4ee46b2f42091f878839ff974e7b"
+    },
+    {
+      "id": "9D2392",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2ab7ca96ebc72e66bf582ddaa6ca49664f49b09d9aa336f11f8d30dd027103f4",
+      "explanationSha256": "3de3bef4a5698179758aff746e37a07301911d723c2bd4c27b9547e4a2977435"
+    },
+    {
+      "id": "9DA278",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3f8d35d9a537877330645fad29ca954abbe3748324a59e4cf2fe212b2d3031e2",
+      "explanationSha256": "424715cabbf21928feb482b8551bb98a4657a0cdfc3cace5cbc25f01dd92ec45"
+    },
+    {
+      "id": "9E6BA9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "122ad160c38f2e14f3f9422d34850046e9f153bc10d8545a1d917952aaca317d",
+      "explanationSha256": "b0c35b3a13df6f7224b53ed7dfb6aedddfa27cd5f627b4c59a6babb125fcf540"
+    },
+    {
+      "id": "9EBAF2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1aba7f5c8d8cded01d0322c4956dca33347a9c87089383000bc45a7c0cc794d8",
+      "explanationSha256": "793af26d157a79e2d3c56f0f244ccd66375b5735213761f8071740c49e79b46f"
+    },
+    {
+      "id": "9F9A43",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c1ed06483dcd33c02792b8a14859b04e6dda00e466b7c94148b9a30f5a294e58",
+      "explanationSha256": "b878873167675de13ec6c7855a43588710a34a61bab711fa0ba5b3ddc0cc47e4"
+    },
+    {
+      "id": "9F9C78",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d7e70aa187b3dbacbab3209053f491a4ecbc398b2ece01faba7e81157f1e24b3",
+      "explanationSha256": "89d7c25d420abd57c51db95acd5408cc8e10e38021959883a078f898fb0a8e8a"
+    },
+    {
+      "id": "A12B73",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "906f12badea23192f35ab1e33d0997126aaf364cdb2b54bbefff778ade808015",
+      "explanationSha256": "7c7d8cc4686b59620c581a277910ae7c389f87d7fb9c329c4bd1547fedb0b51f"
+    },
+    {
+      "id": "A3BFA5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "29ab143e4f764e51f117bcd343799a7ebb60e2d042dee76c61e1b9ef921dbcfe",
+      "explanationSha256": "cd24e1d1202b1b0649aa451f7ed52df006ecc48944c22fc71ecb300c68968676"
+    },
+    {
+      "id": "AB4186",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ecfc0bbaf70d0374c6b3a4a0e24bd56e1118fa369972a384487dfa5c96fa0927",
+      "explanationSha256": "cf9c674e7b2d195360b06d686064c4d8cda8ce5ae92ed0df3b80f99b5b5b0713"
+    },
+    {
+      "id": "AC9713",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d5a2ac2a5308f9dfd396762e1ef7e30ee6af52a0396218a3b659302b37db1788",
+      "explanationSha256": "e689f614fd4fa28058cd6d42e9efbb99c266a64d594d2b5722661ba98b072364"
+    },
+    {
+      "id": "ACA486",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3db914d085e85e2dae01d680fa633ad0d37d4a7c88853e555a7e73b2222c9d5d",
+      "explanationSha256": "10bd3a9709af7f0be57e7e7a5c4774cb1bc4e658064201b64bc22c8896ac0420"
+    },
+    {
+      "id": "B2315A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "81d3e55c20302fed8d4e3ab40938920e6f6b0a46cd2857e1da958b57d1479b38",
+      "explanationSha256": "509389972da0cf95293eaf3f7e0c136fc45f61701649f5d186a954425add84be"
+    },
+    {
+      "id": "B2F56F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "03ae7d4cb8cd25956e68bbe0b357aa1181573db28dcba7f748bfd60323e40e75",
+      "explanationSha256": "df30f473978e8e73c76ff3b92f4ab48e91fe2c4987e864814682158f29190a66"
+    },
+    {
+      "id": "BBB81B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e95b898be3dbf1ef944c774240b9c839204d14dd12222e3eee2a38bdc5c49d84",
+      "explanationSha256": "e166ce475398f9739705634fc3454c81d68eb04f7a16cddabdb91812edcda61c"
+    },
+    {
+      "id": "C34AF7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6bfb0ab282059495b34556ddaf9cfb3728216d5a896b5b1eac509408e0b26d1a",
+      "explanationSha256": "0046cdc9080c316fcbee56173e1cbe09d56dad2b442e848ee84c6a82f0c95c17"
+    },
+    {
+      "id": "C8C1D4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e76cc842bf7a6bf4cac10ec3dcd3c30b0cf65a5a18040f53a7cd44d78c907a23",
+      "explanationSha256": "145e7c07b20104afc21c5aca31245160ca6f2c0087a4ad079b70370d47face5d"
+    },
+    {
+      "id": "C914C0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bc9a8e3c30d2b5fa2ae9b7341deade25516584d11ea0453bd8cc9b9f382ae37d",
+      "explanationSha256": "b2ac914c17466fc86737f4fea3e81fa0e104cbfcbbc830974013a58326ab5f0c"
+    },
+    {
+      "id": "CEF6F8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c93276a87c22a22fe948fd866c7f54c58bc4f8f4b006b26892fd8750245645c3",
+      "explanationSha256": "7eef99e85d97a909bf490ee1386752c9de726e00e23929d84826c22ac3179e21"
+    },
+    {
+      "id": "D6B7B0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d0dca586daf40cf4b56a423dda85a1b4d3e1bdcec06156cf4232701c1ec8ecf4",
+      "explanationSha256": "0046cdc9080c316fcbee56173e1cbe09d56dad2b442e848ee84c6a82f0c95c17"
+    },
+    {
+      "id": "DA5810",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8b3c4915d6ae4ab646721326d72a5441a2212b150c6b2440660f259a15aedfb9",
+      "explanationSha256": "e10d0c09e5e0c51629ac41be8f5bd76e0ca1a292956bee2895c22e07ea5a9a10"
+    },
+    {
+      "id": "DADEBB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cbc353e9768e6a0af41dad0ab5915ed4a4eb23f3c22bae9322e902280cedf9e4",
+      "explanationSha256": "5a23fb0a078e18ac343821c4a348c0bdade8d1f8f1af9e6d1b8c65eb26339502"
+    },
+    {
+      "id": "DB2B2B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "92cb74a784b921737b740cdec85bb7ca4247a42dc180e9cefe43009cfeacec85",
+      "explanationSha256": "693061e2310bd0446014bbc219b3d9dff22c706c236d34e1d0e83904abe874af"
+    },
+    {
+      "id": "DFDB41",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "538e9614721a9a3b5683cee9b2eb421b5e88fa2e7810f7eb396cc43541845a8d",
+      "explanationSha256": "a5e0af02905eacfdcc7fa43266ab538f9beb9dddefb70bcb94fee772764ee22f"
+    },
+    {
+      "id": "E17E48",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4b9feda006bd76816036f1cb57e5c03619af3b2a9dd5acdd8303bf81d695ad68",
+      "explanationSha256": "78c5f3f15e13b01201a679cb8e80d735a6ec41ecf7f3194563dd9c0954a8f22d"
+    },
+    {
+      "id": "E43CE2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6f8d7fdf21fcd2bd75a448ea27f67d158e2da722c4f4f1460983ddda442db048",
+      "explanationSha256": "c001a2d22855f4e33e859048b7a595c04eb60b971c3dcad7799ac7b9505c7c1a"
+    },
+    {
+      "id": "E48166",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d81df6637f22214a7bbf019cfd81c38b09b955e804bf9cd076396b614d80c7f3",
+      "explanationSha256": "365af0f1e6a4d6d3007fcc8d01d956f92a1cdbc364be9ca2ea9481ce027bf907"
+    },
+    {
+      "id": "E8DABE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "565edeb5ba73a2ad1569179527229dea3afd5fe947785e191af1377d84e81b1b",
+      "explanationSha256": "53f10a8b714a42411346436479e704b4faedfd1a6bce915e85e2f0c81202b73e"
+    },
+    {
+      "id": "E90686",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3fda8152a65695122b5f9ae2d0e2022ea6c5b7ba323d7ba3801cef3115120db9",
+      "explanationSha256": "920e800098043e3959fa2fbf4b647254f087c33cbd5b791cb72b4ad87f9f5701"
+    },
+    {
+      "id": "EAC2EF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a03c500db0d86ac22a448bebb8871763364c36410910460105f87ed1bb9a691f",
+      "explanationSha256": "4ef728d3a2924ea2937dea49127a1cbb47042f09e0dd7fa4e5e3c1dee6cb4460"
+    },
+    {
+      "id": "EB0F97",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0595b833292f7ef5b02407ef117fbaa8f463d4e8a7a3a2f01e60f0282d7638db",
+      "explanationSha256": "e82b08992fb395a2cd463bed828bdf993c4fd99bf18720d1dc8e8e79020fe564"
+    },
+    {
+      "id": "EECE4A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d11dc381b7e63c4dba51ffac05fcd3da524f5739eeb367abd314364efbe3c0ff",
+      "explanationSha256": "379ca00c109b77c4c81a38be5450d2ac32953c0fb1a1ae18f0db1613d2a574da"
+    },
+    {
+      "id": "EFD7CB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a74c08d3b0449c995a718d1971d3155cdcb56ec07a5309978af60e27f202aa4a",
+      "explanationSha256": "c21f9fbff694d3e57dadd01dedbd032867a7ccfefd4dca1daaa7394a872024ea"
+    },
+    {
+      "id": "F46159",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4a9664af431605ac10b6c51d8b29872ae0c746151da398cddf75b13c37de4297",
+      "explanationSha256": "f5452955d63b8dcf64e3b3476146ee48ffd1326432a51c7f8bb2bc377e202ff6"
+    },
+    {
+      "id": "F53CB8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "318fbb7ca5ab6fc18585c653484939e581a95485af431fb597582c4f0883302b",
+      "explanationSha256": "424715cabbf21928feb482b8551bb98a4657a0cdfc3cace5cbc25f01dd92ec45"
+    },
+    {
+      "id": "F675D2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ecc75cd007d043a19dcb4bbbbf2c3f149e5a885a60970920ae334542dac1cc60",
+      "explanationSha256": "ba56800c7c1a78fd6f239c44d854d2e52c61e28d51c1551fd91266a77436f4a4"
+    },
+    {
+      "id": "F6C12B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c5c0d18bb01fa40bd69f829c2717d488b7b3e542e015947ccedb0e433510bd24",
+      "explanationSha256": "783167c6b25c7bf200f8db5432c389ebb7c9c467c5595fa44ed23bff66e6ea85"
+    },
+    {
+      "id": "F83782",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4c9eab53ff305de361dc79f29740532cc78ea30af77c5b6dae2012e6860bf900",
+      "explanationSha256": "5b732b28cd45ec6dc0128733c27a451ba1bb426e40106455aec3c070bf4319cd"
+    },
+    {
+      "id": "FDF5A2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cf572411e4d167b09134f46a7fba8635f026cf1ab3b08c3a65d5819c23aa95ea",
+      "explanationSha256": "145e7c07b20104afc21c5aca31245160ca6f2c0087a4ad079b70370d47face5d"
+    },
+    {
+      "id": "FF5415",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "Задание №5: контекстный разбор, сравнение паронимов, подсказка и явные словарные статьи. Текст, варианты и ключи ФИПИ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bd0da9b21e58c5f8ccefb9fb2aa484c63c4085b96263689afd1fd5a2028608ea",
+      "explanationSha256": "f4534f22eb934be31178e5fffcfb3506e881feacf3eaa349c26f9f1c75331f7c"
     }
   ]
 }

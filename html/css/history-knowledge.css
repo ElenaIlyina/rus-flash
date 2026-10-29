@@ -288,6 +288,18 @@ dialog form {
   margin-block: 20px;
   color: var(--muted);
 }
+.paronym-list {
+  columns: 2 300px;
+  column-gap: 44px;
+  margin-top: 24px;
+  padding-left: 24px;
+}
+.paronym-list li {
+  break-inside: avoid;
+  padding-block: 9px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
 .stress-words {
   columns: 2 270px;
   column-gap: 36px;
