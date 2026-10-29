@@ -6184,6 +6184,12 @@ def main(argv=None):
         summarize(plan, report)
         save_report(output, report)
         code = 130
+    summary = report.get('summary', {})
+    print('Итого по карточкам (без повторного подсчёта попыток): '
+          f'в плане {summary.get("cardsInPlan", len(plan["checks"]))}; '
+          f'есть принятый ответ {summary.get("withAcceptedAnswer", 0)}; '
+          f'без отправленных ответов {summary.get("notChecked", len(plan["checks"]))}; '
+          f'ошибка запроса {summary.get("withRequestError", 0)}.')
     print('Файл результата:', output.resolve())
     return code
 
