@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "receivedDate": "2026-10-29",
+  "source": "author_pasted_console_output",
+  "cardId": "6E2A0F",
+  "guid": "2D16C9C7FFC98636461B76C6E4E16A62",
+  "answer": "3133",
+  "wireAnswer": "3133",
+  "reportedStatus": "accepted",
+  "resultFilename": "fipi-checks-20261029-234915-941012.json",
+  "originalReportReceived": false,
+  "httpResponseIndependentlyValidated": false,
+  "productionChanged": false,
+  "reportedCommand": "python3 src/check_fipi_answers.py --cards src/cards/card_6E2A0F.json --answer 3133 --insecure",
+  "note": "Автор прислала вывод скрипта: один кандидат, ПРИНЯТ, ошибок 0. Оригинальный JSON пока не получен. Кандидат 263133 не отмечается отклонённым: такого результата автор не передавала."
+}
