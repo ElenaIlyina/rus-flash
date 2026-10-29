@@ -46,7 +46,7 @@ def main():
                     } else if(c.options.length && c.responseType==='multiple_choice'){
                         throw new Error('Static list became checkboxes: '+c.id);
                     }
-                    for(const value of [c.instruction,...c.options,...c.errors,...c.sentences]){
+                    for(const value of [c.instruction,c.passage,...c.options,...c.errors,...c.sentences]){
                         const dom=new DOMParser().parseFromString(rich(value),'text/html');
                         if(dom.querySelector('script,style,iframe,input,[onclick],[style]'))throw new Error('Unsafe markup: '+c.id);
                         if(plain(value).replace(/\\s/g,'')!==dom.body.textContent.replace(/\\s/g,''))throw new Error('Lost visible text: '+c.id);

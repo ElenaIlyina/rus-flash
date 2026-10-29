@@ -22,6 +22,12 @@ class PendingQueueTest(unittest.TestCase):
         with zipfile.ZipFile(ROOT / 'dev/docs/references/fipi-bank-2026-10-29/source.zip') as archive:
             cls.raw = {c['number']:c for c in (json.loads(archive.read(name)) for name in archive.namelist()
                        if name.startswith('src/cards/card_') and name.endswith('.json'))}
+        cls.previous_context_hashes = {}
+        for line in (ROOT/'dev/docs/content-audit/full-page-passage-changes.jsonl').read_text().splitlines():
+            entry=json.loads(line)
+            if entry['event']=='shared_passage_format_restored':
+                cls.previous_context_hashes.setdefault(entry['cardId'],set()).add(
+                    hashlib.sha256(entry['before'].encode()).hexdigest())
         cls.plans = [checker.load_plan(ROOT / 'dev/data' / name)
                      for name in ['fipi_new_hypotheses.json','fipi_remaining_hypotheses.json']]
 
@@ -43,7 +49,9 @@ class PendingQueueTest(unittest.TestCase):
         for check in self.plans[1]['checks']:
             if check.get('contextSha256'):
                 canonical = json.loads((ROOT / check['contextSource']).read_text())
-                self.assertEqual(check['contextSha256'],hashlib.sha256(canonical['text'].encode()).hexdigest())
+                # Historical plans stay immutable; old formatting is retained in the repair log.
+                versions=self.previous_context_hashes.get(check['cardId'],set()) | {hashlib.sha256(canonical['text'].encode()).hexdigest()}
+                self.assertIn(check['contextSha256'],versions)
 
     def test_inconsistent_server_response_is_not_evidence(self):
         report = copy.deepcopy(self.report)

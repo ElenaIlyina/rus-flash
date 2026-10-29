@@ -179,7 +179,7 @@ def inspect(card, raw):
     return proposed,changes,issues
 
 
-def rebind_support(changed, log_entries):
+def rebind_support(changed, log_entries, source_evidence=None, correction_log=None):
     # Preserve explanations/reviews; explicitly record which source hash was
     # rebound after a source-backed presentation repair, never a new subject review.
     for name in ('prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews'):
@@ -196,9 +196,9 @@ def rebind_support(changed, log_entries):
             if prior == frozen:
                 continue
             entry['sourceContentSha256'] = frozen
-            entry.setdefault('sourceFormatSync',[]).append({'sourceArchiveSha256':ARCHIVE_SHA256,
+            entry.setdefault('sourceFormatSync',[]).append({**(source_evidence or {'sourceArchiveSha256':ARCHIVE_SHA256}),
                 'previousSourceContentSha256':prior,'sourceContentSha256':frozen,
-                'correctionLog':'dev/docs/content-audit/raw-format-changes.jsonl',
+                'correctionLog':str(correction_log or LOG.relative_to(ROOT)),
                 'subjectReviewRepeated':False})
             log_entries.append({'event':'support_hash_rebound','cardId':cid,'file':str(path.relative_to(ROOT)),
                                'before':prior,'after':frozen,'reason':'Source-backed presentation repair; explanation unchanged; not a new subject review.'})
@@ -208,7 +208,7 @@ def rebind_support(changed, log_entries):
 
 
 
-def rebind_coverage(changed, log_entries):
+def rebind_coverage(changed, log_entries, evidence_report=None):
     for path in sorted((ROOT/'dev/docs/content-audit').glob('task-*.json')):
         book = json.loads(path.read_text())
         touched = []
@@ -233,7 +233,7 @@ def rebind_coverage(changed, log_entries):
                     update(child)
         update(book)
         if touched:
-            book['formatSyncEvidence'] = str(REPORT.relative_to(ROOT))
+            book['formatSyncEvidence'] = str(evidence_report or REPORT.relative_to(ROOT))
             path.write_text(json.dumps(book,ensure_ascii=False,indent=2)+'\n')
 
 

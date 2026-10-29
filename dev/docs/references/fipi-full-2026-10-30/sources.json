@@ -1,0 +1,23 @@
+{
+  "id": "fipi-full-page-user-2026-10-30",
+  "receivedDate": "2026-10-30",
+  "originalFilename": "fipi_full.html",
+  "file": "source.html",
+  "source": "user_curl_download",
+  "url": "https://ege.fipi.ru/bank/questions.php?proj=AF0ED3F2557F8FFC4C06F80B6803FD26&page=1&pagesize=3000",
+  "sha256": "8811e359262c8eb797aabc038ec4f9349f7c7501c024d5aa6134ed9e5c6c70f3",
+  "md5": "82bd6e45bccdd6b3e38ca90f1886940d",
+  "bytes": 11073154,
+  "declaredEncoding": "windows-1251",
+  "decoding": "cp1251 strict",
+  "originalBytesPreserved": true,
+  "questionCards": 2140,
+  "sharedTexts": 159,
+  "cardsWithSharedText": 655,
+  "replacementCharacterEntities": 9,
+  "notes": [
+    "HTML is stored as untrusted data and is never executed.",
+    "Includes all standalone tasks, group passages, explicit group IDs and 71 essay qblock1 blocks.",
+    "Nine numeric replacement-character entities remain in eight question records; shared passages contain none."
+  ]
+}

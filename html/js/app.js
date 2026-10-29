@@ -291,6 +291,17 @@ function cardTheoryLinks(c) {
       .join("")
   );
 }
+function contentIssue(c) {
+  if (!c.contentIssue) return "";
+  const id = `content-issue-${c.id}`;
+  return `<span class="content-issue"><button type="button" class="icon-button content-issue-toggle" data-action="content-issue" aria-label="Замечание к заданию" aria-describedby="${id}">${icon("warning")}</button><span id="${id}" class="content-issue-description" role="tooltip">${esc(c.contentIssue)}</span></span>`;
+}
+function dismissContentIssue() {
+  main.querySelectorAll(".content-issue").forEach((issue) => {
+    issue.classList.remove("is-open");
+    issue.classList.add("is-dismissed");
+  });
+}
 async function renderCard(id, version) {
   currentCard = null;
   main.innerHTML =
@@ -307,7 +318,7 @@ async function renderCard(id, version) {
   const status = learning().cardStates.get(id);
   const canCheck = Boolean(c.answer && !c.reviewNote);
   main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
-    <div class="practice-layout"><article class="exercise"><div class="exercise-header"><span class="eyebrow">КАРТОЧКА ${id}</span><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
+    <div class="practice-layout"><article class="exercise"><div class="exercise-header"><div class="exercise-heading"><span class="eyebrow">КАРТОЧКА ${id}</span>${contentIssue(c)}</div><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
       <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span><span data-learning-score>Оценка карточки: ${learning().cardScores.get(id) === null ? "ещё нет" : learning().cardScores.get(id).toFixed(3)}</span></div>
       ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
       ${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}<section class="question-section" aria-labelledby="question-label"><h2 id="question-label">Задание</h2><div class="question-text">${rich(c.instruction)}</div></section>
@@ -483,6 +494,7 @@ async function render() {
 
 // Delegated interactions shared across screens.
 document.addEventListener("click", async (event) => {
+  if (!event.target.closest(".content-issue")) dismissContentIssue();
   if (event.target.closest('#info-dialog a[href^="#"]'))
     document.querySelector("#info-dialog").close();
   const button = event.target.closest("[data-action], [data-filter]");
@@ -498,6 +510,13 @@ document.addEventListener("click", async (event) => {
     return;
   }
   switch (button.dataset.action) {
+    case "content-issue": {
+      const issue = button.closest(".content-issue");
+      const open = !issue.classList.contains("is-open");
+      issue.classList.toggle("is-open", open);
+      issue.classList.toggle("is-dismissed", !open);
+      break;
+    }
     case "adjust-setting":
       adjustSetting(
         main.querySelector(`[name="${button.dataset.target}"]`),
@@ -741,7 +760,17 @@ document.addEventListener("submit", (event) => {
     }
   }
 });
+document.addEventListener("focusin", (event) => {
+  if (event.target.matches('[data-action="content-issue"]'))
+    event.target.parentElement.classList.remove("is-dismissed");
+});
+document.addEventListener("pointerover", (event) => {
+  const button = event.target.closest('[data-action="content-issue"]');
+  if (button && !button.parentElement.contains(event.relatedTarget))
+    button.parentElement.classList.remove("is-dismissed");
+});
 document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") dismissContentIssue();
   if (
     event.target.matches('.settings-form input[type="number"]') &&
     ["ArrowUp", "ArrowDown"].includes(event.key)

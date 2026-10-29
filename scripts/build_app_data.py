@@ -96,6 +96,8 @@ def main():
         cid = card['number']
         if not re_id(cid):
             raise ValueError('Invalid card ID: '+cid)
+        if 'content_issue' in card and not isinstance(card['content_issue'],str):
+            raise ValueError('content_issue must be a plain string: '+cid)
         entry = support.get(cid,{})
         if entry:
             frozen = {k:v for k,v in card.items() if k!='explanation'}

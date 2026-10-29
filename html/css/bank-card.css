@@ -557,3 +557,43 @@
   height: 16px;
   margin-right: 5px;
 }
+
+
+/* Source inconsistencies: hover/focus description, tap to pin on a phone. */
+.exercise-heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.content-issue { display: inline-flex; }
+.content-issue-toggle {
+  color: #8d5918;
+  border-color: #ead6ad;
+  background: #fff8e9;
+}
+.content-issue-toggle .icon { width: 21px; height: 21px; }
+.content-issue-description {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  top: 100%;
+  left: 0;
+  width: min(360px, calc(100vw - 80px));
+  padding: 14px 16px;
+  border: 1px solid #ead6ad;
+  border-radius: 10px;
+  background: #fffaf0;
+  box-shadow: 0 8px 24px #342b1b1f;
+  color: #584325;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.content-issue-toggle:focus-visible + .content-issue-description,
+.content-issue.is-open .content-issue-description { display: block; }
+@media (hover: hover) {
+  .content-issue:hover .content-issue-description { display: block; }
+}
+.content-issue.is-dismissed .content-issue-description { display: none; }

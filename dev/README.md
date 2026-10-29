@@ -89,3 +89,6 @@ dev/.venv/bin/python dev/tests/review_debug_smoke.py
 Сверка условий и вариантов по выгрузке: `python3 dev/scripts/audit_fipi_format.py --check`.
 [Отчёт и исключения](docs/content-audit/raw-format-audit.md),
 браузерная проверка: `python3 dev/tests/fipi_format_smoke.py`.
+
+Сверка общих текстов: `python3 dev/scripts/audit_fipi_passages.py --check`.
+[Полная страница, группы и результат](docs/content-audit/full-page-passages.md).

@@ -1,3 +1,5 @@
 # Preserve reference PDFs byte-for-byte and avoid treating their streams as code.
 *.pdf binary
 *.mobi binary
+# Original Windows-1251 FIPI page; retain the uploaded bytes unchanged.
+dev/docs/references/fipi-full-2026-10-30/source.html binary

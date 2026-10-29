@@ -62,6 +62,7 @@ export function adaptCard(raw) {
             : "short_text",
     answer: (raw.answer || "").trim(),
     explanation: raw.explanation || "",
+    contentIssue: typeof raw.content_issue === "string" ? raw.content_issue.trim() : "",
     ruleIds: raw.rule_ids || [],
   };
 }
