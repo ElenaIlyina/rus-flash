@@ -1,0 +1,2309 @@
+{
+  "date": "2026-10-29",
+  "scope": "Позиции 1,5,6,25; отсутствие кандидата не подтверждает единственность ключа.",
+  "cards": [
+    {
+      "cardId": "012CAB",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "014016",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "01752F",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "01C2C7",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "01D3AC",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "029926",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "03228B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "032DE7",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0395A2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0413FB",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "05AC9F",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "05FF8A",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "060C0F",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "065D97",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "06C27D",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "079D68",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0926C8",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "092CEF",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "09BF8D",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "09C71B",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0A2371",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0CB0DD",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0CB588",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0D49BD",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0E2AAE",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0EA6AB",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0ED1F6",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "0FCFA8",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "10DBDD",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "125B45",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "12BBAB",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "13D9BA",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "14E7B5",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "14FA69",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "15D204",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "162772",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "165462",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "168CD7",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "16D9F4",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "19723E",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1AEE7A",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1CAFFA",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1D1FBE",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1D3B0D",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1DA0CC",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1FCD37",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "1FF860",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "20C422",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "227BA2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2351C7",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2439C3",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "244259",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "246ACD",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "26B3C3",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "270017",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2827B4",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "28F08A",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2A4136",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2ABB99",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2ABC16",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2C4EBE",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2CAACE",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2D6025",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2EC28B",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2F1CB5",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2FAF64",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2FC7D6",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "2FF78A",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "317779",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "322F13",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "324964",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3281CA",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "32D4A9",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "33F7FF",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "345BB6",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "352316",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "35F9AD",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3654CF",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "36DEA7",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "37859F",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "39AA6F",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3A969F",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3AE61A",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3BC2D8",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3BE49C",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3C08D7",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3CE3B4",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3DC78B",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3E1E8E",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3E21D8",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3F6D84",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3FAF3B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "3FCABA",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "41E1AC",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "432ADD",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "439D2C",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "4674EE",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "469A6C",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "46ECED",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "473E9C",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "47C7BD",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "48D90B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "4900B6",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "497C8C",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "4C8BEB",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "4CEF61",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "4DEAD8",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "50D9DD",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "51673C",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5280BD",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "54C7F3",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "54F3D0",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "559341",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "55BC7E",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "55DDEC",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "580E03",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "59FDD1",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5A397B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5BB9F2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5C797C",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5D58C2",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5F9412",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "5FF50C",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "60B53E",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "61CAE3",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "62221D",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6248D6",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6267B4",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "627BFA",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "62A5F9",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6363B7",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "63DE3A",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6437C4",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "64534C",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "647930",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "64A453",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "64BAB0",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "64CB69",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "65A323",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "666403",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "66BED5",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "679B23",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "67E825",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6A8301",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6A94E2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6BF8D8",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6C2B6C",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6C3603",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6EC274",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6ECC3F",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6F64DE",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "6F7776",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "7013D5",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "74341C",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "74EB97",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "76164B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "765222",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "77254D",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "773A42",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "781A93",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "78A254",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "7A95AF",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "7B5F7A",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "7CD0F3",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "7FF6B1",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "823A3A",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "831F56",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "832B01",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8435CF",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "849E31",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "84A09F",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "84B0FD",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "850BC1",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "858B03",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "85F64B",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "86E041",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8A46DE",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8C38AE",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8CE15C",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8DA96F",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8E5D59",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8EB12F",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "8F664F",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "90588E",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "90AA89",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "90B817",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "91A822",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "91DAC1",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "926BD7",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "941F52",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "94B403",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "950247",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "95D0E2",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "961876",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "963449",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9683B2",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "96D974",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "98489F",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9AD0A7",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9B3176",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9BC523",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9BC9C0",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9C3DE6",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9C4102",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9D2392",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9D74E9",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9DA278",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9DAD30",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9E1098",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9E6BA9",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9EBAF2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9F80FC",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9F9A43",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "9F9C78",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A0983E",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A12B73",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A3BFA5",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A4248D",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A4548C",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A95889",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "A9FD8A",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "AB4186",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "AC7183",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "AC9713",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "ACA486",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "AD0E15",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "AE91AF",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "AF9D0D",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B045C3",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B0B76B",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B11875",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B17E3E",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B180CD",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B1B809",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B2315A",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B291A8",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B2F56F",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B3C04B",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B507A2",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B5E8E4",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "B83CD8",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "BABA13",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "BBB81B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "BD18BF",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "BF2621",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "BFAE57",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C13CB6",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C1F6AE",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C2F0DC",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C34AF7",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C36032",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C3F6BC",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C50FE5",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C590CF",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C7CF0B",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C89F82",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C8C1D4",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C914C0",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "C93798",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CA07BE",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CAB45F",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CAC1B8",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CB11BB",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CB8FCB",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CD5855",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "CEF6F8",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D2DE30",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D2F43D",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D30F40",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D52745",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D5B501",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D6B7B0",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D722ED",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D820E1",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D86353",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "D8A6C7",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DA5810",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DA7A61",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DAB89F",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DADEBB",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DB2B2B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DB63DB",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DCF3FC",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DED39B",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DFDA9A",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "DFDB41",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E17E48",
+      "task": 5,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E19566",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E1D6F2",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E41125",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E43CE2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E48166",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E50C0B",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E68FF7",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E7F8EF",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E86C6A",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E8DABE",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E90686",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "E98B8B",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "EAC2EF",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "EB0F97",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "EBA6DF",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "ED40CA",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "EECE4A",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "EFD46C",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "EFD7CB",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F03FB7",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F06518",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F10B43",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F15C9D",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F2FA4D",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F32163",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F3E10B",
+      "task": 6,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F46159",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F5168B",
+      "task": 25,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F53CB8",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F675D2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F6854B",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F6C12B",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F748EC",
+      "task": 6,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F83782",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F93935",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "F9547E",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "FA4ECF",
+      "task": 25,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "FBB9F0",
+      "task": 1,
+      "inVariantQueue": true,
+      "status": "hypotheses_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "FBE27D",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "FDBB55",
+      "task": 1,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "FDF5A2",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    },
+    {
+      "cardId": "FF5415",
+      "task": 5,
+      "inVariantQueue": false,
+      "status": "no_explicit_alternative_prepared",
+      "doesNotProveUniqueAnswer": true
+    }
+  ]
+}

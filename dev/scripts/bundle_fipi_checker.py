@@ -24,3 +24,11 @@ source = source[:begin] + '# BEGIN NEW HYPOTHESES — refreshed by bundle_fipi_c
     'EMBEDDED_NEW_HYPOTHESES = ' + pprint.pformat(proposals, width=110, sort_dicts=True) + '\n' + source[end:]
 path.write_text(source)
 print(f'Embedded {len(answers)} existing answers; no application cards changed')
+plan = json.loads((ROOT / 'dev/data/fipi_answer_variants.json').read_text())
+proposals = {c['guid'].lower(): {k:c[k] for k in
+             ['cardId','sourceContentSha256','candidates','hypothesisBasis']} for c in plan['checks']}
+begin = source.index('# BEGIN VARIANT HYPOTHESES')
+end = source.index('# END VARIANT HYPOTHESES', begin)
+source = source[:begin] + '# BEGIN VARIANT HYPOTHESES — refreshed by bundle_fipi_checker.py\n' + \
+    'EMBEDDED_VARIANT_HYPOTHESES = ' + pprint.pformat(proposals, width=110, sort_dicts=True) + '\n' + source[end:]
+path.write_text(source)

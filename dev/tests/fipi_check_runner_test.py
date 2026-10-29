@@ -21,6 +21,22 @@ import check_fipi_answers as checker
 
 
 class FipiCheckRunnerTest(unittest.TestCase):
+    def test_alternative_queue_checks_every_candidate_and_preserves_existing_plans(self):
+        plan = checker.load_plan(ROOT / 'dev/data/fipi_answer_variants.json')
+        self.assertEqual(len(plan['checks']), 109)
+        self.assertTrue(all(c['mode']=='verify_alternatives' for c in plan['checks']))
+        lacquer = next(c for c in plan['checks'] if c['cardId']=='012CAB')
+        self.assertTrue({'лакировочным','лаковым','лакировальным'} <= {c['answer'] for c in lacquer['candidates']})
+        time = next(c for c in plan['checks'] if c['cardId']=='12BBAB')
+        self.assertIn('потом', {c['answer'] for c in time['candidates']})
+        self.assertNotIn('позже', {c['answer'] for c in time['candidates']})
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'card_012CAB.json'
+            path.write_text(json.dumps(lacquer['sourceSnapshot'],ensure_ascii=False),encoding='utf-8')
+            selected = checker.validate_plan(checker.plan_from_cards(path,plan,alternatives_only=True))
+            self.assertEqual(selected['checks'][0]['mode'],'verify_alternatives')
+            self.assertEqual(selected['checks'][0]['candidates'],lacquer['candidates'])
+
     def test_new_batch_is_bound_to_snapshot_and_excludes_existing_keys(self):
         plan = checker.load_plan(ROOT / 'dev/data/fipi_new_hypotheses.json')
         self.assertEqual(len(plan['checks']), 438)
@@ -172,6 +188,20 @@ class FipiCheckRunnerTest(unittest.TestCase):
                 self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
                 new_report = json.loads(new_output.read_text())
                 self.assertEqual([r['cardId'] for r in new_report['results']], [new_sample['cardId']])
+                variant = next(c for c in checker.load_plan(ROOT / 'dev/data/fipi_answer_variants.json')['checks']
+                               if c['cardId']=='012CAB')
+                (standalone / 'src/cards/card_012CAB.json').write_text(
+                    json.dumps(variant['sourceSnapshot'],ensure_ascii=False),encoding='utf-8')
+                variant_output = standalone / 'variant-results.json'
+                completed = subprocess.run([
+                    sys.executable,'src/check_fipi_answers.py','--cards','src/cards','--alternatives-only',
+                    '--output',str(variant_output),'--base-url',f'http://127.0.0.1:{server.server_port}',
+                    '--delay','0','--batch-delay','0',
+                ],cwd=standalone,capture_output=True,text=True)
+                self.assertEqual(completed.returncode,0,completed.stdout+completed.stderr)
+                variant_report = json.loads(variant_output.read_text())
+                self.assertEqual(len(variant_report['results'][0]['attempts']),3)
+                self.assertEqual(variant_report['summary']['withMultipleAcceptedStrings'],1)
         finally:
             server.shutdown()
             server.server_close()
