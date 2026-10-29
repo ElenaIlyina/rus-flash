@@ -13,6 +13,7 @@ import http.cookiejar
 import json
 from pathlib import Path
 import re
+import ssl
 import sys
 import time
 import urllib.error
@@ -1004,8 +1005,18 @@ def validate_plan(plan):
     return plan
 
 
-def opener():
-    return urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+def tls_context(insecure=False, ca_file=None):
+    context = ssl.create_default_context(cafile=ca_file)
+    if insecure:
+        context.check_hostname = False
+        context.verify_mode = ssl.CERT_NONE
+    return context
+
+
+def opener(insecure=False, ca_file=None):
+    return urllib.request.build_opener(
+        urllib.request.HTTPSHandler(context=tls_context(insecure, ca_file)),
+        urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 
 
 class AnswerInputs(HTMLParser):
@@ -1169,7 +1180,7 @@ class RequestPacer:
 
 def run(plan, client, base_url, timeout, pacer, report, output):
     init_url = base_url + '/bank/questions.php?' + urllib.parse.urlencode({
-        'proj': plan['project'], 'page': '1', 'pagesize': '1'})
+        'proj': plan['project'], 'page': '1', 'pagesize': '100'})
     run_info = report['runs'][-1]
     try:
         request = urllib.request.Request(init_url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -1179,11 +1190,17 @@ def run(plan, client, base_url, timeout, pacer, report, output):
             response.read(1048576)
             run_info['session'] = {'status': 'opened', 'httpStatus': response.status}
     except (urllib.error.URLError, OSError, TimeoutError) as error:
-        run_info['session'] = {'status': 'network_error', 'error': str(error)}
+        run_info['session'] = {'status': 'http_error' if isinstance(error, urllib.error.HTTPError)
+                               else 'network_error', 'error': str(error)}
+        if isinstance(error, urllib.error.HTTPError):
+            run_info['session']['httpStatus'] = error.code
         report.update(status='connection_failed', finishedAt=now())
         summarize(plan, report)
         save_report(output, report)
-        print('Банк недоступен. Это ошибка соединения, а не отказ в ответе.')
+        print('Не удалось открыть сессию ФИПИ:', error, flush=True)
+        if 'CERTIFICATE_VERIFY_FAILED' in str(error):
+            print('Ошибка сертификата: задайте --ca-file с сертификатом прокси или '
+                  '--insecure для режима как у curl -k.', flush=True)
         return 2
 
     by_id = {r['cardId']:r for r in report['results']}
@@ -1214,6 +1231,11 @@ def run(plan, client, base_url, timeout, pacer, report, output):
             run_info['requests'] = pacer.requests
             label = {'accepted':'ПРИНЯТ','rejected':'НЕ ПРИНЯТ'}.get(outcome['status'],'ОШИБКА ЗАПРОСА')
             print(f'  {answer["answer"]!r}: {label}', flush=True)
+            if outcome.get('error'):
+                print('  Причина:', outcome['error'], flush=True)
+            elif outcome['status'] not in {'accepted', 'rejected'}:
+                print('  HTTP:', outcome.get('httpStatus'), 'Ответ:',
+                      repr(outcome.get('response', '')), flush=True)
             result['status'] = 'accepted' if any(a['status']=='accepted' for a in result['attempts']) else 'no_accepted_answer'
             save_report(output, report)
             if outcome['status'] in {'accepted','rejected'}:
@@ -1248,9 +1270,16 @@ def main(argv=None):
     parser.add_argument('--batch-size', type=int, default=20)
     parser.add_argument('--batch-delay', type=float, default=10)
     parser.add_argument('--timeout', type=float, default=15)
+    tls = parser.add_mutually_exclusive_group()
+    tls.add_argument('--insecure', action='store_true', help='как curl -k: отключить проверку TLS-сертификата')
+    tls.add_argument('--ca-file', type=Path, help='PEM-файл доверенного сертификата, например сертификата прокси')
     parser.add_argument('--delay', type=float, default=0.5)
     parser.add_argument('--base-url', default='https://ege.fipi.ru', help='normally unchanged; local test server is supported')
     args = parser.parse_args(argv)
+    try:
+        client = opener(args.insecure, args.ca_file)
+    except (OSError, ssl.SSLError) as error:
+        parser.error('Не удалось настроить TLS: ' + str(error))
     if args.timeout <= 0 or args.delay < 0 or args.batch_size <= 0 or args.batch_delay < 0:
         parser.error('timeout и batch-size должны быть положительными; паузы — неотрицательными')
     try:
@@ -1297,13 +1326,17 @@ def main(argv=None):
         report = {'schemaVersion':1,'startedAt':now(),'status':'running','planSha256':plan_hash,
                   'project':plan['project'],'endpoint':endpoint,'results':[],'runs':[]}
     report['runs'].append({'startedAt':now(),'delay':args.delay,'batchSize':args.batch_size,
-                           'batchDelay':args.batch_delay,'requests':0})
+                           'batchDelay':args.batch_delay,'requests':0,
+                           'tlsVerification':not args.insecure,
+                           'caFile':str(args.ca_file) if args.ca_file else None})
     save_report(output, report)
     pacer = RequestPacer(args.delay, args.batch_size, args.batch_delay)
     print(f'Карточек в плане: {len(plan["checks"])}; максимум ответов: {sum(len(c.get("candidates",[])) for c in plan["checks"])}')
+    if args.insecure:
+        print('Режим --insecure: проверка TLS-сертификата отключена (как curl -k).', flush=True)
 
     try:
-        code = run(plan, opener(), args.base_url.rstrip('/'), args.timeout, pacer, report, output)
+        code = run(plan, client, args.base_url.rstrip('/'), args.timeout, pacer, report, output)
     except KeyboardInterrupt:
         report.update(status='interrupted', finishedAt=now())
         summarize(plan, report)

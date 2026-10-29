@@ -7,11 +7,13 @@ import json
 from pathlib import Path
 import sys
 import shutil
+import ssl
 import subprocess
 import tempfile
 import threading
 import unittest
 import urllib.parse
+import urllib.error
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'dev/scripts'))
@@ -19,6 +21,40 @@ import check_fipi_answers as checker
 
 
 class FipiCheckRunnerTest(unittest.TestCase):
+    @unittest.skipUnless(shutil.which('openssl'), 'openssl required for local TLS fixture')
+    def test_tls_certificate_failure_and_explicit_curl_k_equivalent(self):
+        class Handler(http.server.BaseHTTPRequestHandler):
+            def log_message(self, *args):
+                pass
+
+            def do_GET(self):
+                self.send_response(200)
+                self.end_headers()
+                self.wfile.write(b'3')
+
+        with tempfile.TemporaryDirectory() as temp:
+            cert, key = Path(temp) / 'cert.pem', Path(temp) / 'key.pem'
+            subprocess.run(['openssl','req','-x509','-newkey','rsa:2048','-nodes',
+                            '-keyout',str(key),'-out',str(cert),'-days','1',
+                            '-subj','/CN=localhost','-addext','subjectAltName=DNS:localhost'],
+                           check=True, capture_output=True)
+            server = http.server.ThreadingHTTPServer(('127.0.0.1',0), Handler)
+            context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+            context.load_cert_chain(cert, key)
+            server.socket = context.wrap_socket(server.socket, server_side=True)
+            threading.Thread(target=server.serve_forever, daemon=True).start()
+            url = f'https://localhost:{server.server_port}'
+            try:
+                with self.assertRaises(urllib.error.URLError):
+                    checker.opener().open(url, timeout=3)
+                with checker.opener(insecure=True).open(url, timeout=3) as response:
+                    self.assertEqual(response.read(), b'3')
+                with checker.opener(ca_file=cert).open(url, timeout=3) as response:
+                    self.assertEqual(response.read(), b'3')
+            finally:
+                server.shutdown()
+                server.server_close()
+
     def test_pauses_between_all_requests_and_batches(self):
         pauses = []
         pacer = checker.RequestPacer(0.5, 2, 10, sleeper=pauses.append)
