@@ -1,6 +1,12 @@
 import { loadStressList, stressSourceUrl } from "./data.js";
 import { esc } from "./ui.js";
 
+export function renderStressReferences(refs = []) {
+  return refs.length
+    ? `<details class="explanation-sources"><summary>Ударения: страницы списка ФИПИ</summary><nav class="rule-links">${refs.map((ref) => `<a class="text-link" href="${esc(stressSourceUrl)}#page=${ref.page}" target="_blank" rel="noopener">Вариант ${ref.part} · с. ${ref.page}</a>`).join("")}</nav></details>`
+    : "";
+}
+
 export async function stressListPage({ heading, backLink }) {
   const list = await loadStressList();
   const accented = (value) => esc(value).replace(/[АЕЁИОУЫЭЮЯ]/g, "<b>$&</b>");

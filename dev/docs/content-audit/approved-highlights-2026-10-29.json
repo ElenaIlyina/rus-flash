@@ -1,0 +1,68 @@
+{
+  "edits": [
+    {
+      "id": "082CB8",
+      "date": "2026-10-29",
+      "approvedBy": "author",
+      "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+      "words": [
+        "потеряла"
+      ],
+      "authorCheckedOnFipi": true,
+      "previousSourceContentSha256": "a339c4bf1353af1982543f1d20cfd2b69202d851e9ba8448a380049b56931484",
+      "sourceContentSha256": "55df8478cac0ccf9186ba34bb0cc034a5d1a16da3f7baebed8001001e08baf8a"
+    },
+    {
+      "id": "2BA3EC",
+      "date": "2026-10-29",
+      "approvedBy": "author",
+      "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+      "words": [
+        "масса",
+        "наследный",
+        "инкогнито"
+      ],
+      "authorCheckedOnFipi": true,
+      "previousSourceContentSha256": "115acd13e7a66056584f8066c61f51ae3a8874e3150656c603ae20bd8435a960",
+      "sourceContentSha256": "7e139652c39a6e3807dbd844147b00b032c6ddf7d609bed19e015380496b1f03"
+    },
+    {
+      "id": "9273A5",
+      "date": "2026-10-29",
+      "approvedBy": "author",
+      "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+      "words": [
+        "храм"
+      ],
+      "authorCheckedOnFipi": true,
+      "previousSourceContentSha256": "1e2ba89f7e0d33532af54f205ddd125203820a971b7222bb08a408cd60bf4c46",
+      "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152"
+    },
+    {
+      "id": "E96B4A",
+      "date": "2026-10-29",
+      "approvedBy": "author",
+      "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+      "words": [
+        "оценивать",
+        "ходом"
+      ],
+      "authorCheckedOnFipi": false,
+      "previousSourceContentSha256": "85f589c6890bb0fb893417a8d0e69042e40c8b0be4c3493789c2f3ede518026d",
+      "sourceContentSha256": "83beeb4dd0bff63d9597ea69558a8e69b19238cfad636e7e0266100e9b57f93b"
+    },
+    {
+      "id": "F5E433",
+      "date": "2026-10-29",
+      "approvedBy": "author",
+      "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+      "words": [
+        "стиль",
+        "опыта"
+      ],
+      "authorCheckedOnFipi": false,
+      "previousSourceContentSha256": "5da49e575c0acfe895fbabe336ee942e0278f910bef6c565fa21965e92c6de3a",
+      "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002"
+    }
+  ]
+}

@@ -50,16 +50,23 @@ export async function dictionaryArticlePage({
         "Выберите ссылку на словарь в разборе задания.",
       ) + backLink
     );
-  const relatedUrl =
-    task === 7
+  const textGuide = {
+    1: ["connections", "Средства связи в тексте"],
+    2: ["meanings", "Значение слова в контексте"],
+    3: ["style", "Как анализировать текст"],
+  }[task];
+  const relatedUrl = textGuide
+    ? `#knowledge?list=${textGuide[0]}&card=${esc(params.get("card"))}`
+    : task === 7
       ? `#knowledge?list=word-forms&card=${esc(params.get("card"))}`
       : task === 6
         ? `#knowledge?list=lexical&card=${esc(params.get("card"))}`
         : task === 5
           ? "#knowledge?list=paronyms"
           : "#knowledge";
-  const relatedLabel =
-    task === 7
+  const relatedLabel = textGuide
+    ? textGuide[1]
+    : task === 7
       ? "Формы слов"
       : task === 6
         ? "Лексические нормы"

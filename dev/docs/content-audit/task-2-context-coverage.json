@@ -1,0 +1,1060 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-29",
+  "cards": [
+    {
+      "id": "082CB8",
+      "options": [
+        {
+          "number": 1,
+          "word": "печатать",
+          "articleHeadword": "печатать",
+          "keySelects": true,
+          "reason": "Героиня три часа набирала текст на пишущей машинке; это воспроизведение текста с помощью аппарата."
+        },
+        {
+          "number": 2,
+          "word": "работа",
+          "articleHeadword": "работа",
+          "keySelects": false,
+          "reason": "«Работы — непочатый край» означает много предстоящих дел. Качество исполнения вещи здесь не оценивается."
+        },
+        {
+          "number": 3,
+          "word": "опомниться",
+          "articleHeadword": "опомниться",
+          "keySelects": true,
+          "reason": "«Опомнилась — хочется упущенное наверстать» означает переосмыслила прежнее поведение. Это не возвращение в сознание после обморока."
+        },
+        {
+          "number": 4,
+          "word": "поступать",
+          "articleHeadword": "поступить",
+          "keySelects": false,
+          "reason": "Олег собирается зачислиться на физический факультет. Прибытие заявлений или книг по назначению — другое значение."
+        },
+        {
+          "number": 5,
+          "word": "потерять",
+          "articleHeadword": "терять",
+          "keySelects": true,
+          "reason": "«Столько времени потеряла» означает нецелесообразно потратила годы. Речь не о потере предмета."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "55df8478cac0ccf9186ba34bb0cc034a5d1a16da3f7baebed8001001e08baf8a",
+      "headwords": [
+        "печатать",
+        "работа",
+        "опомниться",
+        "одуматься",
+        "поступить",
+        "терять"
+      ],
+      "sourceEditApproval": {
+        "date": "2026-10-29",
+        "approvedBy": "author",
+        "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+        "words": [
+          "потеряла"
+        ],
+        "authorCheckedOnFipi": true,
+        "previousSourceContentSha256": "a339c4bf1353af1982543f1d20cfd2b69202d851e9ba8448a380049b56931484",
+        "sourceContentSha256": "55df8478cac0ccf9186ba34bb0cc034a5d1a16da3f7baebed8001001e08baf8a"
+      }
+    },
+    {
+      "id": "0ABFEC",
+      "options": [
+        {
+          "number": 1,
+          "word": "прямой",
+          "articleHeadword": "прямой",
+          "keySelects": false,
+          "reason": "Прямое действие нормы — непосредственное действие. Это не откровенность или нелицемерность человека."
+        },
+        {
+          "number": 2,
+          "word": "акт",
+          "articleHeadword": "акт",
+          "keySelects": false,
+          "reason": "Названы законы и другие правовые документы. Акт в значении части спектакля к ним не относится."
+        },
+        {
+          "number": 3,
+          "word": "норма",
+          "articleHeadword": "норма",
+          "keySelects": true,
+          "reason": "Нормы международного права — обязательные установления и правила. Значение соответствует правовому контексту."
+        },
+        {
+          "number": 4,
+          "word": "система",
+          "articleHeadword": "система",
+          "keySelects": false,
+          "reason": "Правовая система — связанное целое норм и институтов. Это не техническое устройство или конструкция самолёта."
+        },
+        {
+          "number": 5,
+          "word": "установить",
+          "articleHeadword": "установить",
+          "keySelects": true,
+          "reason": "Договор устанавливает правила, то есть вводит их в действие. Значение не связано с монтажом предмета."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "0429b810c82a41887e79f1138f120ce77655a1d2c15a8dc27d7496c413061d9c",
+      "headwords": [
+        "прямой",
+        "акт",
+        "норма",
+        "система",
+        "установить"
+      ]
+    },
+    {
+      "id": "2BA3EC",
+      "options": [
+        {
+          "number": 1,
+          "word": "эпиграф",
+          "articleHeadword": "эпиграф",
+          "keySelects": true,
+          "reason": "Перед рассказом приведены строки из «Апокалипсиса», задающие мотив гибели. Это изречение перед произведением."
+        },
+        {
+          "number": 2,
+          "word": "звучать",
+          "articleHeadword": "звучать",
+          "keySelects": false,
+          "reason": "Мотив смерти «звучит» в рассказе в переносном смысле: проявляется, выражается. Физического звучания струн нет."
+        },
+        {
+          "number": 3,
+          "word": "масса",
+          "articleHeadword": "масса",
+          "keySelects": false,
+          "reason": "«Масса деталей» — большое количество подробностей. Физическая величина массы здесь не измеряется."
+        },
+        {
+          "number": 4,
+          "word": "наследный",
+          "articleHeadword": "наследовать",
+          "keySelects": true,
+          "reason": "«Наследный принц» — принц, являющийся наследником престола. Это сочетание прямо дано в статье «наследовать»."
+        },
+        {
+          "number": 5,
+          "word": "инкогнито",
+          "articleHeadword": "инкогнито",
+          "keySelects": true,
+          "reason": "Путешествовать инкогнито — не раскрывать своего имени. Значение соответствует описанию поездки принца."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "7e139652c39a6e3807dbd844147b00b032c6ddf7d609bed19e015380496b1f03",
+      "headwords": [
+        "эпиграф",
+        "звучать",
+        "масса",
+        "наследовать",
+        "инкогнито"
+      ],
+      "sourceEditApproval": {
+        "date": "2026-10-29",
+        "approvedBy": "author",
+        "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+        "words": [
+          "масса",
+          "наследный",
+          "инкогнито"
+        ],
+        "authorCheckedOnFipi": true,
+        "previousSourceContentSha256": "115acd13e7a66056584f8066c61f51ae3a8874e3150656c603ae20bd8435a960",
+        "sourceContentSha256": "7e139652c39a6e3807dbd844147b00b032c6ddf7d609bed19e015380496b1f03"
+      }
+    },
+    {
+      "id": "33BA3C",
+      "options": [
+        {
+          "number": 1,
+          "word": "эталон",
+          "articleHeadword": "эталон",
+          "keySelects": true,
+          "reason": "Кумиры служат образцами поведения, на которые равняются. Это переносное значение «эталон», не единица измерения."
+        },
+        {
+          "number": 2,
+          "word": "культура",
+          "articleHeadword": "культура",
+          "keySelects": false,
+          "reason": "Названы вечные духовные и общественные ценности культуры. Разведение растений или животных не имеется в виду."
+        },
+        {
+          "number": 3,
+          "word": "веяние",
+          "articleHeadword": "веяние",
+          "keySelects": true,
+          "reason": "Новые веяния — изменения тенденций в искусстве и общественных настроениях. Это не движение воздуха."
+        },
+        {
+          "number": 4,
+          "word": "элемент",
+          "articleHeadword": "элемент",
+          "keySelects": false,
+          "reason": "Недостатки названы частью личности и таланта, а не химическим веществом. Нужно значение компонента целого."
+        },
+        {
+          "number": 5,
+          "word": "уход",
+          "articleHeadword": "уход",
+          "keySelects": false,
+          "reason": "«После его ухода» в данном контексте означает после смерти кумира. Забота о больном или растениях — другое слово-омоним."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "9979e9ad8f4aef411a2dbb6f7cc58794b08c211f48e2d540c96acd1010c4ae0f",
+      "headwords": [
+        "эталон",
+        "культура",
+        "веяние",
+        "элемент",
+        "уход",
+        "уйти",
+        "ухаживать"
+      ]
+    },
+    {
+      "id": "5A83DF",
+      "options": [
+        {
+          "number": 1,
+          "word": "содержание",
+          "articleHeadword": "содержание",
+          "keySelects": false,
+          "reason": "Содержание речи — то, о чём говорится. Заработная плата к этому контексту отношения не имеет."
+        },
+        {
+          "number": 2,
+          "word": "элемент",
+          "articleHeadword": "элемент",
+          "keySelects": true,
+          "reason": "Чужое высказывание входит в речь как конструктивная часть целого. Это значение компонента."
+        },
+        {
+          "number": 3,
+          "word": "ввести",
+          "articleHeadword": "ввести",
+          "keySelects": false,
+          "reason": "«Ввести его в конструкцию речи» — включить высказывание в состав другого. Это не установление новых порядков."
+        },
+        {
+          "number": 4,
+          "word": "вырабатывать",
+          "articleHeadword": "выработать",
+          "keySelects": false,
+          "reason": "Авторское высказывание создаёт нормы включения чужой речи. Изготовление материальной продукции — другое значение."
+        },
+        {
+          "number": 5,
+          "word": "первичный",
+          "articleHeadword": "первичный",
+          "keySelects": true,
+          "reason": "«Первичную самостоятельность» — исходную самостоятельность чужого высказывания до его включения в авторское."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "86ac15e907780e023c73ed9af0375ef5850d9051c99b0df017ca03a6dac1275c",
+      "headwords": [
+        "содержание",
+        "элемент",
+        "ввести",
+        "выработать",
+        "первичный"
+      ]
+    },
+    {
+      "id": "62A8A9",
+      "options": [
+        {
+          "number": 1,
+          "word": "осветить",
+          "articleHeadword": "осветить",
+          "keySelects": false,
+          "reason": "«Осветить по-новому явление» — объяснить, истолковать его. Направлять лучи света на предмет не требуется."
+        },
+        {
+          "number": 2,
+          "word": "масса",
+          "articleHeadword": "масса",
+          "keySelects": false,
+          "reason": "«Массой описаний» — множеством описаний, а не физической массой вещества."
+        },
+        {
+          "number": 3,
+          "word": "чужой",
+          "articleHeadword": "чужой",
+          "keySelects": false,
+          "reason": "Чужие высказывания принадлежат другому говорящему. Они не обязательно далеки автору по духу или взглядам."
+        },
+        {
+          "number": 4,
+          "word": "взгляд",
+          "articleHeadword": "взгляд",
+          "keySelects": true,
+          "reason": "«На поверхностный взгляд» — по поверхностному суждению, мнению. Это переносное значение, не направление зрения."
+        },
+        {
+          "number": 5,
+          "word": "вопрос",
+          "articleHeadword": "вопрос",
+          "keySelects": true,
+          "reason": "«Вопросе синтаксиса» — предмете исследования, проблеме, а не вопросительной реплике собеседника."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "fdf9185a3dd4a25d8348b6dfc08d8c282b011101c237a296943d66254bcb0ae5",
+      "headwords": [
+        "осветить",
+        "масса",
+        "чужой",
+        "взгляд",
+        "вопрос"
+      ]
+    },
+    {
+      "id": "7AB7D7",
+      "options": [
+        {
+          "number": 1,
+          "word": "земля",
+          "articleHeadword": "земля",
+          "keySelects": false,
+          "reason": "«По русской земле» — по территории, стране. Имеется в виду не Земля как планета."
+        },
+        {
+          "number": 2,
+          "word": "собирать",
+          "articleHeadword": "собрать",
+          "keySelects": false,
+          "reason": "Осень собирает грибы, то есть подбирает их в подол. Созывание людей в одно место — другое значение."
+        },
+        {
+          "number": 3,
+          "word": "разводить",
+          "articleHeadword": "разводить",
+          "keySelects": true,
+          "reason": "Разводит хвойные лапы в стороны — раздвигает соединённые части. Значение подходит и при олицетворении осени."
+        },
+        {
+          "number": 4,
+          "word": "верста",
+          "articleHeadword": "верста",
+          "keySelects": false,
+          "reason": "«На тысячи вёрст» обозначает расстояние. Это мера длины, а не дорожный столб."
+        },
+        {
+          "number": 5,
+          "word": "шум",
+          "articleHeadword": "шум",
+          "keySelects": true,
+          "reason": "Шум тайги — слившееся звучание ветра и деревьев. Это акустическое значение."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "de509421e04d589267b338d545e477bac3eca41d4c61ada79db36c059d958691",
+      "headwords": [
+        "земля",
+        "собрать",
+        "разводить",
+        "верста",
+        "шум"
+      ]
+    },
+    {
+      "id": "883E90",
+      "options": [
+        {
+          "number": 1,
+          "word": "хаос",
+          "articleHeadword": "хаос",
+          "keySelects": true,
+          "reason": "Каменный хаос — беспорядочное нагромождение камней. Это не специальное мифологическое значение первоматерии."
+        },
+        {
+          "number": 2,
+          "word": "порог",
+          "articleHeadword": "порог",
+          "keySelects": false,
+          "reason": "Речной порог — каменистый участок русла с быстрым течением, а не брусок дверного проёма."
+        },
+        {
+          "number": 3,
+          "word": "увал",
+          "articleHeadword": "увал",
+          "keySelects": true,
+          "reason": "Увалы — пологие вытянутые возвышенности. Определение соответствует описанию рельефа."
+        },
+        {
+          "number": 4,
+          "word": "полый",
+          "articleHeadword": "полый",
+          "keySelects": true,
+          "reason": "«В полую воду» — во время весеннего разлива. Здесь не значение «пустой внутри»."
+        },
+        {
+          "number": 5,
+          "word": "древесный",
+          "articleHeadword": "древесный",
+          "keySelects": false,
+          "reason": "Древесные скелеты — остатки самих деревьев. Это не материал, полученный переработкой древесины, как древесный уголь."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "bc672b9043f7a89b09a2a165c429325b6bfd5cddfb780dc194b6752bf545ffde",
+      "headwords": [
+        "хаос",
+        "порог",
+        "увал",
+        "полый",
+        "древесный"
+      ]
+    },
+    {
+      "id": "9273A5",
+      "options": [
+        {
+          "number": 1,
+          "word": "фундамент",
+          "articleHeadword": "фундамент",
+          "keySelects": false,
+          "reason": "Башня из облаков опускается на своё основание. Отвлечённый фундамент науки или развития не имеется в виду."
+        },
+        {
+          "number": 2,
+          "word": "ползти",
+          "articleHeadword": "ползти",
+          "keySelects": true,
+          "reason": "Узоры облаков медленно движутся. Переносное движение неживых предметов соответствует указанному значению."
+        },
+        {
+          "number": 3,
+          "word": "образ",
+          "articleHeadword": "образ",
+          "keySelects": false,
+          "reason": "«Пленительные образы» — возникающие в воображении видения. Это не персонажи или обобщённые человеческие типы художественного произведения."
+        },
+        {
+          "number": 4,
+          "word": "храм",
+          "articleHeadword": "храм",
+          "keySelects": true,
+          "reason": "Облачные сооружения сравниваются с освещённым храмом. Само слово в сравнении сохраняет значение культового здания."
+        },
+        {
+          "number": 5,
+          "word": "жизнь",
+          "articleHeadword": "жизнь",
+          "keySelects": false,
+          "reason": "Жизнь сравнивается с покойной природой. Её стоимость и материальное обеспечение не обсуждаются."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152",
+      "headwords": [
+        "фундамент",
+        "ползти",
+        "образ",
+        "храм",
+        "жизнь"
+      ],
+      "sourceEditApproval": {
+        "date": "2026-10-29",
+        "approvedBy": "author",
+        "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+        "words": [
+          "храм"
+        ],
+        "authorCheckedOnFipi": true,
+        "previousSourceContentSha256": "1e2ba89f7e0d33532af54f205ddd125203820a971b7222bb08a408cd60bf4c46",
+        "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152"
+      }
+    },
+    {
+      "id": "9819CF",
+      "options": [
+        {
+          "number": 1,
+          "word": "характеристика",
+          "articleHeadword": "характеристика",
+          "keySelects": false,
+          "reason": "Ритмико-интонационные характеристики — свойства звучания. Официальный отзыв с места работы не имеется в виду."
+        },
+        {
+          "number": 2,
+          "word": "тип",
+          "articleHeadword": "тип",
+          "keySelects": true,
+          "reason": "Типы ударения — разновидности с определёнными признаками. Это соответствует предложенному толкованию."
+        },
+        {
+          "number": 3,
+          "word": "позиция",
+          "articleHeadword": "позиция",
+          "keySelects": true,
+          "reason": "Позиция слова — его положение в интонационной структуре. Это не точка зрения или принципиальная установка."
+        },
+        {
+          "number": 4,
+          "word": "общий",
+          "articleHeadword": "общий",
+          "keySelects": false,
+          "reason": "Общие тенденции — общие закономерности изменения звучания. Здесь не совместное использование вещи или совместный труд."
+        },
+        {
+          "number": 5,
+          "word": "выступать",
+          "articleHeadword": "выступать",
+          "keySelects": false,
+          "reason": "«На первый план выступают параметры» — становятся заметными, выдвигаются. Параметры не произносят публичную речь."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "a6505c9cb475c5d61804b33aa3b69ed022630c1fbc3b7c2ba30260aa1ddca5f2",
+      "headwords": [
+        "характеристика",
+        "тип",
+        "позиция",
+        "общий",
+        "выступать"
+      ]
+    },
+    {
+      "id": "A3FAC1",
+      "options": [
+        {
+          "number": 1,
+          "word": "мир",
+          "articleHeadword": "мир",
+          "keySelects": false,
+          "reason": "Окружающий мир — действительность вокруг художника. Спокойствие и отсутствие шума — другое значение-омоним."
+        },
+        {
+          "number": 2,
+          "word": "тройка",
+          "articleHeadword": "тройка",
+          "keySelects": true,
+          "reason": "Мимо проносится экипаж с упряжкой в три лошади. Это значение «тройка», а не оценка или число предметов."
+        },
+        {
+          "number": 3,
+          "word": "сизый",
+          "articleHeadword": "сизый",
+          "keySelects": true,
+          "reason": "Сизый воздух описан как тёмно-серый с синеватым оттенком. Цветовое значение сохраняется в образном описании."
+        },
+        {
+          "number": 4,
+          "word": "блеск",
+          "articleHeadword": "блеск",
+          "keySelects": false,
+          "reason": "Белый блеск снега — отражённый свет. Это не разговорное восклицание-похвала «блеск!»."
+        },
+        {
+          "number": 5,
+          "word": "передать",
+          "articleHeadword": "передать",
+          "keySelects": true,
+          "reason": "Художник хочет передать восторг кистью, то есть изобразить его в картине. Речь не о передаче вещи из рук в руки."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "6dc5a65bf6228650a106a16e9cb72387511f350a1604a0f3aa460583c7c9e33f",
+      "headwords": [
+        "мир",
+        "тройка",
+        "сизый",
+        "блеск",
+        "передать"
+      ]
+    },
+    {
+      "id": "B5A555",
+      "options": [
+        {
+          "number": 1,
+          "word": "лицо",
+          "articleHeadword": "лицо",
+          "keySelects": false,
+          "reason": "Лица — люди, участники движения. Передняя часть головы не имеется в виду."
+        },
+        {
+          "number": 2,
+          "word": "край",
+          "articleHeadword": "край",
+          "keySelects": true,
+          "reason": "Край проезжей части — её граница, предельная часть. Значение соответствует правилу движения."
+        },
+        {
+          "number": 3,
+          "word": "средство",
+          "articleHeadword": "средство",
+          "keySelects": false,
+          "reason": "Транспортные средства — машины и другие средства передвижения. Это не абстрактный приём достижения цели."
+        },
+        {
+          "number": 4,
+          "word": "следовать",
+          "articleHeadword": "следовать",
+          "keySelects": true,
+          "reason": "Следовать по ходу движения — двигаться в данном направлении. Значение движения подходит."
+        },
+        {
+          "number": 5,
+          "word": "элемент",
+          "articleHeadword": "элемент",
+          "keySelects": false,
+          "reason": "В ключе вариант не выбран: в контексте названы отдельные светоотражающие детали предметов. Формулировка о доле в составе чего-либо близка по общему смыслу, поэтому не следует выводить отсюда запрет называть физическую деталь элементом. Для выбора ответа в этом упражнении сохраняется ключ."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_sensitive_key_preserved",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "3be0f7b7961108f99ad97d8fac22cf313e7ecec21af0ad49372943f9a541a827",
+      "headwords": [
+        "лицо",
+        "край",
+        "средство",
+        "следовать",
+        "элемент"
+      ]
+    },
+    {
+      "id": "BCF56B",
+      "options": [
+        {
+          "number": 1,
+          "word": "жизнь",
+          "articleHeadword": "жизнь",
+          "keySelects": false,
+          "reason": "«Проверялось жизнью» — проверялось практикой, действительным опытом. Биологическая форма существования материи — другое значение."
+        },
+        {
+          "number": 2,
+          "word": "типовой",
+          "articleHeadword": "типовой",
+          "keySelects": true,
+          "reason": "Типовые дома соответствуют образцу, стандарту. Значение дано верно."
+        },
+        {
+          "number": 3,
+          "word": "проект",
+          "articleHeadword": "проект",
+          "keySelects": false,
+          "reason": "Проекты домов — планы строительства, а не предварительные тексты резолюций или других документов."
+        },
+        {
+          "number": 4,
+          "word": "скромный",
+          "articleHeadword": "скромный",
+          "keySelects": false,
+          "reason": "Скромные особнячки — небольшие, небогатые внешне. Здание не может хвастаться своими заслугами, как человек."
+        },
+        {
+          "number": 5,
+          "word": "повторять",
+          "articleHeadword": "повторить",
+          "keySelects": true,
+          "reason": "Повторяли размеры и пропорции — воспроизводили существующий образец. Контекст даёт значение копирования; точная формулировка этого толкования в полученной копии словаря не напечатана."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": true,
+      "sourceContentSha256": "1b3452f0db5003adefb31e1441ca4ea7b61be14dec98c64964500875d0e75602",
+      "headwords": [
+        "жизнь",
+        "типовой",
+        "проект",
+        "скромный",
+        "повторить"
+      ]
+    },
+    {
+      "id": "CD2CCE",
+      "options": [
+        {
+          "number": 1,
+          "word": "обычай",
+          "articleHeadword": "обычай",
+          "keySelects": true,
+          "reason": "Обычай — установившееся правило посылать помощь арестованным по праздникам. Значение соответствует описанному общественному поведению."
+        },
+        {
+          "number": 2,
+          "word": "послать",
+          "articleHeadword": "послать",
+          "keySelects": false,
+          "reason": "В тюрьмы посылали реальные продукты. Это не передача привета, поклона или отношения жестом."
+        },
+        {
+          "number": 3,
+          "word": "свежий",
+          "articleHeadword": "свежий",
+          "keySelects": false,
+          "reason": "Свежие калачи — недавно испечённые, не чёрствые. Яркость красок или воспоминаний — другое значение."
+        },
+        {
+          "number": 4,
+          "word": "отличие",
+          "articleHeadword": "отличие",
+          "keySelects": true,
+          "reason": "Ключ включает этот вариант. Однако «медальные и мундирные отличия» в контексте связаны с наградами и внешними знаками поощрения. Словарь отдельно выделяет такое употребление и отличает его от общего «признака различия». Не нужно заучивать, будто эти два толкования во всех случаях совпадают; проверка данного упражнения следует ключу."
+        },
+        {
+          "number": 5,
+          "word": "горячий",
+          "articleHeadword": "горячий",
+          "keySelects": false,
+          "reason": "Горячие калачи имеют высокую температуру. Вспыльчивый характер человека — переносное значение, не соответствующее контексту."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_sensitive_key_preserved",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "3fad8fc2519e31253102489fd1759ee03f384091379b64f98a4685857b5ff1e8",
+      "headwords": [
+        "обычай",
+        "послать",
+        "свежий",
+        "отличие",
+        "горячий"
+      ]
+    },
+    {
+      "id": "E29F76",
+      "options": [
+        {
+          "number": 1,
+          "word": "длина",
+          "articleHeadword": "длина",
+          "keySelects": true,
+          "reason": "Длина фразы — её протяжённость. Это не продолжительность жизни или иное отвлечённое значение."
+        },
+        {
+          "number": 2,
+          "word": "расположение",
+          "articleHeadword": "расположение",
+          "keySelects": false,
+          "reason": "Расположение слов — порядок их размещения в фразе. Симпатия к кому-либо не имеется в виду."
+        },
+        {
+          "number": 3,
+          "word": "художественный",
+          "articleHeadword": "художественный",
+          "keySelects": true,
+          "reason": "Художественный текст изображает действительность в образах. Это соответствует литературе как искусству."
+        },
+        {
+          "number": 4,
+          "word": "представление",
+          "articleHeadword": "представление",
+          "keySelects": false,
+          "reason": "Представление о своеобразии — знание, понимание особенностей. Театральный спектакль здесь не имеется в виду."
+        },
+        {
+          "number": 5,
+          "word": "живой",
+          "articleHeadword": "живой",
+          "keySelects": false,
+          "reason": "Живые интонации — выразительные, естественные интонации звучащей речи. Биологическим существом интонация не является."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "eba825b0d80f37c91683cf1c0da9042815c6ae969ab9cbd983b227291307bfa0",
+      "headwords": [
+        "длина",
+        "расположение",
+        "художественный",
+        "художество",
+        "представление",
+        "живой"
+      ]
+    },
+    {
+      "id": "E9174D",
+      "options": [
+        {
+          "number": 1,
+          "word": "прийти",
+          "articleHeadword": "прийти",
+          "keySelects": false,
+          "reason": "«Пришёл праздник» означает наступил. Усилия ради достижения соглашения или результата — другое значение."
+        },
+        {
+          "number": 2,
+          "word": "духовный",
+          "articleHeadword": "духовный",
+          "keySelects": false,
+          "reason": "Духовная сущность — нравственная и культурная основа, а не принадлежность к церкви или религиозному обряду."
+        },
+        {
+          "number": 3,
+          "word": "характер",
+          "articleHeadword": "характер",
+          "keySelects": false,
+          "reason": "Национальный характер — совокупность особенностей народа. Это не личная твёрдость воли и упорство."
+        },
+        {
+          "number": 4,
+          "word": "прозрение",
+          "articleHeadword": "прозрение",
+          "keySelects": true,
+          "reason": "Прозрение — внезапное понимание, проникновение мыслью в скрытое. Речь о поэтическом предвидении, а не о буквальном возвращении зрения."
+        },
+        {
+          "number": 5,
+          "word": "кровь",
+          "articleHeadword": "кровь",
+          "keySelects": true,
+          "reason": "Испанская кровь указывает на переживаемую героем национальную принадлежность. Это переносное значение происхождения, не физиологическая жидкость."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "f0bbc2d71c99b0193feeab625d07cda109486b3c4a59bc541b8e8028a7243799",
+      "headwords": [
+        "прийти",
+        "духовный",
+        "дух",
+        "характер",
+        "прозрение",
+        "кровь"
+      ]
+    },
+    {
+      "id": "E96B4A",
+      "options": [
+        {
+          "number": 1,
+          "word": "готовый",
+          "articleHeadword": "готовый",
+          "keySelects": true,
+          "reason": "Готовые языковые формулы — уже сложившиеся, воспроизводимые выражения. Это не готовность человека уехать или помочь; точная формулировка данного толкования требует дополнительного словарного источника."
+        },
+        {
+          "number": 2,
+          "word": "оценивать",
+          "articleHeadword": "оценить",
+          "keySelects": false,
+          "reason": "Оценивать информацию — высказывать суждение о её значении и качестве. Денежная цена не определяется."
+        },
+        {
+          "number": 3,
+          "word": "ход",
+          "articleHeadword": "ход",
+          "keySelects": false,
+          "reason": "Ход мысли — её развитие и последовательность. Торжественное шествие или процессия не имеется в виду."
+        },
+        {
+          "number": 4,
+          "word": "сфера",
+          "articleHeadword": "сфера",
+          "keySelects": true,
+          "reason": "Социально-бытовая сфера — среда общения людей. Это не геометрическая поверхность шара."
+        },
+        {
+          "number": 5,
+          "word": "свободный",
+          "articleHeadword": "свободный",
+          "keySelects": false,
+          "reason": "Свободная беседа — непринуждённая, не связанная жёсткими рамками. Свободное место или незанятый телефон — другое значение."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": true,
+      "sourceContentSha256": "83beeb4dd0bff63d9597ea69558a8e69b19238cfad636e7e0266100e9b57f93b",
+      "headwords": [
+        "готовый",
+        "оценить",
+        "ход",
+        "сфера",
+        "свободный"
+      ],
+      "sourceEditApproval": {
+        "date": "2026-10-29",
+        "approvedBy": "author",
+        "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+        "words": [
+          "оценивать",
+          "ходом"
+        ],
+        "authorCheckedOnFipi": false,
+        "previousSourceContentSha256": "85f589c6890bb0fb893417a8d0e69042e40c8b0be4c3493789c2f3ede518026d",
+        "sourceContentSha256": "83beeb4dd0bff63d9597ea69558a8e69b19238cfad636e7e0266100e9b57f93b"
+      }
+    },
+    {
+      "id": "F4E1F3",
+      "options": [
+        {
+          "number": 1,
+          "word": "сокращение",
+          "articleHeadword": "сокращение",
+          "keySelects": false,
+          "reason": "Сокращение площади льдов — уменьшение площади. Пропуск фрагмента текста — другое значение."
+        },
+        {
+          "number": 2,
+          "word": "режим",
+          "articleHeadword": "режим",
+          "keySelects": false,
+          "reason": "Режим осадков — закономерность и условия их выпадения. Распорядок повседневной жизни человека здесь не обсуждается."
+        },
+        {
+          "number": 3,
+          "word": "масштабный",
+          "articleHeadword": "масштабный",
+          "keySelects": true,
+          "reason": "Масштабные пожары имеют большой охват. Значение соответствует размерам явления."
+        },
+        {
+          "number": 4,
+          "word": "считаться",
+          "articleHeadword": "считаться",
+          "keySelects": true,
+          "reason": "Факторы считаются основными — признаются, расцениваются как основные. Это не числовой подсчёт."
+        },
+        {
+          "number": 5,
+          "word": "оценка",
+          "articleHeadword": "оценка",
+          "keySelects": false,
+          "reason": "Оценка парникового эффекта — установление его величины и значения. Школьная отметка за знания не имеется в виду."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "770e218b4b09deb3139b56d046c34257d367b7ea45cd98f76ad66cdf4ee8b750",
+      "headwords": [
+        "сокращение",
+        "сократить",
+        "режим",
+        "масштабный",
+        "считаться",
+        "оценка"
+      ]
+    },
+    {
+      "id": "F5E433",
+      "options": [
+        {
+          "number": 1,
+          "word": "стиль",
+          "articleHeadword": "стиль",
+          "keySelects": true,
+          "reason": "Стиль характеризует художественную манеру и содержание искусства. Это соответствует определению индивидуального художественного целого."
+        },
+        {
+          "number": 2,
+          "word": "опыт",
+          "articleHeadword": "опыт",
+          "keySelects": false,
+          "reason": "Жизненный опыт — накопленные знания и навыки человека. Эксперимент в заданных условиях не проводится."
+        },
+        {
+          "number": 3,
+          "word": "прямой",
+          "articleHeadword": "прямой",
+          "keySelects": true,
+          "reason": "Прямое уродство — явное, несомненное уродство. Слово не обозначает геометрическую прямизну."
+        },
+        {
+          "number": 4,
+          "word": "ловить",
+          "articleHeadword": "ловить",
+          "keySelects": true,
+          "reason": "Ловить музыку из эфира — принимать радиопередачу, настраивая приёмник. Это не поимка движущегося предмета."
+        },
+        {
+          "number": 5,
+          "word": "сила",
+          "articleHeadword": "сила",
+          "keySelects": false,
+          "reason": "Свежие силы — новые люди, способные работать и творить. Военные подразделения не имеются в виду."
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002",
+      "headwords": [
+        "стиль",
+        "опыт",
+        "прямой",
+        "ловить",
+        "сила"
+      ],
+      "sourceEditApproval": {
+        "date": "2026-10-29",
+        "approvedBy": "author",
+        "scope": "Restore only bold underline of existing target words; all words and keys unchanged",
+        "words": [
+          "стиль",
+          "опыта"
+        ],
+        "authorCheckedOnFipi": false,
+        "previousSourceContentSha256": "5da49e575c0acfe895fbabe336ee942e0278f910bef6c565fa21965e92c6de3a",
+        "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002"
+      }
+    }
+  ],
+  "otherCardsNotPrepared": 63
+}

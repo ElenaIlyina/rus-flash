@@ -72,3 +72,13 @@ dev/.venv/bin/python dev/tests/review_debug_smoke.py
 Остальные сценарии — в `dev/tests/`. Скриншоты сохраняются только в `/tmp/`.
 В `requirements.txt` также указаны инструменты извлечения PDF/MOBI; они
 нужны при подготовке новых источников, но не при сборке и пользовании сайтом.
+
+Текущие материалы №1–4: [отчёт](docs/task-1-4-self-review.md),
+[обновление по новой выгрузке](docs/fipi-refresh-workflow.md),
+[очередь вторых ответов](docs/author-answer-checks.md).
+Проверки этой партии: `python3 dev/tests/text_skills_smoke.py`,
+`python3 dev/tests/priority_1_6_smoke.py`, стандартные модульные тесты.
+
+Проверка сервером ФИПИ на компьютере автора:
+`python3 dev/scripts/check_fipi_answers.py --cards src/cards`.
+[Настройки пауз, журнал и продолжение](docs/fipi-answer-checks.md).

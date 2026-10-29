@@ -1,3 +1,4 @@
+import { renderStressReferences } from "./stress-list.js";
 import {
   loadSettings,
   saveSettings,
@@ -268,17 +269,26 @@ function cardTheoryLinks(c) {
         `<a class="text-link" href="#knowledge?rule=${esc(ref.id)}&card=${c.id}">${esc(ref.label)}</a>`,
     )
     .join("");
+  const guides = {
+    1: [["list=connections", "Средства связи: как подобрать слово"]],
+    2: [["list=meanings", "Как определить значение слова в контексте"]],
+    3: [["list=style", "Как проверить характеристики текста"]],
+    4: [["list=stress", "Полный список ударений по частям речи"]],
+    5: [
+      ["list=paronyms", "Алфавитный список паронимов"],
+      ["list=paronyms&view=theory", "Как различать паронимы"],
+    ],
+    6: [["list=lexical", "Лексические нормы: как редактировать предложение"]],
+    7: [["list=word-forms", "Формы слов: как выбрать правильную"]],
+  };
   return (
     rules +
-    (c.task === 4
-      ? `<a class="text-link" href="#knowledge?list=stress&card=${c.id}">Полный список ударений по частям речи</a>`
-      : c.task === 5
-        ? `<a class="text-link" href="#knowledge?list=paronyms&card=${c.id}">Алфавитный список паронимов</a><a class="text-link" href="#knowledge?list=paronyms&view=theory&card=${c.id}">Как различать паронимы</a>`
-        : c.task === 6
-          ? `<a class="text-link" href="#knowledge?list=lexical&card=${c.id}">Лексические нормы: как редактировать предложение</a>`
-          : c.task === 7
-            ? `<a class="text-link" href="#knowledge?list=word-forms&card=${c.id}">Формы слов: как выбрать правильную</a>`
-            : "")
+    (guides[c.task] || [])
+      .map(
+        ([query, label]) =>
+          `<a class="text-link" href="#knowledge?${query}&card=${c.id}">${label}</a>`,
+      )
+      .join("")
   );
 }
 async function renderCard(id, version) {
@@ -312,7 +322,7 @@ function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -596,7 +606,16 @@ document.addEventListener("click", async (event) => {
     }
     case "card-rules":
       if (currentCard) {
-        location.hash = `knowledge?${currentCard.task === 4 ? "list=stress&" : currentCard.task === 5 ? "list=paronyms&" : currentCard.task === 6 ? "list=lexical&" : currentCard.task === 7 ? "list=word-forms&" : ""}card=${currentCard.id}`;
+        const lists = {
+          1: "connections",
+          2: "meanings",
+          3: "style",
+          4: "stress",
+          5: "paronyms",
+          6: "lexical",
+          7: "word-forms",
+        };
+        location.hash = `knowledge?${lists[currentCard.task] ? "list=" + lists[currentCard.task] + "&" : ""}card=${currentCard.id}`;
       }
       break;
     case "report":

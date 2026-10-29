@@ -43,6 +43,8 @@ def payloads():
                              'sha256':source['articlesSha256'] if articles else source['sha256'],
                              **({} if articles else {'pdfPages':source['pdfPages']})})
     support = {}
+    stress = read('data/knowledge/stress-list.json')
+    stress_entries = {(e['text'],e['sourcePage']) for g in stress['groups'] for e in g['entries']}
     for name in ('prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews'):
         for entry in read(f'dev/data/knowledge/{name}.json')['cards']:
             cid = entry['id']
@@ -53,11 +55,20 @@ def payloads():
             explanation = hashlib.sha256(card['explanation'].encode()).hexdigest()
             if entry.get('sourceContentSha256',frozen) != frozen or entry.get('explanationSha256',explanation) != explanation:
                 raise ValueError('Content changed; update its editorial evidence: ' + cid)
-            allowed = mapping(card)['task'] not in {5,6,7} or publication_ready(entry,sources)
+            dictionary_ready = publication_ready(entry,sources) if entry.get('dictionaryReview') else False
+            allowed = mapping(card)['task'] not in {5,6,7} or dictionary_ready
+            stress_refs = entry.get('stressSourceRefs',[])
+            for citation in stress_refs:
+                listed = (citation['sourceEntry'],citation['sourcePage']) in stress_entries
+                excluded = (citation['evidenceType']=='excluded_word_historical' and
+                            citation['sourceEntry'] in stress['excludedWords'] and citation['sourcePage']==5)
+                if not 1 <= citation['part'] <= 5 or not (listed or excluded):
+                    raise ValueError('Unknown stress-list evidence: ' + cid)
             support[cid] = {'sourceContentSha256':frozen,'explanationSha256':explanation,
                             'explanationPublished':allowed,'hint':entry.get('hint','') if allowed else '',
                             'dictionaryRefs':[ref(r) for r in entry.get('dictionaryReview',{}).get('sourceRefs',[])] if allowed else [],
                             'paronymPairIds':[pid for pid in entry.get('paronymPairIds',[]) if allowed and pid in pairs],
+                            **({'stressRefs':[{'part':r['part'],'page':r['sourcePage']} for r in stress_refs]} if stress_refs else {}),
                             'ruleSourceRefs':[{'part':row['number'],'sourceId':sid,
                                                'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"}
                                               for row in entry['rows'] for sid in row['sourceIds']]}

@@ -118,6 +118,10 @@ def main():
         refs = entry.get('ruleSourceRefs',[])
         if any(r['sourceId'] not in source_ids for r in refs):
             raise ValueError('Missing rule source for '+cid)
+        stress_refs = entry.get('stressRefs',[])
+        if any(type(r.get('part')) is not int or not 1 <= r['part'] <= 5 or
+               type(r.get('page')) is not int or not 1 <= r['page'] <= 7 for r in stress_refs):
+            raise ValueError('Invalid stress-list page: '+cid)
         comparisons = []
         for pid in entry.get('paronymPairIds',[]) if allowed else []:
             pair = pairs[pid]
@@ -131,6 +135,7 @@ def main():
             'strategyHint':entry.get('hint','') if allowed else '',
             'dictionarySourceRefs':[public_ref(r,sources) for r in entry.get('dictionaryRefs',[])] if allowed else [],
             'paronymComparisons':comparisons,'explanationSourceRefs':refs,
+            **({'stressSourceRefs':stress_refs} if stress_refs else {}),
             'reviewNote':active_policy.get('reason','' if complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),
             'hasAnswer':bool(card.get('answer','').strip()),'hasExplanation':bool(public_card.get('explanation','').strip()),
             'hasPassage':bool(text(card.get('text',''))),

@@ -3263,6 +3263,1476 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "fc258571d8c0d82ccc45663cbca69b5aca44f064fa62fea552cb3a33052f06b0",
       "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692"
+    },
+    {
+      "id": "011AA6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a1496d9b5137a616215406114b0ba42e439027e0c506f9e7ba8c8e15c044fa09",
+      "explanationSha256": "bb580f452781903e9da9e758b0bb9afd2b0a3cbce9172a7c847b0f0466699cb3"
+    },
+    {
+      "id": "121C9D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2d673fa40c8fbd227208c2b1612fa5a6d315fe49a5dadab314c705c70f8aa4a7",
+      "explanationSha256": "f2e36176707b03e829a24e08c33b5016ae41905811e005c23ed8dc3bdeb23f45"
+    },
+    {
+      "id": "1429A7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6333078e6fa5cef5765190dfa392baed709013ddeece566a5b3007df8651abd7",
+      "explanationSha256": "441c4a74eb5ed8c0e4d97821c28bb3b6daf32bacb36bcd6bc35c9e4985a7fd56"
+    },
+    {
+      "id": "31CB51",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9db6debb534ce1343be8c41d559b6bfbbcc24b65e28a72cb036a6f3a7710fe92",
+      "explanationSha256": "d67721832fc67ec1864370aebb8537ea96f88c50d2451b6db3ab7b16d4b58156"
+    },
+    {
+      "id": "39507B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ab918168babafc57c211d61423c1a293009de05da5930866c544bd4dac5732ea",
+      "explanationSha256": "908a1127a49a387ca1db7acb86d2bc1f06df175abdf27eb5ae743cae923119bb"
+    },
+    {
+      "id": "42DC9B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d4bc648f2066dc2df28ebb40f67acea4117c80b9c6adcfe79ff7893fc55f9a18",
+      "explanationSha256": "82804b57d9a2bb48379db7eb2a3eddab108993e4bb701277dbf95fd60e62da8d"
+    },
+    {
+      "id": "453385",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "941ea30bbae6cce5ec2e7ca736addc218605d410ff523455a5024c9f29c5bba5",
+      "explanationSha256": "bbdc8fd175dd71c5a137fd6ffcc3007b6ed4410e03ee7f6edd7d8db860fed11a"
+    },
+    {
+      "id": "6A530E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "10c89b0aa6e1df39d7c30f20c3046af159f7588a5c7c5f8ffc7e44471a1800ae",
+      "explanationSha256": "a62900297008b6a645e0a7a03fb3db1eb5dc24eabd6896faec828b414b929dc7"
+    },
+    {
+      "id": "7756B9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2f13418191af7f853889f51d0a510a616a7e9bf5444734aa3661641df92b4e2b",
+      "explanationSha256": "25f65f0028273389bc4c4a72f910c44cf0ccfdcc3854df3e0689561d8a767458"
+    },
+    {
+      "id": "7E19AB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4f8b15a27a0e1306db5697ea5d4f064bbb53bb79bc2d28a4b5d3e7752ac1159a",
+      "explanationSha256": "1ef39779cc564c71c81c9607c977b17966ff2898e2db6033d8801f63f009fffa"
+    },
+    {
+      "id": "8130C5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4563caacf0b08f05dfd414d957d580df6f148869f32ab692a6fb3d60ad96707d",
+      "explanationSha256": "07335bf418e489428522aecd1de89bf1ab7e63c8d0e0d2a1dcf77499e8529342"
+    },
+    {
+      "id": "828CBC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "94668411c500bf1d80cf936f3cf8c99b08f5e0fb4d0e639c3a6e67a97c162ad8",
+      "explanationSha256": "9b02398397e97d83240587f5e7504934ac133bf5f01ab7a832f10b542c61a501"
+    },
+    {
+      "id": "9B2535",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2c66d1cd1587b54c80d8c138fb38588ed1c4104b7753aea6fa2969d521d9f13f",
+      "explanationSha256": "5b17e7d3d68439eb71e53ce43538416ad6a12bcd0422f815017af0de67ba10dc"
+    },
+    {
+      "id": "9D14F3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9695323e2d23d1f8362467468f7f8b1fd69707ff3d8d94c3f6b0f3aceabf5d1a",
+      "explanationSha256": "2170e022dd0d9aa89e6fb05e6a7571a250b521ccfcd46e44434719e35f620822"
+    },
+    {
+      "id": "AAE143",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e35cf549e16b7f82ed951d0fbde53b56668119aa31f47ce260f95fd3e56bf7a0",
+      "explanationSha256": "b1d1a6dc9cd3593de0d3e06b54a086338602f1e1cd5d37c00eb6aac412f3cf19"
+    },
+    {
+      "id": "B05882",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f7f4ac9fe8d84438dc058b23ba4aaf37965c37bf0c739e7fc5e08ef7413734fe",
+      "explanationSha256": "b564612aa506bbfe41dcd4eb0a943c628325ea0c80fd5dfa10fe0007e2566cd3"
+    },
+    {
+      "id": "C57D87",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "209e95fdcd530b4b7e42abc38738c414c5935061ff38a69b57d833465d5b9a72",
+      "explanationSha256": "ab4abd401023ee106c9574a80f96190faef67b1f4540542a4f317ef2e3e35670"
+    },
+    {
+      "id": "CACB9D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d1a58c966a4ee8360cdf1cf6bdd8366547715da624f1ffdac9ca9441d08620b2",
+      "explanationSha256": "5aa442f5b2713dd5439847167c8e029f96400add0d62c503fd7f15ee98e7c7d7"
+    },
+    {
+      "id": "CD6F3D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cb3d549ca62ef0cc41fb1d7831a0b961a4f7ef7e1390fc62c4bebaf097325de7",
+      "explanationSha256": "1851a4e546075d4cdbcb3141790b92ff5992bbe04b74ec6498397e94a5bafe62"
+    },
+    {
+      "id": "CE3CB3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4783885410b0ae983d5a5a82e5c8ffe76bd3a4122848dd41d0afa0bb835b66f3",
+      "explanationSha256": "8a3aafef215e08292e3d190d50122bdfd76795e5b2b7bc62805d72218d4dbd58"
+    },
+    {
+      "id": "CEC4CA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "37a4bfc9502775cf73499b6ad594a5f5b7144a55f544827eb3e7cf6a4cae97cf",
+      "explanationSha256": "2872ac489332b86f2662ceca229803cb1825647ec3489540f56e4a5f5120c926"
+    },
+    {
+      "id": "D949E3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d671ba99a2fdf656af47e0126528866342d8016320faf0a18be002ad76e5572b",
+      "explanationSha256": "a1825e76de65b361b10fd26c42045ff27df217ab8eb9a6b5ee151caa5cf98fc5"
+    },
+    {
+      "id": "DF4F14",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "56ec9bf8f8ca0526034cd22871f9413fc19c4fa234182114a292b2b5467e3066",
+      "explanationSha256": "8a2eb85d81c0ae20f86cbc2c39a3b80e5fbdc8ee4b3815909355627059864fa0"
+    },
+    {
+      "id": "E14EB6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a949bc5b394b303948e4fce1e0d20f9ce6267e4710381910c272e6d69d93fbd1",
+      "explanationSha256": "ac0193d6b7692496a53f020eaaf2ffd3475c1cf0d687e6d9517b1e3f698c3933"
+    },
+    {
+      "id": "E3F954",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "becd46166313f8c6ba46b375965637cabd0273cc27e2cac9b899f8841a258f9b",
+      "explanationSha256": "6c834a7ddde2d130d53483d7dd0e9c54c21ef9fedd861e79f5b1da646eed6e24"
+    },
+    {
+      "id": "E47C9F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "49abe83f39592c1264e024cc140163c9e8166b49d225cfc3d6880cbe2cc1bac3",
+      "explanationSha256": "3d316c97a0a7faf3e2b6fe3bdb687282a5934d9faf51100b40741ae61ec8ba05"
+    },
+    {
+      "id": "E5DF39",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "96573c35add38ef3b5a78a75977219cba6c63268645d6a306de592c4bcfa9424",
+      "explanationSha256": "3d316c97a0a7faf3e2b6fe3bdb687282a5934d9faf51100b40741ae61ec8ba05"
+    },
+    {
+      "id": "EFDBCF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7532710e0a56d4542e529405e64db22b6a4948578f697d6b94e9293e31ebaafc",
+      "explanationSha256": "f513c6d8694a2fb6d09bd7ecd23bb5a6a2ffc10b576215688b6c0a93d6705ccd"
+    },
+    {
+      "id": "EFFBAA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8629f70725dfdebb5b16447d80714875a34d9925d926b223d09c69e5b6332531",
+      "explanationSha256": "e27ada0c52b5b23d15c29e615af1dbd61f7c2f1249117923bde626efef234fe3"
+    },
+    {
+      "id": "FFFE6E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "source_checked_applied",
+      "reason": "№4: прочитаны формы орфоэпического списка ФИПИ и примечания; разобраны все пять вариантов, отмечены исключённые слова и применение списка к личным формам. Исходные варианты и ключи не менялись.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a06e4b220e21f040a8b5b18875eaf1cabf6e1e1ca237ebcd5b72402ec397bd70",
+      "explanationSha256": "da19b298b6a52e516294218981521164ab5591f3ef73246ce93bdbfc100ed7e3"
+    },
+    {
+      "id": "029926",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2beacdc601bab444c15d6e549f84ebfe1fb8b77bd42f1a7313fe17c5ae92179a",
+      "explanationSha256": "123b3b649b3449ba5ebad5fea36b05ec520a6f824ec5ceba2080e72777f7a497"
+    },
+    {
+      "id": "032DE7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d18a3c2620c55b4faae82f13da97c66a768e3a9b97134f5f208cd60cb43718f2",
+      "explanationSha256": "b925804f59cb1cb49b3481c6e45dabff64e42675373d4d742f16ff2897d523ef"
+    },
+    {
+      "id": "0413FB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "dcaaf640501b1fb9a3a4aba64d6ffa06aa53fd379e7add61c66e7a45535af8be",
+      "explanationSha256": "bf7ab61e7da5bbd5ff465d563ceb688b84b2316dc6b4d3767a8151c6dfa14573"
+    },
+    {
+      "id": "05FF8A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "475bce9fba6fd71aeff6a85dd77ce8c35378c58f6ed05e66d1b2565811ada4e2",
+      "explanationSha256": "8a7a3f3ce92d6b072200353fa0c3990039969f63d96a8a155d88f0c565356457"
+    },
+    {
+      "id": "09C71B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fbe15b19b45cce3ba1a48404950eb5d6ba0211706fd61edd9a28aedb3e98a475",
+      "explanationSha256": "234a64ab38e52a3fee3f5d9d60a6173b7e7c436868bdab88d9ce5e5734de34c6"
+    },
+    {
+      "id": "0FCFA8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0d73ea78bcae9236d585dd1ed29698725ae65de383b83176b34c29b5bfbc1ee1",
+      "explanationSha256": "da53ef27290e422b040e1be16625d3a6d04f12cc0240105de509f1ecbcc28650"
+    },
+    {
+      "id": "12BBAB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9694a2d9caed14faac444fc5aae4c2be2a3cce95f31314066c7c9c49d7cc5add",
+      "explanationSha256": "8de69888efa872cee17b9aee0495b2fcc6af896f590455cae09016464379067b"
+    },
+    {
+      "id": "14FA69",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c78eee9a9dc0e6445d40ce2356cb360a9129d0fd152467d3b0c0ec979185dc2b",
+      "explanationSha256": "47a1eae8bfb317d6b729c450fe7df5dcd284a26ef9ac769ee4261fc54895c74b"
+    },
+    {
+      "id": "162772",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2099355af014d59259a94f6fc43f0f34f691d5c84db6442de28c3730d6763b93",
+      "explanationSha256": "d9ff1afdb54882c43a380dd3c0b0577f97946a01a8ac6bb23c2f7217f1ce463f"
+    },
+    {
+      "id": "168CD7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "684ad40d4345ebcd2401999f89cdc9e348d803c991ea8c270278a6bb3b1bb22e",
+      "explanationSha256": "fc1a9284faa5c981a58eb52f4ea54bfd78988338e09e6c4831cc6b94650cae35"
+    },
+    {
+      "id": "19723E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e3e14e665fe9a2d57bccdbb05c06827c6d3ba2d242d31dda6ed60b998d0687db",
+      "explanationSha256": "aba59bdca0fa62d3aaa577323312725cd5f46e621caea3364470f92d39d4d04f"
+    },
+    {
+      "id": "1AEE7A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7c15f963cc189782c49070bcc9231eba30249aa2b8455d78b5fd1f7feaee6574",
+      "explanationSha256": "3923eb96830c06f63a812ad8e4ecd13c52dda44d1cecf1235f489e52cde35de0"
+    },
+    {
+      "id": "317779",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "579a2d5759b503735f00cc652dc5a586c0f0fd8ba39add24a82143b1a7af35de",
+      "explanationSha256": "63199187aa41f886cbbd56df915c6cca0a0f5972ab908310c94c0fa313fe9084"
+    },
+    {
+      "id": "324964",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "39b1e4bbea45ce6aa775e4f9e9f077df8f284ed95ec87dd523bfb896066e5bab",
+      "explanationSha256": "75582c3fab2d59532c79850d354ee09101109c6a9e3fcd2ae3f1271066978382"
+    },
+    {
+      "id": "3E1E8E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c1b9d7fea8a9c02979419e682d04a734248043d0e098ddf82ffcb794225717af",
+      "explanationSha256": "80dac941bb11a20a5cc553ee680923d7f17c3e091c36a6d396740cf40ad892e1"
+    },
+    {
+      "id": "3E21D8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a5caab63b5581379b3f6208ef22b953b53f39e14141b4e5e7d17a007578612f8",
+      "explanationSha256": "43773401f6b5b7503978ddebc875f97a065d1fcae24d30fc743511b455969811"
+    },
+    {
+      "id": "3F6D84",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "62f89a2cd84c1904e04b82ee4218a9619f36f64825536d3851d0d2e4733d5698",
+      "explanationSha256": "07a324300f3ba1673fc215977d78186fc2abac46a804f45af73ebd4f7257acca"
+    },
+    {
+      "id": "3FCABA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ede6a1f593fc3e7905a4cc6f057474bf72b85878f4ea7253c66d9dae5c7100fd",
+      "explanationSha256": "7e1a02ca9e31f2e190fb4777ea571d3220497b3e54deceb938b3d2a4660b02c3"
+    },
+    {
+      "id": "41E1AC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8b0a694d3e5360e3a4f3cfb8bd13ae9fda15a37f3b8a48a2d65cf47461aed0f8",
+      "explanationSha256": "da0c2e9e8873be2402d83c22411af03f5bfb7e059612b953935ed899ca231beb"
+    },
+    {
+      "id": "432ADD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "76a4e05b13ccf6f1ca698dc298afc22758dbba8fc10846f0cdc808d430dd4c1e",
+      "explanationSha256": "a1050d2ce1b0a007e10272aff582ef94dc1f53397768f4ff1da2c5ac9696db83"
+    },
+    {
+      "id": "4674EE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f00c15aed0738ddaa17c760f14186368d370ee8e6f8e55579695782a3f3a3404",
+      "explanationSha256": "f5d2849cc79d23c708bed781ace0b0eef824b02f66530e5d6c909092febac456"
+    },
+    {
+      "id": "473E9C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5444f25a7a3fd5fa922727737c3a1203b0912f7a18a149e18438ec1feec690d4",
+      "explanationSha256": "02bfb17c76519a23e231bf45edff207b03ef607448c38903e64868f65be4a624"
+    },
+    {
+      "id": "497C8C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c237c066cfe65bae3c049d1d6589792d7a2613672526b578543d1cfbd765c13d",
+      "explanationSha256": "4111fc16c10c02193a4e1851f6c2f2b9c874ca7b638074affd1958a27f19109f"
+    },
+    {
+      "id": "5280BD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bcc92361b4a18e6aa831d28056580cd185b0c795ceabc471cbfb1163298a9666",
+      "explanationSha256": "cf0ec10895c7d0c25fbebd16c485c7b920596e3bde8a3894a2e874585c3ede4e"
+    },
+    {
+      "id": "54C7F3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0f4d0136c81e7ae6c414ba6bfbbccc11c5fac7dd62e74d67049035153c8ec0fd",
+      "explanationSha256": "6f82a59dcf6a78d1d63005f45c41b3148c384fe4e31f9d89cb41b21e23a77775"
+    },
+    {
+      "id": "580E03",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2b14ff57c8a52d8cad2e3a200eef3ecb2f2fd73e506cd56e603f4cde474a415e",
+      "explanationSha256": "1c257e26c3a629ac8ed1fefb73d58c9a619fc31e0a1d218e4c4f37b2269268ef"
+    },
+    {
+      "id": "59FDD1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bc9283644fd06dff0a7fb970c4605c8e8dd616b62e4e49dfe1461a70c62750c9",
+      "explanationSha256": "7fd4b2cfd5e2656c7dbb0a397e90ed304132c85c964bfdb1fb6cf089339f5978"
+    },
+    {
+      "id": "63DE3A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "44843342122f40d34236da57d5494c6e43579952772d9a07e8d411ae1377b488",
+      "explanationSha256": "fdf2ee591a001b69f68c37b901cb106503f413f282ae72b4a00e7d829620c087"
+    },
+    {
+      "id": "64A453",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f445b38940ed22a540e993a50ad090692262751e77a9137838d92481dce76e55",
+      "explanationSha256": "4de7778d3783e65d5c7eb97db330158240450a3db4e2e2f89e981438988bcccf"
+    },
+    {
+      "id": "65A323",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1fb1ed04eddbd2c160620b77f8d9565bb3ab9f02ea18a858a94342e23fe1e794",
+      "explanationSha256": "f1f67c6076a390b283e03e282306ae30a1fced85ad63d1cf291421b55c1ae866"
+    },
+    {
+      "id": "67E825",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "148a824652b676994c934f854f5640146a2ba9d884e6033ab0d9026aa2f12428",
+      "explanationSha256": "dce5bac86baf9bf4f40d71dfc81754068541646ba171948d27122bf52421b596"
+    },
+    {
+      "id": "6BF8D8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2e7b6212a6ae77d02630508c2d601aa54d082b4617cce1e0bce129e5fbdd2b05",
+      "explanationSha256": "4b72e3d19cb732d754c27ec0472dfbbdc629ea568bf73ab1a1752aab0063b7b2"
+    },
+    {
+      "id": "765222",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6144ff29496807557911393932db112885eef5ef6dccaf793812a5135a7df02b",
+      "explanationSha256": "653648b71a5d4b65fd1ed29338bd761a20b093986a3bcc94d2c736c15a8ead3c"
+    },
+    {
+      "id": "85F64B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "60627aae41a56a54f98a4369ae1e2e74fac76e6e3f7ae611a32b87ce1db31ed5",
+      "explanationSha256": "12604bfc404d28f1106f7377118455b008f4290e0729997fdffc4cef2d1da089"
+    },
+    {
+      "id": "8A46DE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "17fd6221331cca3a888fa5fe3dd28adb8d1d4378d632e521d13bb7289c1873d5",
+      "explanationSha256": "1f13db47c59e01e1b77d70b294ad5678deb07b1967d2dda4b5f6b3b9fb972608"
+    },
+    {
+      "id": "8C38AE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c19232e0129481f8773355f82b33815e85c4d3072d99bf29d46f5207bbdbca09",
+      "explanationSha256": "e27e2b3ca73779ff7d388227931e61dfbddc1a91eacdc29418f008958474bace"
+    },
+    {
+      "id": "90B817",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2549c1462e35c99ee2cf54d104996ba4bb589e352455110cbb4e040ddb504e8e",
+      "explanationSha256": "31c74f4d407bfde98eb406e5e1f4b59e40f438c7d12f8a240da2a05d41d1d780"
+    },
+    {
+      "id": "94B403",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a251d13f9a41c113f37f2cd68dd06a0122955d210102100844f3226a37162543",
+      "explanationSha256": "d02bc87be3a4c61dc85bf2b53af4ef36149afd5971d90ff255ce8bf76232f78b"
+    },
+    {
+      "id": "9683B2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c36bcfa8a9f4412f13ccf42380139d3f4eb4b5e3a1e5524b31df2c4c913159ac",
+      "explanationSha256": "0230957e8d53e6dbcc8893174efce5082d960c94e0900ff1acc1d915cb35959c"
+    },
+    {
+      "id": "9C3DE6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d462040ab7517a18a4e57d45a92c699173a81a873cd459bb3d2127f94d6a1781",
+      "explanationSha256": "a6846cf84316a5a66572b736b95c0ab1e9c7d55e4a587d76643b0b3925aebe81"
+    },
+    {
+      "id": "9F80FC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6dffc79a9d450543c8db18aafb7a5c2c1f223e9fb7719896fdc541730261d268",
+      "explanationSha256": "613e4c56e22047f0ff9fce81739f1a455c94512b4de1064a7155b7672b7202f0"
+    },
+    {
+      "id": "A4248D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "71c2dc76795351b1f30b4b1de8a7752a0dd4bdd7cfe89a51724afbaceafd4b55",
+      "explanationSha256": "568ee53df16bac1757c4ad086cb8aaa5e38c832520073d54077fa95e38d33c6d"
+    },
+    {
+      "id": "A4548C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "86b15914892819ac64dab6bd776a633b2dc6a396975fa380ee6c3faf1349c882",
+      "explanationSha256": "9f702df0272010f9905230c90f01a61b67c403b62a10e605fca24d3040ad51c1"
+    },
+    {
+      "id": "AC7183",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1c660e8a4dd857fbff685a0511d3284abf536e7a1b326ebd205d02eb5b5db480",
+      "explanationSha256": "452a817a70fca26d19ffdc3618339361e09f7d236540b07cfff203ef63357bed"
+    },
+    {
+      "id": "B045C3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "73d6d45bb98e7c3bab4898a7734232157162706bc18e39f73d83aa9f741c4ab1",
+      "explanationSha256": "04e359c86427e38ef7204fde3b5e9a730f30944c7b610a124f345b9de27b6a0d"
+    },
+    {
+      "id": "B1B809",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "52d442bd9d437de893297e2d0377288ab5361c2e12c1911a63424d6dfaba194b",
+      "explanationSha256": "506fda32f9c837e7d27f36f5ed032b42fe27213bb5214cb54dfc5bca6b49958d"
+    },
+    {
+      "id": "B507A2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2383150915399bf9adb3c84f8939c252a227d657ae4c55f20a149046ed0f20e1",
+      "explanationSha256": "ca232c8be3a1fa98c18e1a0bfe78b910607fecbb34a7d062b795165ea20994ec"
+    },
+    {
+      "id": "BD18BF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "72753954cbc2cd3131ef38c828c226ce308bb61d9cf563c4ef6b56e0654652d8",
+      "explanationSha256": "8bddc963df0b33d30254708e858c0c7e1ce1efac9f5478cfd596f5c6cf15612d"
+    },
+    {
+      "id": "C13CB6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1af28320dd7179fbf6ab3c35834e60302de9ea5ddeb6f222d7dab87f0e59c73a",
+      "explanationSha256": "1f0f4ee15a2080bae3d17c491af7994aa714d5016f7c10324c79ff3986da9125"
+    },
+    {
+      "id": "C2F0DC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8ede7cb6c3286188dd8a5cc3e28cef3c724229a6913ae9f806e05b460e6076c6",
+      "explanationSha256": "aa95f1071f9c86e036a4850d3897782c11c19bbfc564384580c3f4483563c567"
+    },
+    {
+      "id": "C36032",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "205453e4cba5241b504af00cb1ff617fbba4ce99e1725c2491a49b5de3d6d1a1",
+      "explanationSha256": "aa67c2a0d6b6541e79bfd53ac4bc0d9d4177968c629f88002f422d4add5dcac6"
+    },
+    {
+      "id": "C89F82",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0df5f2c8b2004091f4608d1077d77bdf26b495c3f9f265fe38dfb769d4e85f92",
+      "explanationSha256": "f4c5a6b152ea5b94cd8dcecf5a963d3433856e5adf479a5872557df5e0981a8d"
+    },
+    {
+      "id": "C93798",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8c68284c39e563aec4e61463c61b92ac60fdcbbed5f6b758fd35506730222d69",
+      "explanationSha256": "bac9941d115c06edb4e758810f0f7fbdde2bf11dacb8cd1155982d99a627f372"
+    },
+    {
+      "id": "CA07BE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9987fb72fc8b4e9b005551175b0271c3960d52c71b7299beb6b416e9d03a7b29",
+      "explanationSha256": "ed0e69684f1819a37af4dfc92690d0f404068562e7ec2d3979c834487bfb8263"
+    },
+    {
+      "id": "CB8FCB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "555d455358686d34c5da632acae5a8f408801124a066252b638056d3b3ebd54e",
+      "explanationSha256": "6a19c3b72c359eb027294978794a565e969d60f1ca79ef24a972630139c64de7"
+    },
+    {
+      "id": "D2DE30",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "605ab08179a3e812cb0f9ac4631128c251f0649b2c7eaadbce2f0fe99a540510",
+      "explanationSha256": "47624a2c567d8f51029a4bbfe4cae705d4bf9f900c8b6f8331f891b4e9b677b1"
+    },
+    {
+      "id": "D30F40",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8c7e57e6cbd45b63ad534d43b2bce50b1255988e696c6d2194a1ea9e9f8c4c00",
+      "explanationSha256": "d8006f5fcc2608e2bcd59831e3da872389d3942dd2e7574c1f664000bcc171ae"
+    },
+    {
+      "id": "D86353",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "49d9aa9cb13d3859239a15ef3719544db8224b171492673df2f49369b1652f90",
+      "explanationSha256": "6d67e9f873319a53790d23e87a06d9d0f1c0be2288709d7d41bf6d04eeff1eac"
+    },
+    {
+      "id": "D8A6C7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "524bea1d6d2bfcc30e7f2a56d033d750adc6de7d1e2f60dca76370852706d5f3",
+      "explanationSha256": "8a657acca5f97371cf8719a3187bce78b5e78b04a75066d3441fcb32d043c8fa"
+    },
+    {
+      "id": "DED39B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f24fef0b8ed181f091ef665baf1cea7f5e0c5ea218453d142bb5b54132f9451f",
+      "explanationSha256": "8659ae3ccdf7853b781b72736867a5649870d2b86764d2b9ed3d8934e9553e53"
+    },
+    {
+      "id": "EBA6DF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0d5e39cd3b46d522964c1495764593d95457c34fc9eb4811c635c5e3978ac029",
+      "explanationSha256": "bf8d134f1b73c7521239d46c46d1b7bccbc3a38d948939100981ed5499ff94ae"
+    },
+    {
+      "id": "ED40CA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8791bccb794d032087f95a8f50198b0f0819b4888719fe7858a64725d7ed2c08",
+      "explanationSha256": "cc88eae18f679824908c32dac2ffe458dc89f1fe3047575282eb6920ad147013"
+    },
+    {
+      "id": "F32163",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e2215f68a495ed8c13a43f6dc3e65b46b6590cda626850b717b9fb9d35e160f8",
+      "explanationSha256": "4c58510ab1a8100e05d3066c951a0286fa78290715a547cc5b19b688c8385dcb"
+    },
+    {
+      "id": "F93935",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "db71fcfb3260b694946d59886981d0bab760122029efdd7ca041dd727a2711a4",
+      "explanationSha256": "ae2ae610d8781ed7e376d06c0805f2e7362ad4a0bcd9f52aa21f72506d82c6dc"
+    },
+    {
+      "id": "F9547E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3da636e48e4d07b9cec54dbfd82150d6b17d7c988dd70e9d2710ceb4a7e07e64",
+      "explanationSha256": "67bea133123d13269c3668935ba140079d07bf26ddf8d73f20f4378b97f14ec5"
+    },
+    {
+      "id": "FBB9F0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№1: проверены смысловая связь и подстановка без добавления отсутствующих союзов; прочитана статья слова, разграничены род/число опорного слова и падеж по синтаксической роли. Исходник и ключ сохранены.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "360ee9387679eeb702a4f73ae0f20eb3d82f295438a288d337ac0ff5060a65bb",
+      "explanationSha256": "8e800bb7b32321d7e20295a4c5a6bfd95c0d9f090f01e5bac7983dd6c51461bd"
+    },
+    {
+      "id": "082CB8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "28853008452f855cf404a6f575a0f69d2486cce8c71a834e404905b01731db48",
+      "explanationSha256": "1e642f7cde14e1027fdb24f0e9111d9e854ac18d3c241745082216a416422f78"
+    },
+    {
+      "id": "2BA3EC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "71f70e778c9b3f1652c4b6e10c8b7236ea2f32657d7ff765b132632241ac870b",
+      "explanationSha256": "1f2b9bf93cfb8198e6a8d55c41f3b2d1e845347c0b5b2e3f928c256b1c3d33d4"
+    },
+    {
+      "id": "5A83DF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a7ac4cdd929b5c166b4906fb0b2ebf4b35ddebe4b504fddde00b375ceb323d5c",
+      "explanationSha256": "9e362e0b2e07bb0d8878de410608b4c91c1ee38970d0fb0a39ca7068b8e6b166"
+    },
+    {
+      "id": "62A8A9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e76624d25952d26f58728f8c8af8a8ee63819c523d7d89c6b15d212f393ff580",
+      "explanationSha256": "bcb93a35ce2018f4ae838da61ec81ceee57c1221f4a6e36cad5a896b006c565d"
+    },
+    {
+      "id": "7AB7D7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "722469e244d2b30eda32ef13d8ade910edab12bf66be98364afa1a505b9f44d0",
+      "explanationSha256": "afbfac0fa3aaa06400e183873e1e0b30d283147ae0cd8b665d0d7af40a9e5ac1"
+    },
+    {
+      "id": "883E90",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b3f2daf49909683fd3d0687a126d0093851a65d9cf1b97d1932d64ba144affd0",
+      "explanationSha256": "8d11aaf6f0c767b5ff371f6821967b2d1ae041bf16a3bf52ad2c0fb680045224"
+    },
+    {
+      "id": "9273A5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ed5b21d45b62edd9a3f2d31ac893755f147c1698dd4ca899c7e452e5bd800bd9",
+      "explanationSha256": "1c718ac2d2489844994279fee71bf248a6e20bc85ca5c8d0250f48214591977d"
+    },
+    {
+      "id": "9819CF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e694885a7fb371e27b0fbce0e4de7be3e45b539c499e991ec5e1c6928e11de2a",
+      "explanationSha256": "d1fa203a9b8062e2dd34b00bb406325d9d56c4d647b155dfe60b4ce5058fb969"
+    },
+    {
+      "id": "A3FAC1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3b4742e63754636fc33e24b8cec5c86684787091fdf9536d60e95d7f5b1f090a",
+      "explanationSha256": "d3d0e16c1b4148c01b869d33f967d55820a963c30cff1f55614d165a1cf8de53"
+    },
+    {
+      "id": "B5A555",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2d7ea6d91cb0297979a8b75225b8829b8670e90e87320271906e1d555263ec14",
+      "explanationSha256": "4dc07262f4a8ab54a2e747e696a24ddc5f17f781c55e1fbddb8575595982de9a"
+    },
+    {
+      "id": "BCF56B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8de297ffe748a457fec9714bbb0946f0c37de6a6787996edc08985e677b9636c",
+      "explanationSha256": "5ec157763c42e2b59655ea6ab59fbf8db6ac0e00cffaa76fc1b1b045f622da47"
+    },
+    {
+      "id": "CD2CCE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "72534c850832605ff92abbb4ab9055db481cb812e88e877167e725b95b005ee3",
+      "explanationSha256": "857fa40035b8d200252be491b6df0a50f30400cc5da3c65b308a33bc818732dc"
+    },
+    {
+      "id": "E29F76",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0ee4696bdadebbb56e9ec5e04dd5460ab08f539120eed96553beccf6de741c2d",
+      "explanationSha256": "3a80ac852b0b60503c9455f7c800eb0541e6e4974f2a2fb32d848218d9c9e3f2"
+    },
+    {
+      "id": "E9174D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b5985ab39f3215e8e90436e6b78cab027aecdbde32687810f9bf41a3fe63e45b",
+      "explanationSha256": "47ac60b436fcc8548c76dc59cb99eb184bb481393a4637238417d640938c833e"
+    },
+    {
+      "id": "E96B4A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9c5cf9b4e9d3dfe3b084117f532abb0f2e15b33145f64357f9bbcbf437511f9b",
+      "explanationSha256": "aec7545d2e1b0a8795f1300c19106c82bb8e858ce17ca592431e4f5fc5427cb8"
+    },
+    {
+      "id": "F4E1F3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7579f4ee934a0138d5546d156f50bc24669341cd74a4b64192c5058f417be80c",
+      "explanationSha256": "39e3b14b51de7d4ef807b57920b93f024bb87746cd8847b6f0b4eeb7812cb7a0"
+    },
+    {
+      "id": "F5E433",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "context_and_dictionary_checked_applied",
+      "reason": "№2: проверены все пять значений в конкретных сочетаниях, разрешены словарные отсылки; неоднозначность ключа и неполные выделения не скрываются и не заменяются правками исходника.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8c04b0a14c166b0889b0190f5ab4a5540ff93b80ee8fe5fd7643be8b931b91ee",
+      "explanationSha256": "a2b9dadb7d36b62cd1477fc9b72b211692f2e80f21b9153e29719d2f9617f930"
+    },
+    {
+      "id": "0BA3C6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "65f71c9b8d12696deac556816d1b924b48f417179214bdf6e69f139fd0612e62",
+      "explanationSha256": "30a03e5bf5e39cc2320b28cd0b449e7c917b698d516e192c68b94aa09c54a53c"
+    },
+    {
+      "id": "0CD8FF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "548f0211de10658b710e987d0640b2592137e5fe750c714616ec8bf5d1d2744a",
+      "explanationSha256": "f4c08758864201b07a82a168ac2b6441f0e11ae54b5d64a17f15a0f3c8873a2f"
+    },
+    {
+      "id": "11B23B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2ad9c6f5562f8b78e731191015d4bdd020fff44d3bee2668301992e1ecf116e9",
+      "explanationSha256": "f8a9949414677b13848de4c6f0e13405468eabc6987b80feca439b750e1d26b7"
+    },
+    {
+      "id": "1D6F38",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fe7e30cdb4c4583e0fe9311cb7ea5adb1242eb8ee3ec7a662e8798c26ce79430",
+      "explanationSha256": "5266d7cc666b6bdaef965b983ae0aa032aac70dc38f43391689a51511d8c4fcd"
+    },
+    {
+      "id": "22F594",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4c00fc0140bfd951dbac0dc38bf80828f086edbfb3017b0f5a493e4e90f1a084",
+      "explanationSha256": "6f63f2d4927acc7c2295971ad43f9dd74d9186c204e839ed882c2bebad4acf0c"
+    },
+    {
+      "id": "2D40BC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a631739cbd27e3886c7978bd244c99c6d285ed765358d88bbda833620f82d171",
+      "explanationSha256": "5eee6fa44334aa744540e5f71b0273e100c2132247132808073e09eaf49d2b92"
+    },
+    {
+      "id": "30F5D4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ded03b17c27a8cbabe59358e812d2cc290a6450d36d1ef3828740d43b0e8107e",
+      "explanationSha256": "0ad844de13efb8cc5ab6ae62216436d409f0449dab61a5abfaf6602ed808d497"
+    },
+    {
+      "id": "311327",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ab2d95a6c24f970de8bfac3234512680310e94d86a70f1d5f5a930071b4d38a6",
+      "explanationSha256": "9470d0db49a05b29adb218c3ec7ddde0eb4addeb2ecb4fc2bac68e3ae7bd9b7e"
+    },
+    {
+      "id": "499DD2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "001cc472e52103e38f3acc7646e1a026b1f3d3b178df03c06bbd9c3d46ef5687",
+      "explanationSha256": "dad9f822fe544e8d31fd798c0a302122ee46bbf18babe429e4d836fb85775c44"
+    },
+    {
+      "id": "4BF0EE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f8e09c8e69333dac922cc8785c3b04af8e155a61699e798328c7d2f4ff81cece",
+      "explanationSha256": "9d20232672e3b95a2a56c59113d155ee53dfed83baf1de1708ebdff9056410ab"
+    },
+    {
+      "id": "4E099B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8a86bcc03dfe67b3230d4edc375a7d5ff5159023cc2ec475b1442025e85f327d",
+      "explanationSha256": "6450d7ab9a08da31a66524427885266eacd9f0fa2a4596f0f8d8a5f11520d3e7"
+    },
+    {
+      "id": "5159D8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b67021cdb9e33d4421ae08f7296dcb61f6b5dfc82167e67c4d5ad837e4d77df5",
+      "explanationSha256": "cba7692cf125d61837c86424dab84ebcf181da9e350af8cf50c7ac1d5f9dace0"
+    },
+    {
+      "id": "545D8F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "44ffe94d5c9182338b64534fa666b46075fce6e302773ea9739465d8c67e51ba",
+      "explanationSha256": "6b0967ff79a6f09a8c2c31da3bfc816f7ba8c237d717231dce99f87f86883b61"
+    },
+    {
+      "id": "598D63",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f157fdb643f45918167446c2543d9ee0f2d9f6577806b4bc84f261a929885190",
+      "explanationSha256": "ab664693ff0bdaf1c3d93a15e9b15ef0961a9d27fbb2c8be75f119a68d705301"
+    },
+    {
+      "id": "5AF7A4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ad83239a68e43853956692f2efbcd66709137dbc493ee1eab7fe0d1125d944c0",
+      "explanationSha256": "39e8c19dc0095aba4e9ab9daafebf148fd38d4de83351253eabc46697dc9374b"
+    },
+    {
+      "id": "621719",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c57c6381a0a298c697c42dd17b11019a5b4233189f5c8e954d1158c22c0c2a41",
+      "explanationSha256": "81761ae92435a3e631e891fc670fd8f370ba2e615133aca37e599402b89887a6"
+    },
+    {
+      "id": "690525",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8b5a89373106e7d071bcf26498f6ff8bc3444870d8ac69aede71c945b62f1772",
+      "explanationSha256": "f225b23d4f7f688ae8382c82d6d056136a2cb910dfab24fdc93feda128ce145a"
+    },
+    {
+      "id": "7BF565",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6d5c1558e41f7b943d480020960908426a4abf48c86b1470e71c4b429924ec02",
+      "explanationSha256": "3837b09354ed1c6fe17c48b428a44ed6870cfdbcad04a9e29a67725ee6ab76ea"
+    },
+    {
+      "id": "9AFD41",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f910d6257cf16ce6d98db97bb8bbe76abdcf332f4fc755a8ebf42562302cfe4d",
+      "explanationSha256": "7cd733cc8f99b8e632ec015291b63d04158db4227a2e793bdb813ac48c20df88"
+    },
+    {
+      "id": "A25525",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e266b4bfdad19e9ef8275b843f006eea50c81bdade87bdbd5010f0590639b791",
+      "explanationSha256": "4e6a0d68ecf066d02899004bd53a5f645bcafac461e551d9159bf6b4202b74b8"
+    },
+    {
+      "id": "B17764",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c3228bc8ad48337fbe3fea73461d0b558dd46456d8d193c72736cd9f66de097c",
+      "explanationSha256": "933458e35c60ac0d1e275e30eb4a6d4f3a9c92a93af3da5a29740ee1c7eedd00"
+    },
+    {
+      "id": "B9A47F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0775c77853e6c9b10b6a1e6dc7af5e666868a9a09550460ef1ba9216c89ee652",
+      "explanationSha256": "2c71243bf4174092ee2ca92377c7c39da3234840ffc0476c507c29a6be52754a"
+    },
+    {
+      "id": "BF4E1B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b8bef457964e411bd31d682f3ce0f17a48f4863ab7ad0de50bcf6ef563779a0a",
+      "explanationSha256": "cf481e06a12e9a42e85c6d06a9907331a2cd405378f09c698741706a17c6c37d"
+    },
+    {
+      "id": "C69403",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "44858cc6f91a31219b6f12369a8991fc400e5085d67faad50db376fe97da50a7",
+      "explanationSha256": "c8e0a513b6f1b03a97e1f38a3ee0dfd27e1d9036e0850f2a35d9442b6447b3eb"
+    },
+    {
+      "id": "D1A6A5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4938165d8790a497f9b4b5ec781415c16e75644cb4757a38a0f66582815ea298",
+      "explanationSha256": "123c46606a6cb096d3030a5d2dbddd6b25ea8e0713b27b18514ba090f0e589aa"
+    },
+    {
+      "id": "D36670",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f34bfa8c3751969b04cb145a98441b666b7251697b8913fbe522514083adbfb1",
+      "explanationSha256": "d2e0c70e9db194c44b48762fa58e6a3e5c6812b19f7f3a9f90a4ff4f9d35014e"
+    },
+    {
+      "id": "D822EE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4e59a42fc54906c2bd6227d309f58848e965ca529ba65a49ea28d80eceb7f3e8",
+      "explanationSha256": "799ea277e1c03a8c968c5fe39c70429e914ec9da373a5b67bd4a5fc242615cc4"
+    },
+    {
+      "id": "DC1571",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c435debf7bbe4d13c7d0ff263ec75e34338620a672b2a13f247386026aa34219",
+      "explanationSha256": "e1f14328a242f7c97699d74a253b1b3e35f6ab562478c75b7d148a7bdeabee05"
+    },
+    {
+      "id": "E04AAA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "68cc92c6dd742e97ea085fb8e2440cf04be41e4dd384209880566a9f323681d7",
+      "explanationSha256": "4f4d5d6ae2707937d07684f5975422dc739f78b53a09800bef523d4d7aadb7bd"
+    },
+    {
+      "id": "E4D238",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0ca1dd7ba6677c91d58fd8bb4178344b35ae93eefc8c25846055db4ae81618db",
+      "explanationSha256": "aaef3909d1df2ba15fc67cf6f402b81c83a5dd32f8c8e845e079e637616769e7"
+    },
+    {
+      "id": "ECF124",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4f28c8ded3fb026c2d980601aa0d972e7aba36d53a83f9690d4f3315480bfac5",
+      "explanationSha256": "41c01986a075ade448d9db78a5d095898f85ce41b1b6c73089aca4920474e3e9"
+    },
+    {
+      "id": "F95665",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b73c5e9caa7d0087d404c8acaf7abe338d42adf408beac6143fd87f94889648a",
+      "explanationSha256": "4fddb8c4dc38305a5506e877d47d0ced0e3512fecf1fb4dd9be2777374da3f53"
+    },
+    {
+      "id": "FA951C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3def4342d6c4ec2907ec277ddddbed003021d49daa645939d61b8dfcca8bd614",
+      "explanationSha256": "03d9ad4a4f93b72d2ed250fae1275c1e582a873508a79949b5deb408f67de17f"
+    },
+    {
+      "id": "FBD2A1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "text_and_terms_checked_applied",
+      "reason": "№3: разбор всех утверждений и примеров; убраны категорические признаки одного стиля, отрицание терминологичности названий пород вообще и смешение наличия приёма с его функцией. Профильный источник ещё требуется.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e7e4a1b1e38d5043845a9d365d02ba7ed7de12f2cad06738961f173ac0582ee2",
+      "explanationSha256": "17dbfd8014b7d93753e82d88b6fe3a144d4ec32d98ea7104c790307272518f4c"
     }
   ]
 }

@@ -1,0 +1,2287 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-29",
+  "cards": [
+    {
+      "id": "011AA6",
+      "sourceContentSha256": "eb66da55e6d0b12c57a925de348b6ed8c70382842be2c3869e9847485793275b",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "взялАсь",
+          "normativeForm": "взялАсь",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "тамОжня",
+          "normativeForm": "тамОжня",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "принЯть",
+          "normativeForm": "принЯть",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "засЕленный",
+          "normativeForm": "заселЁнный",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "новостЕй",
+          "normativeForm": "новостЕй",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 3,
+          "sourceEntry": "взялАсь, прош. вр. ж. р. глаг. взЯться",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "тамОжня",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 4,
+          "sourceEntry": "принЯть; прИнял, принялА, прИняли, прош. вр.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "заселЁнный; заселенА, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "новостЕй, род. п. мн. ч. сущ. нОвость",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "121C9D",
+      "sourceContentSha256": "e116b2c39a629a69999cc6d98c787f114690c18f7a18c7e877b72952c2199e8e",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "ногтЕй",
+          "normativeForm": "ногтЕй",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "нОвостей",
+          "normativeForm": "новостЕй",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "кремЕнь",
+          "normativeForm": "кремЕнь",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "приручЁнный",
+          "normativeForm": "приручЁнный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "туфлЯ",
+          "normativeForm": "тУфля",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "нОгтя, род. п. ед. ч. сущ. нОготь; ногтЕй, род. п. мн. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "новостЕй, род. п. мн. ч. сущ. нОвость",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "кремЕнь; кремнЯ, род. п. ед. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "приручЁнный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "тУфля",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "1429A7",
+      "sourceContentSha256": "758e256a882942f089150b76ba09a2601dedec467880cd04dac15dfb45d1d354",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "тАможня",
+          "normativeForm": "тамОжня",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "кровоточИть",
+          "normativeForm": "кровоточИть",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "локтЯ",
+          "normativeForm": "лОктя",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "прИнятый",
+          "normativeForm": "прИнятый",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "положИл",
+          "normativeForm": "положИл",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "тамОжня",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "кровоточИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "лОктя, род. п. ед. ч. сущ. лОкоть; локтЕй, род. п. мн. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "прИнятый; принятА, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 4,
+          "sourceEntry": "положИть; положИл, прош. вр. м. р.",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "31CB51",
+      "sourceContentSha256": "ec4b5cae0f7065d1cf9a9605313373fa9cbf076e2da396a4e8e49cb33f5d8e82",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "снятА",
+          "normativeForm": "снятА",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "слИвовый",
+          "normativeForm": "слИвовый",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "досУха",
+          "normativeForm": "дОсуха",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "сосредотОчение",
+          "normativeForm": "сосредотОчение",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "кралАсь",
+          "normativeForm": "крАлась",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "снятА, кр. ф. ж. р. прич. снЯтый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "слИвовый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "дОсуха",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "сосредотОчение",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 3,
+          "sourceEntry": "крАлась, прош. вр. ж. р. глаг. крАсться",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "39507B",
+      "sourceContentSha256": "c115da32f43321f3b400c6f790a504b9f784c07993933090783bd0de271f6dc5",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "туфлЯ",
+          "normativeForm": "тУфля",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "понЯв",
+          "normativeForm": "понЯв",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "довЕрху",
+          "normativeForm": "дОверху",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "лЕкторов",
+          "normativeForm": "лЕкторов",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "Отрочество",
+          "normativeForm": "Отрочество",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "тУфля",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 5,
+          "sourceEntry": "понЯв",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "дОверху",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "лЕкторов, род. п. мн. ч. сущ. лЕктор",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "Отрочество",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "42DC9B",
+      "sourceContentSha256": "72add3b7cd3dc1ce78a52edd6a66b8bdf87f2945faa00a80ce8e96ae0de6f142",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "тУфля",
+          "normativeForm": "тУфля",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "опОшлить",
+          "normativeForm": "опОшлить",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "газопрОвод",
+          "normativeForm": "газопровОд",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "углубИть",
+          "normativeForm": "углубИть",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "прозОрлива",
+          "normativeForm": "прозорлИва",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "тУфля",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 4,
+          "sourceEntry": "опОшлить",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 1,
+          "sourceEntry": "газопровОд",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "углубИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "прозорлИвый; прозорлИва, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "453385",
+      "sourceContentSha256": "90bfa0d754c9baadecb7c8e081b781c9672743ebdbaeae4c9af76869d07f636e",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "пОняв",
+          "normativeForm": "понЯв",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "бухгАлтеров",
+          "normativeForm": "бухгАлтеров",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "Отзыв",
+          "normativeForm": "Отзыв",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "газопрОвод",
+          "normativeForm": "газопровОд",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "крЕмень",
+          "normativeForm": "кремЕнь",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "понЯв",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 1,
+          "sourceEntry": "бухгАлтеров, род. п. мн. ч. сущ. бухгАлтер",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "Отзыв (о книге), «отклик, мнение, рецензия»",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 1,
+          "sourceEntry": "газопровОд",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "кремЕнь; кремнЯ, род. п. ед. ч.",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "6A530E",
+      "sourceContentSha256": "69a6bbbe2b9616de2852a41fa88e82d9ffda16677359e9e3d91f8664970d3f9e",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "слИвовый",
+          "normativeForm": "слИвовый",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "облегчЁнный",
+          "normativeForm": "облегчЁнный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "закупОрив",
+          "normativeForm": "закУпорив",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "красИвее",
+          "normativeForm": "красИвее",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "нефтепрОвод",
+          "normativeForm": "нефтепровОд",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "слИвовый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 5,
+          "sourceEntry": "облегчЁнный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "закУпорив",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "красИвее, сравн. ст. прил. красИвый; красИвейший, превосх. ст.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "нефтепровОд",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "7756B9",
+      "sourceContentSha256": "f360e0960fb024c6a2c0f372942de0850abf43b16847577bd09a2a6c37676f99",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "понЯв",
+          "normativeForm": "понЯв",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "дОнельзя",
+          "normativeForm": "донЕльзя",
+          "correct": false,
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "туфлЯ",
+          "normativeForm": "тУфля",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "нефтепровОд",
+          "normativeForm": "нефтепровОд",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "Отрочество",
+          "normativeForm": "Отрочество",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "понЯв",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 5,
+          "sourceEntry": "донЕльзя",
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "тУфля",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "нефтепровОд",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "Отрочество",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "7E19AB",
+      "sourceContentSha256": "b33b49b35471fb8e8d4909a28a0b06a97b63ee34e09ef946aedfe2b843615ac1",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "знАчимость",
+          "normativeForm": "знАчимость",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "облЕгчит",
+          "normativeForm": "облегчИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "углублЁнный",
+          "normativeForm": "углублЁнный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "кОрысть",
+          "normativeForm": "корЫсть",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "пОручни",
+          "normativeForm": "пОручни",
+          "correct": true,
+          "evidenceType": "excluded_word_historical"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 1,
+          "sourceEntry": "знАчимость",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "облегчИть; облегчИт, 3-е л. ед. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "углублЁнный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 1,
+          "sourceEntry": "корЫсть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "пОручни",
+          "evidenceType": "excluded_word_historical"
+        }
+      ]
+    },
+    {
+      "id": "8130C5",
+      "sourceContentSha256": "73ebc2d1a8812bebf6b673fb3908c177ddd7a7fb259550489b1b5069e8e7fb7a",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "защЕмит",
+          "normativeForm": "защемИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "бухгАлтеров",
+          "normativeForm": "бухгАлтеров",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "Отзыв",
+          "normativeForm": "Отзыв",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "нажИвший",
+          "normativeForm": "нажИвший",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "кремЕнь",
+          "normativeForm": "кремЕнь",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 3,
+          "sourceEntry": "защемИт, 3-е л. ед. ч. глаг. защемИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 1,
+          "sourceEntry": "бухгАлтеров, род. п. мн. ч. сущ. бухгАлтер",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "Отзыв (о книге), «отклик, мнение, рецензия»",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "нажИвший",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "кремЕнь; кремнЯ, род. п. ед. ч.",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "828CBC",
+      "sourceContentSha256": "f7ee853176a8def9d7d2104df2e9872a7b7bc437eec4efa675bb5c3e1ad5e74d",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "дешевИзна",
+          "normativeForm": "дешевИзна",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "мозАичный",
+          "normativeForm": "мозаИчный",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "дОсуха",
+          "normativeForm": "дОсуха",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "черпАть",
+          "normativeForm": "чЕрпать",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "ерЕтик",
+          "normativeForm": "еретИк",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 1,
+          "sourceEntry": "дешевИзна",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "мозаИчный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "дОсуха",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "чЕрпать",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 1,
+          "sourceEntry": "еретИк",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "9B2535",
+      "sourceContentSha256": "2ec090bcd4f0802ed263c16b011692de1b4c0d7d39a6557e5d48e285f27caa27",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "партЕр",
+          "normativeForm": "партЕр",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "врУчит",
+          "normativeForm": "вручИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "дОнельзя",
+          "normativeForm": "донЕльзя",
+          "correct": false,
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "жАлюзи",
+          "normativeForm": "жалюзИ",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "нАчатый",
+          "normativeForm": "нАчатый",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "партЕр",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "вручИт, 3-е л. ед. ч. глаг. вручИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "донЕльзя",
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "part": 4,
+          "sourcePage": 1,
+          "sourceEntry": "жалюзИ",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "нАчатый",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "9D14F3",
+      "sourceContentSha256": "ab531830f1901372c139bd38ec6c65982dfd0180e526cc895da498c4e11ffa60",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "нАчавший",
+          "normativeForm": "начАвший",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "мозаИчный",
+          "normativeForm": "мозаИчный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "дОверху",
+          "normativeForm": "дОверху",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "чЕрпать",
+          "normativeForm": "чЕрпать",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "закупОрив",
+          "normativeForm": "закУпорив",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "начАвший",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "мозаИчный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "дОверху",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "чЕрпать",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "закУпорив",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "AAE143",
+      "sourceContentSha256": "cc789aa879c29e0e86c0384bf42ee3e68c110876b09cb36dad19ac449dc85bfb",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "лОктя",
+          "normativeForm": "лОктя",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "надЕлит",
+          "normativeForm": "наделИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "кровотОчить",
+          "normativeForm": "кровоточИть",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "снятА",
+          "normativeForm": "снятА",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "тамОжня",
+          "normativeForm": "тамОжня",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "лОктя, род. п. ед. ч. сущ. лОкоть; локтЕй, род. п. мн. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "наделИт, 3-е л. ед. ч. глаг. наделИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 3,
+          "sourceEntry": "кровоточИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "снятА, кр. ф. ж. р. прич. снЯтый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "тамОжня",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "B05882",
+      "sourceContentSha256": "fdf4c53489ef39ef8dc2ef165a5bcfec35cf59860a42983d9b69134096cb0c3a",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "вОвремя",
+          "normativeForm": "вОвремя",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "кранЫ",
+          "normativeForm": "крАны",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "пломбировАть",
+          "normativeForm": "пломбировАть",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "брАлась",
+          "normativeForm": "бралАсь",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "укрЕпит",
+          "normativeForm": "укрепИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "вОвремя",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "крАны, им. п. мн. ч. сущ. кран",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 4,
+          "sourceEntry": "пломбировАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 3,
+          "sourceEntry": "бралАсь, прош. вр. ж. р. глаг. брАться",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 4,
+          "sourceEntry": "укрепИт, 3-е л. ед. ч. глаг. укрепИть",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "C57D87",
+      "sourceContentSha256": "8457e31f481d9db964f056f8de52841141aca030e582b47a25ae928921597327",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "позвАла",
+          "normativeForm": "позвалА",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "еретИк",
+          "normativeForm": "еретИк",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "облЕгчит",
+          "normativeForm": "облегчИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "понЯв",
+          "normativeForm": "понЯв",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "дОнизу",
+          "normativeForm": "дОнизу",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 4,
+          "sourceEntry": "позвалА, прош. вр. ж. р. глаг. позвАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 1,
+          "sourceEntry": "еретИк",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 3,
+          "sourceEntry": "облегчИть; облегчИт, 3-е л. ед. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "понЯв",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "дОнизу",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "CACB9D",
+      "sourceContentSha256": "f27678085a85d2ccb4b1f5e056ce31da45e50196b40bd361ac6c57b6e962cb95",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "зАтемно",
+          "normativeForm": "зАтемно",
+          "correct": true,
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "газопрОвод",
+          "normativeForm": "газопровОд",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "крЕмень",
+          "normativeForm": "кремЕнь",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "нОгтей",
+          "normativeForm": "ногтЕй",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "цепОчка",
+          "normativeForm": "цепОчка",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "зАтемно",
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "part": 2,
+          "sourcePage": 1,
+          "sourceEntry": "газопровОд",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "кремЕнь; кремнЯ, род. п. ед. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "нОгтя, род. п. ед. ч. сущ. нОготь; ногтЕй, род. п. мн. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "цепОчка",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "CD6F3D",
+      "sourceContentSha256": "01a73ae34d7e4cba814e270523f500547b28dceb500d6b254fada2239cc1ac45",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "вОвремя",
+          "normativeForm": "вОвремя",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "лгАла",
+          "normativeForm": "лгалА",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "пломбировАть",
+          "normativeForm": "пломбировАть",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "позвАла",
+          "normativeForm": "позвалА",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "укрепИт",
+          "normativeForm": "укрепИт",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "вОвремя",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "лгалА, прош. вр. ж. р. глаг. лгАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 4,
+          "sourceEntry": "пломбировАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "позвалА, прош. вр. ж. р. глаг. позвАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 4,
+          "sourceEntry": "укрепИт, 3-е л. ед. ч. глаг. укрепИть",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "CE3CB3",
+      "sourceContentSha256": "b7796d9aea6cec9e7e326784c1cae51841aaf965d5dccfc9471dbf32bcebdad0",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "слИвовый",
+          "normativeForm": "слИвовый",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "облЕгчит",
+          "normativeForm": "облегчИт",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "придАное",
+          "normativeForm": "придАное",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "добралАсь",
+          "normativeForm": "добралАсь",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "газопрОвод",
+          "normativeForm": "газопровОд",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "слИвовый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "облегчИть; облегчИт, 3-е л. ед. ч.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "придАное",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 3,
+          "sourceEntry": "добралАсь, прош. вр. ж. р. глаг. добрАться",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 1,
+          "sourceEntry": "газопровОд",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "CEC4CA",
+      "sourceContentSha256": "00403f323a6c06c0eb586c5ae5375c59b4d11eb337c489467713deecdbfb6361",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "низведЁнный",
+          "normativeForm": "низведЁнный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "начАвшись",
+          "normativeForm": "начАвшись",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "сливОвый",
+          "normativeForm": "слИвовый",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "Иксы",
+          "normativeForm": "Иксы",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "снЯта",
+          "normativeForm": "снятА",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "низведЁнный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 5,
+          "sourceEntry": "начАвшись",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 2,
+          "sourceEntry": "слИвовый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 1,
+          "sourceEntry": "Иксы, им. п. мн. ч. сущ. икс",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "снятА, кр. ф. ж. р. прич. снЯтый",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "D949E3",
+      "sourceContentSha256": "0702439b61e077dd00a0ef269acd28bbb80a98ad5abcf0d70c89f46180aa18e9",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "накрЕнятся",
+          "normativeForm": "накренЯтся",
+          "correct": false,
+          "evidenceType": "listed_personal_form_application"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "нАчал",
+          "normativeForm": "нАчал",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "аэропОрты",
+          "normativeForm": "аэропОрты",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "озлОбить",
+          "normativeForm": "озлОбить",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "заселЁнный",
+          "normativeForm": "заселЁнный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 3,
+          "sourceEntry": "накренИтся, 3-е л. ед. ч. глаг. накренИться",
+          "evidenceType": "listed_personal_form_application"
+        },
+        {
+          "part": 2,
+          "sourcePage": 3,
+          "sourceEntry": "начАть; нАчал, началА, нАчали, прош. вр.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 1,
+          "sourceEntry": "аэропОрты, им. п. мн. ч. сущ. аэропОрт",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 3,
+          "sourceEntry": "озлОбить",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "заселЁнный; заселенА, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "DF4F14",
+      "sourceContentSha256": "93be39d2d82c19604da41780c713fa5c0e2a81ca4179fa8dcb9b83d7360f3288",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "придАное",
+          "normativeForm": "придАное",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "Оптовый",
+          "normativeForm": "оптОвый",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "щЁлкать",
+          "normativeForm": "щЁлкать",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "воврЕмя",
+          "normativeForm": "вОвремя",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "звонИшь",
+          "normativeForm": "звонИшь",
+          "correct": true,
+          "evidenceType": "listed_personal_form_application"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "придАное",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "оптОвый",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 4,
+          "sourceEntry": "щЁлкать",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 5,
+          "sourceEntry": "вОвремя",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 3,
+          "sourceEntry": "звонИт, 3-е л. ед. ч. глаг. звонИть",
+          "evidenceType": "listed_personal_form_application"
+        }
+      ]
+    },
+    {
+      "id": "E14EB6",
+      "sourceContentSha256": "e7c8e1e321d29c8058e73e60b477ca857ac8e2ecb71d1319f3d47533e006af41",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "ерЕтик",
+          "normativeForm": "еретИк",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "мозаИчный",
+          "normativeForm": "мозаИчный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "дОверху",
+          "normativeForm": "дОверху",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "чЕрпать",
+          "normativeForm": "чЕрпать",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "прирУченный",
+          "normativeForm": "приручЁнный",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 1,
+          "sourceEntry": "еретИк",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 2,
+          "sourceEntry": "мозаИчный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "дОверху",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "чЕрпать",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 5,
+          "sourceEntry": "приручЁнный",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "E3F954",
+      "sourceContentSha256": "1ecb8f25307532bced1d02e1b0ee8237aea5e457fb1f15f4c5882ce6f4115f08",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "шофЁр",
+          "normativeForm": "шофЁр",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "ненадОлго",
+          "normativeForm": "ненадОлго",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "послалА",
+          "normativeForm": "послАла",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "жалюзИ",
+          "normativeForm": "жалюзИ",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "намЕрение",
+          "normativeForm": "намЕрение",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 2,
+          "sourceEntry": "шофЁр",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 5,
+          "sourceEntry": "ненадОлго",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 4,
+          "sourceEntry": "послАла, прош. вр. ж. р. глаг. послАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 1,
+          "sourceEntry": "жалюзИ",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "намЕрение",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "E47C9F",
+      "sourceContentSha256": "53aa3898484c1c4bc9acbdac3585dec2222358af50166ae72a6772a72da8aa90",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "клЕить",
+          "normativeForm": "клЕить",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "рвалА",
+          "normativeForm": "рвалА",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "закупОрив",
+          "normativeForm": "закУпорив",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "красИвее",
+          "normativeForm": "красИвее",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "ерЕтик",
+          "normativeForm": "еретИк",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 3,
+          "sourceEntry": "клЕить",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 4,
+          "sourceEntry": "рвалА, прош. вр. ж. р. глаг. рвАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "закУпорив",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "красИвее, сравн. ст. прил. красИвый; красИвейший, превосх. ст.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 1,
+          "sourceEntry": "еретИк",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "E5DF39",
+      "sourceContentSha256": "a312468eb2cce250294d09587b80ed9fdc27999e44cd7bbffcace43cae4662ca",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "клЕить",
+          "normativeForm": "клЕить",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "рвалА",
+          "normativeForm": "рвалА",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "закупОрив",
+          "normativeForm": "закУпорив",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "красИвее",
+          "normativeForm": "красИвее",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "ерЕтик",
+          "normativeForm": "еретИк",
+          "correct": false,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 3,
+          "sourceEntry": "клЕить",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 4,
+          "sourceEntry": "рвалА, прош. вр. ж. р. глаг. рвАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "закУпорив",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 2,
+          "sourceEntry": "красИвее, сравн. ст. прил. красИвый; красИвейший, превосх. ст.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 1,
+          "sourceEntry": "еретИк",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "EFDBCF",
+      "sourceContentSha256": "3439bd5b035e3ed62f114846613d56c3f58e92a7520b2979292b9cde20e53de0",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "порУчни",
+          "normativeForm": "пОручни",
+          "correct": false,
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "принЯтый",
+          "normativeForm": "прИнятый",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "кашлянУть",
+          "normativeForm": "кАшлянуть",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "рвалА",
+          "normativeForm": "рвалА",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "звонИт",
+          "normativeForm": "звонИт",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "пОручни",
+          "evidenceType": "excluded_word_historical"
+        },
+        {
+          "part": 2,
+          "sourcePage": 5,
+          "sourceEntry": "прИнятый; принятА, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 3,
+          "sourceEntry": "кАшлянуть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "рвалА, прош. вр. ж. р. глаг. рвАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 3,
+          "sourceEntry": "звонИт, 3-е л. ед. ч. глаг. звонИть",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "EFFBAA",
+      "sourceContentSha256": "fc08943a6f004e8fb7310bcc53c4b35d7c07277562920fa0db1683fe2561707d",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "заселЁнный",
+          "normativeForm": "заселЁнный",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "пломбИровать",
+          "normativeForm": "пломбировАть",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "брАлась",
+          "normativeForm": "бралАсь",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "послалА",
+          "normativeForm": "послАла",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "лЕкторов",
+          "normativeForm": "лЕкторов",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "заселЁнный; заселенА, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 4,
+          "sourceEntry": "пломбировАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 3,
+          "sourceEntry": "бралАсь, прош. вр. ж. р. глаг. брАться",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 4,
+          "sourceEntry": "послАла, прош. вр. ж. р. глаг. послАть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "лЕкторов, род. п. мн. ч. сущ. лЕктор",
+          "evidenceType": "listed_word"
+        }
+      ]
+    },
+    {
+      "id": "FFFE6E",
+      "sourceContentSha256": "ca991048b09d7546d991e9059adffdd70096c132e14240f0df667283e111d990",
+      "options": [
+        {
+          "number": 1,
+          "sourceVariant": "прирУченный",
+          "normativeForm": "приручЁнный",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 2,
+          "sourceVariant": "повторИт",
+          "normativeForm": "повторИт",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 3,
+          "sourceVariant": "нажИвший",
+          "normativeForm": "нажИвший",
+          "correct": true,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 4,
+          "sourceVariant": "дешевизнА",
+          "normativeForm": "дешевИзна",
+          "correct": false,
+          "evidenceType": "listed_word"
+        },
+        {
+          "number": 5,
+          "sourceVariant": "прозорлИва",
+          "normativeForm": "прозорлИва",
+          "correct": true,
+          "evidenceType": "listed_word"
+        }
+      ],
+      "keyMatchesIndependentComparison": true,
+      "listYear": 2026,
+      "exam2027ListConfirmed": false,
+      "sourceRefs": [
+        {
+          "part": 1,
+          "sourcePage": 5,
+          "sourceEntry": "приручЁнный",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 2,
+          "sourcePage": 4,
+          "sourceEntry": "повторИт, 3-е л. ед. ч. глаг. повторИть",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 3,
+          "sourcePage": 5,
+          "sourceEntry": "нажИвший",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 4,
+          "sourcePage": 1,
+          "sourceEntry": "дешевИзна",
+          "evidenceType": "listed_word"
+        },
+        {
+          "part": 5,
+          "sourcePage": 2,
+          "sourceEntry": "прозорлИвый; прозорлИва, кр. ф. ж. р.",
+          "evidenceType": "listed_word"
+        }
+      ]
+    }
+  ],
+  "historicalCardsNotPrepared": 84
+}

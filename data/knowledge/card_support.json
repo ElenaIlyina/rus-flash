@@ -1460,8 +1460,14 @@
       "sourceContentSha256": "0f0cb5c95fb61b0e9bea16936c43f6191e5824af038002685c6bfac6594c1ef1",
       "explanationSha256": "83160169f7c3fbda1baba0754a5dbe82fd4582f532b52561c7eceeb89f817812",
       "explanationPublished": true,
-      "hint": "Сначала установите, какое отношение нужно передать союзом. Сопоставьте, у кого детёныши учатся раньше и у кого — позже. Подставьте союз требуемого разряда и перечитайте всё предложение.",
-      "dictionaryRefs": [],
+      "hint": "Условие требует: сочинительный противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…в небольшой компании с одногодками, где тоже многому учатся, [пропуск] уже друг у…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
@@ -1469,8 +1475,14 @@
       "sourceContentSha256": "df96dde1eb0fba6948f6d4ef03adebf82788fb7fb5146b1fdf22cc18c4593f64",
       "explanationSha256": "e9ffa4e819ca7e2d9a8cc9ed924b56293aa5628777830d67cbf980efd6caa05d",
       "explanationPublished": true,
-      "hint": "Найдите, к кому относится пропущенное местоимение. Проверьте род и число, затем определите, какое значение добавляется: принадлежность, выбор одного предмета или полнота охвата.",
-      "dictionaryRefs": [],
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…не рассыпаясь по дну мелкой галькой, а растворившись в реке, [пропуск] становился вселенским потоком. Он никогда не был за границей. Но в…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "весь",
+          "entryId": "ozhegov-d1f374591897"
+        }
+      ],
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
@@ -1478,8 +1490,34 @@
       "sourceContentSha256": "0429b810c82a41887e79f1138f120ce77655a1d2c15a8dc27d7496c413061d9c",
       "explanationSha256": "de429a63e276508b39699e16d0717e3ac40c64a86d547595b30cd2303b27ae65",
       "explanationPublished": true,
-      "hint": "Определяйте значение по словосочетанию целиком. Для каждого пункта попробуйте подставить предложенное толкование в юридический текст и проверить, сохраняется ли смысл.",
-      "dictionaryRefs": [],
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов прямой, акт, норма, система, установить найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "прямой",
+          "entryId": "ozhegov-b429b89c455d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "акт",
+          "entryId": "ozhegov-cd4e4d3c8871"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "норма",
+          "entryId": "ozhegov-ab3c149c3c1c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "система",
+          "entryId": "ozhegov-64f8e042cc9c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "установить",
+          "entryId": "ozhegov-7f0ace6bf6f7"
+        }
+      ],
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
@@ -1487,8 +1525,44 @@
       "sourceContentSha256": "9979e9ad8f4aef411a2dbb6f7cc58794b08c211f48e2d540c96acd1010c4ae0f",
       "explanationSha256": "a2279d303b14c5cc86aaca7f159a2ec87ce5ad09d49c88e187459ae835f4eeb7",
       "explanationPublished": true,
-      "hint": "Сравнивайте словарное толкование с ближайшими словами в предложении. Обратите внимание на переносные значения и на различие ухода из жизни и ухода за человеком.",
-      "dictionaryRefs": [],
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов эталон, культура, веяние, элемент, уход найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эталон",
+          "entryId": "ozhegov-3b3f75b887b9"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "культура",
+          "entryId": "ozhegov-e079b4e3711c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "веяние",
+          "entryId": "ozhegov-870ec48cdc22"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "элемент",
+          "entryId": "ozhegov-3ddfca6f24cf"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "уход",
+          "entryId": "ozhegov-dfb9e2d62c58"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "уйти",
+          "entryId": "ozhegov-d038d721e1b8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ухаживать",
+          "entryId": "ozhegov-8f7c7967ca80"
+        }
+      ],
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
@@ -1496,8 +1570,19 @@
       "sourceContentSha256": "35552c13c64a916f67233c57045dc498e86aca50e92858ecc4e70389f595b652",
       "explanationSha256": "cba2cffd2a805bf38c12280b2fa55c043acfc9155a257074c821ea939e5a1543",
       "explanationPublished": true,
-      "hint": "Каждую характеристику проверьте целиком: пример должен быть в тексте, а вывод о его роли — соответствовать задаче автора. Отдельный термин или яркий образ ещё не определяет стиль всего фрагмента.",
-      "dictionaryRefs": [],
+      "hint": "Отделите тему от цели: парк можно описывать, чтобы убедить в мысли о человеке и природе. Проверьте, одинаковую ли функцию выполняют специальное слово и образная «симфония».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
@@ -1505,27 +1590,102 @@
       "sourceContentSha256": "5ed8655e3e269949af4344aad5b53f2102d52de205194b900added7809f99ce7",
       "explanationSha256": "089d9afa73e1828669138d00550a749a8a7d5793e81b1c434fdd28a0b236c3c1",
       "explanationPublished": true,
-      "hint": "Ищите точные признаки в тексте: образные выражения, роль цитаты, предложения с вопросительным знаком и обращения. Если пункт перечисляет несколько средств, проверьте каждое, а не только самое знакомое.",
-      "dictionaryRefs": [],
+      "hint": "Проверьте, что доказывает письмо Гумбольда и есть ли в тексте каждый названный синтаксический приём. Помета «разговорное» требует словарного подтверждения, а не бытовой темы слова.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сравнение",
+          "entryId": "ozhegov-f19ed3cfd735"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "обращение",
+          "entryId": "ozhegov-3a35c43f75c6"
+        }
+      ],
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
     "011AA6": {
       "sourceContentSha256": "eb66da55e6d0b12c57a925de348b6ed8c70382842be2c3869e9847485793275b",
-      "explanationSha256": "a1496d9b5137a616215406114b0ba42e439027e0c506f9e7ba8c8e15c044fa09",
+      "explanationSha256": "bb580f452781903e9da9e758b0bb9afd2b0a3cbce9172a7c847b0f0466699cb3",
       "explanationPublished": true,
-      "hint": "Читайте инструкцию: требуется выбрать верные ударения. Произнесите каждое слово отдельно, обращая внимание на форму женского рода и родительный падеж множественного числа. Не переносите ударение с начальной формы автоматически.",
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: взялась, таможня, принять, заселенный, новостей. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
       "ruleSourceRefs": []
     },
     "121C9D": {
       "sourceContentSha256": "e116b2c39a629a69999cc6d98c787f114690c18f7a18c7e877b72952c2199e8e",
-      "explanationSha256": "2d673fa40c8fbd227208c2b1612fa5a6d315fe49a5dadab314c705c70f8aa4a7",
+      "explanationSha256": "f2e36176707b03e829a24e08c33b5016ae41905811e005c23ed8dc3bdeb23f45",
       "explanationPublished": true,
-      "hint": "Проверяйте ударение именно в указанной форме. Для существительных отдельно проверьте родительный падеж множественного числа; для слов с ё не заменяйте её ударной е.",
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: ногтей, новостей, кремень, прирученный, туфля. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
       "ruleSourceRefs": []
     },
     "012CAB": {
@@ -5826,6 +5986,3354 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "мужество",
           "entryId": "ozhegov-c7d0e16f03ef"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "1429A7": {
+      "sourceContentSha256": "758e256a882942f089150b76ba09a2601dedec467880cd04dac15dfb45d1d354",
+      "explanationSha256": "441c4a74eb5ed8c0e4d97821c28bb3b6daf32bacb36bcd6bc35c9e4985a7fd56",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: таможня, кровоточить, локтя, принятый, положил. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "31CB51": {
+      "sourceContentSha256": "ec4b5cae0f7065d1cf9a9605313373fa9cbf076e2da396a4e8e49cb33f5d8e82",
+      "explanationSha256": "d67721832fc67ec1864370aebb8537ea96f88c50d2451b6db3ab7b16d4b58156",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: снята, сливовый, досуха, сосредоточение, кралась. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "39507B": {
+      "sourceContentSha256": "c115da32f43321f3b400c6f790a504b9f784c07993933090783bd0de271f6dc5",
+      "explanationSha256": "908a1127a49a387ca1db7acb86d2bc1f06df175abdf27eb5ae743cae923119bb",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: туфля, поняв, доверху, лекторов, отрочество. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "42DC9B": {
+      "sourceContentSha256": "72add3b7cd3dc1ce78a52edd6a66b8bdf87f2945faa00a80ce8e96ae0de6f142",
+      "explanationSha256": "82804b57d9a2bb48379db7eb2a3eddab108993e4bb701277dbf95fd60e62da8d",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: туфля, опошлить, газопровод, углубить, прозорлива. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "453385": {
+      "sourceContentSha256": "90bfa0d754c9baadecb7c8e081b781c9672743ebdbaeae4c9af76869d07f636e",
+      "explanationSha256": "bbdc8fd175dd71c5a137fd6ffcc3007b6ed4410e03ee7f6edd7d8db860fed11a",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: поняв, бухгалтеров, отзыв, газопровод, кремень. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "6A530E": {
+      "sourceContentSha256": "69a6bbbe2b9616de2852a41fa88e82d9ffda16677359e9e3d91f8664970d3f9e",
+      "explanationSha256": "a62900297008b6a645e0a7a03fb3db1eb5dc24eabd6896faec828b414b929dc7",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: сливовый, облегченный, закупорив, красивее, нефтепровод. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "7756B9": {
+      "sourceContentSha256": "f360e0960fb024c6a2c0f372942de0850abf43b16847577bd09a2a6c37676f99",
+      "explanationSha256": "25f65f0028273389bc4c4a72f910c44cf0ccfdcc3854df3e0689561d8a767458",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: поняв, донельзя, туфля, нефтепровод, отрочество. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "7E19AB": {
+      "sourceContentSha256": "b33b49b35471fb8e8d4909a28a0b06a97b63ee34e09ef946aedfe2b843615ac1",
+      "explanationSha256": "1ef39779cc564c71c81c9607c977b17966ff2898e2db6033d8801f63f009fffa",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: значимость, облегчит, углубленный, корысть, поручни. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "8130C5": {
+      "sourceContentSha256": "73ebc2d1a8812bebf6b673fb3908c177ddd7a7fb259550489b1b5069e8e7fb7a",
+      "explanationSha256": "07335bf418e489428522aecd1de89bf1ab7e63c8d0e0d2a1dcf77499e8529342",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: защемит, бухгалтеров, отзыв, наживший, кремень. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "828CBC": {
+      "sourceContentSha256": "f7ee853176a8def9d7d2104df2e9872a7b7bc437eec4efa675bb5c3e1ad5e74d",
+      "explanationSha256": "9b02398397e97d83240587f5e7504934ac133bf5f01ab7a832f10b542c61a501",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: дешевизна, мозаичный, досуха, черпать, еретик. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "9B2535": {
+      "sourceContentSha256": "2ec090bcd4f0802ed263c16b011692de1b4c0d7d39a6557e5d48e285f27caa27",
+      "explanationSha256": "5b17e7d3d68439eb71e53ce43538416ad6a12bcd0422f815017af0de67ba10dc",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: партер, вручит, донельзя, жалюзи, начатый. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "9D14F3": {
+      "sourceContentSha256": "ab531830f1901372c139bd38ec6c65982dfd0180e526cc895da498c4e11ffa60",
+      "explanationSha256": "2170e022dd0d9aa89e6fb05e6a7571a250b521ccfcd46e44434719e35f620822",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: начавший, мозаичный, доверху, черпать, закупорив. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "AAE143": {
+      "sourceContentSha256": "cc789aa879c29e0e86c0384bf42ee3e68c110876b09cb36dad19ac449dc85bfb",
+      "explanationSha256": "b1d1a6dc9cd3593de0d3e06b54a086338602f1e1cd5d37c00eb6aac412f3cf19",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: локтя, наделит, кровоточить, снята, таможня. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B05882": {
+      "sourceContentSha256": "fdf4c53489ef39ef8dc2ef165a5bcfec35cf59860a42983d9b69134096cb0c3a",
+      "explanationSha256": "b564612aa506bbfe41dcd4eb0a943c628325ea0c80fd5dfa10fe0007e2566cd3",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: вовремя, краны, пломбировать, бралась, укрепит. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "C57D87": {
+      "sourceContentSha256": "8457e31f481d9db964f056f8de52841141aca030e582b47a25ae928921597327",
+      "explanationSha256": "ab4abd401023ee106c9574a80f96190faef67b1f4540542a4f317ef2e3e35670",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: позвала, еретик, облегчит, поняв, донизу. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "CACB9D": {
+      "sourceContentSha256": "f27678085a85d2ccb4b1f5e056ce31da45e50196b40bd361ac6c57b6e962cb95",
+      "explanationSha256": "5aa442f5b2713dd5439847167c8e029f96400add0d62c503fd7f15ee98e7c7d7",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: затемно, газопровод, кремень, ногтей, цепочка. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "CD6F3D": {
+      "sourceContentSha256": "01a73ae34d7e4cba814e270523f500547b28dceb500d6b254fada2239cc1ac45",
+      "explanationSha256": "1851a4e546075d4cdbcb3141790b92ff5992bbe04b74ec6498397e94a5bafe62",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: вовремя, лгала, пломбировать, позвала, укрепит. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "CE3CB3": {
+      "sourceContentSha256": "b7796d9aea6cec9e7e326784c1cae51841aaf965d5dccfc9471dbf32bcebdad0",
+      "explanationSha256": "8a3aafef215e08292e3d190d50122bdfd76795e5b2b7bc62805d72218d4dbd58",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: сливовый, облегчит, приданое, добралась, газопровод. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "CEC4CA": {
+      "sourceContentSha256": "00403f323a6c06c0eb586c5ae5375c59b4d11eb337c489467713deecdbfb6361",
+      "explanationSha256": "2872ac489332b86f2662ceca229803cb1825647ec3489540f56e4a5f5120c926",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: низведенный, начавшись, сливовый, иксы, снята. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "D949E3": {
+      "sourceContentSha256": "0702439b61e077dd00a0ef269acd28bbb80a98ad5abcf0d70c89f46180aa18e9",
+      "explanationSha256": "a1825e76de65b361b10fd26c42045ff27df217ab8eb9a6b5ee151caa5cf98fc5",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: накренятся, начал, аэропорты, озлобить, заселенный. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "DF4F14": {
+      "sourceContentSha256": "93be39d2d82c19604da41780c713fa5c0e2a81ca4179fa8dcb9b83d7360f3288",
+      "explanationSha256": "8a2eb85d81c0ae20f86cbc2c39a3b80e5fbdc8ee4b3815909355627059864fa0",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: приданое, оптовый, щелкать, вовремя, звонишь. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "E14EB6": {
+      "sourceContentSha256": "e7c8e1e321d29c8058e73e60b477ca857ac8e2ecb71d1319f3d47533e006af41",
+      "explanationSha256": "ac0193d6b7692496a53f020eaaf2ffd3475c1cf0d687e6d9517b1e3f698c3933",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: еретик, мозаичный, доверху, черпать, прирученный. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "E3F954": {
+      "sourceContentSha256": "1ecb8f25307532bced1d02e1b0ee8237aea5e457fb1f15f4c5882ce6f4115f08",
+      "explanationSha256": "6c834a7ddde2d130d53483d7dd0e9c54c21ef9fedd861e79f5b1da646eed6e24",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: шофер, ненадолго, послала, жалюзи, намерение. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "E47C9F": {
+      "sourceContentSha256": "53aa3898484c1c4bc9acbdac3585dec2222358af50166ae72a6772a72da8aa90",
+      "explanationSha256": "3d316c97a0a7faf3e2b6fe3bdb687282a5934d9faf51100b40741ae61ec8ba05",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: клеить, рвала, закупорив, красивее, еретик. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "E5DF39": {
+      "sourceContentSha256": "a312468eb2cce250294d09587b80ed9fdc27999e44cd7bbffcace43cae4662ca",
+      "explanationSha256": "3d316c97a0a7faf3e2b6fe3bdb687282a5934d9faf51100b40741ae61ec8ba05",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: клеить, рвала, закупорив, красивее, еретик. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "EFDBCF": {
+      "sourceContentSha256": "3439bd5b035e3ed62f114846613d56c3f58e92a7520b2979292b9cde20e53de0",
+      "explanationSha256": "f513c6d8694a2fb6d09bd7ecd23bb5a6a2ffc10b576215688b6c0a93d6705ccd",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: поручни, принятый, кашлянуть, рвала, звонит. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "EFFBAA": {
+      "sourceContentSha256": "fc08943a6f004e8fb7310bcc53c4b35d7c07277562920fa0db1683fe2561707d",
+      "explanationSha256": "e27ada0c52b5b23d15c29e615af1dbd61f7c2f1249117923bde626efef234fe3",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: заселенный, пломбировать, бралась, послала, лекторов. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "FFFE6E": {
+      "sourceContentSha256": "ca991048b09d7546d991e9059adffdd70096c132e14240f0df667283e111d990",
+      "explanationSha256": "da19b298b6a52e516294218981521164ab5591f3ef73246ce93bdbfc100ed7e3",
+      "explanationPublished": true,
+      "hint": "Здесь нужно выбрать все правильные ударения. Проверьте каждую форму отдельно: прирученный, повторит, наживший, дешевизна, прозорлива. Сначала назовите часть речи и форму слова; не переносите ударение с начальной формы автоматически. Заглавная гласная в условии — проверяемое предположение, а не подсказка.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "029926": {
+      "sourceContentSha256": "edd6d319365197a6ec972981d20b2ea9c5f96148575c1c7ccb71c9e2c06a6e90",
+      "explanationSha256": "123b3b649b3449ba5ebad5fea36b05ec520a6f824ec5ceba2080e72777f7a497",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с помощью ряда определённо направленных вопросов. Особенно [пропуск] важно в тех областях, где исследование переобременено массой…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "032DE7": {
+      "sourceContentSha256": "94768ca9ee0d0654b487f1acd0435bcb84644d5cf88eebfbf58f86e2fd81246f",
+      "explanationSha256": "b925804f59cb1cb49b3481c6e45dabff64e42675373d4d742f16ff2897d523ef",
+      "explanationPublished": true,
+      "hint": "Условие требует: вводное слово. Определите, вводится ли пример, вывод или оценка достоверности. Учитывайте уже поставленные запятые; не делайте вводное слово членом предложения. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…обычно «привязана» к странам и районам добычи. (3)Этим, [пропуск] , объясняется и то, что в ряде стран Азии, Африки и Латинской…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "например",
+          "entryId": "ozhegov-1d63a11d3046"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "0413FB": {
+      "sourceContentSha256": "f5934097cab108cc52629e1bc8b79af7ef5405ef1a4fa8df161e99f6cb7a77f0",
+      "explanationSha256": "bf7ab61e7da5bbd5ff465d563ceb688b84b2316dc6b4d3767a8151c6dfa14573",
+      "explanationPublished": true,
+      "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…электрических нагревателей, электрочайников, утюгов. (2) [пропуск] в природе существуют удивительные материалы – сверхпроводники,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "05FF8A": {
+      "sourceContentSha256": "d97e54e391ba713e9634df65e49d96ee4aa269a35b1e61b314a4c75055e61d87",
+      "explanationSha256": "8a7a3f3ce92d6b072200353fa0c3990039969f63d96a8a155d88f0c565356457",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…вниз, но задерживает отдачу тепла в дальние слои атмосферы, а [пропуск] приводит к росту средней температуры приземного слоя атмосферы и…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "09C71B": {
+      "sourceContentSha256": "70623df03d12ddcba97b306cd1cd16299c867870d7cd18c1bea8470b99a7b05a",
+      "explanationSha256": "234a64ab38e52a3fee3f5d9d60a6173b7e7c436868bdab88d9ce5e5734de34c6",
+      "explanationPublished": true,
+      "hint": "Условие требует: наречие времени. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с военной выправкой – сказывались годы сначала в царской, [пропуск] в Красной армии. Постоянную бледность он объяснял тем, что был…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "поздно",
+          "entryId": "ozhegov-ed184f463cde"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "затем",
+          "entryId": "ozhegov-4f18093170ff"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "0FCFA8": {
+      "sourceContentSha256": "c7042b8086beb1b90051334022ccfdc9a9f769071d6a26dfcbd4293cd8a66372",
+      "explanationSha256": "da53ef27290e422b040e1be16625d3a6d04f12cc0240105de509f1ecbcc28650",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…творческих способностей и его жизненного опыта . И поскольку [пропуск] сочетание неповторимо, то искусство имеет бесконечное разнообразие…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "12BBAB": {
+      "sourceContentSha256": "6a318df454eaed61edb8a3b33b597e5e658689cbe74ccb1c00e95bfe3e21b69b",
+      "explanationSha256": "8de69888efa872cee17b9aee0495b2fcc6af896f590455cae09016464379067b",
+      "explanationPublished": true,
+      "hint": "Условие требует: наречие времени. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с военной выправкой – сказывались годы сначала в царской, [пропуск] в Красной Армии. Постоянную бледность он объяснял тем, что был…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "затем",
+          "entryId": "ozhegov-4f18093170ff"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "14FA69": {
+      "sourceContentSha256": "34d41235765b02d46f03dfc20702ee2013808f883218217a46f991d6d02e0e8e",
+      "explanationSha256": "47a1eae8bfb317d6b729c450fe7df5dcd284a26ef9ac769ee4261fc54895c74b",
+      "explanationPublished": true,
+      "hint": "Условие требует: усилительную частицу. Проверьте, что подчёркивается: напоминание об известном или выделение конкретного предмета. Частица не заменяет союз и не называет предмет. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Мы – в снег, и они – в снег. Нам очень нужен был пленный, было [пропуск] объявлено: «За пленного – отпуск домой». Я успел заметить:…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "же",
+          "entryId": "ozhegov-13e89520f3a9"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "162772": {
+      "sourceContentSha256": "7e14ed8be01ae5c30d65cd6565e1bc9d79adb0a9dfd23e00b9bb3843c8b3cdb6",
+      "explanationSha256": "d9ff1afdb54882c43a380dd3c0b0577f97946a01a8ac6bb23c2f7217f1ce463f",
+      "explanationPublished": true,
+      "hint": "Условие требует: личное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…по отношению к его общей массе сравнительно невелики, поэтому [пропуск] уносит в глубины относительно мало воздуха, а с ним и азота,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "он",
+          "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "168CD7": {
+      "sourceContentSha256": "201de92a6a255241ceaa648c743b8ec5073c90e48dbca0a4311af9aaccdd1791",
+      "explanationSha256": "fc1a9284faa5c981a58eb52f4ea54bfd78988338e09e6c4831cc6b94650cae35",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…солнца, снегом, огнём фонарей. Привычная земля казалась в [пропуск] минуты творением гениальных художников или архитекторов. Цвет неба…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "19723E": {
+      "sourceContentSha256": "7d96c3929bbc3d08500933c9cf9705d338d477410b9bfa529809dd510210cef8",
+      "explanationSha256": "aba59bdca0fa62d3aaa577323312725cd5f46e621caea3364470f92d39d4d04f",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…высшую юридическую силу, прямое действие и применяется на [пропуск] территории Российской Федерации. Законы и иные правовые акты,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "весь",
+          "entryId": "ozhegov-d1f374591897"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "1AEE7A": {
+      "sourceContentSha256": "79ce2ab939d4d9377e8cc30370046ee0d4d309970d1d43dda518ac387217ce3a",
+      "explanationSha256": "3923eb96830c06f63a812ad8e4ecd13c52dda44d1cecf1235f489e52cde35de0",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…московскими пределами калачами и сайками, был разборчив и не [пропуск] случаем пользовался, где можно деньги нажить. Испокон веков был…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "всякий",
+          "entryId": "ozhegov-c118a1a4b499"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "317779": {
+      "sourceContentSha256": "70a3f63a7a2ef43de4a57ace3cece042cffa02baab472327b656fffc914a489a",
+      "explanationSha256": "63199187aa41f886cbbd56df915c6cca0a0f5972ab908310c94c0fa313fe9084",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…разгадать их архитектурную тайну. Она заключалась в том, что [пропуск] здания производили впечатление величия, на самом же деле они были…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "324964": {
+      "sourceContentSha256": "eb8670b2cae051de65cc195b42381949078cac249296749ace0ace9153f26d7f",
+      "explanationSha256": "75582c3fab2d59532c79850d354ee09101109c6a9e3fcd2ae3f1271066978382",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…собеседника, порой неожиданным, приводящим к смене тем. С [пропуск] особенностью связаны спонтанность реакций, невозможность заранее…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "3E1E8E": {
+      "sourceContentSha256": "16dc4dfb1f6a16cb6962a196a558ba875958b7bf325eb0ed385fbc34397c423c",
+      "explanationSha256": "80dac941bb11a20a5cc553ee680923d7f17c3e091c36a6d396740cf40ad892e1",
+      "explanationPublished": true,
+      "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…в своих пьесах. Справедливо или несправедливо – другой вопрос, [пропуск] речь идёт о неписаных кодексах чести, приличия, которых обязан был…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "3E21D8": {
+      "sourceContentSha256": "3f066042a53bedbb53731df4a37b179d4da304eeac6c83b71a85d7d49f1186a8",
+      "explanationSha256": "43773401f6b5b7503978ddebc875f97a065d1fcae24d30fc743511b455969811",
+      "explanationPublished": true,
+      "hint": "Условие требует: относительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…предприятии лесоматериалы измельчают до крошки, [пропуск] смешивают с водой. (3)Бумагу же высокого качества делают из…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "который",
+          "entryId": "ozhegov-24b1b9285913"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "3F6D84": {
+      "sourceContentSha256": "12410ae2d470a4de6397e571c13fe638a40d6432dd27290e2c3a077a0b9a2acf",
+      "explanationSha256": "07a324300f3ba1673fc215977d78186fc2abac46a804f45af73ebd4f7257acca",
+      "explanationPublished": true,
+      "hint": "Условие требует: личное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…силой, люди почувствовали себя участниками истории, [пропуск] захотелось сохранить, записать неповторимость происходящего. Но…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "он",
+          "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "3FCABA": {
+      "sourceContentSha256": "cd4855d1b9b660bce2abccbdf449e157aa811d40811398dcf67bcbee90d9b285",
+      "explanationSha256": "7e1a02ca9e31f2e190fb4777ea571d3220497b3e54deceb938b3d2a4660b02c3",
+      "explanationPublished": true,
+      "hint": "Условие требует: местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…часто имели хозяйство за пределами города и пользовались [пропуск] , что оно давало. (3)При этом рельеф Греции не благоприятствовал…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "весь",
+          "entryId": "ozhegov-d1f374591897"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "41E1AC": {
+      "sourceContentSha256": "b835eaa6bd4e692c8d65496c43ffde6938845d913f9874c27f6d530f570a877a",
+      "explanationSha256": "da0c2e9e8873be2402d83c22411af03f5bfb7e059612b953935ed899ca231beb",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…и острый проникает в неё и видит глубины тем глубже, чем [пропуск] он острей. (По М.О.…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сам",
+          "entryId": "ozhegov-9733b6812295"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "432ADD": {
+      "sourceContentSha256": "d879ed2110e713ea857143a089f42acde7021b1ac83a36987896fc84f79c1ab7",
+      "explanationSha256": "a1050d2ce1b0a007e10272aff582ef94dc1f53397768f4ff1da2c5ac9696db83",
+      "explanationPublished": true,
+      "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…является то, что одна группа нервов ускоряет сердцебиение, [пропуск] другая замедляет его, действуя как своеобразный…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4674EE": {
+      "sourceContentSha256": "f1b45dd69d9933e563213c021e0934ac6abe2691e75463ab818b127c1b22fe3e",
+      "explanationSha256": "f5d2849cc79d23c708bed781ace0b0eef824b02f66530e5d6c909092febac456",
+      "explanationPublished": true,
+      "hint": "Условие требует: притяжательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…военно-сухопутного госпиталя, отправился к Пушкину со [пропуск] книгой «Русские сказки», недавно изданной и вызвавшей…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "свой",
+          "entryId": "ozhegov-c94e89e511af"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "473E9C": {
+      "sourceContentSha256": "19fec30021ecf441a1bd61820d2354999ed683271160ff3f1a6559eae439249e",
+      "explanationSha256": "02bfb17c76519a23e231bf45edff207b03ef607448c38903e64868f65be4a624",
+      "explanationPublished": true,
+      "hint": "Условие требует: притяжательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Казыр, пока не расступятся горы и плавные увалы не смирят [пропуск] буйный норов. Вдоль Казыра – непролазная тайга. На взгорках –…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "его",
+          "entryId": "ozhegov-c8124ad7c503"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "497C8C": {
+      "sourceContentSha256": "af7ae39261fd1f0619ee83c7e1b1077b11eb0b6402a7900dc3d3e42b62294f16",
+      "explanationSha256": "4111fc16c10c02193a4e1851f6c2f2b9c874ca7b638074affd1958a27f19109f",
+      "explanationPublished": true,
+      "hint": "Условие требует: относительное местоимение (союзное слово). Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Он повторится и в названии гигантского корабля «Атлантида», [пропуск] является в рассказе образом-символом современной цивилизации.…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "который",
+          "entryId": "ozhegov-24b1b9285913"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "5280BD": {
+      "sourceContentSha256": "a743570f89bd4661d9752cb0dea55cab198f5561e880014fc9ab0276fde67e8b",
+      "explanationSha256": "cf0ec10895c7d0c25fbebd16c485c7b920596e3bde8a3894a2e874585c3ede4e",
+      "explanationPublished": true,
+      "hint": "Условие требует: сочинительный разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…средств. При переходе дороги и движении по обочинам [пропуск] краю проезжей части в тёмное время суток или в условиях…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "или",
+          "entryId": "ozhegov-bcacbff7a563"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "54C7F3": {
+      "sourceContentSha256": "408b2699c7dfa14db24782003e5fa2936928aa5ecb068fb5de4a9ba0c97902a8",
+      "explanationSha256": "6f82a59dcf6a78d1d63005f45c41b3148c384fe4e31f9d89cb41b21e23a77775",
+      "explanationPublished": true,
+      "hint": "Условие требует: подчинительный условный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…как чудаки, жизнь которых противоречит здравому рассудку. [пропуск] человек высший смысл видит в куске прожаренного мяса, то ему,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "если",
+          "entryId": "ozhegov-53934f31f2c8"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "580E03": {
+      "sourceContentSha256": "edf5b939f7c0a9ead33aa6799f336a35e6e80675952c23a90144f5293c85d853",
+      "explanationSha256": "1c257e26c3a629ac8ed1fefb73d58c9a619fc31e0a1d218e4c4f37b2269268ef",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…мы воспринимаем не отдельные звуки, а мелодию; она остаётся [пропуск] же самой, если её исполняет симфонический оркестр, или один рояль,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тот",
+          "entryId": "ozhegov-5b078bee337f"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "59FDD1": {
+      "sourceContentSha256": "0f2b2c16df13b3934c67f53246203599b58f093a0eef2ef8fe9e8edbb5e37a87",
+      "explanationSha256": "7fd4b2cfd5e2656c7dbb0a397e90ed304132c85c964bfdb1fb6cf089339f5978",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…говорим, является только содержанием речи, темой наших слов. [пропуск] темой может быть, например, «природа», «человек», «придаточное…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "63DE3A": {
+      "sourceContentSha256": "df7a05744ec68525a60373c8f827c73f871579085a3cd56ccecb11bddde038d5",
+      "explanationSha256": "fdf2ee591a001b69f68c37b901cb106503f413f282ae72b4a00e7d829620c087",
+      "explanationPublished": true,
+      "hint": "Условие требует: подчинительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…свёртывания крови очень сложный и строго последовательный, [пропуск] каждая реакция катализируется ферментом, образующимся в результате…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "так",
+          "entryId": "ozhegov-f36941010640"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "64A453": {
+      "sourceContentSha256": "c17d16ee7cd797462a9ed2b43478b40246d8cbedccdeaa3c7e0c7949ce36f9ec",
+      "explanationSha256": "4de7778d3783e65d5c7eb97db330158240450a3db4e2e2f89e981438988bcccf",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…обычно «привязана» к странам и районам добычи. (3) [пропуск] , в частности, объясняется и то, что в ряде стран Азии, Африки и…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "65A323": {
+      "sourceContentSha256": "24342ab89df59f6cd0e2122ba1d25f62e11a74abb40545b78ab76f733b066320",
+      "explanationSha256": "f1f67c6076a390b283e03e282306ae30a1fced85ad63d1cf291421b55c1ae866",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…раскрывает свои внутренние возможности и конкретно реализует [пропуск] то, что в нём заложено. (По Ю.А.…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "весь",
+          "entryId": "ozhegov-d1f374591897"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "67E825": {
+      "sourceContentSha256": "5a7ae2f5b699a9177acf356ef95017b97f0739f4aaae120c7f05b25aa94f4ec2",
+      "explanationSha256": "dce5bac86baf9bf4f40d71dfc81754068541646ba171948d27122bf52421b596",
+      "explanationPublished": true,
+      "hint": "Условие требует: подчинительный уступительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…будет выглядеть «не от мира сего», и легче назвать её святой, [пропуск] её деяния – норма именно для человека. (По М.М.…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "хотя",
+          "entryId": "ozhegov-362977536f97"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "хоть",
+          "entryId": "ozhegov-61e5a785bae5"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "6BF8D8": {
+      "sourceContentSha256": "fcb66fc297956971b119c782b75b97288bc967098d4b4b3c375b1c981ef9c3cf",
+      "explanationSha256": "4b72e3d19cb732d754c27ec0472dfbbdc629ea568bf73ab1a1752aab0063b7b2",
+      "explanationPublished": true,
+      "hint": "Условие требует: личное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…мы шли обратно, за заборами на разные голоса лаяли собаки. [пропуск] было множество: овчарки, доги, дворняжки, и на каждой калитке…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "он",
+          "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "765222": {
+      "sourceContentSha256": "0aeb7252ac3502b2db0dc9d27b9271d6e3795b3cd5f2909d3b13300291b02bad",
+      "explanationSha256": "653648b71a5d4b65fd1ed29338bd761a20b093986a3bcc94d2c736c15a8ead3c",
+      "explanationPublished": true,
+      "hint": "Условие требует: предлог. Посмотрите на зависимое существительное и его падеж. Вставленное слово должно оформлять связь с остальной конструкцией. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…из практических потребностей человека. (2)С развитием общества [пропуск] астрономией выдвигались всё новые и новые задачи, для решения…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "перед",
+          "entryId": "ozhegov-485cf066a34d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "85F64B": {
+      "sourceContentSha256": "822255031c8ae3728f26245d78c59feaa1b8e56bbc22a849ddda0f4bd17e1360",
+      "explanationSha256": "12604bfc404d28f1106f7377118455b008f4290e0729997fdffc4cef2d1da089",
+      "explanationPublished": true,
+      "hint": "Условие требует: разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…проекты получения воды путём растапливания айсбергов [пропуск] активного применения процесса опреснения морской воды. (3)Не менее…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "или",
+          "entryId": "ozhegov-bcacbff7a563"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "8A46DE": {
+      "sourceContentSha256": "f17ece4b30eeb3cedead137c3ba021ebf64fb9daf0641bfea3a29d85de7a7a6a",
+      "explanationSha256": "1f13db47c59e01e1b77d70b294ad5678deb07b1967d2dda4b5f6b3b9fb972608",
+      "explanationPublished": true,
+      "hint": "Условие требует: вводное слово. Определите, вводится ли пример, вывод или оценка достоверности. Учитывайте уже поставленные запятые; не делайте вводное слово членом предложения. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…который после болезни не мог различать звуки речи: [д] и [т], [пропуск] , для него звучали одинаково, однако в те же годы он сочинил лучшую…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "например",
+          "entryId": "ozhegov-1d63a11d3046"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "8C38AE": {
+      "sourceContentSha256": "629cc4cce177ef337763206d53c590e4bdd2a020e51ea22fce0be2c00f6ff9c3",
+      "explanationSha256": "e27e2b3ca73779ff7d388227931e61dfbddc1a91eacdc29418f008958474bace",
+      "explanationPublished": true,
+      "hint": "Условие требует: производный предлог. Посмотрите на зависимое существительное и его падеж. Вставленное слово должно оформлять связь с остальной конструкцией. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Им была прожита с сознательно зорким вниманием долгая жизнь [пропуск] катаклизмов сменявших друг друга эпох: никогда не забуду, как в…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "среди",
+          "entryId": "ozhegov-dd4625e1717a"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "90B817": {
+      "sourceContentSha256": "c5755496ac6ae2129f0a079ee351e9f43913c14e7ba2f99286064e930c14632a",
+      "explanationSha256": "31c74f4d407bfde98eb406e5e1f4b59e40f438c7d12f8a240da2a05d41d1d780",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Есть ли вообще в человеке какое-то внутренне устойчивое ядро? [пропуск] феномен может быть осмыслен, по-видимому, двояким способом: либо…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "всякий",
+          "entryId": "ozhegov-c118a1a4b499"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "94B403": {
+      "sourceContentSha256": "f59a776b73d447ceef30889027885fa25eaac4274003f77579ad4640a0cd0280",
+      "explanationSha256": "d02bc87be3a4c61dc85bf2b53af4ef36149afd5971d90ff255ce8bf76232f78b",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…многое: утрачивается какая-то сторона смысла (чаще всего в [пропуск] случаях ускользает эмоциональная тональность), обедняется…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "такой",
+          "entryId": "ozhegov-bdac1cffb8e3"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9683B2": {
+      "sourceContentSha256": "135cbbac9ca326f631fcb5095d72d315bc09fada3b56f61e1517e500ab04c20a",
+      "explanationSha256": "0230957e8d53e6dbcc8893174efce5082d960c94e0900ff1acc1d915cb35959c",
+      "explanationPublished": true,
+      "hint": "Условие требует: притяжательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…предметы народного быта, мысли и чаяния простых людей, [пропуск] психологию. «К особенностям его любви к Руси, – писал Белинский, –…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "их",
+          "entryId": "ozhegov-5a131e9c2935"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9C3DE6": {
+      "sourceContentSha256": "79f4a07584f1b2197b007861dfdb42be485859bb1c12cf953802b5666d5eb3f8",
+      "explanationSha256": "a6846cf84316a5a66572b736b95c0ab1e9c7d55e4a587d76643b0b3925aebe81",
+      "explanationPublished": true,
+      "hint": "Условие требует: личное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…силой, люди почувствовали себя участниками истории, [пропуск] захотелось сохранить, записать неповторимость происходящего. Но…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "он",
+          "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9F80FC": {
+      "sourceContentSha256": "d76bfde27f68840b64a23fb15dbcdc2f597cc64be8efb7c263f2ea7e6a764f58",
+      "explanationSha256": "613e4c56e22047f0ff9fce81739f1a455c94512b4de1064a7155b7672b7202f0",
+      "explanationPublished": true,
+      "hint": "Условие требует: подчинительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…свёртывания крови очень сложный и строго последовательный, [пропуск] каждая реакция катализируется ферментом, образующимся в результате…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "так",
+          "entryId": "ozhegov-f36941010640"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "A4248D": {
+      "sourceContentSha256": "cb3d142859014fb8cce6eef6baf961445362da1bb884e8f9d682250a37ea44cc",
+      "explanationSha256": "568ee53df16bac1757c4ad086cb8aaa5e38c832520073d54077fa95e38d33c6d",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…разрушения горных массивов и деятельности ледников. (2) [пропуск] обкатанные, слегка закруглённые камни были доставлены в те места,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "A4548C": {
+      "sourceContentSha256": "3b120d9c39e0047534d40a55a5c4b0a55219f23034dd54a4ccceb09226f1675f",
+      "explanationSha256": "9f702df0272010f9905230c90f01a61b67c403b62a10e605fca24d3040ad51c1",
+      "explanationPublished": true,
+      "hint": "Условие требует: уточняющую частицу. Проверьте, что подчёркивается: напоминание об известном или выделение конкретного предмета. Частица не заменяет союз и не называет предмет. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…роль играет нервная система, в том числе блуждающий нерв. (2) [пропуск] центральная нервная система человека, работая автоматически,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "именно",
+          "entryId": "ozhegov-1fc8999286e2"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "AC7183": {
+      "sourceContentSha256": "fce5b5c39579855da2c143ef8f712e0cab370a57ef69c114c7a1b0b1088260ae",
+      "explanationSha256": "452a817a70fca26d19ffdc3618339361e09f7d236540b07cfff203ef63357bed",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Юлия Михайловна. Вот ваша книга. А через пять минут я вас и [пропуск] выгоню. У меня работы – непочатый край. Олег. Мне у вас нравится……».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сам",
+          "entryId": "ozhegov-9733b6812295"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "B045C3": {
+      "sourceContentSha256": "d7d17b3670d1595ff62cdeffb975eb0fa40489ef289bac23e6e48587cf180abc",
+      "explanationSha256": "04e359c86427e38ef7204fde3b5e9a730f30944c7b610a124f345b9de27b6a0d",
+      "explanationPublished": true,
+      "hint": "Условие требует: относительное местоимение (союзное слово). Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…а также веществ, вступающих с водой в химическую реакцию, [пропуск] сопровождается интенсивным выделением тепла и разбрызгиванием. По…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "который",
+          "entryId": "ozhegov-24b1b9285913"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "B1B809": {
+      "sourceContentSha256": "a64a6f89db6572d3f0faa66ea62f7425b0eccbd36952d8cf943562dce5b02407",
+      "explanationSha256": "506fda32f9c837e7d27f36f5ed032b42fe27213bb5214cb54dfc5bca6b49958d",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…север, а зимой на юг. (3)Сегодня сохранилось очень малое число [пропуск] особей, поэтому гренландский кит взят под охрану международным…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "такой",
+          "entryId": "ozhegov-bdac1cffb8e3"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "B507A2": {
+      "sourceContentSha256": "cedbb6590ab412f9b38532137d9b3bca87b1774f46087b3e211256c4d5717156",
+      "explanationSha256": "ca232c8be3a1fa98c18e1a0bfe78b910607fecbb34a7d062b795165ea20994ec",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…так же горяча и так величаво и глубоко покойна! Если б [пропуск] была и жизнь!.. (По И.А.…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "таков",
+          "entryId": "ozhegov-633136c5f602"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "BD18BF": {
+      "sourceContentSha256": "96ba1531b5a163dde03c646c4ea0c743db84e7fc699f13f390bca2568a37f66b",
+      "explanationSha256": "8bddc963df0b33d30254708e858c0c7e1ce1efac9f5478cfd596f5c6cf15612d",
+      "explanationPublished": true,
+      "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…гиен, в сообществах большинства приматов есть свои вожаки. (3) [пропуск] теперь выяснилось, что у многих животных это соподчинение проведено…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "C13CB6": {
+      "sourceContentSha256": "039f2e70ce3c07ddb2f5da0b3201d1b31d42b0892f64b1c9906bdb947d048954",
+      "explanationSha256": "1f0f4ee15a2080bae3d17c491af7994aa714d5016f7c10324c79ff3986da9125",
+      "explanationPublished": true,
+      "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…употреблении языка писал ещё античный комедиограф Аристофан. [пропуск] нынешнее наше существование исполнено речевой агрессии как никогда…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "C2F0DC": {
+      "sourceContentSha256": "2ce16657a7eedee211069de001ff663ea1a433de9e004fb0f3127323cfeb77e6",
+      "explanationSha256": "aa95f1071f9c86e036a4850d3897782c11c19bbfc564384580c3f4483563c567",
+      "explanationPublished": true,
+      "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…После такой беседы мы поняли: покорять Антарктиду трудно, [пропуск] можно. Сразу захотелось поглядеть на эти глубокие трещины. Они…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "C36032": {
+      "sourceContentSha256": "9d5aaf5ffbc1665a22d62fb2e3a3177392a4fec998d2db22723ea1a97fa225e2",
+      "explanationSha256": "aa67c2a0d6b6541e79bfd53ac4bc0d9d4177968c629f88002f422d4add5dcac6",
+      "explanationPublished": true,
+      "hint": "Условие требует: относительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Я долго смотрел с кормы вслед Севастополю и загадывал, [пропуск] увижу этот город ещё через недолгое время. В том, что увижу его, я…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "какой",
+          "entryId": "ozhegov-6dfcd1561acb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "C89F82": {
+      "sourceContentSha256": "4c98e13479676b05fd3125fd9ef32987329ce0a314b561f210c3d190b2c6c878",
+      "explanationSha256": "f4c5a6b152ea5b94cd8dcecf5a963d3433856e5adf479a5872557df5e0981a8d",
+      "explanationPublished": true,
+      "hint": "Условие требует: сочинительный противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…– парниковый эффект, претендует на статус достоверного. [пропуск] убедительные научные доказательства, подтверждающие это мнение, не…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "C93798": {
+      "sourceContentSha256": "8ddf17bb2079af8ce9f190c06b7c1221377d9b43d8e6f8d312ac35fdd401db54",
+      "explanationSha256": "bac9941d115c06edb4e758810f0f7fbdde2bf11dacb8cd1155982d99a627f372",
+      "explanationPublished": true,
+      "hint": "Условие требует: разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…глюкозу; соответственно, уровень сахара в крови повышается [пропуск] понижается. (3)Любое нарушение в выработке этих гормонов может…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "или",
+          "entryId": "ozhegov-bcacbff7a563"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "CA07BE": {
+      "sourceContentSha256": "ca0be93288bc9735aaa2642689cdb307f5b98bb867ddbb1b86f3a7dd9f6a168a",
+      "explanationSha256": "ed0e69684f1819a37af4dfc92690d0f404068562e7ec2d3979c834487bfb8263",
+      "explanationPublished": true,
+      "hint": "Условие требует: притяжательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…одиночества и житейских неприятностях. (3)Позже в каждой [пропуск] резиденции имелась библиотека, составленная из одних и тех же книг,…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "его",
+          "entryId": "ozhegov-c8124ad7c503"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "CB8FCB": {
+      "sourceContentSha256": "16683eee6152aa4eff23d58465daa098650502fb66fed5d0819aa310fd4b7397",
+      "explanationSha256": "6a19c3b72c359eb027294978794a565e969d60f1ca79ef24a972630139c64de7",
+      "explanationPublished": true,
+      "hint": "Условие требует: личное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…традиций. (2)Одна из национальных традиций японцев, в которой [пропуск] воспитываются с детства, – любовь и бережное отношение к…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "он",
+          "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D2DE30": {
+      "sourceContentSha256": "5e39b2c53ff4dde269fee6a457ddf22437405b422d462022e7d505a0681577c7",
+      "explanationSha256": "47624a2c567d8f51029a4bbfe4cae705d4bf9f900c8b6f8331f891b4e9b677b1",
+      "explanationPublished": true,
+      "hint": "Условие требует: сочинительный противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…жилые дома были построены по одному из образцовых проектов. [пропуск] каждый из домов имел своё лицо. Пройдитесь по Сивцеву Вражку или…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "но",
+          "entryId": "ozhegov-babcad4ad265"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D30F40": {
+      "sourceContentSha256": "b89ccd0dc76ceeecb7d59747a2c3565b80d6d00ececd21e055bd09c18c241292",
+      "explanationSha256": "d8006f5fcc2608e2bcd59831e3da872389d3942dd2e7574c1f664000bcc171ae",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…типа предложения, то есть от фразовой интонации. [пропуск] касается и словесно­го ударения. Русское слово со своим акцентным…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D86353": {
+      "sourceContentSha256": "bf57ef2a1121ec6e91e1b8ad8bb295a695d69d434213d2dcc93b8467e85c3e37",
+      "explanationSha256": "6d67e9f873319a53790d23e87a06d9d0f1c0be2288709d7d41bf6d04eeff1eac",
+      "explanationPublished": true,
+      "hint": "Условие требует: притяжательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…и низкопробность. Я говорю о кумирах, которые основывают [пропуск] деятельность (творческую, общественную) на вечных ценностях…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "свой",
+          "entryId": "ozhegov-c94e89e511af"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D8A6C7": {
+      "sourceContentSha256": "239f30c35c50095f9c5c8442971c3904a7c142c4590d223981c5f06675cb1436",
+      "explanationSha256": "8a657acca5f97371cf8719a3187bce78b5e78b04a75066d3441fcb32d043c8fa",
+      "explanationPublished": true,
+      "hint": "Условие требует: разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…мир, выражающий эти объяснения колебаниями звука, жестами [пропуск] письменными знаками. В вечном движении мира действуют свои…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "или",
+          "entryId": "ozhegov-bcacbff7a563"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "DED39B": {
+      "sourceContentSha256": "1cf11f839691aada21e762f2f33cd2b099919713d9f71ad809bd0e18e3ad7f9f",
+      "explanationSha256": "8659ae3ccdf7853b781b72736867a5649870d2b86764d2b9ed3d8934e9553e53",
+      "explanationPublished": true,
+      "hint": "Условие требует: наречие. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…обработку, в результате чего получается вытяжка целлюлозы, а [пропуск] из полученного раствора выделяют чистую целлюлозу, из которой…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "потом",
+          "entryId": "ozhegov-07914f8750b9"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "EBA6DF": {
+      "sourceContentSha256": "85c6c8a122c91e0e247008e716cd6d33ea37c27287e5b683d75a3c4eed332706",
+      "explanationSha256": "bf8d134f1b73c7521239d46c46d1b7bccbc3a38d948939100981ed5499ff94ae",
+      "explanationPublished": true,
+      "hint": "Условие требует: подчинительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…его музыкальный строй и его нота «ля» всегда устойчива. (3)Но [пропуск] с оркестром играет пианист, то все инструменты оркестра настраивают…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "если",
+          "entryId": "ozhegov-53934f31f2c8"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "ED40CA": {
+      "sourceContentSha256": "a40e066432025ed19cfe75287c4ec3f2e49600a8f5db6239dfa3eb512726c285",
+      "explanationSha256": "cc88eae18f679824908c32dac2ffe458dc89f1fe3047575282eb6920ad147013",
+      "explanationPublished": true,
+      "hint": "Условие требует: сочинительный разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…и еловым грядам всё нипочём, они всё так же надменно молчат [пропуск] грозно и страшно гудят, вздымают свои возмущённые гривы, и тогда…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "или",
+          "entryId": "ozhegov-bcacbff7a563"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F32163": {
+      "sourceContentSha256": "26c45eeae63e5b5ab5a20ac157fb17abcbd9b201520c987c9d90d4dac621c60e",
+      "explanationSha256": "4c58510ab1a8100e05d3066c951a0286fa78290715a547cc5b19b688c8385dcb",
+      "explanationPublished": true,
+      "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…впервые стали производиться замеры. (2)Ряд учёных считает, что [пропуск] в значительной мере обусловлено промышленными выбросами в атмосферу…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "этот",
+          "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F93935": {
+      "sourceContentSha256": "5a72b60ea38b5346e2317d438efc5e1dcb5d9b49e4dce86ea1c63ddea5244e8f",
+      "explanationSha256": "ae2ae610d8781ed7e376d06c0805f2e7362ad4a0bcd9f52aa21f72506d82c6dc",
+      "explanationPublished": true,
+      "hint": "Условие требует: относительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…прожить жизнь? Прежде всего – не совершать никаких поступков, [пропуск] роняли бы его достоинство. (По Д.С.…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "который",
+          "entryId": "ozhegov-24b1b9285913"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F9547E": {
+      "sourceContentSha256": "877e0a39b166300d14465b8502ca0c9768af1e270aab22dc0c543451341095f8",
+      "explanationSha256": "67bea133123d13269c3668935ba140079d07bf26ddf8d73f20f4378b97f14ec5",
+      "explanationPublished": true,
+      "hint": "Условие требует: личное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…деятельность, называется экологической нишей организма. (2) [пропуск] характеризует положение данного вида в природе («адрес», или…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "он",
+          "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "FBB9F0": {
+      "sourceContentSha256": "9b6f7f63fa9ad207b89be441caf702ddfae3c69a47368dceedea8c432bffbc50",
+      "explanationSha256": "8e800bb7b32321d7e20295a4c5a6bfd95c0d9f090f01e5bac7983dd6c51461bd",
+      "explanationPublished": true,
+      "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…бы составили собой неотъемлемую принадлежность нашего «я». [пропуск] человек представляет собой независимое и обособленное целое. Быть…».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "всякий",
+          "entryId": "ozhegov-c118a1a4b499"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "082CB8": {
+      "sourceContentSha256": "55df8478cac0ccf9186ba34bb0cc034a5d1a16da3f7baebed8001001e08baf8a",
+      "explanationSha256": "1e642f7cde14e1027fdb24f0e9111d9e854ac18d3c241745082216a416422f78",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов печатать, работа, опомниться, поступать, потерять найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "печатать",
+          "entryId": "ozhegov-c60f1eb1ea4e"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "работа",
+          "entryId": "ozhegov-4913b12297f0"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "опомниться",
+          "entryId": "ozhegov-a1c2b4a8ad35"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "одуматься",
+          "entryId": "ozhegov-a88aa08e6b4c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "поступить",
+          "entryId": "ozhegov-92fa20cddfd6"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "терять",
+          "entryId": "ozhegov-0e2b5460b3f3"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "2BA3EC": {
+      "sourceContentSha256": "7e139652c39a6e3807dbd844147b00b032c6ddf7d609bed19e015380496b1f03",
+      "explanationSha256": "1f2b9bf93cfb8198e6a8d55c41f3b2d1e845347c0b5b2e3f928c256b1c3d33d4",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов эпиграф, звучать, масса, наследный, инкогнито найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпиграф",
+          "entryId": "ozhegov-3ed6d08adb72"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "звучать",
+          "entryId": "ozhegov-a298002d15f8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "масса",
+          "entryId": "ozhegov-94977924d637"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "наследовать",
+          "entryId": "ozhegov-1c0c06becc03"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "инкогнито",
+          "entryId": "ozhegov-f0942a5533ca"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "5A83DF": {
+      "sourceContentSha256": "86ac15e907780e023c73ed9af0375ef5850d9051c99b0df017ca03a6dac1275c",
+      "explanationSha256": "9e362e0b2e07bb0d8878de410608b4c91c1ee38970d0fb0a39ca7068b8e6b166",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов содержание, элемент, ввести, вырабатывать, первичный найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "содержание",
+          "entryId": "ozhegov-0373c4faf92e"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "элемент",
+          "entryId": "ozhegov-3ddfca6f24cf"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ввести",
+          "entryId": "ozhegov-78daeea005b0"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "выработать",
+          "entryId": "ozhegov-6328aab5e306"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "первичный",
+          "entryId": "ozhegov-84cc94c51657"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "62A8A9": {
+      "sourceContentSha256": "fdf9185a3dd4a25d8348b6dfc08d8c282b011101c237a296943d66254bcb0ae5",
+      "explanationSha256": "bcb93a35ce2018f4ae838da61ec81ceee57c1221f4a6e36cad5a896b006c565d",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов осветить, масса, чужой, взгляд, вопрос найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "осветить",
+          "entryId": "ozhegov-7afbeabc9e9e"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "масса",
+          "entryId": "ozhegov-94977924d637"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "чужой",
+          "entryId": "ozhegov-f83680c45d0b"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "взгляд",
+          "entryId": "ozhegov-6f46b51ddb07"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "вопрос",
+          "entryId": "ozhegov-ae19c3563ebd"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "7AB7D7": {
+      "sourceContentSha256": "de509421e04d589267b338d545e477bac3eca41d4c61ada79db36c059d958691",
+      "explanationSha256": "afbfac0fa3aaa06400e183873e1e0b30d283147ae0cd8b665d0d7af40a9e5ac1",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов земля, собирать, разводить, верста, шум найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "земля",
+          "entryId": "ozhegov-f3f5c2c67e4c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "собрать",
+          "entryId": "ozhegov-393e4edb90b8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "разводить",
+          "entryId": "ozhegov-081aa2beb865"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "верста",
+          "entryId": "ozhegov-e270dff7b34f"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "шум",
+          "entryId": "ozhegov-ad926f2c7849"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "883E90": {
+      "sourceContentSha256": "bc672b9043f7a89b09a2a165c429325b6bfd5cddfb780dc194b6752bf545ffde",
+      "explanationSha256": "8d11aaf6f0c767b5ff371f6821967b2d1ae041bf16a3bf52ad2c0fb680045224",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов хаос, порог, увал, полый, древесный найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "хаос",
+          "entryId": "ozhegov-2904b258fb24"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "порог",
+          "entryId": "ozhegov-05d737998bcf"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "увал",
+          "entryId": "ozhegov-c3ba33cd625d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "полый",
+          "entryId": "ozhegov-31f943b437ac"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "древесный",
+          "entryId": "ozhegov-5eae2529bc43"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9273A5": {
+      "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152",
+      "explanationSha256": "1c718ac2d2489844994279fee71bf248a6e20bc85ca5c8d0250f48214591977d",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов фундамент, ползти, образ, храм, жизнь найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "фундамент",
+          "entryId": "ozhegov-fa24848d8e19"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ползти",
+          "entryId": "ozhegov-37175c80d354"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "образ",
+          "entryId": "ozhegov-00a797712761"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "храм",
+          "entryId": "ozhegov-460655aafa9b"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "жизнь",
+          "entryId": "ozhegov-6a6bd07db7b0"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9819CF": {
+      "sourceContentSha256": "a6505c9cb475c5d61804b33aa3b69ed022630c1fbc3b7c2ba30260aa1ddca5f2",
+      "explanationSha256": "d1fa203a9b8062e2dd34b00bb406325d9d56c4d647b155dfe60b4ce5058fb969",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов характеристика, тип, позиция, общий, выступать найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "характеристика",
+          "entryId": "ozhegov-7bcf23407b27"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тип",
+          "entryId": "ozhegov-08ec555c4be6"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "позиция",
+          "entryId": "ozhegov-1bf67d8542f3"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "общий",
+          "entryId": "ozhegov-a7ccbb7dae99"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "выступать",
+          "entryId": "ozhegov-bc54443a9053"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "A3FAC1": {
+      "sourceContentSha256": "6dc5a65bf6228650a106a16e9cb72387511f350a1604a0f3aa460583c7c9e33f",
+      "explanationSha256": "d3d0e16c1b4148c01b869d33f967d55820a963c30cff1f55614d165a1cf8de53",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов мир, тройка, сизый, блеск, передать найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "мир",
+          "entryId": "ozhegov-63fb1ae76a9f"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тройка",
+          "entryId": "ozhegov-4cba1c56da47"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сизый",
+          "entryId": "ozhegov-1ae095786725"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "блеск",
+          "entryId": "ozhegov-8f66652f8967"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "передать",
+          "entryId": "ozhegov-21b65ec9d7e5"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "B5A555": {
+      "sourceContentSha256": "3be0f7b7961108f99ad97d8fac22cf313e7ecec21af0ad49372943f9a541a827",
+      "explanationSha256": "4dc07262f4a8ab54a2e747e696a24ddc5f17f781c55e1fbddb8575595982de9a",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов лицо, край, средство, следовать, элемент найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "лицо",
+          "entryId": "ozhegov-f2f069dbeb28"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "край",
+          "entryId": "ozhegov-cc28132f29e7"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "средство",
+          "entryId": "ozhegov-125568a6e48c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "следовать",
+          "entryId": "ozhegov-879ba35f62d3"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "элемент",
+          "entryId": "ozhegov-3ddfca6f24cf"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "BCF56B": {
+      "sourceContentSha256": "1b3452f0db5003adefb31e1441ca4ea7b61be14dec98c64964500875d0e75602",
+      "explanationSha256": "5ec157763c42e2b59655ea6ab59fbf8db6ac0e00cffaa76fc1b1b045f622da47",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов жизнь, типовой, проект, скромный, повторять найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "жизнь",
+          "entryId": "ozhegov-6a6bd07db7b0"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "типовой",
+          "entryId": "ozhegov-08c8934c68e9"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "проект",
+          "entryId": "ozhegov-dfb992e6d06a"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "скромный",
+          "entryId": "ozhegov-3a40c8b1ff40"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "повторить",
+          "entryId": "ozhegov-b0b01da5d833"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "CD2CCE": {
+      "sourceContentSha256": "3fad8fc2519e31253102489fd1759ee03f384091379b64f98a4685857b5ff1e8",
+      "explanationSha256": "857fa40035b8d200252be491b6df0a50f30400cc5da3c65b308a33bc818732dc",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов обычай, послать, свежий, отличие, горячий найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "обычай",
+          "entryId": "ozhegov-7d35f1352759"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "послать",
+          "entryId": "ozhegov-af3b28957b87"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "свежий",
+          "entryId": "ozhegov-19539d227d69"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "отличие",
+          "entryId": "ozhegov-4ba308d5e3b4"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "горячий",
+          "entryId": "ozhegov-1f5a52a9aad7"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "E29F76": {
+      "sourceContentSha256": "eba825b0d80f37c91683cf1c0da9042815c6ae969ab9cbd983b227291307bfa0",
+      "explanationSha256": "3a80ac852b0b60503c9455f7c800eb0541e6e4974f2a2fb32d848218d9c9e3f2",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов длина, расположение, художественный, представление, живой найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "длина",
+          "entryId": "ozhegov-0f723911063f"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "расположение",
+          "entryId": "ozhegov-a571826fc4b6"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "художественный",
+          "entryId": "ozhegov-f9d9e35dbfdf"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "художество",
+          "entryId": "ozhegov-d5e0bb6d55b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "представление",
+          "entryId": "ozhegov-cc52ce762366"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "живой",
+          "entryId": "ozhegov-63ec19cf5ba6"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "E9174D": {
+      "sourceContentSha256": "f0bbc2d71c99b0193feeab625d07cda109486b3c4a59bc541b8e8028a7243799",
+      "explanationSha256": "47ac60b436fcc8548c76dc59cb99eb184bb481393a4637238417d640938c833e",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов прийти, духовный, характер, прозрение, кровь найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "прийти",
+          "entryId": "ozhegov-49ac93ea2a24"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "духовный",
+          "entryId": "ozhegov-52d52b8fba86"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "дух",
+          "entryId": "ozhegov-d1918f93a4ad"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "характер",
+          "entryId": "ozhegov-c7ff979e6b53"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "прозрение",
+          "entryId": "ozhegov-469a26559b10"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "кровь",
+          "entryId": "ozhegov-2821fc7142e7"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "E96B4A": {
+      "sourceContentSha256": "83beeb4dd0bff63d9597ea69558a8e69b19238cfad636e7e0266100e9b57f93b",
+      "explanationSha256": "aec7545d2e1b0a8795f1300c19106c82bb8e858ce17ca592431e4f5fc5427cb8",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов готовый, оценивать, ход, сфера, свободный найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "готовый",
+          "entryId": "ozhegov-e6a3ee8eb898"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "оценить",
+          "entryId": "ozhegov-f0290d252164"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ход",
+          "entryId": "ozhegov-a4beab58fae9"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сфера",
+          "entryId": "ozhegov-ccd88a9e8d0c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "свободный",
+          "entryId": "ozhegov-d744c8e91bb8"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F4E1F3": {
+      "sourceContentSha256": "770e218b4b09deb3139b56d046c34257d367b7ea45cd98f76ad66cdf4ee8b750",
+      "explanationSha256": "39e3b14b51de7d4ef807b57920b93f024bb87746cd8847b6f0b4eeb7812cb7a0",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов сокращение, режим, масштабный, считаться, оценка найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сокращение",
+          "entryId": "ozhegov-ab4ab1709128"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сократить",
+          "entryId": "ozhegov-c2d74c1d4623"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "режим",
+          "entryId": "ozhegov-7b222424711a"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "масштабный",
+          "entryId": "ozhegov-c8ab8568a077"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "считаться",
+          "entryId": "ozhegov-92e8df902415"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "оценка",
+          "entryId": "ozhegov-45b9ff4df114"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F5E433": {
+      "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002",
+      "explanationSha256": "a2b9dadb7d36b62cd1477fc9b72b211692f2e80f21b9153e29719d2f9617f930",
+      "explanationPublished": true,
+      "hint": "Не выбирайте толкование только потому, что оно существует в словаре. Для слов стиль, опыт, прямой, ловить, сила найдите конкретное сочетание в тексте и подставьте в него определение. Различите буквальное значение, переносное значение и омонимы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "опыт",
+          "entryId": "ozhegov-a3309a813b61"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "прямой",
+          "entryId": "ozhegov-b429b89c455d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ловить",
+          "entryId": "ozhegov-b145f7857cd4"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сила",
+          "entryId": "ozhegov-dea119aae128"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "0BA3C6": {
+      "sourceContentSha256": "1c0186c3ff8ccbb99f7cbdfa73cae20446436ebe9e5a3861312aa3aa974020bb",
+      "explanationSha256": "30a03e5bf5e39cc2320b28cd0b449e7c917b698d516e192c68b94aa09c54a53c",
+      "explanationPublished": true,
+      "hint": "Текст объясняет виды ударения. Сравните определение понятия с предписанием, а специальное сочетание — с эмоциональным тропом.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "0CD8FF": {
+      "sourceContentSha256": "fad1ef0e63c2c554eaaa00094c2e1d29fc9fb19d79337d909383cf25e09d4866",
+      "explanationSha256": "f4c08758864201b07a82a168ac2b6441f0e11ae54b5d64a17f15a0f3c8873a2f",
+      "explanationPublished": true,
+      "hint": "Автор может научно рассказывать об официальном стиле. Не приписывайте тексту автоматически тот стиль, который является его темой.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "рецензия",
+          "entryId": "ozhegov-f4fa04fa1d06"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "11B23B": {
+      "sourceContentSha256": "e6f2235389feb8f041366a072b322417caf4bc329fccb596157d54c7760cb337",
+      "explanationSha256": "f8a9949414677b13848de4c6f0e13405468eabc6987b80feca439b750e1d26b7",
+      "explanationPublished": true,
+      "hint": "Рассмотрите термины передачи чужой речи. Не каждое определение при существительном является эпитетом; проверьте весь перечень примеров.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "1D6F38": {
+      "sourceContentSha256": "cfb971f83ded404113272ae19221d0f0b0250c681a03bb289538ca0f1f01f4da",
+      "explanationSha256": "5266d7cc666b6bdaef965b983ae0aa032aac70dc38f43391689a51511d8c4fcd",
+      "explanationPublished": true,
+      "hint": "Выясните, что делают правила пешеходов: устанавливают обязанности или объясняют научную закономерность. Наличие придаточного ещё не означает, что оно часто используется.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "22F594": {
+      "sourceContentSha256": "7b38f4533ada18d41697c5e71690b69f303bfff538e5776f35f122b16abb3113",
+      "explanationSha256": "6f63f2d4927acc7c2295971ad43f9dd74d9186c204e839ed882c2bebad4acf0c",
+      "explanationPublished": true,
+      "hint": "Сопоставьте исходное суждение о Филиппове с примерами его поступков. Отдельно проверьте точные лексические пометы — они относятся к конкретному значению слова.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "инверсия",
+          "entryId": "ozhegov-0a7a59b27bb8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "барыш",
+          "entryId": "ozhegov-9d04820cc2b3"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "заваль",
+          "entryId": "ozhegov-4c55e05ba7c8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "жертвователь",
+          "entryId": "ozhegov-ad840ff8fc4c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "нажить",
+          "entryId": "ozhegov-181976835885"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "2D40BC": {
+      "sourceContentSha256": "ca957e175a211ae8e323e3343ebce4d4e613183b1a6cd44988e914fcef91cd56",
+      "explanationSha256": "5eee6fa44334aa744540e5f71b0273e100c2132247132808073e09eaf49d2b92",
+      "explanationPublished": true,
+      "hint": "Отделите тезис о мотиве смерти от подтверждающих деталей. Вводная конструкция организует мысль, а цитата должна дословно воспроизводить чужую речь.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "цитата",
+          "entryId": "ozhegov-89dbe1a39059"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "инверсия",
+          "entryId": "ozhegov-0a7a59b27bb8"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "30F5D4": {
+      "sourceContentSha256": "6f344bd258bf382a1ac498973ec3df7f2209323df14b8f74e52379f7a2ac3124",
+      "explanationSha256": "0ad844de13efb8cc5ab6ae62216436d409f0449dab61a5abfaf6602ed808d497",
+      "explanationPublished": true,
+      "hint": "Обратите внимание на образ рек и авторскую оценку Пушкина. Упоминание биографии не превращает эмоциональное размышление в научный доклад.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сравнение",
+          "entryId": "ozhegov-f19ed3cfd735"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "311327": {
+      "sourceContentSha256": "31141e29e732e9ce1385803e988805fe75a7ec59a793afc48557b21cfa7851c1",
+      "explanationSha256": "9470d0db49a05b29adb218c3ec7ddde0eb4addeb2ecb4fc2bac68e3ae7bd9b7e",
+      "explanationPublished": true,
+      "hint": "Определите, рассказывает ли автор о признаках предмета или доказывает мысль о культурной традиции. Проверьте, все ли слова в спорном перечне имеют заявленные пометы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "499DD2": {
+      "sourceContentSha256": "a17d469701e3b0aea5ec55ba5f86264d6e9cde2e8bd8faeda9d89e22412b0317",
+      "explanationSha256": "dad9f822fe544e8d31fd798c0a302122ee46bbf18babe429e4d836fb85775c44",
+      "explanationPublished": true,
+      "hint": "Найдите определения системы и алгоритма. Упоминание учёных ещё не означает описания их внешности или инструкции для них.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "диалог",
+          "entryId": "ozhegov-36a5f034febb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4BF0EE": {
+      "sourceContentSha256": "2cdea6b66e3f38d9d41ac2ffd47b3361cfc20a2d47f0ee392491a909cc56d18e",
+      "explanationSha256": "9d20232672e3b95a2a56c59113d155ee53dfed83baf1de1708ebdff9056410ab",
+      "explanationPublished": true,
+      "hint": "Сравните живые реплики героев с официальным предписанием. Названия пород могут быть специальными словами, но важно, служат ли они здесь научному объяснению.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "диалог",
+          "entryId": "ozhegov-36a5f034febb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4E099B": {
+      "sourceContentSha256": "4178ebc8dc17b0eb8947fcfe30a4634410081e97867e2316064a7880b2715c1f",
+      "explanationSha256": "6450d7ab9a08da31a66524427885266eacd9f0fa2a4596f0f8d8a5f11520d3e7",
+      "explanationPublished": true,
+      "hint": "В сочетаниях с «как» различайте уподобление и указание роли. Сопоставьте книжное объяснение чужой речи с признаками ситуативного разговора.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сравнение",
+          "entryId": "ozhegov-f19ed3cfd735"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "5159D8": {
+      "sourceContentSha256": "2baded7120c4d2cfacf6f4852c961d783a08f880abd48004f5e03409aa3748d2",
+      "explanationSha256": "cba7692cf125d61837c86424dab84ebcf181da9e350af8cf50c7ac1d5f9dace0",
+      "explanationPublished": true,
+      "hint": "Различите официальный документ и объяснение читателю, зачем слышать литературный текст. Проверьте, создают ли названные определения образ или прямо называют признак.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "545D8F": {
+      "sourceContentSha256": "e699f187a4750e0757c618677ff50e167d4e70309956eec49299527dd4393672",
+      "explanationSha256": "6b0967ff79a6f09a8c2c31da3bfc816f7ba8c237d717231dce99f87f86883b61",
+      "explanationPublished": true,
+      "hint": "Найдите оценку личности Лихачёва и образные сочетания о памяти. Вопросительные предложения встречаются и в книжном рассуждении.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "598D63": {
+      "sourceContentSha256": "6b07d369db0e7ffa736cb449538783f36e341fe7cf44b403d44e615842504392",
+      "explanationSha256": "ab664693ff0bdaf1c3d93a15e9b15ef0961a9d27fbb2c8be75f119a68d705301",
+      "explanationPublished": true,
+      "hint": "В статье Конституции различите установление нормы и учебное объяснение нормы. Проверьте, чем организованы пункты и есть ли частые вводные конструкции.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "5AF7A4": {
+      "sourceContentSha256": "10c54f8f29bc7222912fa3646757c06ea520d52b9be511e7af72253850ae474c",
+      "explanationSha256": "39e8c19dc0095aba4e9ab9daafebf148fd38d4de83351253eabc46697dc9374b",
+      "explanationPublished": true,
+      "hint": "Проверьте функцию строительных названий и буквальных обозначений цвета и размера. Не всякое прилагательное — эмоциональный эпитет.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "621719": {
+      "sourceContentSha256": "9ca783c92bf30be91f8c10d0132cf35c40b2860a8d1afed1fe9528ab4f8bc69c",
+      "explanationSha256": "81761ae92435a3e631e891fc670fd8f370ba2e615133aca37e599402b89887a6",
+      "explanationPublished": true,
+      "hint": "Определите, требуют ли вопросы художника ответа собеседника. Не путайте передачу чувства через картину и через вводные или вставные конструкции.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сравнение",
+          "entryId": "ozhegov-f19ed3cfd735"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "690525": {
+      "sourceContentSha256": "cf40748417cb6a9dabc7ecde952569a0619f89d7ab6ed923d544db9e3fb94f3a",
+      "explanationSha256": "f225b23d4f7f688ae8382c82d6d056136a2cb910dfab24fdc93feda128ce145a",
+      "explanationPublished": true,
+      "hint": "Сравните общий вывод о ценности дневников с конкретными записями инженера. Упоминание котла не равно рассказу о строительстве гидроэлектростанции.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "цитата",
+          "entryId": "ozhegov-89dbe1a39059"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "7BF565": {
+      "sourceContentSha256": "0e9f6e57efe35ad1f6244f3af0b967fa9f26371453aea0232ede6f162ecf1bbb",
+      "explanationSha256": "3837b09354ed1c6fe17c48b428a44ed6870cfdbcad04a9e29a67725ee6ab76ea",
+      "explanationPublished": true,
+      "hint": "Местоимение «мы» может объединять автора и читателей в разных стилях. Проверьте, как последний пример конкретизирует мысль о друзьях кумира.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9AFD41": {
+      "sourceContentSha256": "357ebbe3070ed6625f78ac8670ef0b4416d1d494acc1c9c1c89fa32f627afebe",
+      "explanationSha256": "7cd733cc8f99b8e632ec015291b63d04158db4227a2e793bdb813ac48c20df88",
+      "explanationPublished": true,
+      "hint": "Ищите личное переживание города и образы, а не только исторические даты. Сопоставьте разные приезды рассказчика в Севастополь.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "A25525": {
+      "sourceContentSha256": "01ae833ecaa51a5ee7ca9d5dcf13e09a3453bad3355b74001591f390705d117c",
+      "explanationSha256": "4e6a0d68ecf066d02899004bd53a5f645bcafac461e551d9159bf6b4202b74b8",
+      "explanationPublished": true,
+      "hint": "В законе о рекламе проверьте точные условия нормы и порядок контроля. Процедура не обязательно является доказательством научного тезиса.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "B17764": {
+      "sourceContentSha256": "2003f6a0ca8e4942029aff6d21cf5200401c1f958b7d35c042ec460f356aed62",
+      "explanationSha256": "933458e35c60ac0d1e275e30eb4a6d4f3a9c92a93af3da5a29740ee1c7eedd00",
+      "explanationPublished": true,
+      "hint": "Движение облаков может быть частью динамического описания. Различите риторическое обращение, восклицание и подлежащее «вы».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "повествование",
+          "entryId": "ozhegov-d18b48243e27"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "обращение",
+          "entryId": "ozhegov-3a35c43f75c6"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "B9A47F": {
+      "sourceContentSha256": "557588ea9ddc6a72f3397b43a938e26afe646b148e915ff19336ec5a22c0cb66",
+      "explanationSha256": "2c71243bf4174092ee2ca92377c7c39da3234840ffc0476c507c29a6be52754a",
+      "explanationPublished": true,
+      "hint": "Установите основную цель инструкции об огнетушителях. Повтор термина не доказывает эмоциональную анафору, а техническое определение не обязательно является эпитетом.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "BF4E1B": {
+      "sourceContentSha256": "3f58cbb83bd00c192b5c1c3039db89bc312cb6b6a73e2d256b4bb1760f06f55d",
+      "explanationSha256": "cf481e06a12e9a42e85c6d06a9907331a2cd405378f09c698741706a17c6c37d",
+      "explanationPublished": true,
+      "hint": "Определите, что делает второе предложение финального абзаца: объясняет причину или продолжает картину. Бытовые старинные слова не становятся из-за редкости научными терминами.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сравнение",
+          "entryId": "ozhegov-f19ed3cfd735"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "C69403": {
+      "sourceContentSha256": "e9ff6c08fec5b4e0245f0aebee7d6a4c6b455bc4decfd7e73ec723ab889ecc7a",
+      "explanationSha256": "c8e0a513b6f1b03a97e1f38a3ee0dfd27e1d9036e0850f2a35d9442b6447b3eb",
+      "explanationPublished": true,
+      "hint": "Проследите связь общего суждения о докторе Лизе с примерами помощи. Проверьте итоговую мысль и реальные конструкции вместо общего впечатления о простоте текста.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D1A6A5": {
+      "sourceContentSha256": "bdc52db05ca10a526b61b1ceb7491d46beb58da7e89cf033b26eb1860ebae8a5",
+      "explanationSha256": "123c46606a6cb096d3030a5d2dbddd6b25ea8e0713b27b18514ba090f0e589aa",
+      "explanationPublished": true,
+      "hint": "Сравните специальную лексику климата с признаками разговорной беседы. Оценка научного стиля не требует доказывать физическую истинность каждой фразы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D36670": {
+      "sourceContentSha256": "0b8aeff1ad08c155f216e723b3f954a682a6f0b7d579e775cf3c8a4318c23110",
+      "explanationSha256": "d2e0c70e9db194c44b48762fa58e6a3e5c6812b19f7f3a9f90a4ff4f9d35014e",
+      "explanationPublished": true,
+      "hint": "Отделите биографический факт о Зощенко от предположения рассказчика. Начальный портрет человека не обязательно является тезисом для научного доказательства.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D822EE": {
+      "sourceContentSha256": "d962ff9e98ebd8efc1ad7fd09f721d22e4b6a0d37e86dd10863416e42080d402",
+      "explanationSha256": "799ea277e1c03a8c968c5fe39c70429e914ec9da373a5b67bd4a5fc242615cc4",
+      "explanationPublished": true,
+      "hint": "В рассказе о булочнике проверьте бытовые словарные пометы и функцию перечислений. Последовательные события не делают текст описанием.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "инверсия",
+          "entryId": "ozhegov-0a7a59b27bb8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "барыш",
+          "entryId": "ozhegov-9d04820cc2b3"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "заваль",
+          "entryId": "ozhegov-4c55e05ba7c8"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "жертвователь",
+          "entryId": "ozhegov-ad840ff8fc4c"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "нажить",
+          "entryId": "ozhegov-181976835885"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "DC1571": {
+      "sourceContentSha256": "9b0ce1ceb68e34544915d1f18e6789897a336e3d6df5ad30093b33596e1896ed",
+      "explanationSha256": "e1f14328a242f7c97699d74a253b1b3e35f6ab562478c75b7d148a7bdeabee05",
+      "explanationPublished": true,
+      "hint": "Найдите проблему речевой агрессии, аргументы и общий вывод. Числа и цитата могут поддерживать убеждение читателя, а не только научное сообщение.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "цитата",
+          "entryId": "ozhegov-89dbe1a39059"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "E04AAA": {
+      "sourceContentSha256": "655e308f05f3c89a4973295a1c70bf5144cbc65af81a05053136206c110853fc",
+      "explanationSha256": "4f4d5d6ae2707937d07684f5975422dc739f78b53a09800bef523d4d7aadb7bd",
+      "explanationPublished": true,
+      "hint": "Сравните образные названия реки и леса с настоящими терминами. Проверьте, является ли каждый пример определения эмоциональным эпитетом.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "норов",
+          "entryId": "ozhegov-319f7f8044ce"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "E4D238": {
+      "sourceContentSha256": "2d0baef355dccb922fcf94a758cf7c28fd1cc49cab78b2582b57bd2f1401a94a",
+      "explanationSha256": "aaef3909d1df2ba15fc67cf6f402b81c83a5dd32f8c8e845e079e637616769e7",
+      "explanationPublished": true,
+      "hint": "Проверьте предложенную классификацию каждого примера: есть ли второстепенные члены, сколько грамматических основ. Не доверяйте только словам «простое» и «сложное» в варианте.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "термин",
+          "entryId": "ozhegov-81d744278e7d"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "диалог",
+          "entryId": "ozhegov-36a5f034febb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "ECF124": {
+      "sourceContentSha256": "c940a0d1293016fcf7cf301f780bbf8647450c627e7edbe4c9cdf7d9c0ae25f5",
+      "explanationSha256": "41c01986a075ade448d9db78a5d095898f85ce41b1b6c73089aca4920474e3e9",
+      "explanationPublished": true,
+      "hint": "Отделите речь автора от цитат Пушкина и Даля. Проследите, чем объясняется работа над словарём: конфликтом или поддержкой.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F95665": {
+      "sourceContentSha256": "dc7316e548e35fa65880c3336733acdd8f4b3b8587e7a9101561a4c165477bf8",
+      "explanationSha256": "4fddb8c4dc38305a5506e877d47d0ced0e3512fecf1fb4dd9be2777374da3f53",
+      "explanationPublished": true,
+      "hint": "В варианте с метафорой проверьте обе части: действительно ли она есть и подтверждается ли именно в последнем абзаце. Сравните честный труд и представление о «кормушке».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "метафора",
+          "entryId": "ozhegov-457c6331bbef"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тезис",
+          "entryId": "ozhegov-67a75df76196"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "FA951C": {
+      "sourceContentSha256": "a78647fa507478a5934091df5efc7101609d2909ca609f54fd6f46f75f93daa6",
+      "explanationSha256": "03d9ad4a4f93b72d2ed250fae1275c1e582a873508a79949b5deb408f67de17f",
+      "explanationPublished": true,
+      "hint": "Лингвистические понятия не относятся автоматически к общественно-политической лексике. Различите именную часть сказуемого и образное определение.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "эпитет",
+          "entryId": "ozhegov-6dc94507a463"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "диалог",
+          "entryId": "ozhegov-36a5f034febb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "FBD2A1": {
+      "sourceContentSha256": "22d194dd9d131b9e00873a311941b7c1d3b4b5f9cba1c828f195fb0d4297c00d",
+      "explanationSha256": "17dbfd8014b7d93753e82d88b6fe3a144d4ec32d98ea7104c790307272518f4c",
+      "explanationPublished": true,
+      "hint": "Проверьте, ради чего автор говорит о садах: только для создания картины или для размышления о человеке и природе. Найдите реальные глагольные формы, а не выводите их из темы.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "стиль",
+          "entryId": "ozhegov-48c977e981b5"
         }
       ],
       "paronymPairIds": [],
