@@ -15,4 +15,12 @@ end = source.index('# END EMBEDDED ANSWERS', begin)
 source = source[:begin] + '# BEGIN EMBEDDED ANSWERS — refreshed by bundle_fipi_checker.py\n' + \
     'EMBEDDED_ANSWERS = ' + pprint.pformat(answers, width=110, sort_dicts=True) + '\n' + source[end:]
 path.write_text(source)
+plan = json.loads((ROOT / 'dev/data/fipi_new_hypotheses.json').read_text())
+proposals = {c['guid'].lower(): {k:c[k] for k in
+             ['cardId','sourceContentSha256','candidates','hypothesisBasis']} for c in plan['checks']}
+begin = source.index('# BEGIN NEW HYPOTHESES')
+end = source.index('# END NEW HYPOTHESES', begin)
+source = source[:begin] + '# BEGIN NEW HYPOTHESES — refreshed by bundle_fipi_checker.py\n' + \
+    'EMBEDDED_NEW_HYPOTHESES = ' + pprint.pformat(proposals, width=110, sort_dicts=True) + '\n' + source[end:]
+path.write_text(source)
 print(f'Embedded {len(answers)} existing answers; no application cards changed')

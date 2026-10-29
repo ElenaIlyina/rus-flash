@@ -21,6 +21,23 @@ import check_fipi_answers as checker
 
 
 class FipiCheckRunnerTest(unittest.TestCase):
+    def test_new_batch_is_bound_to_snapshot_and_excludes_existing_keys(self):
+        plan = checker.load_plan(ROOT / 'dev/data/fipi_new_hypotheses.json')
+        self.assertEqual(len(plan['checks']), 438)
+        self.assertEqual(set(checker.EMBEDDED_NEW_HYPOTHESES), {c['guid'].lower() for c in plan['checks']})
+        for check in plan['checks']:
+            self.assertNotIn(check['guid'].lower(), checker.EMBEDDED_ANSWERS)
+        with tempfile.TemporaryDirectory() as temp:
+            directory = Path(temp)
+            sample = plan['checks'][0]
+            path = directory / ('card_' + sample['cardId'] + '.json')
+            path.write_text(json.dumps(sample['sourceSnapshot'], ensure_ascii=False), encoding='utf-8')
+            selected = checker.validate_plan(checker.plan_from_cards(directory, plan, new_only=True))
+            self.assertEqual(selected['checks'][0]['candidates'], sample['candidates'])
+            changed = dict(sample['sourceSnapshot'], html=sample['sourceSnapshot']['html'] + 'changed')
+            path.write_text(json.dumps(changed, ensure_ascii=False), encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'Изменился исходник'):
+                checker.plan_from_cards(directory, plan, new_only=True)
     @unittest.skipUnless(shutil.which('openssl'), 'openssl required for local TLS fixture')
     def test_tls_certificate_failure_and_explicit_curl_k_equivalent(self):
         class Handler(http.server.BaseHTTPRequestHandler):
@@ -143,6 +160,18 @@ class FipiCheckRunnerTest(unittest.TestCase):
                 self.assertEqual(len(standalone_report['results']), 1)
                 self.assertEqual(standalone_report['results'][0]['attempts'][0]['answer'], 'неизбежность')
                 self.assertEqual(standalone_report['summary']['withAcceptedAnswer'], 1)
+                new_sample = checker.load_plan(ROOT / 'dev/data/fipi_new_hypotheses.json')['checks'][0]
+                (standalone / ('src/cards/card_' + new_sample['cardId'] + '.json')).write_text(
+                    json.dumps(new_sample['sourceSnapshot'], ensure_ascii=False), encoding='utf-8')
+                new_output = standalone / 'new-results.json'
+                completed = subprocess.run([
+                    sys.executable, 'src/check_fipi_answers.py', '--cards','src/cards','--new-only',
+                    '--output',str(new_output), '--base-url',
+                    f'http://127.0.0.1:{server.server_port}', '--delay','0','--batch-delay','0',
+                ], cwd=standalone, capture_output=True, text=True)
+                self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+                new_report = json.loads(new_output.read_text())
+                self.assertEqual([r['cardId'] for r in new_report['results']], [new_sample['cardId']])
         finally:
             server.shutdown()
             server.server_close()
