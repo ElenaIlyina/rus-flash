@@ -21,7 +21,7 @@ def main():
         source=json.loads((ROOT/'data'/f"card_{meta['id']}.json").read_text())
         assert not runtime['explanation'] and not meta['paronymComparisons'] and not meta['strategyHint']
         assert {k:v for k,v in runtime.items() if k!='explanation'}=={k:v for k,v in source.items() if k!='explanation'}
-    expected=Counter({i:2 for i in range(1,7)});expected[5]=114
+    expected=Counter({i:2 for i in range(1,7)});expected[5]=114;expected[6]=67
     assert Counter(r['task'] for r in reviews)==expected
     for review in reviews:
         card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
@@ -115,5 +115,5 @@ def main():
             assert not errors,errors
             browser.close()
     finally:server.shutdown()
-    print('PASS: 114 task 5 cards + urgent set 1–6; source integrity; answer checking; dictionary sources; mobile layout')
+    print('PASS: 114 task 5 + 67 task 6 + urgent set 1–4; source integrity; answer checking; dictionary sources; mobile layout')
 if __name__=='__main__':main()

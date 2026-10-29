@@ -18,6 +18,7 @@ def check(root):
         'assets/brand/slovo-za-slovo-school.png',
         'js/stress-list.js', 'assets/data/stress-list.json', 'assets/data/stress-list-source.pdf',
         'js/paronyms.js',
+        'js/lexical-norms.js',
         'assets/data/paronym-index.json', 'assets/data/paronym-index-source.pdf',
     ]
     for relative in required:

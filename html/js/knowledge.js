@@ -5,6 +5,7 @@ import {
 } from "./data.js";
 import { esc, rich } from "./ui.js";
 import { stressListPage } from "./stress-list.js";
+import { lexicalNormsPage } from "./lexical-norms.js";
 import {
   paronymListPage,
   paronymTheoryPage,
@@ -23,7 +24,19 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
     heading(kicker, esc(title), esc(subtitle));
   const meta = catalog.cards.find((c) => c.id === params.get("card"));
   if (params.get("dictionary"))
-    return dictionaryArticlePage({ params, heading, backLink: back(meta) });
+    return dictionaryArticlePage({
+      params,
+      heading,
+      backLink: back(meta),
+      task: meta?.task,
+    });
+  if (params.get("list") === "lexical")
+    return lexicalNormsPage({
+      heading,
+      backLink: back(meta),
+      cardId: meta?.id,
+      catalog,
+    });
   if (params.get("list") === "paronyms" && params.get("view") === "theory")
     return paronymTheoryPage({
       heading,
@@ -119,6 +132,6 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
           "Выберите правило в справочнике.",
           '<a class="text-link" href="#knowledge">Открыть справочник</a>',
         )) +
-    `<section class="panel method-panel"><h2>Библиотека источников</h2><p><a class="text-link" href="#knowledge?list=paronyms${context(meta)}">Алфавитный список паронимов из всех упражнений</a></p><p><a class="text-link" href="#knowledge?list=stress${context(meta)}">Полный список ударений по частям речи · ФИПИ, 2026</a></p>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}</section>`
+    `<section class="panel method-panel"><h2>Библиотека источников</h2><p><a class="text-link" href="#knowledge?list=lexical${context(meta)}">Лексические нормы: удаление лишнего слова и замена</a></p><p><a class="text-link" href="#knowledge?list=paronyms${context(meta)}">Алфавитный список паронимов из всех упражнений</a></p><p><a class="text-link" href="#knowledge?list=stress${context(meta)}">Полный список ударений по частям речи · ФИПИ, 2026</a></p>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}</section>`
   );
 }

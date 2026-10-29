@@ -32,7 +32,12 @@ export function paronymTheoryPage({ heading, backLink, cardId }) {
   );
 }
 
-export async function dictionaryArticlePage({ params, heading, backLink }) {
+export async function dictionaryArticlePage({
+  params,
+  heading,
+  backLink,
+  task,
+}) {
   const article = await loadDictionaryArticle(
     params.get("dictionary"),
     params.get("entry"),
@@ -45,6 +50,18 @@ export async function dictionaryArticlePage({ params, heading, backLink }) {
         "Выберите ссылку на словарь в разборе задания.",
       ) + backLink
     );
+  const relatedUrl =
+    task === 6
+      ? `#knowledge?list=lexical&card=${esc(params.get("card"))}`
+      : task === 5
+        ? "#knowledge?list=paronyms"
+        : "#knowledge";
+  const relatedLabel =
+    task === 6
+      ? "Лексические нормы"
+      : task === 5
+        ? "Алфавитный список паронимов"
+        : "Справочник";
   return (
     heading("СЛОВАРЬ", esc(article.headword), esc(article.title)) +
     backLink +
@@ -53,7 +70,7 @@ export async function dictionaryArticlePage({ params, heading, backLink }) {
       .map((line) => `<p>${esc(line)}</p>`)
       .join(
         "",
-      )}</article><p><a class="text-link" href="#knowledge?list=paronyms">Алфавитный список паронимов</a></p>` +
+      )}</article><p><a class="text-link" href="${relatedUrl}">${relatedLabel}</a></p>` +
     backLink
   );
 }
@@ -80,7 +97,7 @@ export function renderDictionaryReferences(refs = [], cardId) {
     ).values(),
   ];
   return unique.length
-    ? `<nav class="rule-links dictionary-sources" aria-label="Словарные статьи">${unique.map((ref) => referenceLink(ref, cardId)).join("")}</nav>`
+    ? `<nav class="rule-links dictionary-sources" aria-label="Источники">${unique.map((ref) => referenceLink(ref, cardId)).join("")}</nav>`
     : "";
 }
 

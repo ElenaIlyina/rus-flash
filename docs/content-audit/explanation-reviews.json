@@ -1873,6 +1873,676 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "bd0da9b21e58c5f8ccefb9fb2aa484c63c4085b96263689afd1fd5a2028608ea",
       "explanationSha256": "f4534f22eb934be31178e5fffcfb3506e881feacf3eaa349c26f9f1c75331f7c"
+    },
+    {
+      "id": "060C0F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ac698ef48cd63782e31a3a72113bc6fed93b728ec1391cf390c194f573d5b03d",
+      "explanationSha256": "bb7dfa4c7b63d7e343d9ac7b321b6f3b04c5a0ab0f32474f28ec12565a118d48"
+    },
+    {
+      "id": "079D68",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f5e89b761986e3dfa3293bbde344645f3a6b019a1fe6a9c4a04ad4b04218779b",
+      "explanationSha256": "6408d5ec56df804e9787cd21ab03bb47287012b6bc0eae226ecc921b3e34b072"
+    },
+    {
+      "id": "0CB0DD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "387b55e851234a267b1595e3a1671bcf5d0b4644dfbfc5a9b7b1eaba4159e147",
+      "explanationSha256": "3c1b1d14eef15748130fd530a6b2555cc82593c20f21009f081700762c1c64a6"
+    },
+    {
+      "id": "0CB588",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fe82778006a5b8835a0222a3085b7c6c5cc532cd6a67d191002041fd21e2e1be",
+      "explanationSha256": "a02bcad488e95c8cf67a4615638e30bd4e968e11d62a09b0116c310a8a9cb7c2"
+    },
+    {
+      "id": "16D9F4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f65819ae037388aeadc13d930c1c737daedf5da440345db5e2e48c3e31284b20",
+      "explanationSha256": "65d98d43777b0a8c3c0c64ebdc4a7bb3face30e213e7b2452abf015e386bdb4c"
+    },
+    {
+      "id": "1D1FBE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d1b8eb000be43b818ac839805a9d626d11c16a014601d7023f58d313a08f96f6",
+      "explanationSha256": "960fa2fccbef3d9555b8418d122d2ab9d5100c2a7bb6bdd61d4c6a611959df59"
+    },
+    {
+      "id": "1FCD37",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0d11dd5b7c8849d5ecccebd6c7f67f4e9237812488791971ad2f4d46e945949d",
+      "explanationSha256": "821f7f36658a712521dcbc0ae81b5db7d8c946949b318e58441b99854931c9ef"
+    },
+    {
+      "id": "1FF860",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d31033c6013a4b7a90b243cef520c7e514707a884256bea2c71359a0a976f319",
+      "explanationSha256": "59b576473fc54d465d0bd136f0d42bca68d55901f8f1d6703a0ca0264c9b7419"
+    },
+    {
+      "id": "270017",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a1068c09bbf81bcddb76579d5350cce0999925e728f45d0c591c9740d4f75b01",
+      "explanationSha256": "cdbdb098f24e17bf767e807596b2a706d6b092f52de730b5013063b588967d76"
+    },
+    {
+      "id": "2C4EBE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4556c41230889e96d4ba4f0ffdeea5444600479338c30b81864ee7ca4abab682",
+      "explanationSha256": "f07bb2ddc07662718f0e66e82defeeb33a6baa4f3742b3e1e439fcac223b5658"
+    },
+    {
+      "id": "2EC28B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c97c7049c2b3f425d18a9f72dd6fed2a07e951e26e70ccc839daf947e4348ab1",
+      "explanationSha256": "7aef5e90738111b37647d2f30d89a51a8ae9327e81fafa0674177bd24097c2ba"
+    },
+    {
+      "id": "3281CA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "19d4afea70d64fab7de727ccd2b718a684f78d68c772889e15cde076ad3d7168",
+      "explanationSha256": "91213ef67014c4e0586499b8e890badbf786700b54919169901d337aefd9a675"
+    },
+    {
+      "id": "352316",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "97edc979a5a60f01ce20e5f5a85ac7f1163bc9a8f2bce78ea0e4d125e2e5da7f",
+      "explanationSha256": "64e45b14c8b0c081bce9ccccd43a16ae25eb357efa091822d1e7aab56dd7b4fa"
+    },
+    {
+      "id": "35F9AD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2199a2e0d1d0066e6a85843f21efdb75701c1bfdee7dbaa3a90af596dbae7d31",
+      "explanationSha256": "43a0b6a0e6f7c7b2135637e2ec3d6965a97643c1c52a8fe27f3404fb0d0d55f3"
+    },
+    {
+      "id": "3BE49C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "78a4d6de3dc1e6441c1a5add3c994c6944b7a6eaf98f62091dad6702018dcfa7",
+      "explanationSha256": "715180289e57359abd30a1dbabe7f66335329c189e87c0e454755d10f92c6510"
+    },
+    {
+      "id": "3C08D7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "44410853659e9ade34bc9e53890c581c34d2117aad1172927eb31a609524f90b",
+      "explanationSha256": "d62a6955c6c3bee3cb91df1562bfc4f243166526fea61dd293448323c96bc632"
+    },
+    {
+      "id": "439D2C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c57e9533b74ebd64463a939c138e7607a3144a8e90603c3e72010416d6b86a30",
+      "explanationSha256": "cb985c101b1d9415d0b2640573e74a13e6ff2e962d2045b690fd2ef9967b676d"
+    },
+    {
+      "id": "5D58C2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "92cdb790b56506d4536c2580188a80aae5df235c6ae44ea5706d26bc5e3f7904",
+      "explanationSha256": "0258aa1e98331a7f068fba4ac645ce22150a33ae98fc6d4a297de3d47884bc80"
+    },
+    {
+      "id": "5F9412",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6fb1fb46dbc10aa72a8ca8c1f1ab2d89d585a7f0f856753a9ded173f53f0cce8",
+      "explanationSha256": "8d67c7df1c1e404e38223c00463412914cdeb11e6fc03e4e7594810bd2845d97"
+    },
+    {
+      "id": "61CAE3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9037274f7460ef4f6ceabe94a35ccc74b7b4038bc910cfba7cffec68102ddf31",
+      "explanationSha256": "c0af3130854d2958cdc7dc8d66ced76321b569c1bc09daee494332e66f9c318a"
+    },
+    {
+      "id": "62221D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6ac2eb7d83d276426eabeaffcd121f0b3ed85bfb185564c790f8240be6895c6a",
+      "explanationSha256": "5cf9e56dc0d965a3ff7a9ae38a7cbbdc539062de60a7804b68c58ffe94ee8f92"
+    },
+    {
+      "id": "627BFA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "70e3eba2524f5c538f8c1346ca2b5613794e12c73b13300dfde9bea8c66585b7",
+      "explanationSha256": "501f9d70b6dbd2e07c91bd1178813ce1f25d2b63d9d83cb04e9500386d790aac"
+    },
+    {
+      "id": "64BAB0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8a0fd6d77b2801b4fb42886dd3592057013be6048377d0449c031abb188dcee7",
+      "explanationSha256": "7dfa2a22127160d6ff7986893d10f068c2648ae0a22b84ca9015ecd4dd428730"
+    },
+    {
+      "id": "6C3603",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e1e4fa050c8d42b3f2d2acf12e49773fde95cbe678b2a9aa339f93f2cb76aabb",
+      "explanationSha256": "cb48ec7e81c01e311fd2ebaf82c0a0ad65767185582564f2f46c409a497f5ec3"
+    },
+    {
+      "id": "6ECC3F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ec1fd59de6e90ad03038803c658f0cf8641b3594138460241c55ec32953e2d3f",
+      "explanationSha256": "738b0b213f8141aa49b6a7d6050940151ca04bfd57b6e2c15162464a011f0097"
+    },
+    {
+      "id": "6F7776",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7ceb5d7051c78e6f1e62a521778e79a513cdef58c4323ec00001e437cbee5ad5",
+      "explanationSha256": "2fcc0c29017a916389db19154ace9e58c1025533e49bfc3310260a8f1f5fd17d"
+    },
+    {
+      "id": "7013D5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5f92a283930faf42575f1a9bf1ee0de7b545eacc5cb26d295550462f28bfa5f9",
+      "explanationSha256": "e86059ffda081b3a1e48d6e73ba4961c6337bca59e847e62955b5c2f1b743a5a"
+    },
+    {
+      "id": "74341C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "94c77a0fada172bf08f9743d14c4fa8425ee85c255ca8aaee21d71a75595a55f",
+      "explanationSha256": "b5158854145c36ececb6f4cb4a9f964653ec90fdb8518a1034d96561a1467df0"
+    },
+    {
+      "id": "78A254",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d2da49734eb48a5b75c86c8826e8d98f5e4ce95fa26b06b3f2f14bf9b613c685",
+      "explanationSha256": "13b977b149cf745f1a835270cc2252f752114ae0ddbe11d447f3160515f231bd"
+    },
+    {
+      "id": "7CD0F3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "769709738c9f48f80fd27fb419cc032f11e7ac5c8ccc72daea8ff2a08e2a0590",
+      "explanationSha256": "d49ae02fc27be418dd76842ee83e826530977fc53b48b7411c8d840717a9caee"
+    },
+    {
+      "id": "849E31",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2c197e900e9a3165f4b5b8415fcc46cc1c74194538e433e031e40fd7e60c3543",
+      "explanationSha256": "f83e8404ff720864604397ca883fe233864a788d38a0c1ba9eaf1a0ddb64fc13"
+    },
+    {
+      "id": "84A09F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "15b4b99fe128213fa36d95d1ff52220bcd2ab6e7026a6094172225753fd9419e",
+      "explanationSha256": "501a453f3555c016cbca0b01b75a2e15a51e7e1761b64d7ffd9502cba79853ab"
+    },
+    {
+      "id": "8E5D59",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b857968e31fd47e5a3efc9d300c9fd108073c1df2f4e26e2651b7166819ebb76",
+      "explanationSha256": "f3f912f5316e40fe2ee370968bb7e19385bc49c89cd01056813bf1edf52fafc6"
+    },
+    {
+      "id": "91A822",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "830deb18299c3da385c365b837b4ef67fd90dfcd1e63a19f9615190970cd6494",
+      "explanationSha256": "cfc657b99b84534c581a5dab59797029152d51af9b670f92dd5a31cc8816ba70"
+    },
+    {
+      "id": "926BD7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6e99d8962c8cdf285cde06dba9ca5030ceb5c6b6878a6ecfb8a89695c671a0b2",
+      "explanationSha256": "de4e32abd59a05e4410ad1bfcae0335271a8dfc5df1a29e8e9d5ab4d72c01436"
+    },
+    {
+      "id": "98489F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2e802ed4fa6d445ed498a4b657003e5a0acea8af31a7aef7328209c98b696765",
+      "explanationSha256": "4ef59c24bc2d29cd91e94d3cd2712f8d2231b671397eafcd143c1296de59b9d6"
+    },
+    {
+      "id": "9BC9C0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a12eba16cfeee742bebc614ee3c7a4bfa724ac578e03d1986cb27ee1c436ed11",
+      "explanationSha256": "52746141a284163c748361bca6dad4b86aede89dbd23871aab28e97b6affe500"
+    },
+    {
+      "id": "9D74E9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8b8af089002aa959bad0e370a04060e2a4ca11ce0916fda889bae84650fe34a3",
+      "explanationSha256": "c9b8a6b09b0f8f2a510406a8aaeda0e5de21db13f8e24e5d95c5e342976a93bf"
+    },
+    {
+      "id": "9E1098",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1668512a770ce0048ed1fc8c006914f78328a039930d35ddc064b2cbd3529d38",
+      "explanationSha256": "2bbebf16e6969658bcc747d2ef2b7870abbd81dc24be9edb73ae1d8d437fc505"
+    },
+    {
+      "id": "A0983E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5eab7d1e396737f442f99e86314760b81e6cd6455214b3be385d184eb3c235d5",
+      "explanationSha256": "7fc11c79ca7b2a72874e13b88343f5eec606a092205272c0bafffdba525b4f34"
+    },
+    {
+      "id": "AE91AF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8994ab69008192e8da82050e36b5c31a59cb7e777d150c03828edf59c3d5ad00",
+      "explanationSha256": "89dd9880b95ee953dcc8653e236215d038694428c52180da999dd07fb7bce502"
+    },
+    {
+      "id": "B3C04B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "864497044e71ac25f0938a69585888722c25e1cd28ca2a069f942853aeef1539",
+      "explanationSha256": "017b8b34542d7f9d13cb950ea99b33cd7a299c106ccf20357503cfaeab4ef4f4"
+    },
+    {
+      "id": "B5E8E4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9e384b62f93a5fea4480f470eb1a64be1a8cebb0138df6ea5a303bf09b2d354d",
+      "explanationSha256": "7a112f8d948b220f623b526a7ff0f278a4be0ad621c2a2b7883e963f627c72af"
+    },
+    {
+      "id": "B83CD8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c0061ee97a03f4f1e20680b251df0e4f0e12be0410f3da4e661827fcdf5bf842",
+      "explanationSha256": "d901722f5d96ca5d53663d164a2aa929ac3ceddef28a5b0ec21921e69f1aaf94"
+    },
+    {
+      "id": "BFAE57",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "094ff4cb4ba52bf623614668d8048585e259a52b5acbbe1757526027465ac32e",
+      "explanationSha256": "5e66ede7e79450832bccb83069d98a6eadd2dd6d5efca7151395e0feebbe9fcf"
+    },
+    {
+      "id": "C1F6AE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "21200eff0401f5baa4df131d5c97a89c85edccdc53e4bbe7898eff06cb9a1665",
+      "explanationSha256": "58dcad01fb21b2b4e14c6db639aaa0b0976d70848a7f57c385b3cdc7ef97c726"
+    },
+    {
+      "id": "C3F6BC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2bad7e1e3d2d76bda15590bca21696a368f9858d9a73f73ed2ae179b0cd6cefe",
+      "explanationSha256": "6b680c6b59232a677c55132b878bcd6e3862aea51476fdd188457004a27e0ba8"
+    },
+    {
+      "id": "C50FE5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a2f6842ce5b78a1ecd6b22907852e4a1ce6f741cec3a5b1a6a94c7f2fd83e4c3",
+      "explanationSha256": "771e21d4b793d84cbf799f471be6ad475efe006ad5e6df8e4167dd6c62a9f00f"
+    },
+    {
+      "id": "C7CF0B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "87ce769b5bfb84e6ebabd4aab13d3c7b5184b0812508a6102043afc1f523e926",
+      "explanationSha256": "468cf05234f1e91ca8a3d7ff83aba7792fe345208521936f8062c35dee0968f6"
+    },
+    {
+      "id": "CAB45F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4c565f11d8c1fa3709087e9c422390c3b877e2e9ddaa783bbcf09aad82b5987e",
+      "explanationSha256": "261a39c35d3ae429097d229cbbc8104bfe54938079ba19589dcda2f418192cef"
+    },
+    {
+      "id": "CB11BB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f9b552c657ea8105ff4560123a0446fa407f16c792356bec6e3f99696d4341fc",
+      "explanationSha256": "a341356a0fc8b27a706d78b2d7c4dada72c528beeeb7f86f8e29f536d0958409"
+    },
+    {
+      "id": "CD5855",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a348429b7598478c67b5a56059660d4a949054a7ef652b1cf6dfa31aca4428b5",
+      "explanationSha256": "6ae71e44fc8c5b7e3fc8beb30bfbb5d057dff1b80e62b6c56e7eee977d651f2d"
+    },
+    {
+      "id": "D52745",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "165c739bdb6da5130fd2e004ec4d3953d29cf2894b869fe25874a69efbf8c05a",
+      "explanationSha256": "506d62bda1b5e173fd4f0d4b2c8ba0d33a899f2d1f6eec274584d2a003aefa73"
+    },
+    {
+      "id": "D820E1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5c828215204a3591a38c3947eb32da598e1d38635e6dbd7c9522373a2b134108",
+      "explanationSha256": "ee2e8bca0d935368252a7b5a5812435f84d8639ce1029f287d9a0b91a2bcdebe"
+    },
+    {
+      "id": "DA7A61",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f37bf3748c017e9174fb53208cd826ccc6d0c325b066cdee78f4734d9c2eb7dd",
+      "explanationSha256": "1baf2879575b7ed27e4e23d2599ad19a3d7b4caf342c20f2a4413fd0e44566cf"
+    },
+    {
+      "id": "DCF3FC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "75f1e0923d784550648bf04bb2a46b135033aa034d26b32601d6bd658e399501",
+      "explanationSha256": "4ad3786464c901d39b26716f067bea1bf803fe3b2db6e629a9779188ff10e020"
+    },
+    {
+      "id": "E19566",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c4a6c31aaac2be891b49ec0027f3632dfe9dd0f3cee2cd0b4f30442d06df39c5",
+      "explanationSha256": "72a871001594b544c9cd59e9e23a78091e235b9d0cf04fe6a280a8f3fdf0e8eb"
+    },
+    {
+      "id": "E1D6F2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "938b18a07552c9698661c1c69ac65dcdd6315fd975ad5acbcc4c96a34c85ead5",
+      "explanationSha256": "116ecfcc93bb4c40cebd62ab844f3a93a1b8b6f03dc89395bf56eb465236f43b"
+    },
+    {
+      "id": "E50C0B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "30330bb21cd7c671efa629de2178c4b72845e7bf4a69f592cc494e3845a720ce",
+      "explanationSha256": "1d9fa2cb58901dce4a016cbd43651c28a80f8e3bf21cae7e8b96b7870c4b7399"
+    },
+    {
+      "id": "E68FF7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "442f876644b6e20e65c87609eb61666d7a6fd671d94a982ef159697c770866a3",
+      "explanationSha256": "ae6226425934d4155b93315f7f2daae428390f73158a06347087fafcc75ea1a2"
+    },
+    {
+      "id": "E86C6A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fd959ebcbaaef3340b5a6955f0badb24b9b3bb441f18039adb4595b5fda25017",
+      "explanationSha256": "11bec2d91f2905e41556fae9d7c6475538edf3d3407b2b95559f831c0238311a"
+    },
+    {
+      "id": "E98B8B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "84eeea7c62fa5610a7ecaee097c6d164bb7b576cc2e4ca5211ba13b0764b0892",
+      "explanationSha256": "050d46b87e27bc1e36ef2d75c32169514d79e44a5ec90142869ec6c4e730e7bd"
+    },
+    {
+      "id": "EFD46C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "75ca6c3e3d47e173fdfdb15572a55fdf7ff3adf5ed75c9d91d0888df33dee4df",
+      "explanationSha256": "ffb8f88067173947a4de6dcaedb85f9f212d124cb87f2dbc65cfa1049b3c212d"
+    },
+    {
+      "id": "F06518",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "dd7745b96cec980540e2deec2ddca092eba5c67ee71804747811837f3f98da52",
+      "explanationSha256": "5ab1e6ec90b015efb80a09ebecd14c44a112af7cb6973691221d494ebd969b06"
+    },
+    {
+      "id": "F3E10B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e889c7b0976cd1ebebf24034eef872bdb8ad47a5ecd9018f5a3dff43ec997bdf",
+      "explanationSha256": "d0b67638b7886c001c125250dc2dfe80efb69f84a788567c07f35088c230553c"
+    },
+    {
+      "id": "F6854B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "95811a77f98a43f7d0fe0aa85b593079d3794a77dd6434469b277a82ab5caac5",
+      "explanationSha256": "884ac892e189fe7bfa2f3ae90b597d717a549d464ef8528763d24f21aae9ebef"
+    },
+    {
+      "id": "F748EC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "dictionary_checked_applied",
+      "reason": "№6: удаление/замена показаны на исходном предложении, убраны универсальные запреты, добавлены подсказка и прочитанные словарные статьи. Спорные контексты отмечены отдельно.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9f13ac5895cd422534368617850689e60d9ff532c645f587d96e07aa9a22f09c",
+      "explanationSha256": "45615a3e425e70ac832606f596495b785dd74345f3e9377b10ec758e7624d098"
     }
   ]
 }

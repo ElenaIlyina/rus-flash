@@ -111,7 +111,7 @@ def main():
             raise ValueError('Priority explanation changed; update review record: ' + cid)
         position = mapping(c)
         task = position['task']
-        dictionary_ready = task != 5 or publication_ready(prefix_reviews.get(cid, {}), paronym_sources)
+        dictionary_ready = task not in {5, 6} or publication_ready(prefix_reviews.get(cid, {}), paronym_sources)
         public_card = c if dictionary_ready else {**c, 'explanation': ''}
         version_basis = {'card': c, 'position': position, 'assessmentPolicy': 'responses-v1'}
         material_version = max(2, int(hashlib.sha256(json.dumps(version_basis, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8], 16))

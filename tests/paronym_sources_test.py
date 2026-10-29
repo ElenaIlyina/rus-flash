@@ -18,7 +18,7 @@ class ParonymSourcesTest(unittest.TestCase):
         cls.sources=validate_sources(cls.book,ROOT)
 
     def test_original_pdfs_and_publication_years(self):
-        self.assertEqual(len(self.sources),3)
+        self.assertEqual(len(self.sources),4)
         first=self.sources['ruslang-paronyms-user-copy']
         second=self.sources['vishnyakova-1984-user-copy']
         self.assertEqual(first['pdfPages'],1174)
