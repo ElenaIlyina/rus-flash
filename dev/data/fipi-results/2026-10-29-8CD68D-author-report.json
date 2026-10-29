@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "receivedDate": "2026-10-29",
+  "source": "author_pasted_console_output",
+  "cardId": "8CD68D",
+  "guid": "ff77adcad6e84f1eaec39a9c4f845dc5",
+  "answer": "2526",
+  "wireAnswer": "2526",
+  "reportedStatus": "accepted",
+  "resultFilename": null,
+  "originalReportReceived": false,
+  "httpResponseIndependentlyValidated": false,
+  "productionChanged": false,
+  "reportedCommand": "python3 src/check_fipi_answers.py --cards src/cards/card_8CD68D.json --answer 2526 --insecure",
+  "note": "Автор прислала вывод скрипта: один кандидат, ПРИНЯТ, ошибок 0. Имя и оригинальный JSON результата пока не получены."
+}
