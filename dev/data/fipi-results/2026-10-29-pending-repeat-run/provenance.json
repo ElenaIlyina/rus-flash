@@ -1,0 +1,13 @@
+{
+  "receivedDate": "2026-10-29",
+  "source": "user_uploaded_result",
+  "originalFilename": "fipi-checks-20261029-222729-108612.json",
+  "md5": "40cabc244573bf6b906c1627c2608285",
+  "sha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395",
+  "sourceHashesMatched": 681,
+  "duplicateIds": 0,
+  "duplicateGuids": 0,
+  "requestErrors": 0,
+  "samePlanAndOutcomesAsReportSha256": "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
+  "newlyAcceptedCards": 0
+}

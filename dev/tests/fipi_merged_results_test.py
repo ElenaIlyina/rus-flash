@@ -1,4 +1,4 @@
-"""Audit two real returned reports without live network calls."""
+"""Audit real returned reports without live network calls."""
 import copy
 import hashlib
 import json
@@ -18,7 +18,7 @@ class MergedResultsTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.reports = []
-        for name in ['2026-10-29-first-run','2026-10-29-pending-run']:
+        for name in ['2026-10-29-first-run','2026-10-29-pending-run','2026-10-29-pending-repeat-run']:
             p=ROOT / 'dev/data/fipi-results' / name / 'report.json'
             cls.reports.append((json.loads(p.read_text()),hashlib.sha256(p.read_bytes()).hexdigest()))
         with zipfile.ZipFile(ROOT / 'dev/docs/references/fipi-bank-2026-10-29/source.zip') as archive:
@@ -48,6 +48,16 @@ class MergedResultsTest(unittest.TestCase):
             for answer in check['candidates']:
                 self.assertNotIn(answer['wireAnswer'],rejected)
                 self.assertEqual(answer['wireAnswer'],checker.wire_answer(check['sourceSnapshot'],answer['answer']))
+
+    def test_repeated_run_does_not_inflate_accepted_card_counts(self):
+        previous=merger.merge(self.reports[:2],self.snapshots)
+        repeated=merger.merge(self.reports,self.snapshots)
+        self.assertEqual(previous['summary'],repeated['summary'])
+        before={c['cardId']:c for c in previous['cards']}
+        for card in repeated['cards']:
+            self.assertEqual(card['acceptedWireAnswers'],before[card['cardId']]['acceptedWireAnswers'])
+        self.assertEqual(sum(len(c['attempts']) for c in repeated['cards'])-
+                         sum(len(c['attempts']) for c in previous['cards']),691)
 
     def test_chain_tampering_duplicate_rows_or_error_bodies_are_rejected(self):
         with self.assertRaisesRegex(ValueError,'предшествующий'):
