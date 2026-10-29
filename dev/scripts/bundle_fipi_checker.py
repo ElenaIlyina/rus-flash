@@ -15,6 +15,15 @@ end = source.index('# END EMBEDDED ANSWERS', begin)
 source = source[:begin] + '# BEGIN EMBEDDED ANSWERS — refreshed by bundle_fipi_checker.py\n' + \
     'EMBEDDED_ANSWERS = ' + pprint.pformat(answers, width=110, sort_dicts=True) + '\n' + source[end:]
 path.write_text(source)
+plan = json.loads((ROOT / 'dev/data/fipi_pending_checks.json').read_text())
+proposals = {c['guid'].lower(): {k:c[k] for k in
+             ['cardId','sourceContentSha256','candidates','hypothesisBasis']} for c in plan['checks']}
+begin = source.index('# BEGIN PENDING HYPOTHESES')
+end = source.index('# END PENDING HYPOTHESES', begin)
+source = source[:begin] + '# BEGIN PENDING HYPOTHESES — refreshed by bundle_fipi_checker.py\n' + \
+    'PENDING_REPORT_SHA256 = ' + repr(plan['previousReportSha256']) + '\n' + \
+    'EMBEDDED_PENDING_HYPOTHESES = json.loads(' + repr(json.dumps(proposals,ensure_ascii=False,separators=(',',':'))) + ')\n' + source[end:]
+path.write_text(source)
 plan = json.loads((ROOT / 'dev/data/fipi_new_hypotheses.json').read_text())
 proposals = {c['guid'].lower(): {k:c[k] for k in
              ['cardId','sourceContentSha256','candidates','hypothesisBasis']} for c in plan['checks']}

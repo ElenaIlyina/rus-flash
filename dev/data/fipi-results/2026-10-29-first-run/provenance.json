@@ -1,0 +1,20 @@
+{
+  "receivedDate": "2026-10-29",
+  "sha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243",
+  "md5": "060460b0e28f59381fb55c83a0b242bf",
+  "source": "user_uploaded_result",
+  "sourceSnapshots": "dev/docs/references/fipi-bank-2026-10-29/source.zip",
+  "summary": {
+    "cardsInPlan": 2140,
+    "withAcceptedAnswer": 1388,
+    "withRequestError": 0,
+    "notChecked": 751
+  },
+  "rawSnapshotHashMatches": 2140,
+  "duplicateCardIds": 0,
+  "duplicateGuids": 0,
+  "notes": [
+    "Журнал — свидетельство полученных автором ответов сервера, а не повторный сетевой запрос из облака.",
+    "Все 2140 sourceContentSha256 сверены с исходной выгрузкой. liveTextCompared=false: тексты сервера заново не сравнивались."
+  ]
+}

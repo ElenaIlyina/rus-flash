@@ -202,6 +202,21 @@ class FipiCheckRunnerTest(unittest.TestCase):
                 variant_report = json.loads(variant_output.read_text())
                 self.assertEqual(len(variant_report['results'][0]['attempts']),3)
                 self.assertEqual(variant_report['summary']['withMultipleAcceptedStrings'],1)
+                pending = next(c for c in checker.load_plan(ROOT / 'dev/data/fipi_pending_checks.json')['checks']
+                               if c['cardId']=='D30EAB')
+                (standalone / 'src/cards/card_D30EAB.json').write_text(
+                    json.dumps(pending['sourceSnapshot'],ensure_ascii=False),encoding='utf-8')
+                pending_output = standalone / 'pending-results.json'
+                completed = subprocess.run([
+                    sys.executable,'src/check_fipi_answers.py','--cards','src/cards','--pending-only',
+                    '--output',str(pending_output),'--base-url',f'http://127.0.0.1:{server.server_port}',
+                    '--delay','0','--batch-delay','0',
+                ],cwd=standalone,capture_output=True,text=True)
+                self.assertEqual(completed.returncode,0,completed.stdout+completed.stderr)
+                pending_report = json.loads(pending_output.read_text())
+                self.assertEqual([r['cardId'] for r in pending_report['results']], [new_sample['cardId'],'D30EAB'])
+                self.assertEqual(pending_report['previousReportSha256'],checker.PENDING_REPORT_SHA256)
+                self.assertEqual(next(r for r in pending_report['results'] if r['cardId']=='D30EAB')['attempts'][0]['wireAnswer'],'01001')
         finally:
             server.shutdown()
             server.server_close()
