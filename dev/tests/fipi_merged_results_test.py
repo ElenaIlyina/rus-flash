@@ -18,7 +18,7 @@ class MergedResultsTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.reports = []
-        for name in ['2026-10-29-first-run','2026-10-29-pending-run','2026-10-29-pending-repeat-run']:
+        for name in ['2026-10-29-first-run','2026-10-29-pending-run','2026-10-29-pending-repeat-run','2026-10-29-retry-run']:
             p=ROOT / 'dev/data/fipi-results' / name / 'report.json'
             cls.reports.append((json.loads(p.read_text()),hashlib.sha256(p.read_bytes()).hexdigest()))
         with zipfile.ZipFile(ROOT / 'dev/docs/references/fipi-bank-2026-10-29/source.zip') as archive:
@@ -27,7 +27,7 @@ class MergedResultsTest(unittest.TestCase):
 
     def test_merge_and_retry_have_exactly_the_unresolved_cards(self):
         merged=merger.merge(self.reports,self.snapshots)
-        self.assertEqual(merged['summary'],{'cards':2140,'acceptedCards':2055,'unresolvedCards':14,
+        self.assertEqual(merged['summary'],{'cards':2140,'acceptedCards':2067,'unresolvedCards':2,
                                          'essayCards':71,'withMultipleAcceptedStrings':2})
         self.assertEqual(merged,json.loads((ROOT/'dev/data/fipi-results/merged-ledger.json').read_text()))
         # Use archive snapshots for completeness checks independently of generated local files.
@@ -38,10 +38,11 @@ class MergedResultsTest(unittest.TestCase):
             for cid in ids:
                 (directory/('card_'+cid+'.json')).write_text(json.dumps(self.snapshots[cid],ensure_ascii=False),encoding='utf-8')
             retry=checker.validate_plan(checker.plan_from_cards(directory,checker.load_plan(checker.DEFAULT_PLAN),retry_only=True))
+        previous=merger.merge(self.reports[:3],self.snapshots)
         self.assertEqual({c['cardId'] for c in manifest['checks']},
-                         {c['cardId'] for c in merged['cards'] if c['status']=='no_accepted_answer'})
+                         {c['cardId'] for c in previous['cards'] if c['status']=='no_accepted_answer'})
         self.assertEqual(len(retry['checks']),14)
-        rows={c['cardId']:c for c in merged['cards']}
+        rows={c['cardId']:c for c in previous['cards']}
         for check in manifest['checks']:
             self.assertEqual(check['sourceSnapshot'],self.snapshots[check['cardId']])
             rejected={a['wireAnswer'] for a in rows[check['cardId']]['attempts'] if a['status']=='rejected'}
@@ -49,9 +50,24 @@ class MergedResultsTest(unittest.TestCase):
                 self.assertNotIn(answer['wireAnswer'],rejected)
                 self.assertEqual(answer['wireAnswer'],checker.wire_answer(check['sourceSnapshot'],answer['answer']))
 
+    def test_final_two_plan_matches_unresolved_cards_and_uses_fresh_candidates(self):
+        merged=merger.merge(self.reports,self.snapshots)
+        plan=checker.load_plan(ROOT/'dev/data/fipi_final_two_checks.json')
+        self.assertEqual(plan['previousReportSha256'],self.reports[-1][1])
+        unresolved={c['cardId']:c for c in merged['cards'] if c['status']=='no_accepted_answer'}
+        self.assertEqual({c['cardId'] for c in plan['checks']},set(unresolved))
+        self.assertEqual({c['cardId']:c['candidates'][0]['answer'] for c in plan['checks']},
+                         {'6E2A0F':'263133','8CD68D':'2526'})
+        for check in plan['checks']:
+            self.assertEqual(check['sourceSnapshot'],self.snapshots[check['cardId']])
+            rejected={a['wireAnswer'] for a in unresolved[check['cardId']]['attempts']}
+            for candidate in check['candidates']:
+                self.assertNotIn(candidate['wireAnswer'],rejected)
+                self.assertEqual(candidate['wireAnswer'],checker.wire_answer(check['sourceSnapshot'],candidate['answer']))
+
     def test_repeated_run_does_not_inflate_accepted_card_counts(self):
         previous=merger.merge(self.reports[:2],self.snapshots)
-        repeated=merger.merge(self.reports,self.snapshots)
+        repeated=merger.merge(self.reports[:3],self.snapshots)
         self.assertEqual(previous['summary'],repeated['summary'])
         before={c['cardId']:c for c in previous['cards']}
         for card in repeated['cards']:

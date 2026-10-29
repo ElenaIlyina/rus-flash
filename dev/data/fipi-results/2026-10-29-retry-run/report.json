@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-29T20:42:01+00:00",
+  "status": "finished",
+  "planSha256": "0e402b694d142a8696e592617d43a0f93d441fe1df0a208982b24da72c6e9dbe",
+  "project": "AF0ED3F2557F8FFC4C06F80B6803FD26",
+  "endpoint": "https://ege.fipi.ru/bank/solve.php",
+  "results": [
+    {
+      "caseId": "BANK-368BDC",
+      "cardId": "368BDC",
+      "guid": "7EAFD43FE16C918147C68696785ECB37",
+      "sourceContentSha256": "d706a61ac2d7e1456c5105eeb04eaf538bd6e6680142eceeb3b15d7e067e4764",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:02+00:00",
+          "answer": "3192",
+          "wireAnswer": "3192",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-36B57E",
+      "cardId": "36B57E",
+      "guid": "3EC4D86AF1BEBA0B42426420E9AEC0CB",
+      "sourceContentSha256": "c9b900e3bb9776d76162ceebe3aa3391f77935643e5399efeaa1b8298da57a0b",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:03+00:00",
+          "answer": "2468",
+          "wireAnswer": "2468",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-407ACB",
+      "cardId": "407ACB",
+      "guid": "a04329011a0848388cd5abbc98f8e469",
+      "sourceContentSha256": "f718ddf5d51cfbf8b2356ce2a299f0137be01a91c934453890c03ae64e91b5f3",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:03+00:00",
+          "answer": "123",
+          "wireAnswer": "123",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-493DA7",
+      "cardId": "493DA7",
+      "guid": "903EB76094F9A08B48C6FBCED68620AD",
+      "sourceContentSha256": "eb8a59e3d280de004d33ad13cf9ed1218335c769b9a40517ca9dda91dc5687cb",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:04+00:00",
+          "answer": "13689",
+          "wireAnswer": "13689",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-6E2A0F",
+      "cardId": "6E2A0F",
+      "guid": "2D16C9C7FFC98636461B76C6E4E16A62",
+      "sourceContentSha256": "fb339b736439fe9713d52abfb5e541e661b2a783f38c49d9aa462376f074f2fb",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:04+00:00",
+          "answer": "26",
+          "wireAnswer": "26",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected"
+        }
+      ],
+      "status": "no_accepted_answer"
+    },
+    {
+      "caseId": "BANK-80459F",
+      "cardId": "80459F",
+      "guid": "BF102855FF23AFD843E34A0749A17B54",
+      "sourceContentSha256": "babefda8aa97661436bc3009062061810faa24b1e2a4d4b209f5bcd176889abd",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:05+00:00",
+          "answer": "245",
+          "wireAnswer": "01011",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-88BC90",
+      "cardId": "88BC90",
+      "guid": "BF24FAEB423E833A4C445D3EDC65320B",
+      "sourceContentSha256": "68f4c6ee230b3926e415c000572cec496c39a3889a5676ee6a8b07cf09d262be",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:06+00:00",
+          "answer": "234",
+          "wireAnswer": "01110",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-8A27AE",
+      "cardId": "8A27AE",
+      "guid": "9FC693981E04923142964C8F03F8D879",
+      "sourceContentSha256": "4d1c1fa2b43267fb5043eb3d9235596c8fb436030de857c07882e8e5932de202",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:06+00:00",
+          "answer": "124",
+          "wireAnswer": "124",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-8BD010",
+      "cardId": "8BD010",
+      "guid": "5f27421768cb4efaa20fcefaa5fff056",
+      "sourceContentSha256": "244193f616c1503e610cb905a2580adf3a18592eb03ce752a91eb718ceb8cf2f",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:07+00:00",
+          "answer": "14",
+          "wireAnswer": "10010",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-8CD68D",
+      "cardId": "8CD68D",
+      "guid": "ff77adcad6e84f1eaec39a9c4f845dc5",
+      "sourceContentSha256": "6e096139068821d93f83108786f83dea577a4a1a0765fb0ea63ff5d8bc7ab6c6",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:07+00:00",
+          "answer": "26",
+          "wireAnswer": "26",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected"
+        }
+      ],
+      "status": "no_accepted_answer"
+    },
+    {
+      "caseId": "BANK-9FB2A8",
+      "cardId": "9FB2A8",
+      "guid": "9BF416AED869B8A143AF32615FE0D39B",
+      "sourceContentSha256": "055e430b01b676abe07e2554a3ac209a9f6d3324e1893d0a2d1660ab60ee24d7",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:08+00:00",
+          "answer": "234",
+          "wireAnswer": "01110",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-D30EAB",
+      "cardId": "D30EAB",
+      "guid": "9742ECB652A3ACF645AADC9ACE1A23A7",
+      "sourceContentSha256": "8b5c0557b2d116963f14aef2ff1f338b3882b60c4e1725f931409b728efbb696",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:09+00:00",
+          "answer": "235",
+          "wireAnswer": "01101",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-DA7A46",
+      "cardId": "DA7A46",
+      "guid": "07D399C11A2D930D4CA4C9B895853C26",
+      "sourceContentSha256": "10bc20fa07fb8777106b7d3e25c04c0f3d43d65fce0a9466924531c8c1cbdc37",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:09+00:00",
+          "answer": "145",
+          "wireAnswer": "145",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-FDD6B0",
+      "cardId": "FDD6B0",
+      "guid": "41277D9F28C480674F4A3B2E9E17CEC9",
+      "sourceContentSha256": "3eae0e799e6c89dd17f961ebe024f00b42559ce6b52a9b72b0fd1ed4a767ce55",
+      "liveTextCompared": false,
+      "mode": "find_accepted",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:42:10+00:00",
+          "answer": "146",
+          "wireAnswer": "146",
+          "role": "revised_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    }
+  ],
+  "runs": [
+    {
+      "startedAt": "2026-10-29T20:42:01+00:00",
+      "delay": 0.5,
+      "batchSize": 20,
+      "batchDelay": 10,
+      "requests": 15,
+      "tlsVerification": false,
+      "caFile": null,
+      "session": {
+        "status": "opened",
+        "httpStatus": 200
+      }
+    }
+  ],
+  "previousReportSha256": "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
+  "finishedAt": "2026-10-29T20:42:10+00:00",
+  "summary": {
+    "cardsInPlan": 14,
+    "withAcceptedAnswer": 12,
+    "withMultipleAcceptedStrings": 0,
+    "withRequestError": 0,
+    "notChecked": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "project": "AF0ED3F2557F8FFC4C06F80B6803FD26",
+  "previousReportSha256": "1e49fe551af3c24452e18adf6dc72f82f2f022381990c46243863fc03d086951",
+  "checks": [
+    {
+      "caseId": "FINAL-TWO-6E2A0F",
+      "cardId": "6E2A0F",
+      "guid": "2D16C9C7FFC98636461B76C6E4E16A62",
+      "mode": "find_accepted",
+      "sourceSnapshot": {
+        "number": "6E2A0F",
+        "guid": "2D16C9C7FFC98636461B76C6E4E16A62",
+        "fetched_at": "2026-10-29T14:12:31+03:00",
+        "url": "https://ege.fipi.ru/bank/questions.php?proj=AF0ED3F2557F8FFC4C06F80B6803FD26&page=1&pagesize=3000",
+        "html": "<div class=\"qblock\" id='q6E2A0F'> \t    <div id=\"hint\" class=\"hint\" name=\"hint\">Задание №4. Впишите правильный ответ.</div>\r\n\t    \t\t<form action='javascript:noAction()' name='checkform6E2A0F' id='checkform6E2A0F' method=\"get\"\t\t>\r\n\t\t<input type=\"Hidden\" name=\"guid\" value=\"2D16C9C7FFC98636461B76C6E4E16A62\">\r\n\t\t<script language='JavaScript'> \n function setAnswer6E2A0F(aform)\n {;}\n </script><TABLE WIDTH=\"100%\" border='0' bgcolor='gray' cellspacing='1' cellpadding=2>\r\n  <TR><TD valign=top width=100% bgcolor=\"#FAFBCA\" class='cell_0'>  <p class=MsoNormal>Среди предложений 26–33 найдите такое(-ие), которое(-ые) связано(-ы) с предыдущим при помощи форм слова. Запишите номер(а) этого(-их) предложения(-ий).</p>  </TD></TR>\r\n  <TR bgcolor=\"#FFFFFF\"><TD>\r\n\t  <TABLE WIDTH=\"100%\" class='submit-outblock'>\r\n\t  \t<TR><TD class='varinats-block'><a name=\"variants\"></a><br><div><table width='100%' cellspacing=0 cellpadding=1><tr><td width=100%><input type=text name=\"answer\" size=40 value=\"\" maxlength=\"250\"></td></tr></table></div><br></TD></TR>\r\n\t  \t<TR><TD class='submit-block'></TD></TR>\r\n\t  </TABLE>\r\n  </TD></TR></TABLE>\t</form>\r\n\t<form name='chkcodeform'>\r\n\t\t\t<input type='hidden' name='guid' value='2D16C9C7FFC98636461B76C6E4E16A62'>\r\n\t\t\t<input type='hidden' name='answer' value=\"\">\r\n\t\t\t<input type='hidden' name='chkcode' value=''>\r\n\t\t</form> </div> <div id='i6E2A0F'>\n    <div class=\"separator\"></div>\n    <div class=\"task-header-panel\">\n        <div class=\"info-button\" onclick='this.parentNode.classList.toggle(\"show-info\")'>i</div>\r\n        <div class=\"task-info-panel\">\n            <div class=\"task-info-title\">\n                <span>СВОЙСТВА ЗАДАНИЯ</span>\n                <span class=\"task-info-title-close-button\" onclick='this.parentNode.parentNode.parentNode.classList.toggle(\"show-info\")'></span>\n            </div>\n            <div class=\"task-info-content\">\n                <table><tbody>\r\n                    <tr><td class=\"param-name\">КЭС:</td><td class=\"param-row\"><div>1.2 Логико-смысловые отношения между предложениями в тексте </div></td></tr>                                                                                <tr><td class=\"param-name\">Тип ответа:</td><td>Краткий ответ</td></tr>                                      </tbody></table>\n            </div>\n        </div>\n        <div class=\"id-text\">Номер: <span class=\"canselect\">6E2A0F</span></div>\n        <div class=\"favorite-button\" title=\"Добавить в Избранное\" onclick=\"changeFavour(this,'2D16C9C7FFC98636461B76C6E4E16A62')\"></div>\r\n                         <div class=\"number-in-group\" title=\"Задание 4 в 03EEC3 \">\n            <span class=\"number-in-group-img\"></span><span class=\"number-in-group-text\">4 (03EEC3)</span>\n        </div>\r\n        <div class=\"answer-panel\">\n             <span class=\"status-title-text hidden-xs\">Статус задания:</span>\n             <span class=\"task-status task-status-0\">НЕ РЕШЕНО</span>\n             <span class=\"answer-button\" onclick=\"checkButtonClick('checkform6E2A0F', setAnswer6E2A0F, this.parentNode)\">Ответить</span>\n        </div>\r\n\n    </div>\n</div>\t    <script type='text/javascript'>\r\n\t        if (favQst.has(\"2D16C9C7FFC98636461B76C6E4E16A62\"))\r\n\t            toggleQFavour('i6E2A0F');\r\n\t        if (solvedQst.has(\"2D16C9C7FFC98636461B76C6E4E16A62\"))\r\n\t            setQSolved('i6E2A0F', '1');\r\n\t    </script>\r\n\t     "
+      },
+      "sourceContentSha256": "fb339b736439fe9713d52abfb5e541e661b2a783f38c49d9aa462376f074f2fb",
+      "hypothesisBasis": "sentence_links",
+      "contextSource": "data/card_6E2A0F.json",
+      "candidates": [
+        {
+          "answer": "263133",
+          "wireAnswer": "263133",
+          "role": "revised_hypothesis"
+        }
+      ],
+      "contextSha256": "831e2083ee2a696f0dd5bdc95884140d25264a88e37ddb5fceb6e275018f5f51",
+      "contextNote": "Общий текст взят из сохранённого проекта: индивидуальные qblock сырой выгрузки его не содержат. Рассмотрены условие и связанные фрагменты; совпадение общего текста с текущим сервером не проверено.",
+      "reviewNote": "Повторно просмотрен весь указанный диапазон и предложения непосредственно перед ним. Кандидат требует ответа 3 от ФИПИ.",
+      "reason": "Ранее пропущено предложение 33: «мне» в 32 и «я» в 33 — падежные формы одного личного местоимения. В 26 «слово», «словом» соотносятся со «слову» в 25; в 31 инфинитив «радоваться» — форма глагола «радуешься» из 30. Полный кандидат: 26, 31, 33. Отказ 2631 не опровергает отдельные найденные связи: в ответе могло не хватать 33.",
+      "previousRejectedCandidates": [
+        "2631",
+        "31",
+        "26"
+      ]
+    },
+    {
+      "caseId": "FINAL-TWO-8CD68D",
+      "cardId": "8CD68D",
+      "guid": "ff77adcad6e84f1eaec39a9c4f845dc5",
+      "mode": "find_accepted",
+      "sourceSnapshot": {
+        "number": "8CD68D",
+        "guid": "ff77adcad6e84f1eaec39a9c4f845dc5",
+        "fetched_at": "2026-10-29T14:12:31+03:00",
+        "url": "https://ege.fipi.ru/bank/questions.php?proj=AF0ED3F2557F8FFC4C06F80B6803FD26&page=1&pagesize=3000",
+        "html": "<div class=\"qblock\" id='q8cD68D'> \t    <div id=\"hint\" class=\"hint\" name=\"hint\">Задание №4. Впишите правильный ответ.</div>\r\n\t    \t\t<form action='javascript:noAction()' name='checkform8cD68D' id='checkform8cD68D' method=\"get\"\t\t>\r\n\t\t<input type=\"Hidden\" name=\"guid\" value=\"ff77adcad6e84f1eaec39a9c4f845dc5\">\r\n\t\t<script language='JavaScript'> \n function setAnswer8cD68D(aform)\n {;}\n </script><TABLE WIDTH=\"100%\" border='0' bgcolor='gray' cellspacing='1' cellpadding=2>\r\n  <TR><TD valign=top width=100% bgcolor=\"#FAFBCA\" class='cell_0'>  <p class=MsoNormal>Среди предложений 24–28 найдите такое(-ие), которое(-ые) связано(-ы) с предыдущим при помощи личного местоимения, форм(ы) слов(а) и лексического повтора. Запишите номер(а) этого(-их) предложения(-ий).</p>  </TD></TR>\r\n  <TR bgcolor=\"#FFFFFF\"><TD>\r\n\t  <TABLE WIDTH=\"100%\" class='submit-outblock'>\r\n\t  \t<TR><TD class='varinats-block'><a name=\"variants\"></a><br><div><table width='100%' cellspacing=0 cellpadding=1><tr><td width=100%><input type=text name=\"answer\" size=40 value=\"\" maxlength=\"250\"></td></tr></table></div><br></TD></TR>\r\n\t  \t<TR><TD class='submit-block'></TD></TR>\r\n\t  </TABLE>\r\n  </TD></TR></TABLE>\t</form>\r\n\t<form name='chkcodeform'>\r\n\t\t\t<input type='hidden' name='guid' value='ff77adcad6e84f1eaec39a9c4f845dc5'>\r\n\t\t\t<input type='hidden' name='answer' value=\"\">\r\n\t\t\t<input type='hidden' name='chkcode' value=''>\r\n\t\t</form> </div> <div id='i8cD68D'>\n    <div class=\"separator\"></div>\n    <div class=\"task-header-panel\">\n        <div class=\"info-button\" onclick='this.parentNode.classList.toggle(\"show-info\")'>i</div>\r\n        <div class=\"task-info-panel\">\n            <div class=\"task-info-title\">\n                <span>СВОЙСТВА ЗАДАНИЯ</span>\n                <span class=\"task-info-title-close-button\" onclick='this.parentNode.parentNode.parentNode.classList.toggle(\"show-info\")'></span>\n            </div>\n            <div class=\"task-info-content\">\n                <table><tbody>\r\n                    <tr><td class=\"param-name\">КЭС:</td><td class=\"param-row\"><div>1.2 Логико-смысловые отношения между предложениями в тексте </div></td></tr>                                                                                <tr><td class=\"param-name\">Тип ответа:</td><td>Краткий ответ</td></tr>                                      </tbody></table>\n            </div>\n        </div>\n        <div class=\"id-text\">Номер: <span class=\"canselect\">8cD68D</span></div>\n        <div class=\"favorite-button\" title=\"Добавить в Избранное\" onclick=\"changeFavour(this,'ff77adcad6e84f1eaec39a9c4f845dc5')\"></div>\r\n                         <div class=\"number-in-group\" title=\"Задание 4 в 7A71AB \">\n            <span class=\"number-in-group-img\"></span><span class=\"number-in-group-text\">4 (7A71AB)</span>\n        </div>\r\n        <div class=\"answer-panel\">\n             <span class=\"status-title-text hidden-xs\">Статус задания:</span>\n             <span class=\"task-status task-status-0\">НЕ РЕШЕНО</span>\n             <span class=\"answer-button\" onclick=\"checkButtonClick('checkform8cD68D', setAnswer8cD68D, this.parentNode)\">Ответить</span>\n        </div>\r\n\n    </div>\n</div>\t    <script type='text/javascript'>\r\n\t        if (favQst.has(\"ff77adcad6e84f1eaec39a9c4f845dc5\"))\r\n\t            toggleQFavour('i8cD68D');\r\n\t        if (solvedQst.has(\"ff77adcad6e84f1eaec39a9c4f845dc5\"))\r\n\t            setQSolved('i8cD68D', '1');\r\n\t    </script>\r\n\t     "
+      },
+      "sourceContentSha256": "6e096139068821d93f83108786f83dea577a4a1a0765fb0ea63ff5d8bc7ab6c6",
+      "hypothesisBasis": "sentence_links",
+      "contextSource": "data/card_8CD68D.json",
+      "candidates": [
+        {
+          "answer": "2526",
+          "wireAnswer": "2526",
+          "role": "revised_hypothesis"
+        }
+      ],
+      "contextSha256": "5a964e8502b8bdd2247c5aeb393c41cd2d6c314f322662702fc13fa26af9f0a0",
+      "contextNote": "Общий текст взят из сохранённого проекта: индивидуальные qblock сырой выгрузки его не содержат. Рассмотрены условие и связанные фрагменты; совпадение общего текста с текущим сервером не проверено.",
+      "reason": "Нужны оба предложения. В 25 «ей» отсылает к Лене из 24; «Дмитриевым» / «Дмитриев» — формы слова, «Лена» повторяется. В 26 «она» отсылает к Лене из 25; «посмотреть» / «посмотрел» — формы одного глагола, «в глаза» повторяется. Отдельные ответы 25 и 26 отклонены; полный кандидат 2526.",
+      "previousRejectedCandidates": [
+        "25",
+        "26"
+      ],
+      "reviewNote": "Повторно просмотрен весь указанный диапазон и предложения непосредственно перед ним. Кандидат требует ответа 3 от ФИПИ."
+    }
+  ]
+}
