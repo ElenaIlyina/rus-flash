@@ -18,7 +18,7 @@ class MergedResultsTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.reports = []
-        for name in ['2026-10-29-first-run','2026-10-29-pending-run','2026-10-29-pending-repeat-run','2026-10-29-retry-run']:
+        for name in ['2026-10-29-first-run','2026-10-29-pending-run','2026-10-29-pending-repeat-run','2026-10-29-retry-run','2026-10-29-final-6E2A0F','2026-10-29-final-8CD68D']:
             p=ROOT / 'dev/data/fipi-results' / name / 'report.json'
             cls.reports.append((json.loads(p.read_text()),hashlib.sha256(p.read_bytes()).hexdigest()))
         with zipfile.ZipFile(ROOT / 'dev/docs/references/fipi-bank-2026-10-29/source.zip') as archive:
@@ -27,7 +27,7 @@ class MergedResultsTest(unittest.TestCase):
 
     def test_merge_and_retry_have_exactly_the_unresolved_cards(self):
         merged=merger.merge(self.reports,self.snapshots)
-        self.assertEqual(merged['summary'],{'cards':2140,'acceptedCards':2067,'unresolvedCards':2,
+        self.assertEqual(merged['summary'],{'cards':2140,'acceptedCards':2069,'unresolvedCards':0,
                                          'essayCards':71,'withMultipleAcceptedStrings':2})
         self.assertEqual(merged,json.loads((ROOT/'dev/data/fipi-results/merged-ledger.json').read_text()))
         # Use archive snapshots for completeness checks independently of generated local files.
@@ -51,9 +51,9 @@ class MergedResultsTest(unittest.TestCase):
                 self.assertEqual(answer['wireAnswer'],checker.wire_answer(check['sourceSnapshot'],answer['answer']))
 
     def test_final_two_plan_matches_unresolved_cards_and_uses_fresh_candidates(self):
-        merged=merger.merge(self.reports,self.snapshots)
+        merged=merger.merge(self.reports[:4],self.snapshots)
         plan=checker.load_plan(ROOT/'dev/data/fipi_final_two_checks.json')
-        self.assertEqual(plan['previousReportSha256'],self.reports[-1][1])
+        self.assertEqual(plan['previousReportSha256'],self.reports[3][1])
         unresolved={c['cardId']:c for c in merged['cards'] if c['status']=='no_accepted_answer'}
         self.assertEqual({c['cardId'] for c in plan['checks']},set(unresolved))
         self.assertEqual({c['cardId']:c['candidates'][0]['answer'] for c in plan['checks']},
@@ -64,6 +64,20 @@ class MergedResultsTest(unittest.TestCase):
             for candidate in check['candidates']:
                 self.assertNotIn(candidate['wireAnswer'],rejected)
                 self.assertEqual(candidate['wireAnswer'],checker.wire_answer(check['sourceSnapshot'],candidate['answer']))
+
+    def test_final_original_reports_close_both_remaining_cards(self):
+        before=merger.merge(self.reports[:4],self.snapshots)
+        after=merger.merge(self.reports,self.snapshots)
+        self.assertEqual(before['summary']['unresolvedCards'],2)
+        rows={c['cardId']:c for c in after['cards']}
+        for cid,answer in [('6E2A0F','3133'),('8CD68D','2526')]:
+            self.assertEqual(rows[cid]['acceptedWireAnswers'],[answer])
+            attempts=[a for a in rows[cid]['attempts'] if a['status']=='accepted']
+            self.assertEqual(len(attempts),1)
+            self.assertIn(attempts[0]['evidenceReportSha256'],[sha for _,sha in self.reports[-2:]])
+        self.assertNotIn('263133',[a['wireAnswer'] for a in rows['6E2A0F']['attempts']])
+        self.assertEqual(after['summary']['unresolvedCards'],0)
+        self.assertEqual(after['summary']['acceptedCards']+after['summary']['essayCards'],2140)
 
     def test_repeated_run_does_not_inflate_accepted_card_counts(self):
         previous=merger.merge(self.reports[:2],self.snapshots)

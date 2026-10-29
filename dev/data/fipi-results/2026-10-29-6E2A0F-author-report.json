@@ -8,9 +8,11 @@
   "wireAnswer": "3133",
   "reportedStatus": "accepted",
   "resultFilename": "fipi-checks-20261029-234915-941012.json",
-  "originalReportReceived": false,
+  "originalReportReceived": true,
   "httpResponseIndependentlyValidated": false,
   "productionChanged": false,
   "reportedCommand": "python3 src/check_fipi_answers.py --cards src/cards/card_6E2A0F.json --answer 3133 --insecure",
-  "note": "Автор прислала вывод скрипта: один кандидат, ПРИНЯТ, ошибок 0. Оригинальный JSON пока не получен. Кандидат 263133 не отмечается отклонённым: такого результата автор не передавала."
+  "note": "Оригинальный JSON получен и проверен: GUID, хеш исходника, HTTP 200, тело 3 и хеш тела совпадают. Это проверка журнала автора, не новый сетевой запрос из облака.",
+  "validatedReportSha256": "5634f090ee655d300cf7b225b8c9b9c15d40403565c47e26ae4e8377613456cb",
+  "responseRecordValidated": true
 }

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-29T20:49:55+00:00",
+  "status": "finished",
+  "planSha256": "3a004373818e8fabd837d579d2521ad76634fbd2c3160c75ce9264e926c33588",
+  "project": "AF0ED3F2557F8FFC4C06F80B6803FD26",
+  "endpoint": "https://ege.fipi.ru/bank/solve.php",
+  "results": [
+    {
+      "caseId": "BANK-8CD68D",
+      "cardId": "8CD68D",
+      "guid": "ff77adcad6e84f1eaec39a9c4f845dc5",
+      "sourceContentSha256": "6e096139068821d93f83108786f83dea577a4a1a0765fb0ea63ff5d8bc7ab6c6",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-10-29T20:49:56+00:00",
+          "answer": "2526",
+          "wireAnswer": "2526",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    }
+  ],
+  "runs": [
+    {
+      "startedAt": "2026-10-29T20:49:55+00:00",
+      "delay": 0.5,
+      "batchSize": 20,
+      "batchDelay": 10,
+      "requests": 2,
+      "tlsVerification": false,
+      "caFile": null,
+      "session": {
+        "status": "opened",
+        "httpStatus": 200
+      }
+    }
+  ],
+  "finishedAt": "2026-10-29T20:49:56+00:00",
+  "summary": {
+    "cardsInPlan": 1,
+    "withAcceptedAnswer": 1,
+    "withMultipleAcceptedStrings": 0,
+    "withRequestError": 0,
+    "notChecked": 0
+  }
+}

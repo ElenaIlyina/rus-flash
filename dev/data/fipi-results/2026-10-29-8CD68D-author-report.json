@@ -7,10 +7,12 @@
   "answer": "2526",
   "wireAnswer": "2526",
   "reportedStatus": "accepted",
-  "resultFilename": null,
-  "originalReportReceived": false,
+  "resultFilename": "fipi-checks-20261029-234955-508268.json",
+  "originalReportReceived": true,
   "httpResponseIndependentlyValidated": false,
   "productionChanged": false,
   "reportedCommand": "python3 src/check_fipi_answers.py --cards src/cards/card_8CD68D.json --answer 2526 --insecure",
-  "note": "Автор прислала вывод скрипта: один кандидат, ПРИНЯТ, ошибок 0. Имя и оригинальный JSON результата пока не получены."
+  "note": "Оригинальный JSON получен и проверен: GUID, хеш исходника, HTTP 200, тело 3 и хеш тела совпадают. Это проверка журнала автора, не новый сетевой запрос из облака.",
+  "validatedReportSha256": "7da7c885d829457160de992a3a9e2a67b5ae5ccb0a656d68e91014b1061f644a",
+  "responseRecordValidated": true
 }
