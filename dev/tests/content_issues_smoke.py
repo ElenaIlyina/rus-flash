@@ -14,7 +14,7 @@ ROOT=Path(__file__).resolve().parents[2]
 def main():
     issues={p.stem[5:]:json.loads(p.read_text())['content_issue'] for p in (ROOT/'data').glob('card_*.json')
             if json.loads(p.read_text()).get('content_issue')}
-    assert len(issues)==10
+    assert len(issues)==13
     server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(QuietHandler,directory=str(ROOT/'html')))
     threading.Thread(target=server.serve_forever,daemon=True).start();errors=[]
     try:
@@ -45,7 +45,7 @@ def main():
             mobile.goto(base+'#card/6E2A0F');button.wait_for();expect(tip).to_be_hidden()
             assert not errors,errors;browser.close()
     finally:server.shutdown()
-    print('PASS: 10 issue descriptions; hover/keyboard/Escape/touch/outside dismissal; 320px layout; no learning/help events')
+    print('PASS: 13 issue descriptions; hover/keyboard/Escape/touch/outside dismissal; 320px layout; no learning/help events')
 
 
 if __name__=='__main__':main()

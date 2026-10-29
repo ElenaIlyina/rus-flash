@@ -270,11 +270,11 @@
       "substitution": "…я награда? Лишь взор напряжённый и острый проникает в неё и видит глубины тем глубже, чем сам он острей. (По М.О. Гершензону)…",
       "reason": "Подчёркнут сам взор и его собственная острота: глубина постижения зависит от того, насколько он остёр. Местоимение относится к «он» и согласуется со словом «взор» в мужском роде.",
       "fullGrammarReferencePending": true,
-      "sourceContentSha256": "5a6b930629dad94ee732098db2c93d12dd816e8d59509c7a128175119f65663f",
+      "sourceContentSha256": "4f46d5009e2ec331ac3c41f18397d57a930950a98c72693cc0d582f50eeb052d",
       "headwords": [
         "сам"
       ],
-      "formatSyncPreviousSourceContentSha256": "b835eaa6bd4e692c8d65496c43ffde6938845d913f9874c27f6d530f570a877a"
+      "formatSyncPreviousSourceContentSha256": "5a6b930629dad94ee732098db2c93d12dd816e8d59509c7a128175119f65663f"
     },
     {
       "id": "432ADD",
@@ -890,5 +890,5 @@
     }
   ],
   "historicalCardsNotPrepared": 9,
-  "formatSyncEvidence": "dev/docs/content-audit/verified-answer-import.json"
+  "formatSyncEvidence": "dev/docs/content-audit/card-content-issues.jsonl"
 }

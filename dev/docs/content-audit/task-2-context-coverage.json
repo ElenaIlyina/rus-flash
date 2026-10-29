@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "reviewDate": "2026-10-29",
+  "reviewDate": "2026-10-30",
   "cards": [
+    {
+      "id": "019533",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "В сочетании «неясное напряжение, неуверенность, тревогу» описано душевное состояние. Разности электрических потенциалов здесь нет.",
+          "word": "напряжение",
+          "articleHeadword": "напряжение"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Врождённое ровное чувство немстительности, радушия, добра» — устойчивое, спокойное отношение к людям, сохраняющееся после обид. Это соответствует значению постоянства и уравновешенности.",
+          "word": "ровный",
+          "articleHeadword": "ровный"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«В серапионовском кругу» — среди писателей, объединённых литературной деятельностью. Названа группа людей, а не геометрическая фигура.",
+          "word": "круг",
+          "articleHeadword": "круг"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Малейший оттенок неуважения болезненно задевал его» означает обижал, уязвлял. Переносное значение подтверждено темой уважения и оскорбления.",
+          "word": "задевать",
+          "articleHeadword": "задевать"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Он был полон уважения к людям» означает целиком проникнут уважением. Прилагательное ничего не сообщает о массе тела; в начале текста Зощенко назван стройным.",
+          "word": "полный",
+          "articleHeadword": "полный"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "3254f9b6c113d42ff671759643dd795277e75c60f9dfc18737c6ab9a82eb79c7"
+    },
     {
       "id": "082CB8",
       "options": [
@@ -119,6 +164,141 @@
         "установить"
       ],
       "formatSyncPreviousSourceContentSha256": "8a71868bc33e6461989b4e1b752d1142a68d2912ce30482de92dd5aa252e3392"
+    },
+    {
+      "id": "0B76C5",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Как хорошо он знает его натуру!» относится к характеру и внутреннему складу крестьянина, чьи мысли и речь Даль понимал. Значение характера подходит.",
+          "word": "натура",
+          "articleHeadword": "натура"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Мельников-Печерский «отмечал: жители были убеждены…» — сообщал наблюдение, обращал на него внимание. Празднование события в этом предложении не описано.",
+          "word": "отмечать",
+          "articleHeadword": "отметить"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«Вышел из крестьянской среды» — происходил из крестьян, был выходцем из этой социальной группы. Словарный пример «выйти из рабочих» имеет такую же модель.",
+          "word": "выйти",
+          "articleHeadword": "выйти"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Крестьянская среда» объединяет людей общим социальным положением и бытом. Это именно социально-бытовое окружение.",
+          "word": "среда",
+          "articleHeadword": "среда"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Как определяет Даль “слово”» вводит толкование: «сочетание звуков…». Определять здесь — раскрывать содержание понятия, а не устраивать человека на службу.",
+          "word": "определять",
+          "articleHeadword": "определять"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "219a68ece873e601c720e446b09423bb79213f83a6df9e4dff8fb1ce8a3655d8"
+    },
+    {
+      "id": "14AF4C",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Полосы удач и неудач, счастья и бед» — периоды человеческой жизни. Переносное значение прямо иллюстрируется словарным примером «светлая полоса жизни».",
+          "word": "полоса",
+          "articleHeadword": "полоса"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "«Повод для самоизоляции» — обстоятельство, которое становится основанием для определённого поведения. Ремень конской узды — другое значение того же написания; упоминание пони и жеребца выше его сюда не переносит.",
+          "word": "повод",
+          "articleHeadword": "повод"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«Сама природа запрограммировала нас» отсылает к природному, биологическому устройству человека как части живого мира. Природа олицетворяется, но остаётся обозначением естественного мира.",
+          "word": "природа",
+          "articleHeadword": "природа"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Постановка всё более сложных задач» — определение того, что человеку предстоит выполнить или разрешить. Смысл словарного толкования сохраняется.",
+          "word": "задача",
+          "articleHeadword": "задача"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Чёрные полосы» обозначают тяжёлые, неблагополучные периоды жизни. Значение заднего, служебного входа к этому образу не относится.",
+          "word": "чёрный",
+          "articleHeadword": "черный"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "00c0e5ec07a0d2d65f080553a51859f1e9e0a7fd0507ce6d2df971be1851d573"
+    },
+    {
+      "id": "29C185",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Признак, который определяет развитие всего живого» — признак, от которого это развитие зависит, который его обусловливает. По смыслу подходит причинная связь, как в примере о подготовке и успехе.",
+          "word": "определить",
+          "articleHeadword": "определить"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Приведу тебе ряд примеров» означает некоторое количество примеров. Автор последовательно называет зерно, сёмгу, бабочку и гриб.",
+          "word": "ряд",
+          "articleHeadword": "ряд"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Сёмга преодолевает речные пороги — каменистые возвышения дна и участки бурного течения. Дверной брусок в описании нерестового пути невозможен.",
+          "word": "порог",
+          "articleHeadword": "порог"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Автор приводит случаи из жизни природы в пояснение мысли. Вычисления или математические упражнения читателю не предлагаются.",
+          "word": "пример",
+          "articleHeadword": "пример"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "«Этот биологический закон распространяется и на людей» называет общую закономерность развития живого. Это объективная связь явлений, а не принятый государством нормативный акт.",
+          "word": "закон",
+          "articleHeadword": "закон"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "c2aba02c3dadd310a265f7f3c50b0d2f05e55c3266fb6fb78ce05fed28aae1ca"
     },
     {
       "id": "2BA3EC",
@@ -242,6 +422,51 @@
       "formatSyncPreviousSourceContentSha256": "410bfb550fec7f3d6e059c7610c50fcc86a4cd629098a084f103b9ebfcc448b1"
     },
     {
+      "id": "4E5A40",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "«Потребность вернулась с неожиданной силой» характеризует интенсивность желания вести дневник. Вооружённые формирования этим словом здесь не названы.",
+          "word": "сила",
+          "articleHeadword": "сила"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Ощущение духовной пищи» объясняется следующими словами: «Умственная работа, духовное осмысление поддерживали». Это источник духовной деятельности, а не съедобные продукты.",
+          "word": "пища",
+          "articleHeadword": "пища"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "«Дневник… бесценный именно своими деталями» — своими подробностями, точными свидетельствами пережитого. Детали котла или иного механизма в этой фразе не перечисляются.",
+          "word": "деталь",
+          "articleHeadword": "деталь"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Каждый дневник по-своему передаёт трагедию города» — изображает, воспроизводит её в словах автора. Определение соответствует смыслу письменного свидетельства.",
+          "word": "передавать",
+          "articleHeadword": "передать"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "«Как драгоценны подробности… жизни людей» — насколько эти сведения важны и нужны для понимания блокады. Речь о ценности свидетельств, а не о стоимости украшений.",
+          "word": "драгоценный",
+          "articleHeadword": "драгоценный"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "f2ab503c2729f321978450736128c81d63d28feea6a2547acc01846cb319d163"
+    },
+    {
       "id": "5A83DF",
       "options": [
         {
@@ -346,6 +571,96 @@
         "вопрос"
       ],
       "formatSyncPreviousSourceContentSha256": "c065e1b565bfdc7f32e955a8424cadefda4191382532e8b2c2139be36e088b02"
+    },
+    {
+      "id": "6BDFBD",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«С моим спутником из поезда» — с приятелем, вместе с которым рассказчик ехал на охоту. Это человек, совершающий общий путь.",
+          "word": "спутник",
+          "articleHeadword": "спутник"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Колонна пленных пройдёт» описывает людей, движущихся друг за другом. Архитектурная опора так двигаться не может.",
+          "word": "колонна",
+          "articleHeadword": "колонна"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«На нейтральной полосе» — устойчивое сочетание военного значения. В словарной статье «нейтральный» сочетание «нейтральная зона, полоса» приведено именно при предложенном толковании. Слова «не должны вестись» выражают установленный режим, а не утверждение, что столкновение там фактически невозможно; о конкретном соглашении рассказчик не сообщает.",
+          "word": "нейтральный",
+          "articleHeadword": "нейтральный"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "«Я успел заметить: качнулась ёлочка» означает увидеть движение. Рассказчик не вставляет реплику в чужой разговор.",
+          "word": "заметить",
+          "articleHeadword": "заметить"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Отпуск домой с фронта получили» — из действующей армии и района боевых действий. Граница воздушных масс относится к метеорологии и здесь не имеется в виду.",
+          "word": "фронт",
+          "articleHeadword": "фронт"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported_with_dictionary_scope_qualification",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "e1e2a1cfa0fd7bc96f2433fe157b46e3dffa9c3912330b9327505bd7062cf910"
+    },
+    {
+      "id": "6E8DDA",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "В обществе складывались «суждения, оценки, требования к поведению односельчан» — мнения о поступках людей. Школьные баллы и усвоение учебных знаний не обсуждаются.",
+          "word": "оценка",
+          "articleHeadword": "оценка"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«В научной среде, в купеческой, у дворянства» названы социальные группы и свойственные им условия жизни и деятельности. Предложенное определение подходит.",
+          "word": "среда",
+          "articleHeadword": "среда"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«Кодексов чести, приличия… обязан был придерживаться член общества» означает следовать этим правилам. Это словарное значение соблюдения убеждений и норм.",
+          "word": "придерживаться",
+          "articleHeadword": "придерживаться"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "«Повысить моральные требования» — сделать требования более высокими, строгими. Человека не переводят на другую должность.",
+          "word": "повысить",
+          "articleHeadword": "повысить"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "Капица понимал «значение общественного мнения» — его важность и роль в научном сообществе. Смысл отдельного слова или знака здесь не выясняется.",
+          "word": "значение",
+          "articleHeadword": "значение"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "5ba08819e462285e19a527ce069b218a23db5109db3ae0b29d0dad3280ab3fe9"
     },
     {
       "id": "7AB7D7",
@@ -454,6 +769,51 @@
       "formatSyncPreviousSourceContentSha256": "ac15037fadd48fcaec7387c12d91cb8317cfb1cb37bde7c08d02954bdadc92c4"
     },
     {
+      "id": "8C2175",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«По хозяйству родителям… помогают» — участвуют в домашних делах семьи. Это прямо соответствует значению работ по дому и устройству быта.",
+          "word": "хозяйство",
+          "articleHeadword": "хозяйство"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Та власть давно кончилась» отсылает к советскому государственному управлению, названному в предыдущем абзаце. Значение органов политического управления подходит.",
+          "word": "власть",
+          "articleHeadword": "власть"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "«Корыстными… расчётами» названы намерения и соображения личной выгоды. Увольнение с выплатой заработка в тексте не описано.",
+          "word": "расчёт",
+          "articleHeadword": "расчет"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Принимаются серьёзные решения» — важные по содержанию и последствиям жизненные решения. Это не описание сосредоточенного выражения лица.",
+          "word": "серьёзный",
+          "articleHeadword": "серьезный"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Следуют тому, что решили в отрочестве» — придерживаются сделанного выбора. Искомые числа и функции герои не находят.",
+          "word": "решить",
+          "articleHeadword": "решить"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "d74c2dee44dd5d4d9439d8e310d484f733117ffb65501b7f1a65d2f9c1a14a04"
+    },
+    {
       "id": "9273A5",
       "options": [
         {
@@ -516,6 +876,51 @@
         "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152"
       },
       "formatSyncPreviousSourceContentSha256": "1d5dbb284a3c1c5945f679ece5d9b685ca16a4a3c00a30cfc702f657a55798ff"
+    },
+    {
+      "id": "97468C",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Тоска… по дому» — тоска по своему жилью и близким, привычной семейной жизни. Это именно значение дома как своего жилья и семьи.",
+          "word": "дом",
+          "articleHeadword": "дом"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Возьмём верёвку, шесты — как положено» — как установлено и принято для безопасного подхода к трещине. Значение должного порядка подходит.",
+          "word": "положено",
+          "articleHeadword": "положено"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "«Надо остерегаться солнца, особенно губы сгорают» говорит о повреждении кожи солнечными лучами. Здесь нет сильного чувства, как в сочетании «сгорать от стыда».",
+          "word": "сгорать",
+          "articleHeadword": "сгорать"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Эти глубокие трещины» уходят далеко вниз в толщу льда; далее названы толщина льда и глубина. Это пространственное значение большой глубины.",
+          "word": "глубокий",
+          "articleHeadword": "глубокий"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Это место лучше всё-таки обходить» означает миновать опасный участок, проходить в стороне. Посещение многих квартир или знакомых выражает другое значение.",
+          "word": "обходить",
+          "articleHeadword": "обходить"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "c414804b42d327cb3a3ba0587174314046cf2dcdf124e2edbf32810a6b4650ef"
     },
     {
       "id": "9819CF",
@@ -730,6 +1135,51 @@
       "formatSyncPreviousSourceContentSha256": "88332f65419cfc462762fb008256e67b47109a23948f6cb1d51b6acdb3d791c1"
     },
     {
+      "id": "CC617E",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Эту главенствующую черту» — главное свойство, специфическое качество человека. Значение отличительной особенности подходит.",
+          "word": "черта",
+          "articleHeadword": "черта"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "«Внутренне устойчивое ядро» — глубинная сущностная основа личности. Пушечный снаряд не может быть предметом философского вопроса о человеке.",
+          "word": "ядро",
+          "articleHeadword": "ядро"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "«Раскрытие его собственной уникальной природы» — раскрытие сущности человека. О загородных местах, лесах и водоёмах в этой фразе не говорится.",
+          "word": "природа",
+          "articleHeadword": "природа"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Эти различные подходы» — способы изучения человека извне и изнутри. Вариант называет совокупность исследовательских приёмов и способов.",
+          "word": "подход",
+          "articleHeadword": "подход"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "«Полагая, что человек — главная ценность мироздания» — считая, думая так. Это мнение философов, а не действие помещения предмета куда-либо.",
+          "word": "полагать",
+          "articleHeadword": "полагать"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "3a3ac2113df61f4f764a6d0d641eebbe2d465e5fad9b034c1d627598ebbf52c7"
+    },
+    {
       "id": "CD2CCE",
       "options": [
         {
@@ -781,6 +1231,97 @@
         "горячий"
       ],
       "formatSyncPreviousSourceContentSha256": "bea00f1ab194c55c189947c343780134d6b7ef01faf57cfcf9df6ed881f449af"
+    },
+    {
+      "id": "DC851F",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "«Ансамбли… площадей и… зданий» — согласованные архитектурные целые. Исполнительского коллектива певцов или музыкантов здесь нет.",
+          "word": "ансамбль",
+          "articleHeadword": "ансамбль"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "«Разгадка была простая» — доступная пониманию, несложная. Качество обработки ткани или зерна к разгадке не относится.",
+          "word": "простой",
+          "articleHeadword": "простой"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«От небольшого числа украшений» — от небольшого количества наличников и барельефов. Поддающиеся счёту предметы названы прямо.",
+          "word": "число",
+          "articleHeadword": "число"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Хороший вкус — это прежде всего чувство меры» — понимание красивого и гармоничного. Автор оценивает архитектурную соразмерность.",
+          "word": "вкус",
+          "articleHeadword": "вкус"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "«Доставляет истинное наслаждение каждая линия» — даёт, приносит наслаждение. Значение предоставления переживания совпадает с примером «доставить удовольствие».",
+          "word": "доставлять",
+          "articleHeadword": "доставить"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "1e2bb58b80df44605ecd6a5e7b6a85744574e6bb3ace8e506e7c65304c0850e9"
+    },
+    {
+      "id": "E2313B",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Другой цели искусство не имеет» — другого предмета стремления, того, что художник хочет осуществить. Предложенное значение подходит.",
+          "word": "цель",
+          "articleHeadword": "цель"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Таинственный закон искусства» — закономерность связи внутренней глубины художника и внешнего выражения. Автор говорит об устойчивой связи явлений, а не о государственном постановлении.",
+          "word": "закон",
+          "articleHeadword": "закон"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Подчёркнуто сочетание «яркая окраска цветка». В нём речь о насыщенном, резком по чистоте цвете, который привлекает насекомых. Нельзя вместо него анализировать другие употребления слов «ярче» и «форма» в первом абзаце.",
+          "word": "яркий",
+          "articleHeadword": "яркий"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Насекомые должны «разносить цветочную пыльцу» — переносить её в разные места. Делать обувь просторнее ноской — значение другого глагола того же написания.",
+          "word": "разносить",
+          "articleHeadword": "разносить"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Взор напряжённый и острый» — проницательный, способный различить глубинный смысл. Взор не бывает режущим или колющим, как нож.",
+          "word": "острый",
+          "articleHeadword": "острый"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "537740ab502782e618a67ef7d47ffe3467f70e0cbb41f22603bec577ce2bc14d",
+      "formatSyncPreviousSourceContentSha256": "822d75774ae9012d7326066e2187abc49342a462c5c03d80e948693542d0f3fb"
     },
     {
       "id": "E29F76",
@@ -956,6 +1497,96 @@
       "formatSyncPreviousSourceContentSha256": "441aa60a2b459f71c949d58e519c46db986ae48279df64c2b9eddf900aaeda96"
     },
     {
+      "id": "EF4C5E",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "«Тлеющих материалов» — веществ, которые горят без пламени. Тлеющая надежда — переносное употребление, не связанное с тушением пожара.",
+          "word": "тлеть",
+          "articleHeadword": "тлеть"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "«Конструкция насадки обеспечивает подачу… пены» — делает подачу возможной, обеспечивает нужную работу устройства. Снабжение семьи средствами к жизни выражает другое значение.",
+          "word": "обеспечивать",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«Вступающих с водой в химическую реакцию» — веществ, превращающихся в другие вещества. Название процесса и указание на выделение тепла подтверждают химическое значение.",
+          "word": "реакция",
+          "articleHeadword": "реакция"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "«Давления в их корпусе» — в наружной оболочке огнетушителя. Ни туловище, ни отдельное здание в этом месте не имеются в виду.",
+          "word": "корпус",
+          "articleHeadword": "корпус"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "«Дерево, бумага, ветошь» названы как твёрдые горючие материалы. Это вещества и предметы, а не сведения для биографии или наблюдений.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "fc9e2ec4155fa91097c01447e4ff97ec2bdcc249d277e5b48fc487a21c2bcf21"
+    },
+    {
+      "id": "F26679",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Научить машину мыслить» относится к компьютеру, перерабатывающему информацию. Вычислительная машина прямо названа среди примеров предложенного значения.",
+          "word": "машина",
+          "articleHeadword": "машина"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "«Приёмами творческого мышления» — способами осуществления мыслительной работы. Собрание приглашённых гостей в честь кого-либо здесь не описано.",
+          "word": "приём",
+          "articleHeadword": "прием"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«Мог… в перспективе превзойти человеческий» — в будущем, как ожидаемая возможность развития. Речь не о пространственной глубине изображения.",
+          "word": "перспектива",
+          "articleHeadword": "перспектива"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "«Мышление — следствие ограниченности человеческого знания» — результат, последствие этой ограниченности. Расследование преступления — другой омоним.",
+          "word": "следствие",
+          "articleHeadword": "следствие"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "«Эволюции природы человека» — изменению человеческой сущности, основных свойств. Переносное значение «основное свойство, сущность» подходит.",
+          "word": "природа",
+          "articleHeadword": "природа"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "53f7eb70cc523bbc11fb7fa589846a2e60f60c9170b917b2bf43b04fc03e53d2"
+    },
+    {
       "id": "F4E1F3",
       "options": [
         {
@@ -1073,8 +1704,54 @@
         "sourceContentSha256": "56f942b9cd7ee35e23b7ca72cc8aaee18c8db57261c2cc777226418237366002"
       },
       "formatSyncPreviousSourceContentSha256": "4b18c9a62156eb8e1d395310c63c1b90a0db0d208fc167449578e8bc8f35cfab"
+    },
+    {
+      "id": "F7EB5D",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "«Ту её сторону, которая доставляет нам внутреннее удовлетворение» — аспект науки, её духовную пользу. Противостоящая группа лиц или сторона судебного спора не названа.",
+          "word": "сторона",
+          "articleHeadword": "сторона"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "«Иметь свои убеждения» — иметь устойчивые взгляды, уверенные мнения о мире. Предложенное толкование соответствует мысли о формировании личности.",
+          "word": "убеждение",
+          "articleHeadword": "убеждение"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "«Идеал образованного и культурного человека» — человека высокого уровня культуры. Значение выращенного человеком растения к этому сочетанию не относится.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Знание служит «источником высоких наслаждений» — порождает эти переживания, даёт им начало. Водная струя из-под земли здесь не подразумевается.",
+          "word": "источник",
+          "articleHeadword": "источник"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "«Достатка на круглый год» — достатка на весь, целый год. Это устойчивое употребление слова при обозначении времени.",
+          "word": "круглый",
+          "articleHeadword": "круглый"
+        }
+      ],
+      "highlightCount": 5,
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "sourceContentSha256": "16b6fe91c607e86ca307c1848b24dffb8348aba3d2523417bcff421243e3a4f6"
     }
   ],
-  "otherCardsNotPrepared": 63,
-  "formatSyncEvidence": "dev/docs/content-audit/verified-answer-import.json"
+  "otherCardsNotPrepared": 48,
+  "formatSyncEvidence": "dev/docs/content-audit/card-content-issues.jsonl",
+  "cardsWithoutVerifiedKeyNotPrepared": 0
 }
