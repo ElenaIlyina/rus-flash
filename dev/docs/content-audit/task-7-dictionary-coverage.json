@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-29",
+  "cards": [
+    {
+      "id": "09D8E7",
+      "category": "numerals",
+      "incorrectForm": "ДВЕ",
+      "answer": "двух",
+      "sourceExcerpt": "более ДВЕ тысяч человек",
+      "correctedExcerpt": "более двух тысяч человек",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "два",
+        "более",
+        "больше"
+      ],
+      "sourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77"
+    },
+    {
+      "id": "0BB6E7",
+      "category": "verbs",
+      "incorrectForm": "БЕЖАТ",
+      "answer": "бегут",
+      "sourceExcerpt": "спортсмены БЕЖАТ",
+      "correctedExcerpt": "спортсмены бегут",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "бежать"
+      ],
+      "sourceContentSha256": "cbf8f5c09567a24feb0562b06de3f3197478bd156c6df1a733c6987b43437fb7"
+    },
+    {
+      "id": "18355B",
+      "category": "nouns",
+      "incorrectForm": "ПЛЕЧЕЙ",
+      "answer": "плеч",
+      "sourceExcerpt": "на ширине ПЛЕЧЕЙ",
+      "correctedExcerpt": "на ширине плеч",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "плечо"
+      ],
+      "sourceContentSha256": "fc20fee1487c0ee209b7cbc70eda67ae7f7cbdde7359cdcc171f35e9536d0313"
+    },
+    {
+      "id": "187C1A",
+      "category": "verbs",
+      "incorrectForm": "ПРИОБРЁВ",
+      "answer": "приобретя",
+      "sourceExcerpt": "ПРИОБРЁВ мебель",
+      "correctedExcerpt": "приобретя мебель",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "приобрести"
+      ],
+      "sourceContentSha256": "34e628068d4e52b401c522396690b280ee185f0c319f0c3d5916ceb4526e6e23"
+    },
+    {
+      "id": "1F3478",
+      "category": "verbs",
+      "incorrectForm": "ПОКЛАЛ",
+      "answer": "клал",
+      "sourceExcerpt": "ПОКЛАЛ здесь",
+      "correctedExcerpt": "клал здесь",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "класть"
+      ],
+      "sourceContentSha256": "17787d8f1541ada9b1f872013f4fa3bdb7cce81053c054d9e92be4c8efa873eb"
+    },
+    {
+      "id": "20ECC0",
+      "category": "nouns",
+      "incorrectForm": "БУХГАЛТЕРА",
+      "answer": "бухгалтеры",
+      "sourceExcerpt": "молодые БУХГАЛТЕРА",
+      "correctedExcerpt": "молодые бухгалтеры",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "бухгалтер",
+        "повар"
+      ],
+      "sourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1"
+    },
+    {
+      "id": "247443",
+      "category": "nouns",
+      "incorrectForm": "ВАФЛЕЙ",
+      "answer": "вафель",
+      "sourceExcerpt": "много ВАФЛЕЙ",
+      "correctedExcerpt": "много вафель",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "вафля"
+      ],
+      "sourceContentSha256": "09d579cccb27f94019e5acce2c0419545b4afb64442670f65ac64e8910b46b40"
+    },
+    {
+      "id": "27713B",
+      "category": "verbs",
+      "incorrectForm": "ВЫИГРАВШИЙСЯ",
+      "answer": "выигравший",
+      "sourceExcerpt": "ВЫИГРАВШИЙСЯ приз",
+      "correctedExcerpt": "выигравший приз",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "выиграть"
+      ],
+      "sourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6"
+    },
+    {
+      "id": "2850E4",
+      "category": "comparison",
+      "incorrectForm": "МОЛОДЕЕ",
+      "answer": "моложе",
+      "sourceExcerpt": "выглядел МОЛОДЕЕ",
+      "correctedExcerpt": "выглядел моложе",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "молодой"
+      ],
+      "sourceContentSha256": "1b778ab4f3aad5ca1e56ee4138862f726c6c9c29752f65832b409ec7339f701b"
+    },
+    {
+      "id": "2A3746",
+      "category": "numerals",
+      "incorrectForm": "СЕМИСТАМИ",
+      "answer": "семьюстами",
+      "sourceExcerpt": "СЕМИСТАМИ жителями",
+      "correctedExcerpt": "семьюстами жителями",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "семьсот"
+      ],
+      "sourceContentSha256": "47909278fe8082c7798fe451a312037750ebdceb6547a44a680c52b262c3a23a"
+    },
+    {
+      "id": "2AD233",
+      "category": "nouns",
+      "incorrectForm": "ТОРТА",
+      "answer": "торты",
+      "sourceExcerpt": "свежие ТОРТА",
+      "correctedExcerpt": "свежие торты",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "торт"
+      ],
+      "sourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02"
+    },
+    {
+      "id": "2B1518",
+      "category": "nouns",
+      "incorrectForm": "ТУФЛЕЙ",
+      "answer": "туфель",
+      "sourceExcerpt": "две пары ТУФЛЕЙ",
+      "correctedExcerpt": "две пары туфель",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "туфли"
+      ],
+      "sourceContentSha256": "7427a314d17284445c43d4c972acb5df10fabba7eb9da6f5259fd371c4963e04"
+    },
+    {
+      "id": "2BD565",
+      "category": "comparison",
+      "incorrectForm": "ЗВУЧНЕЕ",
+      "answer": "звучный",
+      "sourceExcerpt": "голос более ЗВУЧНЕЕ",
+      "correctedExcerpt": "голос более звучный",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "более",
+        "звучный"
+      ],
+      "sourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5"
+    },
+    {
+      "id": "2F7CFF",
+      "category": "numerals",
+      "incorrectForm": "ВОСЕМЬЮСОТЫЙ",
+      "answer": "восьмисотый",
+      "sourceExcerpt": "ВОСЕМЬЮСОТЫЙ экземпляр",
+      "correctedExcerpt": "восьмисотый экземпляр",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "восемьсот"
+      ],
+      "sourceContentSha256": "6db4bfe0d5220caf280ea5664fc92d3b98bdadbe418fcab6f47d9ad17cb794f7"
+    },
+    {
+      "id": "3282E5",
+      "category": "comparison",
+      "incorrectForm": "ВЫШЕ",
+      "answer": "высоко",
+      "sourceExcerpt": "прыгал более ВЫШЕ",
+      "correctedExcerpt": "прыгал более высоко",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "более",
+        "высокий"
+      ],
+      "sourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674"
+    },
+    {
+      "id": "32E17B",
+      "category": "numerals",
+      "incorrectForm": "ВОСЕМЬСОТ",
+      "answer": "восьмисот",
+      "sourceExcerpt": "более ВОСЕМЬСОТ миллионов",
+      "correctedExcerpt": "более восьмисот миллионов",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "восемьсот",
+        "более",
+        "больше"
+      ],
+      "sourceContentSha256": "09f9317a807b974cf2f961a1759146de83902374051a0e90c2eb4ddd616db937"
+    },
+    {
+      "id": "3F1F92",
+      "category": "numerals",
+      "incorrectForm": "ПЯТИСТА",
+      "answer": "пятистах",
+      "sourceExcerpt": "в ПЯТИСТА километрах",
+      "correctedExcerpt": "в пятистах километрах",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "пятьсот"
+      ],
+      "sourceContentSha256": "2aaf857c4839ccba530285be4aa7337059b5dccccc609a6be7e62a992dd77748"
+    },
+    {
+      "id": "41D6D8",
+      "category": "comparison",
+      "incorrectForm": "УГРЮМЕЕ",
+      "answer": "угрюмый",
+      "sourceExcerpt": "он более УГРЮМЕЕ",
+      "correctedExcerpt": "он более угрюмый",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "более",
+        "угрюмый"
+      ],
+      "sourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51"
+    },
+    {
+      "id": "4B38A8",
+      "category": "numerals",
+      "incorrectForm": "ДВЕ",
+      "answer": "двух",
+      "sourceExcerpt": "более ДВЕ тысяч человек",
+      "correctedExcerpt": "более двух тысяч человек",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "два",
+        "более",
+        "больше"
+      ],
+      "sourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b"
+    },
+    {
+      "id": "521887",
+      "category": "comparison",
+      "incorrectForm": "УГРЮМЕЕ",
+      "answer": "угрюмый",
+      "sourceExcerpt": "он более УГРЮМЕЕ",
+      "correctedExcerpt": "он более угрюмый",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "более",
+        "угрюмый"
+      ],
+      "sourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350"
+    },
+    {
+      "id": "56EC13",
+      "category": "nouns",
+      "incorrectForm": "ЗНАМЯ",
+      "answer": "знамени",
+      "sourceExcerpt": "без ЗНАМЯ полка",
+      "correctedExcerpt": "без знамени полка",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "знамя"
+      ],
+      "sourceContentSha256": "cd4ac026e7ca89db814f7d394bbdba6f653a067beaed181ae76091f8802b3747"
+    },
+    {
+      "id": "5C0D5E",
+      "category": "numerals",
+      "incorrectForm": "ПОЛТОРАСТА",
+      "answer": "полутораста",
+      "sourceExcerpt": "нет ПОЛТОРАСТА рублей",
+      "correctedExcerpt": "нет полутораста рублей",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "полтораста"
+      ],
+      "sourceContentSha256": "7c10310ee7d915727be402de9526c3ca3c14be48e643d532c4ea031159c10b06"
+    },
+    {
+      "id": "5CFD83",
+      "category": "numerals",
+      "incorrectForm": "ТРЁХСТА",
+      "answer": "трёхстах",
+      "sourceExcerpt": "в ТРЁХСТА книгах",
+      "correctedExcerpt": "в трёхстах книгах",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "триста"
+      ],
+      "sourceContentSha256": "d44f5b876be19501f7550837e3f04ab893e875344bb48bd8bf407c6a1c2fd239"
+    },
+    {
+      "id": "5D5744",
+      "category": "numerals",
+      "incorrectForm": "ДВУХ",
+      "answer": "две",
+      "sourceExcerpt": "к ДВУХ тысячи двадцать первому году",
+      "correctedExcerpt": "к две тысячи двадцать первому году",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "два",
+        "порядковый",
+        "числительное"
+      ],
+      "sourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3"
+    },
+    {
+      "id": "617D1E",
+      "category": "pronouns",
+      "incorrectForm": "ОБОИМ",
+      "answer": "обеим",
+      "sourceExcerpt": "по ОБОИМ сторонам",
+      "correctedExcerpt": "по обеим сторонам",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "оба"
+      ],
+      "sourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc"
+    },
+    {
+      "id": "69CA59",
+      "category": "verbs",
+      "incorrectForm": "ПРОМОКНУЛ",
+      "answer": "промок",
+      "sourceExcerpt": "ПРОМОКНУЛ до нитки",
+      "correctedExcerpt": "промок до нитки",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "промокнуть"
+      ],
+      "sourceContentSha256": "1be457615846bae4f23e1d9235f61f93882eb620f38fbcfbbaf5d6496843f754"
+    },
+    {
+      "id": "6C3050",
+      "category": "numerals",
+      "incorrectForm": "ТРЁХСТАМИ",
+      "answer": "тремястами",
+      "sourceExcerpt": "ТРЁХСТАМИ дисками",
+      "correctedExcerpt": "тремястами дисками",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "триста"
+      ],
+      "sourceContentSha256": "52f70afaa3e7abd3b9904a2644278a59c77b0b8dc70b7f5b9bb3a349029b8b29"
+    },
+    {
+      "id": "729EAA",
+      "category": "nouns",
+      "incorrectForm": "БОТИНКОВ",
+      "answer": "ботинок",
+      "sourceExcerpt": "нет БОТИНКОВ",
+      "correctedExcerpt": "нет ботинок",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "ботинки"
+      ],
+      "sourceContentSha256": "439fa78ce9da7fb2d84568281565531bd2f01e5c1def63705c00e745940ff7dc"
+    },
+    {
+      "id": "730999",
+      "category": "numerals",
+      "incorrectForm": "ШЕСТИСТА",
+      "answer": "шестисот",
+      "sourceExcerpt": "около ШЕСТИСТА рублей",
+      "correctedExcerpt": "около шестисот рублей",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "шестьсот"
+      ],
+      "sourceContentSha256": "a9c68bfced6dde09f6e1cd8d6958732319e668754e67d355d1ea2951944acd7d"
+    },
+    {
+      "id": "74EFC9",
+      "category": "numerals",
+      "incorrectForm": "ШЕСТИСТАМИ",
+      "answer": "шестьюстами",
+      "sourceExcerpt": "ШЕСТИСТАМИ книгами",
+      "correctedExcerpt": "шестьюстами книгами",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "шестьсот"
+      ],
+      "sourceContentSha256": "9fab7fe29c5511a9de10d924d37c90badfc690bc0d0395e89f0c820f46405d70"
+    },
+    {
+      "id": "7C773B",
+      "category": "verbs",
+      "incorrectForm": "ЕХАЙ",
+      "answer": "поезжай",
+      "sourceExcerpt": "ЕХАЙ прямо",
+      "correctedExcerpt": "поезжай прямо",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "ехать",
+        "поехать"
+      ],
+      "sourceContentSha256": "4a84823a36c272eab58f86ab8ce74c380a4a36d7d8924ece4dd4b4fc27086aa7"
+    },
+    {
+      "id": "7D35EA",
+      "category": "verbs",
+      "incorrectForm": "ЛЯЖЬТЕ",
+      "answer": "лягте",
+      "sourceExcerpt": "ЛЯЖЬТЕ на пол",
+      "correctedExcerpt": "лягте на пол",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "лечь"
+      ],
+      "sourceContentSha256": "b26bed9cb739c3fdb3621f7e71f8381d22915dc83a7e6f7364c3c5788a9d15a5"
+    },
+    {
+      "id": "810334",
+      "category": "numerals",
+      "incorrectForm": "ШЕСТИСТА",
+      "answer": "шестисот",
+      "sourceExcerpt": "более ШЕСТИСТА лет",
+      "correctedExcerpt": "более шестисот лет",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "шестьсот"
+      ],
+      "sourceContentSha256": "e9a7e142d3bbb4da49d28b7990ecf34ef2564d2ba0d3ccb675a06a4666438897"
+    },
+    {
+      "id": "848E52",
+      "category": "nouns",
+      "incorrectForm": "АДРЕСЫ",
+      "answer": "адреса",
+      "sourceExcerpt": "городские АДРЕСЫ",
+      "correctedExcerpt": "городские адреса",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "адрес"
+      ],
+      "sourceContentSha256": "6fd3b027574294a8e11249c71cb1769baa6ee8a86892ab8d74b3d7c5d57f2e8a"
+    },
+    {
+      "id": "84916E",
+      "category": "verbs",
+      "incorrectForm": "ЕХАЙТЕ",
+      "answer": "поезжайте",
+      "sourceExcerpt": "ЕХАЙТЕ в лагерь",
+      "correctedExcerpt": "поезжайте в лагерь",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "ехать",
+        "поехать"
+      ],
+      "sourceContentSha256": "468cde961eff710973464cd3210cc3ed0da89da30f6e25264093e7e4aeae9ce4"
+    },
+    {
+      "id": "86D4CC",
+      "category": "verbs",
+      "incorrectForm": "ЕДЬ",
+      "answer": "поезжай",
+      "sourceExcerpt": "ЕДЬ вперёд",
+      "correctedExcerpt": "поезжай вперёд",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "ехать",
+        "поехать"
+      ],
+      "sourceContentSha256": "1fe0a12764422068c3552d66ee283bbe53320fa18cb267c2c874f184c825b026"
+    },
+    {
+      "id": "890AB3",
+      "category": "nouns",
+      "incorrectForm": "ПОВИДЛОЙ",
+      "answer": "повидлом",
+      "sourceExcerpt": "пить чай с ПОВИДЛОЙ",
+      "correctedExcerpt": "пить чай с повидлом",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "повидло"
+      ],
+      "sourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258"
+    },
+    {
+      "id": "93AE9E",
+      "category": "verbs",
+      "incorrectForm": "ЗАЕХАЙ",
+      "answer": "заезжай",
+      "sourceExcerpt": "ЗАЕХАЙ завтра",
+      "correctedExcerpt": "заезжай завтра",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "заехать"
+      ],
+      "sourceContentSha256": "61ff5d0a7e4c5b19c49147f95374fc9f6b2d289c7c09d484d77de238944c291e"
+    },
+    {
+      "id": "944170",
+      "category": "nouns",
+      "incorrectForm": "ПОВАРЫ",
+      "answer": "повара",
+      "sourceExcerpt": "лучшие ПОВАРЫ",
+      "correctedExcerpt": "лучшие повара",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "повар"
+      ],
+      "sourceContentSha256": "639253c1d30bc7d69a934773ce95ce279f9512582e53d4291df43cf458af003a"
+    },
+    {
+      "id": "98BE1B",
+      "category": "nouns",
+      "incorrectForm": "СОЛДАТОВ",
+      "answer": "солдат",
+      "sourceExcerpt": "рота СОЛДАТОВ",
+      "correctedExcerpt": "рота солдат",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "солдат"
+      ],
+      "sourceContentSha256": "b3aa7c3fb4a7a8e61f9acce562030aa4bade0a1211ff0a00b64215794b941e98"
+    },
+    {
+      "id": "99D255",
+      "category": "verbs",
+      "incorrectForm": "ВЫЕДЬ",
+      "answer": "выезжай",
+      "sourceExcerpt": "ВЫЕДЬ пораньше",
+      "correctedExcerpt": "выезжай пораньше",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "выехать"
+      ],
+      "sourceContentSha256": "bda80d315c1e27d2c2e4e83b1242d987f843afb6d9467acf54b485c75f8e4f17"
+    },
+    {
+      "id": "A42414",
+      "category": "comparison",
+      "incorrectForm": "НАИБОЛЬШЕ",
+      "answer": "наиболее",
+      "sourceExcerpt": "НАИБОЛЬШЕ красивый",
+      "correctedExcerpt": "наиболее красивый",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "наиболее"
+      ],
+      "sourceContentSha256": "5d4f4fd601c8ceec7e45a452b6fc042dd5800ff1768dada8cbe13449b483338a"
+    },
+    {
+      "id": "A4CB01",
+      "category": "verbs",
+      "incorrectForm": "ПЕКЁТ",
+      "answer": "печёт",
+      "sourceExcerpt": "бабушка ПЕКЁТ пироги",
+      "correctedExcerpt": "бабушка печёт пироги",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "печь"
+      ],
+      "sourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036"
+    },
+    {
+      "id": "A704AE",
+      "category": "pronouns",
+      "incorrectForm": "ОБЕИХ",
+      "answer": "обоих",
+      "sourceExcerpt": "в ОБЕИХ стёклах",
+      "correctedExcerpt": "в обоих стёклах",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "оба"
+      ],
+      "sourceContentSha256": "79824f669ca9dd90f37baa0dfc11914ce450b762aa957bbd8d717e5585dfd9a1"
+    },
+    {
+      "id": "A7C780",
+      "category": "pronouns",
+      "incorrectForm": "ИХНИМ",
+      "answer": "их",
+      "sourceExcerpt": "по ИХНИМ расчётам",
+      "correctedExcerpt": "по их расчётам",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "ихний",
+        "их"
+      ],
+      "sourceContentSha256": "1567f16de48a444bb319443cdda24b52b0a3c8f2d842f0c6a3aa7b20564957df"
+    },
+    {
+      "id": "AA8707",
+      "category": "numerals",
+      "incorrectForm": "ПЯТИСТА",
+      "answer": "пятьюстами",
+      "sourceExcerpt": "с ПЯТИСТА рублями",
+      "correctedExcerpt": "с пятьюстами рублями",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "пятьсот"
+      ],
+      "sourceContentSha256": "bb53624a808044df55f161e26c791c2c67ba45550d64d914dd1c25d899ec16fd"
+    },
+    {
+      "id": "AE0374",
+      "category": "nouns",
+      "incorrectForm": "ПОВИДЛОЙ",
+      "answer": "повидлом",
+      "sourceExcerpt": "с ПОВИДЛОЙ",
+      "correctedExcerpt": "с повидлом",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "повидло"
+      ],
+      "sourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5"
+    },
+    {
+      "id": "B1C91E",
+      "category": "verbs",
+      "incorrectForm": "ЛЯЖЬТЕ",
+      "answer": "лягте",
+      "sourceExcerpt": "ЛЯЖЬТЕ на спину",
+      "correctedExcerpt": "лягте на спину",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "лечь"
+      ],
+      "sourceContentSha256": "8d73d248c3247d4b5d6d83dfe1b844b8a0affa4101e951a6f91e6ff014dc1b34"
+    },
+    {
+      "id": "B3DAE9",
+      "category": "verbs",
+      "incorrectForm": "СЪЕЗДИЙ",
+      "answer": "съезди",
+      "sourceExcerpt": "СЪЕЗДИЙ на дачу",
+      "correctedExcerpt": "съезди на дачу",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "съездить"
+      ],
+      "sourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f"
+    },
+    {
+      "id": "B95F57",
+      "category": "nouns",
+      "incorrectForm": "БОТИНКОВ",
+      "answer": "ботинок",
+      "sourceExcerpt": "пара БОТИНКОВ",
+      "correctedExcerpt": "пара ботинок",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "ботинки"
+      ],
+      "sourceContentSha256": "37cdfb5f9756015a01ee7e73524ab69156f4a16284288aaaf79f90256f054c43"
+    },
+    {
+      "id": "BCCEFC",
+      "category": "numerals",
+      "incorrectForm": "ДВУМЯСТА",
+      "answer": "двумястами",
+      "sourceExcerpt": "ДВУМЯСТА журналами",
+      "correctedExcerpt": "двумястами журналами",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "двести"
+      ],
+      "sourceContentSha256": "7f248b8108eb22083663524f9a7b056bb0dcddd32f6f9ef1be0e4a45dee108b0"
+    },
+    {
+      "id": "BE9871",
+      "category": "numerals",
+      "incorrectForm": "ВОСЬМЬЮСОТЫЙ",
+      "answer": "восьмисотый",
+      "sourceExcerpt": "ВОСЬМЬЮСОТЫЙ экземпляр",
+      "correctedExcerpt": "восьмисотый экземпляр",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "восемьсот"
+      ],
+      "sourceContentSha256": "ebabd4ff8e83ddacbccb47928cbf23e5aa4f2056f2ccc8ac2d2ef03069535646"
+    },
+    {
+      "id": "C542DC",
+      "category": "nouns",
+      "incorrectForm": "ВРЕМЯ",
+      "answer": "времени",
+      "sourceExcerpt": "мало ВРЕМЯ",
+      "correctedExcerpt": "мало времени",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "время"
+      ],
+      "sourceContentSha256": "0e22e1f915cbfee3d20cdaf6f1ab0c9e6035dcce16529d5aeb1ca8613b774ad1"
+    },
+    {
+      "id": "C88373",
+      "category": "nouns",
+      "incorrectForm": "ТЮЛЬЮ",
+      "answer": "тюлем",
+      "sourceExcerpt": "накрыть ТЮЛЬЮ",
+      "correctedExcerpt": "накрыть тюлем",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "тюль"
+      ],
+      "sourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2"
+    },
+    {
+      "id": "CA147A",
+      "category": "nouns",
+      "incorrectForm": "СОУСА",
+      "answer": "соусы",
+      "sourceExcerpt": "томатные СОУСА",
+      "correctedExcerpt": "томатные соусы",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "соус"
+      ],
+      "sourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb"
+    },
+    {
+      "id": "D05218",
+      "category": "nouns",
+      "incorrectForm": "ЯБЛОКОВ",
+      "answer": "яблок",
+      "sourceExcerpt": "килограмм ЯБЛОКОВ",
+      "correctedExcerpt": "килограмм яблок",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "яблоко"
+      ],
+      "sourceContentSha256": "9585334b0a579899934bc68b04991d505ad2f19191613168903adf574547b4c1"
+    },
+    {
+      "id": "D754F9",
+      "category": "nouns",
+      "incorrectForm": "БЛЮДЦЕВ",
+      "answer": "блюдец",
+      "sourceExcerpt": "пить из БЛЮДЦЕВ",
+      "correctedExcerpt": "пить из блюдец",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "блюдце"
+      ],
+      "sourceContentSha256": "947491bf2e2ba5480a47c724f5e6330f1019dca2d727368b6005000581b1ab6c"
+    },
+    {
+      "id": "D8BE94",
+      "category": "verbs",
+      "incorrectForm": "ПОПРОБОВАЕМ",
+      "answer": "попробуем",
+      "sourceExcerpt": "ПОПРОБОВАЕМ решить",
+      "correctedExcerpt": "попробуем решить",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "попробовать",
+        "пробовать"
+      ],
+      "sourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503"
+    },
+    {
+      "id": "DD4AE3",
+      "category": "verbs",
+      "incorrectForm": "ИСПЕКЁТ",
+      "answer": "испечёт",
+      "sourceExcerpt": "ИСПЕКЁТ пирожок",
+      "correctedExcerpt": "испечёт пирожок",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "печь"
+      ],
+      "sourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a"
+    },
+    {
+      "id": "E60EB4",
+      "category": "comparison",
+      "incorrectForm": "МОЛОЖЕ",
+      "answer": "молодой",
+      "sourceExcerpt": "он более МОЛОЖЕ",
+      "correctedExcerpt": "он более молодой",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "более",
+        "молодой"
+      ],
+      "sourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0"
+    },
+    {
+      "id": "E7D8E1",
+      "category": "verbs",
+      "incorrectForm": "СОЖГЁШЬ",
+      "answer": "сожжёшь",
+      "sourceExcerpt": "СОЖГЁШЬ письмо",
+      "correctedExcerpt": "сожжёшь письмо",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "сжечь",
+        "жечь"
+      ],
+      "sourceContentSha256": "a6942f0c77811ca61ea14dfbca282b0a8ff7dfd2809ebffb94fb5e4dadb02875"
+    },
+    {
+      "id": "E97CE0",
+      "category": "nouns",
+      "incorrectForm": "ЯБЛОКОВ",
+      "answer": "яблок",
+      "sourceExcerpt": "много ЯБЛОКОВ",
+      "correctedExcerpt": "много яблок",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "яблоко"
+      ],
+      "sourceContentSha256": "a448701471b05a39d9ea658dc92d0c024a0c9d642ebd8ce48521f85f688aecc0"
+    },
+    {
+      "id": "ECF2E7",
+      "category": "nouns",
+      "incorrectForm": "ШКАФЕ",
+      "answer": "шкафу",
+      "sourceExcerpt": "в ШКАФЕ",
+      "correctedExcerpt": "в шкафу",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "шкаф"
+      ],
+      "sourceContentSha256": "7c0bcb40f0c7673d6f9f0f15656e9b379937b2717dfefbbd421c363e0f7e2381"
+    },
+    {
+      "id": "ED6747",
+      "category": "verbs",
+      "incorrectForm": "ПРИОБРЁВ",
+      "answer": "приобретя",
+      "sourceExcerpt": "ПРИОБРЁВ мебель",
+      "correctedExcerpt": "приобретя мебель",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "приобрести"
+      ],
+      "sourceContentSha256": "0f4fb2905bab16db4f8e9990964a9bc7880b71a8aff55296e335b642d795b63a"
+    },
+    {
+      "id": "F05133",
+      "category": "numerals",
+      "incorrectForm": "ДВУХ",
+      "answer": "две",
+      "sourceExcerpt": "в ДВУХ тысячи десятом году",
+      "correctedExcerpt": "в две тысячи десятом году",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "два",
+        "порядковый",
+        "числительное"
+      ],
+      "sourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850"
+    },
+    {
+      "id": "F23DF9",
+      "category": "nouns",
+      "incorrectForm": "СОУСА",
+      "answer": "соусы",
+      "sourceExcerpt": "томатные СОУСА",
+      "correctedExcerpt": "томатные соусы",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "соус"
+      ],
+      "sourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0"
+    },
+    {
+      "id": "F26529",
+      "category": "comparison",
+      "incorrectForm": "КРАСИВШЕ",
+      "answer": "красивее",
+      "sourceExcerpt": "КРАСИВШЕ других",
+      "correctedExcerpt": "красивее других",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "красивый"
+      ],
+      "sourceContentSha256": "3f2872a4cafb7f5447953f61ce50d363d8358245f33ccec333c6cac6ca03c2ea"
+    },
+    {
+      "id": "F43551",
+      "category": "nouns",
+      "incorrectForm": "ТУФЛЕЙ",
+      "answer": "туфель",
+      "sourceExcerpt": "нет пары ТУФЛЕЙ",
+      "correctedExcerpt": "нет пары туфель",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "туфли"
+      ],
+      "sourceContentSha256": "ba2bc24cb97f16c6965afdf6e537223e8609f0e9f94515b5ded7c44963281492"
+    },
+    {
+      "id": "F5ED6D",
+      "category": "pronouns",
+      "incorrectForm": "НЕМУ",
+      "answer": "ему",
+      "sourceExcerpt": "наперекор НЕМУ",
+      "correctedExcerpt": "наперекор ему",
+      "evidenceScope": "rule_application",
+      "specialistGrammarReferencePending": true,
+      "headwords": [
+        "наперекор",
+        "он"
+      ],
+      "sourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d"
+    },
+    {
+      "id": "F61987",
+      "category": "nouns",
+      "incorrectForm": "ПЛАТИЙ",
+      "answer": "платьев",
+      "sourceExcerpt": "много ПЛАТИЙ",
+      "correctedExcerpt": "много платьев",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "платье"
+      ],
+      "sourceContentSha256": "9c261b99309fe070cc19cf42061298554936068ad6dffaec794f6859cfae6cd1"
+    },
+    {
+      "id": "FB76CB",
+      "category": "nouns",
+      "incorrectForm": "САПОГОВ",
+      "answer": "сапог",
+      "sourceExcerpt": "модных САПОГОВ",
+      "correctedExcerpt": "модных сапог",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "сапоги"
+      ],
+      "sourceContentSha256": "7f61cddfc993c98741ac91ec2265d2db2fd061d71cd9f706fe4aebfe73eec430"
+    },
+    {
+      "id": "FE285C",
+      "category": "verbs",
+      "incorrectForm": "ЛЯЖЬТЕ",
+      "answer": "лягте",
+      "sourceExcerpt": "ЛЯЖЬТЕ на спину",
+      "correctedExcerpt": "лягте на спину",
+      "evidenceScope": "explicit_dictionary_form",
+      "specialistGrammarReferencePending": false,
+      "headwords": [
+        "лечь"
+      ],
+      "sourceContentSha256": "5b4ab79fddcf46ebaabad063e8855af3fc03bbd5c4627ebb8c9a9830a738c65c"
+    }
+  ]
+}

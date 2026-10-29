@@ -51,17 +51,21 @@ export async function dictionaryArticlePage({
       ) + backLink
     );
   const relatedUrl =
-    task === 6
-      ? `#knowledge?list=lexical&card=${esc(params.get("card"))}`
-      : task === 5
-        ? "#knowledge?list=paronyms"
-        : "#knowledge";
+    task === 7
+      ? `#knowledge?list=word-forms&card=${esc(params.get("card"))}`
+      : task === 6
+        ? `#knowledge?list=lexical&card=${esc(params.get("card"))}`
+        : task === 5
+          ? "#knowledge?list=paronyms"
+          : "#knowledge";
   const relatedLabel =
-    task === 6
-      ? "Лексические нормы"
-      : task === 5
-        ? "Алфавитный список паронимов"
-        : "Справочник";
+    task === 7
+      ? "Формы слов"
+      : task === 6
+        ? "Лексические нормы"
+        : task === 5
+          ? "Алфавитный список паронимов"
+          : "Справочник";
   return (
     heading("СЛОВАРЬ", esc(article.headword), esc(article.title)) +
     backLink +

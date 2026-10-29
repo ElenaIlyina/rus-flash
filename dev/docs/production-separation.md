@@ -27,7 +27,7 @@
 `dev/scripts/publish_content.py` проверяет редакторские записи и создаёт
 шесть подготовленных входов:
 
-- `data/knowledge/card_support.json`: 220 записей с готовыми подсказками,
+- `data/knowledge/card_support.json`: 292 записи с готовыми подсказками,
   связями и хешами карточек; без статусов автора и журнала ревью;
 - `data/knowledge/paronyms.json`: только опубликованные сравнения и значения;
 - `data/knowledge/dictionary_sources.json`: файлы учебных источников и их хеши;

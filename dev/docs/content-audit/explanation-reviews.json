@@ -2543,6 +2543,726 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "9f13ac5895cd422534368617850689e60d9ff532c645f587d96e07aa9a22f09c",
       "explanationSha256": "45615a3e425e70ac832606f596495b785dd74345f3e9377b10ec758e7624d098"
+    },
+    {
+      "id": "09D8E7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4ae14593101266d681edaccfd3bdcf98905e16734ad27f79cb8cc80f6f78275f",
+      "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879"
+    },
+    {
+      "id": "0BB6E7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2bda5b4baa8ab6740519b1d5b8e035dd62fe1d74cbd1d9393791dccd6098e77c",
+      "explanationSha256": "e8349c367ca8e718226b619eeaf6d93c2d4a840be580459e26851fefa072b88e"
+    },
+    {
+      "id": "18355B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f47c5cabff6e50150086c2b6b80ec7e7ccab41a725649a0ceab61f18cf253724",
+      "explanationSha256": "77b0f4521a65073ba80d3e63dc3fe5615f6285531d06657828e9461b75a499d0"
+    },
+    {
+      "id": "187C1A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e1539290aeeb7606de887dee09afc5b9a4e39a651df92abf202fb758d267cbb4",
+      "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e"
+    },
+    {
+      "id": "1F3478",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "91d367d2aff3a4f366cc6c773c5f2166949ea292db77c7030147dbe15b1ce20d",
+      "explanationSha256": "48000a1fb9191e72f8578954f9c61799f9baa645a23055694b10cfbb47111cfb"
+    },
+    {
+      "id": "20ECC0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e14628f99c1da78e2c7397ad72c6c5c8e84e29cbfb4f45693446877e8017d69d",
+      "explanationSha256": "78986b1967086f842ecc4cb5cde2c65387491e0d1dde8f642380a210cb6f83d4"
+    },
+    {
+      "id": "247443",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a145047269dcc66bcba76a70423ecb4356d7a1bd14327a529794ea6001fe54fa",
+      "explanationSha256": "ab8cd129196b56e445d3b6a1b6f36428b6b8f3ce5cfbcd7dd56a9bfa8fc4c135"
+    },
+    {
+      "id": "27713B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5aaebcb86fef1032b4fcd7550e73cef2178b6d59e0e4d3513b0b79b145336e78",
+      "explanationSha256": "2131abf14e681bde17a75dac008d01103838b07bf3c7430e61505e60469e1df7"
+    },
+    {
+      "id": "2850E4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d4729b8eb1c60edee92f45211f73c990fc2929fbf92f93b5de8dd8b457a403cb",
+      "explanationSha256": "ce086ebf7f6957453ae80abc4658caef4fd8f449b390a9d9ccdf0e8f2fc653ca"
+    },
+    {
+      "id": "2A3746",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1bd6f79f8d05b2736d83be9fb86a0054e20f197657686883e7ab21dfbb63c3b6",
+      "explanationSha256": "a2f2b8fcce10a3189cb0af65fe3177bc1ad6cec929ef41a7b08a545e37b8ca6c"
+    },
+    {
+      "id": "2AD233",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9f93b7f6dc7fe77a339a96e2e8aa667dad79e769de8a8414cc31aed956a036a2",
+      "explanationSha256": "bef7ca4aa98e3909105e12096140ef81aad6493c8eb61eff8c367d67fb6216ac"
+    },
+    {
+      "id": "2B1518",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "03b5ba17e9fad1f7557ab895a0e3037bdc146f920746573d209d66d2f3028b75",
+      "explanationSha256": "cca68c119035064b7f947d1971bab1a95c7f6a8c05b856660907e2a3dfef9943"
+    },
+    {
+      "id": "2BD565",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1eabd08167b0ff46deeb1a4ebe64d1894c7f825b9a73c12af12dbcfda6f29958",
+      "explanationSha256": "28e3e90f2fd81940753cc178bc612f63a9d6285e4fd7e6bcc8c02569cd13414e"
+    },
+    {
+      "id": "2F7CFF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c5a1ddd7e16a839de54d2166db9786a1aae650c23b03fa76a2a096df2e6b1474",
+      "explanationSha256": "f577112af7ed79b86a7a424798eb977e2795942421c5f56ea5bb87df0256fcec"
+    },
+    {
+      "id": "3282E5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a0670b5b87422231cb63aecd09986f681a1a509307d6acdb82a3462adf82c152",
+      "explanationSha256": "bc3810133d092eadddbccdfe40459bee88f3a473d3e6865086bffb5130f44e18"
+    },
+    {
+      "id": "32E17B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ca29a741cc40e0ed8e1c6096eaa91aea46759e98e4220cba8927bcc9add5fdce",
+      "explanationSha256": "13a1f2dc3ef6806ac86df67a18a8827c39b04fecc3279a69a495d8c162cce438"
+    },
+    {
+      "id": "3F1F92",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1b2fd63f72a11b413dae5911b24f410675beabaa2adf671afcce1c3129568413",
+      "explanationSha256": "2baaa46758c976caa75e454a7e90135350ba4cce623a5bab3327fd2c4e75f828"
+    },
+    {
+      "id": "41D6D8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5efb4533a5899a4e3b3a5492af811c9aba2f362b21cd5753994ecc27aadbfbeb",
+      "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78"
+    },
+    {
+      "id": "4B38A8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ce5aed18c9d83b503a5d94231b8a2626b975a86de3a3a9c3d846f0b727495756",
+      "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879"
+    },
+    {
+      "id": "521887",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4412d049331f80ea12cf394d80e925f33d551eda90fc91aa7463620d6b771624",
+      "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78"
+    },
+    {
+      "id": "56EC13",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5a79c497aad2ade2e08c1b9445c9e11f3b1fce01c10d7f78915108dcc6da3bd7",
+      "explanationSha256": "205ff749ffc00e564bad1c8b90d5d2a0bfa3c3dbf5a203eb8c3e2d30de24c535"
+    },
+    {
+      "id": "5C0D5E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ffcb73d36df903eaba79d39a8408233289a10ac19c6c851bc074fb2fdc751855",
+      "explanationSha256": "071929b172fe142284c99d385f1493bfb0bfa509c671ec9238be480e631539fc"
+    },
+    {
+      "id": "5CFD83",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "08c39d33056839fa053bbcfb97954e8dbf27458afed22cc726fc2981cccbf918",
+      "explanationSha256": "16ed8119809207ded0488ce3fd458934cb6fa8c7a20e85ab27cbd17cd9a769c1"
+    },
+    {
+      "id": "5D5744",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9682b5edc867824576958d55e6fa98ad2d1320243c8de878b0c33bf37c4375c8",
+      "explanationSha256": "0992cc9babd127045ad13c497e612e6c3a5d111911660e35e52a737c014bf050"
+    },
+    {
+      "id": "617D1E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "09520afea25c221fe8293b10e59d45eede76d1d6dcd25e0c26dd3dda56d5959d",
+      "explanationSha256": "69c15f16b7b879a5b943522ef44b3099ef054c637df905be2b33dcc6dbdc957f"
+    },
+    {
+      "id": "69CA59",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "34eb620d09dfff9e2020aa15f6f528a3966cfadb47007c5c617ba1d9e0402457",
+      "explanationSha256": "c483250f080e69e430145718d6c5ae1429686b1ffa5f6fd18b47e712784bccd5"
+    },
+    {
+      "id": "6C3050",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3e94b13377d78d31aa99a7f345e58d2ab33a8628a9331f7472524d830ebee5cf",
+      "explanationSha256": "6b5166cce231b72e75ca6e685a9f11be0afd95e39d84fe1ae0173dd97223a436"
+    },
+    {
+      "id": "729EAA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e0cba725fb3976a152ee1bf33bdbf1bdba9059ec9c3459b7e8988e269cf4a332",
+      "explanationSha256": "4b990c36bdbb7d8d077a9e788a49816be6d3c88d128f71eb1f83cdba0b6ca53c"
+    },
+    {
+      "id": "730999",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9770bd28d8520994b7fd0dcd59daea7644eab50a8f9cce9b16a6e4d100327f95",
+      "explanationSha256": "38b77da965d68561600db595c8b142544ea1af4e202a8a4fbbd5fdc55b287002"
+    },
+    {
+      "id": "74EFC9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "039c70f48fdedb4a3028271297a2f4db9f9d1d8fd271d43af7a8fde9123e5ac1",
+      "explanationSha256": "d553703f053bdf296fe7af49ce703042be32bad6a43cf5407cad0fecd1b1136e"
+    },
+    {
+      "id": "7C773B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "745516ccaa9172602e3c412fb62a23e4472cafa8906a70e2ebc56fb0f85a93d8",
+      "explanationSha256": "bba8af60dc4de82a80b1d2cd3c2a9eb2c0b4a5088b30ffd413c02079c55739ee"
+    },
+    {
+      "id": "7D35EA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fc258571d8c0d82ccc45663cbca69b5aca44f064fa62fea552cb3a33052f06b0",
+      "explanationSha256": "280c1c4e67797f44d1ff3ea831ba1585d72f0f4aeb3f9b3eede59697ac7f8da6"
+    },
+    {
+      "id": "810334",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5755a5ecbb6685d9312b8ecd65d68f1928d766cf0e917e98fe9219de838faeca",
+      "explanationSha256": "fddee67331d8679278b57924154bff46409dfde3174b7033e9d1acdb89950cfe"
+    },
+    {
+      "id": "848E52",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "26de82f268650fbe0675ced7e24f478216bf0a5d49354dab2bc7f3873eeb01d8",
+      "explanationSha256": "1c31fe56ad68a9729bb2ae46a771d496238eedc5a6e46b7ad9adad1f3194c507"
+    },
+    {
+      "id": "84916E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0cb9daaa665f6ce83ef362b206436362464bc3790db2812cb2152247a9e2a230",
+      "explanationSha256": "c7be4cee24572d60eaa49d0754c8194ac34105ebebb8bb6cde2e3c702ba4b4ff"
+    },
+    {
+      "id": "86D4CC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "158f94bb4bedf8bf1d57cfc07aebf8ae9aeee7c3de95869b72b50cf4075c2697",
+      "explanationSha256": "4351c19dac54513bde12c1775e47d09890ac1145375db6dc99e3be75573405be"
+    },
+    {
+      "id": "890AB3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fa712c7b56f348ff740c58f7dec423b693ad954f3cac1fb4290fa8506c6ef5dc",
+      "explanationSha256": "702112228f35d4421627870a90bdd5dc3a787efa77ecc3bfb743020daddd3e7e"
+    },
+    {
+      "id": "93AE9E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ef4b29c62140e6f70a31592f09869505eb8530613f492bf14ce5129c9274ff45",
+      "explanationSha256": "4ddc878d8f50410f3ce2d6b7b3221f678eeaa9b8b70f92319d0668330b3a7697"
+    },
+    {
+      "id": "944170",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ed88ac597dbac8c198e2f95bc68e133285312ca3df2fe29c71234e4f369081dd",
+      "explanationSha256": "c9eb75459cd994a4552e2f12b46fea8d577ed6b59e4659ea7bf773d3c8f1e447"
+    },
+    {
+      "id": "98BE1B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b0e70e0243716f56cd0461abb7f46b99b7e6ed811acceff8aa61ff17c36f3a9a",
+      "explanationSha256": "ab6875381c3d73e6e0864f24765419f494ba6495f7bcf872b99e2a70426a6157"
+    },
+    {
+      "id": "99D255",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2d11efdfbee15ca0f5bae170dbbfbe8a85a8bd5d902a5d788e93db0dbe40bf9f",
+      "explanationSha256": "4893f2cf5755b3ee7ae08b474cacaee56c507bbdfa0f2f226e43b1f903f1812d"
+    },
+    {
+      "id": "A42414",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2d983340d5146b0c1aa9c8ba8e4fd6a0c3eff2fe8500fb4d3977c77cff13512d",
+      "explanationSha256": "5e4f2e04c4bdc98d1ea7329880df37f6aabca92b9ade09c0a326b97266d6a05c"
+    },
+    {
+      "id": "A4CB01",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "67d13726772f91972567590ee080cb7410d1484d106e2fa8fd14bdff88457512",
+      "explanationSha256": "ab767e1d3a40961e9c8193c49154713e63c73d84a1d16c437c39a82c5e7d27ba"
+    },
+    {
+      "id": "A704AE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "935c469d4f7784107f0d7300e70c112560480d46d41e26d9673e0d74513c5ebc",
+      "explanationSha256": "15a4636143d9117aaedd068b6489b94611205ececd5965323c0d68f8a7ea535e"
+    },
+    {
+      "id": "A7C780",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "10efdefe685fd97483b2b3471024669f4474cbe321b9a82e2748e26645c0edaa",
+      "explanationSha256": "7fd0440439a573dd1e6cf2346772ad5cc249fd5cb828b561f8ddd68aefe7d831"
+    },
+    {
+      "id": "AA8707",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "371faa3785793fcfbf6464d72632d204b76913b4cc7f734b95f27959ae722e20",
+      "explanationSha256": "095efe1b8aa3c18ec341e54e965f48355b5ebe386650955cdd187bdc6fed4814"
+    },
+    {
+      "id": "AE0374",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fa712c7b56f348ff740c58f7dec423b693ad954f3cac1fb4290fa8506c6ef5dc",
+      "explanationSha256": "8daf1e1dadc312263c0cae6fd4acd6c8a7a06417cb0073ce3517a08d8ba67a21"
+    },
+    {
+      "id": "B1C91E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fc258571d8c0d82ccc45663cbca69b5aca44f064fa62fea552cb3a33052f06b0",
+      "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692"
+    },
+    {
+      "id": "B3DAE9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "866cdcc655ad26f5b745d6b3539bbd8264b89a4ff7483dd32b5f23dcbea8f7d1",
+      "explanationSha256": "ec5b91671c15b5e9e07cf57befe05d98d1ebc09c48b4ef39d6fe8ca3f06ae50d"
+    },
+    {
+      "id": "B95F57",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e0cba725fb3976a152ee1bf33bdbf1bdba9059ec9c3459b7e8988e269cf4a332",
+      "explanationSha256": "7dd7cab4471128a91c0b05ea5477b465ea380178faa3a220adc1a4a144700d4c"
+    },
+    {
+      "id": "BCCEFC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8dd66a6b3d6c49e9dc5e398923a58bedf3ddcb173c901b503b60d3ab98437307",
+      "explanationSha256": "9455c4af721f5f1520d35adbb4c94f3f5530e6cadeb2ca5a6254a41468abc2e1"
+    },
+    {
+      "id": "BE9871",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "66c8a78d068da723549ef4289e5263d32b14bcefd25fafad2ffc9438c1b585e6",
+      "explanationSha256": "6a6b045824e1404e44c3bc16903162bee26a7f25ca28ae00c7ce855bf237627f"
+    },
+    {
+      "id": "C542DC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a8dee5c04132cfb9f4a983714f28c060942bb05505e1ee2391bb3a40bb08a838",
+      "explanationSha256": "52415ff62c36a1fc74d9d72625c8f06a12bc677bc72398ac29399cb4fa4ff87d"
+    },
+    {
+      "id": "C88373",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "802d60139f87c7bec3bd81eb07afc1ae090f670a7301ea21e625b29dbe6da67a",
+      "explanationSha256": "04af04507fef549e7e185a347befac9e8efbaa93c7be2cdfcecab5b25e9bced6"
+    },
+    {
+      "id": "CA147A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ac99dc9c5e5c27da5dab8495450784cbc161bebaec129cb765404d47bcfc864f",
+      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311"
+    },
+    {
+      "id": "D05218",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "640a594176d109caa4dbbc13e1c50d3d62a3249050a3691289916f092b870d29",
+      "explanationSha256": "6c09ed19cbbd7721e484229d39bdbef1298cf74d647dc71641558861f929aa84"
+    },
+    {
+      "id": "D754F9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "507e7d7ed2e899431d46005685c85a41e49a0a8d54ca72756748fac8675b9df0",
+      "explanationSha256": "ba72700bdd8cb65acf8caa7fb4eec7642c70192f1fd6e0bc078c7bb6a636cc30"
+    },
+    {
+      "id": "D8BE94",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d9c7ed3cbdbf6c5c11b95b781f8053dd4b760cbd214f201ccad6e73427046016",
+      "explanationSha256": "5fa401714dbcfd5efdc30bf087b7729fe03c730b7cc5d8d7aaf1bd72ff6273b1"
+    },
+    {
+      "id": "DD4AE3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6069f2a61eaaa831943420b80851d123fa4282f26e432407cb288f7763c7dc61",
+      "explanationSha256": "d6fdde2ea1dd1ea819673bc4ec313a2101a4192903e91d201655e5788ee59061"
+    },
+    {
+      "id": "E60EB4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ada4f03ac78b2c8c38d0e892a9e68b02df388233dd53e6316de470a6b9c5f81d",
+      "explanationSha256": "6a134bffa1c61c32826091d6062613413ec3f4f2851484753d3e91f5a4823b31"
+    },
+    {
+      "id": "E7D8E1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c8e3c027ea3b621b9023da70dca05ce7379154dd449f0d88b9b40684ad8d7cf0",
+      "explanationSha256": "85ca8569d5260fa9f9c24fae67ef44a0154ba33712fde73624b82c10d2cfe4c1"
+    },
+    {
+      "id": "E97CE0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "640a594176d109caa4dbbc13e1c50d3d62a3249050a3691289916f092b870d29",
+      "explanationSha256": "19dc5564eba478ac12f530f6459c5746f7c2aa2114d8c23dc6ac028bb9558eb9"
+    },
+    {
+      "id": "ECF2E7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bea321889d0a01f550d309cc3ccb148c5ff71b48a670bb07554001dd9832c0c4",
+      "explanationSha256": "4900ea53c2acb9063c7a0aa1a7487e2e69f878d91ff5a80e7ea4b4a1837f11a3"
+    },
+    {
+      "id": "ED6747",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "49593f20b0cf8c14c661a26d7e898d855d4d04efb5f1233c4df3aca5cfe802f7",
+      "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e"
+    },
+    {
+      "id": "F05133",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "96d53d8dcaac62e01ba153d341e72d07e9e9ce61b5bf3fa4ea46c4116eeb3238",
+      "explanationSha256": "1fab82a2a058a81c8ec054c441729e73d9ffdb2355dccc1370643f08212a411c"
+    },
+    {
+      "id": "F23DF9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ac99dc9c5e5c27da5dab8495450784cbc161bebaec129cb765404d47bcfc864f",
+      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311"
+    },
+    {
+      "id": "F26529",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4cf5bc41ceb0644d7e69aeb065a82182f66b33bfde7a70ede9e77fcc84c2a41d",
+      "explanationSha256": "acae2ec9c0930c324e9f16de504776f27599a694b42f9b4b3b6ca42f1c3df8f3"
+    },
+    {
+      "id": "F43551",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "17ebea4e0a072c17ed2a43f1969db783b8c4315c71bd0d2a1a7de97017cc1880",
+      "explanationSha256": "ab8995c14fd590b447c0499b4a53012ba6f856b0c6f190ee7e85daece91b1622"
+    },
+    {
+      "id": "F5ED6D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9b4992a591c1384669fc40e83a8bb4d8454712b733183347b8a923b7d1293040",
+      "explanationSha256": "9f50563222dd146ae6f5bbd67f912f92d0642ce7912fb360867ee5d3e89db74d"
+    },
+    {
+      "id": "F61987",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7665f35c5667d31e17a900a29ad4f90c74229af4221816ff5d89dd2d27e5a2ea",
+      "explanationSha256": "4af9488b5847d631c702c7f5dd712c270d5bd668ddfd8ca5e3046561d2381dcc"
+    },
+    {
+      "id": "FB76CB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ca8da07636b61cd753c861e7fe70195b2542e417cc89fbfe26cf9d9a5658dfc5",
+      "explanationSha256": "0b329ffd1eb66196cca55c40d4cbc706a69d3a56028e817312ef8273a6547d31"
+    },
+    {
+      "id": "FE285C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-29",
+      "status": "explanation_corrected_applied",
+      "reason": "№7: исправление в контексте, объяснение формы, разграничение похожих конструкций; прочитаны словарные статьи, предел подтверждения отмечен в реестре.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fc258571d8c0d82ccc45663cbca69b5aca44f064fa62fea552cb3a33052f06b0",
+      "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692"
     }
   ]
 }

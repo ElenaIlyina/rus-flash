@@ -19,7 +19,7 @@ def read(path):return json.loads((ROOT/path).read_text())
 def main():
     subprocess.run([sys.executable,str(ROOT/'scripts/build_app_data.py')],check=True)
     reviews={}
-    for name in ['prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews']:
+    for name in ['prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews']:
         for entry in read(f'dev/data/knowledge/{name}.json')['cards']:
             if entry['id'] in reviews:raise ValueError('Duplicate review')
             reviews[entry['id']]=entry

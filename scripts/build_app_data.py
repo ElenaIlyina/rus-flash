@@ -104,7 +104,7 @@ def main():
                 raise ValueError('Published card/support data disagree: '+cid)
         position = mapping(card)
         task = position['task']
-        allowed = task not in {5,6} or entry.get('explanationPublished',False)
+        allowed = task not in {5,6,7} or entry.get('explanationPublished',False)
         public_card = card if allowed else {**card,'explanation':''}
         basis = {'card':card,'position':position,'assessmentPolicy':'responses-v1'}
         version = max(2,int(hashlib.sha256(json.dumps(basis,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:8],16))

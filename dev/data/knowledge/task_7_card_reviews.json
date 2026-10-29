@@ -1,0 +1,2782 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-29",
+  "cards": [
+    {
+      "id": "09D8E7",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77",
+      "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879",
+      "hint": "Слово со значением превышения количества требует зависимую группу в родительном падеже. Проверьте падеж числительного, даже если существительное после него уже склонено.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ДВЕ",
+        "answer": "двух",
+        "sourceExcerpt": "более ДВЕ тысяч человек",
+        "correctedExcerpt": "более двух тысяч человек",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "два",
+            "entryId": "ozhegov-86879b3ea456",
+            "definitionQuote": "два ДВА, двух, двум, двумя, о двух; ж. две, двух, числит. колич.\n1. Число, цифра и количество 2. За два дня и за два дня. На два дня и на два дня. Рассказать в двух словах (очень коротко). Живёт в двух шагах (совсем рядом). Ни д. ни полтора (ни то ни сё; разг.). В д. счёта сделать чтон. (очень быстро; разг.).\n2. нескл. То же, что ↑ двойка (во 2 знач.). За сочинение получил д.\n| порядк. второй, ая, ое (к 1 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "больше",
+            "entryId": "ozhegov-4595c555569c",
+            "definitionQuote": "больше БОЛЬШЕ.\n1. см. ↑ большой и ↑ много.\n2. нареч. В сочетании с количественными именами обозначает превышение указанного количества. Ждать б. часа. Стоит б. трёх рублей. Идти б. километра.\n3. нареч. Далее, впредь, ещё. Б. туда не ходи. Б. не буду (обещание впредь не делать чегон. предосудительного; разг.). Б. нет вопросов?\n4. нареч. Преимущественно, главным образом (разг.). Шли б. (всё больше) лесом.\n• Больше того, вводн. сл. означает переход к более важной части сообщения.\nБольше чем то же, что более чем.\nНе больше чем то же, что не более чем.\nНи больше ни меньше как именно столько, именно так. Опоздал ни больше ни меньше как на час.\nИ больше ничего (разг.) вот и всё, кончено. Делай, что говорят, и больше ничего.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0BB6E7",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "cbf8f5c09567a24feb0562b06de3f3197478bd156c6df1a733c6987b43437fb7",
+      "explanationSha256": "e8349c367ca8e718226b619eeaf6d93c2d4a840be580459e26851fefa072b88e",
+      "hint": "Найдите личную форму глагола во множественном числе. У разноспрягаемого глагола нельзя выбирать окончание только по форме единственного числа.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "БЕЖАТ",
+        "answer": "бегут",
+        "sourceExcerpt": "спортсмены БЕЖАТ",
+        "correctedExcerpt": "спортсмены бегут",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "бежать",
+            "entryId": "ozhegov-70a9f1f3568c",
+            "definitionQuote": "бежать БЕЖАТЬ, бегу, бежишь, бегут; беги; несов.\n1. Двигаться быстро, резко отталкивающимися от земли движениями ног. Б. рысью.\n2. перен. Быстро двигаться, проходить, течь. Облака бегут. Дни бегут. Вода бежит ручьями. Кровь бежит из раны.\n3. также сов. Спасаться (спастись) бегством. Б. из плена.\n4. О часах: спешить, идти вперёд.\n| сущ. бег, а, м. (к 1 и 2 знач.). Б. коня. Б. на месте (также перен.: о деятельности, к-рая не приносит результата). Б. времени.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18355B",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "fc20fee1487c0ee209b7cbc70eda67ae7f7cbdde7359cdcc171f35e9536d0313",
+      "explanationSha256": "77b0f4521a65073ba80d3e63dc3fe5615f6285531d06657828e9461b75a499d0",
+      "hint": "Проверьте родительный падеж множественного числа у названия части тела. Окончание -ей не является универсальным для всех существительных.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ПЛЕЧЕЙ",
+        "answer": "плеч",
+        "sourceExcerpt": "на ширине ПЛЕЧЕЙ",
+        "correctedExcerpt": "на ширине плеч",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "плечо",
+            "entryId": "ozhegov-9af43c04325e",
+            "definitionQuote": "плечо ПЛЕЧО, а, мн. плечи, плеч, плечам, ср.\n1. Часть туловища от шеи до руки (у животных верхняя часть передней конечности). Нести узел на плече. Закинуть рюкзак за плечи и за плечи. Расправить плечи (также перен.: обрести уверенность в себе). Взвалить на плечи и на плечи чтон. (также перен.: обременить тяжёлой работой, обязательствами). На плечах чтон. у когон. (также перен.: о трудной работе, обязанностях. На плечах у него семья). Похлопывать по плечу когон. (также перен.: относиться покровительственно или панибратски; неодобр.). Плечом к плечу (рядом, совсем близко; также перен.: в тесном единении). Подставить п. (также перен.: помочь). П. старшего, п. друга (перен.: о помощи, поддержке старшего, друга). Голову на плечах иметь (перен.: поступать разумно, действовать с умом; разг.). С плеч долой чтон. (отпала забота, кончилось беспокойство о чёмн.; разг.). Как гора с плеч свалилась (отпала тяжёлая забота; разг.). Ворваться в город на плечах противника (непосредственно за отступающим противником). Вынести на своих плечах чтон. (перен.: справиться с чемн. трудным, тяжёлым одному, без поддержки).\n2. Верхняя часть руки до локтевого сустава (спец.).\n3. Часть одежды от шеи до руки. Выкроить п.\n4. Часть рычага от точки опоры до точки приложения силы (спец.).\n5. Участок пути, дороги (спец.). П. магистрали.\n• За плечами у кого, кого что о чёмн. пережитом, ранее сделанном. За плечами целая жизнь. За плечами хирурга сотни операций.\nЧувство плеча то же, что ↑ чувство локтя.\nПо плечу кому что (разг.) по силам. Это дело тебе не по плечу.\n| уменьш. плечико, а, ср. (к 1 знач.).\n| прил. плечевой, ая, ое. П. сустав. П. пояс (часть скелета, служащая опорой плеча в 1 знач.). Плечевая кость (костная основа плеча во 2 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "187C1A",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "34e628068d4e52b401c522396690b280ee185f0c319f0c3d5916ceb4526e6e23",
+      "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e",
+      "hint": "Различайте личную форму прошедшего времени и деепричастие: вопрос «что сделав?» не требует механически сохранять основу формы на -л.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ПРИОБРЁВ",
+        "answer": "приобретя",
+        "sourceExcerpt": "ПРИОБРЁВ мебель",
+        "correctedExcerpt": "приобретя мебель",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "приобрести",
+            "entryId": "ozhegov-00c54cee4455",
+            "definitionQuote": "приобрести ПРИОБРЕСТИ, ету, етёшь; ёл, ела; етший; етённый (ён, ена); етя; сов.\n1. кого-что. Стать владельцем, обладателем чегон., получить чтон. П. дом. П. власть. П. авторитет (заслужить его).\n2. что. Стать обладателем какогон. свойства, качества. Слово приобрело новое значение. П. здоровый вид.\n| несов. приобретать, аю, аешь.\n| сущ. приобретение, я, ср.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1F3478",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "17787d8f1541ada9b1f872013f4fa3bdb7cce81053c054d9e92be4c8efa873eb",
+      "explanationSha256": "48000a1fb9191e72f8578954f9c61799f9baa645a23055694b10cfbb47111cfb",
+      "hint": "Назовите исходный глагол и нужную форму: лицо, число, время или наклонение. Не переносите основу одной формы во все остальные; проверьте чередования и возвратность.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ПОКЛАЛ",
+        "answer": "клал",
+        "sourceExcerpt": "ПОКЛАЛ здесь",
+        "correctedExcerpt": "клал здесь",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "класть",
+            "entryId": "ozhegov-49c658f79f4c",
+            "definitionQuote": "класть КЛАСТЬ, кладу, кладёшь; клал, клала; клади; клавший; кладя; несов.\n1. кого-что. Помещать в лежачем положении, а также вообще помещать кудан., располагать гден. К. ребёнка в коляску. К. платок в карман. К. личинки, яйца (о насекомых, самках птиц, пресмыкающихся: откладывать; см. ↑ отложить в 3 знач.). К. деньги на книжку (вносить вклад). К. больного в госпиталь (для лечения).\n2. что. Помещать, накладывать на поверхность чегон. К. краски на холст. К. повязку на руку. К. резолюцию (надписывать; устар.).\n3. что. Помещать, прибавлять внутрь чегон., кудан. К. приправу в кушанье.\n4. что на что. Употреблять, назначать для какойн. цели (разг.). К. все силы на чтон. К. на поездку неделю.\n5. что. Строить из камня, кирпича. К. фундамент. К. печь.\n6. что. Совершать чтон. (что обозначено существительным). К. начало чемун. (начинать). К. конец чемун. (прекращать). К. основание (основывать).\n• Класть на музыку чтоперелагать на музыку.\nКласть жизнь (голову) за кого-чтоотдавать жизнь за кого-чтон., жертвовать собой.\nКласть поклоныкланяться во время молитвы.\nКласть шар в лузув бильярде: ударом кия посылать шар в лузу.\n| сов. положить, ожу, ожишь; оженный (к 1, 2, 3, 4 и 6 знач.) и сложить, ожу, ожишь; оженный (к 5 знач.).\n| сущ. кладка, и, ж. (к 5 знач.; к 1 знач.об откладывании личинок, яиц).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20ECC0",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1",
+      "explanationSha256": "78986b1967086f842ecc4cb5cde2c65387491e0d1dde8f642380a210cb6f83d4",
+      "hint": "Сравните названия профессий: у них не обязательно одинаковое окончание во множественном числе. Сначала установите, где речь идёт об одном лице, а где — о нескольких.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "БУХГАЛТЕРА",
+        "answer": "бухгалтеры",
+        "sourceExcerpt": "молодые БУХГАЛТЕРА",
+        "correctedExcerpt": "молодые бухгалтеры",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "бухгалтер",
+            "entryId": "ozhegov-5b3e4da45327",
+            "definitionQuote": "бухгалтер БУХГАЛТЕР [уhа], а, м. Специалист по ↑ бухгалтерии (в 1 знач.); работник бухгалтерии (во 2 знач.). Главный б.\n| ж. бухгалтерша, и (о работнике бухгалтерии; разг.).\n| прил. бухгалтерский, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "повар",
+            "entryId": "ozhegov-eb1d66c8d2b4",
+            "definitionQuote": "повар ПОВАР, а, мн. а, ов, м. Специалист по приготовлению пищи. Школа поваров.\n| ж. повариха, и.\n| прил. поварской, ая, ое. Поварское искусство. П. колпак.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "247443",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "09d579cccb27f94019e5acce2c0419545b4afb64442670f65ac64e8910b46b40",
+      "explanationSha256": "ab8cd129196b56e445d3b6a1b6f36428b6b8f3ce5cfbcd7dd56a9bfa8fc4c135",
+      "hint": "После слова «много» проверьте родительный падеж множественного числа. У существительного женского рода возможны нулевое окончание и беглая гласная в основе.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ВАФЛЕЙ",
+        "answer": "вафель",
+        "sourceExcerpt": "много ВАФЛЕЙ",
+        "correctedExcerpt": "много вафель",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "вафля",
+            "entryId": "ozhegov-8cb8ca8a2120",
+            "definitionQuote": "вафля ВАФЛЯ, и, род. мн. фель, ж. Тонкое сухое печенье с рельефными клеточками по поверхности.\n| прил. вафельный, ая, ое. Вафельные трубочки с кремом.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "27713B",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6",
+      "explanationSha256": "2131abf14e681bde17a75dac008d01103838b07bf3c7430e61505e60469e1df7",
+      "hint": "Проверьте возвратность причастия. Сначала восстановите исходный глагол и задайте от него вопрос к слову «приз».",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ВЫИГРАВШИЙСЯ",
+        "answer": "выигравший",
+        "sourceExcerpt": "ВЫИГРАВШИЙСЯ приз",
+        "correctedExcerpt": "выигравший приз",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "выиграть",
+            "entryId": "ozhegov-8e1d7c4a4f99",
+            "definitionQuote": "выиграть ВЫИГРАТЬ, аю, аешь; анный; сов.\n1. что. Одержать верх, победить в чёмн. (в игре, споре, состязании). В. партию. В. дело в суде. В. бой.\n2. что. Получить, приобрести в результате участия в лотерее, в игре, в состязании. В. много денег. В. дорогую вещь.\n3. что. Получить пользу, выгоду, преимущество; выгадать. В. от снижения цен. В. время.\n4. перен., в чём. Получить, заслужить одобрительную оценку. В. во мнении товарищей.\n| несов. выигрывать, аю, аешь.\n| сущ. выигрыш, а, м. (к 1, 2 и 3 знач.).\n| прил. выигрышный, ая, ое (ко 2 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2850E4",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1b778ab4f3aad5ca1e56ee4138862f726c6c9c29752f65832b409ec7339f701b",
+      "explanationSha256": "ce086ebf7f6957453ae80abc4658caef4fd8f449b390a9d9ccdf0e8f2fc653ca",
+      "hint": "Проверьте простую сравнительную степень: у некоторых прилагательных при её образовании чередуются согласные.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "МОЛОДЕЕ",
+        "answer": "моложе",
+        "sourceExcerpt": "выглядел МОЛОДЕЕ",
+        "correctedExcerpt": "выглядел моложе",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "молодой",
+            "entryId": "ozhegov-0d6e81929cfe",
+            "definitionQuote": "молодой МОЛОДОЙ, ая, ое; молод, молода, молодо; моложе.\n1. Не достигший зрелого возраста; ещё не старый. Молодое поколение. Молодые учёные. М. человек (о юноше, обычно в обращении). Молод ещё стариков учить (разг. неодобр.). Из молодых (сущ.) да ранний (о молодом выскочке, а также вообще о молодом человеке, рано обнаруживающем какиен. способности, возможности; разг.).\n2. Недавно начавший расти, существовать. Молодое дерево. М. картофель. Молодое учреждение.\n3. полн. ф. Недавнего приготовления (без достаточной крепости, остроты; о напитках, продуктах, приготовление к-рых связано с брожением). М. сыр. М. квас.\n4. полн. ф. Свойственный, присущий молодости. М. задор. Молодая отвага.\n5. молодой, ого, м. Человек, только что вступивший в брак.\n• Молодо-зелено (разг.) о незрелой молодёжи.\n| ж. молодая, ой (к 5 знач.).\n| уменьш. молоденький, ая, ое (к 1 и 2 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2A3746",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "47909278fe8082c7798fe451a312037750ebdceb6547a44a680c52b262c3a23a",
+      "explanationSha256": "a2f2b8fcce10a3189cb0af65fe3177bc1ad6cec929ef41a7b08a545e37b8ca6c",
+      "hint": "Определите падеж по окончанию зависимого существительного. У количественного числительного с сотнями меняются обе части; проверьте первую часть в творительном падеже.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "СЕМИСТАМИ",
+        "answer": "семьюстами",
+        "sourceExcerpt": "СЕМИСТАМИ жителями",
+        "correctedExcerpt": "семьюстами жителями",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "семьсот",
+            "entryId": "ozhegov-d89d5d77c243",
+            "definitionQuote": "семьсот СЕМЬСОТ, семисот, семьюстами, о семистах, числит. колич. Число и количество 700.\n| порядк. семисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2AD233",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02",
+      "explanationSha256": "bef7ca4aa98e3909105e12096140ef81aad6493c8eb61eff8c367d67fb6216ac",
+      "hint": "Найдите существительное, которое должно согласовываться с определением во множественном числе. Проверьте его словарное окончание, не только ударение.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ТОРТА",
+        "answer": "торты",
+        "sourceExcerpt": "свежие ТОРТА",
+        "correctedExcerpt": "свежие торты",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "торт",
+            "entryId": "ozhegov-b120ecc0553c",
+            "definitionQuote": "торт ТОРТ, а, м. Кондитерское изделие из сладкого сдобного теста с кремом, фруктами. Шоколадный т. Т. безе. Испечь т.\n| прил. тортовый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2B1518",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "7427a314d17284445c43d4c972acb5df10fabba7eb9da6f5259fd371c4963e04",
+      "explanationSha256": "cca68c119035064b7f947d1971bab1a95c7f6a8c05b856660907e2a3dfef9943",
+      "hint": "У названия обуви проверьте форму родительного падежа множественного числа. Зависимость от слова «пара» не делает окончание -ей обязательным.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ТУФЛЕЙ",
+        "answer": "туфель",
+        "sourceExcerpt": "две пары ТУФЛЕЙ",
+        "correctedExcerpt": "две пары туфель",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "туфли",
+            "entryId": "ozhegov-694705c5daa1",
+            "definitionQuote": "туфли ТУФЛИ, туфель, туфлям, ед. туфля, и, ж. Обувь, закрывающая ногу не выше щиколотки. Дамские, мужские, детские, спортивные т.\n| уменьш. туфельки, лек, ед. туфелька, и, ж.\n| прил. туфельный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2BD565",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5",
+      "explanationSha256": "28e3e90f2fd81940753cc178bc612f63a9d6285e4fd7e6bcc8c02569cd13414e",
+      "hint": "Найдите сочетание, в котором сравнение выражено дважды. Сохраняйте невыделенное слово и исправьте только выделенное прилагательное.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "ЗВУЧНЕЕ",
+        "answer": "звучный",
+        "sourceExcerpt": "голос более ЗВУЧНЕЕ",
+        "correctedExcerpt": "голос более звучный",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "звучный",
+            "entryId": "ozhegov-ca480201b524",
+            "definitionQuote": "звучный ЗВУЧНЫЙ, ая, ое; чен, чна, чно, чны и чны. Издающий громкие чистые звуки. З. колокол. З. голос.\n| сущ. звучность, и, ж.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2F7CFF",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "6db4bfe0d5220caf280ea5664fc92d3b98bdadbe418fcab6f47d9ad17cb794f7",
+      "explanationSha256": "f577112af7ed79b86a7a424798eb977e2795942421c5f56ea5bb87df0256fcec",
+      "hint": "Отличите порядковый номер экземпляра от количества предметов. Не переносите внутрь порядкового числительного форму творительного падежа количественного.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ВОСЕМЬЮСОТЫЙ",
+        "answer": "восьмисотый",
+        "sourceExcerpt": "ВОСЕМЬЮСОТЫЙ экземпляр",
+        "correctedExcerpt": "восьмисотый экземпляр",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "восемьсот",
+            "entryId": "ozhegov-95e3edac4df9",
+            "definitionQuote": "восемьсот ВОСЕМЬСОТ, восьмисот, восьмьюстами и восемьюстами, восьмистах, числит. колич. Число и количество 800.\n| порядк. восьмисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3282E5",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674",
+      "explanationSha256": "bc3810133d092eadddbccdfe40459bee88f3a473d3e6865086bffb5130f44e18",
+      "hint": "Проверьте сравнение при описании действия. Если перед наречием уже стоит «более», не нужно дополнительно выражать сравнение суффиксом.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "ВЫШЕ",
+        "answer": "высоко",
+        "sourceExcerpt": "прыгал более ВЫШЕ",
+        "correctedExcerpt": "прыгал более высоко",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "высокий",
+            "entryId": "ozhegov-af24aa250256",
+            "definitionQuote": "высокий ВЫСОКИЙ, ая, ое; ок, ока, око и око; выше; высший; высочайший.\n1. Большой по протяжённости снизу вверх или далеко расположенный в таком направлении. Высокая гора. В. дом. В. рост. Высокие потолки. Высокие облака. Жить высоко (нареч.). В. лоб (большой и открытый). Высокая грудь (круто подымающаяся).\n2. только кр. ф. (высок, ока, око). Больший по такой протяжённости, чем нужно. Этот стул малышу высок.\n3. Превышающий средний уровень, среднюю норму, значительный. Высокое кровяное давление. В. удой. Высокая производительность труда. Высокие цены. Высокая вода (высоко поднявшаяся в берегах). В. процент. Высокие темпы.\n4. Выдающийся по своему значению, очень важный, почётный (книжн.). Высокая ответственность. Высокая награда. Высокая честь. В. гость. Высокие договаривающиеся стороны (офиц.).\n5. Очень значительный, возвышенный по форме и содержанию (книжн.). Высокая мысль. В. стиль.\n6. Очень хороший. Быть высокого мнения о комн. Высокое качество товаров. Книга высокого достоинства. Высший сорт.\n7. О звуке, голосе: тонкий и звонкий. Высокая нота. В. голос (сопрано). В. звук (звук большой частоты).\n• На высоких нотах (разговаривать) громко и раздражённо.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "32E17B",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "09f9317a807b974cf2f961a1759146de83902374051a0e90c2eb4ddd616db937",
+      "explanationSha256": "13a1f2dc3ef6806ac86df67a18a8827c39b04fecc3279a69a495d8c162cce438",
+      "hint": "В сочетании со значением превышения количества проверьте родительный падеж числительного с сотнями. Нельзя оставить его в исходной форме.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ВОСЕМЬСОТ",
+        "answer": "восьмисот",
+        "sourceExcerpt": "более ВОСЕМЬСОТ миллионов",
+        "correctedExcerpt": "более восьмисот миллионов",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "восемьсот",
+            "entryId": "ozhegov-95e3edac4df9",
+            "definitionQuote": "восемьсот ВОСЕМЬСОТ, восьмисот, восьмьюстами и восемьюстами, восьмистах, числит. колич. Число и количество 800.\n| порядк. восьмисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "больше",
+            "entryId": "ozhegov-4595c555569c",
+            "definitionQuote": "больше БОЛЬШЕ.\n1. см. ↑ большой и ↑ много.\n2. нареч. В сочетании с количественными именами обозначает превышение указанного количества. Ждать б. часа. Стоит б. трёх рублей. Идти б. километра.\n3. нареч. Далее, впредь, ещё. Б. туда не ходи. Б. не буду (обещание впредь не делать чегон. предосудительного; разг.). Б. нет вопросов?\n4. нареч. Преимущественно, главным образом (разг.). Шли б. (всё больше) лесом.\n• Больше того, вводн. сл. означает переход к более важной части сообщения.\nБольше чем то же, что более чем.\nНе больше чем то же, что не более чем.\nНи больше ни меньше как именно столько, именно так. Опоздал ни больше ни меньше как на час.\nИ больше ничего (разг.) вот и всё, кончено. Делай, что говорят, и больше ничего.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3F1F92",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "2aaf857c4839ccba530285be4aa7337059b5dccccc609a6be7e62a992dd77748",
+      "explanationSha256": "2baaa46758c976caa75e454a7e90135350ba4cce623a5bab3327fd2c4e75f828",
+      "hint": "Определите падеж числительного по вопросу к обозначению расстояния. Не смешивайте дательный и предложный падежи и не теряйте конечную согласную.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ПЯТИСТА",
+        "answer": "пятистах",
+        "sourceExcerpt": "в ПЯТИСТА километрах",
+        "correctedExcerpt": "в пятистах километрах",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "пятьсот",
+            "entryId": "ozhegov-333f5c0cd9a3",
+            "definitionQuote": "пятьсот ПЯТЬСОТ, пятисот, пятистам, пятьюстами, о пятистах, числит. колич. Число и количество 500.\n| порядк. пятисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41D6D8",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51",
+      "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78",
+      "hint": "Сравнение можно выразить отдельным словом или формой самого прилагательного. Найдите сочетание, где использованы сразу оба способа.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "УГРЮМЕЕ",
+        "answer": "угрюмый",
+        "sourceExcerpt": "он более УГРЮМЕЕ",
+        "correctedExcerpt": "он более угрюмый",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "угрюмый",
+            "entryId": "ozhegov-0f0395b07ac0",
+            "definitionQuote": "угрюмый УГРЮМЫЙ, ая, ое; юм. Мрачный, неприветливый; безотрадный. У. старик. Угрюмо (нареч.) молчать. У. лес.\n| сущ. угрюмость, и, ж.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4B38A8",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b",
+      "explanationSha256": "3f07ea2e786676dd1df43a504bafae23b41e188e7faa40710767815dc2018879",
+      "hint": "Слово со значением превышения количества требует зависимую группу в родительном падеже. Проверьте падеж числительного, даже если существительное после него уже склонено.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ДВЕ",
+        "answer": "двух",
+        "sourceExcerpt": "более ДВЕ тысяч человек",
+        "correctedExcerpt": "более двух тысяч человек",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "два",
+            "entryId": "ozhegov-86879b3ea456",
+            "definitionQuote": "два ДВА, двух, двум, двумя, о двух; ж. две, двух, числит. колич.\n1. Число, цифра и количество 2. За два дня и за два дня. На два дня и на два дня. Рассказать в двух словах (очень коротко). Живёт в двух шагах (совсем рядом). Ни д. ни полтора (ни то ни сё; разг.). В д. счёта сделать чтон. (очень быстро; разг.).\n2. нескл. То же, что ↑ двойка (во 2 знач.). За сочинение получил д.\n| порядк. второй, ая, ое (к 1 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "больше",
+            "entryId": "ozhegov-4595c555569c",
+            "definitionQuote": "больше БОЛЬШЕ.\n1. см. ↑ большой и ↑ много.\n2. нареч. В сочетании с количественными именами обозначает превышение указанного количества. Ждать б. часа. Стоит б. трёх рублей. Идти б. километра.\n3. нареч. Далее, впредь, ещё. Б. туда не ходи. Б. не буду (обещание впредь не делать чегон. предосудительного; разг.). Б. нет вопросов?\n4. нареч. Преимущественно, главным образом (разг.). Шли б. (всё больше) лесом.\n• Больше того, вводн. сл. означает переход к более важной части сообщения.\nБольше чем то же, что более чем.\nНе больше чем то же, что не более чем.\nНи больше ни меньше как именно столько, именно так. Опоздал ни больше ни меньше как на час.\nИ больше ничего (разг.) вот и всё, кончено. Делай, что говорят, и больше ничего.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "521887",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350",
+      "explanationSha256": "fb5daf5a5a38364acf425d3b577c25af296aab66aec94ec9ce53de52bf795f78",
+      "hint": "Сравнение можно выразить отдельным словом или формой самого прилагательного. Найдите сочетание, где использованы сразу оба способа.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "УГРЮМЕЕ",
+        "answer": "угрюмый",
+        "sourceExcerpt": "он более УГРЮМЕЕ",
+        "correctedExcerpt": "он более угрюмый",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "угрюмый",
+            "entryId": "ozhegov-0f0395b07ac0",
+            "definitionQuote": "угрюмый УГРЮМЫЙ, ая, ое; юм. Мрачный, неприветливый; безотрадный. У. старик. Угрюмо (нареч.) молчать. У. лес.\n| сущ. угрюмость, и, ж.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "56EC13",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "cd4ac026e7ca89db814f7d394bbdba6f653a067beaed181ae76091f8802b3747",
+      "explanationSha256": "205ff749ffc00e564bad1c8b90d5d2a0bfa3c3dbf5a203eb8c3e2d30de24c535",
+      "hint": "Предлог «без» требует родительного падежа. Проверьте, как изменяется существительное среднего рода на -мя: его основа в косвенных падежах удлиняется.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ЗНАМЯ",
+        "answer": "знамени",
+        "sourceExcerpt": "без ЗНАМЯ полка",
+        "correctedExcerpt": "без знамени полка",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "знамя",
+            "entryId": "ozhegov-b0ac56ba4739",
+            "definitionQuote": "знамя ЗНАМЯ, мени, мн. мёна, мён, мёнам, ср. Определённого цвета (или цветов) широкое полотнище на древке, принадлежащее воинской части, какойн. организации, государству. Полковое з. Водрузить з. Победы. Высоко держать з. чегон. (перен.: хранить какиен. идеалы, заветы; высок.). Под знаменем чегон. (перен.: руководствуясь чемн.; высок.).\n| прил. знамённый, ая, ое (спец.). З. взвод.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5C0D5E",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "7c10310ee7d915727be402de9526c3ca3c14be48e643d532c4ea031159c10b06",
+      "explanationSha256": "071929b172fe142284c99d385f1493bfb0bfa509c671ec9238be480e631539fc",
+      "hint": "У числительного со значением 150 различаются формы именительного/винительного и всех косвенных падежей. Определите, какая нужна после «нет».",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ПОЛТОРАСТА",
+        "answer": "полутораста",
+        "sourceExcerpt": "нет ПОЛТОРАСТА рублей",
+        "correctedExcerpt": "нет полутораста рублей",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "полтораста",
+            "entryId": "ozhegov-07a4e271f377",
+            "definitionQuote": "полтораста ПОЛТОРАСТА, полутораста, числит. Число, количество чего-н., равное ста пятидесяти единицам. П. рублей.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5CFD83",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "d44f5b876be19501f7550837e3f04ab893e875344bb48bd8bf407c6a1c2fd239",
+      "explanationSha256": "16ed8119809207ded0488ce3fd458934cb6fa8c7a20e85ab27cbd17cd9a769c1",
+      "hint": "Сочетание обозначает, в каком количестве книг что-то содержится. Определите падеж и полностью измените обе части числительного с сотнями.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ТРЁХСТА",
+        "answer": "трёхстах",
+        "sourceExcerpt": "в ТРЁХСТА книгах",
+        "correctedExcerpt": "в трёхстах книгах",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "триста",
+            "entryId": "ozhegov-e975c7d7cd6a",
+            "definitionQuote": "триста ТРИСТА, трёхсот, трёмстам, тремястами, о трёхстах, числит. колич. Число и количество 300.\n| порядк. трёхсотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5D5744",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3",
+      "explanationSha256": "0992cc9babd127045ad13c497e612e6c3a5d111911660e35e52a737c014bf050",
+      "hint": "В названии года определите последнее слово составного порядкового числительного. Именно оно получает падежное окончание; предыдущая часть сохраняется.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ДВУХ",
+        "answer": "две",
+        "sourceExcerpt": "к ДВУХ тысячи двадцать первому году",
+        "correctedExcerpt": "к две тысячи двадцать первому году",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "два",
+            "entryId": "ozhegov-86879b3ea456",
+            "definitionQuote": "два ДВА, двух, двум, двумя, о двух; ж. две, двух, числит. колич.\n1. Число, цифра и количество 2. За два дня и за два дня. На два дня и на два дня. Рассказать в двух словах (очень коротко). Живёт в двух шагах (совсем рядом). Ни д. ни полтора (ни то ни сё; разг.). В д. счёта сделать чтон. (очень быстро; разг.).\n2. нескл. То же, что ↑ двойка (во 2 знач.). За сочинение получил д.\n| порядк. второй, ая, ое (к 1 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "порядковый",
+            "entryId": "ozhegov-920034e9a342",
+            "definitionQuote": "порядковый ПОРЯДКОВЫЙ, ая, ое.\n1. Указывающий место в ряду, отвечающий на вопрос: который по счёту? П. номер.\n2. порядковое числительное в грамматике: прилагательное, обозначающее признак как отношение к количеству, числу (напр. первый, второй, десятый, сотый).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "числительное",
+            "entryId": "ozhegov-316f2081a475",
+            "definitionQuote": "числительное ЧИСЛИТЕЛЬНОЕ, ого, ср. или имя числительное в грамматике: слово (существительное или прилагательное), обозначающие количество или количественный признак, порядок предметов при счёте. Количественное ч. (обозначающее количество как число, напр. два, пять, десять). Порядковое ч. (обозначающее признак как отношение к количеству, числу, напр. второй, пятый, десятый).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "617D1E",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc",
+      "explanationSha256": "69c15f16b7b879a5b943522ef44b3099ef054c637df905be2b33dcc6dbdc957f",
+      "hint": "Определите род существительного в начальной форме. У слов «оба» и «обе» разные основы склонения; множественное число этого различия не отменяет.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "pronouns",
+        "incorrectForm": "ОБОИМ",
+        "answer": "обеим",
+        "sourceExcerpt": "по ОБОИМ сторонам",
+        "correctedExcerpt": "по обеим сторонам",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "оба",
+            "entryId": "ozhegov-b6199e943504",
+            "definitionQuote": "оба ОБА, обоих, м. и ср.; ж. обе, обеих; числит. И тот и другой. Оба сына на заводе. Обе дочери студентки. Обоими глазами. Обеими ногами. Обеими руками подписаться (перен.: с полной готовностью согласиться на чтон.; разг.).\n• Смотреть (глядеть) в оба (разг.) то же, что ↑ в оба глаза смотреть.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "69CA59",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1be457615846bae4f23e1d9235f61f93882eb620f38fbcfbbaf5d6496843f754",
+      "explanationSha256": "c483250f080e69e430145718d6c5ae1429686b1ffa5f6fd18b47e712784bccd5",
+      "hint": "Проверьте прошедшее время глагола на -нуть в значении намокания: суффикс -ну- может не сохраняться.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ПРОМОКНУЛ",
+        "answer": "промок",
+        "sourceExcerpt": "ПРОМОКНУЛ до нитки",
+        "correctedExcerpt": "промок до нитки",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "промокнуть",
+            "entryId": "ozhegov-996d311bdfb3",
+            "definitionQuote": "промокнуть 1.\nПРОМОКНУТЬ, ну, нешь; мок, мокла; мокший; мокши; сов.\n1. (1 и 2 л. не употр.). Пропустив влагу, стать мокрым, влажным. Валенки промокли. Рубашка промокла от пота.\n2. Попав под дождь или в сырое, мокрое место, оказаться в мокрой одежде, обуви. Весь промок под дождём. Ноги промокли. П. до нитки, до костей (вымокнуть совершенно, всему).\n| несов. промокать, аю, аешь.\n2.\nПРОМОКНУТЬ, ну, нёшь; сов., что (разг.). Просушить (написанное чернилами) специальной мягкой бумагой, легко впитывающей влагу.\n| несов. промокать, аю, аешь.\n| сущ. промокание, я, ср.\n| прил. промокательный, ая, ое. Промокательная бумага.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6C3050",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "52f70afaa3e7abd3b9904a2644278a59c77b0b8dc70b7f5b9bb3a349029b8b29",
+      "explanationSha256": "6b5166cce231b72e75ca6e685a9f11be0afd95e39d84fe1ae0173dd97223a436",
+      "hint": "Проверьте творительный падеж числительного с сотнями. Первая часть должна быть такой же, как у соответствующего простого числительного в этом падеже.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ТРЁХСТАМИ",
+        "answer": "тремястами",
+        "sourceExcerpt": "ТРЁХСТАМИ дисками",
+        "correctedExcerpt": "тремястами дисками",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "триста",
+            "entryId": "ozhegov-e975c7d7cd6a",
+            "definitionQuote": "триста ТРИСТА, трёхсот, трёмстам, тремястами, о трёхстах, числит. колич. Число и количество 300.\n| порядк. трёхсотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "729EAA",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "439fa78ce9da7fb2d84568281565531bd2f01e5c1def63705c00e745940ff7dc",
+      "explanationSha256": "4b990c36bdbb7d8d077a9e788a49816be6d3c88d128f71eb1f83cdba0b6ca53c",
+      "hint": "Проверьте родительный падеж множественного числа названия обуви. Не все существительные мужского рода требуют окончания -ов.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "БОТИНКОВ",
+        "answer": "ботинок",
+        "sourceExcerpt": "нет БОТИНКОВ",
+        "correctedExcerpt": "нет ботинок",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "ботинки",
+            "entryId": "ozhegov-c438385f558c",
+            "definitionQuote": "ботинки БОТИНКИ, нок, ед. ботинок, нка, м. Обувь, закрывающая ногу по щиколотку.\n| прил. ботиночный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "730999",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "a9c68bfced6dde09f6e1cd8d6958732319e668754e67d355d1ea2951944acd7d",
+      "explanationSha256": "38b77da965d68561600db595c8b142544ea1af4e202a8a4fbbd5fdc55b287002",
+      "hint": "При обозначении количества после «около» и «более» нужен родительный падеж. Сверьте целую форму числительного, а не только его первую часть.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ШЕСТИСТА",
+        "answer": "шестисот",
+        "sourceExcerpt": "около ШЕСТИСТА рублей",
+        "correctedExcerpt": "около шестисот рублей",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "шестьсот",
+            "entryId": "ozhegov-720d448da7b1",
+            "definitionQuote": "шестьсот ШЕСТЬСОТ, шестисот, шестистам, шестьюстами, о шестистах, числит. колич. Число и количество 600.\n| порядк. шестисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "74EFC9",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "9fab7fe29c5511a9de10d924d37c90badfc690bc0d0395e89f0c820f46405d70",
+      "explanationSha256": "d553703f053bdf296fe7af49ce703042be32bad6a43cf5407cad0fecd1b1136e",
+      "hint": "Зависимое существительное обозначает предметы в творительном падеже. У числительного с сотнями обе части должны соответствовать этому падежу.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ШЕСТИСТАМИ",
+        "answer": "шестьюстами",
+        "sourceExcerpt": "ШЕСТИСТАМИ книгами",
+        "correctedExcerpt": "шестьюстами книгами",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "шестьсот",
+            "entryId": "ozhegov-720d448da7b1",
+            "definitionQuote": "шестьсот ШЕСТЬСОТ, шестисот, шестистам, шестьюстами, о шестистах, числит. колич. Число и количество 600.\n| порядк. шестисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7C773B",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "4a84823a36c272eab58f86ab8ce74c380a4a36d7d8924ece4dd4b4fc27086aa7",
+      "explanationSha256": "bba8af60dc4de82a80b1d2cd3c2a9eb2c0b4a5088b30ffd413c02079c55739ee",
+      "hint": "Проверьте форму побуждения к поездке. У глагола «ехать» она не получается простым добавлением окончания к основе инфинитива.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЕХАЙ",
+        "answer": "поезжай",
+        "sourceExcerpt": "ЕХАЙ прямо",
+        "correctedExcerpt": "поезжай прямо",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "ехать",
+            "entryId": "ozhegov-6fdedda1c961",
+            "definitionQuote": "ехать ЕХАТЬ, еду, едешь; в знач. пов. употр. поезжай и (прост.) езжай; едучи; несов.\n1. Двигаться кудан. при помощи какихн. средств передвижения. Е. на поезде, на теплоходе (поездом, теплоходом). Е. на велосипеде, на лошадях (лошадьми). Е. в санях (на санях). Е. верхом. Тише едешь дальше будешь (посл.).\n2. (1 и 2 л. не употр.). О средствах передвижения: двигаться. Едет автомобиль.\n3. Отправляться кудан., передвигаться при помощи какихн. средств передвижения. Е. в Москву. Е. на выставку. Дальше е. некуда (перен.: хуже чем есть, не может быть; прост.).\n4. перен. Сдвигаться, скользить в сторону, в стороны (разг.). Шапка едет набок. Ноги на льду едут в стороны.\n5. перен., на ком-чём. То же, что ↑ выезжать (см. ↑ выехать в 4 знач.) (разг.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "поехать",
+            "entryId": "ozhegov-f9894b2ecbef",
+            "definitionQuote": "поехать ПОЕХАТЬ, еду, едешь; сов.\n1. (в знач. пов. поезжай). Отправиться в путь, направиться кудан. на чёмн. П. на теплоходе. П. в дом отдыха.\n2. Сдвинувшись, заскользить, покатиться (разг.). Ноги поехали по льду.\n3. (1 и 2 л. не употр.), перен. То же, что ↑ спуститься (в 3 знач.) (разг.). Петля на вязанье поехала. Чулок поехал.\n4. перен. Начать говорить о чёмн. пространно, многословно (разг. неодобр.). Начала ворчать и поехала, и поехала!\n5. поехали! Побуждение к началу каких-н. действий, работы.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7D35EA",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "b26bed9cb739c3fdb3621f7e71f8381d22915dc83a7e6f7364c3c5788a9d15a5",
+      "explanationSha256": "280c1c4e67797f44d1ff3ea831ba1585d72f0f4aeb3f9b3eede59697ac7f8da6",
+      "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЛЯЖЬТЕ",
+        "answer": "лягте",
+        "sourceExcerpt": "ЛЯЖЬТЕ на пол",
+        "correctedExcerpt": "лягте на пол",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "лечь",
+            "entryId": "ozhegov-057022779740",
+            "definitionQuote": "лечь ЛЕЧЬ, лягу, ляжешь, лягут; лёг, легла; ляг, лягте; сов.\n1. Принять лежачее положение. Л. на диван. Л. на бок, на спину, на живот.\n2. Расположиться спать. Рано, поздно л. Дети уже легли.\n3. Поместиться в ↑ стационар (во 2 знач.). Л. в больницу. Л. на обследование, на операцию.\n4. (1 и 2 л. не употр.). Распространиться по поверхности чегон., оказаться на чёмн. Снег лёг пеленой.\n5. (1 и 2 л. не употр.), перен. Появиться, заполнить собой что-н. (о тяжёлых чувствах, состоянии). На сердце легла печаль. Чувство вины легло на душу. На лицо легла тень страдания.\n6. (1 и 2 л. не употр.), перен, на кого-что. Прийтись, оказаться у когон. (о чёмн. обязательном, трудном или обременительном). Ответственность ляжет на руководителя. Все заботы легли на отца.\n7. (1 и 2 л. не употр.), перен., на кого-что. Коснуться, задеть кого-что-н., ↑ упасть (в 7 знач.). Подозрение легло на новичка. Обвинение легло на свидетеля. На репутацию фирмы легла тень.\n8. О судах, самолётах: принять какоен. положение, направление. Л. в дрейф. Л. на заданный курс.\n9. (1 и 2 л. не употр.), перен. Расположиться, разместиться ровно, гладко. Платье легло по фигуре. Волосы легли длинными прядями.\n• Лечь костьми погибнуть ради достижения какойн. цели.\n| несов. ложиться, жусь, жишься.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "810334",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "e9a7e142d3bbb4da49d28b7990ecf34ef2564d2ba0d3ccb675a06a4666438897",
+      "explanationSha256": "fddee67331d8679278b57924154bff46409dfde3174b7033e9d1acdb89950cfe",
+      "hint": "При обозначении количества после «около» и «более» нужен родительный падеж. Сверьте целую форму числительного, а не только его первую часть.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ШЕСТИСТА",
+        "answer": "шестисот",
+        "sourceExcerpt": "более ШЕСТИСТА лет",
+        "correctedExcerpt": "более шестисот лет",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "шестьсот",
+            "entryId": "ozhegov-720d448da7b1",
+            "definitionQuote": "шестьсот ШЕСТЬСОТ, шестисот, шестистам, шестьюстами, о шестистах, числит. колич. Число и количество 600.\n| порядк. шестисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "848E52",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "6fd3b027574294a8e11249c71cb1769baa6ee8a86892ab8d74b3d7c5d57f2e8a",
+      "explanationSha256": "1c31fe56ad68a9729bb2ae46a771d496238eedc5a6e46b7ad9adad1f3194c507",
+      "hint": "Форма множественного числа может зависеть от значения слова. Здесь речь о местонахождении, а не о торжественном письменном приветствии.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "АДРЕСЫ",
+        "answer": "адреса",
+        "sourceExcerpt": "городские АДРЕСЫ",
+        "correctedExcerpt": "городские адреса",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "адрес",
+            "entryId": "ozhegov-d6b9e5e75353",
+            "definitionQuote": "адрес АДРЕС, а, мн. а, ов и ы, ов, м.\n1. (мн. а, ов). Надпись на письме, почтовом отправлении, указывающая место назначения и получателя. Точный а.\n2. (мн. а, ов). Местонахождение, местожительство, а также обозначение, название местонахождения, местожительства. Переменить а. Служебный а. Дать свой а. Попросить чейн. а.\n3. Письменное приветствие в ознаменование юбилея или какогон. другого события. Поднести а.\n• В адрес кого-чего, в знач. предлога с род. п. (офиц.) обращая, направляя к кому-чемун. Критика в адрес дирекции.\nНе по адресу (разг.) не туда или не тому, куда или кому назначалось. Ваше замечание не по адресу.\nПо адресу кого-чего, в знач. предлога с род. п. относительно кого-чегон., в адрес кого-чегон. Замечания по адресу профкома.\n| прил. адресный, ая, ое. А. стол, адресное бюро (учреждение, регистрирующее адреса жителей города и выдающее соответствующие справки).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "84916E",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "468cde961eff710973464cd3210cc3ed0da89da30f6e25264093e7e4aeae9ce4",
+      "explanationSha256": "c7be4cee24572d60eaa49d0754c8194ac34105ebebb8bb6cde2e3c702ba4b4ff",
+      "hint": "Проверьте побуждение к поездке при обращении к нескольким людям. Сначала вспомните нормативную форму для одного человека, затем добавьте -те.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЕХАЙТЕ",
+        "answer": "поезжайте",
+        "sourceExcerpt": "ЕХАЙТЕ в лагерь",
+        "correctedExcerpt": "поезжайте в лагерь",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "ехать",
+            "entryId": "ozhegov-6fdedda1c961",
+            "definitionQuote": "ехать ЕХАТЬ, еду, едешь; в знач. пов. употр. поезжай и (прост.) езжай; едучи; несов.\n1. Двигаться кудан. при помощи какихн. средств передвижения. Е. на поезде, на теплоходе (поездом, теплоходом). Е. на велосипеде, на лошадях (лошадьми). Е. в санях (на санях). Е. верхом. Тише едешь дальше будешь (посл.).\n2. (1 и 2 л. не употр.). О средствах передвижения: двигаться. Едет автомобиль.\n3. Отправляться кудан., передвигаться при помощи какихн. средств передвижения. Е. в Москву. Е. на выставку. Дальше е. некуда (перен.: хуже чем есть, не может быть; прост.).\n4. перен. Сдвигаться, скользить в сторону, в стороны (разг.). Шапка едет набок. Ноги на льду едут в стороны.\n5. перен., на ком-чём. То же, что ↑ выезжать (см. ↑ выехать в 4 знач.) (разг.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "поехать",
+            "entryId": "ozhegov-f9894b2ecbef",
+            "definitionQuote": "поехать ПОЕХАТЬ, еду, едешь; сов.\n1. (в знач. пов. поезжай). Отправиться в путь, направиться кудан. на чёмн. П. на теплоходе. П. в дом отдыха.\n2. Сдвинувшись, заскользить, покатиться (разг.). Ноги поехали по льду.\n3. (1 и 2 л. не употр.), перен. То же, что ↑ спуститься (в 3 знач.) (разг.). Петля на вязанье поехала. Чулок поехал.\n4. перен. Начать говорить о чёмн. пространно, многословно (разг. неодобр.). Начала ворчать и поехала, и поехала!\n5. поехали! Побуждение к началу каких-н. действий, работы.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86D4CC",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1fe0a12764422068c3552d66ee283bbe53320fa18cb267c2c874f184c825b026",
+      "explanationSha256": "4351c19dac54513bde12c1775e47d09890ac1145375db6dc99e3be75573405be",
+      "hint": "Проверьте форму побуждения к поездке. У глагола «ехать» она не получается простым добавлением окончания к основе инфинитива.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЕДЬ",
+        "answer": "поезжай",
+        "sourceExcerpt": "ЕДЬ вперёд",
+        "correctedExcerpt": "поезжай вперёд",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "ехать",
+            "entryId": "ozhegov-6fdedda1c961",
+            "definitionQuote": "ехать ЕХАТЬ, еду, едешь; в знач. пов. употр. поезжай и (прост.) езжай; едучи; несов.\n1. Двигаться кудан. при помощи какихн. средств передвижения. Е. на поезде, на теплоходе (поездом, теплоходом). Е. на велосипеде, на лошадях (лошадьми). Е. в санях (на санях). Е. верхом. Тише едешь дальше будешь (посл.).\n2. (1 и 2 л. не употр.). О средствах передвижения: двигаться. Едет автомобиль.\n3. Отправляться кудан., передвигаться при помощи какихн. средств передвижения. Е. в Москву. Е. на выставку. Дальше е. некуда (перен.: хуже чем есть, не может быть; прост.).\n4. перен. Сдвигаться, скользить в сторону, в стороны (разг.). Шапка едет набок. Ноги на льду едут в стороны.\n5. перен., на ком-чём. То же, что ↑ выезжать (см. ↑ выехать в 4 знач.) (разг.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "поехать",
+            "entryId": "ozhegov-f9894b2ecbef",
+            "definitionQuote": "поехать ПОЕХАТЬ, еду, едешь; сов.\n1. (в знач. пов. поезжай). Отправиться в путь, направиться кудан. на чёмн. П. на теплоходе. П. в дом отдыха.\n2. Сдвинувшись, заскользить, покатиться (разг.). Ноги поехали по льду.\n3. (1 и 2 л. не употр.), перен. То же, что ↑ спуститься (в 3 знач.) (разг.). Петля на вязанье поехала. Чулок поехал.\n4. перен. Начать говорить о чёмн. пространно, многословно (разг. неодобр.). Начала ворчать и поехала, и поехала!\n5. поехали! Побуждение к началу каких-н. действий, работы.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "890AB3",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258",
+      "explanationSha256": "702112228f35d4421627870a90bdd5dc3a787efa77ecc3bfb743020daddd3e7e",
+      "hint": "Проверьте род существительного с названием сладкого продукта, затем выберите окончание творительного падежа.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ПОВИДЛОЙ",
+        "answer": "повидлом",
+        "sourceExcerpt": "пить чай с ПОВИДЛОЙ",
+        "correctedExcerpt": "пить чай с повидлом",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "повидло",
+            "entryId": "ozhegov-6ebc532df8f1",
+            "definitionQuote": "повидло ПОВИДЛО, а, ср. Сладкая масса из протёртых ягод, плодов, сваренных с сахаром. Яблочное п.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "93AE9E",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "61ff5d0a7e4c5b19c49147f95374fc9f6b2d289c7c09d484d77de238944c291e",
+      "explanationSha256": "4ddc878d8f50410f3ce2d6b7b3221f678eeaa9b8b70f92319d0668330b3a7697",
+      "hint": "У глаголов движения повелительное наклонение может иметь особую основу. Проверьте побуждение ненадолго приехать куда-то, не образуя его напрямую от инфинитива.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЗАЕХАЙ",
+        "answer": "заезжай",
+        "sourceExcerpt": "ЗАЕХАЙ завтра",
+        "correctedExcerpt": "заезжай завтра",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "заехать",
+            "entryId": "ozhegov-a61c546ecab9",
+            "definitionQuote": "заехать ЗАЕХАТЬ, еду, едешь; в знач. пов. заезжай; сов.\n1. Приехать кудан. ненадолго, по пути. З. к знакомым.\n2. за кем-чем. Приехать кудан., чтобы взять с собой кого-чтон. З. за детьми.\n3. Подъехать не прямо, объезжая. З. слева. З. со стороны сада.\n4. Поехав, попасть кудан. далеко или куда не следует. З. в трясину.\n5. кому во что. Ударить когон. (прост.). З. в физиономию.\n| несов. заезжать, аю, аешь.\n| сущ. заезд, а, м. (к 1, 2 и 3 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "944170",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "639253c1d30bc7d69a934773ce95ce279f9512582e53d4291df43cf458af003a",
+      "explanationSha256": "c9eb75459cd994a4552e2f12b46fea8d577ed6b59e4659ea7bf773d3c8f1e447",
+      "hint": "Проверьте именительный падеж множественного числа у названия профессии. Нельзя переносить окончание из слов «тренеры» или «бухгалтеры» на все профессии.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ПОВАРЫ",
+        "answer": "повара",
+        "sourceExcerpt": "лучшие ПОВАРЫ",
+        "correctedExcerpt": "лучшие повара",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "повар",
+            "entryId": "ozhegov-eb1d66c8d2b4",
+            "definitionQuote": "повар ПОВАР, а, мн. а, ов, м. Специалист по приготовлению пищи. Школа поваров.\n| ж. повариха, и.\n| прил. поварской, ая, ое. Поварское искусство. П. колпак.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "98BE1B",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "b3aa7c3fb4a7a8e61f9acce562030aa4bade0a1211ff0a00b64215794b941e98",
+      "explanationSha256": "ab6875381c3d73e6e0864f24765419f494ba6495f7bcf872b99e2a70426a6157",
+      "hint": "Определите, какая форма нужна после слова со значением группы военнослужащих. У некоторых названий людей родительный падеж множественного числа имеет нулевое окончание.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "СОЛДАТОВ",
+        "answer": "солдат",
+        "sourceExcerpt": "рота СОЛДАТОВ",
+        "correctedExcerpt": "рота солдат",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "солдат",
+            "entryId": "ozhegov-c6aeb4770d40",
+            "definitionQuote": "солдат СОЛДАТ, а, род. мн. солдат, м.\n1. Военнослужащий, принадлежащий к некомандному и к неначальствующему составу (в России рядовой, ефрейтор). С. спит, а служба идёт (шутл. посл. о том, что дело делается само собой).\n2. перен. Военный человек, воин. Наш генерал старый с.\n| уменьш.-ласк. солдатик, а, м. (к 1 знач.). Прыгнуть в воду солдатиком (стоя навытяжку).\n| прил. солдатский, ая, ое (к 1 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "99D255",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "bda80d315c1e27d2c2e4e83b1242d987f843afb6d9467acf54b485c75f8e4f17",
+      "explanationSha256": "4893f2cf5755b3ee7ae08b474cacaee56c507bbdfa0f2f226e43b1f903f1812d",
+      "hint": "Проверьте побуждение отправиться из одного места в другое. У этого глагола движения повелительная форма не образуется механически из формы «выедешь».",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ВЫЕДЬ",
+        "answer": "выезжай",
+        "sourceExcerpt": "ВЫЕДЬ пораньше",
+        "correctedExcerpt": "выезжай пораньше",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "выехать",
+            "entryId": "ozhegov-9ce6030157eb",
+            "definitionQuote": "выехать ВЫЕХАТЬ, еду, едешь; в знач. пов. употр. выезжай; сов.\n1. Поехав, оставить пределы чегон., отправиться из одного места в другое. В. из города. В. из ворот.\n2. О ком-чёмн. едущем: появиться. Из-за угла выехал верховой. В. на площадь.\n3. Покинуть дом, квартиру. Жильцы выехали.\n4. перен., на ком-чем. Использовать для своей выгоды чейн. труд, какоен. обстоятельство (разг. неодобр.). В. на помощнике. В. на своих прежних заслугах.\n| несов. выезжать, аю, аешь.\n| сущ. выезд, а, м. (к 1, 2 и 3 знач.).\n| прил. выездной, ая, ое (к 1 и 3 знач.). Выездные ворота. Выездная сессия суда (вне места постоянной работы).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A42414",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "5d4f4fd601c8ceec7e45a452b6fc042dd5800ff1768dada8cbe13449b483338a",
+      "explanationSha256": "5e4f2e04c4bdc98d1ea7329880df37f6aabca92b9ade09c0a326b97266d6a05c",
+      "hint": "Найдите слово, которое должно выражать превосходную степень вместе с прилагательным. Не смешивайте его со сравнением количества.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "НАИБОЛЬШЕ",
+        "answer": "наиболее",
+        "sourceExcerpt": "НАИБОЛЬШЕ красивый",
+        "correctedExcerpt": "наиболее красивый",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "наиболее",
+            "entryId": "ozhegov-3dd40795b641",
+            "definitionQuote": "наиболее НАИБОЛЕЕ, нареч. Более других, особенно. Н. удачный способ. Н. экономично.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A4CB01",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036",
+      "explanationSha256": "ab767e1d3a40961e9c8193c49154713e63c73d84a1d16c437c39a82c5e7d27ba",
+      "hint": "Проверьте личную форму глагола на -чь. Согласная основы может чередоваться: форма 1-го лица не задаёт одну и ту же согласную для всех лиц.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ПЕКЁТ",
+        "answer": "печёт",
+        "sourceExcerpt": "бабушка ПЕКЁТ пироги",
+        "correctedExcerpt": "бабушка печёт пироги",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "печь",
+            "entryId": "ozhegov-649c8abd186e",
+            "definitionQuote": "печь 1.\nПЕЧЬ1, пеку, печёшь, пекут; пёк, пекла; пеки; пёкший; печённый (ён, ена); пёкши; несов.\n1. что. Приготовлять пищу сухим нагреванием на жару, в печи. П. пироги. П. в духовке.\n2. что. Приготовлять для еды, сильно нагревая, прокаливая. П. картофель. П. яйца.\n3. (1 и 2 л. не употр.), кого-что. Обдавать сильным жаром, зноем. Солнце печёт голову.\n| сов. испечь, пеку, печёшь; пёк, пекла; пеки; пёкший; чённый (ён, ена); пёкши (к 1 и 2 знач.).\n| сущ. печение, я, ср. (к 1 и 2 знач.).\n2.\nПЕЧЬ2, и, о печи, в печи, мн. и, ей, ж.\n1. Сооружение (из камня, кирпича, металла) для отопления помещения, приготовления горячей пищи. Комнатная п. Русская п. (большая квадратная кирпичная печь с широким полукруглым жерлом и верхней лежанкой). Лежать на печи (также перен.: бездельничать; разг.).\n2. Устройство или сооружение для обработки чегон. нагреванием. Пламенная п. Электрическая п. Плавильная п. Доменная п. (для выплавки чугуна). Сушильная печь. Обжиговая п.\n| прил. печной, ая, ое. Печное отопление. П. горшок (для варки чегон. в печи). Печная заслонка.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A704AE",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "79824f669ca9dd90f37baa0dfc11914ce450b762aa957bbd8d717e5585dfd9a1",
+      "explanationSha256": "15a4636143d9117aaedd068b6489b94611205ececd5965323c0d68f8a7ea535e",
+      "hint": "У существительного среднего рода используется та же основа числительного, что и у мужского. Восстановите начальную форму существительного, затем выберите падежную форму.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "pronouns",
+        "incorrectForm": "ОБЕИХ",
+        "answer": "обоих",
+        "sourceExcerpt": "в ОБЕИХ стёклах",
+        "correctedExcerpt": "в обоих стёклах",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "оба",
+            "entryId": "ozhegov-b6199e943504",
+            "definitionQuote": "оба ОБА, обоих, м. и ср.; ж. обе, обеих; числит. И тот и другой. Оба сына на заводе. Обе дочери студентки. Обоими глазами. Обеими ногами. Обеими руками подписаться (перен.: с полной готовностью согласиться на чтон.; разг.).\n• Смотреть (глядеть) в оба (разг.) то же, что ↑ в оба глаза смотреть.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A7C780",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1567f16de48a444bb319443cdda24b52b0a3c8f2d842f0c6a3aa7b20564957df",
+      "explanationSha256": "7fd0440439a573dd1e6cf2346772ad5cc249fd5cb828b561f8ddd68aefe7d831",
+      "hint": "Найдите слово со значением принадлежности. Нейтральное притяжательное местоимение этого типа не получает падежного окончания.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "pronouns",
+        "incorrectForm": "ИХНИМ",
+        "answer": "их",
+        "sourceExcerpt": "по ИХНИМ расчётам",
+        "correctedExcerpt": "по их расчётам",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "ихний",
+            "entryId": "ozhegov-bb1ee983439c",
+            "definitionQuote": "ихний ИХНИЙ, яя, ее, мест. притяж. (прост.). То же, что ↑ их (во 2 знач.).\n• По-ихнему (прост.) 1) нареч., по их воле, желанию. Упрямые, все будь по-ихнему; 2) нареч., так, как делают они. Не буду поступать по-ихнему; 3) вводн. сл., по их мнению. Я, по-ихнему, бездельник.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "их",
+            "entryId": "ozhegov-5a131e9c2935",
+            "definitionQuote": "их ИХ.\n1. см. ↑ он.\n2. род. п. мест. они в знач. притяж. Принадлежащий им, относящийся к ним. Их семья.\n• По их (разг.) 1) по их воле, желанию; 2) так, как делают они.\nС их (разг.) столько, так много, сколько они (сделали, прожили, узнали и т. п.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AA8707",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "bb53624a808044df55f161e26c791c2c67ba45550d64d914dd1c25d899ec16fd",
+      "explanationSha256": "095efe1b8aa3c18ec341e54e965f48355b5ebe386650955cdd187bdc6fed4814",
+      "hint": "Предлог «с» здесь обозначает наличие некоторого количества денег. Задайте вопрос «с чем?» и измените обе части числительного с сотнями.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ПЯТИСТА",
+        "answer": "пятьюстами",
+        "sourceExcerpt": "с ПЯТИСТА рублями",
+        "correctedExcerpt": "с пятьюстами рублями",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "пятьсот",
+            "entryId": "ozhegov-333f5c0cd9a3",
+            "definitionQuote": "пятьсот ПЯТЬСОТ, пятисот, пятистам, пятьюстами, о пятистах, числит. колич. Число и количество 500.\n| порядк. пятисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AE0374",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5",
+      "explanationSha256": "8daf1e1dadc312263c0cae6fd4acd6c8a7a06417cb0073ce3517a08d8ba67a21",
+      "hint": "Проверьте род существительного с названием сладкого продукта, затем выберите окончание творительного падежа.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ПОВИДЛОЙ",
+        "answer": "повидлом",
+        "sourceExcerpt": "с ПОВИДЛОЙ",
+        "correctedExcerpt": "с повидлом",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "повидло",
+            "entryId": "ozhegov-6ebc532df8f1",
+            "definitionQuote": "повидло ПОВИДЛО, а, ср. Сладкая масса из протёртых ягод, плодов, сваренных с сахаром. Яблочное п.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B1C91E",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "8d73d248c3247d4b5d6d83dfe1b844b8a0affa4101e951a6f91e6ff014dc1b34",
+      "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692",
+      "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЛЯЖЬТЕ",
+        "answer": "лягте",
+        "sourceExcerpt": "ЛЯЖЬТЕ на спину",
+        "correctedExcerpt": "лягте на спину",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "лечь",
+            "entryId": "ozhegov-057022779740",
+            "definitionQuote": "лечь ЛЕЧЬ, лягу, ляжешь, лягут; лёг, легла; ляг, лягте; сов.\n1. Принять лежачее положение. Л. на диван. Л. на бок, на спину, на живот.\n2. Расположиться спать. Рано, поздно л. Дети уже легли.\n3. Поместиться в ↑ стационар (во 2 знач.). Л. в больницу. Л. на обследование, на операцию.\n4. (1 и 2 л. не употр.). Распространиться по поверхности чегон., оказаться на чёмн. Снег лёг пеленой.\n5. (1 и 2 л. не употр.), перен. Появиться, заполнить собой что-н. (о тяжёлых чувствах, состоянии). На сердце легла печаль. Чувство вины легло на душу. На лицо легла тень страдания.\n6. (1 и 2 л. не употр.), перен, на кого-что. Прийтись, оказаться у когон. (о чёмн. обязательном, трудном или обременительном). Ответственность ляжет на руководителя. Все заботы легли на отца.\n7. (1 и 2 л. не употр.), перен., на кого-что. Коснуться, задеть кого-что-н., ↑ упасть (в 7 знач.). Подозрение легло на новичка. Обвинение легло на свидетеля. На репутацию фирмы легла тень.\n8. О судах, самолётах: принять какоен. положение, направление. Л. в дрейф. Л. на заданный курс.\n9. (1 и 2 л. не употр.), перен. Расположиться, разместиться ровно, гладко. Платье легло по фигуре. Волосы легли длинными прядями.\n• Лечь костьми погибнуть ради достижения какойн. цели.\n| несов. ложиться, жусь, жишься.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B3DAE9",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f",
+      "explanationSha256": "ec5b91671c15b5e9e07cf57befe05d98d1ebc09c48b4ef39d6fe8ca3f06ae50d",
+      "hint": "У повелительной формы на -и нет обязательного конечного й. Проверьте именно этот глагол, не подменяя его другой моделью движения.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "СЪЕЗДИЙ",
+        "answer": "съезди",
+        "sourceExcerpt": "СЪЕЗДИЙ на дачу",
+        "correctedExcerpt": "съезди на дачу",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "съездить",
+            "entryId": "ozhegov-398feb2bd325",
+            "definitionQuote": "съездить СЪЕЗДИТЬ, зжу, здишь; сов.\n1.Поехать кудан. и, побыв, вернуться обратно. С. к родным. С. за покупками.\n2. Сильно ударить (прост.). С. по роже комун.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B95F57",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "37cdfb5f9756015a01ee7e73524ab69156f4a16284288aaaf79f90256f054c43",
+      "explanationSha256": "7dd7cab4471128a91c0b05ea5477b465ea380178faa3a220adc1a4a144700d4c",
+      "hint": "Проверьте родительный падеж множественного числа названия обуви. Не все существительные мужского рода требуют окончания -ов.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "БОТИНКОВ",
+        "answer": "ботинок",
+        "sourceExcerpt": "пара БОТИНКОВ",
+        "correctedExcerpt": "пара ботинок",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "ботинки",
+            "entryId": "ozhegov-c438385f558c",
+            "definitionQuote": "ботинки БОТИНКИ, нок, ед. ботинок, нка, м. Обувь, закрывающая ногу по щиколотку.\n| прил. ботиночный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BCCEFC",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "7f248b8108eb22083663524f9a7b056bb0dcddd32f6f9ef1be0e4a45dee108b0",
+      "explanationSha256": "9455c4af721f5f1520d35adbb4c94f3f5530e6cadeb2ca5a6254a41468abc2e1",
+      "hint": "Проверьте творительный падеж числительного с сотнями. Одного изменения первой части недостаточно: вторая тоже должна получить полное окончание.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ДВУМЯСТА",
+        "answer": "двумястами",
+        "sourceExcerpt": "ДВУМЯСТА журналами",
+        "correctedExcerpt": "двумястами журналами",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "двести",
+            "entryId": "ozhegov-aa282edb7a25",
+            "definitionQuote": "двести ДВЕСТИ, двухсот, двумстам, двумястами, о двухстах, числит. колич. Число и количество 200.\n| порядк. двухсотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BE9871",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "ebabd4ff8e83ddacbccb47928cbf23e5aa4f2056f2ccc8ac2d2ef03069535646",
+      "explanationSha256": "6a6b045824e1404e44c3bc16903162bee26a7f25ca28ae00c7ce855bf237627f",
+      "hint": "Отличите порядковый номер экземпляра от количества предметов. Не переносите внутрь порядкового числительного форму творительного падежа количественного.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ВОСЬМЬЮСОТЫЙ",
+        "answer": "восьмисотый",
+        "sourceExcerpt": "ВОСЬМЬЮСОТЫЙ экземпляр",
+        "correctedExcerpt": "восьмисотый экземпляр",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "восемьсот",
+            "entryId": "ozhegov-95e3edac4df9",
+            "definitionQuote": "восемьсот ВОСЕМЬСОТ, восьмисот, восьмьюстами и восемьюстами, восьмистах, числит. колич. Число и количество 800.\n| порядк. восьмисотый, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C542DC",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "0e22e1f915cbfee3d20cdaf6f1ab0c9e6035dcce16529d5aeb1ca8613b774ad1",
+      "explanationSha256": "52415ff62c36a1fc74d9d72625c8f06a12bc677bc72398ac29399cb4fa4ff87d",
+      "hint": "После «мало» требуется родительный падеж. У существительных на -мя в косвенных падежах меняется не только окончание, но и основа.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ВРЕМЯ",
+        "answer": "времени",
+        "sourceExcerpt": "мало ВРЕМЯ",
+        "correctedExcerpt": "мало времени",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "время",
+            "entryId": "ozhegov-17e34f8df30a",
+            "definitionQuote": "время ВРЕМЯ, мени, мн. мена, мён, менам, ср.\n1. Одна из форм (наряду с пространством) существования бесконечно развивающейся материи последовательная смена её явлений и состояний. Вне времени и пространства нет движения материи.\n2. Продолжительность, длительность чегон., измеряемая секундами, минутами, часами. Сколько времени (который час?).\n3. Промежуток той или иной длительности, в к-рый совершается чтон., последовательная смена часов, дней, лет. Отрезок времени. Хорошо провести в. В. не ждёт (надо торопиться). В. терпит (еще можно ждать). В. покажет (будет видно в будущем). В. работает на нас. Продолжительное в. На короткое в. Выиграть в.\n4. Определённый момент, в который происходит чтон. Назначить в. заседания. В. обеда. В любое в. дня.\n5. (мн. в одном знач. с ед.). Период, эпоха. Во время (времена) Петра I. Суровое время (суровые времена). С незапамятного времени (с незапамятных времён). Во все времена (всегда). На все времена (навсегда).\n6. Пора дня, года. Вечернее в. В. детское (взрослым ещё рано ложиться спать; разг.). Дождливое в. Времена года (зима, весна, лето, осень).\n7. в знач. сказ., с неопр. Подходящий, удобный срок, благоприятный момент. Не в. сидеть сложа руки. Самое в. обедать.\n8. Период или момент, не занятый чемн., свободный от чегон. Свободное в. Есть в. поговорить. Нет времени для прогулок.\n9. В грамматике: категория глагола, специальными формами относящая действие в план настоящего, прошлого или будущего. Настоящее, прошедшее, будущее в. Причастие настоящего, прошедшего времени.\n10. времён кого-чего, в знач. предлога с род. п. В период, во время существования кого-чегон. (о ком-чёмн. бывшем в отдалённом прошлом). Писатели времён классицизма. Оружие времён гражданской войны.\n• Во время чего, предлог с род. п. в то время, когда чтон. происходит. Шум во время лекции.\n(В) первое время в начальный период чегон., вначале. В первое время на работе уставал.\n(В) последнее время незадолго до настоящего момента и сейчас. В последнее время получаю много писем.\nВремя от времени иногда.\nВсё время не переставая, постоянно.\nВсему своё время всё должно делаться вовремя, своевременно.\nВ своё время 1) когда-то, в прошлом. В своё время хорошо играл в футбол; 2) когда нужно, своевременно. В своё время всё узнаешь.\nВ скором времени скоро, в ближайшем будущем.\nВ то время как (когда), союз 1) присоединяет предложение со знач. одновременности. В то время как она отдыхала, он приготовил обед; 2) то же, что ↑ тогда как (в 1 знач.). Бездельничает, в то время как завтра экзамен.\n(И, а, но) в то же время, союз (и, а, но) одновременно, наряду с этим. Осторожен, (и, а, но) в то же время расчётлив.\nДо времени или до поры до времени пока, до какогон. момента.\nДо сего времени до сих пор, до этого времени, момента.\nКо времени (разг.) к сроку, вовремя. Этот разговор не ко времени (несвоевременен).\nНа время на какойн. срок, ненадолго.\nНа первое время на ближайшее будущее.\nОдно время в течение нек-рого времени в прошлом. Одно время не ладилось с учёбой.\nПо временам то же, что ↑ иногда. По временам скучает.\nРаньше времени то же, что ↑ преждевременно.\nСо временем по прошествии нек-рого времени. Со временем остепенится.\nТем временем одновременно с этим, именно в это же время.\n| уменьш. времечко, а, ср. (к 3, 4, 6, 7 и 8 знач.).\n| прил. временной, ая, ое (к 1, 2 и 9 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C88373",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2",
+      "explanationSha256": "04af04507fef549e7e185a347befac9e8efbaa93c7be2cdfcecab5b25e9bced6",
+      "hint": "Мягкий знак в конце существительного не всегда означает женский род. Определите род, затем образуйте творительный падеж.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ТЮЛЬЮ",
+        "answer": "тюлем",
+        "sourceExcerpt": "накрыть ТЮЛЬЮ",
+        "correctedExcerpt": "накрыть тюлем",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "тюль",
+            "entryId": "ozhegov-327ccaa2c3ef",
+            "definitionQuote": "тюль ТЮЛЬ, я, м. Тонкая сетчатая ткань. Узорчатый т. Т. на окнах.\n| прил. тюлевый, ая, ое. Тюлевые занавески.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CA147A",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb",
+      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
+      "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "СОУСА",
+        "answer": "соусы",
+        "sourceExcerpt": "томатные СОУСА",
+        "correctedExcerpt": "томатные соусы",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "соус",
+            "entryId": "ozhegov-572123ebbb78",
+            "definitionQuote": "соус СОУС, а (у), м. Жидкая приправа, подливка к кушанью. Томатный с. Рыба под соусом. Под другим соусом (также перен.: в ином виде, в другой форме; разг. неодобр.).\n| прил. соусный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D05218",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "9585334b0a579899934bc68b04991d505ad2f19191613168903adf574547b4c1",
+      "explanationSha256": "6c09ed19cbbd7721e484229d39bdbef1298cf74d647dc71641558861f929aa84",
+      "hint": "Проверьте родительный падеж множественного числа у названия плодов. Окончание -ов у одних названий фруктов нельзя переносить на все остальные.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ЯБЛОКОВ",
+        "answer": "яблок",
+        "sourceExcerpt": "килограмм ЯБЛОКОВ",
+        "correctedExcerpt": "килограмм яблок",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "яблоко",
+            "entryId": "ozhegov-26e03e963a14",
+            "definitionQuote": "яблоко ЯБЛОКО, а, мн. яблоки, яблок, ср. Плод яблони. Антоновские, анисовые, коричные яблоки. Летние сорта яблок. Сушёные, мочёные, печёные яблоки. Компот из яблок. Я. от яблони недалеко падает (посл. о том, кто унаследовал плохое, неблаговидное поведение от отца, матери).\n• Яблоку негде упасть (разг.) о большой тесноте. Народу в вагоне яблоку негде упасть!\nВ яблоках с тёмными круглыми пятнами на шерсти (о масти животных). Серый в яблоках конь.\nГлазное яблоко шарообразное тело глаза.\nЯблоко раздора (книжн.) то, что порождает ссору, раздор [по древнегреческому мифу о богине раздора Эриде, подбросившей гостям золотое яблоко с надписью «прекраснейшей» и о споре, возникшем из-за этого между богинями Герой, Афиной и Афродитой].\n| уменьш. яблочко, а, ср.\n| прил. яблочный, ая, ое. Яблочное варенье. Я. пирог (с яблоками).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D754F9",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "947491bf2e2ba5480a47c724f5e6330f1019dca2d727368b6005000581b1ab6c",
+      "explanationSha256": "ba72700bdd8cb65acf8caa7fb4eec7642c70192f1fd6e0bc078c7bb6a636cc30",
+      "hint": "Предлог «из» требует родительного падежа. У существительного среднего рода на -це проверьте, появляется ли беглая гласная при нулевом окончании.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "БЛЮДЦЕВ",
+        "answer": "блюдец",
+        "sourceExcerpt": "пить из БЛЮДЦЕВ",
+        "correctedExcerpt": "пить из блюдец",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "блюдце",
+            "entryId": "ozhegov-e6fc03590a12",
+            "definitionQuote": "блюдце БЛЮДЦЕ, а, род. мн. дец, ср.\n1. Тарелочка под чашку или стакан с приподнятыми краями. Чайное б.\n2. В степных зонах: плоская, обычно округлая большая впадина в почве (спец.). Степные блюдца.\n| уменьш. блюдечко, а, род. мн. чек, ср. (к 1 знач.). Б. для варенья (розетка).\n• На блюдечке или на блюдечке с голубой каёмочкой (получить, преподнести) (разг. неодобр.) о получении чегон. без затраты труда, усилий.\n| прил. блюдечный, ая, ое (к 1 знач.) и блюдцевый, ая, ое (ко 2 знач.; спец.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D8BE94",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503",
+      "explanationSha256": "5fa401714dbcfd5efdc30bf087b7729fe03c730b7cc5d8d7aaf1bd72ff6273b1",
+      "hint": "Проверьте личную форму глагола на -овать. Сначала образуйте форму «я…»: сохраняется ли в ней весь суффикс инфинитива?",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ПОПРОБОВАЕМ",
+        "answer": "попробуем",
+        "sourceExcerpt": "ПОПРОБОВАЕМ решить",
+        "correctedExcerpt": "попробуем решить",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "попробовать",
+            "entryId": "ozhegov-6492d87eb46e",
+            "definitionQuote": "попробовать ПОПРОБОВАТЬ см. ↑ пробовать.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "пробовать",
+            "entryId": "ozhegov-ce2ae57483e4",
+            "definitionQuote": "пробовать ПРОБОВАТЬ, бую, буешь; анный; несов.\n1. кого-что. Испытывать, проверять. П. свои силы. П. артиста на какуюн. роль.\n2. что. Есть для пробы, чтобы определить вкус, готовность чегон. П. кушанье.\n3. с неопр. Пытаться, стараться чтон. сделать. Пробовал объясниться.\n| сов. испробовать, бую, буешь; анный (к 1 знач.) и попробовать, бую, буешь; анный. Попробуй только! (угрожающее предупреждение не делать чегон., то же, что ↑ посмей только!).\n| сущ. проба, ы, ж. (к 1 и 2 знач.). П. машин, механизмов. П. голосов. Взять на пробу. П. пера (перен.: первые попытки пишущего, сочиняющего).\n| прил. пробный, ая, ое (к 1 и 2 знач.). П. экземпляр. П. товар. Пробные духи. П. камень (перен.: о поступке, случае, по к-рому судят о прочности, ценности, силе чегон.; книжн.). П. рейс.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DD4AE3",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a",
+      "explanationSha256": "d6fdde2ea1dd1ea819673bc4ec313a2101a4192903e91d201655e5788ee59061",
+      "hint": "Найдите глагол в форме будущего времени. У глагола на -чь в разных личных формах чередуются согласные; приставка этого чередования не отменяет.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ИСПЕКЁТ",
+        "answer": "испечёт",
+        "sourceExcerpt": "ИСПЕКЁТ пирожок",
+        "correctedExcerpt": "испечёт пирожок",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "печь",
+            "entryId": "ozhegov-649c8abd186e",
+            "definitionQuote": "печь 1.\nПЕЧЬ1, пеку, печёшь, пекут; пёк, пекла; пеки; пёкший; печённый (ён, ена); пёкши; несов.\n1. что. Приготовлять пищу сухим нагреванием на жару, в печи. П. пироги. П. в духовке.\n2. что. Приготовлять для еды, сильно нагревая, прокаливая. П. картофель. П. яйца.\n3. (1 и 2 л. не употр.), кого-что. Обдавать сильным жаром, зноем. Солнце печёт голову.\n| сов. испечь, пеку, печёшь; пёк, пекла; пеки; пёкший; чённый (ён, ена); пёкши (к 1 и 2 знач.).\n| сущ. печение, я, ср. (к 1 и 2 знач.).\n2.\nПЕЧЬ2, и, о печи, в печи, мн. и, ей, ж.\n1. Сооружение (из камня, кирпича, металла) для отопления помещения, приготовления горячей пищи. Комнатная п. Русская п. (большая квадратная кирпичная печь с широким полукруглым жерлом и верхней лежанкой). Лежать на печи (также перен.: бездельничать; разг.).\n2. Устройство или сооружение для обработки чегон. нагреванием. Пламенная п. Электрическая п. Плавильная п. Доменная п. (для выплавки чугуна). Сушильная печь. Обжиговая п.\n| прил. печной, ая, ое. Печное отопление. П. горшок (для варки чегон. в печи). Печная заслонка.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E60EB4",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0",
+      "explanationSha256": "6a134bffa1c61c32826091d6062613413ec3f4f2851484753d3e91f5a4823b31",
+      "hint": "Найдите прилагательное, возле которого уже стоит «более». Исправьте только выделенное слово, не удаляя остальную часть конструкции.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "МОЛОЖЕ",
+        "answer": "молодой",
+        "sourceExcerpt": "он более МОЛОЖЕ",
+        "correctedExcerpt": "он более молодой",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "более",
+            "entryId": "ozhegov-5bb6a67cea71",
+            "definitionQuote": "более БОЛЕЕ, нареч.\n1. То же, что ↑ больше (в 1, 2 и 3 знач.) (устар. и книжн.).\n2. В сочетании с прилагательными и наречиями обозначает сравнение. Б. спокойный. Б. важно.\n• Более или менее до известной степени [неправильно более-менее]. Более или менее понятно.\nБолее того, вводн. сл. то же, что больше того. Умён, более того, талантлив.\nБолее чем очень, весьма. Более чем интересно.\nНе более чем только, всего лишь.\nТем более 1) частица, выражает усиление, выделение. Климат здесь вредный, тем более для ребёнка; 2) союз, то же, что тем более что (разг.). Остаёмся дома, тем более собирается гроза.\nТем более что, союз выражает присоединение с оттенком обоснования. Решили не ехать, тем более что и вы не едете.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "молодой",
+            "entryId": "ozhegov-0d6e81929cfe",
+            "definitionQuote": "молодой МОЛОДОЙ, ая, ое; молод, молода, молодо; моложе.\n1. Не достигший зрелого возраста; ещё не старый. Молодое поколение. Молодые учёные. М. человек (о юноше, обычно в обращении). Молод ещё стариков учить (разг. неодобр.). Из молодых (сущ.) да ранний (о молодом выскочке, а также вообще о молодом человеке, рано обнаруживающем какиен. способности, возможности; разг.).\n2. Недавно начавший расти, существовать. Молодое дерево. М. картофель. Молодое учреждение.\n3. полн. ф. Недавнего приготовления (без достаточной крепости, остроты; о напитках, продуктах, приготовление к-рых связано с брожением). М. сыр. М. квас.\n4. полн. ф. Свойственный, присущий молодости. М. задор. Молодая отвага.\n5. молодой, ого, м. Человек, только что вступивший в брак.\n• Молодо-зелено (разг.) о незрелой молодёжи.\n| ж. молодая, ой (к 5 знач.).\n| уменьш. молоденький, ая, ое (к 1 и 2 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E7D8E1",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "a6942f0c77811ca61ea14dfbca282b0a8ff7dfd2809ebffb94fb5e4dadb02875",
+      "explanationSha256": "85ca8569d5260fa9f9c24fae67ef44a0154ba33712fde73624b82c10d2cfe4c1",
+      "hint": "Проверьте личную форму глагола со значением уничтожения огнём. Согласные основы в формах «я…» и «ты…» различаются.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "СОЖГЁШЬ",
+        "answer": "сожжёшь",
+        "sourceExcerpt": "СОЖГЁШЬ письмо",
+        "correctedExcerpt": "сожжёшь письмо",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "сжечь",
+            "entryId": "ozhegov-e8a18f034d8f",
+            "definitionQuote": "сжечь СЖЕЧЬ см. ↑ жечь.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "жечь",
+            "entryId": "ozhegov-8a092864b53b",
+            "definitionQuote": "жечь ЖЕЧЬ, жгу, жжёшь, жгут; жёг, жгла; жги; жёгший; жжённый (ён, ена); жёгши; несов.\n1. кого-что. Уничтожать огнём. Ж. письма. Ж. деревни (поджигать).\n2. что. Заставлять гореть (для отопления, освещения). Ж. дрова. Ж. электричество. Ж. уголь (обращать дерево в уголь под действием жара).\n3. (1 и 2 л. не употр.), кого-что. Действием чегон. горячего, едкого или очень холодного производить ожог, ощущение ожога. Солнце так и жжёт. Горчичник жжёт. Мороз жжёт щеки.\n| сов. сжечь, сожгу, сожжёшь; сжёг, сожгла; сжёгший; сожжённый (ён, ена); сжёгши (к 1 и 3 знач.).\n| сущ. сожжение, я, ср. (к 1 знач.) и жжение, я, ср. (к 1 и 3 знач.). Сожжение на костре (старинная казнь).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E97CE0",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "a448701471b05a39d9ea658dc92d0c024a0c9d642ebd8ce48521f85f688aecc0",
+      "explanationSha256": "19dc5564eba478ac12f530f6459c5746f7c2aa2114d8c23dc6ac028bb9558eb9",
+      "hint": "Проверьте родительный падеж множественного числа у названия плодов. Окончание -ов у одних названий фруктов нельзя переносить на все остальные.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ЯБЛОКОВ",
+        "answer": "яблок",
+        "sourceExcerpt": "много ЯБЛОКОВ",
+        "correctedExcerpt": "много яблок",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "яблоко",
+            "entryId": "ozhegov-26e03e963a14",
+            "definitionQuote": "яблоко ЯБЛОКО, а, мн. яблоки, яблок, ср. Плод яблони. Антоновские, анисовые, коричные яблоки. Летние сорта яблок. Сушёные, мочёные, печёные яблоки. Компот из яблок. Я. от яблони недалеко падает (посл. о том, кто унаследовал плохое, неблаговидное поведение от отца, матери).\n• Яблоку негде упасть (разг.) о большой тесноте. Народу в вагоне яблоку негде упасть!\nВ яблоках с тёмными круглыми пятнами на шерсти (о масти животных). Серый в яблоках конь.\nГлазное яблоко шарообразное тело глаза.\nЯблоко раздора (книжн.) то, что порождает ссору, раздор [по древнегреческому мифу о богине раздора Эриде, подбросившей гостям золотое яблоко с надписью «прекраснейшей» и о споре, возникшем из-за этого между богинями Герой, Афиной и Афродитой].\n| уменьш. яблочко, а, ср.\n| прил. яблочный, ая, ое. Яблочное варенье. Я. пирог (с яблоками).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ECF2E7",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "7c0bcb40f0c7673d6f9f0f15656e9b379937b2717dfefbbd421c363e0f7e2381",
+      "explanationSha256": "4900ea53c2acb9063c7a0aa1a7487e2e69f878d91ff5a80e7ea4b4a1837f11a3",
+      "hint": "Для обозначения места у некоторых существительных есть особая предложная форма. Отличайте «где?» от «говорить о чём?».",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ШКАФЕ",
+        "answer": "шкафу",
+        "sourceExcerpt": "в ШКАФЕ",
+        "correctedExcerpt": "в шкафу",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "шкаф",
+            "entryId": "ozhegov-fdbb3ec43ec3",
+            "definitionQuote": "шкаф ШКАФ, а, в (на) шкафу, мн. ы, ов, м.\n1. Предмет мебели род большого стоячего ящика с дверцами для хранения вещей, одежды. Книжный ш. Зеркальный ш. (с зеркалом, вставленным в дверцу). Встроенный ш. (вделанный в стену). Несгораемый ш. (сейф).\n2. Специальное устройство в виде закрывающейся коробки для сушки, готовки и других целей, духовка. Духовой ш. Жарочный ш. Сушильный ш.\n| уменьш. шкафчик, а, м. и шкафик, а, м.\n| прил. шкафной, ая, ое и шкафный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ED6747",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "0f4fb2905bab16db4f8e9990964a9bc7880b71a8aff55296e335b642d795b63a",
+      "explanationSha256": "50ffaeed37a0f7c25be5949eca917f3dcc06c3b5b5ce26349946cca25e89cd1e",
+      "hint": "Различайте личную форму прошедшего времени и деепричастие: вопрос «что сделав?» не требует механически сохранять основу формы на -л.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ПРИОБРЁВ",
+        "answer": "приобретя",
+        "sourceExcerpt": "ПРИОБРЁВ мебель",
+        "correctedExcerpt": "приобретя мебель",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "приобрести",
+            "entryId": "ozhegov-00c54cee4455",
+            "definitionQuote": "приобрести ПРИОБРЕСТИ, ету, етёшь; ёл, ела; етший; етённый (ён, ена); етя; сов.\n1. кого-что. Стать владельцем, обладателем чегон., получить чтон. П. дом. П. власть. П. авторитет (заслужить его).\n2. что. Стать обладателем какогон. свойства, качества. Слово приобрело новое значение. П. здоровый вид.\n| несов. приобретать, аю, аешь.\n| сущ. приобретение, я, ср.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F05133",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850",
+      "explanationSha256": "1fab82a2a058a81c8ec054c441729e73d9ffdb2355dccc1370643f08212a411c",
+      "hint": "В названии года определите последнее слово составного порядкового числительного. Именно оно получает падежное окончание; предыдущая часть сохраняется.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "numerals",
+        "incorrectForm": "ДВУХ",
+        "answer": "две",
+        "sourceExcerpt": "в ДВУХ тысячи десятом году",
+        "correctedExcerpt": "в две тысячи десятом году",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "два",
+            "entryId": "ozhegov-86879b3ea456",
+            "definitionQuote": "два ДВА, двух, двум, двумя, о двух; ж. две, двух, числит. колич.\n1. Число, цифра и количество 2. За два дня и за два дня. На два дня и на два дня. Рассказать в двух словах (очень коротко). Живёт в двух шагах (совсем рядом). Ни д. ни полтора (ни то ни сё; разг.). В д. счёта сделать чтон. (очень быстро; разг.).\n2. нескл. То же, что ↑ двойка (во 2 знач.). За сочинение получил д.\n| порядк. второй, ая, ое (к 1 знач.).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "порядковый",
+            "entryId": "ozhegov-920034e9a342",
+            "definitionQuote": "порядковый ПОРЯДКОВЫЙ, ая, ое.\n1. Указывающий место в ряду, отвечающий на вопрос: который по счёту? П. номер.\n2. порядковое числительное в грамматике: прилагательное, обозначающее признак как отношение к количеству, числу (напр. первый, второй, десятый, сотый).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "числительное",
+            "entryId": "ozhegov-316f2081a475",
+            "definitionQuote": "числительное ЧИСЛИТЕЛЬНОЕ, ого, ср. или имя числительное в грамматике: слово (существительное или прилагательное), обозначающие количество или количественный признак, порядок предметов при счёте. Количественное ч. (обозначающее количество как число, напр. два, пять, десять). Порядковое ч. (обозначающее признак как отношение к количеству, числу, напр. второй, пятый, десятый).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F23DF9",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0",
+      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
+      "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "СОУСА",
+        "answer": "соусы",
+        "sourceExcerpt": "томатные СОУСА",
+        "correctedExcerpt": "томатные соусы",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "соус",
+            "entryId": "ozhegov-572123ebbb78",
+            "definitionQuote": "соус СОУС, а (у), м. Жидкая приправа, подливка к кушанью. Томатный с. Рыба под соусом. Под другим соусом (также перен.: в ином виде, в другой форме; разг. неодобр.).\n| прил. соусный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F26529",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "3f2872a4cafb7f5447953f61ce50d363d8358245f33ccec333c6cac6ca03c2ea",
+      "explanationSha256": "acae2ec9c0930c324e9f16de504776f27599a694b42f9b4b3b6ca42f1c3df8f3",
+      "hint": "Проверьте простую сравнительную степень прилагательного. Не любой суффикс со значением сравнения подходит к каждому слову.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "comparison",
+        "incorrectForm": "КРАСИВШЕ",
+        "answer": "красивее",
+        "sourceExcerpt": "КРАСИВШЕ других",
+        "correctedExcerpt": "красивее других",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "красивый",
+            "entryId": "ozhegov-f767afd04af1",
+            "definitionQuote": "красивый КРАСИВЫЙ, ая, ое; ив; красивее и (устар. и высок.) краше.\n1. Доставляющий наслаждение взору, приятный внешним видом, гармоничностью, стройностью, прекрасный. Красивое лицо. К. вид. К. голос. Красиво (нареч.) писать. К. танец. Краше становятся города. Краше в гроб кладут (погов. о человеке с больным, измождённым лицом).\n2. Полный внутреннего содержания, высоконравственный. К. поступок.\n3. (сравн. ст. не употр.). Привлекающий внимание, эффектный, но бессодержательный. Красивые слова. К. жест.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F43551",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "ba2bc24cb97f16c6965afdf6e537223e8609f0e9f94515b5ded7c44963281492",
+      "explanationSha256": "ab8995c14fd590b447c0499b4a53012ba6f856b0c6f190ee7e85daece91b1622",
+      "hint": "У названия обуви проверьте форму родительного падежа множественного числа. Зависимость от слова «пара» не делает окончание -ей обязательным.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ТУФЛЕЙ",
+        "answer": "туфель",
+        "sourceExcerpt": "нет пары ТУФЛЕЙ",
+        "correctedExcerpt": "нет пары туфель",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "туфли",
+            "entryId": "ozhegov-694705c5daa1",
+            "definitionQuote": "туфли ТУФЛИ, туфель, туфлям, ед. туфля, и, ж. Обувь, закрывающая ногу не выше щиколотки. Дамские, мужские, детские, спортивные т.\n| уменьш. туфельки, лек, ед. туфелька, и, ж.\n| прил. туфельный, ая, ое.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5ED6D",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d",
+      "explanationSha256": "9f50563222dd146ae6f5bbd67f912f92d0642ce7912fb360867ee5d3e89db74d",
+      "hint": "Проверьте падеж после производного предлога. Начальное н- появляется у местоимения не после любого предлога.",
+      "rows": [],
+      "referenceStatus": "rule_application",
+      "morphologyReview": {
+        "category": "pronouns",
+        "incorrectForm": "НЕМУ",
+        "answer": "ему",
+        "sourceExcerpt": "наперекор НЕМУ",
+        "correctedExcerpt": "наперекор ему",
+        "evidenceScope": "rule_application",
+        "specialistGrammarReferencePending": true
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "наперекор",
+            "entryId": "ozhegov-dca5944e383b",
+            "definitionQuote": "наперекор НАПЕРЕКОР.\n1. нареч. Несогласно с кем-чемн., переча комун. Говорить н.\n2. кому-чему, предлог с дат. п. То же, что ↑ вопреки кому-чемун. Действовать н. здравому смыслу. Поступать н. взрослым.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          },
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "он",
+            "entryId": "ozhegov-484518364fdb",
+            "definitionQuote": "он ОН, его (без него), ему (к нему), его (на него), им (с ним), о нём, м.; ж. она, её (без неё книжн., и прост., от, у ней), ей (к ней), её (на неё), ей (ею, к ней), о ней; ср. оно, его (без него), ему (к нему), его (на него), им (с ним), о нём; мн. они, их (без них), им (к ним), ими (с ними), о них.\n1. мест. личн. 3 л. Служит для обозначения лица (исключая говорящего и собеседника), предмета речи, а также, при обобщении, указывает на любого, каждого. Поговори с ним, он поймёт. Он с ней (т. е. они вдвоём). Это для неё новость. Это всё о нём (сказано, написано). Между ними (среди них) разногласия, споры. У неё в доме порядок. Отец уехал, сын скучает по нему и (устар. и разг.) по нём. Дитя ещё малое: оно не разумеет. Ему говорят стрижено, а он брито (посл. о том, кто бессмысленно упрям).\n2. мест. личн. 3 л. В диалоге (обычно с лексическим повтором в реагирующей реплике) употр. для обозначения собеседника, как бы отстраняемого от ситуации и осуждаемого (разг.). Я с тобой не согласен. Подумаешь, он не согласен/ не согласен он! Хочу быть артисткой. Артисткой она хочет быть, вот ещё! Мы не виноваты. Не виноваты они, вот новости!.\n3. они, мест. личн. 3 л. Употр. вместо «он» или «она» в почтительно-подобострастной речи (устар. и прост.). Бырыня дома? Они уехали-с. Позови хозяина. Они спят.\n4. он, м.; она, ж. (обычно нескл.). Возлюбленный, возлюбленная. Пришла любовь, она сказала: это он.\n5. Тот (та, те), о ком говорят, опасаясь называть. Он стучит в трубе (о домовом). Нас окружают: они! (о неприятеле, враге).\n6. оно, нескл., ср., мест. указат. Указывает на предмет речи или мысли, а также на то, о чём уже упоминалось (разг.). Оно видно, что ты болен. К начальнику не пускают, оно (и) понятно. Так оно и вышло, как задумывалось.\n7. оно, нескл., ср., мест. указат. То самое событие или дело, решение, к-рое ожидалось, о к-ром ктон. думал, говорил (разг.). Наконец-то его осенило: оно! Ты нездоров? Оно.\n8. мест. указат. В сочетании с «вот» и следующим далее именем указывает именно на того (то), о ком (чём) идёт речь (разг.). Вот он я (т. е. я здесь, пришёл, явился). Вот она твоя шапка. Вот она тропинка, наконец-то мы нашли дорогу. Вот она гордыня, что с человеком-то делает. Вот они настоящие трудности.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F61987",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "9c261b99309fe070cc19cf42061298554936068ad6dffaec794f6859cfae6cd1",
+      "explanationSha256": "4af9488b5847d631c702c7f5dd712c270d5bd668ddfd8ca5e3046561d2381dcc",
+      "hint": "Проверьте родительный падеж множественного числа у названия одежды. Восстановите начальную форму и не подменяйте её склонение моделью другого существительного.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "ПЛАТИЙ",
+        "answer": "платьев",
+        "sourceExcerpt": "много ПЛАТИЙ",
+        "correctedExcerpt": "много платьев",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "платье",
+            "entryId": "ozhegov-11cd904ff6b7",
+            "definitionQuote": "платье ПЛАТЬЕ, я, род. мн. ьев, ср.\n1. Одежда, носимая поверх белья. Мужское и женское п. Магазин готового платья. Верхнее п. (пальто, шуба, плащ).\n2. Женская цельная одежда, надеваемая поверх белья. Бальное п. П.-костюм (юбка и жакет, носимые вместе).\n| уменьш. платьице, а, ср. (ко 2 знач.). Детское п.\n| прил. платяной, ая, ое (к 1 знач.), платьевой, ая, ое (ко 2 знач.) и плательный, ая, ое (ко 2 знач.). Платяной шкаф. Плательные (платьевые) ткани. Платяная щётка (для чистки одежды).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB76CB",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "7f61cddfc993c98741ac91ec2265d2db2fd061d71cd9f706fe4aebfe73eec430",
+      "explanationSha256": "0b329ffd1eb66196cca55c40d4cbc706a69d3a56028e817312ef8273a6547d31",
+      "hint": "Проверьте родительный падеж множественного числа у названия высокой обуви. Не переносите на него окончание из слова «носков».",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "nouns",
+        "incorrectForm": "САПОГОВ",
+        "answer": "сапог",
+        "sourceExcerpt": "модных САПОГОВ",
+        "correctedExcerpt": "модных сапог",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "сапоги",
+            "entryId": "ozhegov-485fd3854b5f",
+            "definitionQuote": "сапоги САПОГИ, сапог, ед. сапог, а, м. Высокая обувь, охватывающая голени. Кожаные с. Валяные с. (валенки). Резиновые с.\n• Два сапога пара (разг. ирон.) о двух людях, вполне сходных, подходящих друг к другу, в особенности по своим недостаткам.\nСапоги всмятку (разг. шутл.) бессмыслица, чепуха.\nПод сапогом у кого то же, что ↑ под пятой у когон.\n| уменьш. сапожки, жек, жкам и сапожки, жков, жкам, ед. сапожок, жка, м.\n| прил. сапожный, ая, ое. Сапожная щётка (для чистки обуви).",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FE285C",
+      "task": 7,
+      "kind": "word_form_explanation",
+      "status": "assistant_corrected_applied",
+      "authorReviewRequired": false,
+      "sourceContentSha256": "5b4ab79fddcf46ebaabad063e8855af3fc03bbd5c4627ebb8c9a9830a738c65c",
+      "explanationSha256": "f67b91edfd9b624034993cfc5109e383e919bfe5f765dccc7a07d34b669ad692",
+      "hint": "Найдите форму повелительного наклонения. Не образуйте её механически от формы «ляжешь»; вспомните, как звучит соответствующая команда одному человеку.",
+      "rows": [],
+      "referenceStatus": "explicit_dictionary_form",
+      "morphologyReview": {
+        "category": "verbs",
+        "incorrectForm": "ЛЯЖЬТЕ",
+        "answer": "лягте",
+        "sourceExcerpt": "ЛЯЖЬТЕ на спину",
+        "correctedExcerpt": "лягте на спину",
+        "evidenceScope": "explicit_dictionary_form",
+        "specialistGrammarReferencePending": false
+      },
+      "dictionaryReview": {
+        "status": "verified",
+        "scope": "Прочитаны конкретные словарные статьи. evidenceScope отдельно различает явную словарную форму и применение грамматического правила; наличие статьи не объявляется подтверждением полного правила.",
+        "reviewDate": "2026-10-29",
+        "sourceRefs": [
+          {
+            "dictionaryId": "ozhegov-shvedova-user-copy",
+            "headword": "лечь",
+            "entryId": "ozhegov-057022779740",
+            "definitionQuote": "лечь ЛЕЧЬ, лягу, ляжешь, лягут; лёг, легла; ляг, лягте; сов.\n1. Принять лежачее положение. Л. на диван. Л. на бок, на спину, на живот.\n2. Расположиться спать. Рано, поздно л. Дети уже легли.\n3. Поместиться в ↑ стационар (во 2 знач.). Л. в больницу. Л. на обследование, на операцию.\n4. (1 и 2 л. не употр.). Распространиться по поверхности чегон., оказаться на чёмн. Снег лёг пеленой.\n5. (1 и 2 л. не употр.), перен. Появиться, заполнить собой что-н. (о тяжёлых чувствах, состоянии). На сердце легла печаль. Чувство вины легло на душу. На лицо легла тень страдания.\n6. (1 и 2 л. не употр.), перен, на кого-что. Прийтись, оказаться у когон. (о чёмн. обязательном, трудном или обременительном). Ответственность ляжет на руководителя. Все заботы легли на отца.\n7. (1 и 2 л. не употр.), перен., на кого-что. Коснуться, задеть кого-что-н., ↑ упасть (в 7 знач.). Подозрение легло на новичка. Обвинение легло на свидетеля. На репутацию фирмы легла тень.\n8. О судах, самолётах: принять какоен. положение, направление. Л. в дрейф. Л. на заданный курс.\n9. (1 и 2 л. не употр.), перен. Расположиться, разместиться ровно, гладко. Платье легло по фигуре. Волосы легли длинными прядями.\n• Лечь костьми погибнуть ради достижения какойн. цели.\n| несов. ложиться, жусь, жишься.",
+            "verificationMethod": "electronic_article_read",
+            "reviewDate": "2026-10-29"
+          }
+        ]
+      }
+    }
+  ]
+}

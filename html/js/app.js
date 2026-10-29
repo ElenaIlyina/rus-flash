@@ -276,7 +276,9 @@ function cardTheoryLinks(c) {
         ? `<a class="text-link" href="#knowledge?list=paronyms&card=${c.id}">Алфавитный список паронимов</a><a class="text-link" href="#knowledge?list=paronyms&view=theory&card=${c.id}">Как различать паронимы</a>`
         : c.task === 6
           ? `<a class="text-link" href="#knowledge?list=lexical&card=${c.id}">Лексические нормы: как редактировать предложение</a>`
-          : "")
+          : c.task === 7
+            ? `<a class="text-link" href="#knowledge?list=word-forms&card=${c.id}">Формы слов: как выбрать правильную</a>`
+            : "")
   );
 }
 async function renderCard(id, version) {
@@ -594,7 +596,7 @@ document.addEventListener("click", async (event) => {
     }
     case "card-rules":
       if (currentCard) {
-        location.hash = `knowledge?${currentCard.task === 4 ? "list=stress&" : currentCard.task === 5 ? "list=paronyms&" : currentCard.task === 6 ? "list=lexical&" : ""}card=${currentCard.id}`;
+        location.hash = `knowledge?${currentCard.task === 4 ? "list=stress&" : currentCard.task === 5 ? "list=paronyms&" : currentCard.task === 6 ? "list=lexical&" : currentCard.task === 7 ? "list=word-forms&" : ""}card=${currentCard.id}`;
       }
       break;
     case "report":
