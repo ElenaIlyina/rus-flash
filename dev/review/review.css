@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #292b38;
+  background: #f7f6f3;
+  font:
+    15px/1.5 system-ui,
+    sans-serif;
+}
+header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+a {
+  color: #6255b7;
+  overflow-wrap: anywhere;
+}
+.workbench {
+  display: grid;
+  grid-template-columns: minmax(270px, 340px) minmax(0, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+main,
+aside {
+  min-width: 0;
+}
+nav,
+.progress-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.button {
+  padding: 8px;
+  border: 1px solid #c9c6d9;
+  border-radius: 6px;
+  background: white;
+  color: #403b64;
+  cursor: pointer;
+  text-decoration: none;
+  font: inherit;
+}
+.bank-row {
+  display: block;
+  padding: 12px;
+  margin-block: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.bank-row p {
+  margin: 4px 0;
+}
+iframe {
+  width: 100%;
+  height: 78vh;
+  border: 1px solid #ddd;
+  background: white;
+}
+@media (max-width: 760px) {
+  .workbench {
+    grid-template-columns: 1fr;
+    padding: 12px;
+  }
+  #queue {
+    max-height: 45vh;
+    overflow: auto;
+  }
+}
+
+.debug-panel {
+  border: 1px dashed #a58c4e;
+  background: #fff9e8;
+  padding: 18px;
+  border-radius: 12px;
+  margin-block: 20px;
+}
+.debug-panel p {
+  margin-block: 12px;
+  overflow-wrap: anywhere;
+}
+.debug-badge {
+  display: inline-block;
+  font-size: 11px;
+  color: #785a16;
+  background: #fff1c8;
+  padding: 4px 7px;
+  border-radius: 5px;
+  margin: 5px;
+}

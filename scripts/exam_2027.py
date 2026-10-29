@@ -4,7 +4,7 @@ A subject match does not certify the answer, explanation, or current exam format
 """
 import html
 import re
-from generate_manifest import extract_codes
+from card_data import extract_codes
 
 
 def text(value):

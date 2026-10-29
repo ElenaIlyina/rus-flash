@@ -5,9 +5,19 @@
   "sourceTitle": "ФИПИ. Навигатор самостоятельной подготовки. Фонетика и орфоэпия",
   "listYear": 2026,
   "sourceSha256": "6e1b6dcaf835f6b7294c9426de406dea3614bb81d9d28e25fc423c9c8036f389",
-  "sourceFile": "docs/references/fipi-navigator-lexicon-orthoepy/phonetics.pdf",
-  "sourcePages": [1, 2, 3, 4, 5, 6],
-  "observedHeaderYears": [2026, 2025],
+  "sourceFile": "data/sources/fipi-phonetics.pdf",
+  "sourcePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "observedHeaderYears": [
+    2026,
+    2025
+  ],
   "transcriptionNote": "Все строки шести разделов орфоэпического списка на с. 1–5; пометы сохранены, номера сносок вынесены в noteIds. Примечания на с. 5–6 приведены отдельно. Исключённые слова не включены в основной список.",
   "notes": [
     {
@@ -61,7 +71,9 @@
         {
           "text": "вероисповЕдание",
           "sourcePage": 1,
-          "noteIds": [1]
+          "noteIds": [
+            1
+          ]
         },
         {
           "text": "водопровОд",
@@ -366,7 +378,9 @@
         {
           "text": "вручИт, 3-е л. ед. ч. глаг. вручИть",
           "sourcePage": 3,
-          "noteIds": [2]
+          "noteIds": [
+            2
+          ]
         },
         {
           "text": "гналА, прош. вр. ж. р. глаг. гнАть",

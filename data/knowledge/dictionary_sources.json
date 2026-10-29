@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "ruslang-paronyms-user-copy",
+      "title": "Словарь паронимов русского языка",
+      "citationLabel": "Нормативный словарь",
+      "format": "pdf",
+      "file": "data/sources/ruslang-paronyms.pdf",
+      "sha256": "0f3a65e690673a97406f5938912dc735eaf88a24260c48d38bda26f8c3eb917d",
+      "pdfPages": 1174
+    },
+    {
+      "id": "vishnyakova-1984-user-copy",
+      "title": "О. В. Вишнякова. Словарь паронимов русского языка",
+      "citationLabel": "Вишнякова, 1984",
+      "format": "pdf",
+      "file": "data/sources/vishnyakova-1984.pdf",
+      "sha256": "4ae4fa9d345bbd090b21688e161ebd52a0a025ba2698772b4cca2b4b65a43b01",
+      "pdfPages": 191
+    },
+    {
+      "id": "ozhegov-shvedova-user-copy",
+      "title": "С. И. Ожегов, Н. Ю. Шведова. Толковый словарь русского языка",
+      "citationLabel": "Ожегов—Шведова",
+      "format": "articles",
+      "file": "data/sources/ozhegov-shvedova.json",
+      "sha256": "202f570cd2dd94f5de9ee51c285daef2b4ad66ee6e507b0edd603c469c3884f2"
+    },
+    {
+      "id": "fipi-lexicon-2025",
+      "title": "ФИПИ. Навигатор самостоятельной подготовки к ЕГЭ-2025. Лексика и фразеология",
+      "citationLabel": "ФИПИ · фразеологизмы, 2025",
+      "format": "pdf",
+      "file": "data/sources/fipi-lexicon-2025.pdf",
+      "sha256": "0c86848e7cef51b461ce895a5b055dc309c3696ff7cccc63e37785851e0d83c9",
+      "pdfPages": 13
+    }
+  ]
+}

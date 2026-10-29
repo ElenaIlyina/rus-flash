@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ревью материалов — Слово за слово</title>
+    <link rel="stylesheet" href="review.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ревью материалов</h1>
+      <p>
+        Инструмент разработки. Принятие хранится в этом браузере и не означает
+        предметной приёмки.
+      </p>
+      <a href="../../html/index.html" target="_blank" rel="noopener"
+        >Открыть приложение</a
+      >
+    </header>
+    <div class="workbench">
+      <aside id="queue" aria-label="Очередь ревью"></aside>
+      <main>
+        <div id="details"></div>
+        <iframe id="preview" title="Просмотр карточки" hidden></iframe>
+      </main>
+    </div>
+    <script type="module" src="workbench.js"></script>
+  </body>
+</html>

@@ -59,8 +59,6 @@ export function adaptCard(raw) {
             : "short_text",
     answer: (raw.answer || "").trim(),
     explanation: raw.explanation || "",
-    // Imported legacy values have not acquired editorial verification.
-    reviewStatus: "unverified",
     ruleIds: raw.rule_ids || [],
   };
 }

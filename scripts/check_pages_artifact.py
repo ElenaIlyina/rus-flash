@@ -13,8 +13,8 @@ def check(root):
     root = Path(root)
     required = [
         'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/store.js',
-        'js/settings.js', 'js/review-debug.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/knowledge.js', 'js/progress-transfer.js',
-        'assets/data/catalog.json', 'assets/data/review-debug.json', 'assets/data/handbook.json', 'assets/data/handbook-sources.json',
+        'js/settings.js', 'js/ui.js', 'js/learning.js', 'js/progress.js', 'js/hints.js', 'js/bank-order.js', 'js/assessment.js', 'js/adaptive.js', 'js/knowledge.js', 'js/progress-transfer.js',
+        'assets/data/catalog.json', 'assets/data/handbook.json', 'assets/data/handbook-sources.json',
         'assets/brand/slovo-za-slovo-school.png',
         'js/stress-list.js', 'assets/data/stress-list.json', 'assets/data/stress-list-source.pdf',
         'js/paronyms.js',
@@ -33,7 +33,7 @@ def check(root):
     for path in root.rglob('*'):
         if path.is_symlink():
             raise ValueError(f'Symlinks are not allowed in Pages artifact: {path}')
-        if path.name in {'.git', '.env', 'node_modules', '__pycache__'}:
+        if path.name in {'.git', '.env', 'node_modules', '__pycache__', 'dev', 'review-debug.js', 'review-debug.json'}:
             raise ValueError(f'Unexpected file/directory in public site: {path}')
     catalog = json.loads((root / 'assets/data/catalog.json').read_text())
     ids = [c['id'] for c in catalog['cards']]

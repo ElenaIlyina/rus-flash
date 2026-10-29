@@ -1,0 +1,3573 @@
+{
+  "schemaVersion": 1,
+  "status": "task_5_target_comparisons_dictionary_checked",
+  "pairs": [
+    {
+      "id": "lacquered-lacquering",
+      "words": [
+        {
+          "word": "Лакированный",
+          "meaning": "Покрытый лаком; сделанный из кожи, покрытой лаком; лаковый (2-е значение).",
+          "examples": [
+            "лакированный пол",
+            "лакированная шкатулка"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лакированный",
+              "pdfPage": 573,
+              "printedPage": 573,
+              "definitionQuote": "Покрытый лаком; сделанный из кожи, покрытой лаком; лаковый (2 зн.).",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "vishnyakova-1984-user-copy",
+              "headword": "лакированный",
+              "pdfPage": 83,
+              "printedPage": null,
+              "definitionQuote": "Покрытый лаком.",
+              "sense": 1,
+              "usageLabel": null,
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Лакировочный",
+          "meaning": "Предназначенный для лакирования, связанный с нанесением слоя лака. В словаре объясняется через слово «лакировальный».",
+          "examples": [
+            "лакировочное оборудование",
+            "лакировочные работы"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лакировочный",
+              "pdfPage": 574,
+              "printedPage": 574,
+              "definitionQuote": "То же, что лакировальный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лакировальный",
+              "pdfPage": 573,
+              "printedPage": 573,
+              "definitionQuote": "Предназначенный для лакирования (нанесения слоя лака на какую-л. поверхность), связанный с ним; лакировочный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "vishnyakova-1984-user-copy",
+              "headword": "лакировочный",
+              "pdfPage": 83,
+              "printedPage": null,
+              "definitionQuote": "Относящийся к лакированию, предназначенный для него.",
+              "sense": null,
+              "usageLabel": "спец.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Лаковый",
+          "meaning": "Относящийся к лаку, содержащий лак. Во 2-м значении — то же, что лакированный.",
+          "examples": [
+            "лаковый раствор",
+            "лаковый пол"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лаковый",
+              "pdfPage": 574,
+              "printedPage": 574,
+              "definitionQuote": "Относящийся к лаку, лакам; содержащий лак.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29",
+              "sense": 1
+            },
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "лаковый",
+              "pdfPage": 574,
+              "printedPage": 574,
+              "definitionQuote": "То же, что лакированный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29",
+              "sense": 2
+            }
+          ]
+        }
+      ],
+      "distinction": "Лакированный предмет уже покрыт лаком; лакировочное средство предназначено для нанесения лака. У «лакового» несколько значений: словарь допускает и «лаковый раствор», и «лаковый пол».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "hostile-enemy",
+      "words": [
+        {
+          "word": "Враждебный",
+          "meaning": "Полный вражды, ненависти, крайне неприязненный, недружелюбный.",
+          "examples": [
+            "враждебный взгляд",
+            "враждебное отношение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "враждебный",
+              "pdfPage": 224,
+              "printedPage": 224,
+              "definitionQuote": "Полный вражды, ненависти, крайне неприязненный, недружелюбный.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Вражеский",
+          "meaning": "Относящийся к военному противнику, неприятелю.",
+          "examples": [
+            "вражеская оборона",
+            "вражеские танки"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "вражеский",
+              "pdfPage": 225,
+              "printedPage": 225,
+              "definitionQuote": "Относящийся к военному противнику, неприятелю.",
+              "verificationMethod": "visual_page_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Враждебный характеризует неприязнь и недружелюбие; вражеский — принадлежность к военному противнику. При выборе проверяйте смысл словосочетания в предложении.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "paronyms-3ad5192217",
+      "words": [
+        {
+          "word": "Безответный",
+          "meaning": "Не получающий ответа или отклика; кроткий, неспособный возражать.",
+          "examples": [
+            "безответная любовь",
+            "безответная старушка"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "безответный",
+              "pdfPage": 139,
+              "printedPage": null,
+              "evidenceId": "pdf-6af9a0f55e5022b0",
+              "definitionQuote": "1. Остающийся без ответа, отклика; не получающий ответа, отклика. Безответные вечные вопросы. Письмо осталось безответным.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Безответственный",
+          "meaning": "Не несущий ответственности; не сознающий ответственности за свои поступки.",
+          "examples": [
+            "безответственный человек",
+            "безответственное отношение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "безответственный",
+              "pdfPage": 139,
+              "printedPage": null,
+              "evidenceId": "pdf-6280ab11443b17e1",
+              "definitionQuote": "Не сознающий ответственности за свои дела, действия, поступки (о человеке); свойственный такому человеку. Безответственный человек, работник,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Отсутствие ответа и кротость — «безответный»; отсутствие ответственности за поступки — «безответственный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-d7a79fa8c8",
+      "words": [
+        {
+          "word": "Благодарный",
+          "meaning": "Испытывающий или выражающий благодарность; также оправдывающий вложенные усилия.",
+          "examples": [
+            "благодарный слушатель",
+            "благодарный взгляд"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "благодарный",
+              "pdfPage": 150,
+              "printedPage": null,
+              "evidenceId": "pdf-e77c20112a55aeaa",
+              "definitionQuote": "1. Испытывающий благодарность по отношению к кому-л.; выражающий благодарность. Благодарная публика. Отзывы благодарных покупателей.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Благодарственный",
+          "meaning": "Выражающий благодарность; в задании — название письма с благодарностью.",
+          "examples": [
+            "благодарственное письмо",
+            "благодарственная речь"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "благодарственный",
+              "pdfPage": 150,
+              "printedPage": null,
+              "evidenceId": "pdf-40d51bbede1af303",
+              "definitionQuote": "1. В христианстве — выражающий благодарность Богу. Благодарственный молебен. Благодарственные молитвы после причащения.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Чувство благодарности — «благодарный»; принятое название письма, выражающего благодарность, — «благодарственное».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-095cfe79b5",
+      "words": [
+        {
+          "word": "Благотворительный",
+          "meaning": "Связанный с безвозмездной помощью нуждающимся.",
+          "examples": [
+            "благотворительный фонд",
+            "благотворительный концерт"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "благотворительный",
+              "pdfPage": 151,
+              "printedPage": null,
+              "evidenceId": "pdf-96f81da8a9f41b33",
+              "definitionQuote": "Связанный с благотворительностью, направленный на оказание помощи нуждающимся; организованный в целях получения средств для такой помощи.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Благотворный",
+          "meaning": "Оказывающий хорошее, полезное воздействие.",
+          "examples": [
+            "благотворное влияние",
+            "благотворное действие"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "благотворный",
+              "pdfPage": 151,
+              "printedPage": null,
+              "evidenceId": "pdf-9127ede83540f1b5",
+              "definitionQuote": "Оказывающий хорошее воздействие на кого- что-л., приносящий большую пользу. Благотворный климат. Благотворная обстановка. Благотворная",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Помощь нуждающимся — «благотворительный»; полезное воздействие — «благотворный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-bdd5e2c8b2",
+      "words": [
+        {
+          "word": "Болотистый",
+          "meaning": "Изобилующий болотами, заболоченный.",
+          "examples": [
+            "болотистая местность",
+            "болотистые места"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "болотистый",
+              "pdfPage": 163,
+              "printedPage": null,
+              "evidenceId": "pdf-0c5d470cd1df1cfc",
+              "definitionQuote": "Изобилующий болотами; топкий, вязкий. Болотистая местность. Болотистая низменность. Болотистый грунт. Болотистая почва, земля.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Болотный",
+          "meaning": "Относящийся к болоту, свойственный ему; живущий или растущий на болоте.",
+          "examples": [
+            "болотная растительность",
+            "болотный запах"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "болотный",
+              "pdfPage": 164,
+              "printedPage": null,
+              "evidenceId": "pdf-a2e9effb937eabb1",
+              "definitionQuote": "1. Относящийся к болоту, характерный для него. Болотная вода. Болотные испарения. Болотный туман. Болотная сырость.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Обилие болот в местности — «болотистый»; отношение к болоту, его растительности, запаху — «болотный». Значения близки, проверяйте контекст.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-9d3177a3b0",
+      "words": [
+        {
+          "word": "Вековой",
+          "meaning": "Существующий, накопленный на протяжении века или многих веков; очень старый.",
+          "examples": [
+            "вековой дуб",
+            "вековой опыт"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "вековой",
+              "pdfPage": 186,
+              "printedPage": null,
+              "evidenceId": "pdf-dd7eaed2eedc84d1",
+              "definitionQuote": "1. Связанный с веком; равный одному веку. Вековой рубеж. Вековой период. 2. Существующий многие века, передающиеся из поколения в поколение.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Вечный",
+          "meaning": "Бесконечный во времени, сохраняющийся очень долго; также постоянный, непрестанный.",
+          "examples": [
+            "вечная мерзлота",
+            "вечные споры"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "вечный",
+              "pdfPage": 186,
+              "printedPage": null,
+              "evidenceId": "pdf-e62aa3ff9520eafa",
+              "definitionQuote": "1. Бесконечный во времени, не имеющий ни начала, ни конца. Вечная материя. Вечное движение.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Возраст или накопление за века — «вековой»; бесконечность, постоянство, непрестанность — «вечный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-8ec8f2ae20",
+      "words": [
+        {
+          "word": "Великий",
+          "meaning": "Выдающийся по значению, достоинствам или силе; очень большой.",
+          "examples": [
+            "великий писатель",
+            "великая радость"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "великий",
+              "pdfPage": 187,
+              "printedPage": null,
+              "evidenceId": "pdf-6a441094d80f8835",
+              "definitionQuote": "1. кратк. ф. велика, велико. Исключительный по своей значимости, по своим достоинствам. Великий город. Великая страна. Величайшее событие. Ваша цель",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Величавый",
+          "meaning": "Исполненный внутреннего достоинства и величия, внушающий почтение.",
+          "examples": [
+            "величавая поступь",
+            "величавый вид"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "величавый",
+              "entryId": "ozhegov-ca1759e8d5bf",
+              "definitionQuote": "величавый ВЕЛИЧАВЫЙ, ая, ое; ав. Исполненный внутреннего достоинства, величия, внушающий почтение к себе. Величавая поступь.\n| сущ. величавость, и, ж.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Величественный",
+          "meaning": "Производящий сильное впечатление своим величием, внушительный и торжественный.",
+          "examples": [
+            "величественный собор",
+            "величественная осанка"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "величественный",
+              "pdfPage": 188,
+              "printedPage": null,
+              "evidenceId": "pdf-ba7bb246d24bf353",
+              "definitionQuote": "1. Исполненный величия, торжественной красоты, великолепия (о пейзажах и явлениях природы, сооружениях и т. п.). Величественный горный пейзаж.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Выдающееся значение — «великий»; достоинство и внушительность облика — «величавый» или «величественный». Последние два слова могут сближаться.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-e54ffa8421",
+      "words": [
+        {
+          "word": "Величие",
+          "meaning": "Выдающиеся свойства, вызывающие преклонение и уважение. Словарная помета: высокое.",
+          "examples": [
+            "величие духа",
+            "величие подвига"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "величие",
+              "entryId": "ozhegov-5e67285e34c1",
+              "definitionQuote": "величие ВЕЛИЧИЕ, я, ср. (высок.). Наличие в ком-чёмн. выдающихся свойств, внушающих преклонение, уважение. В. подвига. В. духа. В. Пушкина.\n• С высоты своего величия (ирон.) с чрезмерной важностью, с пренебрежением к другим.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Величина",
+          "meaning": "Размер, объём или протяжённость; измеряемая характеристика. Переносно — выдающийся человек.",
+          "examples": [
+            "величина предмета",
+            "физическая величина"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "величина",
+              "entryId": "ozhegov-ca8c850a662b",
+              "definitionQuote": "величина ВЕЛИЧИНА, ы, мн. ины, ин, ж.\n1. Размер, объём, протяжённость предмета. Площадь большой величины. Измерить величину чегон.\n2. То, что можно измерить, исчислить. Равные величины.\n3. О человеке, выдающемся в какойн. области деятельности. Этот учёный мировая в.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "То, что вызывает преклонение, — «величие»; измеряемый размер — «величина». Переносные значения проверяйте отдельно.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-1275b04d42",
+      "words": [
+        {
+          "word": "Восполнить",
+          "meaning": "Добавить недостающее, возместить недостаток.",
+          "examples": [
+            "восполнить пробелы",
+            "восполнить недостаток"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "восполнить",
+              "entryId": "ozhegov-c71a3794385a",
+              "definitionQuote": "восполнить ВОСПОЛНИТЬ, ню, нишь; ненный; сов., что (книжн.). Добавить то, чего не хватает, пополнить; возместить. В. пробелы в знаниях.\n| несов. восполнять, яю, яешь.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Дополнить",
+          "meaning": "Сделать более полным, прибавив что-либо; добавить сведения к сказанному.",
+          "examples": [
+            "дополнить рассказ",
+            "дополнить докладчика"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "дополнить",
+              "entryId": "ozhegov-6ee6854daf00",
+              "definitionQuote": "дополнить ДОПОЛНИТЬ, ню, нишь; ненный; сов.\n1. что. Сделать более полным, прибавив к чемун., восполнить недостающее в чёмн. Д. сказанное замечанием.\n2. кого (что). Добавить новые данные, сведения к тому, что сказано другим. Д. докладчика.\n| несов. дополнять, яю, яешь. Д. друг друга (вместе представлять совокупность какихн. черт, свойств).\n| сущ. дополнение, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Заполнить",
+          "meaning": "Занять целиком; вписать нужные сведения в документ.",
+          "examples": [
+            "заполнить зал",
+            "заполнить анкету"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "заполнить",
+              "entryId": "ozhegov-a281303b2107",
+              "definitionQuote": "заполнить ЗАПОЛНИТЬ, ню, нишь; ненный; сов., что.\n1. Наполнить, занять целиком. Зрители заполнили зал. З. время работой. З. выбоину щебнем.\n2. Вписать нужные сведения во чтон. З. анкету.\n| несов. заполнять, яю, яешь.\n| сущ. заполнение, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Наполнить",
+          "meaning": "Сделать полным, насыщенным кем-либо или чем-либо.",
+          "examples": [
+            "наполнить бак водой",
+            "наполнить комнату дымом"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "наполнить",
+              "entryId": "ozhegov-93bea0843e62",
+              "definitionQuote": "наполнить НАПОЛНИТЬ, ню, нишь; ненный; сов., что кем-чем. Сделать полным, занятым, насыщенным кем-чемн. Н. бак водой. Н. комнату дымом. Студенты наполнили аудиторию. Сердце наполнено гневом.\n| несов. наполнять, яю, яешь.\n| сущ. наполнение, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Переполнить",
+          "meaning": "Наполнить сверх меры.",
+          "examples": [
+            "переполнить бак",
+            "переполненный вагон"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "переполнить",
+              "entryId": "ozhegov-e0e052a7b0ef",
+              "definitionQuote": "переполнить ПЕРЕПОЛНИТЬ, ню, нишь; ненный; сов., что. Наполнить сверх меры. П. бак. Переполненный вагон. Сердце переполнено гневом (перен.; высок.).\n| несов. переполнять, яю, яешь.\n| сущ. переполнение, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Пополнить",
+          "meaning": "Увеличить прибавлением нового к уже имеющемуся.",
+          "examples": [
+            "пополнить запасы",
+            "пополнить отряд свежими силами"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "пополнить",
+              "entryId": "ozhegov-625497374f65",
+              "definitionQuote": "пополнить ПОПОЛНИТЬ, ню, нишь; ненный; сов., что чем. Увеличить прибавлением нового к чемун. имеющемуся. П. отряд свежими силами. П. свои знания.\n| несов. пополнять, яю, яешь.\n| сущ. пополнение, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Недостаток восполняют; существующее пополняют новым; содержание дополняют; пространство заполняют или наполняют; сверх меры — переполняют.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-7fbd1fee62",
+      "words": [
+        {
+          "word": "Выгода",
+          "meaning": "Польза, преимущество или прибыль, получаемые от чего-либо.",
+          "examples": [
+            "получить выгоду",
+            "взаимная выгода"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "выгода",
+              "pdfPage": 236,
+              "printedPage": null,
+              "evidenceId": "pdf-242a1739d843b940",
+              "definitionQuote": "1. Прибыль, доход, извлекаемые из чего-л. Материальная выгода. Получить выгоду от продажи имущества.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Выгодность",
+          "meaning": "Свойство того, что приносит выгоду, пользу, прибыль.",
+          "examples": [
+            "выгодность сделки",
+            "выгодность предложения"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "выгодность",
+              "pdfPage": 236,
+              "printedPage": null,
+              "evidenceId": "pdf-235fdf23313fac58",
+              "definitionQuote": "Выгодный характер чего-л. Выгодность дела. Выгодность условий.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Получаемая польза или прибыль — «выгода»; свойство приносить её — «выгодность».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 2,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-5f512a7f9d",
+      "words": [
+        {
+          "word": "Высокий",
+          "meaning": "Большой по высоте или росту; также значительный по уровню, степени, качеству.",
+          "examples": [
+            "высокий человек",
+            "высокие результаты"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "высокий",
+              "pdfPage": 245,
+              "printedPage": null,
+              "evidenceId": "pdf-27160b4ca4076ebb",
+              "definitionQuote": "1. Большой по протяженности снизу вверх, превосходящий обычную, среднюю высоту; находящийся далеко вверху. Высокий дом, забор, столб. Высокий",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Высотный",
+          "meaning": "Связанный с большой высотой; о многоэтажных зданиях, работах или полётах на большой высоте.",
+          "examples": [
+            "высотное здание",
+            "высотные работы"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "высотный",
+              "pdfPage": 246,
+              "printedPage": null,
+              "evidenceId": "pdf-76e71a7f8ef5dbf7",
+              "definitionQuote": "1. Очень высокий, многоэтажный (об архитектурных сооружениях); связанный с такими сооружениями. Высотное здание. Высотные жилые дома. Высотный",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Рост или высота предмета — «высокий»; большая высота как условие работ, полётов либо характеристика многоэтажного здания — «высотный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-5f127648db",
+      "words": [
+        {
+          "word": "Гарантийный",
+          "meaning": "Относящийся к гарантии, содержащий её условия.",
+          "examples": [
+            "гарантийный талон",
+            "гарантийный срок"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гарантийный",
+              "pdfPage": 250,
+              "printedPage": null,
+              "evidenceId": "pdf-30387dfb417188f2",
+              "definitionQuote": "Относящийся к гарантии, связанный с обеспечением гарантии, гарантий. Гарантийные обязательства. Гарантийный договор. Гарантийное письмо.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Гарантированный",
+          "meaning": "Обеспеченный гарантией, обещанный как несомненный.",
+          "examples": [
+            "гарантированный результат",
+            "гарантированная оплата"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гарантированный",
+              "pdfPage": 250,
+              "printedPage": null,
+              "evidenceId": "pdf-aa53f375d04691c5",
+              "definitionQuote": "1. Обеспеченный законом или договором. Гарантированный отпуск. Гарантированная оплата труда.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Отношение к гарантии и её условиям — «гарантийный»; обеспеченность гарантией — «гарантированный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-7b19c31725",
+      "words": [
+        {
+          "word": "Глинистый",
+          "meaning": "Содержащий глину, изобилующий ею.",
+          "examples": [
+            "глинистая почва",
+            "глинистый берег"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "глинистый",
+              "pdfPage": 268,
+              "printedPage": null,
+              "evidenceId": "pdf-0aa6d99480625e47",
+              "definitionQuote": "1. Состоящий из глины, содержащий глину, изобилующий глиной. Глинистое дно пруда. Глинистый обрыв. Глинистые почвы.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Глиняный",
+          "meaning": "Сделанный или состоящий из глины.",
+          "examples": [
+            "глиняная посуда",
+            "глиняный пол"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "глиняный",
+              "pdfPage": 268,
+              "printedPage": null,
+              "evidenceId": "pdf-bb91177c2af38119",
+              "definitionQuote": "Сделанный из глины. Глиняная посуда. Глиняный горшок, кувшин. Глиняные игрушки. Глиняный пол.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Наличие большого количества глины — «глинистый»; материал изготовления или состав из глины — «глиняный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-24d26128a9",
+      "words": [
+        {
+          "word": "Годичный",
+          "meaning": "Продолжающийся год или относящийся к сроку в один год.",
+          "examples": [
+            "годичный курс",
+            "годичное кольцо"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "годичный",
+              "pdfPage": 274,
+              "printedPage": null,
+              "evidenceId": "pdf-1ad7ebba4510d535",
+              "definitionQuote": "1. То же, что годовой (1 зн.). Годичные курсы для поступающих в вуз. Вино годичной выдержки. Годичный план деятельности.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Годовалый",
+          "meaning": "В возрасте одного года.",
+          "examples": [
+            "годовалый ребёнок",
+            "годовалый жеребёнок"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "годовалый",
+              "pdfPage": 275,
+              "printedPage": null,
+              "evidenceId": "pdf-d00854b6dd6101ce",
+              "definitionQuote": "1. Имеющий возраст один год (о человеке, животном). Годовалая дочка. Годовалый младенец. Годовалый щенок.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Годовой",
+          "meaning": "Относящийся к целому году, рассчитанный на год, получаемый за год.",
+          "examples": [
+            "годовой отчёт",
+            "годовой доход"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "годовой",
+              "pdfPage": 275,
+              "printedPage": null,
+              "evidenceId": "pdf-6e264541c5107642",
+              "definitionQuote": "1. Продолжающийся, длящийся в течение года; рассчитанный на год; годичный (1 зн.). Годовой академический отпуск. Годовой план. Годовой абонемент в",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Возраст в один год — «годовалый»; годовая продолжительность — «годичный»; расчёт на год, итог за год — «годовой». «Годичный» и «годовой» в ряде сочетаний сближаются.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-66e147421c",
+      "words": [
+        {
+          "word": "Гордость",
+          "meaning": "Чувство собственного достоинства; удовлетворение чьими-либо достижениями; то, чем гордятся. Может также обозначать чрезмерно высокое мнение о себе.",
+          "examples": [
+            "гордость за страну",
+            "гордость музея"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гордость",
+              "pdfPage": 279,
+              "printedPage": null,
+              "evidenceId": "pdf-33cfc54bda0a4535",
+              "definitionQuote": "1. Чувство собственного достоинства, самоуважения. Гражданская, национальная гордость. Мужская гордость. Не хотел задеть твою гордость.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Гордыня",
+          "meaning": "Чрезмерная гордость, высокомерие, надменность.",
+          "examples": [
+            "непомерная гордыня",
+            "обуздать гордыню"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гордыня",
+              "pdfPage": 280,
+              "printedPage": null,
+              "evidenceId": "pdf-29def7b3e94b11ec",
+              "definitionQuote": "1. Непомерная гордость. Тешить свою гордыню. Гордыня обуяла. 2. В христианстве — первый и главный из семи смертных грехов,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Достижение или человек, которыми гордятся, — «гордость»; надменность — «гордыня». У «гордости» есть и отрицательные оттенки, поэтому учитывайте значение в предложении.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-638070a8fa",
+      "words": [
+        {
+          "word": "Гуманистический",
+          "meaning": "Относящийся к гуманизму, его идеям.",
+          "examples": [
+            "гуманистические идеи",
+            "гуманистическая литература"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гуманистический",
+              "pdfPage": 303,
+              "printedPage": null,
+              "evidenceId": "pdf-79ba95cfa47ff88d",
+              "definitionQuote": "1. Связанный с гуманизмом (1 зн.), основанный на гуманизме. Гуманистическое мировоззрение. Гуманистические принципы, идеи,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Гуманитарный",
+          "meaning": "Относящийся к наукам о человеке и обществе; направленный на помощь людям, защиту их жизни и прав.",
+          "examples": [
+            "гуманитарные науки",
+            "гуманитарная помощь"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гуманитарный",
+              "pdfPage": 304,
+              "printedPage": null,
+              "evidenceId": "pdf-85fe4d6002cd561d",
+              "definitionQuote": "образованность] 1. Связанный с изучением экономической, социальной, духовной жизни",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Гуманный",
+          "meaning": "Человечный, заботящийся о достоинстве и благе человека.",
+          "examples": [
+            "гуманное отношение",
+            "гуманный поступок"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "гуманный",
+              "pdfPage": 304,
+              "printedPage": null,
+              "evidenceId": "pdf-8dad28c3122e1975",
+              "definitionQuote": "человеколюбивый] 1. Проникнутый любовью и уважением к людям, живым существам. Гуманное",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Идеи гуманизма — «гуманистический»; науки о человеке и обществе или помощь людям — «гуманитарный»; человечное отношение — «гуманный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-604852524c",
+      "words": [
+        {
+          "word": "Двоичный",
+          "meaning": "В информатике — связанный с представлением информации с помощью двух символов: 0 и 1.",
+          "examples": [
+            "двоичная система",
+            "двоичный код"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "двоичный",
+              "pdfPage": 310,
+              "printedPage": null,
+              "evidenceId": "pdf-23f15f2bb9f0ea5f",
+              "definitionQuote": "В информатике — связанный с представлением информации с помощью двух символов: 0 и 1. Двоичная система счисления. Двоичный машинный код. Целое",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Двойной",
+          "meaning": "Состоящий из двух частей, происходящий дважды или увеличенный вдвое; имеющий два проявления.",
+          "examples": [
+            "двойная подкладка",
+            "двойное сальто"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "двойной",
+              "pdfPage": 310,
+              "printedPage": null,
+              "evidenceId": "pdf-662c13ebaa35fb28",
+              "definitionQuote": "1. Состоящий из двух однородных или подобных частей, предметов, элементов. Двойной лист. Двойные рамы, стекла. Двойная фамилия. Двойное сальто.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Двойственный",
+          "meaning": "Соединяющий два разных, нередко противоречащих друг другу начала; неоднозначный.",
+          "examples": [
+            "двойственное впечатление",
+            "двойственное положение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "двойственный",
+              "pdfPage": 311,
+              "printedPage": null,
+              "evidenceId": "pdf-72883d5773a96a90",
+              "definitionQuote": "Соединяющий в себе два различных качества, обычно противоречащих друг другу. Двойственное впечатление. Двойственная личность, натура.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Двоякий",
+          "meaning": "Проявляющийся в двух видах, допускающий два понимания.",
+          "examples": [
+            "двоякий смысл",
+            "двоякое толкование"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "двоякий",
+              "pdfPage": 311,
+              "printedPage": null,
+              "evidenceId": "pdf-e98f1b914f11c1ae",
+              "definitionQuote": "Проявляющийся в двух видах, формах, заключающий в себе две стороны, две возможности, обычно весьма различные, разнородные. Двоякий смысл. Двоякое",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Сдвоенный",
+          "meaning": "Сделанный двойным, соединённый попарно. Форма приведена в статье «сдвоить».",
+          "examples": [
+            "сдвоенная нить",
+            "сдвоенные ряды"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "сдвоить",
+              "entryId": "ozhegov-5a5710fb3e4a",
+              "definitionQuote": "сдвоить СДВОИТЬ, ою, оишь; оенный и СДВОИТЬ, ою, оишь; оенный; сов., что.\n1. Сделать чтон. двойным. Сдвоенная нить.\n2. (сдвоить). То же, что ↑ вздвоить. С. ряды.\n| несов. сдваивать, аю, аешь.\n| сущ. сдвоение, я, ср. и сдваивание, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Удвоенный",
+          "meaning": "Увеличенный или усиленный вдвое. Форма приведена в статье «удвоить».",
+          "examples": [
+            "удвоенная оплата",
+            "удвоенные усилия"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "удвоить",
+              "entryId": "ozhegov-ebff02f51b46",
+              "definitionQuote": "удвоить УДВОИТЬ, ою, оишь; оенный; сов., что. Увеличить, усилить вдвое. У. оплату. У. внимание. У. усилия.\n| несов. удваивать, аю, аешь.\n| сущ. удвоение, я, ср.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Представление информации двумя символами, система счисления — «двоичный»; две части или два действия — «двойной»; разные, противоречащие стороны — «двойственный»; два возможных вида или понимания — «двоякий»; соединение попарно — «сдвоенный»; увеличение вдвое — «удвоенный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-df3a2bee14",
+      "words": [
+        {
+          "word": "Деловитый",
+          "meaning": "Толковый и предприимчивый в работе; выражающий занятость делом.",
+          "examples": [
+            "деловитая хозяйка",
+            "деловитый вид"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "деловитый",
+              "pdfPage": 322,
+              "printedPage": null,
+              "evidenceId": "pdf-316e65d535c8e01f",
+              "definitionQuote": "1. Толковый, умелый и предприимчивый в работе, в каком-л. занятии, деле. Деловитый бригадир. Деловитая хозяйка.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Деловой",
+          "meaning": "Связанный с работой, делом или предпринимательством; серьёзный и собранный, соответствующий рабочей обстановке.",
+          "examples": [
+            "деловая встреча",
+            "деловой вид"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "деловой",
+              "pdfPage": 323,
+              "printedPage": null,
+              "evidenceId": "pdf-af38f6b46ed5a1dd",
+              "definitionQuote": "1. Связанный с работой, трудовой деятельностью. Деловой звонок. Деловые бумаги. Сфера деловых интересов. Назначить, отменить деловую встречу.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Дельный",
+          "meaning": "Знающий дело; полезный, толковый, касающийся существа дела.",
+          "examples": [
+            "дельный специалист",
+            "дельный совет"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "дельный",
+              "pdfPage": 323,
+              "printedPage": null,
+              "evidenceId": "pdf-9e15e81bc53440ae",
+              "definitionQuote": "1. Способный к работе, знающий свое дело. Дельный человек. Дельный руководитель. Дельный специалист. Дельный сотрудник.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Деляческий",
+          "meaning": "Связанный с узким практицизмом, при котором упускается общественная сторона дела. В словаре — производное от «делячество».",
+          "examples": [
+            "деляческий подход",
+            "деляческие интересы"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "делячество",
+              "entryId": "ozhegov-a7ebf32bc27f",
+              "definitionQuote": "делячество ДЕЛЯЧЕСТВО, а, ср. Узкий практицизм, при к-ром упускается из виду общественная сторона дела.\n| прил. деляческий, ая, ое.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Умение работать — «деловитый»; рабочая сфера и обстановка — «деловой»; полезность по существу — «дельный»; узкий практицизм — «деляческий».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-09765fba2a",
+      "words": [
+        {
+          "word": "Дипломатический",
+          "meaning": "Относящийся к дипломатии и работе дипломатов; переносно — осторожный, тонко рассчитанный.",
+          "examples": [
+            "дипломатическое ведомство",
+            "дипломатическая миссия"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "дипломатический",
+              "pdfPage": 340,
+              "printedPage": null,
+              "evidenceId": "pdf-4175455284ef8a81",
+              "definitionQuote": "1. Относящийся к дипломатии (деятельности правительства по осуществлению внешней, международной политики государства); связанный с деятельностью",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Дипломатичный",
+          "meaning": "Тактичный, умелый в отношениях с людьми; осторожный и уклончивый.",
+          "examples": [
+            "дипломатичный человек",
+            "дипломатичное поведение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "дипломатичный",
+              "pdfPage": 340,
+              "printedPage": null,
+              "evidenceId": "pdf-e23f20fd6cee77cf",
+              "definitionQuote": "1. Тактичный, умелый в отношениях с другими людьми. Дипломатичный человек. Быть подчеркнуто дипломатичным в своих оценках.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Международная деятельность — «дипломатический»; тактичность человека — «дипломатичный». В значении осторожного, рассчитанного поведения слова могут сближаться.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-11d8391e0a",
+      "words": [
+        {
+          "word": "Длинный",
+          "meaning": "Большой по протяжённости; в разговорной речи — также продолжительный.",
+          "examples": [
+            "длинная дорога",
+            "длинный разговор"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "длинный",
+              "pdfPage": 346,
+              "printedPage": null,
+              "evidenceId": "pdf-6193d6895b304ff1",
+              "definitionQuote": "1. Имеющий большую длину, протяженность; имеющий высокий рост. Длинный коридор. Длинная веревка. Длинное платье. Длинный, нескладный подросток.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Длительный",
+          "meaning": "Продолжающийся долго, занимающий большой промежуток времени.",
+          "examples": [
+            "длительное лечение",
+            "длительное наблюдение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "длительный",
+              "pdfPage": 346,
+              "printedPage": null,
+              "evidenceId": "pdf-10f18e18d4e13ba1",
+              "definitionQuote": "Продолжительный по времени (обычно с оттенком книжности). Длительное отсутствие. Длительное молчание. Длительная переписка. Длительная",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Большая протяжённость — «длинный»; продолжительность в нейтральной речи — «длительный». Разговорное употребление «длинный» о времени словарь также допускает.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-8ac29a863d",
+      "words": [
+        {
+          "word": "Дождевой",
+          "meaning": "Относящийся к дождю, связанный с ним или образовавшийся из дождевой воды.",
+          "examples": [
+            "дождевая капля",
+            "дождевой поток"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "дождевой",
+              "pdfPage": 353,
+              "printedPage": null,
+              "evidenceId": "pdf-31ed69e6f16fc0c8",
+              "definitionQuote": "1. Относящийся к дождю, связанный с ним; характерный для дождя. Дождевые капли. Дождевые лужи. Бочка с дождевой водой. Дождевая свежесть,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Дождливый",
+          "meaning": "Изобилующий дождями, сопровождающийся частыми дождями.",
+          "examples": [
+            "дождливый день",
+            "дождливая осень"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "дождливый",
+              "pdfPage": 354,
+              "printedPage": null,
+              "evidenceId": "pdf-6642f11c369f01a2",
+              "definitionQuote": "Отличающийся дождем, дождями, характеризующийся обилием дождей. Дождливый серый день. Год выдался дождливым. Дождливый сезон.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Связь с самим дождём и его водой — «дождевой»; частые дожди в течение периода — «дождливый».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-f036980822",
+      "words": [
+        {
+          "word": "Жестокий",
+          "meaning": "Безжалостный; также суровый, очень сильный, мучительный.",
+          "examples": [
+            "жестокий человек",
+            "жестокий мороз"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "жестокий",
+              "pdfPage": 385,
+              "printedPage": null,
+              "evidenceId": "pdf-412ca3edc07cb240",
+              "definitionQuote": "1. Способный, склонный к насилию, причинению страдания другим; исполненный насилия. Жестокий диктатор. Жестокий мучитель. Жестокие",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Жёсткий",
+          "meaning": "Твёрдый, негибкий; переносно — строгий, не допускающий отступлений.",
+          "examples": [
+            "жёсткая щётка",
+            "жёсткое требование"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "жёсткий",
+              "pdfPage": 385,
+              "printedPage": null,
+              "evidenceId": "pdf-f643e6c98c8e009c",
+              "definitionQuote": "1. Плохо поддающийся или вообще не поддающийся сжиманию, сминанию, сгибанию и т. п.; сохраняющий форму благодаря таким качествам. Жесткая",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Безжалостность, суровость или мучительность — «жестокий»; негибкость, строгость требования — «жёсткий». Смотрите на смысл сочетания.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-dd9fce3fcc",
+      "words": [
+        {
+          "word": "Жилищный",
+          "meaning": "Относящийся к жилью, его устройству и обеспечению им.",
+          "examples": [
+            "жилищные условия",
+            "жилищное строительство"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "жилищный",
+              "pdfPage": 391,
+              "printedPage": null,
+              "evidenceId": "pdf-7b051e3acb119d77",
+              "definitionQuote": "Относящийся к жилищу (1 зн.); связанный с жилищем, его строительством и содержанием. Жилищный рынок. Жилищное строительство. Жилищная",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Жилой",
+          "meaning": "Предназначенный для проживания или обитаемый.",
+          "examples": [
+            "жилой дом",
+            "жилая комната"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "жилой",
+              "pdfPage": 392,
+              "printedPage": null,
+              "evidenceId": "pdf-c5c4c403adeeb70e",
+              "definitionQuote": "1. Предназначенный для проживания, жительства. Жилой дом. Жилое помещение. Жилые районы города. Порядок движения транспорта в жилой",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Жильё как сфера условий и обеспечения — «жилищный»; помещение для проживания — «жилой».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-bb3daf816a",
+      "words": [
+        {
+          "word": "Зачинатель",
+          "meaning": "Основатель, родоначальник нового дела, направления или движения.",
+          "examples": [
+            "зачинатель движения",
+            "зачинатель жанра"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "зачинатель",
+              "pdfPage": 418,
+              "printedPage": null,
+              "evidenceId": "pdf-7e789aef1af67e60",
+              "definitionQuote": "Высок. Человек, который начинает какое-л. серьезное, значительное дело, основоположник. Зачинатель нового течения в искусстве. Зачинатели",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Зачинщик",
+          "meaning": "Тот, кто начинает нежелательное действие, прежде всего ссору, драку или беспорядки.",
+          "examples": [
+            "зачинщик ссоры",
+            "зачинщик драки"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "зачинщик",
+              "pdfPage": 418,
+              "printedPage": null,
+              "evidenceId": "pdf-f4d98dd110be462c",
+              "definitionQuote": "Разг. Человек, который начинает или подстрекает других начать что-л., обычно неблаговидное. Зачинщик скандала. Главный зачинщик драки. Зачинщики акции",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Основатель нового направления — «зачинатель»; инициатор нежелательного действия — «зачинщик».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-af5698a72a",
+      "words": [
+        {
+          "word": "Зрительный",
+          "meaning": "Относящийся к зрению; предназначенный для смотрения, для зрителей.",
+          "examples": [
+            "зрительный нерв",
+            "зрительный зал"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "зрительный",
+              "pdfPage": 436,
+              "printedPage": null,
+              "evidenceId": "pdf-4c66683318c7a344",
+              "definitionQuote": "1. Связанный со зрением; получаемый, воспринимаемый при помощи зрения. Зрительный анализатор. Зрительные функции. Хорошая зрительная память.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Зрительский",
+          "meaning": "Относящийся к зрителям, принадлежащий им или выражаемый ими.",
+          "examples": [
+            "зрительский интерес",
+            "зрительская конференция"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "зрительский",
+              "pdfPage": 436,
+              "printedPage": null,
+              "evidenceId": "pdf-1f1fc8249727c457",
+              "definitionQuote": "Относящийся к зрителям. Зрительский интерес. Зрительские аплодисменты. Зрительское признание. Приз зрительских симпатий.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Связь со зрением — «зрительный»; принадлежность зрителям — «зрительский». Устойчивое сочетание «зрительный зал» проверяйте как отдельное значение.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-700653bc4a",
+      "words": [
+        {
+          "word": "Изобретательный",
+          "meaning": "Умеющий находить новые способы решения, находчивый.",
+          "examples": [
+            "изобретательный человек",
+            "изобретательный ум"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "изобретательный",
+              "pdfPage": 446,
+              "printedPage": null,
+              "evidenceId": "pdf-396f87425148598d",
+              "definitionQuote": "Находчивый, быстрый на выдумку, способный изобретать что-л. новое (о человеке, людях); свойственный такому человеку, таким людям.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Изобретательский",
+          "meaning": "Относящийся к изобретателям, созданию изобретений.",
+          "examples": [
+            "изобретательская деятельность",
+            "изобретательское бюро"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "изобретательский",
+              "pdfPage": 446,
+              "printedPage": null,
+              "evidenceId": "pdf-afd0e8f766d2ad6b",
+              "definitionQuote": "1. Относящийся к изобретателю, свойственный ему. Изобретательская деятельность. Изобретательские способности. Изобретательская смекалка.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Находчивость — «изобретательный»; создание изобретений как деятельность — «изобретательский».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-655ebf94bc",
+      "words": [
+        {
+          "word": "Информация",
+          "meaning": "Сведения, воспринимаемые человеком или устройством; сообщения о положении дел.",
+          "examples": [
+            "передача информации",
+            "научная информация"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "информация",
+              "entryId": "ozhegov-f1d7eb3317f9",
+              "definitionQuote": "информация ИНФОРМАЦИЯ, и, ж.\n1. Сведения об окружающем мире и протекающих в нём процессах, воспринимаемые человеком или специальным устройством (спец.). Передача информации. Теория информации (раздел кибернетики, изучающий способы измерения и передачи информации).\n2. Сообщения, осведомляющие о положении дел, о состоянии чегон. Научно-техническая и. Газетная и. Средства массовой информации (печать, радио, телевидение, кино).\n• Генетическая информация (спец.) совокупность наследственных признаков, передаваемых от клетки к клетке, от организма к организму.\n| прил. информационный, ая, ое. Информационное бюро. И. бюллетень.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Информированность",
+          "meaning": "Осведомлённость, обладание информацией.",
+          "examples": [
+            "информированность населения",
+            "информированность специалиста"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "информированность",
+              "pdfPage": 480,
+              "printedPage": null,
+              "evidenceId": "pdf-81cf505a2e0bbcba",
+              "definitionQuote": "создавать, формировать] Осведомленность в чем-л.; объем существенной для чего-л. информации,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Сведения — «информация»; обладание сведениями — «информированность».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": [
+        "информационность"
+      ]
+    },
+    {
+      "id": "paronyms-d5b202764f",
+      "words": [
+        {
+          "word": "Искусный",
+          "meaning": "Умелый, обладающий мастерством; также мастерски сделанный.",
+          "examples": [
+            "искусный мастер",
+            "искусная работа"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "vishnyakova-1984-user-copy",
+              "headword": "искусный",
+              "pdfPage": 73,
+              "printedPage": null,
+              "evidenceId": "pdf-e7e15818a02ec160",
+              "definitionQuote": "2. Умело, хорошо выполненный. Синоним: мастерско́й. Искусн|ый: 1) ∼ый мастер, ювелир, пианист, фокусник, фехтовальщик; ∼ые руки; 2) ∼ый чертёж; ∼ая",
+              "verificationMethod": "electronic_pdf_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Искусственный",
+          "meaning": "Созданный человеком, а не природой; также ненатуральный, притворный.",
+          "examples": [
+            "искусственный водоём",
+            "искусственный язык"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "vishnyakova-1984-user-copy",
+              "headword": "искусственный",
+              "pdfPage": 73,
+              "printedPage": null,
+              "evidenceId": "pdf-31d571af407de588",
+              "definitionQuote": "стоящего, природного. Синоним: неестественный. Антоним: естественный. 2. Притворный, неискренний. Синонимы: неестественный, ненастоящий, деланный. Антоним: естественный.",
+              "verificationMethod": "electronic_pdf_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Мастерство человека или работы — «искусный»; созданное человеком в противоположность природному — «искусственный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-8a3ea49ea8",
+      "words": [
+        {
+          "word": "Исполнительный",
+          "meaning": "Старательный и точный в выполнении поручений; также связанный с исполнением решений, управлением.",
+          "examples": [
+            "исполнительный сотрудник",
+            "исполнительная власть"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "исполнительный",
+              "pdfPage": 483,
+              "printedPage": null,
+              "evidenceId": "pdf-8bdf8400763fd6f7",
+              "definitionQuote": "1. Аккуратно, старательно исполняющий поручения, обязанности. Исполнительный служащий. Новый работник очень исполнителен.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Исполнительский",
+          "meaning": "Относящийся к исполнителю и исполнению, в том числе музыкальному или сценическому.",
+          "examples": [
+            "исполнительское мастерство",
+            "исполнительское искусство"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "исполнительский",
+              "pdfPage": 484,
+              "printedPage": null,
+              "evidenceId": "pdf-447ab16ae4e0caba",
+              "definitionQuote": "1. Относящийся к исполнителю художественного произведения (музыкального, литературного, драматического и т. п.); связанный с исполнением такого",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Старательность в поручениях или исполнение решений — «исполнительный»; искусство исполнения — «исполнительский». Для иных контекстов проверяйте полный словарь.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-fc229e1ea6",
+      "words": [
+        {
+          "word": "Исходный",
+          "meaning": "Начальный, отправной; служащий основой для последующего действия.",
+          "examples": [
+            "исходные данные",
+            "исходная позиция"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "исходный",
+              "pdfPage": 489,
+              "printedPage": null,
+              "evidenceId": "pdf-19a0fe9fb556d009",
+              "definitionQuote": "Начальный, отправной. Исходный пункт следования. Исходные данные. Исходные положения теории. Отряд занял исходную позицию.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Исходящий",
+          "meaning": "Идущий откуда-либо; в делопроизводстве — отправляемый из учреждения.",
+          "examples": [
+            "исходящий документ",
+            "исходящий поток"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "исходящий",
+              "pdfPage": 489,
+              "printedPage": null,
+              "evidenceId": "pdf-b1f504bedf7b15db",
+              "definitionQuote": "1. Отправляемый из какого-л. учреждения, передаваемый с какого-л. устройства. Исходящая корреспонденция. Исходящая документация.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Начало, отправная основа — «исходный»; движение откуда-либо, отправка — «исходящий».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-89670a47d6",
+      "words": [
+        {
+          "word": "Каменистый",
+          "meaning": "Изобилующий камнями, покрытый ими.",
+          "examples": [
+            "каменистая почва",
+            "каменистая местность"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "каменистый",
+              "pdfPage": 492,
+              "printedPage": null,
+              "evidenceId": "pdf-fcfbd251226ad696",
+              "definitionQuote": "Содержащий много камней, покрытый, усеянный камнями. Каменистая почва. Каменистый берег. Каменистое дно, русло реки.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Каменный",
+          "meaning": "Состоящий из камня или камней, сделанный из камня; переносно — неподвижный, бесчувственный, холодный.",
+          "examples": [
+            "каменная глыба",
+            "каменное лицо"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "каменный",
+              "pdfPage": 492,
+              "printedPage": null,
+              "evidenceId": "pdf-c29793290645634e",
+              "definitionQuote": "1. Относящийся к камню; состоящий из камня, камней; связанный с камнем, с добычей камня. Каменные месторождения. Каменная глыба. Каменная насыпь.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Обилие камней на поверхности — «каменистый»; материал или состав из камня — «каменный». Значения частично пересекаются; объяснение относится к конкретному контексту.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-afb2a64512",
+      "words": [
+        {
+          "word": "Конный",
+          "meaning": "Связанный с лошадьми, предназначенный для них; действующий с помощью лошадей или состоящий из всадников.",
+          "examples": [
+            "конный спорт",
+            "конная полиция"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "конный",
+              "pdfPage": 533,
+              "printedPage": null,
+              "evidenceId": "pdf-e5fcc028b6d6e014",
+              "definitionQuote": "1. Связанный с конем, конями; предназначенный для коней. Конная ярмарка. Конный спорт. Конный двор. Конная упряжка.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Конский",
+          "meaning": "Относящийся к лошади, принадлежащий ей.",
+          "examples": [
+            "конские копыта",
+            "конская грива"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "конский",
+              "pdfPage": 533,
+              "printedPage": null,
+              "evidenceId": "pdf-9a3aced8a59e281f",
+              "definitionQuote": "Относящийся к коню, принадлежащий, свойственный коню; состоящий из коней. Конская сбруя, упряжь. Конский волос, хвост. Конская грива. Конский",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Верховая езда, всадники, спорт — «конный»; принадлежность лошади — «конский».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-5268153737",
+      "words": [
+        {
+          "word": "Коренастый",
+          "meaning": "Невысокий, крепкий, плотного сложения; о растении — с мощными корнями.",
+          "examples": [
+            "коренастый человек",
+            "коренастое дерево"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "коренастый",
+              "pdfPage": 542,
+              "printedPage": null,
+              "evidenceId": "pdf-76f3e2893327763f",
+              "definitionQuote": "1. Имеющий крепкое телосложение, широкоплечий, но невысокий (о человеке). Коренастый мужчина. Коренастая женщина, девушка.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Коренной",
+          "meaning": "Исконный, основной; также решительный, затрагивающий основы.",
+          "examples": [
+            "коренной житель",
+            "коренной перелом"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "коренной",
+              "pdfPage": 542,
+              "printedPage": null,
+              "evidenceId": "pdf-9a0bfd3205126a40",
+              "definitionQuote": "1. Происходящий из данной местности и долгое время в ней проживающий. Коренное население. Коренные жители. Коренной москвич, петербуржец.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Корневой",
+          "meaning": "Относящийся к корню растения или слова.",
+          "examples": [
+            "корневая система",
+            "корневая морфема"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "корневой",
+              "pdfPage": 542,
+              "printedPage": null,
+              "evidenceId": "pdf-128108a5e7e0493d",
+              "definitionQuote": "Относящийся к корню (подземной части растения). Корневая система. Корневые отростки, побеги, черенки. Корневая болезнь, гниль.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Крепкое, плотное сложение — «коренастый»; исконность или основополагающее значение — «коренной»; отношение к корню — «корневой».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-2605813096",
+      "words": [
+        {
+          "word": "Костный",
+          "meaning": "Относящийся к кости, к костной ткани.",
+          "examples": [
+            "костный мозг",
+            "костная ткань"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "костный",
+              "pdfPage": 551,
+              "printedPage": null,
+              "evidenceId": "pdf-acf6b357a8396b54",
+              "definitionQuote": "1. Относящийся к кости, связанный с ней; состоящий из кости, костей. Костная ткань. Костный нарост. Костный скелет. Костная система.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Костяной",
+          "meaning": "Сделанный из кости.",
+          "examples": [
+            "костяной набалдашник",
+            "костяная палочка"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "костяной",
+              "pdfPage": 552,
+              "printedPage": null,
+              "evidenceId": "pdf-8a8bd88e2be3923b",
+              "definitionQuote": "1. Полученный, добываемый из костей животных; костный (4 зн.). Костяной клей. Костяная мука используется как удобрение.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Связь с костью и костной тканью — «костный»; материал готового изделия — «костяной».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-f24c170ad3",
+      "words": [
+        {
+          "word": "Ледовый",
+          "meaning": "Относящийся ко льду, в том числе покрытый льдом или состоящий изо льда; связанный с действиями во льдах или на льду.",
+          "examples": [
+            "ледовая обстановка",
+            "ледовый поход"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "ледовый",
+              "pdfPage": 580,
+              "printedPage": null,
+              "evidenceId": "pdf-1b3fb41437712653",
+              "definitionQuote": "1. Относящийся ко льду; покрытый льдом; состоящий изо льда; ледяной (1 зн.). Ледовый обвал. Ледовый каток. Ледовые скульптуры.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Ледяной",
+          "meaning": "Состоящий изо льда, покрытый льдом; очень холодный, а переносно — крайне холодный в общении.",
+          "examples": [
+            "ледяная корка",
+            "ледяные пальцы"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "ледяной",
+              "pdfPage": 581,
+              "printedPage": null,
+              "evidenceId": "pdf-fe31649ed63b6169",
+              "definitionQuote": "1. То же, что ледовый (1 зн.). Ледяной обвал. Ледяные глыбы. Ледяная горка. Ледяные скульптуры.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "В этом задании состояние ледового покрова — «ледовая обстановка». «Ледяной» также описывает материал и сильный холод; в значении состава изо льда слова могут сближаться.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-c6d2f08a18",
+      "words": [
+        {
+          "word": "Личностный",
+          "meaning": "Относящийся к личности, её свойствам и развитию.",
+          "examples": [
+            "личностное развитие",
+            "личностные качества"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "личностный",
+              "pdfPage": 593,
+              "printedPage": null,
+              "evidenceId": "pdf-2307d945a2bc02de",
+              "definitionQuote": "Относящийся к личности (2 зн.). Личностные качества, характеристики, черты. Личностное начало. Личностное отношение.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Личный",
+          "meaning": "Принадлежащий отдельному лицу, касающийся его самого; осуществляемый самим человеком.",
+          "examples": [
+            "личное имущество",
+            "личный пример"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "личный",
+              "pdfPage": 593,
+              "printedPage": null,
+              "evidenceId": "pdf-19bdf79c8b2a04cf",
+              "definitionQuote": "1. Принадлежащий какому-л. лицу (2 зн.), предназначенный для него, находящийся в его пользовании, распоряжении. Личный автомобиль. Жилой",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Свойства и развитие личности — «личностный»; принадлежность самому человеку, его собственное действие — «личный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 3,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-1e799dced7",
+      "words": [
+        {
+          "word": "Надеть",
+          "meaning": "Поместить одежду, обувь или приспособление на себя, другого человека либо предмет; также насадить, продевая или прокалывая. Надеть что? на кого? на что?",
+          "examples": [
+            "надеть пальто",
+            "надеть очки"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "надеть",
+              "pdfPage": 651,
+              "printedPage": null,
+              "evidenceId": "pdf-963e366eecf4c3fa",
+              "definitionQuote": "1. что, на кого, на что. Покрыть себя или кого-л. одеждой; натянуть на себя или на кого-, что-л. какую-л. одежду, обувь и т. п. Надеть на себя костюм,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Одеть",
+          "meaning": "Облечь кого-либо в одежду; обеспечить одеждой. Переносно — покрыть поверхность: одеть берега в гранит.",
+          "examples": [
+            "одеть ребёнка",
+            "одеть семью"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "одеть",
+              "pdfPage": 651,
+              "printedPage": null,
+              "evidenceId": "pdf-4fc29f20c6869ce7",
+              "definitionQuote": "1. кого во что. Облечь кого-л. в какую-л. одежду. Одеть ребенка, сына, дочь. Одеть больного во все чистое.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "В прямом значении одежды: одеть кого во что; надеть что на кого или на что. У «одеть» есть и переносное значение покрытия поверхности: одеть берега в гранит.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-7cfb4c0654",
+      "words": [
+        {
+          "word": "Нестерпимый",
+          "meaning": "Настолько сильный, что трудно или невозможно вытерпеть.",
+          "examples": [
+            "нестерпимая боль",
+            "нестерпимая жара"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "нестерпимый",
+              "pdfPage": 683,
+              "printedPage": null,
+              "evidenceId": "pdf-77fe1f635c1b484a",
+              "definitionQuote": "Такой, который трудно, невозможно терпеть, перенести; невыносимый. Нестерпимая жара, жажда, боль. Нестерпимая обида, скука, тоска.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Нетерпимый",
+          "meaning": "Такой, с которым нельзя мириться; также не желающий терпеть чужие взгляды, поступки или недостатки.",
+          "examples": [
+            "нетерпимый к возражениям",
+            "нетерпимое положение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "нетерпимый",
+              "pdfPage": 683,
+              "printedPage": null,
+              "evidenceId": "pdf-01fb27735e9767f1",
+              "definitionQuote": "1. Такой, который нельзя терпеть, с которым нельзя мириться; недопустимый. Нетерпимый поступок. Нетерпимая обстановка. Нетерпимое поведение.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Силу мучительного ощущения описывает «нестерпимый»; нежелание мириться с чем-либо — «нетерпимый к…». У «нетерпимого» есть также значение недопустимости.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": [
+        "нетерпеливый"
+      ]
+    },
+    {
+      "id": "paronyms-fd6bbca4b2",
+      "words": [
+        {
+          "word": "Обрывок",
+          "meaning": "Оторванный или оборванный кусок чего-либо; также неполный, разрозненный фрагмент.",
+          "examples": [
+            "обрывок газеты",
+            "обрывки воспоминаний"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "обрывок",
+              "pdfPage": 696,
+              "printedPage": null,
+              "evidenceId": "pdf-6c8025a25a4868c3",
+              "definitionQuote": "1. Оторванный кусок, часть чего-л. Обрывок веревки. Обрывки газеты. Записать телефон на обрывке бумаги.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Отрывок",
+          "meaning": "Часть произведения или текста, выделенная для чтения, исполнения, цитирования.",
+          "examples": [
+            "отрывок из повести",
+            "отрывок из письма"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "отрывок",
+              "pdfPage": 697,
+              "printedPage": null,
+              "evidenceId": "pdf-9d1549f2e73fda20",
+              "definitionQuote": "1. Небольшая часть какой-л. записи, литературного или музыкального произведения. Отрывок из поэмы. Отрывок стихотворения.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Клочок материала — «обрывок»; часть содержания произведения — «отрывок». В переносных употреблениях значения могут сближаться.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-433cf45208",
+      "words": [
+        {
+          "word": "Обхватить",
+          "meaning": "Обнять, заключить между распростёртыми руками; плотно облегая, окружить собой.",
+          "examples": [
+            "обхватить дерево руками",
+            "обхватить плечи"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "обхватить",
+              "pdfPage": 698,
+              "printedPage": null,
+              "evidenceId": "pdf-561b262bd2dca436",
+              "definitionQuote": "1. кого, что. Обнять, заключить между распростертыми руками; охватить (1 зн.). Обхватить раненого за плечи. Обхватить подушку. Крепко обхватить",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Охватить",
+          "meaning": "Окружить, объять; распространиться на что-либо; воспринять в целом. Значения с «обхватить» частично пересекаются.",
+          "examples": [
+            "охватить взглядом",
+            "охватить все вопросы"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "охватить",
+              "pdfPage": 698,
+              "printedPage": null,
+              "evidenceId": "pdf-6810074158af7bc5",
+              "definitionQuote": "1. кого, что. То же, что обхватить (1 зн.). Сесть нога на ногу и охватить колено. Охватить ствол дерева руками.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Физически окружить, например руками, — «обхватить»; воспринять целиком взглядом или мыслью — «охватить». У слов есть и общие значения.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-154bb885eb",
+      "words": [
+        {
+          "word": "Опасливый",
+          "meaning": "Действующий с опаской, боязливый, осторожный; выражающий опасение.",
+          "examples": [
+            "опасливый человек",
+            "опасливый взгляд"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "опасливый",
+              "pdfPage": 715,
+              "printedPage": null,
+              "evidenceId": "pdf-fb016b00b771105e",
+              "definitionQuote": "Разг. Действующий с опаской, настороженный, недоверчивый; выражающий боязливость. Опасливый человек, пешеход. Опасливые родители. Опасливый",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Опасный",
+          "meaning": "Угрожающий вредом, несчастьем, создающий опасность.",
+          "examples": [
+            "опасный момент",
+            "опасная ситуация"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "опасный",
+              "pdfPage": 715,
+              "printedPage": null,
+              "evidenceId": "pdf-f551b3e594f8e66b",
+              "definitionQuote": "1. Грозящий какой-л. бедой, катастрофой; сопряженный с опасностью, с риском. Опасная ситуация, конфронтация. Совершить опасное путешествие.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Кто-то испытывает опасение — «опасливый»; что-то создаёт угрозу — «опасный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-7efc53720c",
+      "words": [
+        {
+          "word": "Органический",
+          "meaning": "Относящийся к живым организмам, органам или органическим веществам; также неразрывно связанный с чем-либо.",
+          "examples": [
+            "органическое вещество",
+            "органическое единство"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "органический",
+              "pdfPage": 720,
+              "printedPage": null,
+              "evidenceId": "pdf-03408e4365108582",
+              "definitionQuote": "функционированию] 1. Относящийся к миру живых организмов. Органическая природа.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Органичный",
+          "meaning": "Естественный, внутренне цельный и согласованный; в актёрской игре — непосредственный, непринуждённый.",
+          "examples": [
+            "органичный актёр",
+            "органичная связь"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "органичный",
+              "pdfPage": 721,
+              "printedPage": null,
+              "evidenceId": "pdf-b58febe417f0e529",
+              "definitionQuote": "служащий орудием] 1. Закономерно вытекающий из самой сути чего-л., внутренне присущий кому-,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Организмы, вещества, неразрывная связь — «органический»; естественность и внутренняя цельность — «органичный». Различайте реализованное значение.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-134f25f086",
+      "words": [
+        {
+          "word": "Отборный",
+          "meaning": "Отобранный как лучший, высокого качества.",
+          "examples": [
+            "отборное зерно",
+            "отборные плоды"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "отборный",
+              "pdfPage": 734,
+              "printedPage": null,
+              "evidenceId": "pdf-7471d6a4bd8281c3",
+              "definitionQuote": "1. Выделенный, взятый из числа других как лучший по качеству. Отборные ягоды. Отборные яблоки. Отборное зерно.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Отборочный",
+          "meaning": "Служащий для отбора, предназначенный для него.",
+          "examples": [
+            "отборочный тур",
+            "отборочные соревнования"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "отборочный",
+              "pdfPage": 734,
+              "printedPage": null,
+              "evidenceId": "pdf-8757dfb352e3d6ba",
+              "definitionQuote": "Созданный, служащий для выделения из общего числа лучшего, лучших. Отборочная комиссия. Отборочные соревнования. Отборочный турнир, матч.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Лучшее после отбора — «отборный»; предназначенное для процедуры отбора — «отборочный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-4f5818a189",
+      "words": [
+        {
+          "word": "Памятливый",
+          "meaning": "Хорошо запоминающий, обладающий хорошей памятью.",
+          "examples": [
+            "памятливый человек",
+            "памятливый ученик"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "памятливый",
+              "pdfPage": 748,
+              "printedPage": null,
+              "evidenceId": "pdf-1cd5e6ea9e43e714",
+              "definitionQuote": "Разг. Обладающий хорошей памятью, хорошо помнящий то, что нужно, важно и т. п. Памятливый человек. Памятлив на лица, на даты, на стихи.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Памятный",
+          "meaning": "Сохранившийся в памяти; связанный с воспоминанием или служащий для увековечения памяти.",
+          "examples": [
+            "памятное место",
+            "памятная дата"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "памятный",
+              "pdfPage": 748,
+              "printedPage": null,
+              "evidenceId": "pdf-bdf5e8deb83c02c9",
+              "definitionQuote": "1. Хорошо сохранившийся в памяти, незабываемый. Памятная дата, встреча, поездка, прогулка. Памятный день, случай, разговор. Памятное событие,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Кто-то хорошо помнит — «памятливый»; что-то помнится или напоминает — «памятный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-af06edacd1",
+      "words": [
+        {
+          "word": "Почтенный",
+          "meaning": "Вызывающий уважение; также значительный по возрасту, размеру или объёму.",
+          "examples": [
+            "почтенный возраст",
+            "почтенный объём"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "почтенный",
+              "pdfPage": 812,
+              "printedPage": null,
+              "evidenceId": "pdf-18547f3022c35e2d",
+              "definitionQuote": "1. Достойный уважения, заслуживающий почтения. Почтенный профессор. Почтенная замужняя дама. Почтенный отец семейства. Благотворительная",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Почтительный",
+          "meaning": "Выражающий почтение, уважение.",
+          "examples": [
+            "почтительный поклон",
+            "почтительное обращение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "почтительный",
+              "pdfPage": 812,
+              "printedPage": null,
+              "evidenceId": "pdf-478adc9405d7a7ab",
+              "definitionQuote": "1. Относящийся к кому-л. с почтением, вежливый в обращении с кем-л. Почтительный сын. Он всегда почтителен со старшими.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Почётный",
+          "meaning": "Пользующийся особым почётом, заслуживающий его; присваиваемый как знак признания заслуг.",
+          "examples": [
+            "почётный гость",
+            "почётное звание"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "почётный",
+              "pdfPage": 811,
+              "printedPage": null,
+              "evidenceId": "pdf-8b6287da5256cf93",
+              "definitionQuote": "1. Пользующийся почетом, заслуживающий его. Прием в честь почетных гостей. Почетный гражданин (житель города, области РФ, внесший",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Заслуживает уважения или значителен — «почтенный»; выражает уважение — «почтительный»; удостоен особого почёта — «почётный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-cfef118ff8",
+      "words": [
+        {
+          "word": "Предоставить",
+          "meaning": "Дать в пользование или распоряжение; дать возможность или право что-либо сделать.",
+          "examples": [
+            "предоставить убежище",
+            "предоставить слово"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "предоставить",
+              "pdfPage": 820,
+              "printedPage": null,
+              "evidenceId": "pdf-ede52c302455ac06",
+              "definitionQuote": "1. Отдать кого-, что-л. в распоряжение, пользование кому-, чему-л. Предоставить кредит, заем, концессию, помощь, место, участок, помещение,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Представить",
+          "meaning": "Предъявить, показать, познакомить; выдвинуть для награждения. У «представлять» есть также значение «являться, быть».",
+          "examples": [
+            "представить к награде",
+            "представлять научный интерес"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "представить",
+              "pdfPage": 820,
+              "printedPage": null,
+              "evidenceId": "pdf-e075bc72d4dc8452",
+              "definitionQuote": "1. Предъявить, сообщить что-л. кому-л. Представить документы, отчет, заключение, факты, доказательства, список, справку, рукопись.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "представлять",
+              "entryId": "ozhegov-5d9dd3f5c534",
+              "definitionQuote": "представлять ПРЕДСТАВЛЯТЬ, яю, яешь; несов., кого-что.\n1. см. ↑ представить.\n2. Являться, быть. Книга представляет значительное явление.\n3. Действовать по чьемун. поручению, быть чьимн. представителем. П. учреждение.\n• Представлять собой (собою) то же, что представлять (во 2 знач.). Монография представляет собой глубокое исследование. Юноша представляет собой человека новой формации.\nНичего собой не представляет кто-что о ком-чёмн. неинтересном, малозначительном. Как специалист этот человек ничего собой не представляет.\n| сов. представить, влю, вишь; вленный (к 3 знач.). На конгрессе представлены многие страны.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Дать возможность или в пользование — «предоставить»; показать, предъявить — «представить». «Представлять» может также означать «являться, быть».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-92763dab3a",
+      "words": [
+        {
+          "word": "Публицистический",
+          "meaning": "Относящийся к публицистике, её жанрам и произведениям.",
+          "examples": [
+            "публицистическая статья",
+            "публицистический жанр"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "публицистический",
+              "pdfPage": 849,
+              "printedPage": null,
+              "evidenceId": "pdf-473ffb84b66d6673",
+              "definitionQuote": "Относящийся к публицистике (литературному жанру, посвященному рассмотрению актуальных проблем общественно-политической жизни).",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Публицистичный",
+          "meaning": "Проникнутый чертами, насыщенный элементами публицистики.",
+          "examples": [
+            "публицистичный спектакль",
+            "публицистичное выступление"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "публицистичный",
+              "pdfPage": 849,
+              "printedPage": null,
+              "evidenceId": "pdf-12a6f7b702e79b57",
+              "definitionQuote": "общественный] Проникнутый чертами, насыщенный элементами публицистики.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Принадлежность к публицистике — «публицистический»; её характерные черты в способе выражения — «публицистичный». В отдельных контекстах значения сближаются.",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-50f8cba8ab",
+      "words": [
+        {
+          "word": "Скрытный",
+          "meaning": "Не склонный к откровенности, не раскрывающий своих мыслей, чувств, намерений.",
+          "examples": [
+            "скрытный человек",
+            "скрытный характер"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "скрытный",
+              "pdfPage": 926,
+              "printedPage": null,
+              "evidenceId": "pdf-652f5d808ad4ff3c",
+              "definitionQuote": "Скрывающий свои мысли, чувства, намерения; избегающий откровенности. Скрытный человек, мужчина, ребенок. Скрытная девочка. Скрытная натура.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Скрытый",
+          "meaning": "Спрятанный, не обнаруживающийся явно, незаметный.",
+          "examples": [
+            "скрытый механизм",
+            "скрытая угроза"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "скрытый",
+              "pdfPage": 926,
+              "printedPage": null,
+              "evidenceId": "pdf-46846b6ed417ff3a",
+              "definitionQuote": "1. Не обнаруживаемый явно, скрываемый, тайный. Скрытая угроза. Осуществить скрытую съемку. Искать в сказанном скрытый смысл.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Не раскрывает мысли и чувства — «скрытный»; спрятан или не проявлен — «скрытый».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-f12a8d9fdb",
+      "words": [
+        {
+          "word": "Словарный",
+          "meaning": "Относящийся к словарю или лексике языка.",
+          "examples": [
+            "словарный состав",
+            "словарный запас"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "словарный",
+              "pdfPage": 929,
+              "printedPage": null,
+              "evidenceId": "pdf-ae69f75fefc5a9c5",
+              "definitionQuote": "1. Относящийся к словарю (1 зн.). Словарная статья. Словарные определения. 2. Связанный с составлением и изданием словарей (1 зн.). Словарный кабинет.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Словесный",
+          "meaning": "Выраженный словами, устный; относящийся к слову как средству выражения.",
+          "examples": [
+            "словесный портрет",
+            "словесная перепалка"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "словесный",
+              "pdfPage": 929,
+              "printedPage": null,
+              "evidenceId": "pdf-92b87ca8e409143c",
+              "definitionQuote": "1. Относящийся к словам; состоящий из слов; являющийся словом. Словесный ряд. Словесные конструкции. Словесное сочетание. Словесная форма.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Словарь и лексика языка — «словарный»; выражение словами — «словесный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-89af49a5bf",
+      "words": [
+        {
+          "word": "Сравнимый",
+          "meaning": "Такой, который можно сравнивать, сопоставлять с другим, приравнивать по определённому признаку.",
+          "examples": [
+            "сравнимые величины",
+            "сравнимые показатели"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "сравнимый",
+              "entryId": "ozhegov-4f9a3079ad76",
+              "definitionQuote": "сравнимый СРАВНИМЫЙ, ая, ое; им. Такой, к-рый можно ↑ сравнивать2. Сравнимые величины.\n| сущ. сравнимость, и, ж. С. показателей.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "сравнить",
+              "entryId": "ozhegov-a3586720ac19",
+              "definitionQuote": "сравнить СРАВНИТЬ, ню, нишь; нённый (ён, ена); сов., кого-что с кем-чем.\n1. Установить черты сходства или различия, сопоставить. С. две величины. Не с. кого-чтон. с кем-чемн. (не идёт ни в какое сравнение; разг.).\n2. Образно уподобить, приравнять. С. молодость с весной.\n| несов. сравнивать, аю, аешь.\n| сущ. сравнение, я, ср. и сравнивание, я, ср. Не идёт в сравнение (ни в какое сравнение) с кем-чемн. (нельзя сравнивать, равнять, несравнимо лучше).\n| прил. сравнительный, ая, ое (к 1 знач.). Сравнительные данные.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Сравнительный",
+          "meaning": "Основанный на сравнении, сопоставлении; в другом значении — относительный.",
+          "examples": [
+            "сравнительный анализ",
+            "сравнительный метод"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "сравнительный",
+              "entryId": "ozhegov-fa6134180e3d",
+              "definitionQuote": "сравнительный СРАВНИТЕЛЬНЫЙ, ая, ое; лен, льна.\n1. см. ↑ сравнить.\n2. полн. ф. Осуществляемый на основе сравнения, сопоставления. С. метод. Сравнительная грамматика (исследование общих черт грамматического, а также звукового или словообразовательного строя родственных языков). Сравнительное славяноведение.\n3. То же, что ↑ относительный (в 1 знач.). Наступило сравнительное спокойствие.\n4. сравнительно, нареч. Более или менее, в достаточной мере. Сравнительно небольшой срок. Сравнительно недорого.\n• Сравнительная степень в грамматике: то же, что степень сравнения (см. ↑ степень).\nСравнительно с кем-чем, предлог с тв. п. по сравнению, в сравнении с кем-чемн. Нынче теплее сравнительно с прошлым годом.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Можно сопоставить с другим — «сравнимый с…»; исследуется путём сравнения — «сравнительный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 4,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-d1d44af735",
+      "words": [
+        {
+          "word": "Технический",
+          "meaning": "Относящийся к технике, оборудованию, технологическим процессам; также вспомогательный, исполнительский.",
+          "examples": [
+            "технический прогресс",
+            "техническое переоснащение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "технический",
+              "pdfPage": 987,
+              "printedPage": null,
+              "evidenceId": "pdf-2697b38755034e01",
+              "definitionQuote": "мастерство] 1. Относящийся к технике; связанный с использованием техники. Технический",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Техничный",
+          "meaning": "Обладающий высоким мастерством, хорошей техникой исполнения.",
+          "examples": [
+            "техничный боксёр",
+            "техничный игрок"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "техничный",
+              "pdfPage": 987,
+              "printedPage": null,
+              "evidenceId": "pdf-aaa8d83d46bd9299",
+              "definitionQuote": "искусство, мастерство] Обладающий высокой техникой, высоким мастерством (в спорте, искусстве);",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Техника и оборудование — «технический»; высокое мастерство владения приёмами — «техничный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 5,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-3e121e4ded",
+      "words": [
+        {
+          "word": "Удачливый",
+          "meaning": "Тот, кому часто сопутствует удача.",
+          "examples": [
+            "удачливый охотник",
+            "удачливый предприниматель"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "удачливый",
+              "pdfPage": 1012,
+              "printedPage": null,
+              "evidenceId": "pdf-d7a675e66d506e46",
+              "definitionQuote": "Такой, которому во всем сопутствует удача. Удачливый охотник, рыболов, игрок. Удачливый предприниматель, бизнесмен.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Удачный",
+          "meaning": "Успешный, хорошо получившийся, соответствующий цели.",
+          "examples": [
+            "удачный проект",
+            "удачное произведение"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "удачный",
+              "pdfPage": 1012,
+              "printedPage": null,
+              "evidenceId": "pdf-5489d2636b072bec",
+              "definitionQuote": "1. Завершившийся удачей, успехом; удавшийся, успешный. Удачная охота, рыбалка. Удачная поездка, экскурсия. Удачный день, год. Удачный прыжок,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Кому везёт — «удачливый»; что хорошо получилось — «удачный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 5,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-068ed3ceed",
+      "words": [
+        {
+          "word": "Царский",
+          "meaning": "Относящийся к царю, принадлежащий ему; переносно — роскошный, щедрый.",
+          "examples": [
+            "царский двор",
+            "царский подарок"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "царский",
+              "pdfPage": 1045,
+              "printedPage": null,
+              "evidenceId": "pdf-ee8b8e0221a4de4d",
+              "definitionQuote": "1. Относящийся к царю, монарху; принадлежащий ему. Царский титул, венец. Царская семья, фамилия. Царский двор. Царский дворец.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Царственный",
+          "meaning": "Величественный, исполненный достоинства, напоминающий царя своим обликом или поведением.",
+          "examples": [
+            "царственная осанка",
+            "царственный вид"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "царственный",
+              "pdfPage": 1045,
+              "printedPage": null,
+              "evidenceId": "pdf-97c285ce9e2ef4e6",
+              "definitionQuote": "Высок Величественный, величавый, горделивый. Царственная осанка, походка, поступь. Царственный взгляд, взор, вид, жест.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Царствующий",
+          "meaning": "Правящий, находящийся на престоле; также господствующий.",
+          "examples": [
+            "царствующий император",
+            "царствующая династия"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "царствующий",
+              "pdfPage": 1046,
+              "printedPage": null,
+              "evidenceId": "pdf-7d3c9a946c01cde5",
+              "definitionQuote": "Такой, который царствует. Царствующая фамилия, династия. Царствующий род.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Принадлежность царю — «царский»; величие и достоинство облика — «царственный»; правление на престоле — «царствующий».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 5,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-f87c64ead3",
+      "words": [
+        {
+          "word": "Экономический",
+          "meaning": "Относящийся к экономике, хозяйственной жизни.",
+          "examples": [
+            "экономические связи",
+            "экономический кризис"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "экономический",
+              "pdfPage": 1086,
+              "printedPage": null,
+              "evidenceId": "pdf-438e45b143461543",
+              "definitionQuote": "1. Относящийся к экономике как совокупности производственных отношений данного общественного строя, свойственный ей. Экономический базис,",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Экономичный",
+          "meaning": "Позволяющий экономить средства, материалы, время.",
+          "examples": [
+            "экономичный способ",
+            "экономичный двигатель"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "экономичный",
+              "pdfPage": 1086,
+              "printedPage": null,
+              "evidenceId": "pdf-8e16b43e48bd5b6a",
+              "definitionQuote": "Дающий возможность что-л. сэкономить, сберечь; выгодный в хозяйственном отношении, в эксплуатации. Экономичная технология. Экономичный проект",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Экономный",
+          "meaning": "Бережливый, расчётливо расходующий ресурсы; связанный с такой бережливостью.",
+          "examples": [
+            "экономный человек",
+            "экономное расходование"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "экономный",
+              "pdfPage": 1087,
+              "printedPage": null,
+              "evidenceId": "pdf-223733a8758f30b3",
+              "definitionQuote": "1. Бережно расходующий, использующий что-л., соблюдающий экономию. Экономный человек, хозяин. Экономная женщина, хозяйка. Экономный",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Экономика — «экономический»; экономия ресурсов благодаря устройству или способу — «экономичный»; бережливость человека и расходования — «экономный».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 5,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-981d2a2f30",
+      "words": [
+        {
+          "word": "Эффективность",
+          "meaning": "Действенность, способность давать нужный результат. Производное от «эффективный».",
+          "examples": [
+            "эффективность производства",
+            "эффективность метода"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "эффективный",
+              "entryId": "ozhegov-6b417cdf7de6",
+              "definitionQuote": "эффективный ЭФФЕКТИВНЫЙ, ая, ое; вен, вна. Дающий ↑ эффект (во 2 знач.), действенный. Э. способ.\n| сущ. эффективность, и, ж.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "эффект",
+              "entryId": "ozhegov-84733f489761",
+              "definitionQuote": "эффект ЭФФЕКТ, а, м.\n1. Впечатление, производимое кем-чемн. на когон. Произвести э.\n2. Действие как результат чегон., следствие чегон. Лекарство не дало желаемого эффекта. Экономический э.\n3. Средство, с помощью к-рого создается какоен. впечатление. Шумовые, световые эффекты в театре.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Эффектность",
+          "meaning": "Способность производить сильное впечатление, внешняя выразительность. Производное от «эффектный».",
+          "examples": [
+            "эффектность зрелища",
+            "эффектность костюма"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "эффектный",
+              "entryId": "ozhegov-5561317cc7ce",
+              "definitionQuote": "эффектный ЭФФЕКТНЫЙ, ая, ое; тен, тна. Производящий ↑ эффект (в 1 знач.), впечатляющий. Э. костюм. Эффектное зрелище.\n| сущ. эффектность, и, ж.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            },
+            {
+              "dictionaryId": "ozhegov-shvedova-user-copy",
+              "headword": "эффект",
+              "entryId": "ozhegov-84733f489761",
+              "definitionQuote": "эффект ЭФФЕКТ, а, м.\n1. Впечатление, производимое кем-чемн. на когон. Произвести э.\n2. Действие как результат чегон., следствие чегон. Лекарство не дало желаемого эффекта. Экономический э.\n3. Средство, с помощью к-рого создается какоен. впечатление. Шумовые, световые эффекты в театре.",
+              "verificationMethod": "electronic_article_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Полезный результат — «эффективность»; сильное внешнее впечатление — «эффектность».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 5,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    },
+    {
+      "id": "paronyms-1ef398248b",
+      "words": [
+        {
+          "word": "Яблочный",
+          "meaning": "Относящийся к яблоку; приготовленный из яблок.",
+          "examples": [
+            "яблочный джем",
+            "яблочный сок"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "яблочный",
+              "pdfPage": 1105,
+              "printedPage": null,
+              "evidenceId": "pdf-a0ce44109286add4",
+              "definitionQuote": "1. Относящийся к яблоку. Яблочная кожура, мякоть. Яблочный запах. 2. Приготовленный из яблок, с яблоками. Яблочное варенье, повидло. Яблочный",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "word": "Яблоневый",
+          "meaning": "Относящийся к яблоне, состоящий из яблонь.",
+          "examples": [
+            "яблоневый сад",
+            "яблоневый цвет"
+          ],
+          "dictionaryRefs": [
+            {
+              "dictionaryId": "ruslang-paronyms-user-copy",
+              "headword": "яблоневый",
+              "pdfPage": 1105,
+              "printedPage": null,
+              "evidenceId": "pdf-fb541bed87eecfdb",
+              "definitionQuote": "Относящийся к яблоне, яблоням. Яблоневый сад. Яблоневая ветка. Яблоневое цветение.",
+              "verificationMethod": "embedded_font_text_read",
+              "reviewDate": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "distinction": "Плоды и продукты из них — «яблочный»; дерево и насаждения — «яблоневый».",
+      "curriculumRef": {
+        "file": "data/sources/fipi-lexicon-2025.pdf",
+        "page": 5,
+        "listYear": 2025,
+        "role": "paronym_list_membership_only"
+      },
+      "reviewStatus": "verified",
+      "omittedMembersWithoutDictionaryArticle": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "ruslang-paronyms-user-copy",
+      "title": "Словарь паронимов русского языка",
+      "sourceFile": "data/sources/ruslang-paronyms.pdf",
+      "sha256": "0f3a65e690673a97406f5938912dc735eaf88a24260c48d38bda26f8c3eb917d",
+      "pdfPages": 1174,
+      "sourceUrl": "https://ruslang.ru/sites/default/files/doc/normativnyje_slovari/Slovar_paronimov.pdf",
+      "provenance": "user_upload_and_user_supplied_official_url",
+      "receivedAt": "2026-10-29",
+      "authors": null,
+      "publisher": null,
+      "publicationYear": null,
+      "fileCreationDate": "2026-04-15",
+      "remoteBytesVerified": false,
+      "notes": [
+        "Файл начинается предисловием, титульный лист с авторами/выходными данными не обнаружен. Дата файла не является подтверждённым годом издания.",
+        "Предисловие на с. 1 и 5 описывает нормативный характер словаря. Полное совпадение с текущим файлом сайта через сеть не проверено: прокси CONNECT 403.",
+        "Извлечение текста теряет некоторые буквы и ударения. Выбранные статьи проверены по изображению страницы.",
+        "Указатель даёт, например, 239 вместо фактической с. 224 и 612 вместо 573; ссылки формируются по проверенным PDF-страницам."
+      ],
+      "citationLabel": "Нормативный словарь",
+      "articlesFile": "dev/docs/references/ruslang-paronyms/read-articles.json",
+      "articlesSha256": "41c64141a2da5fae7a13f3291f94f55b5d6a36413549da29b219190978f52cf7"
+    },
+    {
+      "id": "vishnyakova-1984-user-copy",
+      "title": "О. В. Вишнякова. Словарь паронимов русского языка",
+      "sourceFile": "data/sources/vishnyakova-1984.pdf",
+      "sha256": "4ae4fa9d345bbd090b21688e161ebd52a0a025ba2698772b4cca2b4b65a43b01",
+      "pdfPages": 191,
+      "declaredBookPages": 352,
+      "author": "О. В. Вишнякова",
+      "publisher": "Русский язык",
+      "publicationYear": 1984,
+      "provenance": "user_upload",
+      "receivedAt": "2026-10-29",
+      "sourceUrl": null,
+      "matchesFipiBibliographicRecord": true,
+      "fipiReference": {
+        "section": "Другие источники",
+        "number": 7,
+        "printedPage": 18
+      },
+      "fileCreationDate": "2003-09-23",
+      "notes": [
+        "Издательские данные прочитаны на PDF-страницах 1–2. Это электронная перевёрстка на 191 страницу; 352 страницы относятся к выходным данным печатной книги.",
+        "Ссылка на скачивание не передавалась. PDF-страница 83 содержит нужную пару и отмечена номером 83 в электронной копии; это не подтверждённая страница печатного оригинала."
+      ],
+      "citationLabel": "Вишнякова, 1984",
+      "articlesFile": "dev/docs/references/vishnyakova-1984/read-articles.json",
+      "articlesSha256": "3f06e812b99aa53535453dc59a301bef6ee50da135833111d2f17be95084f0d1"
+    },
+    {
+      "id": "ozhegov-shvedova-user-copy",
+      "title": "С. И. Ожегов, Н. Ю. Шведова. Толковый словарь русского языка",
+      "citationLabel": "Ожегов—Шведова",
+      "format": "mobi",
+      "sourceFile": "dev/docs/references/ozhegov-shvedova-user-mobi/source.mobi",
+      "sha256": "131ca80aa66fc36c4bf67b53ee3bcedb8a4a79540d2af0d9cb5b1e185420b147",
+      "articlesFile": "data/sources/ozhegov-shvedova.json",
+      "articlesSha256": "202f570cd2dd94f5de9ee51c285daef2b4ad66ee6e507b0edd603c469c3884f2",
+      "provenance": "user_upload",
+      "receivedAt": "2026-10-29",
+      "publicationYear": null,
+      "publisher": null,
+      "edition": null,
+      "sourceUrl": null,
+      "matchesFipiBibliographicRecord": false,
+      "notes": [
+        "Имена авторов подтверждены метаданными; номер издания, издатель, год и ISBN не установлены. Дата генерации электронного файла не является годом издания.",
+        "Не утверждается тождество конкретному изданию, указанному ФИПИ.",
+        "Морфологические формы некоторых производных приведены в статьях производящих слов. Страницы для MOBI не выдумываются: ссылки ведут на локальные статьи."
+      ]
+    },
+    {
+      "id": "fipi-lexicon-2025",
+      "title": "ФИПИ. Навигатор самостоятельной подготовки к ЕГЭ-2025. Лексика и фразеология",
+      "citationLabel": "ФИПИ · фразеологизмы, 2025",
+      "category": "fipi_navigator",
+      "sourceFile": "data/sources/fipi-lexicon-2025.pdf",
+      "sha256": "0c86848e7cef51b461ce895a5b055dc309c3696ff7cccc63e37785851e0d83c9",
+      "pdfPages": 13,
+      "publicationYear": 2025,
+      "provenance": "user_upload",
+      "sourceUrl": null,
+      "articlesFile": "dev/docs/references/fipi-navigator-lexicon-orthoepy/phrase-entries.json",
+      "articlesSha256": "b3b571b70503b7e89e57f8bf014fb15a2b050e5752c9b0b1cba4796766223570",
+      "notes": [
+        "Список подтверждает наличие и форму оборота «с чистого листа» на с. 11, не является его толковым словарём.",
+        "Версия навигатора — 2025; актуальность перечня для 2027 отдельно не подтверждена."
+      ]
+    }
+  ]
+}

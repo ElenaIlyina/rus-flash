@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")/.."
-# Current hash-based UI reads only catalog.json and individual card JSON files.
+# Generate the static site data from published production inputs.
 python3 scripts/build_app_data.py

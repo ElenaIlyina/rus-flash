@@ -10,3 +10,10 @@ AGENTS.md
 # Runtime data for the redesigned UI (python3 scripts/build_app_data.py)
 html/assets/data/
 .venv/
+
+# Local development preview and caches
+dev/review/review-data.json
+_site/
+dist/
+dev/generated/
+/slovo-za-slovo-production.zip
