@@ -1,6 +1,3 @@
 # Preserve reference PDFs byte-for-byte and avoid treating their streams as code.
 *.pdf binary
 *.mobi binary
-
-# GitHub source archives and git archive contain the production project only.
-/dev export-ignore
