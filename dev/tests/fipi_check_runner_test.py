@@ -117,6 +117,18 @@ class FipiCheckRunnerTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'хешу'):
             checker.validate_plan(plan)
 
+    def test_raw_essay_is_skipped_without_hypothesis_requests(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'card_ABCDEF.json'
+            path.write_text(json.dumps({
+                'number':'ABCDEF', 'guid':'00000000000000000000000000000000',
+                'html':'<p>Напишите <b>сочинение</b> по прочитанному тексту.</p>',
+            }, ensure_ascii=False), encoding='utf-8')
+            plan = checker.plan_from_cards(path, {'project':checker.PROJECT,'checks':[]})
+            checker.validate_plan(plan)
+            self.assertEqual(plan['checks'][0]['candidates'], [])
+            self.assertEqual(plan['checks'][0]['skipReason'], 'essay_not_automatically_graded')
+
 
 if __name__ == '__main__':
     unittest.main()

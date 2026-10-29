@@ -1013,6 +1013,7 @@ class AnswerInputs(HTMLParser):
         super().__init__()
         self.checkboxes = 0
         self.textareas = 0
+        self.text = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -1020,6 +1021,9 @@ class AnswerInputs(HTMLParser):
             self.checkboxes += 1
         if tag == 'textarea':
             self.textareas += 1
+
+    def handle_data(self, data):
+        self.text.append(data)
 
 
 def options_count(card):
@@ -1091,9 +1095,9 @@ def plan_from_cards(directory, seed_plan):
                 if candidate['wireAnswer'] not in {a['wireAnswer'] for a in check['candidates']}:
                     check['candidates'].append(candidate)
         if not check['candidates']:
-            question = card.get('question', '').lower()
             inputs = AnswerInputs()
             inputs.feed(card.get('html', ''))
+            question = (card.get('question') or ' '.join(inputs.text)).lower()
             essay = inputs.textareas or re.search(r'напишите\s+сочинение|сочинение-рассуждение', question)
             check['skipReason'] = ('essay_not_automatically_graded' if essay
                                    else 'hypotheses_not_prepared_yet')

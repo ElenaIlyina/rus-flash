@@ -1,0 +1,20 @@
+{
+  "id": "fipi-bank-user-2026-10-29",
+  "receivedAt": "2026-10-29",
+  "provenance": "user_download",
+  "archive": "source.zip",
+  "archiveSha256": "4db6fcbc9c6bf55afcd649a15a54a03405373d47f58f94d295c641fe90d23bb2",
+  "cardCount": 2140,
+  "schema": [
+    "number",
+    "guid",
+    "fetched_at",
+    "url",
+    "html"
+  ],
+  "guidMatchesProject": 2140,
+  "notes": [
+    "Оригинальные JSON читаются как данные. HTML и приложенный скрипт не исполняются.",
+    "Сырые тексты не заменяют автоматически редактированные data/card_*.json; изменения исходников требуют согласования."
+  ]
+}
