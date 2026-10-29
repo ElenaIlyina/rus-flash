@@ -19,8 +19,13 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-ROOT = Path(__file__).resolve().parents[2]
+SCRIPT_DIR = Path(__file__).resolve().parent
+_candidate_root = SCRIPT_DIR.parent.parent
+ROOT = (_candidate_root if (_candidate_root / 'scripts/card_data.py').is_file()
+        else Path.cwd())
+IN_PROJECT = (ROOT / 'scripts/card_data.py').is_file()
 DEFAULT_PLAN = ROOT / 'dev/data/answer_alternative_checks.json'
+PROJECT = 'AF0ED3F2557F8FFC4C06F80B6803FD26'
 
 
 def now():
@@ -114,7 +119,8 @@ def plan_from_cards(directory, seed_plan):
         card = json.loads(path.read_text(encoding='utf-8'))
         project_cards[card['guid'].lower()] = card
     checks = []
-    for path in sorted(directory.glob('card_*.json')):
+    paths = [directory] if directory.is_file() else sorted(directory.glob('card_*.json'))
+    for path in paths:
         card = json.loads(path.read_text(encoding='utf-8'))
         cid = card['number']
         snapshot = {k:v for k,v in card.items() if k != 'explanation'}
@@ -131,6 +137,9 @@ def plan_from_cards(directory, seed_plan):
             except ValueError as error:
                 check['encodingIssue'] = str(error)
         seed = seeds.get(card['guid'].lower())
+        if seed is None and cid == '005141' and card['guid'].lower() == '025825474e8290034db847dc9562ae6c':
+            seed = {'mode':'find_accepted', 'candidates':[
+                {'answer':'неизбежность','wireAnswer':'неизбежность','role':'hypothesis'}]}
         if seed:
             check['mode'] = seed['mode']
             for candidate in seed['candidates']:
@@ -283,8 +292,9 @@ def run(plan, client, base_url, timeout, pacer, report, output):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--plan', type=Path, default=DEFAULT_PLAN)
+    parser.add_argument('--plan', type=Path)
     parser.add_argument('--cards', type=Path, help='проверить все card_*.json из каталога; принимает сырой HTML или формат проекта')
+    parser.add_argument('--answer', action='append', help='кандидат для одного JSON; параметр можно повторять')
     parser.add_argument('--output', type=Path)
     parser.add_argument('--resume', type=Path, help='продолжить результат с тем же планом; принятые/отклонённые запросы не повторяются')
     parser.add_argument('--batch-size', type=int, default=20)
@@ -296,9 +306,25 @@ def main(argv=None):
     if args.timeout <= 0 or args.delay < 0 or args.batch_size <= 0 or args.batch_delay < 0:
         parser.error('timeout и batch-size должны быть положительными; паузы — неотрицательными')
     try:
-        plan = load_plan(args.plan)
+        if args.plan:
+            plan = load_plan(args.plan)
+        elif DEFAULT_PLAN.is_file():
+            plan = load_plan(DEFAULT_PLAN)
+        else:
+            plan = {'schemaVersion':1,'project':PROJECT,'checks':[]}
+            if args.cards is None:
+                args.cards = next((p for p in [SCRIPT_DIR/'cards', Path.cwd()/'src/cards', Path.cwd()/'cards']
+                                   if p.is_dir()), None)
         if args.cards:
             plan = validate_plan(plan_from_cards(args.cards, plan))
+        if args.answer:
+            if len(plan['checks']) != 1:
+                raise ValueError('--answer используется с одним JSON, указанным через --cards')
+            check = plan['checks'][0]
+            check['mode'] = 'verify_alternatives'
+            check['candidates'] = [{'answer':a,'wireAnswer':wire_answer(check['sourceSnapshot'],a),
+                                    'role':'explicit_hypothesis'} for a in args.answer]
+        plan = validate_plan(plan)
     except (OSError, ValueError, KeyError, TypeError) as error:
         parser.error(str(error))
     plan_hash = hashlib.sha256(json.dumps(plan,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
@@ -316,7 +342,8 @@ def main(argv=None):
             parser.error('Результат относится к другому плану или серверу; смешивать их нельзя')
         report['status'] = 'running'
     else:
-        output = args.output or ROOT / 'dev/generated' / ('fipi-checks-' + datetime.now().strftime('%Y%m%d-%H%M%S-%f') + '.json')
+        output_dir = ROOT / ('dev/generated' if IN_PROJECT else 'fipi-results')
+        output = args.output or output_dir / ('fipi-checks-' + datetime.now().strftime('%Y%m%d-%H%M%S-%f') + '.json')
         if output.exists():
             parser.error('Файл результата уже существует; используйте --resume или другое имя: ' + str(output))
         report = {'schemaVersion':1,'startedAt':now(),'status':'running','planSha256':plan_hash,

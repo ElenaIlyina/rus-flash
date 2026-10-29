@@ -6,6 +6,8 @@ import io
 import json
 from pathlib import Path
 import sys
+import shutil
+import subprocess
 import tempfile
 import threading
 import unittest
@@ -87,6 +89,24 @@ class FipiCheckRunnerTest(unittest.TestCase):
                 resumed = json.loads(output.read_text())
                 self.assertEqual(len(resumed['runs']), 2)
                 self.assertEqual(resumed['results'][-1]['attempts'][-1]['status'], 'rejected')
+
+                # Copy just one Python file next to the user's src/cards sample.
+                # No repository modules or separate plan may be required.
+                standalone = Path(temp) / 'standalone'
+                (standalone / 'src/cards').mkdir(parents=True)
+                shutil.copyfile(ROOT / 'dev/scripts/check_fipi_answers.py', standalone / 'src/check_fipi_answers.py')
+                sample = checker.load_plan(checker.DEFAULT_PLAN)['checks'][0]['sourceSnapshot']
+                (standalone / 'src/cards/card_005141.json').write_text(json.dumps(sample, ensure_ascii=False))
+                completed = subprocess.run([
+                    sys.executable, 'src/check_fipi_answers.py', '--base-url',
+                    f'http://127.0.0.1:{server.server_port}', '--delay','0','--batch-delay','0',
+                ], cwd=standalone, capture_output=True, text=True)
+                self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+                report_file, = (standalone / 'fipi-results').glob('*.json')
+                standalone_report = json.loads(report_file.read_text())
+                self.assertEqual(len(standalone_report['results']), 1)
+                self.assertEqual(standalone_report['results'][0]['attempts'][0]['answer'], 'неизбежность')
+                self.assertEqual(standalone_report['summary']['withAcceptedAnswer'], 1)
         finally:
             server.shutdown()
             server.server_close()
