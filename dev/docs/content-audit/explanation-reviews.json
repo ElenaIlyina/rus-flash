@@ -4993,6 +4993,1416 @@
       "answerUnchanged": true,
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "explanationSha256": "069db45ba6d673f5cab7e2836e784451db9087680ccce73ee9dddbfa434028ce"
+    },
+    {
+      "id": "0A2371",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "58b36e514ee151b01314785282be05ffe7259119d25043a3a732048473a638d3",
+      "explanationSha256": "fdd08ee203ac01cda6320df0c998c98b3423b1097a297072de3201495c1fafbe"
+    },
+    {
+      "id": "165462",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "aecb7e5916347a4e4cf41e459fba66370bd0003cd65e6f1c967b674f67365bbf",
+      "explanationSha256": "b7d450dbe69d9a70600fcdacbab010ea23b8476c29199740d0e2c79f8ac4eeef"
+    },
+    {
+      "id": "3DC78B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "492988443101c1c39d8818b110066a42c7cdecbae8b80f241beddb85e74c7bd8",
+      "explanationSha256": "0567611c8700daa101a180c551d716c94ea43ba4b338032568523c5fee8c2a6d"
+    },
+    {
+      "id": "823A3A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7a13c342d6caa67a11a85e560ced7dc9039f1d7337ab3b6bf1f7c0ac9dba5c83",
+      "explanationSha256": "4c3e756db913d3bc26b5da2304fd886762d42977249e9dca0ef648934c5c444f"
+    },
+    {
+      "id": "BABA13",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9039c80f4018232977f9ecd1b8064bc0c14747255faf8c25d51e41f1ebe4676f",
+      "explanationSha256": "3301332dfe98733a018e8d05da537419ebd2f429dbf9181d27a22a3321d9f75d"
+    },
+    {
+      "id": "F03FB7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7a6e06d597663ed0bb574207c442482e3d7f793933ed05b16927a8062636e1a6",
+      "explanationSha256": "45da08802a1f0116c72d055104e31b8434fdafabc97f86d848674ba5ee406736"
+    },
+    {
+      "id": "F2FA4D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "dd1e81542b718da8fb91d093cbcda754a8264937d4ed34c586b10e4327c89d59",
+      "explanationSha256": "e8863583737faa67ccd2d43877ee6ce88d6b3f6aeda43562a3fd8d4ce2d83354"
+    },
+    {
+      "id": "FBE27D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7fcecdea0b8a1b67d18d0e278586950bef50ad93da0daad03c0ca5b3869e5834",
+      "explanationSha256": "e6224aea94486ffa079a16cf76455464b76dbc0823423c3ba36fa0a3a29aa0a2"
+    },
+    {
+      "id": "FDBB55",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Переработан разбор формы №1 с выбором слова из списка: объяснены все пять предложений подстановки, добавлены подсказка и прочитанные словарные функции.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d58cec391acd947a437ce1c0109bf56a5d880bf2e71db6077f0e9197952acd60",
+      "explanationSha256": "06cdbc02720e62ec31b7f457f2382a09abe72931a4fea30f07dc1157a44c6c12"
+    },
+    {
+      "id": "06A9D8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a81e3af937e52d18d19535de97c66209ab1a1245ad6d7ac3ee503d8502144cc6",
+      "explanationSha256": "e8766f34960f29c77ee76f65d4d9ae2a922d8c5bdbb3cc049592fc3472fc5156"
+    },
+    {
+      "id": "0714FC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a1f807d1286affe7a5fdd010a18d1061a07c521da90ada87208d26b2bd659fdb",
+      "explanationSha256": "189d1426734e86e0fefb9564a47f5464149204a8d52e60455f55d97c78f5fb9b"
+    },
+    {
+      "id": "07FECA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9bd7394dd37050ce3bf60798f6da9e49fdaff13e9c20d7b7a4d76771fa78c9be",
+      "explanationSha256": "ef1bd6b7e9811f3153859bdcc28624e077d5e69ff7fa64cd63e778cbb033f357"
+    },
+    {
+      "id": "0CB8DB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "602b79efd9a1d98546adfe9f8ce7fa7130e2f847560c903874984118e44fa317",
+      "explanationSha256": "cb9cbcbfa1fcf0dab37c08379038badc3a2e7243855861880186be732967ab75"
+    },
+    {
+      "id": "10542D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1f5d754347ae7e4e9139952589e2ae7ea0fef2b4814055f3a2eea044dacd7365",
+      "explanationSha256": "41ea347549a3eedd61b292800f170adfe9315817d0ee188ba7f9c93c9a5b4e63"
+    },
+    {
+      "id": "7FE8C6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ef41c1590a1c1dbb045448b1a69dcef78182bba0d0184ef766bb1e73081351d4",
+      "explanationSha256": "41ea347549a3eedd61b292800f170adfe9315817d0ee188ba7f9c93c9a5b4e63"
+    },
+    {
+      "id": "211D33",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d75fc360ab64448ddf6421c5cee5f679771e0c6bc087bf9d98facb564a14dfdb",
+      "explanationSha256": "ad64cda531282fb6e5cae3fb8530bb3597c80e18bb2ef7591196190b47496920"
+    },
+    {
+      "id": "276D07",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cbe8556b8b39018c4a29c823b5a022cb00475b9333e66b4dd6dc68779e694ef4",
+      "explanationSha256": "b7507dce9beec8bf058708fad61046ffdae48047d72d293e32ee3088b3819c03"
+    },
+    {
+      "id": "276DFF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1badf5ff12f9b1c93381ffafcbbbcc4c49ccb611b55255a9cc552fee982ca635",
+      "explanationSha256": "585b7a51823b07d765922f218b69903d4714739e00e5b66ca047a338bfb500cb"
+    },
+    {
+      "id": "39DECB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "585064f078dc7ff7b93af96c9551ecd957d4f51070ba5a40a279c1bdcd014a7e",
+      "explanationSha256": "ff9c12a7f911f29acd2eb624ede083bda5bd56a4073318115ec46abb83a97571"
+    },
+    {
+      "id": "3BDBD8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "da59de0f8ede666932c8d4316dffd7468e6f4f809f52b85f8d9dbd4ffef5aa3c",
+      "explanationSha256": "825b01ef97f1c933af5b94d8af776611fa93191b19658a67aca60ea3ee7fe381"
+    },
+    {
+      "id": "420002",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "250130313b341ae0aab8e6e6d252450a2899720c2ba2abba894cd90a8ae8deb1",
+      "explanationSha256": "207a12980b7be6787d43a8bbda16bdc5ffd4c48bf9b76901b97f026d550ee2d6"
+    },
+    {
+      "id": "7506CC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cd36ead93e12d0512e78bfbed9769804d15bd80975db6413c49e997c607f01c1",
+      "explanationSha256": "207a12980b7be6787d43a8bbda16bdc5ffd4c48bf9b76901b97f026d550ee2d6"
+    },
+    {
+      "id": "42FAB5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9d17b9ee9c657b51e218287d9ac995f5234a33858d58dbbeaf7b9de95f22ec53",
+      "explanationSha256": "067ede1a67580ed08f758f7318f9c5e53a874ac63da0a65b28c67fee06f71031"
+    },
+    {
+      "id": "430886",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "af7af92400f47b7cd1988c0ba2d4f4098181660207d23ca4ef7574cff53f7078",
+      "explanationSha256": "aa6d48ebe1639acc07b7ca0b1cd597c2d2203e159f3c95840ba488e508a6a7fe"
+    },
+    {
+      "id": "43F35A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0276b7b4f95b5e07031dc02818013f97a1cf525a940ac861b805e51ac15f32ac",
+      "explanationSha256": "5a7a25adfad15c2e33f4b77f84240c8ca4039ffb5a12dd43a473b3629a1665b9"
+    },
+    {
+      "id": "4B4F35",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "255cae3d90207f3a6519ad490ec62222c93b418a7aaedd919ddcf62073dec700",
+      "explanationSha256": "d5f09c3e70ebb1467c2f9252096fa3a25d431af4fed240e41eba414a6eb6d8c1"
+    },
+    {
+      "id": "4D6166",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "711e2b5ec48cec9d7b3b87efbd6b8718fcf8f7e1fc36ec70e6307fee24cfd050",
+      "explanationSha256": "e3729691801665838dc4f09eabd71f1b07de0589aa331cca8a2dea96650d0251"
+    },
+    {
+      "id": "4EA916",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "463a07862fb994da0b70e3b9c40ea1f679a862f4ea6f0d5687872e385f8c85c8",
+      "explanationSha256": "f658693dfb96dfc56cec3de3c0e53ce068a126548a88773bb56abacd648d7f9a"
+    },
+    {
+      "id": "4F3C89",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1219716b7ed2bdeb6bd8d649bfbddc3fd53ed8d4e3a6c6e5d4c3d39535cc009f",
+      "explanationSha256": "6d435526dbaefc960eb0d221f04480bebc1998fe0d377bd587ac552cbd7a8a67"
+    },
+    {
+      "id": "504DE4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1c4bdae5bbe3e733990f5fda30e918e25220937d980819b15ca65e91ea8d0f9b",
+      "explanationSha256": "81c2467f1da3403541364788341ece4aacc7e9a0b6be0c0a6c7129341054b401"
+    },
+    {
+      "id": "54095B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0ab956f2fa1c34a4cc60682fc40be801dc457eafd1ca91f70f0d207447c00bc2",
+      "explanationSha256": "675171fdaf6bd764cbdc1add50624f7b0e1660945d55fd5f1acf44d4daa9a9e0"
+    },
+    {
+      "id": "541808",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ec3c7e90cb266d68da496be2a50a691280266a54831944121739b66f22c41d28",
+      "explanationSha256": "53b83e87735385ecec518f25cf77356edc735f7edaab56aabc5a4ecc51250ca7"
+    },
+    {
+      "id": "5AFE34",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6016c3a32d88e8b2209b8c2240064996517903c55f95d94dbeb2dcd6822e9a60",
+      "explanationSha256": "280d5285aa77a5a8eeec3950036561b18065b7eceb7ab5e74db5f8eb222255b9"
+    },
+    {
+      "id": "5FC46B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5ccb1c1af0e6ea1433eab8f0bae491b1b4b6c1dc8ed2ebb6064ecf9e5a21228e",
+      "explanationSha256": "2082b75cff94e341452c7c8c6c15eb8b4cf8ab300e894cfa0d9c13a0e3076c95"
+    },
+    {
+      "id": "62D1B4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "36eb0ff8be5e57426620a33a4de014baacd4586511e1fc3fc5dfeccaee9d44db",
+      "explanationSha256": "6f2531f45125912ef4c8c0c3914f4e04487d529dc6084539ad050b8127a98012"
+    },
+    {
+      "id": "66A303",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5f5dce5a810abad2464c2e6a460212a7230bb91112416b3affe12deba3b66d64",
+      "explanationSha256": "07c27e5eb9ddf20464d0419d9cac24130af6faeab54d9a7af9d40ec4c4391d9e"
+    },
+    {
+      "id": "6F39FF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "16bc88a8144ac43f02809aa8a1a4c7c80375a0a034e75b8bf1c12879af0dcac3",
+      "explanationSha256": "eb9e662630df1bc3e0a416001114ef8dbd6d687465c82c46f7d203c95fa551f3"
+    },
+    {
+      "id": "80CDD0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3a649f64aa2a5faa5d75f5c5bedae514f9c14d9dd13db51ac1c9964ce92509ff",
+      "explanationSha256": "791c085ac54cd90ae0d535a0215f2550840e80b49b3819c6b4c9785472176497"
+    },
+    {
+      "id": "84DC91",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "070329dcf33b8ea695391b4b87ae36b092a07f3aa70f23a62d3ebcfa80b1a6d3",
+      "explanationSha256": "06b4ceb4f266b437a47f6aa7bd56d4d1bf7f3f045b5ccbdea71176f156f1d7b4"
+    },
+    {
+      "id": "860554",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f57c5748cdb8bea91cf674c8a45c93cd963a396a8c5d7ae0c82bb7f64092513a",
+      "explanationSha256": "f009c0226aa631f463038aa3cf4825d7e4ed1d74ca70875d948c442666cc66b4"
+    },
+    {
+      "id": "892937",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "732c2b6b6eb94e1daf62fa986cc47c32f448b83c470ce5aa43024f4f9710401b",
+      "explanationSha256": "3171a20c80d89d55a55a640e0524ac74dedff7e8dd7663932b56630a9988912a"
+    },
+    {
+      "id": "893FA5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "427a7bb3c2f17c66a14ebd1ae82c370f83714fa338ef87523e4fc555655c6a1f",
+      "explanationSha256": "34778290884e8225a13f1560db76b00a99c96d8954b45073654a8c8cf310defb"
+    },
+    {
+      "id": "91B3CD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bad52152f2e5e37942738bc2b318411cd631abb494e00c0f35747da73cd38b6f",
+      "explanationSha256": "939b14528d00c46fe8e3ed16607b1d0360fba6322400f4e71cf1f601d08fe749"
+    },
+    {
+      "id": "92A23B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3a295230adaccb7611f94011777c83413a0da466523608819a3f406650b3adfd",
+      "explanationSha256": "7cb13480634c43fc42d333e3769df659fa82af9332ea57e5e21ef6f946d1481b"
+    },
+    {
+      "id": "991015",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9d0f81e3fc6144fa7e0e41a2793c87a5c75ca9134be17855fce4d7680d866891",
+      "explanationSha256": "cfa196a0f93ab0ad8d3a97d886c9327f3cae1fba1cea2fe03350aaaf9fe8bf25"
+    },
+    {
+      "id": "BC3BD7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9b86020c72544d645e55d779514d8b9d5f55ba5602e7fb762332d5cef92d0b19",
+      "explanationSha256": "cfa196a0f93ab0ad8d3a97d886c9327f3cae1fba1cea2fe03350aaaf9fe8bf25"
+    },
+    {
+      "id": "9A3344",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "07d1549b466bcc5bda6780bbbbd5fcc3aaf7acb24391e70a46396ff066abef2a",
+      "explanationSha256": "78de5a19d9241ebc10d46ae6f201d85460e02b3bf44a16c0aa285e9f6587cae0"
+    },
+    {
+      "id": "9B8488",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4a40c1f0490a5a5def2f790a584d1c790e0add362287f9bad8711be5254f1a4b",
+      "explanationSha256": "9e3c1583d6e9dd6ab0c0b36e32967b6a4c5c8bcddd774c0a0d0269533d4f4e71"
+    },
+    {
+      "id": "9ECAD6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fa7dcc01af8308b717e68d7b6d83887eae4c4915446847c85df3eed94512bdf1",
+      "explanationSha256": "42a553f035651006ae5b0932e146d08f181c1d9e0ae46e9d5edb1bb6d52e8d1c"
+    },
+    {
+      "id": "AD7205",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5a0c61ca30e0092bb9380f94b2fe2d2b05f12e194f953319822ed0329aff0dbe",
+      "explanationSha256": "f02e8be214496116774b5aa2ff5353928dc35207154b27a72d7d6b729c546e7e"
+    },
+    {
+      "id": "AEB336",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "588af588d453ab9d92d0231a30745b8bb6ea43fdc6ca941bdabc6fc805286007",
+      "explanationSha256": "2f9eac4f43eb8dea3022a3c43b8be95a6bfbcf099e6f4a691f46f44e02126a06"
+    },
+    {
+      "id": "BA4ED6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0b37d12c138c1d1edd11397aa3090cb1efaf87f56992cf2edc16595050137ac1",
+      "explanationSha256": "60a5ec192fe077547ca37e4678510163dd13630ddc8e082f41801d82e9f0837c"
+    },
+    {
+      "id": "CAB0D1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "31125fd47f282ee04c8b466784ad48f1db34ea868c1dc3eb8dc42386e933e263",
+      "explanationSha256": "2c4de682def74c9359b88df1fb78690e42ede8d0960a3a51a852fc48c1a0d3e6"
+    },
+    {
+      "id": "CDA202",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5e33e2dbcf5c9c8d6a507078fd3958bf57bece912bddb3a48c7281327545311a",
+      "explanationSha256": "f58b8388e1b00a38ead63785a0a1168e8a32c1023e299de08fb6dee549056921"
+    },
+    {
+      "id": "D19D8F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "022da33472da4123e0b98ec7217dbe19239f448cfb4582b01f8e88627a538999",
+      "explanationSha256": "8f7f549a4d1ae028d548273dd6841593a93ef5c02e6f33e1b54c016eb8ed7221"
+    },
+    {
+      "id": "DB39CE",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f2c4b74703ea845f8cb0260ba3c16f9c74734c9c7fcbd4ab40d9da3dda0480be",
+      "explanationSha256": "81759dc0ea06b150650fad882efe7fc1bcf2ab58df3a675275f52b5835249b18"
+    },
+    {
+      "id": "DF5CF1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разбор одного слова по словарному фрагменту: проверены все значения в полном контексте, различены нумерация задания и полного словаря; добавлены индивидуальная подсказка и словарная отсылка.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d636f4b6bef69eec8c3adc1ea1ca27fbf6a50fe8ae09555bac2fc709920731e6",
+      "explanationSha256": "fa0a0b646ef2cae3b0b2674480eeb6245992a1ce47507bd67c646afe075e01ae"
+    },
+    {
+      "id": "0E759D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "40be281f83edf5e51392a81ca98c46910627b1b8f4eb224f007dbae29823705e",
+      "explanationSha256": "1c17352ef8f582236801417573002309c2b40dc51e1086aff9bbfb4c23760dfc"
+    },
+    {
+      "id": "11C9FF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f8302eb59e6d5a98bb6fc74f0fb0a1e49311a7d6e0a565a2b1105a479a3bd400",
+      "explanationSha256": "8e725c2b0296ac154358eda3d7e8f6138265b3bde75183a0fbf15cb3aa5a0b7c"
+    },
+    {
+      "id": "11F8AD",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6a63e62d401b247168af0c95a012215efc42a420c110795ea5b7988540d031dc",
+      "explanationSha256": "c3dce40d416b40d6f25da6ea081deeb67c3e9156b3728f4c1d5f787ff299edfd"
+    },
+    {
+      "id": "129CD6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5d0c6fb08364dd79a5350d1b81c38452161a5266ed872485e880005c9ff12cfc",
+      "explanationSha256": "fea5da3f22eac85d1f8cb1b44fe730b76c885ede31a894e6a89d4b458abccd74"
+    },
+    {
+      "id": "161E5E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ea073cb4eff84b074f2f216c2bc8f64d7e31c7223fe13017d669dc7b4178d75c",
+      "explanationSha256": "f99bbff29e33539ee861ff346eb07d28af323434c5629f5cfc0e7cfb28726e79"
+    },
+    {
+      "id": "16EC80",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3a6ef2b523c9ae1eda4da218d9d25d41d51860e11ac0cbcd7c4400d59dc1fe6f",
+      "explanationSha256": "92af3e4e945d64196db20d8a6cd8f9c0c4547fd56cd2daca67547d6cc2bed525"
+    },
+    {
+      "id": "19A46A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7a41443eaf498a85808effadd5d7699dd7989db77e0a493f4ec0dd3ed7cedc9b",
+      "explanationSha256": "588d17aaa833a6df9f40549b6f5a6941be5ad560cd7d6bf511a76b852bc8bd71"
+    },
+    {
+      "id": "1D6C06",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "912e6fde5bbfdb9cfdfc6ff61c04dc57cd283ec3c3a1c54dcd7709ace1d1b5f2",
+      "explanationSha256": "a60fb2646e492f60565f8c1a84570f87a09af5f8affee08d02e8a6cba27be707"
+    },
+    {
+      "id": "1F69B3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8fd659b93b030620bc38869a726093750e4f96cac6de95168ec3724af3f58faf",
+      "explanationSha256": "855f903419b9e5712103dd7885b6455050a0eede6967ba4718147b0853b75b9d"
+    },
+    {
+      "id": "27368C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9f7504c98da2eadc0885ba76f2f56e4d177c17fc4626732ec043912ce9905afc",
+      "explanationSha256": "c8ea93d66a2a0077461c7cb0d3545cfa3955faa86b837550fa5940e66806c26c"
+    },
+    {
+      "id": "2BF8A3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "89c1474824043b8600e91e08526d5c6d4515a5dcad6d29162ac69d7a2522feae",
+      "explanationSha256": "7909031726785408fc4113561d11c7f335947e4fa1c3241c2e30cc2a6e17061e"
+    },
+    {
+      "id": "2E758B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5eadbc054cc5fbe85e8f0ce9738ad5c0a6dfebd8853fee1de17364464589697a",
+      "explanationSha256": "054376ea4111fb29d93a5200fb10c7b20cc1e816691473603b10000bd7f6ee54"
+    },
+    {
+      "id": "32203B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "25f1d490b4b36796838407197e7118a2f08131d28fcf75ed4260d7456498b1f9",
+      "explanationSha256": "765f91dda86d3e92ff4fc62bef047eec06cd210b77b5204edc6bd67e22cbf49d"
+    },
+    {
+      "id": "3278D2",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "09513b99d9077eaf02ac0558714ad50394a3615d410fbce9c6b437b277203c64",
+      "explanationSha256": "ccf018b86aa8f13dcf50085554bfea24e861deb660d83946be3b16358f8d191d"
+    },
+    {
+      "id": "333879",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "770abc48063adfc814e861ab860fa2bf0c3f640eec450939c7e0f9dfdfda50e6",
+      "explanationSha256": "cfe779043780733deb878379ef04a4948d8946911832e842f42443b42acd6bff"
+    },
+    {
+      "id": "347983",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "61eaf116b4acd84e4f8bc0990eaa319db3b23f0ca8d8ed529479eb062eda66ad",
+      "explanationSha256": "edf1610cbef22dc8a399fb2d4e049da82457fef3303deb73c2f74dd00a706172"
+    },
+    {
+      "id": "34A537",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "664961b02d6f7d50275fce3a8f7021a53639b897b9acae170cdf62ccbe70f5b5",
+      "explanationSha256": "d4d5c25139d5eae66b905ec7cb6337b181aa791cfd6518dadc5d9f54f77d8ce9"
+    },
+    {
+      "id": "366012",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "83979ce620d1ce07113321708884bdb04711e7a57e860b3cf81ab13a0fdf8549",
+      "explanationSha256": "494078b894e864b4bf3ee5fd544c0653df567a9cdaeac53f0bd8a2f91201c60a"
+    },
+    {
+      "id": "37807F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8eae5191a6c6ccce26eb769a5d8572669c250540ecbb71abed20985a33b51adb",
+      "explanationSha256": "3c757b96962fc11aa8403caa846eb49b071e869c6a0e0f2f601ad1d5d376469c"
+    },
+    {
+      "id": "3C988A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b76c28f3975f7839967bfc2b3e0d87dd03a0319d7138ec43291cc006dc6b02b5",
+      "explanationSha256": "75d3fcefded90ea3f784ae992e1322f9cb6399d41f84c41e970d9237b12974fa"
+    },
+    {
+      "id": "3CEC0E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f2bf3f18fee2225ad62344b6724b6fd6283029fb72688a38e36007829b81d8c1",
+      "explanationSha256": "234a1b7b5aa40cd66c0f6089896f2602acd1522cf3f4a9a95276a4940c58ad07"
+    },
+    {
+      "id": "3D42DF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cf19d405f512791089b4a749267865fc2c33cb9962990c8b6cf4ac4310b0a2b8",
+      "explanationSha256": "243f76d040e826d37090d0d3287d9b5901ad8a4b94f064605fb7fa658fb6597a"
+    },
+    {
+      "id": "3D5603",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "67a7cbbdca19c4a7cefbbd5e43563ae142bd2b8272b67837ae942b21fd58a17d",
+      "explanationSha256": "be8ff46bdb3b8f08680bc3f2b6620e2dad4ba87c820e6757ad39671cbb08c9f5"
+    },
+    {
+      "id": "428BFF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e054d86f964f66cc0c4bba7f4ba2a4d8fcedec5bb2fcc1e3b03b8a6483eb049e",
+      "explanationSha256": "b4a68a81208f6d167aeb1e4438567989722d6ecf2b45b405ec54ae7b3c27c9c5"
+    },
+    {
+      "id": "441E65",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b23f64cf25192e59c8e038dec285c4c71c6e2405ca55c79cbe4ed07775a239a7",
+      "explanationSha256": "1784841ea8e5c74229f48983bd959c2c63ab53e85f1dfa6fde6e035f91bfa50f"
+    },
+    {
+      "id": "44BD0E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cab1c94ba36f57dce35c9f10866982152354f18b76bad2342ba684c27d2f37e5",
+      "explanationSha256": "15f69c39391409aac1fba2fb52ec067faf4b33ce19dc14922c69a2e207db946d"
+    },
+    {
+      "id": "458FEF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9b1f0a5c55994cff0a2a7422ddeb773a1eae9da45624a7fac68b3d8035e491d1",
+      "explanationSha256": "2e6ddc51024833018a228da0437e14f255a8e750b316c49cc6b7ad414deb5471"
+    },
+    {
+      "id": "4E6E33",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e298667cd0b3efcb1a340d30ba33165cd553f61740d453ec7a9410ce3e79ee4a",
+      "explanationSha256": "ce81633345429cc39fe36729afab14a281a32bc79d79f173e24331c4817e27c4"
+    },
+    {
+      "id": "51F287",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d288aa8e7c4f36f3d21e1d34478c380d35df8dbeb0ce9dda806d3374eaefeec6",
+      "explanationSha256": "e42a4174c3aa8df2648c51763d51574fa3a8457b61ea35def186fb6e70aa66ac"
+    },
+    {
+      "id": "52440A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1fe651ca1f92018bf487ad46a1a22c82a7e6f6938610f418e51830a9ea7d00f9",
+      "explanationSha256": "3d616c3a317bfab72754793eb67a2c8cbe25a7d3f085232faa821c8fe3da1ab9"
+    },
+    {
+      "id": "53656E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a540221b3b3faecb256823eb72c939edde9502e2374f39fd3765332a50e038e0",
+      "explanationSha256": "e1cc8fb006e297fa813850cb90da2b7efe41acf36c27d0b99b1ad57f1397ed65"
+    },
+    {
+      "id": "564F81",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d664799184942465c962f4011f0f072455cc7efac872523a0b5dcce44ca313ac",
+      "explanationSha256": "4df3d25528a26ea8308c30c4681b83ca8b842f813d6e6a9d830849057cdc3b2c"
+    },
+    {
+      "id": "564FC6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "9f6a7bcbb2598ff4f7b43211523abaf3d095d197d17de4eca257c4c173a10939",
+      "explanationSha256": "69c417bd2c26d85ad409ab2a24a996b9d71035a18efd5228417f96b8ea4a827b"
+    },
+    {
+      "id": "5C069D",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "22fcc5e47f320bf0ba1e6329d1b35af6f75a572380abb583b45220d71efec66b",
+      "explanationSha256": "4ef4e5a7d194e0b0c151541f5bca881a77189d3bd73a5463911514ed82b27f50"
+    },
+    {
+      "id": "5E2837",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f227d6311f1e8be995004917170357577c9200defc695641a4d0c26aa2f0d875",
+      "explanationSha256": "6bb21ff5e6971c5cd06fe21942f0f2ce4911510c3f8f039a88f63c608e35d291"
+    },
+    {
+      "id": "61B25C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f8037204852c12b87fe419446a8d1546a1e6dad2026963dd5b9a938fa690ac42",
+      "explanationSha256": "6f1ddaebd9013cb34b55a9b8fb3d8737205ceeee78dac566cf1f35a544f7afd0"
+    },
+    {
+      "id": "674D9C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "13c99d3b2438c95eaa37e063cbafa42c8b9aab3849f3da122e054d9fac5ef05d",
+      "explanationSha256": "07853c230a2b6d994863082537a426799c98b85afa2a1ef7834f33c04b9bc026"
+    },
+    {
+      "id": "69E49F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "76b8ba1a89c882760fe0fd57abc90b31d6054519d8e7346d43df87c974c605c6",
+      "explanationSha256": "7734a1487bd19da98dde2f733c7c22e40914da0e3983a0c599454cb50fcf1822"
+    },
+    {
+      "id": "71187C",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4aecf567969a62d25836d5dd6b071ffafc7f4f88c88b7df25d0a630718643c7d",
+      "explanationSha256": "a7b8763084c12b731ee8ffdcee2942bbe1f6561ba422201f5d3faa109cf1acdb"
+    },
+    {
+      "id": "738248",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c3f9af8499255b76149de8c65356858eb2aa396fa7286db8958670b926aafb63",
+      "explanationSha256": "031a52f2edffeb101bcc78f65982623dede3a27401fc435db6c3560498f96828"
+    },
+    {
+      "id": "915C48",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6ba247c544d8d8dd4b6d0860264773a0ea9ce21e333d02beb8af9fddaefe5c48",
+      "explanationSha256": "8c3f554c7ba46280cb1790eec75c0dafba45a315bc3592256c60bf26d7649796"
+    },
+    {
+      "id": "97F8EB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "18eb57f7e95e83b010e1acf046eb2533f8ae7b29e263b1e9e93338aff7b0c98b",
+      "explanationSha256": "588d6a05ea4bb78a2b8142b40da8eb596096f83e1a069ab020c731786c46c6b9"
+    },
+    {
+      "id": "985484",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "528149f7524d6098d28e0bcb1268b103a040c0814f9f83387ba814a885c5b41d",
+      "explanationSha256": "47f2d51b4488480ef72d9e99d226bf3f44623ae82d2c4ceae2a871629458f2a1"
+    },
+    {
+      "id": "9F6D86",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "c3e2a45dc8be888f910214031b5f9a2b06b4de6ced1380c646aef00b9cf4c838",
+      "explanationSha256": "1f11e2c84ffb19ac82d09d72f33bc04a53d06a8db3611447c4cbe46d7b48e17c"
+    },
+    {
+      "id": "A0403A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "7f08556dd4dce34e3293dcf00084966d12166e674d52116fabcf7ffc9b92c8db",
+      "explanationSha256": "14a0a711cf00a3e7e80d6ffec0792f936a95317e76d4729c7496577e0a273bb0"
+    },
+    {
+      "id": "A14C23",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "68238969266d3037f1b10bb2feaf029caee535da6941e2db9b51947de5488209",
+      "explanationSha256": "df0b723cacd1fd92228ee182952c7fbcff0f543785f6a4a20169a038da68b2db"
+    },
+    {
+      "id": "A7B6EA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "57cb1d196c216a437f70a72c72e6d01891812020b3ac5310c13c6729c7a630ad",
+      "explanationSha256": "6320de3ba8e61c197494b0f2229ac65b75413e71777422f4d500d3643734c956"
+    },
+    {
+      "id": "A7FA5F",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "943b451164b9fcd0517aaa778f7b4e5d2bf85d7835e8b703c769b868c3814db9",
+      "explanationSha256": "158c756c0c6e04069184005b99c17adce6dd20f6ad0bf5f2b0ef2a7b3189ab18"
+    },
+    {
+      "id": "A827D9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d28b2e0862df7e68d7e8bd44851a534339f9e44c8f609e14e754eca20238beb8",
+      "explanationSha256": "37efc7b05567825f3feb1513d88e1955189dcae46960b954f22ccd3825f38083"
+    },
+    {
+      "id": "AEB788",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d3c28934a3cf7a27bdd2f846d45d82f093f725f1bc00ac6750e74433efdbd8c8",
+      "explanationSha256": "b6c04a30a454b9ec1bb0d1ede02fdaf77fae1cb4fb534312b75fdd5dbab94601"
+    },
+    {
+      "id": "B22D89",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "164d78e63561cadaf8acfa72b10d1b5ff712f444ff6b2524e4bbbc141832d9a8",
+      "explanationSha256": "4f18cb838b0ae1c33a447f259f237430b006681910fb712937362cd5aee1f71e"
+    },
+    {
+      "id": "B4814B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e10a9f1d0431f0b2623c1e7578f487fcb5b7d2c89d18f42e170031838f0dd0dd",
+      "explanationSha256": "37bc785e72b9e20575687532c70e52b412a684ab35fb859bf1ecb206fe715ef1"
+    },
+    {
+      "id": "B6FBDF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "6344abbc83ff6c2ed77dbd20d0e9c71ffd611d48ff0b6bb20c4b8bc804b09169",
+      "explanationSha256": "4fbb4a2c436d953d4277a18c4fd37120ef16c1363fb6621507131b931e79626d"
+    },
+    {
+      "id": "B851D5",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "ddf84ed801650ff8d4e710a9cace71f0e96ccceda9498a7621881828faf09230",
+      "explanationSha256": "95413fa4e6adedfcd3a580f9b82432fe67f06a71a1b64a7d1be440fb43f351c4"
+    },
+    {
+      "id": "B8970E",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "149c595fca5b238d17f869bf843f73aa9bda30efbc454d2e81c3d06c37a98fcd",
+      "explanationSha256": "126fb053456202767d7a298dd4ab801c3803ce118a3eeb6199c023dbd35dc2a8"
+    },
+    {
+      "id": "B89AD3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "aac527e4c504eb0deed85e860f0ab212e478aff4b4ff91d226185d42f36b980a",
+      "explanationSha256": "479a790a84ad153bb2ff2b7755fe838270960e9ed50fdc7852c7c438bd05b23e"
+    },
+    {
+      "id": "B8B6F7",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "0f427414fd9c790254893ddee9ef3c67d009b0ad178d111c7bdafe8f5d714c84",
+      "explanationSha256": "f57d52e0800f997b151457820966e957d4db33a0aee31398597899a28db848ec"
+    },
+    {
+      "id": "BB5BA8",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "b5638e1c5c28c3dc3fbf37156ca4b31b352183e84bbe654f8823b498c3c4bce3",
+      "explanationSha256": "ab8b6c75b9fd3e91bff6953d8b64b138558fa2518832f9b950600ef1427fba82"
+    },
+    {
+      "id": "BC85F1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "d7545783499d0599c8a88f8c49505a1dc3273b3672c6d158c8d4a6e3c1965995",
+      "explanationSha256": "1180fc0cccd5a5e3ef3477baa1f9900eb1059725884aff5d40aa89876a106f6b"
+    },
+    {
+      "id": "C26BDA",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "a80e8889f9c019fcf7be33f88316b544eeedf882be26a73d7556ff49d523f976",
+      "explanationSha256": "b5833ce01f3faa9e37422e75bcb6381a06333a6dfede78cda6dde6cd91c76adc"
+    },
+    {
+      "id": "C26F4B",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "904a227fb8db5a54833e3da9c2842ce4ab7659efd9cea12d178080b62b134daa",
+      "explanationSha256": "02d02c95f9317d248958b1ce9afb795871490e0c42542bf0c27eb39a4db0163c"
+    },
+    {
+      "id": "C8CFE0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5ba54fe869eec46c2e124cdfb17f507830e5aa18ef2898c36a25cff92dbb163a",
+      "explanationSha256": "34a39d8c75c877ff42d8eda0969c40fa788c8d9d715e4a15d8f2d5a3fa8672f6"
+    },
+    {
+      "id": "CCCA97",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "65c9d545a1f594f6ca0985aad7968113934755980c3d87872235176408ed8850",
+      "explanationSha256": "bdb566cdd994ad99ba8dcd04717acdefa9ae926538543075be8ca22ba7bb18a5"
+    },
+    {
+      "id": "CD2264",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3be8ffbc57a9c66eb75fddea85f41df9289ea02916404475ded2d4901812f0e8",
+      "explanationSha256": "2d41efd450ce91cf05e4b381bd23b17e61ce04ee6418bea7f300591b6cc32ab7"
+    },
+    {
+      "id": "CEEEFC",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "98669c204a7288c41a3135f19ddf7dfd32502cd1fd8b5bf29e84d22f93632e6f",
+      "explanationSha256": "4017114a8da533b3bffcf0be1d06109be4b0ba7764978299335052b9eab23eaa"
+    },
+    {
+      "id": "D1C396",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "5c1dc549eda48582c7dd1ce5dc99c0a1f39b98229686a068fa995d43c8b34e16",
+      "explanationSha256": "f502cdaaf97aec9f0d6b9f2cfb49196d3d8add0dc04f3a66f6364364297e3fac"
+    },
+    {
+      "id": "D3D11A",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "307f97b7e43901994a8fbf0aa7c8e945070d74e3b8c418905c60dc5edfa2fee6",
+      "explanationSha256": "53f2ea27dd09f3d3fc6e383cf3d8a7ed25434a4e317e2dcd8cba003f69b51f4c"
+    },
+    {
+      "id": "D4F0CF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8898cef5abd5af30712d900c3dad7eb47ef70222696c6269db7a2cb77822ae5d",
+      "explanationSha256": "89811f015f1b67c3d2fb560829c76debda4ce4dde3868eb6e7177baa91ffbb6c"
+    },
+    {
+      "id": "D882B0",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "678559d5e491641b353d26252b157228069b570c9730428f5a2a544f0d8686b9",
+      "explanationSha256": "1a79cc4f9c6159ccd4ec159589f82c6f369ec963ebd0c6cbe766e94421e1931e"
+    },
+    {
+      "id": "DAA9CB",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "2d611521aa5ed4db91451cf7e4e39bcc0d979528b8071fee8be6d7e4f3123f0b",
+      "explanationSha256": "41da26b31f20c4d6b6fae9bfc9a5579a698b9ecfb78a1e8994967c7ef91bd77f"
+    },
+    {
+      "id": "DB4776",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "bdfbc910a8d221995230923c0a32308034f1b7af922313a8a49750d6c1dc2866",
+      "explanationSha256": "9ca5e48979fbd0a75b4762230015fcf1b546fa006d0cbf7513fd5a8e68f9c613"
+    },
+    {
+      "id": "DB85C3",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "8aa08bbd9396a3a16b23b26838d898f4d3df063549142240afce3af11bb9aeb3",
+      "explanationSha256": "6fbaae859eaa57a8d454e6ec8f588d2409879b73421aaa948756168a7bdc2d51"
+    },
+    {
+      "id": "DE0170",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "78d72ea8c1a79b8a2560bc40dd993261ec62258aaecff164dcb6c86269799c7f",
+      "explanationSha256": "f923481071e2cc86d7ee466668ed54acb0e6768dae3ed402f6bec4473063bdba"
+    },
+    {
+      "id": "DF5743",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "fcd6c4c5a9946e69f7c10bdf3b064d52a9e67234ae121d9e23936ecd9ea7dc7d",
+      "explanationSha256": "4705a1df4a343c4f0d8441eaf805bfacb2564da8ad56e655ccdc84b20bae8dea"
+    },
+    {
+      "id": "DFE8C9",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "21e6da4547e993b245d66ce73860d4f82b60e7c086b18289d854801cb8c97601",
+      "explanationSha256": "43449d4b289d25ba53c5dc461e33e702f2e33a5824f9dd05a2a1cbdd97f2f804"
+    },
+    {
+      "id": "E32F82",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "1a12c0d94f12047cd391d977fb2d7139cacd0401246fd3c9c0d06e9d50932f41",
+      "explanationSha256": "5c8a0b6150ae034a80dd4c8ff11802956d48eeb6eb0b1684293e5edc26375f06"
+    },
+    {
+      "id": "E92465",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f79647044126f4656a37643cc767c9df2954f19aa333b7da953cd7fe9f5e2528",
+      "explanationSha256": "d0c3142393bc39738d1aca2f974b830fbba5e5c4555aa625532c2fd8387a129c"
+    },
+    {
+      "id": "EA05E1",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "e4eadec5ea1cc9d95472280c237463db833c8948e90198e6c561205a53930966",
+      "explanationSha256": "529a6e34a01978fc19be7b2c1c6560a91b2c25e33a7e5bd87cfc1866b80e7d89"
+    },
+    {
+      "id": "EA06C4",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "cef1d8097035aec173efdf0a393c9f4a716df60ac39a6aed691e579dd69cd57f",
+      "explanationSha256": "c4040b469373ef4eceb4d3f29f90ebbca8a49f46e1d56e7e45b7e920e2e83fa2"
+    },
+    {
+      "id": "EB9D54",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "4bb9916f458ff78eb22f851eaeba187a76ad67156ac9344632e502e94bc03398",
+      "explanationSha256": "2bb8a40abf120db4aba9f72bfa3fc8e629bc11cd7426595913333dbede0a8194"
+    },
+    {
+      "id": "ED0E72",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "3beb57e924cd6fc2b6697363f839dd19e6e9d1a13e1b624bd59b5a17ce00791d",
+      "explanationSha256": "9b17effcbcdd7ecc54e3ffeec03e40979d67f165366d4509253728899fc5da43"
+    },
+    {
+      "id": "FD0C05",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "91177672c2ceebcf8efe48251a7ec187a449b8dfed9a0c0482fa0ce4b6fe6f53",
+      "explanationSha256": "5296765dd49bd176a71bfca54453dcf7f6b53edaf1cb2493643441104c11f577"
+    },
+    {
+      "id": "FE8FF6",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "64a12d858e16f224cae71a3b27699d1610f21286f76423de115784a24a28c4fc",
+      "explanationSha256": "621401f14a6211c3db43e2a909d67730d44803c236b03ae55b9a07ffd90b74fa"
+    },
+    {
+      "id": "FF49BF",
+      "reviewer": "assistant",
+      "reviewDate": "2026-10-30",
+      "status": "assistant_corrected_applied",
+      "reason": "Разобраны все пять ударений в форме с одним ошибочным словом; добавлены грамматические различия, подсказка, точные страницы списка либо явно отделённое основание по другой форме/проверенным вариантам банка. Сам ключ ФИПИ не выдаётся за независимую словарную сверку.",
+      "answerUnchanged": true,
+      "previousExplanationSha256": "f9d7e2866690ec8a851f62049d11538f2edd7caf8f294b45d6c653e3fecda962",
+      "explanationSha256": "4ceeba771da19854f9a62b45bdcf554874c31831ad2adc91c307af4a44eb3012"
     }
   ]
 }

@@ -48,6 +48,147 @@
       "sourceContentSha256": "3254f9b6c113d42ff671759643dd795277e75c60f9dfc18737c6ab9a82eb79c7"
     },
     {
+      "id": "06A9D8",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Речь о физических веществах — сверхпроводниках. Это общее предметное значение слова.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Сведения для исследования не проводят электрический ток в описанном опыте.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Папки и собрания документов в тексте не обсуждаются.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "О ткани для шитья ничего не сказано. Нельзя выбирать узкое значение только потому, что ткань тоже бывает материалом.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        }
+      ],
+      "contextPhrase": "«По таким материалам» — по сверхпроводникам, то есть по веществам с указанными физическими свойствами.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "87fcc151c6b9a6baeb12cb38faf452df6f803ff970ac85601e19b9b00fff2f66"
+    },
+    {
+      "id": "0714FC",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Температура не является организмом или органом и не растёт биологически.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Увеличивается измеряемая величина — средняя температура. Подстановка «увеличение средней температуры» сохраняет смысл.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Совершенствуются талант и мастерство, но не температура.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Размеры человека или животного в высоту здесь не измеряют.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Денежные проценты к климатическим наблюдениям не относятся.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        }
+      ],
+      "contextPhrase": "«Рост средней температуры» — увеличение её численного значения, а не рост живого организма.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "c249b56597ebaa6215d45e7ce4750a68c29d570f911ef0a44aa720a8197b03a2"
+    },
+    {
+      "id": "07FECA",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "В сочетании «дикая вишня» выбрана часть определения, относящаяся к растениям: некультивируемый. Не нужно приписывать растению признаки из примеров о людях или животных.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Грубость и необузданность характеризуют нрав или поведение, а не ботаническое название.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Вишня не названа нелепой или странной: это не оценка поступка или мысли.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Застенчивость и избегание людей к растению не относятся.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Очень сильным бывает, например, восторг; здесь не обозначена степень чувства.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 6,
+          "keySelects": false,
+          "reason": "Самостоятельная работа вне организаций относится к людям и объединениям, а не к виду вишни.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        }
+      ],
+      "contextPhrase": "«Дикая вишня» — употребление слова о растении, противопоставленном культурному, возделываемому.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "30a576a12a3309fe6582d1082df76b783cf01c4fc533040d9152670c4735fba9"
+    },
+    {
       "id": "082CB8",
       "options": [
         {
@@ -211,6 +352,86 @@
       "sourceContentSha256": "219a68ece873e601c720e446b09423bb79213f83a6df9e4dff8fb1ce8a3655d8"
     },
     {
+      "id": "0CB8DB",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Морские глубины» — глубокие места моря. Речь о месте погружения водолазов, а не о переносном значении.",
+          "word": "глубина",
+          "articleHeadword": "глубина"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Сочетание не отправляет читателя в далёкое прошлое или будущее.",
+          "word": "глубина",
+          "articleHeadword": "глубина"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Понимание идеи, мысли или концепции здесь не оценивается.",
+          "word": "глубина",
+          "articleHeadword": "глубина"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Степень чувства не описана: названо место под водой.",
+          "word": "глубина",
+          "articleHeadword": "глубина"
+        }
+      ],
+      "contextPhrase": "Водолазы возвращаются «из морских глубин»: это пространственное обозначение глубоких частей водоёма.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "df51e190cf6e897026cb474f57d36ae7e920ea428286c4bff0027a0cfca8ab61"
+    },
+    {
+      "id": "10542D",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Снабжение требует того, чем снабжают: сырьём, техникой. Свёртывание здесь — результат действия механизма, а не поставляемый ему предмет.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Материальное содержание человека или семьи не обсуждается.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Механизм делает быстрое свёртывание возможным и осуществимым. Это результат его работы.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Хотя реакция защищает организм, сам глагол в этом предложении связан со словами «быстрое свёртывание», а не с конструкцией «обеспечить от опасности». Значение выбирают по употреблению глагола, а не по общей теме защиты.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        }
+      ],
+      "contextPhrase": "«Механизм обеспечивает быстрое свёртывание крови» означает, что благодаря его действию этот процесс реально осуществляется.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "810a0c6ec25bf17c2bb39c8a760837e340db8aa8b33d790b4aa04c50825f9e3a"
+    },
+    {
       "id": "14AF4C",
       "options": [
         {
@@ -254,6 +475,126 @@
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
       "sourceContentSha256": "00c0e5ec07a0d2d65f080553a51859f1e9e0a7fd0507ce6d2df971be1851d573"
+    },
+    {
+      "id": "211D33",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Имеются в виду необходимые связи и закономерности развития объектов. Это поддержано словами о природе, взаимодействии и системном подходе.",
+          "word": "закон",
+          "articleHeadword": "закон"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Нормативный акт принимает государство; ни о принятии, ни о соблюдении правового акта здесь нет речи.",
+          "word": "закон",
+          "articleHeadword": "закон"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Обычаи и общепринятые нормы поведения людей не объясняют развитие всех названных объектов.",
+          "word": "закон",
+          "articleHeadword": "закон"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Религиозное вероучение и его предписания в этом сочетании не названы.",
+          "word": "закон",
+          "articleHeadword": "закон"
+        }
+      ],
+      "contextPhrase": "«Одинаковые законы развития разнообразных объектов» — объективные закономерности, которые исследователи обнаруживают, а не устанавливают своим решением.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "8156491f771d7ea4ce00b9d105f4d2e244300e45a28eb484fd2c9c554e2d8c89"
+    },
+    {
+      "id": "276D07",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Это не выходящая из-под земли вода: источник здесь не водный объект.",
+          "word": "источник",
+          "articleHeadword": "источник"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Сельское хозяйство — то, откуда люди получают необходимое для существования. Такое значение шире прямого значения водного источника.",
+          "word": "источник",
+          "articleHeadword": "источник"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Сельское хозяйство не выступает человеком, сообщающим сведения.",
+          "word": "источник",
+          "articleHeadword": "источник"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Исторический документ мог бы рассказывать о сельском хозяйстве, но в предложении источник — само сельское хозяйство, а не документ о нём.",
+          "word": "источник",
+          "articleHeadword": "источник"
+        }
+      ],
+      "contextPhrase": "Сельское хозяйство названо «источником существования»: оно даёт людям пищу и средства к жизни.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "85b7cf9c764f07e92794ba2274d59f707c20369979264998456c322bf101e987"
+    },
+    {
+      "id": "276DFF",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Разновидности животных не определяют минеральный состав валунов.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Роды древесных растений здесь не исследуют.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Типы людей по характеру — переносное значение; текст посвящён камням и ледникам.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Горная порода — природное минеральное образование. Это подтверждают слова «валуны», «камни», «горные массивы», «состав и строение».",
+          "word": "порода",
+          "articleHeadword": "порода"
+        }
+      ],
+      "contextPhrase": "Сочетание «горных пород Скандинавии» относится к геологии: состав валунов сравнивают с минеральными образованиями.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "c89b7f8084775c46f71b13e9d7e03f9ed8e2fb5d6280e1ffc7a340ea22482247"
     },
     {
       "id": "29C185",
@@ -422,6 +763,347 @@
       "formatSyncPreviousSourceContentSha256": "410bfb550fec7f3d6e059c7610c50fcc86a4cd629098a084f103b9ebfcc448b1"
     },
     {
+      "id": "39DECB",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Названа проблема, а не отдельная материальная вещь неопределённой формы.",
+          "word": "предмет",
+          "articleHeadword": "предмет"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Проблема — объект мыслей и тревоги учёных. Подстановка «объект беспокойства» сохраняет отношение между словами.",
+          "word": "предмет",
+          "articleHeadword": "предмет"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Ни учебный курс, ни школьная дисциплина в этом сочетании не названы.",
+          "word": "предмет",
+          "articleHeadword": "предмет"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Значение «для чего, с какой целью» возникает в обороте «на предмет». Здесь другая конструкция: «стала предметом беспокойства».",
+          "word": "предмет",
+          "articleHeadword": "предмет"
+        }
+      ],
+      "contextPhrase": "Проблема парникового эффекта стала «предметом беспокойства», то есть тем, на что направлено беспокойство учёных.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "f33fee0ec977c419fdbad8f60a8a818e20e001d33819342e742349c47f2204f1"
+    },
+    {
+      "id": "3BDBD8",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Черта произведения, например драматизм, не имеет атомного номера в таблице Менделеева.",
+          "word": "элемент",
+          "articleHeadword": "элемент"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Гальванический элемент — источник тока, но кремний здесь не назван батарейкой или таким устройством.",
+          "word": "элемент",
+          "articleHeadword": "элемент"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Общее значение части целого недостаточно: контекст прямо задаёт специальное химическое значение.",
+          "word": "элемент",
+          "articleHeadword": "элемент"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "О члене социальной группы речи нет.",
+          "word": "элемент",
+          "articleHeadword": "элемент"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "Кремний назван химическим элементом. В приведённом фрагменте именно под этим номером дано специальное толкование с примером Периодической системы.",
+          "word": "элемент",
+          "articleHeadword": "элемент"
+        }
+      ],
+      "contextPhrase": "«Это элемент необыкновенный» относится к кремнию, уже названному элементом Периодической системы.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "1899aa03524e8ae9c5a465b363d2e9c6c3cccbbd1c7cb51f111bb504ed88165b"
+    },
+    {
+      "id": "420002",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Нервная система действует, функционирует и регулирует сердечные сокращения. В определении важна часть «находиться в действии», а не только пример о труде человека.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Должность и место службы может иметь человек; нервная система не занимает должность.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Здесь нет конструкции «работать на кого-либо» в значении служить чьим-то интересам.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "«Работать чем» — управлять инструментом или рычагом. В тексте слово употреблено без такого дополнения и обозначает само функционирование системы.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        }
+      ],
+      "contextPhrase": "«Нервная система, работая автоматически…» означает, что она функционирует без сознательного управления человеком.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "f4d41810ac1989a655e2bfec2796510f1013ad9997031c46619403af91bb9469"
+    },
+    {
+      "id": "42FAB5",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Утвердительным бывает ответ или решение. Воздействие среды не является ответом «да».",
+          "word": "положительный",
+          "articleHeadword": "положительный"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Автор говорит о благоприятном воздействии на здоровье; значение полезности соответствует этому контексту.",
+          "word": "положительный",
+          "articleHeadword": "положительный"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Математический знак «плюс» у числа здесь не обсуждается.",
+          "word": "положительный",
+          "articleHeadword": "положительный"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "В тексте позднее упомянуты ионы, но это не превращает «положительное влияние» в обозначение электрического заряда. Значение проверяют в самом сочетании.",
+          "word": "положительный",
+          "articleHeadword": "положительный"
+        }
+      ],
+      "contextPhrase": "Сочетание «положительное влияние на организм» в данном тексте означает полезное, благоприятное действие.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "313f6a6a35fdda72182c2500cab2a3ce0daf38d49a733888b3846cf4bff79cc3"
+    },
+    {
+      "id": "430886",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Простого указания на связь с общественными достижениями недостаточно для данного оценочного контекста. Автор подчёркивает редкость и высокий уровень такого человека.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Высокий уровень культуры личности подтверждён словами о зорком внимании, осознанной памяти, мудрости и сокровищнице опыта.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Просветительная деятельность сама по себе возможна в жизни Лихачёва, но здесь «тип» характеризует личность, а не вид работы или связи.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Возделываемые растения или обработанная почва с личностью человека не сопоставляются.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        }
+      ],
+      "contextPhrase": "В выражении «невосстановимый культурный тип» дана оценка личности Лихачёва: носителя высокой культуры, памяти и осмысленного опыта.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "e97dacfb3edde899d9a15ae0ddcf07d0f2868919de20340a0b8621abf7029312"
+    },
+    {
+      "id": "43F35A",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Облик организма не называется самостоятельным участником конкуренции с другими видами.",
+          "word": "вид",
+          "articleHeadword": "вид"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Пейзаж, видимый из окна, экологическую нишу не занимает.",
+          "word": "вид",
+          "articleHeadword": "вид"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Дело не в возможности увидеть организм: речь о существовании и деятельности вида в природе.",
+          "word": "вид",
+          "articleHeadword": "вид"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Подразделение систематики в составе рода — нужное биологическое значение. Слова «организм», «сообщество», «условия» подтверждают его.",
+          "word": "вид",
+          "articleHeadword": "вид"
+        }
+      ],
+      "contextPhrase": "Здесь «вид» — биологическая единица систематики, имеющая место и роль в природном сообществе.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "0e792e20ece964b9c825a8c605a124f89a319f5724cf3d59c0f1c99aac3a10c1"
+    },
+    {
+      "id": "4B4F35",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "В сочетании «дикая вишня» выбрана часть определения, относящаяся к растениям: некультивируемый. Не нужно приписывать растению признаки из примеров о людях или животных.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Грубость и необузданность характеризуют нрав или поведение, а не ботаническое название.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Вишня не названа нелепой или странной: это не оценка поступка или мысли.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Застенчивость и избегание людей к растению не относятся.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Самостоятельная работа вне организаций относится к людям и объединениям, а не к виду вишни.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        }
+      ],
+      "contextPhrase": "Слово «дикая» в сочетании «дикая вишня» употреблено о растении, а не о характере человека.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "112a6afb5a3cf14a48f916cf0de775ffd7da7498d50dad9480dad0279f8d7a5a"
+    },
+    {
+      "id": "4D6166",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Это не биологическое увеличение живого существа: температура — измеряемая величина.",
+          "word": "расти",
+          "articleHeadword": "расти"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Значение места произрастания подходит к растению, а не к температуре.",
+          "word": "расти",
+          "articleHeadword": "расти"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Детство и ранние годы человека здесь не описаны.",
+          "word": "расти",
+          "articleHeadword": "расти"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Количественное увеличение показателя точно соответствует сочетанию «температура растёт». В этом фрагменте даже дан пример о температурных показателях.",
+          "word": "расти",
+          "articleHeadword": "расти"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Речь не о совершенствовании мастерства или таланта: повышение температуры не означает улучшение её качества.",
+          "word": "расти",
+          "articleHeadword": "расти"
+        }
+      ],
+      "contextPhrase": "Средняя температура «растёт»: её количественное значение увеличивается.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "c0619a51b19ea3e8c947bef1fbfd86455aaba70ef970cc631fb8cfc19ddc6fe7"
+    },
+    {
       "id": "4E5A40",
       "options": [
         {
@@ -465,6 +1147,234 @@
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
       "sourceContentSha256": "f2ab503c2729f321978450736128c81d63d28feea6a2547acc01846cb319d163"
+    },
+    {
+      "id": "4EA916",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "У чувства нет измеряемого расстояния от поверхности до дна.",
+          "word": "глубокий",
+          "articleHeadword": "глубокий"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Чувство не находится в географически отдалённом тылу или провинции.",
+          "word": "глубокий",
+          "articleHeadword": "глубокий"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Речь не о тайне, скрытой от других: Даль так характеризует проявившееся в замечаниях Пушкина чувство истины.",
+          "word": "глубокий",
+          "articleHeadword": "глубокий"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Переносное значение силы и глубины переживания соответствует самому сочетанию «глубокое чувство».",
+          "word": "глубокий",
+          "articleHeadword": "глубокий"
+        }
+      ],
+      "contextPhrase": "«Глубокое чувство истины» характеризует силу и основательность внутреннего чувства, а не пространственную глубину.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "4d73161435a0b7231c9da8d3ebe9a3bb07a0aa1bf63b869782d9e88f2ec994de"
+    },
+    {
+      "id": "4F3C89",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Земной шар в целом шире названной области: здесь выделены именно животные и их сообщества.",
+          "word": "мир",
+          "articleHeadword": "мир"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Мирное соглашение между воюющими сторонами не является местом естественного отбора.",
+          "word": "мир",
+          "articleHeadword": "мир"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Мир животных — отдельная область жизни и явлений. Здесь в этой области исследуют иерархию и отношения внутри стай и сообществ.",
+          "word": "мир",
+          "articleHeadword": "мир"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Противопоставления монастырской и светской жизни здесь нет.",
+          "word": "мир",
+          "articleHeadword": "мир"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Отсутствие вражды — другое значение слова «мир». В данном сочетании названа область животной жизни, а не мирные отношения между её обитателями.",
+          "word": "мир",
+          "articleHeadword": "мир"
+        }
+      ],
+      "contextPhrase": "«В мире животных» — в отдельной области живой природы, охватывающей животных и их жизнь.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "2ffd4375719964421d77a8b71ef28f6dd2908df07c588c98c773b2e9ecc985da"
+    },
+    {
+      "id": "504DE4",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Речь не о бытовой уборке и удалении грязи с предмета, а о составе вещества.",
+          "word": "чистый",
+          "articleHeadword": "чистый"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Нравственная честность не характеризует целлюлозу.",
+          "word": "чистый",
+          "articleHeadword": "чистый"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Не занятая записями поверхность бывает у листа или бланка. Здесь определение относится к веществу для получения волокон, а не к поверхности предмета.",
+          "word": "чистый",
+          "articleHeadword": "чистый"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Парадное помещение в избе к целлюлозе отношения не имеет.",
+          "word": "чистый",
+          "articleHeadword": "чистый"
+        },
+        {
+          "number": 5,
+          "keySelects": true,
+          "reason": "Отсутствие примесей — нужное значение для описания состава сырья.",
+          "word": "чистый",
+          "articleHeadword": "чистый"
+        }
+      ],
+      "contextPhrase": "В описании сырья «чистая целлюлоза» — вещество без посторонних примесей.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "7aac51333bfc2ce1e9b793073a4d9d656494a9f93a230d8649b5ccdf0a6e2443"
+    },
+    {
+      "id": "54095B",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Мускульная сила или мощность здесь не измеряется.",
+          "word": "сильный",
+          "articleHeadword": "сильный"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Убедительными бывают доводы и речь, но не само переживание одиночества.",
+          "word": "сильный",
+          "articleHeadword": "сильный"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Волевую стойкость человека можно назвать силой характера; здесь определение относится к чувству.",
+          "word": "сильный",
+          "articleHeadword": "сильный"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Значительная степень проявления чувства — точное значение в этом сочетании.",
+          "word": "сильный",
+          "articleHeadword": "сильный"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Сведущим и талантливым бывает специалист; наличие способностей не названо.",
+          "word": "сильный",
+          "articleHeadword": "сильный"
+        },
+        {
+          "number": 6,
+          "keySelects": false,
+          "reason": "Содержание клейковины в пшенице не связано с переживанием человека.",
+          "word": "сильный",
+          "articleHeadword": "сильный"
+        }
+      ],
+      "contextPhrase": "«Сильное чувство одиночества» — чувство большой интенсивности, а не физическая сила человека.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "5384aa378ea489e59149ff35a7f06ba5829dfa6dbc7e6a7433ab725975b95631"
+    },
+    {
+      "id": "541808",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Материальный объект в пространстве — широкое значение, к которому относится небесное тело.",
+          "word": "тело",
+          "articleHeadword": "тело"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Организм человека или животного в этом сочетании не имеется в виду.",
+          "word": "тело",
+          "articleHeadword": "тело"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Туловище — лишь часть живого организма; астрономический объект не назван этой частью.",
+          "word": "тело",
+          "articleHeadword": "тело"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Корпус механизма или сооружения здесь не описан.",
+          "word": "тело",
+          "articleHeadword": "тело"
+        }
+      ],
+      "contextPhrase": "В астрономическом контексте «тело» — отдельный материальный объект в пространстве.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "71df43bccd48b815b8ff5e4e34075aaf45998ef2f248e932762f4a21c4ca0ad0"
     },
     {
       "id": "5A83DF",
@@ -520,6 +1430,107 @@
       "formatSyncPreviousSourceContentSha256": "f904ac71ed73c7966786177dcb9ff3e98e2860074739fd38cc69855047591022"
     },
     {
+      "id": "5AFE34",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Свободное развлечение и резвость не обозначают здесь профессиональное музыкальное исполнение.",
+          "word": "играть",
+          "articleHeadword": "играть"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Игры по правилам — шахматы, футбол и другие — не названы.",
+          "word": "играть",
+          "articleHeadword": "играть"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Исполнение музыки — нужное значение. Инструмент и оркестр помогают отличить его от театральной игры.",
+          "word": "играть",
+          "articleHeadword": "играть"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Пианист не исполняет роль персонажа на сцене драматического спектакля.",
+          "word": "играть",
+          "articleHeadword": "играть"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Легкомысленное обращение с чьей-то жизнью или чувствами — другое, переносное значение.",
+          "word": "играть",
+          "articleHeadword": "играть"
+        },
+        {
+          "number": 6,
+          "keySelects": false,
+          "reason": "Когда «в глазах играет радость», субъектом является чувство. Здесь действие выполняет музыкант.",
+          "word": "играть",
+          "articleHeadword": "играть"
+        }
+      ],
+      "contextPhrase": "Пианист «играет» — исполняет музыкальное произведение, в данном случае вместе с оркестром.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "fcc9b8a0573ccfc23822b39b4c870c4d13f05c7baa7a5ee07a1ded5839cff91a"
+    },
+    {
+      "id": "5FC46B",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Философское отношение содержания и формы не обсуждается. Контекст выделяет главное в конкретной работе.",
+          "word": "содержание",
+          "articleHeadword": "содержание"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Названа основная суть работы. Именно это значение, несмотря на пример об изложении, соответствует употреблению в тексте.",
+          "word": "содержание",
+          "articleHeadword": "содержание"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Перечень разделов книги, то есть оглавление, здесь не приводится.",
+          "word": "содержание",
+          "articleHeadword": "содержание"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Количество вещества в составе другого вещества не измеряется.",
+          "word": "содержание",
+          "articleHeadword": "содержание"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Заработная плата не может быть заменена словом «справедливость» в этом высказывании.",
+          "word": "содержание",
+          "articleHeadword": "содержание"
+        }
+      ],
+      "contextPhrase": "«Главное содержание работы» в рассказе о докторе Лизе — основная суть её деятельности, связанная со справедливостью.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": true,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "46120e51ae70370958cfd4edd12302b09cc64494ff2e79f485b69fb0b648cc5e"
+    },
+    {
       "id": "62A8A9",
       "options": [
         {
@@ -571,6 +1582,100 @@
         "вопрос"
       ],
       "formatSyncPreviousSourceContentSha256": "c065e1b565bfdc7f32e955a8424cadefda4191382532e8b2c2139be36e088b02"
+    },
+    {
+      "id": "62D1B4",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "«Дикая природа» — естественная, не освоенная человеком природа. В данном тексте речь о неприручённых животных и их жизни в естественных условиях; это прямое значение, объединённое в первом толковании.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Грубый нрав — оценка поведения, а не обозначение условий обитания.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "О нелепом поступке или странной мысли речи нет.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Застенчивость перед людьми не тождественна жизни в дикой природе.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Необычайная сила чувства в этом сочетании не выражена.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        },
+        {
+          "number": 6,
+          "keySelects": false,
+          "reason": "Независимость от организаций относится к людям или объединениям. Орангутаны не противопоставлены организованным туристам или артелям.",
+          "word": "дикий",
+          "articleHeadword": "дикий"
+        }
+      ],
+      "contextPhrase": "«Исследователи дикой природы» изучают природу в её естественном состоянии; далее это раскрыто на примере жизни орангутанов.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "03cfb1152ec70e6012944eed6f6ed0b0f9060f206a67f74f18fb78ddfec50636"
+    },
+    {
+      "id": "66A303",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Дерево, камни, металлы и волокна прямо перечислены как исходные материалы для изготовления предметов.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Документальные сведения для биографии или наблюдений — другое значение, которого здесь нет.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Собрания документов не перечислены: речь о природном сырье.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Ткань — лишь один возможный частный материал. Перечисление включает также дерево, камни и металлы, поэтому узкое значение ткани не охватывает контекст.",
+          "word": "материал",
+          "articleHeadword": "материал"
+        }
+      ],
+      "contextPhrase": "«Природные материалы» — вещества и предметы, которые человек использует для изготовления других вещей.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "a25a19fffa2b0ebd36716720f2df0f0edafb222641036daa3ef7c55fdc0fc45d"
     },
     {
       "id": "6BDFBD",
@@ -663,6 +1768,86 @@
       "sourceContentSha256": "5ba08819e462285e19a527ce069b218a23db5109db3ae0b29d0dad3280ab3fe9"
     },
     {
+      "id": "6F39FF",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Подготовка вечера или другого мероприятия не обсуждается.",
+          "word": "организация",
+          "articleHeadword": "организация"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Планомерность действий и дисциплина — не то, что сравнивают у двух видов слуха.",
+          "word": "организация",
+          "articleHeadword": "организация"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Слух не является учреждением или общественным объединением.",
+          "word": "организация",
+          "articleHeadword": "организация"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Психическое строение — нужное значение: речь о различии устройства речевого и музыкального слуха.",
+          "word": "организация",
+          "articleHeadword": "организация"
+        }
+      ],
+      "contextPhrase": "Разная «психологическая организация» речевого и музыкального слуха означает различие их внутреннего устройства.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": true,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "d38e25198645d0ca2921f112d7dcc3cfd0d8efa310bf0a098c02ae68cd9ee85e"
+    },
+    {
+      "id": "7506CC",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Нервная система действует, функционирует и регулирует сердечные сокращения. В определении важна часть «находиться в действии», а не только пример о труде человека.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Должность и место службы может иметь человек; нервная система не занимает должность.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Здесь нет конструкции «работать на кого-либо» в значении служить чьим-то интересам.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "«Работать чем» — управлять инструментом или рычагом. В тексте слово употреблено без такого дополнения и обозначает само функционирование системы.",
+          "word": "работать",
+          "articleHeadword": "работать"
+        }
+      ],
+      "contextPhrase": "«Нервная система, работая автоматически…» означает, что она функционирует без сознательного управления человеком.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "1e11b7c9f4284d42622f242279c711a6d88a76ac0cafbfc87f8af6014957cc50"
+    },
+    {
       "id": "7AB7D7",
       "options": [
         {
@@ -714,6 +1899,187 @@
         "шум"
       ],
       "formatSyncPreviousSourceContentSha256": "1d00c31101804df0145a9fbca12033168a1174f3603b3585f2a34d7d0496d86e"
+    },
+    {
+      "id": "7FE8C6",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Снабжение требует того, чем снабжают: сырьём, техникой. Свёртывание здесь — результат действия механизма, а не поставляемый ему предмет.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Материальное содержание человека или семьи не обсуждается.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Механизм делает быстрое свёртывание возможным и осуществимым. Это результат его работы.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Хотя реакция защищает организм, сам глагол в этом предложении связан со словами «быстрое свёртывание», а не с конструкцией «обеспечить от опасности». Значение выбирают по употреблению глагола, а не по общей теме защиты.",
+          "word": "обеспечить",
+          "articleHeadword": "обеспечить"
+        }
+      ],
+      "contextPhrase": "«Механизм обеспечивает быстрое свёртывание крови» означает, что благодаря его действию этот процесс реально осуществляется.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "4351753279d4605caaec50b9e8fc4e2536cff1a6d687cb8db60ce4b88e462f52"
+    },
+    {
+      "id": "80CDD0",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Актёр и его появление на сцене не названы.",
+          "word": "выход",
+          "articleHeadword": "выход"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "У ситуации нет физической двери или отверстия: употреблено переносное значение.",
+          "word": "выход",
+          "articleHeadword": "выход"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Предлагаемые проекты должны разрешить затруднение — дефицит воды. Это и есть выход из положения.",
+          "word": "выход",
+          "articleHeadword": "выход"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Количество готового продукта называют выходом в производстве. Здесь же ищут решение проблемы, а не подсчитывают произведённую воду.",
+          "word": "выход",
+          "articleHeadword": "выход"
+        }
+      ],
+      "contextPhrase": "«В поисках выхода из сложившейся ситуации» означает в поисках способа справиться с нехваткой пресной воды.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "502cb89145fd10d8c67df98e543d953ce7527c09ba3a5937bd96d19c1b43f1e1"
+    },
+    {
+      "id": "84DC91",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "В данном сочетании автор не даёт астрономического названия планеты: указание «нашей» связано с родиной и русским городом.",
+          "word": "земля",
+          "articleHeadword": "земля"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Противопоставления суши воде здесь нет. Само морское окружение города ещё не делает это значение нужным.",
+          "word": "земля",
+          "articleHeadword": "земля"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Город не сравнивают по качеству почвы или верхнего слоя земной коры.",
+          "word": "земля",
+          "articleHeadword": "земля"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Тёмно-бурое вещество, смешанное с песком и глиной, не является предметом оценки.",
+          "word": "земля",
+          "articleHeadword": "земля"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Владение сельскохозяйственным участком и его аренда не обсуждаются.",
+          "word": "земля",
+          "articleHeadword": "земля"
+        },
+        {
+          "number": 6,
+          "keySelects": true,
+          "reason": "Страна или большая родная территория — значение, соответствующее выражению «на нашей земле» в этом описании Севастополя.",
+          "word": "земля",
+          "articleHeadword": "земля"
+        }
+      ],
+      "contextPhrase": "Севастополь назван одним из лучших городов «на нашей земле» — в родной стране, на родной территории.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "4a93e7e7707c841a0f782b29dd4f7b8d14acf98ca60c158294f022d784717466"
+    },
+    {
+      "id": "860554",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Порода животных — нужное значение. Речь идёт о собаке, а позднее названы овчарки, доги и дворняжки.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Лайка — собака; виды древесных растений к ней не относятся.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Тип людей по внутреннему складу — переносное значение, хотя собака и названа умнейшей.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Сословное или родовое происхождение человека в этом употреблении не обозначено.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Горные породы — минеральные образования. Они не являются разновидностями собак.",
+          "word": "порода",
+          "articleHeadword": "порода"
+        }
+      ],
+      "contextPhrase": "«Собака непонятной породы» — собака, чью разновидность по характерным признакам рассказчик не определил.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "9f12c94ffc1a2c0735f60bdb12395e07b080441d3d7661dc07f829bd2a424c11"
     },
     {
       "id": "883E90",
@@ -769,6 +2135,93 @@
       "formatSyncPreviousSourceContentSha256": "ac15037fadd48fcaec7387c12d91cb8317cfb1cb37bde7c08d02954bdadc92c4"
     },
     {
+      "id": "892937",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Масса груза — прямое физическое значение; у самой жизни такого веса нет.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Требующие усилий условия жизни противопоставлены комфорту и благополучию. Это значение трудности.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Медлительность движений или тяжеловесность слога не названы: речь об условиях жизни, а не о манере двигаться или писать.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Неуживчивым бывает характер человека; слово здесь определяет жизнь.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Машины и вооружение большой мощности не обсуждаются.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        }
+      ],
+      "contextPhrase": "Тяжёлая жизнь путешественника — трудная жизнь, требующая усилий; её нельзя измерить в килограммах.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "357bce07fde462bcc242b92df31b2464de4d2d78d29dbc254123fab56a2eed95"
+    },
+    {
+      "id": "893FA5",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Изготовление продукции — точное значение: далее описаны способы получения и обработки сырья.",
+          "word": "производство",
+          "articleHeadword": "производство"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Сырьё нужно для процесса изготовления, а не для обозначения уже готовой продукции.",
+          "word": "производство",
+          "articleHeadword": "производство"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Отрасль промышленности — более широкое понятие. Здесь речь о конкретном изготовлении бумаги и его сырье.",
+          "word": "производство",
+          "articleHeadword": "производство"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Само предприятие не названо этим словом: сочетание обозначает цель использования сырья, а не место работы.",
+          "word": "производство",
+          "articleHeadword": "производство"
+        }
+      ],
+      "contextPhrase": "«Для производства бумаги» — для её изготовления из древесной целлюлозы.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "02ce083a10fc6f29cabe7f3f86cf82a4c6e867e7a5ad68190e8d5eb6dbf0d3c7"
+    },
+    {
       "id": "8C2175",
       "options": [
         {
@@ -812,6 +2265,46 @@
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
       "sourceContentSha256": "d74c2dee44dd5d4d9439d8e310d484f733117ffb65501b7f1a65d2f9c1a14a04"
+    },
+    {
+      "id": "91B3CD",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Гладкая поверхность без впадин и возвышений к чувству не относится.",
+          "word": "ровный",
+          "articleHeadword": "ровный"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Линия без изгибов — пространственное значение. Автор описывает душевный склад человека.",
+          "word": "ровный",
+          "articleHeadword": "ровный"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Постоянство, спокойствие и уравновешенность соответствуют тому, что человек сохранил доброе отношение, несмотря на пережитые обиды.",
+          "word": "ровный",
+          "articleHeadword": "ровный"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Равенство размеров или долей здесь не устанавливается.",
+          "word": "ровный",
+          "articleHeadword": "ровный"
+        }
+      ],
+      "contextPhrase": "Зощенко сохраняет «ровное чувство немстительности, радушия, добра» — устойчивое и спокойное доброжелательное отношение.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "5d5cd9bfbd18db8d6619c250aadd9c1b4c4a65361791071d7b8c1013961b7b28"
     },
     {
       "id": "9273A5",
@@ -876,6 +2369,46 @@
         "sourceContentSha256": "97db9b8e8f62e31c103079f3a09f90f469082e1989a66f4b0be4540d83756152"
       },
       "formatSyncPreviousSourceContentSha256": "1d5dbb284a3c1c5945f679ece5d9b685ca16a4a3c00a30cfc702f657a55798ff"
+    },
+    {
+      "id": "92A23B",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Животные не выступают по чьему-то поручению и не являются полномочными посланниками.",
+          "word": "представитель",
+          "articleHeadword": "представитель"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "В определении речь именно о человеке и группе людей. В тексте обсуждается животный мир.",
+          "word": "представитель",
+          "articleHeadword": "представитель"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Выражать чьи-то мнения и общественные интересы — не то же самое, что принадлежать биологическому виду.",
+          "word": "представитель",
+          "articleHeadword": "представитель"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Экземпляр определённого разряда животных или растений — нужное значение. «Типичный образец» здесь не означает, что все организмы вида одинаково жизнеспособны.",
+          "word": "представитель",
+          "articleHeadword": "представитель"
+        }
+      ],
+      "contextPhrase": "«Представители вида» — отдельные организмы, принадлежащие данному биологическому виду.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "24f0cd505c08c7949ff2265b597ca96e0467a5813102e260bdba86ae42f0779c"
     },
     {
       "id": "97468C",
@@ -976,6 +2509,180 @@
       "formatSyncPreviousSourceContentSha256": "1b8affc39674592fdfed22674ce9c45cc24d9fbe32955bc321a1f627b2521632"
     },
     {
+      "id": "991015",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Отказаться от места или передать право другому — действие лица. Отрасли здесь сравнивают по объёму производства.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Покориться собеседнику в споре — другое значение; спора между участниками нет.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Быть ниже по некоторому показателю — нужное значение: цветная металлургия имеет меньший объём производства, чем чёрная.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Продажа вещи по сниженной цене не названа. Слова «в 20 раз» относятся к объёму производства, а не к цене сделки.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        }
+      ],
+      "contextPhrase": "Цветная металлургия «уступает» чёрной по размерам производства: объём производства у неё меньше.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "e6f1755b1a352dc59d9f2e034a0bfae1d3471b884814fe22bb4eb7f66f9e52ff"
+    },
+    {
+      "id": "9A3344",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Совокупность людей в исторических формах совместной жизни — нужное общее значение. Оно связывает развитие науки с потребностями человека.",
+          "word": "общество",
+          "articleHeadword": "общество"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Добровольное объединение с отдельной целью, например общество любителей книги, в тексте не названо.",
+          "word": "общество",
+          "articleHeadword": "общество"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Компания знакомых и её бытовая атмосфера не задают описанный исторический масштаб.",
+          "word": "общество",
+          "articleHeadword": "общество"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Узкий избранный дворянский круг — другое, социально ограниченное значение.",
+          "word": "общество",
+          "articleHeadword": "общество"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Совместное пребывание рядом с кем-то выражают сочетания вроде «в обществе друзей». Здесь говорится о развитии человеческого общества.",
+          "word": "общество",
+          "articleHeadword": "общество"
+        }
+      ],
+      "contextPhrase": "«С развитием общества» — с развитием исторически сложившейся совместной жизни людей и их потребностей.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "f3c57365f9ca2bf0fa624f3585ac6ef61a9689f56f8248d545d99fa23ad39bcc"
+    },
+    {
+      "id": "9B8488",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": true,
+          "reason": "Совокупность человеческих достижений включает духовные ценности. Это значение соответствует соседним словам о нравственности и уважении к человеку.",
+          "word": "культура",
+          "articleHeadword": "культура"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Не оценивается только степень культурности отдельного человека: названа общая область ценностей.",
+          "word": "культура",
+          "articleHeadword": "культура"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Разведение растений или животных — специальное сельскохозяйственное значение; оно не связано с нравственными ориентирами.",
+          "word": "культура",
+          "articleHeadword": "культура"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Растения и лабораторные культуры микроорганизмов не названы.",
+          "word": "культура",
+          "articleHeadword": "культура"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Умение в отдельной области, например культура речи, отличается от совокупности ценностей культуры в целом.",
+          "word": "культура",
+          "articleHeadword": "культура"
+        }
+      ],
+      "contextPhrase": "«Ценности культуры» — духовные и общественные достижения людей, на которых основывается деятельность достойных подражания людей.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "3ce0f2d0f9b5f6334635bc0d4565f0d7d55a623d00cb93259a0ff9d2cedb0186"
+    },
+    {
+      "id": "9ECAD6",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Возврат световой или звуковой волны — физическое отражение; ощущение не названо такой средой.",
+          "word": "отразить",
+          "articleHeadword": "отразить"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Ответная защита от атаки не описана.",
+          "word": "отразить",
+          "articleHeadword": "отразить"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Гладкая отражающая поверхность, например зеркало, в предложении отсутствует.",
+          "word": "отразить",
+          "articleHeadword": "отразить"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Показать, выразить — нужное переносное значение: свойство предмета оказывается представлено в ощущении.",
+          "word": "отразить",
+          "articleHeadword": "отразить"
+        }
+      ],
+      "contextPhrase": "«Ощущение отражает какое-либо одно свойство» — представляет, выражает это свойство в восприятии человека.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "83d95ef576f18ff1defc0319bf72c0688908cfd7e3e198965c0641697a61863f"
+    },
+    {
       "id": "A3FAC1",
       "options": [
         {
@@ -1027,6 +2734,93 @@
         "передать"
       ],
       "formatSyncPreviousSourceContentSha256": "3a3d357f4d05da81c93bf12a11282f07c5d301b288a5fc310175009084ecf7b0"
+    },
+    {
+      "id": "AD7205",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Письменное официальное заявление здесь не названо.",
+          "word": "представление",
+          "articleHeadword": "представление"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Театральное зрелище к религиозным взглядам о происхождении жизни не относится.",
+          "word": "представление",
+          "articleHeadword": "представление"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Предъявление документов или сообщение их адресату — действие; в тексте названы сами взгляды.",
+          "word": "представление",
+          "articleHeadword": "представление"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Знание и понимание чего-либо — нужное словарное значение. Оно обозначает содержание взглядов, но не доказывает научную истинность изложенной гипотезы.",
+          "word": "представление",
+          "articleHeadword": "представление"
+        }
+      ],
+      "contextPhrase": "«Религиозные представления» — взгляды, понимание того, как устроен мир и существует жизнь.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "702f1bdb402bee0ede2cf30d57ffc9ea79caaa5a59acbaec0ee717b058c3dab1"
+    },
+    {
+      "id": "AEB336",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Вывести животных куда-то — переместить их. Здесь результатом стала порода, а не выход лошадей из помещения.",
+          "word": "вывести",
+          "articleHeadword": "вывести"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Состояние вроде раздражения или потери равновесия не названо.",
+          "word": "вывести",
+          "articleHeadword": "вывести"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Создать выращиванием и разведением — нужное значение, применимое к сорту растений и породе животных.",
+          "word": "вывести",
+          "articleHeadword": "вывести"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Линию, букву или мелодию можно старательно вывести, но породу не рисуют и не поют.",
+          "word": "вывести",
+          "articleHeadword": "вывести"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Логический вывод или формула — результат анализа. В тексте говорится о разведении лошадей, а не об умозаключении.",
+          "word": "вывести",
+          "articleHeadword": "вывести"
+        }
+      ],
+      "contextPhrase": "Ассирийцы «вывели специальную породу лошадей» — создали её разведением животных с нужными признаками.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "5927049ec41b47c3d8be832f2145b5ad6adb29368bbce4ffd17e1cc3e5bfb141"
     },
     {
       "id": "B5A555",
@@ -1082,6 +2876,100 @@
       "formatSyncPreviousSourceContentSha256": "4a9a99df118673442873d413709d76cf18ea477e004d9474ed5db3e15c3c745c"
     },
     {
+      "id": "BA4ED6",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Вес хлеба не измеряется: автор говорит об условиях и цене творческого труда.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Требующий труда и усилий — нужное значение. Его подготавливает фраза «в результате огромного труда».",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Тяжеловесный слог или медлительность не обсуждаются. Автор не критикует стиль названных писателей.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Горестные события есть в рассказанных судьбах, но определение «тяжёлый хлеб» характеризует трудность самого труда; это поддержано прямым пояснением в начале.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Неуживчивый характер человека не назван.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        },
+        {
+          "number": 6,
+          "keySelects": false,
+          "reason": "Мощные машины и вооружение с литературным трудом здесь не сопоставляются.",
+          "word": "тяжелый",
+          "articleHeadword": "тяжелый"
+        }
+      ],
+      "contextPhrase": "«Тяжёлый хлеб искусства» — образ трудного писательского труда, требующего больших усилий. Слово «хлеб» здесь нельзя понимать буквально.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "db8e13cc16d30f63706a0dd5194339ea151066c3623312e768720272cb1e85ed"
+    },
+    {
+      "id": "BC3BD7",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Отказаться от места или передать право другому — действие лица. Отрасли здесь сравнивают по объёму производства.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Покориться собеседнику в споре — другое значение; спора между участниками нет.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Быть ниже по некоторому показателю — нужное значение: цветная металлургия имеет меньший объём производства, чем чёрная.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Продажа вещи по сниженной цене не названа. Слова «в 20 раз» относятся к объёму производства, а не к цене сделки.",
+          "word": "уступить",
+          "articleHeadword": "уступить"
+        }
+      ],
+      "contextPhrase": "Цветная металлургия «уступает» чёрной по размерам производства: объём производства у неё меньше.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "781e5f461ebba53f5f324688ddd7edc5f0d9d99e55b2a3623fb7db69d0a294bb"
+    },
+    {
       "id": "BCF56B",
       "options": [
         {
@@ -1133,6 +3021,53 @@
         "повторить"
       ],
       "formatSyncPreviousSourceContentSha256": "88332f65419cfc462762fb008256e67b47109a23948f6cb1d51b6acdb3d791c1"
+    },
+    {
+      "id": "CAB0D1",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Вручить предмет из рук в руки можно, но трагедия города здесь не передаётся как письмо или вещь.",
+          "word": "передать",
+          "articleHeadword": "передать"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Радио, телевидение и техническая трансляция не названы. Дневник изображает происходившее, а не обозначает канал вещания.",
+          "word": "передать",
+          "articleHeadword": "передать"
+        },
+        {
+          "number": 3,
+          "keySelects": true,
+          "reason": "Воспроизвести и изобразить события — нужное значение. Его подтверждают цитаты и разговор о наблюдательности авторов дневников.",
+          "word": "передать",
+          "articleHeadword": "передать"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Право собственности на трагедию не передают: владение предметом не является темой фразы.",
+          "word": "передать",
+          "articleHeadword": "передать"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Удар по мячу или шайбе — другое значение; спортивной ситуации здесь нет.",
+          "word": "передать",
+          "articleHeadword": "передать"
+        }
+      ],
+      "contextPhrase": "«Дневник передаёт трагедию города» — воспроизводит, изображает пережитое людьми с помощью записей и подробностей.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "3e159b39b7c9b5caf2aa25647ae331f3e8ac62397b5cce75a45aeb74ce9e502c"
     },
     {
       "id": "CC617E",
@@ -1233,6 +3168,133 @@
       "formatSyncPreviousSourceContentSha256": "bea00f1ab194c55c189947c343780134d6b7ef01faf57cfcf9df6ed881f449af"
     },
     {
+      "id": "CDA202",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Увеличение организма не является профессиональным развитием.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Рост человека в сантиметрах не определяется его коммуникативными навыками.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Общее усиление активности не передаёт главного: речь о развитии профессиональных качеств и опыта.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Совершенствование в процессе развития — нужное значение, как в сочетаниях «рост мастерства», «научный рост».",
+          "word": "рост",
+          "articleHeadword": "рост"
+        },
+        {
+          "number": 5,
+          "keySelects": false,
+          "reason": "Денежные проценты и отдача денег под проценты здесь не обсуждаются.",
+          "word": "рост",
+          "articleHeadword": "рост"
+        }
+      ],
+      "contextPhrase": "«Профессиональный рост» — совершенствование человека в его деятельности, развитие опыта и умений.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "bd6b97e78f194d99b4ce8aaac4adcc9596c6480a9570ac80be2396ce4981adb4"
+    },
+    {
+      "id": "D19D8F",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Совокупность общественных и духовных достижений людей не является значением этого ботанического сочетания.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 2,
+          "keySelects": false,
+          "reason": "Высокий уровень культуры поведения человека к растениям не относится.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Просветительная и интеллектуальная деятельность людей не обозначает тип растений.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        },
+        {
+          "number": 4,
+          "keySelects": true,
+          "reason": "Возделанный, выращенный человеком, не дикий — нужное значение. Его подтверждает контекст селекции и удобрений.",
+          "word": "культурный",
+          "articleHeadword": "культурный"
+        }
+      ],
+      "contextPhrase": "«Культурные растения» — растения, выращиваемые и возделываемые человеком.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "9b4b6e6568642a7bb4d6e546c01188f15b062ab2b3dd66af3a7ff6f65cecf4c4"
+    },
+    {
+      "id": "DB39CE",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Высота горизонтальной поверхности, например воды в реке, здесь не измеряется.",
+          "word": "уровень",
+          "articleHeadword": "уровень"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Степень величины — нужное значение для количественного показателя содержания глюкозы.",
+          "word": "уровень",
+          "articleHeadword": "уровень"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Не перечисляются отдельные подразделения системы, как уровни языка или энергии.",
+          "word": "уровень",
+          "articleHeadword": "уровень"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "Прибор для проверки горизонтальности поверхности здесь не назван.",
+          "word": "уровень",
+          "articleHeadword": "уровень"
+        }
+      ],
+      "contextPhrase": "«Уровень сахара в крови» — показатель его содержания, который может повышаться и понижаться.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "5c8154e565c5ee483f9573740a19a3a62feabf0485e9be3851be8ee724bf1c78"
+    },
+    {
       "id": "DC851F",
       "options": [
         {
@@ -1276,6 +3338,46 @@
       "contextAssessment": "context_supported",
       "exactDefinitionSourcePending": false,
       "sourceContentSha256": "1e2bb58b80df44605ecd6a5e7b6a85744574e6bb3ace8e506e7c65304c0850e9"
+    },
+    {
+      "id": "DF5CF1",
+      "questionForm": "one_word_dictionary_fragment",
+      "options": [
+        {
+          "number": 1,
+          "keySelects": false,
+          "reason": "Вода действительно окружает кита, но фраза называет Арктику с её зоной льдов, то есть условия обитания в целом, а не только вещество.",
+          "word": "среда",
+          "articleHeadword": "среда"
+        },
+        {
+          "number": 2,
+          "keySelects": true,
+          "reason": "Совокупность природных условий — точное значение. Указаны Арктика, дрейфующие льды и сезонные перемещения китов.",
+          "word": "среда",
+          "articleHeadword": "среда"
+        },
+        {
+          "number": 3,
+          "keySelects": false,
+          "reason": "Социально-бытовое окружение и группа людей к жизни кита не относятся.",
+          "word": "среда",
+          "articleHeadword": "среда"
+        },
+        {
+          "number": 4,
+          "keySelects": false,
+          "reason": "День недели — омонимичное слово; в тексте нет расписания или даты.",
+          "word": "среда",
+          "articleHeadword": "среда"
+        }
+      ],
+      "contextPhrase": "«Среда обитания» — окружающие природные условия, в которых живёт гренландский кит.",
+      "highlightRestorationPending": false,
+      "contextAssessment": "context_supported",
+      "exactDefinitionSourcePending": false,
+      "numberingBasis": "question_fragment",
+      "sourceContentSha256": "04a85ba0308653f8272581c9f12ab7c594cdd4042d232e96b033ecf82f0fa37f"
     },
     {
       "id": "E2313B",
@@ -1751,7 +3853,7 @@
       "sourceContentSha256": "16b6fe91c607e86ca307c1848b24dffb8348aba3d2523417bcff421243e3a4f6"
     }
   ],
-  "otherCardsNotPrepared": 48,
+  "otherCardsNotPrepared": 0,
   "formatSyncEvidence": "dev/docs/content-audit/card-content-issues.jsonl",
   "cardsWithoutVerifiedKeyNotPrepared": 0
 }

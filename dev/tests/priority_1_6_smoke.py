@@ -24,7 +24,7 @@ def main():
         source=json.loads((ROOT/'data'/f"card_{meta['id']}.json").read_text())
         assert not runtime['explanation'] and not meta['paronymComparisons'] and not meta['strategyHint']
         assert {k:v for k,v in runtime.items() if k!='explanation'}=={k:v for k,v in source.items() if k!='explanation'}
-    expected=Counter({1:68,2:34,3:47,4:30,5:114,6:67})
+    expected=Counter({1:77,2:82,3:47,4:114,5:114,6:67})
     assert Counter(r['task'] for r in reviews)==expected
     for review in reviews:
         card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())

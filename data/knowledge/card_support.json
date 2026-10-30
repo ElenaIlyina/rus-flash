@@ -1566,6 +1566,31 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "0A2371": {
+      "sourceContentSha256": "4b2ed254b55926ac29d30a057a6aaef1927cd59b33e99047329fe77b6d8b3373",
+      "explanationSha256": "fdd08ee203ac01cda6320df0c998c98b3423b1097a297072de3201495c1fafbe",
+      "explanationPublished": true,
+      "hint": "Определите, что сообщает второе предложение: источник утверждения, причину существования жизни или возражение версии. Проверьте управление предлога и смысл связи.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "согласный",
+          "entryId": "ozhegov-7a9069f9c71b"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "благодаря",
+          "entryId": "ozhegov-5202f9b8338e"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "вопреки",
+          "entryId": "ozhegov-b195cdcdfaff"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "0FCFA8": {
       "sourceContentSha256": "c4bca215d77eed711183011ebaebdf97899c22120d71ae38e3d87ea9938153d5",
       "explanationSha256": "da53ef27290e422b040e1be16625d3a6d04f12cc0240105de509f1ecbcc28650",
@@ -1621,6 +1646,31 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "он",
           "entryId": "ozhegov-484518364fdb"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "165462": {
+      "sourceContentSha256": "2f43cf1a6ec33cd8ad728fc96906cd0ff630d02075b3b5b0903b2185980b0637",
+      "explanationSha256": "b7d450dbe69d9a70600fcdacbab010ea23b8476c29199740d0e2c79f8ac4eeef",
+      "explanationPublished": true,
+      "hint": "Сопоставьте масштаб сообщений: первое говорит о методах вообще, второе — о конкретной работе учёных. Найдите средство перехода от общего к примеру.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "так",
+          "entryId": "ozhegov-f36941010640"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "впрочем",
+          "entryId": "ozhegov-23a0b80f0433"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "наоборот",
+          "entryId": "ozhegov-e66d4465922c"
         }
       ],
       "paronymPairIds": [],
@@ -1696,6 +1746,21 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "этот",
           "entryId": "ozhegov-153c990b6210"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "3DC78B": {
+      "sourceContentSha256": "35c793aabf34512a7519972e967622fff329b4738c307699cec153f951e2de23",
+      "explanationSha256": "0567611c8700daa101a180c551d716c94ea43ba4b338032568523c5fee8c2a6d",
+      "explanationPublished": true,
+      "hint": "Первая часть называет зависимость от армии, вторая — военные нововведения. Установите направление причинно-следственной связи, сохранив союз «и» перед пропуском.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "поэтому",
+          "entryId": "ozhegov-6bf3a66a35f0"
         }
       ],
       "paronymPairIds": [],
@@ -1991,6 +2056,31 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "823A3A": {
+      "sourceContentSha256": "0e1e5509937f63e0add8a214ab40c39cf5715bd5bcf4aaacd9673fdc5cab00ad",
+      "explanationSha256": "4c3e756db913d3bc26b5da2304fd886762d42977249e9dca0ef648934c5c444f",
+      "explanationPublished": true,
+      "hint": "Вспомните, какие факты названы до сообщения о Киотском протоколе. Договор представлен как ответная мера или как событие вопреки этим фактам?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "связь",
+          "entryId": "ozhegov-46293bc66a06"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ведь",
+          "entryId": "ozhegov-50e1af79b3d9"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "напротив",
+          "entryId": "ozhegov-aeb251ff670b"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "85F64B": {
       "sourceContentSha256": "96cd56524a711048ee192dfb48ef2b3180ea4b4128809da3f07b90d7de863cb4",
       "explanationSha256": "12604bfc404d28f1106f7377118455b008f4290e0729997fdffc4cef2d1da089",
@@ -2196,6 +2286,26 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "таков",
           "entryId": "ozhegov-633136c5f602"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "BABA13": {
+      "sourceContentSha256": "c859f4699dbfd0ff434ff4f0c930d3fba0de3d611accea163ea4a839752ecbe9",
+      "explanationSha256": "3301332dfe98733a018e8d05da537419ebd2f429dbf9181d27a22a3321d9f75d",
+      "explanationPublished": true,
+      "hint": "Проследите ход мысли: наблюдение врачей → возникновение метода лечения → его описание. Здесь «так» выполняет другую функцию, чем при вводе отдельного примера.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "так",
+          "entryId": "ozhegov-f36941010640"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "напротив",
+          "entryId": "ozhegov-aeb251ff670b"
         }
       ],
       "paronymPairIds": [],
@@ -2426,6 +2536,41 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "F03FB7": {
+      "sourceContentSha256": "73f7f5da9d0e68f3b9965f1c4b2548a2d872101d55dbafd2ef074a3e8d6f01e5",
+      "explanationSha256": "45da08802a1f0116c72d055104e31b8434fdafabc97f86d848674ba5ee406736",
+      "explanationPublished": true,
+      "hint": "Найдите опорные слова оценки: сначала «мало выделяется», затем «необыкновенный». Подберите средство сопоставления этих двух характеристик.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "между",
+          "entryId": "ozhegov-57029584c802"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "поэтому",
+          "entryId": "ozhegov-6bf3a66a35f0"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "F2FA4D": {
+      "sourceContentSha256": "56696c1c96e8decfb5bc3ce090eabcd35dd46dcb732172733f448d2280085263",
+      "explanationSha256": "e8863583737faa67ccd2d43877ee6ce88d6b3f6aeda43562a3fd8d4ce2d83354",
+      "explanationPublished": true,
+      "hint": "Разделите физическую причину и объяснение названия. Какая часть сообщает причину, а какая — следствие этого свойства?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "поэтому",
+          "entryId": "ozhegov-6bf3a66a35f0"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "F32163": {
       "sourceContentSha256": "ed8f7528d4075c7dfca7c1f51387361b576feb4a351601cf73615010e3b5f005",
       "explanationSha256": "4c58510ab1a8100e05d3066c951a0286fa78290715a547cc5b19b688c8385dcb",
@@ -2486,6 +2631,51 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "FBE27D": {
+      "sourceContentSha256": "eedffa8dce8209165fb340e3fc1ed939d7dff264130be6c3592cb237871c2ad1",
+      "explanationSha256": "e6224aea94486ffa079a16cf76455464b76dbc0823423c3ba36fa0a3a29aa0a2",
+      "explanationPublished": true,
+      "hint": "Третье предложение поясняет, в чём выражается преимущество жизнеспособных представителей вида. Найдите слово, которое вводит обоснование предыдущей оценки.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ведь",
+          "entryId": "ozhegov-50e1af79b3d9"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "напротив",
+          "entryId": "ozhegov-aeb251ff670b"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "FDBB55": {
+      "sourceContentSha256": "b1928bf1140f2b8de1a43288e20c0ad5d7fc1fcd575be0c7123b3403cf8d5a3a",
+      "explanationSha256": "06cdbc02720e62ec31b7f457f2382a09abe72931a4fea30f07dc1157a44c6c12",
+      "explanationPublished": true,
+      "hint": "Свяжите отношение к природе со способом отдыха. Прогулки приведены как следствие традиции, противоположность ей или указание на будущее?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "поэтому",
+          "entryId": "ozhegov-6bf3a66a35f0"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "впредь",
+          "entryId": "ozhegov-5b9e55a4db60"
+        },
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "напротив",
+          "entryId": "ozhegov-aeb251ff670b"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "019533": {
       "sourceContentSha256": "3254f9b6c113d42ff671759643dd795277e75c60f9dfc18737c6ab9a82eb79c7",
       "explanationSha256": "50555878dea9712f19e9ef9e6e879e43c615c3227c00e6acddd78a371100a997",
@@ -2521,6 +2711,51 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "полный",
           "entryId": "ozhegov-fa7fcc11299d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "06A9D8": {
+      "sourceContentSha256": "87fcc151c6b9a6baeb12cb38faf452df6f803ff970ac85601e19b9b00fff2f66",
+      "explanationSha256": "e8766f34960f29c77ee76f65d4d9ae2a922d8c5bdbb3cc049592fc3472fc5156",
+      "explanationPublished": true,
+      "hint": "К чему относится сочетание «по таким материалам»? Найдите в предыдущем предложении, что проводит ток.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "материал",
+          "entryId": "ozhegov-f55983d699df"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "0714FC": {
+      "sourceContentSha256": "c249b56597ebaa6215d45e7ce4750a68c29d570f911ef0a44aa720a8197b03a2",
+      "explanationSha256": "189d1426734e86e0fefb9564a47f5464149204a8d52e60455f55d97c78f5fb9b",
+      "explanationPublished": true,
+      "hint": "Что именно увеличивается: организм, мастерство человека или измеряемая температура?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "рост",
+          "entryId": "ozhegov-1d10dc55d191"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "07FECA": {
+      "sourceContentSha256": "30a576a12a3309fe6582d1082df76b783cf01c4fc533040d9152670c4735fba9",
+      "explanationSha256": "ef1bd6b7e9811f3153859bdcc28624e077d5e69ff7fa64cd63e778cbb033f357",
+      "explanationPublished": true,
+      "hint": "В первом толковании объединены признаки людей, растений и животных. Какой из них относится именно к вишне?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "дикий",
+          "entryId": "ozhegov-66ca4f307f05"
         }
       ],
       "paronymPairIds": [],
@@ -2641,6 +2876,36 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "0CB8DB": {
+      "sourceContentSha256": "df51e190cf6e897026cb474f57d36ae7e920ea428286c4bff0027a0cfca8ab61",
+      "explanationSha256": "cb9cbcbfa1fcf0dab37c08379038badc3a2e7243855861880186be732967ab75",
+      "explanationPublished": true,
+      "hint": "В выражении «из морских глубин» названо место, время или сила переживания?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "глубина",
+          "entryId": "ozhegov-85f95885541f"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "10542D": {
+      "sourceContentSha256": "810a0c6ec25bf17c2bb39c8a760837e340db8aa8b33d790b4aa04c50825f9e3a",
+      "explanationSha256": "41ea347549a3eedd61b292800f170adfe9315817d0ee188ba7f9c93c9a5b4e63",
+      "explanationPublished": true,
+      "hint": "Прочитайте дополнение после «обеспечивает»: что именно механизм делает возможным?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "обеспечить",
+          "entryId": "ozhegov-7d434d5c0c55"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "14AF4C": {
       "sourceContentSha256": "00c0e5ec07a0d2d65f080553a51859f1e9e0a7fd0507ce6d2df971be1851d573",
       "explanationSha256": "d57a7c09e1e4aa32673b96a104a7c984efab4d0df8e4416bf6bbddc9ebb0bfa0",
@@ -2671,6 +2936,51 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "черный",
           "entryId": "ozhegov-878ea34bc961"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "211D33": {
+      "sourceContentSha256": "8156491f771d7ea4ce00b9d105f4d2e244300e45a28eb484fd2c9c554e2d8c89",
+      "explanationSha256": "ad64cda531282fb6e5cae3fb8530bb3597c80e18bb2ef7591196190b47496920",
+      "explanationPublished": true,
+      "hint": "Сопоставьте «законы развития» с соседним словом «закономерности». Издаёт ли такие законы государство?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "закон",
+          "entryId": "ozhegov-4b5bdecd1314"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "276D07": {
+      "sourceContentSha256": "85b7cf9c764f07e92794ba2274d59f707c20369979264998456c322bf101e987",
+      "explanationSha256": "b7507dce9beec8bf058708fad61046ffdae48047d72d293e32ee3088b3819c03",
+      "explanationPublished": true,
+      "hint": "Что сельское хозяйство даёт людям: воду, сведения или средства существования?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "источник",
+          "entryId": "ozhegov-29a33ded420d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "276DFF": {
+      "sourceContentSha256": "c89b7f8084775c46f71b13e9d7e03f9ed8e2fb5d6280e1ffc7a340ea22482247",
+      "explanationSha256": "585b7a51823b07d765922f218b69903d4714739e00e5b66ca047a338bfb500cb",
+      "explanationPublished": true,
+      "hint": "Найдите определение перед «пород»: какие породы сопоставляют с составом валунов?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "порода",
+          "entryId": "ozhegov-f0e53bdc63ba"
         }
       ],
       "paronymPairIds": [],
@@ -2791,6 +3101,126 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "39DECB": {
+      "sourceContentSha256": "f33fee0ec977c419fdbad8f60a8a818e20e001d33819342e742349c47f2204f1",
+      "explanationSha256": "ff9c12a7f911f29acd2eb624ede083bda5bd56a4073318115ec46abb83a97571",
+      "explanationPublished": true,
+      "hint": "Попробуйте заменить «предмет беспокойства» сочетанием «то, что беспокоит».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "предмет",
+          "entryId": "ozhegov-d76943589150"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "3BDBD8": {
+      "sourceContentSha256": "1899aa03524e8ae9c5a465b363d2e9c6c3cccbbd1c7cb51f111bb504ed88165b",
+      "explanationSha256": "825b01ef97f1c933af5b94d8af776611fa93191b19658a67aca60ea3ee7fe381",
+      "explanationPublished": true,
+      "hint": "На какую область знания указывают номер 14 и Периодическая система Менделеева?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "элемент",
+          "entryId": "ozhegov-3ddfca6f24cf"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "420002": {
+      "sourceContentSha256": "f4d41810ac1989a655e2bfec2796510f1013ad9997031c46619403af91bb9469",
+      "explanationSha256": "207a12980b7be6787d43a8bbda16bdc5ffd4c48bf9b76901b97f026d550ee2d6",
+      "explanationPublished": true,
+      "hint": "Субъект действия — нервная система. Какая часть определения применима к её автоматическому действию?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "работать",
+          "entryId": "ozhegov-0641f9ffd707"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "42FAB5": {
+      "sourceContentSha256": "313f6a6a35fdda72182c2500cab2a3ce0daf38d49a733888b3846cf4bff79cc3",
+      "explanationSha256": "067ede1a67580ed08f758f7318f9c5e53a874ac63da0a65b28c67fee06f71031",
+      "explanationPublished": true,
+      "hint": "Положительное влияние — это согласие, электрический заряд или полезное действие на организм?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "положительный",
+          "entryId": "ozhegov-fc27c373ad57"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "430886": {
+      "sourceContentSha256": "e97dacfb3edde899d9a15ae0ddcf07d0f2868919de20340a0b8621abf7029312",
+      "explanationSha256": "aa6d48ebe1639acc07b7ca0b1cd597c2d2203e159f3c95840ba488e508a6a7fe",
+      "explanationPublished": true,
+      "hint": "Что автор ценит в Лихачёве: принадлежность к сфере культуры вообще или высокий уровень личности, опыта и мысли?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "культурный",
+          "entryId": "ozhegov-75938244950e"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "43F35A": {
+      "sourceContentSha256": "0e792e20ece964b9c825a8c605a124f89a319f5724cf3d59c0f1c99aac3a10c1",
+      "explanationSha256": "5a7a25adfad15c2e33f4b77f84240c8ca4039ffb5a12dd43a473b3629a1665b9",
+      "explanationPublished": true,
+      "hint": "«Вид» занимает экологическую нишу и конкурирует с другими видами. Это внешний облик или единица классификации организмов?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "вид",
+          "entryId": "ozhegov-c449fdd949ef"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4B4F35": {
+      "sourceContentSha256": "112a6afb5a3cf14a48f916cf0de775ffd7da7498d50dad9480dad0279f8d7a5a",
+      "explanationSha256": "d5f09c3e70ebb1467c2f9252096fa3a25d431af4fed240e41eba414a6eb6d8c1",
+      "explanationPublished": true,
+      "hint": "Определение «дикая» относится к вишне. Найдите в толковании признак, относящийся к растению.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "дикий",
+          "entryId": "ozhegov-66ca4f307f05"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4D6166": {
+      "sourceContentSha256": "c0619a51b19ea3e8c947bef1fbfd86455aaba70ef970cc631fb8cfc19ddc6fe7",
+      "explanationSha256": "e3729691801665838dc4f09eabd71f1b07de0589aa331cca8a2dea96650d0251",
+      "explanationPublished": true,
+      "hint": "Что значит «температура не перестаёт расти», если записать её показания числами?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "расти",
+          "entryId": "ozhegov-464b8d979a9e"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "4E5A40": {
       "sourceContentSha256": "f2ab503c2729f321978450736128c81d63d28feea6a2547acc01846cb319d163",
       "explanationSha256": "daa8846c12e04caccb83ac7771aea6d0f00c0e5bc5436e2e64f59dac8fabc49d",
@@ -2821,6 +3251,81 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "драгоценный",
           "entryId": "ozhegov-41e359521f77"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4EA916": {
+      "sourceContentSha256": "4d73161435a0b7231c9da8d3ebe9a3bb07a0aa1bf63b869782d9e88f2ec994de",
+      "explanationSha256": "f658693dfb96dfc56cec3de3c0e53ce068a126548a88773bb56abacd648d7f9a",
+      "explanationPublished": true,
+      "hint": "Существительное после определения — «чувство». Что здесь можно назвать большим: расстояние вниз или силу переживания?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "глубокий",
+          "entryId": "ozhegov-aff744a8a873"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "4F3C89": {
+      "sourceContentSha256": "2ffd4375719964421d77a8b71ef28f6dd2908df07c588c98c773b2e9ecc985da",
+      "explanationSha256": "6d435526dbaefc960eb0d221f04480bebc1998fe0d377bd587ac552cbd7a8a67",
+      "explanationPublished": true,
+      "hint": "Можно ли заменить «в мире животных» на «среди животных, в области животной жизни»?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "мир",
+          "entryId": "ozhegov-63fb1ae76a9f"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "504DE4": {
+      "sourceContentSha256": "7aac51333bfc2ce1e9b793073a4d9d656494a9f93a230d8649b5ccdf0a6e2443",
+      "explanationSha256": "81c2467f1da3403541364788341ece4aacc7e9a0b6be0c0a6c7129341054b401",
+      "explanationPublished": true,
+      "hint": "Чистая целлюлоза в описании изготовления вискозы — без грязи или без посторонних примесей?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "чистый",
+          "entryId": "ozhegov-0c4339f5e476"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "54095B": {
+      "sourceContentSha256": "5384aa378ea489e59149ff35a7f06ba5829dfa6dbc7e6a7433ab725975b95631",
+      "explanationSha256": "675171fdaf6bd764cbdc1add50624f7b0e1660945d55fd5f1acf44d4daa9a9e0",
+      "explanationPublished": true,
+      "hint": "Отделите «сильного человека» от «сильного чувства одиночества»: что именно характеризует определение?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "сильный",
+          "entryId": "ozhegov-2e3a442f6891"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "541808": {
+      "sourceContentSha256": "71df43bccd48b815b8ff5e4e34075aaf45998ef2f248e932762f4a21c4ca0ad0",
+      "explanationSha256": "53b83e87735385ecec518f25cf77356edc735f7edaab56aabc5a4ecc51250ca7",
+      "explanationPublished": true,
+      "hint": "Вспомните сочетание «небесное тело»: обязательно ли оно обозначает живой организм?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тело",
+          "entryId": "ozhegov-735c0193ca38"
         }
       ],
       "paronymPairIds": [],
@@ -2861,6 +3366,36 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "5AFE34": {
+      "sourceContentSha256": "fcc9b8a0573ccfc23822b39b4c870c4d13f05c7baa7a5ee07a1ded5839cff91a",
+      "explanationSha256": "280d5285aa77a5a8eeec3950036561b18065b7eceb7ab5e74db5f8eb222255b9",
+      "explanationPublished": true,
+      "hint": "Слово относится к пианисту и оркестру. Какой вид исполнения имеется в виду?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "играть",
+          "entryId": "ozhegov-961d5e56e51e"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "5FC46B": {
+      "sourceContentSha256": "46120e51ae70370958cfd4edd12302b09cc64494ff2e79f485b69fb0b648cc5e",
+      "explanationSha256": "2082b75cff94e341452c7c8c6c15eb8b4cf8ab300e894cfa0d9c13a0e3076c95",
+      "explanationPublished": true,
+      "hint": "Почему справедливость названа «главным содержанием работы»? Речь об оглавлении, оплате или сути деятельности?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "содержание",
+          "entryId": "ozhegov-0373c4faf92e"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "62A8A9": {
       "sourceContentSha256": "f2f47adcbe06b6dc7f2266a04339c35d79589905295fddc7fb448028353399b5",
       "explanationSha256": "bcb93a35ce2018f4ae838da61ec81ceee57c1221f4a6e36cad5a896b006c565d",
@@ -2891,6 +3426,36 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "вопрос",
           "entryId": "ozhegov-ae19c3563ebd"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "62D1B4": {
+      "sourceContentSha256": "03cfb1152ec70e6012944eed6f6ed0b0f9060f206a67f74f18fb78ddfec50636",
+      "explanationSha256": "6f2531f45125912ef4c8c0c3914f4e04487d529dc6084539ad050b8127a98012",
+      "explanationPublished": true,
+      "hint": "Какая часть определения «дикий» подходит животному, обитающему в естественной природе?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "дикий",
+          "entryId": "ozhegov-66ca4f307f05"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "66A303": {
+      "sourceContentSha256": "a25a19fffa2b0ebd36716720f2df0f0edafb222641036daa3ef7c55fdc0fc45d",
+      "explanationSha256": "07c27e5eb9ddf20464d0419d9cac24130af6faeab54d9a7af9d40ec4c4391d9e",
+      "explanationPublished": true,
+      "hint": "Камни, металлы, дерево и волокна в соседнем предложении — сведения или сырьё для изготовления вещей?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "материал",
+          "entryId": "ozhegov-f55983d699df"
         }
       ],
       "paronymPairIds": [],
@@ -2966,6 +3531,36 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "6F39FF": {
+      "sourceContentSha256": "d38e25198645d0ca2921f112d7dcc3cfd0d8efa310bf0a098c02ae68cd9ee85e",
+      "explanationSha256": "eb9e662630df1bc3e0a416001114ef8dbd6d687465c82c46f7d203c95fa551f3",
+      "explanationPublished": true,
+      "hint": "Слово определено как «психологическая организация». Можно ли заменить его на «внутреннее строение»?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "организация",
+          "entryId": "ozhegov-d2dd795db186"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "7506CC": {
+      "sourceContentSha256": "1e11b7c9f4284d42622f242279c711a6d88a76ac0cafbfc87f8af6014957cc50",
+      "explanationSha256": "207a12980b7be6787d43a8bbda16bdc5ffd4c48bf9b76901b97f026d550ee2d6",
+      "explanationPublished": true,
+      "hint": "Субъект действия — нервная система. Какая часть определения применима к её автоматическому действию?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "работать",
+          "entryId": "ozhegov-0641f9ffd707"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "7AB7D7": {
       "sourceContentSha256": "1e413213c76640e977d07250adb0a13ab5a5fc3215f3c5b028b46b8effc0a431",
       "explanationSha256": "afbfac0fa3aaa06400e183873e1e0b30d283147ae0cd8b665d0d7af40a9e5ac1",
@@ -2996,6 +3591,66 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "шум",
           "entryId": "ozhegov-ad926f2c7849"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "7FE8C6": {
+      "sourceContentSha256": "4351753279d4605caaec50b9e8fc4e2536cff1a6d687cb8db60ce4b88e462f52",
+      "explanationSha256": "41ea347549a3eedd61b292800f170adfe9315817d0ee188ba7f9c93c9a5b4e63",
+      "explanationPublished": true,
+      "hint": "Прочитайте дополнение после «обеспечивает»: что именно механизм делает возможным?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "обеспечить",
+          "entryId": "ozhegov-7d434d5c0c55"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "80CDD0": {
+      "sourceContentSha256": "502cb89145fd10d8c67df98e543d953ce7527c09ba3a5937bd96d19c1b43f1e1",
+      "explanationSha256": "791c085ac54cd90ae0d535a0215f2550840e80b49b3819c6b4c9785472176497",
+      "explanationPublished": true,
+      "hint": "«Выход из сложившейся ситуации» — это дверь или решение проблемы дефицита воды?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "выход",
+          "entryId": "ozhegov-4e9d56e63f86"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "84DC91": {
+      "sourceContentSha256": "4a93e7e7707c841a0f782b29dd4f7b8d14acf98ca60c158294f022d784717466",
+      "explanationSha256": "06b4ceb4f266b437a47f6aa7bd56d4d1bf7f3f045b5ccbdea71176f156f1d7b4",
+      "explanationPublished": true,
+      "hint": "Соотнесите «на нашей земле» со словами «русским Акрополем» и с темой родины.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "земля",
+          "entryId": "ozhegov-f3f5c2c67e4c"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "860554": {
+      "sourceContentSha256": "9f12c94ffc1a2c0735f60bdb12395e07b080441d3d7661dc07f829bd2a424c11",
+      "explanationSha256": "f009c0226aa631f463038aa3cf4825d7e4ed1d74ca70875d948c442666cc66b4",
+      "explanationPublished": true,
+      "hint": "Определение относится к Динке — собаке. Какая группа значений описывает животных одного вида?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "порода",
+          "entryId": "ozhegov-f0e53bdc63ba"
         }
       ],
       "paronymPairIds": [],
@@ -3036,6 +3691,36 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "892937": {
+      "sourceContentSha256": "357bce07fde462bcc242b92df31b2464de4d2d78d29dbc254123fab56a2eed95",
+      "explanationSha256": "3171a20c80d89d55a55a640e0524ac74dedff7e8dd7663932b56630a9988912a",
+      "explanationPublished": true,
+      "hint": "«Тяжёлая жизнь путешественника» противопоставлена сытому благополучию. Что она требует от человека?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тяжелый",
+          "entryId": "ozhegov-bf20518d399b"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "893FA5": {
+      "sourceContentSha256": "02ce083a10fc6f29cabe7f3f86cf82a4c6e867e7a5ad68190e8d5eb6dbf0d3c7",
+      "explanationSha256": "34778290884e8225a13f1560db76b00a99c96d8954b45073654a8c8cf310defb",
+      "explanationPublished": true,
+      "hint": "В сочетании «сырьё для производства бумаги» замените «производство» словом «изготовление».",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "производство",
+          "entryId": "ozhegov-0bd69a716e0b"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "8C2175": {
       "sourceContentSha256": "d74c2dee44dd5d4d9439d8e310d484f733117ffb65501b7f1a65d2f9c1a14a04",
       "explanationSha256": "706f41c9f93b7390962b2b02010527a5101a2a54d60641d7480a491b9da1a39d",
@@ -3071,6 +3756,21 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "91B3CD": {
+      "sourceContentSha256": "5d5cd9bfbd18db8d6619c250aadd9c1b4c4a65361791071d7b8c1013961b7b28",
+      "explanationSha256": "939b14528d00c46fe8e3ed16607b1d0360fba6322400f4e71cf1f601d08fe749",
+      "explanationPublished": true,
+      "hint": "Ровным названо чувство добра и немстительности. Оно связано с геометрией или с устойчивостью отношения к людям?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "ровный",
+          "entryId": "ozhegov-fa9ba095b922"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "9273A5": {
       "sourceContentSha256": "26d04c4a33c348fa103f38f81044ca8ce8fb809e91eaca68244c339c3c29d03a",
       "explanationSha256": "1c718ac2d2489844994279fee71bf248a6e20bc85ca5c8d0250f48214591977d",
@@ -3101,6 +3801,21 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "жизнь",
           "entryId": "ozhegov-6a6bd07db7b0"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "92A23B": {
+      "sourceContentSha256": "24f0cd505c08c7949ff2265b597ca96e0467a5813102e260bdba86ae42f0779c",
+      "explanationSha256": "7cb13480634c43fc42d333e3769df659fa82af9332ea57e5e21ef6f946d1481b",
+      "explanationPublished": true,
+      "hint": "Кто такие «представители вида» в абзаце о естественном отборе: посланники или отдельные организмы?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "представитель",
+          "entryId": "ozhegov-6215d8e396b6"
         }
       ],
       "paronymPairIds": [],
@@ -3191,6 +3906,66 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "991015": {
+      "sourceContentSha256": "e6f1755b1a352dc59d9f2e034a0bfae1d3471b884814fe22bb4eb7f66f9e52ff",
+      "explanationSha256": "cfa196a0f93ab0ad8d3a97d886c9327f3cae1fba1cea2fe03350aaaf9fe8bf25",
+      "explanationPublished": true,
+      "hint": "Сразу найдите, по какому показателю одна отрасль «уступает» другой: в тексте он назван прямо.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "уступить",
+          "entryId": "ozhegov-031df6d03a86"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9A3344": {
+      "sourceContentSha256": "f3c57365f9ca2bf0fa624f3585ac6ef61a9689f56f8248d545d99fa23ad39bcc",
+      "explanationSha256": "78de5a19d9241ebc10d46ae6f201d85460e02b3bf44a16c0aa285e9f6587cae0",
+      "explanationPublished": true,
+      "hint": "Развитие какого общества меняет задачи астрономии: кружка любителей или человечества в его совместной жизни?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "общество",
+          "entryId": "ozhegov-ba8d13c7c227"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9B8488": {
+      "sourceContentSha256": "3ce0f2d0f9b5f6334635bc0d4565f0d7d55a623d00cb93259a0ff9d2cedb0186",
+      "explanationSha256": "9e3c1583d6e9dd6ab0c0b36e32967b6a4c5c8bcddd774c0a0d0269533d4f4e71",
+      "explanationPublished": true,
+      "hint": "«Вечные ценности культуры» — это наследие человечества, уровень одного человека или выращивание растений?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "культура",
+          "entryId": "ozhegov-e079b4e3711c"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "9ECAD6": {
+      "sourceContentSha256": "83d95ef576f18ff1defc0319bf72c0688908cfd7e3e198965c0641697a61863f",
+      "explanationSha256": "42a553f035651006ae5b0932e146d08f181c1d9e0ae46e9d5edb1bb6d52e8d1c",
+      "explanationPublished": true,
+      "hint": "Может ли ощущение «отражать свойство» так же, как зеркало отражает луч? Или оно передаёт это свойство сознанию?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "отразить",
+          "entryId": "ozhegov-6a4ef0693cef"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "A3FAC1": {
       "sourceContentSha256": "54fa3fdbbfd41b826a97d912bcc27eff560f508fc3abbe9f41ca555ecd75e9a6",
       "explanationSha256": "d3d0e16c1b4148c01b869d33f967d55820a963c30cff1f55614d165a1cf8de53",
@@ -3221,6 +3996,36 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "передать",
           "entryId": "ozhegov-21b65ec9d7e5"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "AD7205": {
+      "sourceContentSha256": "702f1bdb402bee0ede2cf30d57ffc9ea79caaa5a59acbaec0ee717b058c3dab1",
+      "explanationSha256": "f02e8be214496116774b5aa2ff5353928dc35207154b27a72d7d6b729c546e7e",
+      "explanationPublished": true,
+      "hint": "Религиозные представления о происхождении жизни — это документы, спектакли или понимание устройства мира?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "представление",
+          "entryId": "ozhegov-cc52ce762366"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "AEB336": {
+      "sourceContentSha256": "5927049ec41b47c3d8be832f2145b5ad6adb29368bbce4ffd17e1cc3e5bfb141",
+      "explanationSha256": "2f9eac4f43eb8dea3022a3c43b8be95a6bfbcf099e6f4a691f46f44e02126a06",
+      "explanationPublished": true,
+      "hint": "Чем «вывести породу» отличается от «вывести лошадей из конюшни»?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "вывести",
+          "entryId": "ozhegov-46a36830db88"
         }
       ],
       "paronymPairIds": [],
@@ -3261,6 +4066,36 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "BA4ED6": {
+      "sourceContentSha256": "db8e13cc16d30f63706a0dd5194339ea151066c3623312e768720272cb1e85ed",
+      "explanationSha256": "60a5ec192fe077547ca37e4678510163dd13630ddc8e082f41801d82e9f0837c",
+      "explanationPublished": true,
+      "hint": "«Хлеб искусства» — образ. Объясните его через предыдущие слова об огромном труде писателя.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "тяжелый",
+          "entryId": "ozhegov-bf20518d399b"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "BC3BD7": {
+      "sourceContentSha256": "781e5f461ebba53f5f324688ddd7edc5f0d9d99e55b2a3623fb7db69d0a294bb",
+      "explanationSha256": "cfa196a0f93ab0ad8d3a97d886c9327f3cae1fba1cea2fe03350aaaf9fe8bf25",
+      "explanationPublished": true,
+      "hint": "Сразу найдите, по какому показателю одна отрасль «уступает» другой: в тексте он назван прямо.",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "уступить",
+          "entryId": "ozhegov-031df6d03a86"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "BCF56B": {
       "sourceContentSha256": "efba809a24260c8431982320ad09662afd31441dd6b64492573ef801437390c5",
       "explanationSha256": "5ec157763c42e2b59655ea6ab59fbf8db6ac0e00cffaa76fc1b1b045f622da47",
@@ -3291,6 +4126,21 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "повторить",
           "entryId": "ozhegov-b0b01da5d833"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "CAB0D1": {
+      "sourceContentSha256": "3e159b39b7c9b5caf2aa25647ae331f3e8ac62397b5cce75a45aeb74ce9e502c",
+      "explanationSha256": "2c4de682def74c9359b88df1fb78690e42ede8d0960a3a51a852fc48c1a0d3e6",
+      "explanationPublished": true,
+      "hint": "Как дневник может «передавать трагедию города»: вручить её кому-то или изобразить в записях?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "передать",
+          "entryId": "ozhegov-21b65ec9d7e5"
         }
       ],
       "paronymPairIds": [],
@@ -3366,6 +4216,51 @@
       "paronymPairIds": [],
       "ruleSourceRefs": []
     },
+    "CDA202": {
+      "sourceContentSha256": "bd6b97e78f194d99b4ce8aaac4adcc9596c6480a9570ac80be2396ce4981adb4",
+      "explanationSha256": "f58b8388e1b00a38ead63785a0a1168e8a32c1023e299de08fb6dee549056921",
+      "explanationPublished": true,
+      "hint": "Что меняется при профессиональном росте: высота тела, банковский процент или мастерство человека?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "рост",
+          "entryId": "ozhegov-1d10dc55d191"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "D19D8F": {
+      "sourceContentSha256": "9b4b6e6568642a7bb4d6e546c01188f15b062ab2b3dd66af3a7ff6f65cecf4c4",
+      "explanationSha256": "8f7f549a4d1ae028d548273dd6841593a93ef5c02e6f33e1b54c016eb8ed7221",
+      "explanationPublished": true,
+      "hint": "Прилагательное относится к растениям, в клетки которых включают гены. Как они противопоставлены диким растениям?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "культурный",
+          "entryId": "ozhegov-75938244950e"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "DB39CE": {
+      "sourceContentSha256": "5c8154e565c5ee483f9573740a19a3a62feabf0485e9be3851be8ee724bf1c78",
+      "explanationSha256": "81759dc0ea06b150650fad882efe7fc1bcf2ab58df3a675275f52b5835249b18",
+      "explanationPublished": true,
+      "hint": "О чём говорит «уровень сахара в крови»: о высоте поверхности или о количественном показателе?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "уровень",
+          "entryId": "ozhegov-9415591500ae"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
     "DC851F": {
       "sourceContentSha256": "1e2bb58b80df44605ecd6a5e7b6a85744574e6bb3ace8e506e7c65304c0850e9",
       "explanationSha256": "d5977ac3bc1798a24711454c8a8606365eba3c33c4400ea582d166c2210ead67",
@@ -3396,6 +4291,21 @@
           "dictionaryId": "ozhegov-shvedova-user-copy",
           "headword": "доставить",
           "entryId": "ozhegov-2f11d354330d"
+        }
+      ],
+      "paronymPairIds": [],
+      "ruleSourceRefs": []
+    },
+    "DF5CF1": {
+      "sourceContentSha256": "04a85ba0308653f8272581c9f12ab7c594cdd4042d232e96b033ecf82f0fa37f",
+      "explanationSha256": "fa0a0b646ef2cae3b0b2674480eeb6245992a1ce47507bd67c646afe075e01ae",
+      "explanationPublished": true,
+      "hint": "Арктика со льдами названа средой обитания. Это только вещество вокруг животного или совокупность условий его жизни?",
+      "dictionaryRefs": [
+        {
+          "dictionaryId": "ozhegov-shvedova-user-copy",
+          "headword": "среда",
+          "entryId": "ozhegov-a4733c2f8090"
         }
       ],
       "paronymPairIds": [],
@@ -5052,6 +5962,99 @@
       ],
       "ruleSourceRefs": []
     },
+    "0E759D": {
+      "sourceContentSha256": "316194f4e9dcce04adc1d0f746697c9b5780306edab7efa65872b5b363f97514",
+      "explanationSha256": "1c17352ef8f582236801417573002309c2b40dc51e1086aff9bbfb4c23760dfc",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: краны, ободрен, гналась, вероисповедание, прибыв. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "11C9FF": {
+      "sourceContentSha256": "b40f63393882cafb2aef03f4bd0f1d401542472bf67de3d671a19788d4c2b5ee",
+      "explanationSha256": "8e725c2b0296ac154358eda3d7e8f6138265b3bde75183a0fbf15cb3aa5a0b7c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: начавший, позвонишь, поняв, клала, кухонный. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "11F8AD": {
+      "sourceContentSha256": "31117b677ead080f67a5195c53ce429a14146c6f23a5f26a9884e981663cca6b",
+      "explanationSha256": "c3dce40d416b40d6f25da6ea081deeb67c3e9156b3728f4c1d5f787ff299edfd",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: прибыло, откупорить, красивее, мозаичный, верна. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "121C9D": {
       "sourceContentSha256": "e116b2c39a629a69999cc6d98c787f114690c18f7a18c7e877b72952c2199e8e",
       "explanationSha256": "f2e36176707b03e829a24e08c33b5016ae41905811e005c23ed8dc3bdeb23f45",
@@ -5075,6 +6078,37 @@
         {
           "part": 4,
           "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "129CD6": {
+      "sourceContentSha256": "69f2f379d646f57fe24fad83ea218126daefd2b844dbba9e5b95a9e041c54c6c",
+      "explanationSha256": "fea5da3f22eac85d1f8cb1b44fe730b76c885ede31a894e6a89d4b458abccd74",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: одолжит, дождалась, довезенный, сливовый, верна. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
         },
         {
           "part": 5,
@@ -5114,6 +6148,242 @@
       ],
       "ruleSourceRefs": []
     },
+    "161E5E": {
+      "sourceContentSha256": "a34be8f88770fad39b505ccaedb98f71daad9ad944955a28cafd5106281c1ba2",
+      "explanationSha256": "f99bbff29e33539ee861ff346eb07d28af323434c5629f5cfc0e7cfb28726e79",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: звонишь, вероисповедание, обостренный, сироты, загнутый. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "16EC80": {
+      "sourceContentSha256": "9cfaa41491d1abd398c5342d2ab0af401f1b6134c0068effc5eee1dc8e8a64bf",
+      "explanationSha256": "92af3e4e945d64196db20d8a6cd8f9c0c4547fd56cd2daca67547d6cc2bed525",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: дозировать, бухгалтеров, кровоточащий, позвонишь, засветло. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "19A46A": {
+      "sourceContentSha256": "5f5dd7f46fff4c22e0f969db0117119952807a8ceaa2c619ffeab5663ddff199",
+      "explanationSha256": "588d17aaa833a6df9f40549b6f5a6941be5ad560cd7d6bf511a76b852bc8bd71",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: занял, позвонишь, сливовый, закупорить, довезенный. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "1D6C06": {
+      "sourceContentSha256": "f3e727142a34075f0cc6f3c7a007160d9377b85eb73e26fe5a2684aa929bcb7d",
+      "explanationSha256": "a60fb2646e492f60565f8c1a84570f87a09af5f8affee08d02e8a6cba27be707",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: взялась, наживший, верна, жилось, отрочество. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "1F69B3": {
+      "sourceContentSha256": "698e188a585fff8e901d563bfe7a36707553ca29fd1270b18587afbcf847acd1",
+      "explanationSha256": "855f903419b9e5712103dd7885b6455050a0eede6967ba4718147b0853b75b9d",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: местностей, молящий, аэропорты, досуг, квартал. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "27368C": {
+      "sourceContentSha256": "5d2481177ee2c118b629579e69412ef70f2097cdf8ed0031da029d469c832d40",
+      "explanationSha256": "c8ea93d66a2a0077461c7cb0d3545cfa3955faa86b837550fa5940e66806c26c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: поделенный, отдав, начав, наврала, кухонный. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "2BF8A3": {
+      "sourceContentSha256": "ef5b0fafbeee43af5894812b98e613f62fd122f3d4a1256c953c3af269d019aa",
+      "explanationSha256": "7909031726785408fc4113561d11c7f335947e4fa1c3241c2e30cc2a6e17061e",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: загнутый, оптовый, добела, верна, ободрена. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "2E758B": {
+      "sourceContentSha256": "4bd6661fa41f4820607b3f54e02373da3e45ef288b9babccf40d28bcd00bd816",
+      "explanationSha256": "054376ea4111fb29d93a5200fb10c7b20cc1e816691473603b10000bd7f6ee54",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: созыв, верна, позвонишь, щемит, сверлит. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "31CB51": {
       "sourceContentSha256": "147da53c0ecf06c391af5de5d3aac284a3bf5cc75e52a06da712395ef8b7068e",
       "explanationSha256": "d67721832fc67ec1864370aebb8537ea96f88c50d2451b6db3ab7b16d4b58156",
@@ -5141,6 +6411,219 @@
         {
           "part": 5,
           "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "32203B": {
+      "sourceContentSha256": "d39a91b6886da53f23dbcc6d3d24e13b75a030ed841917d9d7d89d656748d80d",
+      "explanationSha256": "765f91dda86d3e92ff4fc62bef047eec06cd210b77b5204edc6bd67e22cbf49d",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: прибыло, откупорить, красивее, восприняла, ловка. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "3278D2": {
+      "sourceContentSha256": "71a53282282bc228a4b8ad881a60070a5d14b896c0b2db9c77f31931865228f6",
+      "explanationSha256": "ccf018b86aa8f13dcf50085554bfea24e861deb660d83946be3b16358f8d191d",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: опломбировать, корысть, бороду, таможня, позвонишь. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "333879": {
+      "sourceContentSha256": "1900a78a3624cc20f8ff83e4d501e4cbdf69c332014070e85488d0ef2dbb3876",
+      "explanationSha256": "cfe779043780733deb878379ef04a4948d8946911832e842f42443b42acd6bff",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: создав, кухонный, наживший, облилась, отозвалась. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "347983": {
+      "sourceContentSha256": "b453b4cc4137c612202d36671e429dd2c5bd015916fa5a912eaed53d3f6475a6",
+      "explanationSha256": "edf1610cbef22dc8a399fb2d4e049da82457fef3303deb73c2f74dd00a706172",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: мозаичный, перелила, облегчит, заселена, прирученный. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "34A537": {
+      "sourceContentSha256": "eb2b5592c0cace916c62374753afccf9f81c890ea5b3dfc53f7e56ab578b9fd2",
+      "explanationSha256": "d4d5c25139d5eae66b905ec7cb6337b181aa791cfd6518dadc5d9f54f77d8ce9",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: гражданство, сверлит, заняла, красивее, начав. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "366012": {
+      "sourceContentSha256": "90d83127b8f8505e354c153aedf14c9783927864933e7e88b2ffd5753e215fd9",
+      "explanationSha256": "494078b894e864b4bf3ee5fd544c0653df567a9cdaeac53f0bd8a2f91201c60a",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: поняв, согнутый, клала, защемит, наврала. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "37807F": {
+      "sourceContentSha256": "1709dd3c1bfbbd10e684df6b2dfb25f38e48183d0c9ef6ba3f46c8a7d989c8ec",
+      "explanationSha256": "3c757b96962fc11aa8403caa846eb49b071e869c6a0e0f2f601ad1d5d376469c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: эксперт, торты, осведомиться, прибыв, принятый. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 5
         }
       ],
       "ruleSourceRefs": []
@@ -5176,6 +6659,161 @@
       ],
       "ruleSourceRefs": []
     },
+    "3C988A": {
+      "sourceContentSha256": "15261196e78df4129d2ecb0aa7789c5a91b474c3f384f0d09cf0a30d3f37b51d",
+      "explanationSha256": "75d3fcefded90ea3f784ae992e1322f9cb6399d41f84c41e970d9237b12974fa",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: надолго, каталог, загнутый, досуг, верна. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "3CEC0E": {
+      "sourceContentSha256": "cd8d29bd1a7e5a2c2d3bb81876eb64c48d1b58d54957d43002db9e6126a3dde4",
+      "explanationSha256": "234a1b7b5aa40cd66c0f6089896f2602acd1522cf3f4a9a95276a4940c58ad07",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: надорвалась, шарфы, еретик, осведомишься, затемно. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "3D42DF": {
+      "sourceContentSha256": "bca965a8ecb8bcd34c4770079bdd935fee887ca54769a72e29cee4993fcb21ab",
+      "explanationSha256": "243f76d040e826d37090d0d3287d9b5901ad8a4b94f064605fb7fa658fb6597a",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: дозвонятся, отозвала, сверлишь, цепочка, жилось. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "3D5603": {
+      "sourceContentSha256": "6b4be16db3b640d67703bc77cc158884e39eed442eb57e358c1176562e5d2254",
+      "explanationSha256": "be8ff46bdb3b8f08680bc3f2b6620e2dad4ba87c820e6757ad39671cbb08c9f5",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: аэропорты, согнутый, позвала, дефис, вероисповедание. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "428BFF": {
+      "sourceContentSha256": "7df3bbc77c0b8cab0adea5b66f2df1e071a797eb082837e39a03f1362a24eb4d",
+      "explanationSha256": "b4a68a81208f6d167aeb1e4438567989722d6ecf2b45b405ec54ae7b3c27c9c5",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: черпать, ненадолго, занял, корысть, вероисповедание. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "42DC9B": {
       "sourceContentSha256": "682c60b5ed71362e941da29331aace8eb05a884327575a84be486971b5b26f97",
       "explanationSha256": "82804b57d9a2bb48379db7eb2a3eddab108993e4bb701277dbf95fd60e62da8d",
@@ -5199,6 +6837,68 @@
         {
           "part": 4,
           "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "441E65": {
+      "sourceContentSha256": "db4f4514df294de5cc35a5ddc3eafce6eff1b8557e1e88f19cfb6969f3f975bd",
+      "explanationSha256": "1784841ea8e5c74229f48983bd959c2c63ab53e85f1dfa6fde6e035f91bfa50f",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: лилась, верна, квартал, мозаичный, ободрала. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "44BD0E": {
+      "sourceContentSha256": "a3527a0dee3489b4dea894cb552e3ff00d693d22f3d1fa8c9bcbe9592d997eda",
+      "explanationSha256": "15f69c39391409aac1fba2fb52ec067faf4b33ce19dc14922c69a2e207db946d",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: газопровод, оптовый, позвонишь, прибыв, сливовый. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 5
         },
         {
           "part": 5,
@@ -5238,6 +6938,370 @@
       ],
       "ruleSourceRefs": []
     },
+    "458FEF": {
+      "sourceContentSha256": "d42599429cb4770607746e27ac30d48e8a2801f13aa09f56703d9947501140ab",
+      "explanationSha256": "2e6ddc51024833018a228da0437e14f255a8e750b316c49cc6b7ad414deb5471",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: статуя, диспансер, дешевизна, мозаичный, ловка. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "4E6E33": {
+      "sourceContentSha256": "8fdab7a2c90f166e5ab1e6b958e164d34536e2722253a6b3dfd2f8284f5ca37e",
+      "explanationSha256": "ce81633345429cc39fe36729afab14a281a32bc79d79f173e24331c4817e27c4",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: краны, мозаичный, досуг, наверх, восприняла. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "51F287": {
+      "sourceContentSha256": "53f96e9fbf01493b115679dff42182b2d680c290ab0459793b90c41094893c3e",
+      "explanationSha256": "e42a4174c3aa8df2648c51763d51574fa3a8457b61ea35def186fb6e70aa66ac",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: перелила, снята, ободрить, позвонишь, принял. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "52440A": {
+      "sourceContentSha256": "a2328dba53778d7dd23e1606d25f1477d37965db4d8e8d1053f2151dbfdd336b",
+      "explanationSha256": "3d616c3a317bfab72754793eb67a2c8cbe25a7d3f085232faa821c8fe3da1ab9",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: ободрить, доверху, подняв, верна, торты. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "53656E": {
+      "sourceContentSha256": "bdbda00972c679d40eb63725355f14fb97d2d185c3781c334298aa7a646d0fc3",
+      "explanationSha256": "e1cc8fb006e297fa813850cb90da2b7efe41acf36c27d0b99b1ad57f1397ed65",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: подняв, краны, кормящий, обнялась, кровоточащий. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "564F81": {
+      "sourceContentSha256": "0fa9b4528147d2a4a1f524b5d3e3c53ed61fcde0808ac08efd49c2fedd387355",
+      "explanationSha256": "4df3d25528a26ea8308c30c4681b83ca8b842f813d6e6a9d830849057cdc3b2c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: бороду, оптовый, позвала, согнутый, верна. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "564FC6": {
+      "sourceContentSha256": "132bb9d65cd9d7181537cf06ecfbadb4ad220dcaac7f1762390c7e55ba0270f3",
+      "explanationSha256": "69c417bd2c26d85ad409ab2a24a996b9d71035a18efd5228417f96b8ea4a827b",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: наделит, вероисповедание, окружит, снята, звоним. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "5C069D": {
+      "sourceContentSha256": "6dce9eb8cbcd6a23df23fe0d29cacf6ac800966cc86f7cc9a1de93ede6cfca6c",
+      "explanationSha256": "4ef4e5a7d194e0b0c151541f5bca881a77189d3bd73a5463911514ed82b27f50",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: таможня, банты, начал, верна, обзвонит. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "5E2837": {
+      "sourceContentSha256": "86593e5c18149e01b45ae3d46f4260068bc94199121c543b8b6cd63724fab931",
+      "explanationSha256": "6bb21ff5e6971c5cd06fe21942f0f2ce4911510c3f8f039a88f63c608e35d291",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: сливовый, недуг, квартал, завидно, заперла. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "61B25C": {
+      "sourceContentSha256": "d24aa9fe0061e4f0473cbfd4e536cce3210957211c5a77778982a39cb67158ab",
+      "explanationSha256": "6f1ddaebd9013cb34b55a9b8fb3d8737205ceeee78dac566cf1f35a544f7afd0",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: красивее, шарфы, лекторы, нарвала, ногтя. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "674D9C": {
+      "sourceContentSha256": "d18216904e4e4baf241c0415333e442423d151aad9911569a4b089efda2c1c19",
+      "explanationSha256": "07853c230a2b6d994863082537a426799c98b85afa2a1ef7834f33c04b9bc026",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: каталог, отбыла, верна, шарфы, позвонишь. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "69E49F": {
+      "sourceContentSha256": "e9baa93159633c39f3b88198d85ac7f306a46befe80563efdeac32fcd434e10e",
+      "explanationSha256": "7734a1487bd19da98dde2f733c7c22e40914da0e3983a0c599454cb50fcf1822",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: шарфы, поняла, жалюзи, верна, досуха. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "6A530E": {
       "sourceContentSha256": "c77965c7ddd5f1eb11cede0000150a8ca16724eb7a50f6d24fb6590eae4fd6fe",
       "explanationSha256": "a62900297008b6a645e0a7a03fb3db1eb5dc24eabd6896faec828b414b929dc7",
@@ -5265,6 +7329,64 @@
         {
           "part": 5,
           "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "71187C": {
+      "sourceContentSha256": "0d9d18d2be7a1fa2ec19538150c3a01572e56fcc9d887273b84a844a8d5569de",
+      "explanationSha256": "a7b8763084c12b731ee8ffdcee2942bbe1f6561ba422201f5d3faa109cf1acdb",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: гражданство, укрепит, верна, лилась, защемит. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "738248": {
+      "sourceContentSha256": "c3e02a07fed14a57167f2e311ad25f9976f80ed93a5267e0df3d68e820e72508",
+      "explanationSha256": "031a52f2edffeb101bcc78f65982623dede3a27401fc435db6c3560498f96828",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: наврала, озлобить, вероисповедание, ободрена, закупорить. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 3
         }
       ],
       "ruleSourceRefs": []
@@ -5393,6 +7515,99 @@
       ],
       "ruleSourceRefs": []
     },
+    "915C48": {
+      "sourceContentSha256": "3739b09fcb6fcd535e62ae175beb7f94f5739a772f0a67148e896053fde455ec",
+      "explanationSha256": "8c3f554c7ba46280cb1790eec75c0dafba45a315bc3592256c60bf26d7649796",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: прирученный, осведомиться, досуха, взяла, звонит. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "97F8EB": {
+      "sourceContentSha256": "8fe01d65ac89123c66085f09898f17103cffb84effbf1c814aadc2962072e8c2",
+      "explanationSha256": "588d6a05ea4bb78a2b8142b40da8eb596096f83e1a069ab020c731786c46c6b9",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: гражданство, повторенный, заняла, красивее, убрала. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "985484": {
+      "sourceContentSha256": "26ff459948f3b8ed5048eefae90589614575c7c6ef718a2aa8d885ba5f7da6d6",
+      "explanationSha256": "47f2d51b4488480ef72d9e99d226bf3f44623ae82d2c4ceae2a871629458f2a1",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: лгала, сливовый, свекла, лекторы, верна. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "9B2535": {
       "sourceContentSha256": "2861d14e8c010e8d618cd9c09ee0f07019fafc532e55b92a42cecc78ac701716",
       "explanationSha256": "5b17e7d3d68439eb71e53ce43538416ad6a12bcd0422f815017af0de67ba10dc",
@@ -5455,6 +7670,184 @@
       ],
       "ruleSourceRefs": []
     },
+    "9F6D86": {
+      "sourceContentSha256": "11caba9de14a09cac52e0e241d1c6990fc948665a16fd72432a100a4ee5afa43",
+      "explanationSha256": "1f11e2c84ffb19ac82d09d72f33bc04a53d06a8db3611447c4cbe46d7b48e17c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: документ, красивее, корысть, обогнала, верна. Различайте сравнительную, превосходную и краткую формы прилагательного. Проверьте ударение именно данной формы, а не только исходного прилагательного.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "A0403A": {
+      "sourceContentSha256": "7a21f17eea51ee868a3f3cfa8961e3eaf81ad3c8feee561118f1070af74b58b7",
+      "explanationSha256": "14a0a711cf00a3e7e80d6ffec0792f936a95317e76d4729c7496577e0a273bb0",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: отозвала, наверх, взяла, верна, аэропорты. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "A14C23": {
+      "sourceContentSha256": "7161f331652815cbea4cebb3003b7fa695bebc679685f7cb9b34953e725c072a",
+      "explanationSha256": "df0b723cacd1fd92228ee182952c7fbcff0f543785f6a4a20169a038da68b2db",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: отдав, обогнала, позвала, недуг, ногтя. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "A7B6EA": {
+      "sourceContentSha256": "f625b4eab9360c4a2c6781394d63c23b98af2aa191bc127256131886abb7d6c6",
+      "explanationSha256": "6320de3ba8e61c197494b0f2229ac65b75413e71777422f4d500d3643734c956",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: сверлит, позвала, донизу, недуг, позвонишь. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "A7FA5F": {
+      "sourceContentSha256": "b746de4161718810564a758dddd277569c503768c3201ce309f3e7f129a703fb",
+      "explanationSha256": "158c756c0c6e04069184005b99c17adce6dd20f6ad0bf5f2b0ef2a7b3189ab18",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: позвонишь, облегчить, недуг, налита, краны. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "A827D9": {
+      "sourceContentSha256": "a55aa17098135d4eec07bd705fd52157f01bc590959cab61c80415c766a9eb58",
+      "explanationSha256": "37efc7b05567825f3feb1513d88e1955189dcae46960b954f22ccd3825f38083",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: столяр, оптовый, щелкать, корысть, прибыв. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "AAE143": {
       "sourceContentSha256": "71faf9ab45d41987cfae8be5913c2ecc425bfbf44daf65dc18f9f231830641f0",
       "explanationSha256": "b1d1a6dc9cd3593de0d3e06b54a086338602f1e1cd5d37c00eb6aac412f3cf19",
@@ -5486,6 +7879,37 @@
       ],
       "ruleSourceRefs": []
     },
+    "AEB788": {
+      "sourceContentSha256": "8e22ab34468ced3e33acc34977a12f4ea36af9aba936ae53c4085675afd4e753",
+      "explanationSha256": "b6c04a30a454b9ec1bb0d1ede02fdaf77fae1cb4fb534312b75fdd5dbab94601",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: поняв, вероисповедание, торты, сливовый, доверху. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "B05882": {
       "sourceContentSha256": "5fe940981623bc0b33148774c575f23a00b223abd535542dcb54d1c3c9597877",
       "explanationSha256": "b564612aa506bbfe41dcd4eb0a943c628325ea0c80fd5dfa10fe0007e2566cd3",
@@ -5509,6 +7933,339 @@
         {
           "part": 4,
           "page": 3
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B22D89": {
+      "sourceContentSha256": "1e82f6bc8625d1d821ae85e6accb3a279d1aada58b0c7454ab83f645fdf0e61c",
+      "explanationSha256": "4f18cb838b0ae1c33a447f259f237430b006681910fb712937362cd5aee1f71e",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: начал, позвонишь, средства, поделенный, жалюзи. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B4814B": {
+      "sourceContentSha256": "f51be8bad364ef39ff0c6a5ce4174b62966d4841594e18307fc265cb5171e9c0",
+      "explanationSha256": "37bc785e72b9e20575687532c70e52b412a684ab35fb859bf1ecb206fe715ef1",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: осведомиться, вероисповедание, кухонный, добрала, накренится. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B6FBDF": {
+      "sourceContentSha256": "c98f443f582d5b6fd140dca10b4ba4ffeabd1b0278340c4a456ba5c69515672d",
+      "explanationSha256": "4fbb4a2c436d953d4277a18c4fd37120ef16c1363fb6621507131b931e79626d",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: согнутый, наврала, намерение, прозорлива, газопровод. Различайте сравнительную, превосходную и краткую формы прилагательного. Проверьте ударение именно данной формы, а не только исходного прилагательного.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B851D5": {
+      "sourceContentSha256": "379ee8beedf10bd3d0e2f5f0b10caf29da273adb30bb1df5997d6466208b5c1e",
+      "explanationSha256": "95413fa4e6adedfcd3a580f9b82432fe67f06a71a1b64a7d1be440fb43f351c4",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: обострить, откупорил, верна, донельзя, начав. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B8970E": {
+      "sourceContentSha256": "5c5fff40feb953570a39dd4df597f97a2c91aa6292188b508f847cfe9b0136ce",
+      "explanationSha256": "126fb053456202767d7a298dd4ab801c3803ce118a3eeb6199c023dbd35dc2a8",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: поняв, вероисповедание, торты, новостей, доверху. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B89AD3": {
+      "sourceContentSha256": "313e51cbba1b02cddea5b37bd0ff4f9c4a8ddbc9261a28cef6c60f0b85f10988",
+      "explanationSha256": "479a790a84ad153bb2ff2b7755fe838270960e9ed50fdc7852c7c438bd05b23e",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: верна, повторит, низведенный, газопровод, дозвонятся. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "B8B6F7": {
+      "sourceContentSha256": "46e7a905b99aaa01534da7847a2311b8b4eecb796ea210e119507d477e51270c",
+      "explanationSha256": "f57d52e0800f997b151457820966e957d4db33a0aee31398597899a28db848ec",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: дешевизна, ногтя, договоренность, верна, сливовый. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "BB5BA8": {
+      "sourceContentSha256": "bf7e0bf9bb28f255e69b9f2d192f3dac7293e4df41d657b2a0f331dab5b7cbfe",
+      "explanationSha256": "ab8b6c75b9fd3e91bff6953d8b64b138558fa2518832f9b950600ef1427fba82",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: значимый, взяла, загнутый, добрала, принудить. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "BC85F1": {
+      "sourceContentSha256": "a890ea3aa0da1892b1710b58357d3e8130bb47bd426bddead3aa18f3aa85786a",
+      "explanationSha256": "1180fc0cccd5a5e3ef3477baa1f9900eb1059725884aff5d40aa89876a106f6b",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: положил, откупорил, свекла, позвонишь, надорвалась. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "C26BDA": {
+      "sourceContentSha256": "72d13badd606734d833ebb99917e5de547fe56c4cf5b8f5b76ba8080b929dd70",
+      "explanationSha256": "b5833ce01f3faa9e37422e75bcb6381a06333a6dfede78cda6dde6cd91c76adc",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: прозорлива, углубить, опломбировать, шарфы, бороду. Различайте сравнительную, превосходную и краткую формы прилагательного. Проверьте ударение именно данной формы, а не только исходного прилагательного.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "C26F4B": {
+      "sourceContentSha256": "bed7053ab9c915e460e916781de7f1deace1c5136c2180b5a6b828d678b93851",
+      "explanationSha256": "02d02c95f9317d248958b1ce9afb795871490e0c42542bf0c27eb39a4db0163c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: окружит, отрочество, облегчит, отдала, позвонишь. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 4
         },
         {
           "part": 5,
@@ -5548,6 +8305,37 @@
       ],
       "ruleSourceRefs": []
     },
+    "C8CFE0": {
+      "sourceContentSha256": "d15537f00cb6f0f07248a987da1a45ab608a10a84e2aa948099b344b708cfdbd",
+      "explanationSha256": "34a39d8c75c877ff42d8eda0969c40fa788c8d9d715e4a15d8f2d5a3fa8672f6",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: кровоточащий, прибыв, добрала, накренится, верна. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "CACB9D": {
       "sourceContentSha256": "3b52858a0481c23ef8ca8d72e42abf9f535f16c1094732a0996d5a7da6fa4a39",
       "explanationSha256": "5aa442f5b2713dd5439847167c8e029f96400add0d62c503fd7f15ee98e7c7d7",
@@ -5575,6 +8363,68 @@
         {
           "part": 5,
           "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "CCCA97": {
+      "sourceContentSha256": "fc09cffa974150518277b0910f3c811c08396af4f11643dd4d6ca3ba84d4c444",
+      "explanationSha256": "bdb566cdd994ad99ba8dcd04717acdefa9ae926538543075be8ca22ba7bb18a5",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: значимость, поделенный, перезвонит, поняла, верна. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 1
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "CD2264": {
+      "sourceContentSha256": "81d6ee343dc67dabf2c93b46831a50a752915a52e065dbf2986883aefcde23be",
+      "explanationSha256": "2d41efd450ce91cf05e4b381bd23b17e61ce04ee6418bea7f300591b6cc32ab7",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: гналась, щемит, сливовый, звоним, низведен. У личных форм глагола определите лицо и число. Проверьте ударение основы и личного окончания; разговорное произношение может не совпадать с экзаменационной нормой.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
         }
       ],
       "ruleSourceRefs": []
@@ -5672,6 +8522,153 @@
       ],
       "ruleSourceRefs": []
     },
+    "CEEEFC": {
+      "sourceContentSha256": "2de3bafb8e4abd380eeca9764440b50abe35ed673aac476ee3e8a6cb635a5230",
+      "explanationSha256": "4017114a8da533b3bffcf0be1d06109be4b0ba7764978299335052b9eab23eaa",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: озлобить, красивее, прибыло, позвонишь, торты. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "D1C396": {
+      "sourceContentSha256": "cf74dae384e7072d0a2d5f8523c48f80c733656c58515d70aa5a30cf3996a8d6",
+      "explanationSha256": "f502cdaaf97aec9f0d6b9f2cfb49196d3d8add0dc04f3a66f6364364297e3fac",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: рвала, углубить, опломбировать, диспансер, верна. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "D3D11A": {
+      "sourceContentSha256": "3d4b5f51a982edb96ba1016f5a91607b1e5bc4d4010a3c6a250732f06d824496",
+      "explanationSha256": "53f2ea27dd09f3d3fc6e383cf3d8a7ed25434a4e317e2dcd8cba003f69b51f4c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: обостренный, сняла, начав, поделенный, позвонишь. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "D4F0CF": {
+      "sourceContentSha256": "19c07675457875f1fb61b93db9d10144f27cacd7dbf3201a75f73aa44b7eb9af",
+      "explanationSha256": "89811f015f1b67c3d2fb560829c76debda4ce4dde3868eb6e7177baa91ffbb6c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: завидно, дефис, плодоносить, бухгалтеров, донельзя. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "D882B0": {
+      "sourceContentSha256": "513fac2ddd5f0535d29c70a0db396462b4c49fd785ca85e312d8ae8df8f6fa22",
+      "explanationSha256": "1a79cc4f9c6159ccd4ec159589f82c6f369ec963ebd0c6cbe766e94421e1931e",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: занял, положил, верна, красивейший, закупорить. Различайте сравнительную, превосходную и краткую формы прилагательного. Проверьте ударение именно данной формы, а не только исходного прилагательного.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "D949E3": {
       "sourceContentSha256": "239b9e7db0ac486b3bb87b9740f894020f3d549c1a43bd60dc4f4b342b68a6d2",
       "explanationSha256": "a1825e76de65b361b10fd26c42045ff27df217ab8eb9a6b5ee151caa5cf98fc5",
@@ -5695,6 +8692,122 @@
         {
           "part": 4,
           "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "DAA9CB": {
+      "sourceContentSha256": "0243493ed1e5f35304e578d6173d2474a3f9b09ea57686e7e649181665bf435d",
+      "explanationSha256": "41da26b31f20c4d6b6fae9bfc9a5579a698b9ecfb78a1e8994967c7ef91bd77f",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: ловка, верна, налита, досуг, принял. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 4
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "DB4776": {
+      "sourceContentSha256": "d42ba47cfc1967a79a1de8f974a5789df5295778a385d06589ab72ef6bd0a695",
+      "explanationSha256": "9ca5e48979fbd0a75b4762230015fcf1b546fa006d0cbf7513fd5a8e68f9c613",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: позвонит, начавший, торты, наврала, вероисповедание. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "DB85C3": {
+      "sourceContentSha256": "c7d1131e4bafef3780b6265275371766337e44e695573283fc98234f7d8f2363",
+      "explanationSha256": "6fbaae859eaa57a8d454e6ec8f588d2409879b73421aaa948756168a7bdc2d51",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: оптовый, полила, добела, дешевизна, вероисповедание. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "DE0170": {
+      "sourceContentSha256": "09c1771928941dc35a8613a745d42deceb51ea0a0ba4ca5284b24f40e6369b43",
+      "explanationSha256": "f923481071e2cc86d7ee466668ed54acb0e6768dae3ed402f6bec4473063bdba",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: черпать, верна, брала, ловка, ненадолго. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 2
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 2
         },
         {
           "part": 5,
@@ -5734,6 +8847,68 @@
       ],
       "ruleSourceRefs": []
     },
+    "DF5743": {
+      "sourceContentSha256": "913a2d614a1b4880185d52f83bf521bd736e82a137ebb17629118d75f62b8f1c",
+      "explanationSha256": "4705a1df4a343c4f0d8441eaf805bfacb2564da8ad56e655ccdc84b20bae8dea",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: полила, начавший, вовремя, плодоносить, нарвала. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "DFE8C9": {
+      "sourceContentSha256": "e9464769e5041a8369e8de5fe80840536b34631d431a4c49d0e3f7e498d58438",
+      "explanationSha256": "43449d4b289d25ba53c5dc461e33e702f2e33a5824f9dd05a2a1cbdd97f2f804",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: отбыла, ненадолго, банты, щелкать, клала. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 3
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "E14EB6": {
       "sourceContentSha256": "fc5a861cfc77cb374ee424e7baee1c5f1d3d0050937f4b7e596e9eea81ce081b",
       "explanationSha256": "ac0193d6b7692496a53f020eaaf2ffd3475c1cf0d687e6d9517b1e3f698c3933",
@@ -5761,6 +8936,37 @@
         {
           "part": 5,
           "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "E32F82": {
+      "sourceContentSha256": "fde22d46b600465ff6e27fe55c5ef9300dfffcf654031d6157c1c21df550682b",
+      "explanationSha256": "5c8a0b6150ae034a80dd4c8ff11802956d48eeb6eb0b1684293e5edc26375f06",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: занята, согнутый, послала, позвонишь, сливовый. Различайте полную и краткую форму причастия, а также род. Для причастия ударение не обязано совпадать с инфинитивом; учитывайте и возможность записи е вместо ё.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 5
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 4
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
         }
       ],
       "ruleSourceRefs": []
@@ -5858,6 +9064,157 @@
       ],
       "ruleSourceRefs": []
     },
+    "E92465": {
+      "sourceContentSha256": "08de4865a40973f639073fda06366303a321d3385bb3016c61a16a3c0277e2b2",
+      "explanationSha256": "d0c3142393bc39738d1aca2f974b830fbba5e5c4555aa625532c2fd8387a129c",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, поделенный, значимость, прибыв, договоренность. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 5
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "EA05E1": {
+      "sourceContentSha256": "d117c46ebff8c5080a05dc02e9f596a05bf13c6ed5cc83c0190e9e72ba75997d",
+      "explanationSha256": "529a6e34a01978fc19be7b2c1c6560a91b2c25e33a7e5bd87cfc1866b80e7d89",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: позвонишь, нарвала, тортов, обогнала, портфель. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "EA06C4": {
+      "sourceContentSha256": "ab69b3dea42bbe3b19128d192487aa4bb92dfa3391b6eebd9be2e44ceadc22be",
+      "explanationSha256": "c4040b469373ef4eceb4d3f29f90ebbca8a49f46e1d56e7e45b7e920e2e83fa2",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: верна, облилась, краны, облегчить, начав. У существительных проверьте число и падеж. Само по себе множественное число не требует переноса ударения на окончание; формы разных падежей тоже могут различаться.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "EB9D54": {
+      "sourceContentSha256": "3af40c17750c1af6f65605f2a27f203b5ca141382240338b7aae350c657909ce",
+      "explanationSha256": "2bb8a40abf120db4aba9f72bfa3fc8e629bc11cd7426595913333dbede0a8194",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: лгала, наврала, подняв, оклеить, гражданство. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 4
+        },
+        {
+          "part": 5,
+          "page": 1
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "ED0E72": {
+      "sourceContentSha256": "091415eb7cda3429f3dba633b972e50e986a590f161a79d25df2c34509a90233",
+      "explanationSha256": "9b17effcbcdd7ecc54e3ffeec03e40979d67f165366d4509253728899fc5da43",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: обнялась, вручит, обогнала, дефис, верна. У форм прошедшего времени ударение зависит от конкретного глагола и рода. Не переносите его автоматически с инфинитива или с формы другого рода.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 3
+        },
+        {
+          "part": 2,
+          "page": 3
+        },
+        {
+          "part": 3,
+          "page": 3
+        },
+        {
+          "part": 4,
+          "page": 1
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
     "EFDBCF": {
       "sourceContentSha256": "93fd2efcf001b2e857e88ba2180a226e343298bc062b5b83f6b6de99f057df03",
       "explanationSha256": "f513c6d8694a2fb6d09bd7ecd23bb5a6a2ffc10b576215688b6c0a93d6705ccd",
@@ -5912,6 +9269,91 @@
         {
           "part": 4,
           "page": 4
+        },
+        {
+          "part": 5,
+          "page": 2
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "FD0C05": {
+      "sourceContentSha256": "a8549d9679b87fd3dc975ca500acbe1931eb02a95e0bcca1d0a75f31f638f3ca",
+      "explanationSha256": "5296765dd49bd176a71bfca54453dcf7f6b53edaf1cb2493643441104c11f577",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, наврала, верна, озлобить, занята. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 2
+        },
+        {
+          "part": 4,
+          "page": 3
+        },
+        {
+          "part": 5,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "FE8FF6": {
+      "sourceContentSha256": "ae412b6254cfc6becb838f4f18fc821cea54cff94b7c8e98c6deda102894b0db",
+      "explanationSha256": "621401f14a6211c3db43e2a909d67730d44803c236b03ae55b9a07ffd90b74fa",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: повторит, прирученный, начавший, засветло, исчерпать. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 4
+        },
+        {
+          "part": 2,
+          "page": 5
+        },
+        {
+          "part": 3,
+          "page": 5
+        },
+        {
+          "part": 4,
+          "page": 5
+        }
+      ],
+      "ruleSourceRefs": []
+    },
+    "FF49BF": {
+      "sourceContentSha256": "d9b07136bb98f7a8fe5da19b6da25b941e8736586df879d4b6f6ab0175295903",
+      "explanationSha256": "4ceeba771da19854f9a62b45bdcf554874c31831ad2adc91c307af4a44eb3012",
+      "explanationPublished": true,
+      "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: ловка, вероисповедание, жалюзи, дешевизна, недуг. Проверьте словарное ударение каждого слова: похожее написание или привычное разговорное произношение не доказывают норму.",
+      "dictionaryRefs": [],
+      "paronymPairIds": [],
+      "stressRefs": [
+        {
+          "part": 1,
+          "page": 2
+        },
+        {
+          "part": 2,
+          "page": 1
+        },
+        {
+          "part": 3,
+          "page": 1
+        },
+        {
+          "part": 4,
+          "page": 1
         },
         {
           "part": 5,
