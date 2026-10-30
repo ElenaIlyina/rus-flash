@@ -330,3 +330,57 @@ dialog form {
   border-top: 1px solid var(--line);
   padding-top: 20px;
 }
+
+.glossary-search {
+  margin-block: 28px;
+}
+.glossary-search label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.glossary-search input {
+  width: min(100%, 520px);
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+.stress-comparison {
+  padding-top: 22px;
+}
+.stress-comparison + .stress-comparison {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.stress-comparison p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+.stress-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  margin-block: 16px 0;
+}
+.stress-chips li {
+  padding: 8px 13px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 1.05rem;
+}
+.stress-chips b {
+  color: var(--accent);
+}
+.stress-chips small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.stress-glossary [hidden] {
+  display: none;
+}

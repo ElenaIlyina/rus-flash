@@ -168,3 +168,20 @@ export async function loadSourceParagraph(id) {
   if (!response.ok) throw new Error("Параграф источника недоступен.");
   return response.json();
 }
+
+let stressGlossaryPromise;
+export async function loadStressGlossary() {
+  if (!stressGlossaryPromise)
+    stressGlossaryPromise = fetch(new URL("stress-glossary.json", URL_ROOT))
+      .then((response) => {
+        if (!response.ok) throw new Error("Словарик ударений недоступен.");
+        return response.json();
+      })
+      .catch((error) => {
+        stressGlossaryPromise = null;
+        throw error;
+      });
+  return stressGlossaryPromise;
+}
+
+export const stressGlossaryTextUrl = new URL("stress-glossary.txt", URL_ROOT).href;

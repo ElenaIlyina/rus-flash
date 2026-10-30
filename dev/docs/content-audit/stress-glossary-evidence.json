@@ -1,0 +1,3429 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-30",
+  "scope": "All variants, corrected to reviewed stress, from all 114 stress cards. Same spelling/form occurs once. Evidence types inherit the explicitly recorded source limitations.",
+  "wordCount": 193,
+  "optionCount": 570,
+  "options": [
+    {
+      "wordId": "взялась",
+      "cardId": "011AA6",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "таможня",
+      "cardId": "011AA6",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "принять",
+      "cardId": "011AA6",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "заселенный",
+      "cardId": "011AA6",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "новостей",
+      "cardId": "011AA6",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "краны",
+      "cardId": "0E759D",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ободрен",
+      "cardId": "0E759D",
+      "part": 2,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "гналась",
+      "cardId": "0E759D",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "0E759D",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыв",
+      "cardId": "0E759D",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начавший",
+      "cardId": "11C9FF",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "11C9FF",
+      "part": 2,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "11C9FF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "клала",
+      "cardId": "11C9FF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кухонный",
+      "cardId": "11C9FF",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыло",
+      "cardId": "11F8AD",
+      "part": 1,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "откупорить",
+      "cardId": "11F8AD",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "11F8AD",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "11F8AD",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "11F8AD",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ногтей",
+      "cardId": "121C9D",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "новостей",
+      "cardId": "121C9D",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кремень",
+      "cardId": "121C9D",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прирученный",
+      "cardId": "121C9D",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "туфля",
+      "cardId": "121C9D",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "одолжит",
+      "cardId": "129CD6",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дождалась",
+      "cardId": "129CD6",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "довезенный",
+      "cardId": "129CD6",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "129CD6",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "129CD6",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "таможня",
+      "cardId": "1429A7",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кровоточить",
+      "cardId": "1429A7",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "локтя",
+      "cardId": "1429A7",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "принятый",
+      "cardId": "1429A7",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "положил",
+      "cardId": "1429A7",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "звонишь",
+      "cardId": "161E5E",
+      "part": 1,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "161E5E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обостренный",
+      "cardId": "161E5E",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сироты",
+      "cardId": "161E5E",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "загнутый",
+      "cardId": "161E5E",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дозировать",
+      "cardId": "16EC80",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бухгалтеров",
+      "cardId": "16EC80",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кровоточащий",
+      "cardId": "16EC80",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "16EC80",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "засветло",
+      "cardId": "16EC80",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "занял",
+      "cardId": "19A46A",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "19A46A",
+      "part": 2,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "19A46A",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "закупорить",
+      "cardId": "19A46A",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "довезенный",
+      "cardId": "19A46A",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "взялась",
+      "cardId": "1D6C06",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наживший",
+      "cardId": "1D6C06",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "1D6C06",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "жилось",
+      "cardId": "1D6C06",
+      "part": 4,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "отрочество",
+      "cardId": "1D6C06",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "местностей",
+      "cardId": "1F69B3",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "молящий",
+      "cardId": "1F69B3",
+      "part": 2,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "аэропорты",
+      "cardId": "1F69B3",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуг",
+      "cardId": "1F69B3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "квартал",
+      "cardId": "1F69B3",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поделенный",
+      "cardId": "27368C",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отдав",
+      "cardId": "27368C",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начав",
+      "cardId": "27368C",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "27368C",
+      "part": 4,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "кухонный",
+      "cardId": "27368C",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "загнутый",
+      "cardId": "2BF8A3",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "оптовый",
+      "cardId": "2BF8A3",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "добела",
+      "cardId": "2BF8A3",
+      "part": 3,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "2BF8A3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ободрена",
+      "cardId": "2BF8A3",
+      "part": 5,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "созыв",
+      "cardId": "2E758B",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "2E758B",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "2E758B",
+      "part": 3,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "щемит",
+      "cardId": "2E758B",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сверлит",
+      "cardId": "2E758B",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "снята",
+      "cardId": "31CB51",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "31CB51",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуха",
+      "cardId": "31CB51",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сосредоточение",
+      "cardId": "31CB51",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кралась",
+      "cardId": "31CB51",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыло",
+      "cardId": "32203B",
+      "part": 1,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "откупорить",
+      "cardId": "32203B",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "32203B",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "восприняла",
+      "cardId": "32203B",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ловка",
+      "cardId": "32203B",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "опломбировать",
+      "cardId": "3278D2",
+      "part": 1,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "корысть",
+      "cardId": "3278D2",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бороду",
+      "cardId": "3278D2",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "таможня",
+      "cardId": "3278D2",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "3278D2",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "создав",
+      "cardId": "333879",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кухонный",
+      "cardId": "333879",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наживший",
+      "cardId": "333879",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облилась",
+      "cardId": "333879",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отозвалась",
+      "cardId": "333879",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "347983",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "перелила",
+      "cardId": "347983",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегчит",
+      "cardId": "347983",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "заселена",
+      "cardId": "347983",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прирученный",
+      "cardId": "347983",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "гражданство",
+      "cardId": "34A537",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сверлит",
+      "cardId": "34A537",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "заняла",
+      "cardId": "34A537",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "34A537",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начав",
+      "cardId": "34A537",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "366012",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "согнутый",
+      "cardId": "366012",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "клала",
+      "cardId": "366012",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "защемит",
+      "cardId": "366012",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "366012",
+      "part": 5,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "эксперт",
+      "cardId": "37807F",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "торты",
+      "cardId": "37807F",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "осведомиться",
+      "cardId": "37807F",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыв",
+      "cardId": "37807F",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "принятый",
+      "cardId": "37807F",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "туфля",
+      "cardId": "39507B",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "39507B",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "доверху",
+      "cardId": "39507B",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лекторов",
+      "cardId": "39507B",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отрочество",
+      "cardId": "39507B",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "надолго",
+      "cardId": "3C988A",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "каталог",
+      "cardId": "3C988A",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "загнутый",
+      "cardId": "3C988A",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуг",
+      "cardId": "3C988A",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "3C988A",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "надорвалась",
+      "cardId": "3CEC0E",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "шарфы",
+      "cardId": "3CEC0E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "еретик",
+      "cardId": "3CEC0E",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "осведомишься",
+      "cardId": "3CEC0E",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "затемно",
+      "cardId": "3CEC0E",
+      "part": 5,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "дозвонятся",
+      "cardId": "3D42DF",
+      "part": 1,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "отозвала",
+      "cardId": "3D42DF",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сверлишь",
+      "cardId": "3D42DF",
+      "part": 3,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "цепочка",
+      "cardId": "3D42DF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "жилось",
+      "cardId": "3D42DF",
+      "part": 5,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "аэропорты",
+      "cardId": "3D5603",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "согнутый",
+      "cardId": "3D5603",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвала",
+      "cardId": "3D5603",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дефис",
+      "cardId": "3D5603",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "3D5603",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "черпать",
+      "cardId": "428BFF",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ненадолго",
+      "cardId": "428BFF",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "занял",
+      "cardId": "428BFF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "корысть",
+      "cardId": "428BFF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "428BFF",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "туфля",
+      "cardId": "42DC9B",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "опошлить",
+      "cardId": "42DC9B",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "42DC9B",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "углубить",
+      "cardId": "42DC9B",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прозорлива",
+      "cardId": "42DC9B",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лилась",
+      "cardId": "441E65",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "441E65",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "квартал",
+      "cardId": "441E65",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "441E65",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ободрала",
+      "cardId": "441E65",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "44BD0E",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "оптовый",
+      "cardId": "44BD0E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "44BD0E",
+      "part": 3,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "прибыв",
+      "cardId": "44BD0E",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "44BD0E",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "453385",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бухгалтеров",
+      "cardId": "453385",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отзыв",
+      "cardId": "453385",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "453385",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кремень",
+      "cardId": "453385",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "статуя",
+      "cardId": "458FEF",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "диспансер",
+      "cardId": "458FEF",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дешевизна",
+      "cardId": "458FEF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "458FEF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ловка",
+      "cardId": "458FEF",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "краны",
+      "cardId": "4E6E33",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "4E6E33",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуг",
+      "cardId": "4E6E33",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наверх",
+      "cardId": "4E6E33",
+      "part": 4,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "восприняла",
+      "cardId": "4E6E33",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "перелила",
+      "cardId": "51F287",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "снята",
+      "cardId": "51F287",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ободрить",
+      "cardId": "51F287",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "51F287",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "принял",
+      "cardId": "51F287",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ободрить",
+      "cardId": "52440A",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "доверху",
+      "cardId": "52440A",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "подняв",
+      "cardId": "52440A",
+      "part": 3,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "52440A",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "торты",
+      "cardId": "52440A",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "подняв",
+      "cardId": "53656E",
+      "part": 1,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "краны",
+      "cardId": "53656E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кормящий",
+      "cardId": "53656E",
+      "part": 3,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "обнялась",
+      "cardId": "53656E",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кровоточащий",
+      "cardId": "53656E",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бороду",
+      "cardId": "564F81",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "оптовый",
+      "cardId": "564F81",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвала",
+      "cardId": "564F81",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "согнутый",
+      "cardId": "564F81",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "564F81",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наделит",
+      "cardId": "564FC6",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "564FC6",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "окружит",
+      "cardId": "564FC6",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "снята",
+      "cardId": "564FC6",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "звоним",
+      "cardId": "564FC6",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "таможня",
+      "cardId": "5C069D",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "банты",
+      "cardId": "5C069D",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начал",
+      "cardId": "5C069D",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "5C069D",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обзвонит",
+      "cardId": "5C069D",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "5E2837",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "недуг",
+      "cardId": "5E2837",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "квартал",
+      "cardId": "5E2837",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "завидно",
+      "cardId": "5E2837",
+      "part": 4,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "заперла",
+      "cardId": "5E2837",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "61B25C",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "шарфы",
+      "cardId": "61B25C",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лекторы",
+      "cardId": "61B25C",
+      "part": 3,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "нарвала",
+      "cardId": "61B25C",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ногтя",
+      "cardId": "61B25C",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "каталог",
+      "cardId": "674D9C",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отбыла",
+      "cardId": "674D9C",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "674D9C",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "шарфы",
+      "cardId": "674D9C",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "674D9C",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "шарфы",
+      "cardId": "69E49F",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняла",
+      "cardId": "69E49F",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "жалюзи",
+      "cardId": "69E49F",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "69E49F",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуха",
+      "cardId": "69E49F",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "6A530E",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегченный",
+      "cardId": "6A530E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "закупорив",
+      "cardId": "6A530E",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "6A530E",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "нефтепровод",
+      "cardId": "6A530E",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "гражданство",
+      "cardId": "71187C",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "укрепит",
+      "cardId": "71187C",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "71187C",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лилась",
+      "cardId": "71187C",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "защемит",
+      "cardId": "71187C",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "738248",
+      "part": 1,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "озлобить",
+      "cardId": "738248",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "738248",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ободрена",
+      "cardId": "738248",
+      "part": 4,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "закупорить",
+      "cardId": "738248",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "7756B9",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "донельзя",
+      "cardId": "7756B9",
+      "part": 2,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "туфля",
+      "cardId": "7756B9",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "нефтепровод",
+      "cardId": "7756B9",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отрочество",
+      "cardId": "7756B9",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "значимость",
+      "cardId": "7E19AB",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегчит",
+      "cardId": "7E19AB",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "углубленный",
+      "cardId": "7E19AB",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "корысть",
+      "cardId": "7E19AB",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поручни",
+      "cardId": "7E19AB",
+      "part": 5,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "защемит",
+      "cardId": "8130C5",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бухгалтеров",
+      "cardId": "8130C5",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отзыв",
+      "cardId": "8130C5",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наживший",
+      "cardId": "8130C5",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кремень",
+      "cardId": "8130C5",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дешевизна",
+      "cardId": "828CBC",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "828CBC",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуха",
+      "cardId": "828CBC",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "черпать",
+      "cardId": "828CBC",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "еретик",
+      "cardId": "828CBC",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прирученный",
+      "cardId": "915C48",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "осведомиться",
+      "cardId": "915C48",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "досуха",
+      "cardId": "915C48",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "взяла",
+      "cardId": "915C48",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "звонит",
+      "cardId": "915C48",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "гражданство",
+      "cardId": "97F8EB",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "повторенный",
+      "cardId": "97F8EB",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "заняла",
+      "cardId": "97F8EB",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "97F8EB",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "убрала",
+      "cardId": "97F8EB",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лгала",
+      "cardId": "985484",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "985484",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "свекла",
+      "cardId": "985484",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лекторы",
+      "cardId": "985484",
+      "part": 4,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "985484",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "партер",
+      "cardId": "9B2535",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вручит",
+      "cardId": "9B2535",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "донельзя",
+      "cardId": "9B2535",
+      "part": 3,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "жалюзи",
+      "cardId": "9B2535",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начатый",
+      "cardId": "9B2535",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начавший",
+      "cardId": "9D14F3",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "9D14F3",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "доверху",
+      "cardId": "9D14F3",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "черпать",
+      "cardId": "9D14F3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "закупорив",
+      "cardId": "9D14F3",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "документ",
+      "cardId": "9F6D86",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "9F6D86",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "корысть",
+      "cardId": "9F6D86",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обогнала",
+      "cardId": "9F6D86",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "9F6D86",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отозвала",
+      "cardId": "A0403A",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наверх",
+      "cardId": "A0403A",
+      "part": 2,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "взяла",
+      "cardId": "A0403A",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "A0403A",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "аэропорты",
+      "cardId": "A0403A",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отдав",
+      "cardId": "A14C23",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обогнала",
+      "cardId": "A14C23",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвала",
+      "cardId": "A14C23",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "недуг",
+      "cardId": "A14C23",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ногтя",
+      "cardId": "A14C23",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сверлит",
+      "cardId": "A7B6EA",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвала",
+      "cardId": "A7B6EA",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "донизу",
+      "cardId": "A7B6EA",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "недуг",
+      "cardId": "A7B6EA",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "A7B6EA",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "A7FA5F",
+      "part": 1,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "облегчить",
+      "cardId": "A7FA5F",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "недуг",
+      "cardId": "A7FA5F",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "налита",
+      "cardId": "A7FA5F",
+      "part": 4,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "краны",
+      "cardId": "A7FA5F",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "столяр",
+      "cardId": "A827D9",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "оптовый",
+      "cardId": "A827D9",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "щелкать",
+      "cardId": "A827D9",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "корысть",
+      "cardId": "A827D9",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыв",
+      "cardId": "A827D9",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "локтя",
+      "cardId": "AAE143",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наделит",
+      "cardId": "AAE143",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кровоточить",
+      "cardId": "AAE143",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "снята",
+      "cardId": "AAE143",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "таможня",
+      "cardId": "AAE143",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "AEB788",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "AEB788",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "торты",
+      "cardId": "AEB788",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "AEB788",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "доверху",
+      "cardId": "AEB788",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вовремя",
+      "cardId": "B05882",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "краны",
+      "cardId": "B05882",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "пломбировать",
+      "cardId": "B05882",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бралась",
+      "cardId": "B05882",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "укрепит",
+      "cardId": "B05882",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начал",
+      "cardId": "B22D89",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "B22D89",
+      "part": 2,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "средства",
+      "cardId": "B22D89",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поделенный",
+      "cardId": "B22D89",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "жалюзи",
+      "cardId": "B22D89",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "осведомиться",
+      "cardId": "B4814B",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "B4814B",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кухонный",
+      "cardId": "B4814B",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "добрала",
+      "cardId": "B4814B",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "накренится",
+      "cardId": "B4814B",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "согнутый",
+      "cardId": "B6FBDF",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "B6FBDF",
+      "part": 2,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "намерение",
+      "cardId": "B6FBDF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прозорлива",
+      "cardId": "B6FBDF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "B6FBDF",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обострить",
+      "cardId": "B851D5",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "откупорил",
+      "cardId": "B851D5",
+      "part": 2,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "B851D5",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "донельзя",
+      "cardId": "B851D5",
+      "part": 4,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "начав",
+      "cardId": "B851D5",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "B8970E",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "B8970E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "торты",
+      "cardId": "B8970E",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "новостей",
+      "cardId": "B8970E",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "доверху",
+      "cardId": "B8970E",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "B89AD3",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "повторит",
+      "cardId": "B89AD3",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "низведенный",
+      "cardId": "B89AD3",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "B89AD3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дозвонятся",
+      "cardId": "B89AD3",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "дешевизна",
+      "cardId": "B8B6F7",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ногтя",
+      "cardId": "B8B6F7",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "договоренность",
+      "cardId": "B8B6F7",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "B8B6F7",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "B8B6F7",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "значимый",
+      "cardId": "BB5BA8",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "взяла",
+      "cardId": "BB5BA8",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "загнутый",
+      "cardId": "BB5BA8",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "добрала",
+      "cardId": "BB5BA8",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "принудить",
+      "cardId": "BB5BA8",
+      "part": 5,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "положил",
+      "cardId": "BC85F1",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "откупорил",
+      "cardId": "BC85F1",
+      "part": 2,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "свекла",
+      "cardId": "BC85F1",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "BC85F1",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "надорвалась",
+      "cardId": "BC85F1",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прозорлива",
+      "cardId": "C26BDA",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "углубить",
+      "cardId": "C26BDA",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "опломбировать",
+      "cardId": "C26BDA",
+      "part": 3,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "шарфы",
+      "cardId": "C26BDA",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бороду",
+      "cardId": "C26BDA",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "окружит",
+      "cardId": "C26F4B",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отрочество",
+      "cardId": "C26F4B",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегчит",
+      "cardId": "C26F4B",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отдала",
+      "cardId": "C26F4B",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "C26F4B",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "позвала",
+      "cardId": "C57D87",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "еретик",
+      "cardId": "C57D87",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегчит",
+      "cardId": "C57D87",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняв",
+      "cardId": "C57D87",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "донизу",
+      "cardId": "C57D87",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кровоточащий",
+      "cardId": "C8CFE0",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыв",
+      "cardId": "C8CFE0",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "добрала",
+      "cardId": "C8CFE0",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "накренится",
+      "cardId": "C8CFE0",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "C8CFE0",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "затемно",
+      "cardId": "CACB9D",
+      "part": 1,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "CACB9D",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кремень",
+      "cardId": "CACB9D",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ногтей",
+      "cardId": "CACB9D",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "цепочка",
+      "cardId": "CACB9D",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "значимость",
+      "cardId": "CCCA97",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поделенный",
+      "cardId": "CCCA97",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "перезвонит",
+      "cardId": "CCCA97",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поняла",
+      "cardId": "CCCA97",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "CCCA97",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "гналась",
+      "cardId": "CD2264",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "щемит",
+      "cardId": "CD2264",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "CD2264",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "звоним",
+      "cardId": "CD2264",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "низведен",
+      "cardId": "CD2264",
+      "part": 5,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "вовремя",
+      "cardId": "CD6F3D",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лгала",
+      "cardId": "CD6F3D",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "пломбировать",
+      "cardId": "CD6F3D",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвала",
+      "cardId": "CD6F3D",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "укрепит",
+      "cardId": "CD6F3D",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "CE3CB3",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегчит",
+      "cardId": "CE3CB3",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "приданое",
+      "cardId": "CE3CB3",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "добралась",
+      "cardId": "CE3CB3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "газопровод",
+      "cardId": "CE3CB3",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "низведенный",
+      "cardId": "CEC4CA",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начавшись",
+      "cardId": "CEC4CA",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "CEC4CA",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "иксы",
+      "cardId": "CEC4CA",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "снята",
+      "cardId": "CEC4CA",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "озлобить",
+      "cardId": "CEEEFC",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "CEEEFC",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыло",
+      "cardId": "CEEEFC",
+      "part": 3,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "CEEEFC",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "торты",
+      "cardId": "CEEEFC",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "рвала",
+      "cardId": "D1C396",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "углубить",
+      "cardId": "D1C396",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "опломбировать",
+      "cardId": "D1C396",
+      "part": 3,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "диспансер",
+      "cardId": "D1C396",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "D1C396",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обостренный",
+      "cardId": "D3D11A",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "сняла",
+      "cardId": "D3D11A",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начав",
+      "cardId": "D3D11A",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поделенный",
+      "cardId": "D3D11A",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "D3D11A",
+      "part": 5,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "завидно",
+      "cardId": "D4F0CF",
+      "part": 1,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "дефис",
+      "cardId": "D4F0CF",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "плодоносить",
+      "cardId": "D4F0CF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бухгалтеров",
+      "cardId": "D4F0CF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "донельзя",
+      "cardId": "D4F0CF",
+      "part": 5,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "занял",
+      "cardId": "D882B0",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "положил",
+      "cardId": "D882B0",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "D882B0",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивейший",
+      "cardId": "D882B0",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "закупорить",
+      "cardId": "D882B0",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "накренятся",
+      "cardId": "D949E3",
+      "part": 1,
+      "evidenceType": "listed_personal_form_application"
+    },
+    {
+      "wordId": "начал",
+      "cardId": "D949E3",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "аэропорты",
+      "cardId": "D949E3",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "озлобить",
+      "cardId": "D949E3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "заселенный",
+      "cardId": "D949E3",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ловка",
+      "cardId": "DAA9CB",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "DAA9CB",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "налита",
+      "cardId": "DAA9CB",
+      "part": 3,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "досуг",
+      "cardId": "DAA9CB",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "принял",
+      "cardId": "DAA9CB",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонит",
+      "cardId": "DB4776",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начавший",
+      "cardId": "DB4776",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "торты",
+      "cardId": "DB4776",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "DB4776",
+      "part": 4,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "DB4776",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "оптовый",
+      "cardId": "DB85C3",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "полила",
+      "cardId": "DB85C3",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "добела",
+      "cardId": "DB85C3",
+      "part": 3,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "дешевизна",
+      "cardId": "DB85C3",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "DB85C3",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "черпать",
+      "cardId": "DE0170",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "DE0170",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "брала",
+      "cardId": "DE0170",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ловка",
+      "cardId": "DE0170",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ненадолго",
+      "cardId": "DE0170",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "приданое",
+      "cardId": "DF4F14",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "оптовый",
+      "cardId": "DF4F14",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "щелкать",
+      "cardId": "DF4F14",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вовремя",
+      "cardId": "DF4F14",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "звонишь",
+      "cardId": "DF4F14",
+      "part": 5,
+      "evidenceType": "listed_personal_form_application"
+    },
+    {
+      "wordId": "полила",
+      "cardId": "DF5743",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начавший",
+      "cardId": "DF5743",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вовремя",
+      "cardId": "DF5743",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "плодоносить",
+      "cardId": "DF5743",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "нарвала",
+      "cardId": "DF5743",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "отбыла",
+      "cardId": "DFE8C9",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ненадолго",
+      "cardId": "DFE8C9",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "банты",
+      "cardId": "DFE8C9",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "щелкать",
+      "cardId": "DFE8C9",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "клала",
+      "cardId": "DFE8C9",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "еретик",
+      "cardId": "E14EB6",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "мозаичный",
+      "cardId": "E14EB6",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "доверху",
+      "cardId": "E14EB6",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "черпать",
+      "cardId": "E14EB6",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прирученный",
+      "cardId": "E14EB6",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "занята",
+      "cardId": "E32F82",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "согнутый",
+      "cardId": "E32F82",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "послала",
+      "cardId": "E32F82",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "E32F82",
+      "part": 4,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "сливовый",
+      "cardId": "E32F82",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "шофер",
+      "cardId": "E3F954",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "ненадолго",
+      "cardId": "E3F954",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "послала",
+      "cardId": "E3F954",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "жалюзи",
+      "cardId": "E3F954",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "намерение",
+      "cardId": "E3F954",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "клеить",
+      "cardId": "E47C9F",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "рвала",
+      "cardId": "E47C9F",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "закупорив",
+      "cardId": "E47C9F",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "E47C9F",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "еретик",
+      "cardId": "E47C9F",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "клеить",
+      "cardId": "E5DF39",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "рвала",
+      "cardId": "E5DF39",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "закупорив",
+      "cardId": "E5DF39",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "красивее",
+      "cardId": "E5DF39",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "еретик",
+      "cardId": "E5DF39",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "исчерпать",
+      "cardId": "E92465",
+      "part": 1,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "поделенный",
+      "cardId": "E92465",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "значимость",
+      "cardId": "E92465",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прибыв",
+      "cardId": "E92465",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "договоренность",
+      "cardId": "E92465",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "позвонишь",
+      "cardId": "EA05E1",
+      "part": 1,
+      "evidenceType": "personal_form_from_list"
+    },
+    {
+      "wordId": "нарвала",
+      "cardId": "EA05E1",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "тортов",
+      "cardId": "EA05E1",
+      "part": 3,
+      "evidenceType": "grammatical_form_from_list"
+    },
+    {
+      "wordId": "обогнала",
+      "cardId": "EA05E1",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "портфель",
+      "cardId": "EA05E1",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "EA06C4",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облилась",
+      "cardId": "EA06C4",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "краны",
+      "cardId": "EA06C4",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "облегчить",
+      "cardId": "EA06C4",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начав",
+      "cardId": "EA06C4",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лгала",
+      "cardId": "EB9D54",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "EB9D54",
+      "part": 2,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "подняв",
+      "cardId": "EB9D54",
+      "part": 3,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "оклеить",
+      "cardId": "EB9D54",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "гражданство",
+      "cardId": "EB9D54",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обнялась",
+      "cardId": "ED0E72",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вручит",
+      "cardId": "ED0E72",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "обогнала",
+      "cardId": "ED0E72",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дефис",
+      "cardId": "ED0E72",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "ED0E72",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "поручни",
+      "cardId": "EFDBCF",
+      "part": 1,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "принятый",
+      "cardId": "EFDBCF",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "кашлянуть",
+      "cardId": "EFDBCF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "рвала",
+      "cardId": "EFDBCF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "звонит",
+      "cardId": "EFDBCF",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "заселенный",
+      "cardId": "EFFBAA",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "пломбировать",
+      "cardId": "EFFBAA",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "бралась",
+      "cardId": "EFFBAA",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "послала",
+      "cardId": "EFFBAA",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "лекторов",
+      "cardId": "EFFBAA",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "исчерпать",
+      "cardId": "FD0C05",
+      "part": 1,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "наврала",
+      "cardId": "FD0C05",
+      "part": 2,
+      "evidenceType": "excluded_word_historical"
+    },
+    {
+      "wordId": "верна",
+      "cardId": "FD0C05",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "озлобить",
+      "cardId": "FD0C05",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "занята",
+      "cardId": "FD0C05",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "повторит",
+      "cardId": "FE8FF6",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прирученный",
+      "cardId": "FE8FF6",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "начавший",
+      "cardId": "FE8FF6",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "засветло",
+      "cardId": "FE8FF6",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "исчерпать",
+      "cardId": "FE8FF6",
+      "part": 5,
+      "evidenceType": "verified_fipi_option"
+    },
+    {
+      "wordId": "ловка",
+      "cardId": "FF49BF",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "вероисповедание",
+      "cardId": "FF49BF",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "жалюзи",
+      "cardId": "FF49BF",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дешевизна",
+      "cardId": "FF49BF",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "недуг",
+      "cardId": "FF49BF",
+      "part": 5,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прирученный",
+      "cardId": "FFFE6E",
+      "part": 1,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "повторит",
+      "cardId": "FFFE6E",
+      "part": 2,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "наживший",
+      "cardId": "FFFE6E",
+      "part": 3,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "дешевизна",
+      "cardId": "FFFE6E",
+      "part": 4,
+      "evidenceType": "listed_word"
+    },
+    {
+      "wordId": "прозорлива",
+      "cardId": "FFFE6E",
+      "part": 5,
+      "evidenceType": "listed_word"
+    }
+  ]
+}

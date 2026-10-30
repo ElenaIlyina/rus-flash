@@ -13,6 +13,7 @@ from exam_2027 import mapping, text
 from handbook_fb2 import read_handbook, apply_errata
 from dictionary_data import load_sources, public_ref
 from paronym_inventory import inventory as paronym_inventory
+from stress_glossary import validate_glossary, glossary_text
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'html/assets/data'
@@ -63,6 +64,9 @@ def main():
         if hashlib.sha256(source.read_bytes()).hexdigest()!=digest:
             raise ValueError('Word-list source checksum mismatch')
         shutil.copyfile(source,OUT/output_name)
+    glossary = validate_glossary(read('data/knowledge/stress-glossary.json'), cards, mapping, text)
+    write(OUT/'stress-glossary.json', glossary)
+    (OUT/'stress-glossary.txt').write_text(glossary_text(glossary), encoding='utf-8')
     dictionary_out = OUT/'dictionaries'
     dictionary_out.mkdir()
     for sid,source in sources.items():
