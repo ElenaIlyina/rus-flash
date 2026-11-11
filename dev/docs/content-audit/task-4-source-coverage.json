@@ -104,6 +104,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "ободрЁн",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -274,6 +280,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "прИбыло",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -961,6 +973,12 @@
             "sameCardAsReviewed": true,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "молЯщий",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -1140,6 +1158,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "добелА",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -1167,6 +1191,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "ободренА",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         }
       ],
@@ -1378,6 +1408,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "прИбыло",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -1472,6 +1508,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "опломбировАть",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -2923,6 +2965,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "навЕрх",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -3521,6 +3569,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "завИдно",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -3596,6 +3650,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "лЕкторы",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -4030,6 +4090,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "ободренА",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -4586,6 +4652,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "лЕкторы",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -4901,6 +4973,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "навЕрх",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -5183,6 +5261,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "налитА",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -5825,6 +5909,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "откУпорил",
+            "status": "indirect_paradigm_only",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -6198,6 +6288,12 @@
             "sameCardAsReviewed": true,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "принУдить",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         }
       ],
@@ -6257,6 +6353,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "откУпорил",
+            "status": "indirect_paradigm_only",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -6365,6 +6467,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "опломбировАть",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -6879,6 +6987,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "низведЁн",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         }
       ],
@@ -7183,6 +7297,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "прИбыло",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -7283,6 +7403,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "опломбировАть",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -7444,6 +7570,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "завИдно",
+            "status": "exact_form_read",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -7708,6 +7840,12 @@
             "sameCardAsReviewed": true,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "налитА",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -7879,6 +8017,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "добелА",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -8673,6 +8817,12 @@
             "sameCardAsReviewed": true,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "исчЕрпать",
+            "status": "source_disagreement_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -8778,6 +8928,12 @@
             "guidancePage": 6,
             "exactFormPrinted": false,
             "inferenceScope": "Reviewed stress-preserving grammatical form; page 6 permits other forms, but does not by itself prove this paradigm."
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "тОртов",
+            "status": "variant_scope_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -9259,6 +9415,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "исчЕрпать",
+            "status": "source_disagreement_pending",
+            "reviewDate": "2026-11-04"
           }
         },
         {
@@ -9379,6 +9541,12 @@
             "sameCardAsReviewed": false,
             "basis": "All non-answer options in the one-error form, or keyed correct options in the multiple-correct form; source answer accepted by FIPI.",
             "protocolLedger": "dev/data/fipi-results/merged-ledger.json"
+          },
+          "dictionaryCrosscheck": {
+            "report": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+            "form": "исчЕрпать",
+            "status": "source_disagreement_pending",
+            "reviewDate": "2026-11-04"
           }
         }
       ],

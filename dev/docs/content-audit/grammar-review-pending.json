@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-10",
+  "policy": "Every task-8 explanation has been rewritten. Remaining pending reviews separate four confirmed matches from one unresolved historical-key assignment. Original conditions and keys remain unchanged; no universal prohibition is inferred from a key.",
+  "cards": [
+    {
+      "id": "0C92F7",
+      "sentence": 2,
+      "reason": "Нужно точное основание для запрета «чувствовал то, как…» именно в этом контексте; избыточность указательного слова не выводится из общего описания СПП.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "ffb2e646c0b654d3ca72c081f09188dd4b0eaa818ce299c373f71d5e57ebac4b"
+    },
+    {
+      "id": "0D3499",
+      "sentence": 1,
+      "reason": "Числовое расхождение подлежащего и именного сказуемого не всегда нарушает норму. Нужен источник для оценки именно «Идея … — главные идеи…», без распространения запрета на все именные сказуемые.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "df461ad6b3e99563f3fe44b2dc5a00a8f7c2f5f238165f8e4680362fe316abe8"
+    },
+    {
+      "id": "1A8A12",
+      "sentence": 4,
+      "reason": "Причастие «требовавшие» формально согласовано с «пьесы», но отдалено от него. Дистантное обособленное определение бывает нормативным; требуется разбор конкретной конструкции, а не общий запрет удаления.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "2a048314f516e822a916792bc5d0579264360650968fa82fcd1e56790a3ba981"
+    },
+    {
+      "id": "321FC1",
+      "sentence": 1,
+      "reason": "Нужно проверить статус «установили то, что…» в данном контексте, а не объявлять любое указательное ТО перед ЧТО ошибкой.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "d6d96a34cf100d70a801b38d961a0368866865bc1517bf2ef44ad7832c4adafd"
+    },
+    {
+      "id": "42A4FE",
+      "sentence": 1,
+      "reason": "Нужно предметное основание для оценки «узнать то, как…»; общая возможность убрать ТО ещё не является доказательством грамматического нарушения.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "b8e5773698c87836eaef19c9ee38cca8901c7923171656fafd544b93f1671e27"
+    },
+    {
+      "id": "55C0E8",
+      "sentence": 2,
+      "reason": "Причастие «собравшихся» по форме может относиться к «делегатов». Требуется доказать ошибочность именно этого удаления через сказуемое; само по себе расстояние между именем и определением недостаточно.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "424076b0d04533e607954a905377eed817de93b4ac45ba2b7ca32dc6268d64e6"
+    },
+    {
+      "id": "706C1F",
+      "sentence": 2,
+      "reason": "Причастие «собравшихся» по форме может относиться к «делегатов». Требуется доказать ошибочность именно этого удаления через сказуемое; само по себе расстояние между именем и определением недостаточно.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "c9b19ebf81934caf6b7f31a23a72b71e6e76ed1242c362a3b1f75046fbb11a6a"
+    },
+    {
+      "id": "B86137",
+      "sentence": 1,
+      "reason": "Нужно точное основание для запрета «чувствовал то, как…» именно в этом контексте; избыточность указательного слова не выводится из общего описания СПП.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "87541ab691ab5ed4f12bc076b149d7af0db748d288f904d908ecab74a43ab717"
+    },
+    {
+      "id": "BD75A1",
+      "sentence": 7,
+      "reason": "Нужно проверить семантику исполнителя «нарушив его зимнюю спячку»: формально подлежащее «медведь» совпадает с исполнителем оборота, но вероятное намерение — приписать нарушение спячки грохоту. Один общий запрет разных исполнителей этого случая не доказывает.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "04748e0da19169eae349aa985c4c454e0945418d63544504d83abee2a6b84d84"
+    },
+    {
+      "id": "BF989E",
+      "sentence": 8,
+      "reason": "«Возникающие» согласовано с «нефтяные загрязнения», но отдалено от них сказуемым и зависимыми группами. Нужен контекстный нормативный разбор; §46 допускает удалённые обособленные определения.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "f1889b675b7379b509372995e49feddd3bf4cad1220a300ced947e2464d4470f"
+    },
+    {
+      "id": "C1871C",
+      "sentence": 1,
+      "reason": "Нужно точное основание для запрета «чувствовал то, как…» именно в этом контексте; избыточность указательного слова не выводится из общего описания СПП.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "9a3905c1feeb5d7f9d89b1fc970b1d8d2be40cfeb37c95dc40fc6688d6c3c609"
+    },
+    {
+      "id": "C1EB4C",
+      "sentence": 8,
+      "reason": "«Возникающие» согласовано с «нефтяные загрязнения», но отдалено от них сказуемым и зависимыми группами. Нужен контекстный нормативный разбор; §46 допускает удалённые обособленные определения.",
+      "status": "new_explanation_requires_source_review",
+      "sourceContentSha256": "2e45ad30720588e6e4281103acc0384757c52bf8ba95bff2fbfc2511c9079ed5"
+    }
+  ],
+  "primaryEvidence": [
+    {
+      "id": "gramota-correlative-to",
+      "url": "https://gramota.ru/spravka/vopros/321619",
+      "textSha256": "604bb72904da640ed3a6cb2b1e923c5b677ec1989de1fd2087928d38a5673403",
+      "method": "section_text_read",
+      "scope": "Допустимость соотносительного ТО и различие между недочётом и грамматической ошибкой; не готовое заключение обо всех восьми конкретных предложениях."
+    },
+    {
+      "id": "lopatin-2007-punctuation-46",
+      "textSha256": "254d5b9b7d21bcfa138899a97e4a102f827afb32a7ddf2b6dc5512f138d14d9c",
+      "method": "paragraph_text_read",
+      "scope": "Пункт 3 прямо предусматривает обособление определения, отделённого от имени другими членами. Удаление само по себе не является достаточным основанием считать оборот ошибочным."
+    }
+  ],
+  "unreadCards": 0,
+  "freshlyRewrittenCards": 73,
+  "readyCards": 61,
+  "requiresSourceReview": 12,
+  "additionalReferenceReview": {
+    "reviewDate": "2026-11-10",
+    "inventory": "materials-new-inventory.json",
+    "sourceIds": [
+      "local-new-f1b418d4405f5de9",
+      "local-new-f8288b3401ad1fa8"
+    ],
+    "outcome": "15 unresolved assignments retained; no card explanation or answer changed in this pass"
+  },
+  "resolvedAssignments": [
+    {
+      "id": "4ED72E",
+      "sentence": 2,
+      "sourceContentSha256": "015f8b3ad4360ca2bd3097b542d26f7b80ac6fedc63fa01c8e012d48baa61f83",
+      "resolvedAt": "2026-11-10",
+      "sourceId": "glazunova-2010-correlative",
+      "textSha256": "ea2c0410f8ae9e9af28940403f8bb09423c878708a4a95f5adb7cf39a8128d14",
+      "basis": "Table 1: видеть, что; что is a conjunction because автор изменил стиль письма has its own object. Applied to aspectual увидел in the meaning of discovering a fact. Relative-object construction explicitly distinguished.",
+      "scope": "source_supported_editorial_analysis; no independent teacher acceptance claimed"
+    },
+    {
+      "id": "8C2046",
+      "sentence": 2,
+      "sourceContentSha256": "885b89cac9b3e8ac4b922c117f6da03def5058802a98d433d6ddfd453501b597",
+      "resolvedAt": "2026-11-10",
+      "sourceId": "glazunova-2010-correlative",
+      "textSha256": "ea2c0410f8ae9e9af28940403f8bb09423c878708a4a95f5adb7cf39a8128d14",
+      "basis": "Table 1: видеть, что; что is a conjunction because автор изменил стиль письма has its own object. Applied to aspectual увидел in the meaning of discovering a fact. Relative-object construction explicitly distinguished.",
+      "scope": "source_supported_editorial_analysis; no independent teacher acceptance claimed"
+    },
+    {
+      "id": "D9E1DD",
+      "sentence": 2,
+      "sourceContentSha256": "1c68988db0f96504a3b16b4007006a678f8efc6ebfe9e4ac190e7af50fb4ce83",
+      "resolvedAt": "2026-11-10",
+      "sourceId": "letuchiy-2022-mental-to",
+      "textSha256": "3a8e11a3f7f0dd7509b0500cb00373d8c07dd08a5c605a5d518bfc2bb6d5dc2b",
+      "basis": "Section 8.4, examples 121–124, printed p.233 / PDF 24: simple opinion clause after считать distinguished from secondary predication. No secondary evaluation present in the card.",
+      "scope": "source_supported_editorial_analysis; no independent teacher acceptance claimed"
+    }
+  ],
+  "remainingGroups": [
+    {
+      "kind": "correlative_to",
+      "cards": [
+        "0C92F7",
+        "B86137",
+        "C1871C",
+        "321FC1",
+        "42A4FE"
+      ],
+      "nextEvidence": "Проверить управление именно чувствовать + КАК, узнать + косвенный вопрос КАК, установить + союз ЧТО; модель видеть, что на эти случаи автоматически не переносить."
+    },
+    {
+      "kind": "distant_participle",
+      "cards": [
+        "1A8A12",
+        "55C0E8",
+        "706C1F",
+        "BF989E",
+        "C1EB4C"
+      ],
+      "nextEvidence": "Проверить допустимость конкретного порядка слов и однозначность связи в §98 Практической стилистики; само удаление и совпадение с ключом не доказательства."
+    },
+    {
+      "kind": "nominal_predicate",
+      "cards": [
+        "0D3499"
+      ],
+      "nextEvidence": "Оценить конкретную предикацию «идея — главные идеи» с учётом обратного согласования."
+    },
+    {
+      "kind": "gerund_semantics",
+      "cards": [
+        "BD75A1"
+      ],
+      "nextEvidence": "Разграничить грамматического исполнителя и семантическую причину нарушения спячки; проверить референцию его."
+    }
+  ],
+  "targetedRecheck": {
+    "date": "2026-11-10",
+    "cards": 12,
+    "distinctSentences": 8,
+    "result": "All remaining sentences reread. No further status closed: general rules do not independently settle these contexts. Keys and card explanations unchanged in this pass.",
+    "report": "grammar-disputed-cases.md",
+    "additionalReading": [
+      {
+        "sourceId": "local-new-f8288b3401ad1fa8",
+        "printedPage": 334,
+        "pdfPage": 335,
+        "method": "ocr_then_rendered_page_read",
+        "ocrSha256": "53d04efe5ff37832e7aebe80a1f5e288fcf684d89d2b3dd32cb1c1e1289578c4",
+        "scope": "Section 98 points 5–6: agreement ambiguity and prohibition on inserting the defined noun inside the participial phrase. Does not state a universal ban on separated definitions."
+      }
+    ],
+    "liveRecheckedUrls": [
+      "https://gramota.ru/spravka/vopros/321619",
+      "https://gramota.ru/spravka/vopros/318212"
+    ]
+  }
+}

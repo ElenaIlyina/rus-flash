@@ -10,14 +10,15 @@
       "sourceExcerpt": "более ДВЕ тысяч человек",
       "correctedExcerpt": "более двух тысяч человек",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "два",
         "более",
         "больше"
       ],
       "sourceContentSha256": "bfb221bacbad35131d8546949922719c46bccb3b44d8f0fe13f7915d17c6c21d",
-      "formatSyncPreviousSourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77"
+      "formatSyncPreviousSourceContentSha256": "ec783ee22dbf8ae3a4f88271ed3ce59c411b1ddeaef3c7e8a052d6453a687b77",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "0BB6E7",
@@ -87,13 +88,14 @@
       "sourceExcerpt": "молодые БУХГАЛТЕРА",
       "correctedExcerpt": "молодые бухгалтеры",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "бухгалтер",
         "повар"
       ],
       "sourceContentSha256": "d1054d0929d6f7ce3d3a058b38cd02c0552a42ae2d2d580a6fddafe20e9002b1",
-      "formatSyncPreviousSourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1"
+      "formatSyncPreviousSourceContentSha256": "1c48feb013eb356f9da4df3da87fc850a2fe88cbaa8a360fa8ed4284dc84b2c1",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "247443",
@@ -118,12 +120,13 @@
       "sourceExcerpt": "ВЫИГРАВШИЙСЯ приз",
       "correctedExcerpt": "выигравший приз",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "выиграть"
       ],
       "sourceContentSha256": "bc6aea221b2c2d801dd08e023769ded0efea1de4b2d2456f0a1e01034ead12d4",
-      "formatSyncPreviousSourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6"
+      "formatSyncPreviousSourceContentSha256": "1cd67406a0108a9fbedccb10363d04311f3de27fdb46904733c79b7d0990bae6",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "2850E4",
@@ -163,12 +166,13 @@
       "sourceExcerpt": "свежие ТОРТА",
       "correctedExcerpt": "свежие торты",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "торт"
       ],
       "sourceContentSha256": "ffa35c491e0a946940b5bbffe3ea1b84b241b1da1f285d0b4defbdde65dae9f9",
-      "formatSyncPreviousSourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02"
+      "formatSyncPreviousSourceContentSha256": "ba5914073931987ecafeb041faa7fa17ce1921870968db4b7c50bfc0e0428f02",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "2B1518",
@@ -193,13 +197,14 @@
       "sourceExcerpt": "голос более ЗВУЧНЕЕ",
       "correctedExcerpt": "голос более звучный",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "более",
         "звучный"
       ],
       "sourceContentSha256": "b026db9acb5e9270b503f1a3e7a16079c317e8e4784c5f7d384475af7e235a6a",
-      "formatSyncPreviousSourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5"
+      "formatSyncPreviousSourceContentSha256": "71b3179bc21eac6fea91c8672dc3becb564c7bfd1f8627deb73516ad057efaa5",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "2F7CFF",
@@ -224,13 +229,14 @@
       "sourceExcerpt": "прыгал более ВЫШЕ",
       "correctedExcerpt": "прыгал более высоко",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "более",
         "высокий"
       ],
       "sourceContentSha256": "eff0cedf97378a56d40b948399afde7ba31d272deb2348167bc577aba84f8ea6",
-      "formatSyncPreviousSourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674"
+      "formatSyncPreviousSourceContentSha256": "65c13c3188ab1b3c56399004828e943107ecde5dd304d78153e962ca322af674",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "32E17B",
@@ -272,13 +278,14 @@
       "sourceExcerpt": "он более УГРЮМЕЕ",
       "correctedExcerpt": "он более угрюмый",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "более",
         "угрюмый"
       ],
       "sourceContentSha256": "174754f17a55fbb03e00bc64bf3cfc99e3910af65d45ae220b11f2580da09db6",
-      "formatSyncPreviousSourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51"
+      "formatSyncPreviousSourceContentSha256": "b4174b85176b5594196e4906e4bc0c252c789a7bf7c67dbb0d0c686e76ae1a51",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "4B38A8",
@@ -288,14 +295,15 @@
       "sourceExcerpt": "более ДВЕ тысяч человек",
       "correctedExcerpt": "более двух тысяч человек",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "два",
         "более",
         "больше"
       ],
       "sourceContentSha256": "9d11d83b8723a3574cacc1d871bebcb17e84d4634d408c80dc9b314f4a4fbc54",
-      "formatSyncPreviousSourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b"
+      "formatSyncPreviousSourceContentSha256": "b86f5d5f04ef27d969abffbb679b6021eb1378408198137576105d007af2453b",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "521887",
@@ -305,13 +313,14 @@
       "sourceExcerpt": "он более УГРЮМЕЕ",
       "correctedExcerpt": "он более угрюмый",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "более",
         "угрюмый"
       ],
       "sourceContentSha256": "e9daf0b7798b6258b496eb0240b3febffcb123cb963fcbbdcd3df66dd6aaa223",
-      "formatSyncPreviousSourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350"
+      "formatSyncPreviousSourceContentSha256": "94b134b2c6de38b6d262d3df2d0287c2c96ce6c9ce6f93ee40f054cf41a4e350",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "56EC13",
@@ -366,14 +375,15 @@
       "sourceExcerpt": "к ДВУХ тысячи двадцать первому году",
       "correctedExcerpt": "к две тысячи двадцать первому году",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "два",
         "порядковый",
         "числительное"
       ],
       "sourceContentSha256": "9f9640738f66a06f90d69b93427ba5d7a8ba44cd212511fa3b57b1cd21c5d220",
-      "formatSyncPreviousSourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3"
+      "formatSyncPreviousSourceContentSha256": "4892f5aecb5e9f754b758ba923ebf4ad51222663519c99301b802227a24456d3",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "617D1E",
@@ -383,12 +393,13 @@
       "sourceExcerpt": "по ОБОИМ сторонам",
       "correctedExcerpt": "по обеим сторонам",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "оба"
       ],
       "sourceContentSha256": "b63ddc76f6e76a2a4d66ba0c8356d0bc539470ea5235b9b0c4795d330536a7a7",
-      "formatSyncPreviousSourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc"
+      "formatSyncPreviousSourceContentSha256": "593874498e00635353e5713edc0289b2bd2b53e7dd5c018090fc7a60c2ad23dc",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "69CA59",
@@ -566,12 +577,13 @@
       "sourceExcerpt": "пить чай с ПОВИДЛОЙ",
       "correctedExcerpt": "пить чай с повидлом",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "повидло"
       ],
       "sourceContentSha256": "b3f301c30d46c807ece8e41f8c48d05f226cc2fe13c070e27d650f4ec3b37277",
-      "formatSyncPreviousSourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258"
+      "formatSyncPreviousSourceContentSha256": "9a9cc8504f5e9e569baacb3538a53e62324277efa3cb0da3c1191af77a2e9258",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "93AE9E",
@@ -656,12 +668,13 @@
       "sourceExcerpt": "бабушка ПЕКЁТ пироги",
       "correctedExcerpt": "бабушка печёт пироги",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "печь"
       ],
       "sourceContentSha256": "f4e0a5f1463e148e673c671f3e77215a61d2c35862e5d71a14af6e3a39ca8bd7",
-      "formatSyncPreviousSourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036"
+      "formatSyncPreviousSourceContentSha256": "376e71517b0cc25e3869f811d545fc2ff8105de7be28a2331c7b51d31f58f036",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "A704AE",
@@ -717,12 +730,13 @@
       "sourceExcerpt": "с ПОВИДЛОЙ",
       "correctedExcerpt": "с повидлом",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "повидло"
       ],
       "sourceContentSha256": "6d5d5479b4bf266047b24fb5af4d53c82e55412629a018b8d5e35b968e6fe3e1",
-      "formatSyncPreviousSourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5"
+      "formatSyncPreviousSourceContentSha256": "1d5fd043cdc76a5a291563ecf96388aace412b90211ef953267082b0883947a5",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "B1C91E",
@@ -747,12 +761,13 @@
       "sourceExcerpt": "СЪЕЗДИЙ на дачу",
       "correctedExcerpt": "съезди на дачу",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "съездить"
       ],
       "sourceContentSha256": "ca42d5ad48f3229571cc5646da6a1b24c39ff61e0a84dad6d5ddc6f69ae3c49b",
-      "formatSyncPreviousSourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f"
+      "formatSyncPreviousSourceContentSha256": "41c760a96a0e4622a8b80e8cfb0ff0a49b690946dbbcc77360f6e0645f0d0d4f",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "B95F57",
@@ -822,12 +837,13 @@
       "sourceExcerpt": "накрыть ТЮЛЬЮ",
       "correctedExcerpt": "накрыть тюлем",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "тюль"
       ],
       "sourceContentSha256": "f6632129091a9f9ede54c7b6346287e5e4c2dfa8ca657649f2cfa9cefd95fb05",
-      "formatSyncPreviousSourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2"
+      "formatSyncPreviousSourceContentSha256": "1fd94623da5b506463e633cb3129b31a25e976b87a4fffc045ce7f7fdd6971f2",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "CA147A",
@@ -842,7 +858,8 @@
         "соус"
       ],
       "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
-      "formatSyncPreviousSourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb"
+      "formatSyncPreviousSourceContentSha256": "dcc1517de21bc175adb1a3760ae77312e7c0ffde302d6b1c395879eea52a40cb",
+      "grammarSourceReviewStatus": "variant_scope_pending"
     },
     {
       "id": "D05218",
@@ -882,13 +899,14 @@
       "sourceExcerpt": "ПОПРОБОВАЕМ решить",
       "correctedExcerpt": "попробуем решить",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "попробовать",
         "пробовать"
       ],
       "sourceContentSha256": "e8325aeb7f18e91eb30ad10ba548571ab76b840b455099682662449a241551ff",
-      "formatSyncPreviousSourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503"
+      "formatSyncPreviousSourceContentSha256": "91c6a120874030df0f2fb1ca69ef07b5f7176849a47e0758e3d42264fd053503",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "DD4AE3",
@@ -898,12 +916,13 @@
       "sourceExcerpt": "ИСПЕКЁТ пирожок",
       "correctedExcerpt": "испечёт пирожок",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "печь"
       ],
       "sourceContentSha256": "3e7ea801efe51b9162f6a0573e4a0dd94840eed54a975ac449043c971bd91f1c",
-      "formatSyncPreviousSourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a"
+      "formatSyncPreviousSourceContentSha256": "a7402c4f32f046b95d97942e004e7545e9d99b8886e8c64230e6297c533f642a",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "E60EB4",
@@ -913,13 +932,14 @@
       "sourceExcerpt": "он более МОЛОЖЕ",
       "correctedExcerpt": "он более молодой",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "более",
         "молодой"
       ],
       "sourceContentSha256": "4a65f2e6c1c8441eb82cb91abe958f0513c3f8e687a9907d3e503ac55c4c8d69",
-      "formatSyncPreviousSourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0"
+      "formatSyncPreviousSourceContentSha256": "b104657b2775535b11eaa4ac8ec37aecaa085bcf5b2aa7322a36d9f013ed24c0",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "E7D8E1",
@@ -990,14 +1010,15 @@
       "sourceExcerpt": "в ДВУХ тысячи десятом году",
       "correctedExcerpt": "в две тысячи десятом году",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "два",
         "порядковый",
         "числительное"
       ],
       "sourceContentSha256": "f6f3b56a7e4804d85cd178b29d6cf17399724fd6317afe487e6114e1edc1f69c",
-      "formatSyncPreviousSourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850"
+      "formatSyncPreviousSourceContentSha256": "0b12c51722695968fa7aedd417de05014c3398e015af09f05a46f0600f316850",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "F23DF9",
@@ -1012,7 +1033,8 @@
         "соус"
       ],
       "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
-      "formatSyncPreviousSourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0"
+      "formatSyncPreviousSourceContentSha256": "c44bcdff43e310d7944d06594fc01a53f35f798f5fdbc39ce7e2ee1f85daffe0",
+      "grammarSourceReviewStatus": "variant_scope_pending"
     },
     {
       "id": "F26529",
@@ -1052,13 +1074,14 @@
       "sourceExcerpt": "наперекор НЕМУ",
       "correctedExcerpt": "наперекор ему",
       "evidenceScope": "rule_application",
-      "specialistGrammarReferencePending": true,
+      "specialistGrammarReferencePending": false,
       "headwords": [
         "наперекор",
         "он"
       ],
       "sourceContentSha256": "1cc66d132400e00c7397081ccb1f57d6da63d78e4819f2f8b83579ca8a735ec1",
-      "formatSyncPreviousSourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d"
+      "formatSyncPreviousSourceContentSha256": "4ab7b6e45abd78891d70f405369f16fe62012a2a96d94906d734df8252f8ab7d",
+      "grammarSourceReviewStatus": "source_supported"
     },
     {
       "id": "F61987",
@@ -1106,5 +1129,7 @@
       "formatSyncPreviousSourceContentSha256": "5b4ab79fddcf46ebaabad063e8855af3fc03bbd5c4627ebb8c9a9830a738c65c"
     }
   ],
-  "formatSyncEvidence": "dev/docs/content-audit/raw-format-audit.json"
+  "formatSyncEvidence": "dev/docs/content-audit/raw-format-audit.json",
+  "grammarSourceReviewDate": "2026-11-10",
+  "grammarSourceReviewReport": "task-7-grammar-source-coverage.json"
 }

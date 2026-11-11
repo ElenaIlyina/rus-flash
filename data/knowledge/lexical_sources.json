@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "denisov-morkovkin-1983",
+      "title": "П. Н. Денисов, В. В. Морковкин (ред.). Словарь сочетаемости слов русского языка. 2-е изд. М.: Русский язык, 1983",
+      "file": "data/knowledge/sources/lexical/denisov-morkovkin-1983.pdf",
+      "sha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+      "originalPdfPages": [
+        2,
+        3,
+        36,
+        37,
+        168,
+        409,
+        480,
+        481,
+        485
+      ],
+      "printedPages": [
+        null,
+        null,
+        35,
+        36,
+        167,
+        408,
+        479,
+        480,
+        484
+      ],
+      "pdfPages": 9
+    },
+    {
+      "id": "rozental-stylistics-2001",
+      "title": "Д. Э. Розенталь. Практическая стилистика. М.: ОНИКС 21 век; Мир и образование, 2001. ISBN 5-329-00322-9",
+      "file": "data/knowledge/sources/lexical/rozental-stylistics-2001.pdf",
+      "sha256": "6dd861f1dccfc7e1351518b0460a773cc7bff31cf28e732e50ba544300addb5b",
+      "originalPdfPages": [
+        2,
+        3,
+        63,
+        64,
+        65
+      ],
+      "printedPages": [
+        null,
+        null,
+        62,
+        63,
+        64
+      ],
+      "pdfPages": 5
+    }
+  ]
+}

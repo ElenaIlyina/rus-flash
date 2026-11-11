@@ -1,0 +1,2205 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-04",
+  "reviewedCards": [
+    {
+      "id": "003B4D",
+      "sourceContentSha256": "a7f75396516ffa62c21835a1777f59bfeb756afeb0a6aad9dfecedaf71ebc7f8",
+      "explanationSha256": "270853493a90f7a086a3096db73a2b0714a8ea4b05944fad4cda07378311e861"
+    },
+    {
+      "id": "047290",
+      "sourceContentSha256": "3a6cbcd17b33d9373b40cd3cac71f4e2bb20ab49c24d7805292765d6e79d193b",
+      "explanationSha256": "1940d3def4edbfd12658503be52c381b87099b34595bf01b0e9c24c2db325d5e"
+    },
+    {
+      "id": "0C24B0",
+      "sourceContentSha256": "7406070f022c0ae52de8658250af48cfa78d7b09744526f5b5126698df6d13d1",
+      "explanationSha256": "f59feb43af8d12624fdeb67d9deb28fce8bf06f5bc5889efba75e1cea962afc0"
+    },
+    {
+      "id": "135475",
+      "sourceContentSha256": "02789077f5635f985a27c3b6df3307b58d2bc46e7ea2cd2f22d479b922d67169",
+      "explanationSha256": "a8653b1fe1c9ca647125b7b94ee3e8f793ff945f050c9841408ff884a7d93868"
+    },
+    {
+      "id": "157C7D",
+      "sourceContentSha256": "1e239a3483d65db1a1160929c90e779fa2746380c042574084517f674988bb1d",
+      "explanationSha256": "2b542f196e760fa52fa7e6518b0244c4f249ff4a3d82c97a015b1bbf747b9f02"
+    },
+    {
+      "id": "17EAB6",
+      "sourceContentSha256": "6616d45a3743292e571f67073337180b989df6d57c374838382aebcfb33b5652",
+      "explanationSha256": "3f5421a6927a7d0b089d8d0fc01007687d618fef5abf422cdc1d159eea532ea9"
+    },
+    {
+      "id": "1A1A4B",
+      "sourceContentSha256": "a1e3a0c69206029811bd9c3375984844f3ba9960fb4c858f6ed5097e09c6ac33",
+      "explanationSha256": "6acfa63286247d14fd91c4041a8d13afe142638fc6ad811727396082f1592bf9"
+    },
+    {
+      "id": "1F97D7",
+      "sourceContentSha256": "6e490431737da3f2d8fb18cc25ad116024f3a86c57374e4d03a5d209a2cf5a23",
+      "explanationSha256": "6906614de1053785170e55e86e7e567598175a75aff60000ce054b2968ea448e"
+    },
+    {
+      "id": "279C1A",
+      "sourceContentSha256": "08b8c14fcac760c854d75f60b5b674c18c595bb721364107347befa05d37881f",
+      "explanationSha256": "04b0af90182aa4ad31257ecf89ac57ccf240f6a3d23c8b3af0dc41b737c86466"
+    },
+    {
+      "id": "2A9943",
+      "sourceContentSha256": "c06f614df3a08465afe545fa2b9053280f0773ab6e7ed793a7c97e8b112c4490",
+      "explanationSha256": "4f092999c8de497e8cd891929100d7748f58d819cf042b789cde4437460dc91f"
+    },
+    {
+      "id": "2AFA71",
+      "sourceContentSha256": "3f72837eb803a9cae5c7a0565ba5240e15914930e57144f3d5beca62fa9816c7",
+      "explanationSha256": "dcdac62d1ebe890ab558bb6bcdfa8131dd6923b514fb66bcb68fbfd4a68ae34f"
+    },
+    {
+      "id": "2B52B4",
+      "sourceContentSha256": "b56f8310fa3211618fd9ba0f7c2ef9aeec36e1d80d10969900ce0b95e60ac08f",
+      "explanationSha256": "2a1d2424c676942dd38f92ac9c06f2500d9a3133a5f54d84e6732d815e8ded45"
+    },
+    {
+      "id": "2E2592",
+      "sourceContentSha256": "d6dfc74f6c19ffe019ca42f4d3d45c256af9a3a81272918ac61ece9ed9ac1f2a",
+      "explanationSha256": "a093b1d4d3abcd1333c87589304708a44f0f80ac4bb587474d2307dfa56da25c"
+    },
+    {
+      "id": "30E9EE",
+      "sourceContentSha256": "a13df83866b3aae92b62d1b061a0b6ea79d12a0692265e09fffed3ad1519676a",
+      "explanationSha256": "e3bac1dce96a5ab89501aa3cb3b0b5d1b76962fd9cdbc3f26f792340859fa940"
+    },
+    {
+      "id": "32D023",
+      "sourceContentSha256": "d2cee8d5245e9317836e75adf9a62db9d89bc3ddc26a90d6803543e3d30e1ea6",
+      "explanationSha256": "62ed870a85f68105907684420b9c40d5d1c5130c91f3c20dd1219da28eebace1"
+    },
+    {
+      "id": "3640FA",
+      "sourceContentSha256": "79e4a269f4e91e4cd319c0fd800e70b775fb0029e3f2704d54f4cd0d46fe33b0",
+      "explanationSha256": "d8535f46b81db15bcc6cd02abfdcd7ee755a04f8080735bc19ab7cc3518f9c1a"
+    },
+    {
+      "id": "415933",
+      "sourceContentSha256": "6b46e63b37417b07bbbb2041f2f3af82f94880c89bede344c03d926bf16b9650",
+      "explanationSha256": "8f219fc4e0dd1c48dfddb8cc31b4d49b04f70926751aedae188bb3742d52bf01"
+    },
+    {
+      "id": "4273B4",
+      "sourceContentSha256": "eb1ebe58e1ab71a4c667da9625dddc3d8a1bfea89df6f10d298dc8a28775a42e",
+      "explanationSha256": "7d1c8fb1cc8296f4fe17939542cdd9dd26dca1715439a1173b1c425c0155fa03"
+    },
+    {
+      "id": "449707",
+      "sourceContentSha256": "cfb041ba7a72b3bc5d144fee4b5873f26eb8d3ae6af3516fe6b9be440d477593",
+      "explanationSha256": "ec84dd9ee8d7cfce8cb6ca51688e3eea2cdd59d4996032737b4b2f564ad5d53c"
+    },
+    {
+      "id": "46A693",
+      "sourceContentSha256": "fb6caaaeebd082b591ec38ccf46b09d4951b5502e72c934dcd861e4fe81b879c",
+      "explanationSha256": "e1e3b11f6fda68966d08fd5656b4bae153f7e9f99edfc87c77e6d315b6b35287"
+    },
+    {
+      "id": "493862",
+      "sourceContentSha256": "6f4a56e2a4e5817889067611c99c69e0442e6143f7e293a6c761ed6d5bce88ed",
+      "explanationSha256": "d247b093aaf37c51222237433532bcd4510d243679af8388a4d9bcbdacca003e"
+    },
+    {
+      "id": "4B3F01",
+      "sourceContentSha256": "18662e18daf3958a64369d72e05b77170d1dc7b8ab5979c2ed3766e029af4a63",
+      "explanationSha256": "8a579b3e8b57011b97a34c38bff5d4ca09d008f7b7d85ceb57281bc1e7c43c2b"
+    },
+    {
+      "id": "4C677A",
+      "sourceContentSha256": "15011a89d426c73f25aa2ecfb18f7c88cb02f92f2b2a3c4fc5ca9f526cb4ea2a",
+      "explanationSha256": "8ce56e9c6d3a2a288d8a9d321b5c64098985721ec14e486f4b6cb62f41899f4f"
+    },
+    {
+      "id": "4D116D",
+      "sourceContentSha256": "36a74969500b42f02ea5ba4e7529ec9cf636ffa976a0ad5dbf764dda72dc4bae",
+      "explanationSha256": "a831cce99871d4fe825e1cf36b763e7cb5ca25c7fbe1bb5e83c60d5ff1ab0fc5"
+    },
+    {
+      "id": "50A136",
+      "sourceContentSha256": "aef63aaee1e60b3233ca9625846ac53da279e0119c393edc6e97b0de92aa0f55",
+      "explanationSha256": "1e57476d66dab2d8662e49b64ab8ca0a4fe1619331529cdb2afe861595856edc"
+    },
+    {
+      "id": "5100B7",
+      "sourceContentSha256": "827d5fcc3bcffef0dc1b42870552226b11db5d970793caa17f134518f9d4e20c",
+      "explanationSha256": "214245adcc9fbb9abba0212d351883b521c0d322de77ef67f4c12b55ebcc3f31"
+    },
+    {
+      "id": "516B10",
+      "sourceContentSha256": "eef534c60e47914c0d15b8ef177c4a201ec6b47f476131262de89e0e31bd2527",
+      "explanationSha256": "fe4a010fae3bb348e9fab8630b970d833163ffdf4c6a9b41748a336e946bbb97"
+    },
+    {
+      "id": "521AF3",
+      "sourceContentSha256": "650cbf53b8b9aecc5ea20aa4c0a9aaf6b29e09840b8aa34a0ddc73fd14273a22",
+      "explanationSha256": "4fdb0255e6bbcece34e825174318f291210618d6f20ebd179a226c316b2d7c55"
+    },
+    {
+      "id": "5654B7",
+      "sourceContentSha256": "2911c0e18720d75a927fe6df6c1bf7ef82bc0c6058d7e8868ebff847b2d02009",
+      "explanationSha256": "bbb8a2bb8092b70df81257f93f0090394e017bdeaa7086e737b7806e9049815a"
+    },
+    {
+      "id": "62C9D7",
+      "sourceContentSha256": "06a23e99d04c8d10e0d35da2d74ee5e8c480df82bc812f4fbde4ed85755377c6",
+      "explanationSha256": "b386b1f6dbdca95e19b96bab2407fb546f93f9ce928fa4bf029ea495a876fc83"
+    },
+    {
+      "id": "66077C",
+      "sourceContentSha256": "2d0a1f879e78286b2afe129a675161c7858cbca815fc3f2594d745386eef84ec",
+      "explanationSha256": "4101ec21864bca3668d1070af0190f3f95ba943fd507ceacab3df3f86de0c7da"
+    },
+    {
+      "id": "6A5602",
+      "sourceContentSha256": "a4879c0791b98ad38ad676612aa498b742a70f705f9e1d193f1dc4ec52815212",
+      "explanationSha256": "a504c703ce1fe0fd1246a801151c80dd2905b799ea57474c140151c26b1d3813"
+    },
+    {
+      "id": "6ADB71",
+      "sourceContentSha256": "438c909e80794d4bbd96492207b528e0c3cd4db059b26b4e20193a1b615ec602",
+      "explanationSha256": "dbc1911daab34ced7b9b2127059571b8011c7510661b1245d5bbace35c897d4c"
+    },
+    {
+      "id": "727FB5",
+      "sourceContentSha256": "eaccc105e03fa66a36827dc76c466b9f969801b94d7ce0871724751b284dbba3",
+      "explanationSha256": "3a49f974d6efcb2e0a833fe81014eed6602dfc673582fb7db961d60e8468536e"
+    },
+    {
+      "id": "74BCC6",
+      "sourceContentSha256": "d1cf7ac7b357e667eb099907770e4983e46245fc8dc7ecc4c3d13f82b0cff6c0",
+      "explanationSha256": "04233a5a7e31a4305cfcc80d77f9f8aa8600aad3cafdfb9954045fad28641d52"
+    },
+    {
+      "id": "75D42E",
+      "sourceContentSha256": "573a4d0716e5d47c1851e04ab58e2d7a84bf84ecbb8c548e381813e537c52771",
+      "explanationSha256": "b4939ecdf44c0f528aad72ef55eb498226ccdd8a2bb06719b43de86af93852fd"
+    },
+    {
+      "id": "77CA08",
+      "sourceContentSha256": "b6ba12141fbfb20f890439b115d5dbb225c50bbe4f890ec093edf27b7d370c7e",
+      "explanationSha256": "5effd62dbbcf46948e7a2617b07c60fda6b89531e65ecce1c15ba93b3cc58b8a"
+    },
+    {
+      "id": "79954C",
+      "sourceContentSha256": "38ffe2b231042c43f61a5bdefa2b2b8c10e7507389c3cb6129207b7354b1b342",
+      "explanationSha256": "5382822fcf7563f2f697c3d60adfabc013426d9bb90a93313a00ed9cf4e4f953"
+    },
+    {
+      "id": "7E8660",
+      "sourceContentSha256": "b03dc4837853c640f1b119c94f8567fbcf9e4221bd14771eff8ce9726bf8563b",
+      "explanationSha256": "c43c38d894f4928d32ff3629ca9e2efcbec14ed37ed5c0d369a424046b0b1de3"
+    },
+    {
+      "id": "81C8F9",
+      "sourceContentSha256": "835fb27aa742abfeab7becd19cccf2be7bc9cb9b4c2938d045ee3bd90d2f6c11",
+      "explanationSha256": "e615ddb01ae4beaa6759a2d214978c51be96e737ca52c2f3186fedce2b3c299f"
+    },
+    {
+      "id": "82EA80",
+      "sourceContentSha256": "19066324ae702400dac2eb35170a4bf0d59dc034881a30f205bf7d6713ce26cf",
+      "explanationSha256": "706c9200d035a84b081634a03b21fec73767c8b9c84faa2ae4d3461cc19fc4e4"
+    },
+    {
+      "id": "83AD8A",
+      "sourceContentSha256": "6f63d9c6d84df6862781ee09a89a0cef7211d517d042191390e462f150f7ef98",
+      "explanationSha256": "e4a59551058c58b1ac2e9274b1c002b350d05af2943ade576b050e84b06a4a08"
+    },
+    {
+      "id": "8B93FD",
+      "sourceContentSha256": "69e2d4875c505af2e02e937fb193beb57d938a02bade14b0272c8fa0764f86e1",
+      "explanationSha256": "fe157353d6e581043db80de0ab8f21a54defa82a3ae6b42cec2010a7130b8dea"
+    },
+    {
+      "id": "916D1B",
+      "sourceContentSha256": "f9faef925c6a39478ddf4783ce1a61595354d0deb180057746dd9741effed09f",
+      "explanationSha256": "4a3fec53c63a83d78fe2000a3e601ff93cca98b6276af78935445a58f67a21f0"
+    },
+    {
+      "id": "984E14",
+      "sourceContentSha256": "dac6ab46f0b55bee98c32e3ae24970e1c8748053d5f0535bf3ddce004bcade0c",
+      "explanationSha256": "144663ced1098c24cd27bee96d6b1c034649dc3f40dd4898c32a95d25e0198d5"
+    },
+    {
+      "id": "9AE2FC",
+      "sourceContentSha256": "30ab52ba1e0105ab79982918c7ad110e6f06a15614ad41c687468004954b201f",
+      "explanationSha256": "09f8e807553b5cd15167815f828cfd20ce6d96a84eceeb0725f7b494bf944049"
+    },
+    {
+      "id": "9B6C87",
+      "sourceContentSha256": "7cd87a0696a36d3f5f8d9df10200c2f1642282194ba85aa9170bf708e497cc00",
+      "explanationSha256": "8065a2c2546d6beac6578b084600ec1e45da406dccb047d4ebc5447fde1db25c"
+    },
+    {
+      "id": "9CB7E3",
+      "sourceContentSha256": "8bc06fbd913b4b087cd5b9916ba14bcaf1f180f7527aa62f9da845b2ee9fb0a7",
+      "explanationSha256": "fb3abf1c70bff3dd7df3c7b8a542d6528a5c67337c1618b9f9b3574ddb0d434a"
+    },
+    {
+      "id": "9F2F3B",
+      "sourceContentSha256": "96289ccf66b273ce30b1728eff22993d7489be0a94c25dd1ead463b30ff0fa95",
+      "explanationSha256": "cbf77fe8a3c744d70f5a5ff272579b8344a2f870fe0667ee31204a7f4098480a"
+    },
+    {
+      "id": "A51A98",
+      "sourceContentSha256": "f331cfa81c7c530e71b34f5bd87370a679773dbee6291b4424038fde15862869",
+      "explanationSha256": "d111483d6d2bebe6e2f72b5cd5c9820a040d7feef62bd1532adcd62887427f56"
+    },
+    {
+      "id": "A79A44",
+      "sourceContentSha256": "92a95a8542be3920f7044ea71494ee4da65a3c4b4d797cb349b6f8bceb4827f2",
+      "explanationSha256": "511dfe58358a341d2d8b57e7f5a4f03bf306967a6f435513413da2242377ebef"
+    },
+    {
+      "id": "AAEFCA",
+      "sourceContentSha256": "e93dca94fde4d860eda5bc4e7a0d1eae946590f1cc645a5ec3f7db60fc8c3b25",
+      "explanationSha256": "5574fc7f083d1a405693969fc635c19653c99d08248d2b286b47289fd57937b2"
+    },
+    {
+      "id": "AB08F9",
+      "sourceContentSha256": "bf375e2098c0a654967d0357d6bce064afbbdbd3f4f00a74fedd5bb82cbfbea1",
+      "explanationSha256": "b34c2b93e53d584c13c06003bacdf9231e9ab7243bf963e3d03f8e5d7e914a90"
+    },
+    {
+      "id": "B66425",
+      "sourceContentSha256": "8225961df157abf15cef3d8a5a2b1ccbad892ae32b725e14e3868674f29e72be",
+      "explanationSha256": "636e638b58efb1e9d1b0990bff23fbe1af9960181a914b84ba8b5f0bffb75a57"
+    },
+    {
+      "id": "B8A961",
+      "sourceContentSha256": "4f3da701d972cc7b31cc3189eaa3bd2bbd86c7be70dc71ff53a190f62f9a8812",
+      "explanationSha256": "35d6891d2690d26da810acc9cf6fad364623ae1298dcae823d0ce27bee25357f"
+    },
+    {
+      "id": "BB741F",
+      "sourceContentSha256": "01cb1828074290583d6cf35c15ca473710f54f63fb3a2ed5c8a18303c4565240",
+      "explanationSha256": "55877c5c0175986b77734bd098fad9eb849983f37fdccf9f184d4538c49fa64c"
+    },
+    {
+      "id": "C74D94",
+      "sourceContentSha256": "d20a1d837ef2b86ce37adbfb2ad0791c4c4ff4a719a9b026088664b58790903e",
+      "explanationSha256": "8a3cf5f088551bb4cb0f09c49b1b0a0bee5affb06a7f15aa106812ac379e5e92"
+    },
+    {
+      "id": "CFFEED",
+      "sourceContentSha256": "f83ebb86a7d7a5295d5bddc66717dfda3ae5c241eaaf0ab792d5b2423f0fa631",
+      "explanationSha256": "c483f599e41d7d4b05c8aeeba31fcdea9bc8ac32d33b8c52ec375b34711d9f0b"
+    },
+    {
+      "id": "D402AD",
+      "sourceContentSha256": "a1d54a2bf223a7125cbd357a213098c82f55e2aa34815134e85783a2ede0dd82",
+      "explanationSha256": "dfe50fbde599c97a9f695d4b1bab93058f385a01454a425e36f549b232f1e406"
+    },
+    {
+      "id": "D4E517",
+      "sourceContentSha256": "ec3fc25d6548b883e6e5734a8a916134a90a997136570687bd1ac1efbdeb708e",
+      "explanationSha256": "c7d3a362528549fb57c17bc2470409d74df1c3c57993dce6fb55882ff1466f04"
+    },
+    {
+      "id": "DB4AA9",
+      "sourceContentSha256": "079ea9c9d35b3584aad842ae82152e277dc717c6eea63cc315903a3ed4e7ab58",
+      "explanationSha256": "cb5aa395550530c8ea210eb3a7d3f2aebac708a4f81543885c24cb769ccff368"
+    },
+    {
+      "id": "E4597A",
+      "sourceContentSha256": "a73a64065d52c832edf0fd055c6120061c4322ea1947480168bae1181ec2ea6a",
+      "explanationSha256": "7a25dd1ac7e01380d92f8d0343c893b623b767c6cf9595158c30ee6f183b6539"
+    },
+    {
+      "id": "E877CB",
+      "sourceContentSha256": "28d917cdf8fcc689bdf901a5acbd92d3d39e8702fff9fc2572937eaa2cc29328",
+      "explanationSha256": "eeeadf21d86cea1582bcccb6bba8137ce01a4b2a14b4b36b52cd49fc0bb7374d"
+    },
+    {
+      "id": "EE4847",
+      "sourceContentSha256": "82cd5d80994f8669835b2364875f1756e5ec71fa49bccb7e8e3fbdfc37f20e60",
+      "explanationSha256": "af33e00467cceaa883101de469a95dfe50e9275cd2d7daf36586cabfe2b96e14"
+    },
+    {
+      "id": "EEB859",
+      "sourceContentSha256": "ed9d0ea5be3cc90d3916a12dcf806da7cc5032a5333d6f07bb4fdd5e1e1d28af",
+      "explanationSha256": "51666098c983555b08a7bf0e0e98f42f291f98cdf8fec3020ed988cc68643514"
+    },
+    {
+      "id": "EEB949",
+      "sourceContentSha256": "10afaf02d0912ea68195c5409e7ff7e6049d8981ff0bef9f58ce271b38d60744",
+      "explanationSha256": "06a002493d71b95cfc0b2051a748cb5387380cb6db9fa91039180e122eb9dafe"
+    },
+    {
+      "id": "EEEF6C",
+      "sourceContentSha256": "c2a0e9cc3af3d679863a30a58cfc4b3ef20c2496fd41e4526deb21d6634de1ee",
+      "explanationSha256": "d6c2c7f252b751dfbdab0f0d2cf8080715f1b5fc50ff259be175296106a477ae"
+    },
+    {
+      "id": "F0D8C8",
+      "sourceContentSha256": "9c641964dd895186355941d17fc761fa9b1ba160a0ba2fae9035c01af19856ec",
+      "explanationSha256": "e6890bbbc668f6744d22d49847df7dbdb2c90a2caa8235d36f5bb5c1109264fa"
+    },
+    {
+      "id": "F4389C",
+      "sourceContentSha256": "990b5bdbe914f72634b660431ce0b4dd2213ca6d75b07d053c5f4d0e77073c31",
+      "explanationSha256": "404b84af3c390fc844069bcf5135200bf26b383ed6d27ce21dbada3b9637a5d0"
+    },
+    {
+      "id": "F57DAD",
+      "sourceContentSha256": "ec0091069039ebd37bbfdf28b2cbde61708050fdcfc04ced6984c0615306a548",
+      "explanationSha256": "4f313971a6c6a427ee4079e031f8dabbb19559f8276b79506aac29499c4b7149"
+    },
+    {
+      "id": "F6375D",
+      "sourceContentSha256": "2cd54483d467931a0d41cdbdb146ae97875f8702dc11d23bcf89574da27c144d",
+      "explanationSha256": "3642fdf6363a60304b772836a4919b46a0506465548f08d30ff54a714f7e9b90"
+    },
+    {
+      "id": "FA0BEF",
+      "sourceContentSha256": "04b75433e8c7434dee108db26cca69b220cdbd93274f786540dd68e5bc208d4f",
+      "explanationSha256": "15d0136aa76a523c59a7af7ab75b8428bb0edee7d3533aa6d4c30225b980b023"
+    },
+    {
+      "id": "FE2041",
+      "sourceContentSha256": "0767ee276714137d6ba9f1a3369947069e1664085828d7417de991024e877ed9",
+      "explanationSha256": "d10e16f069870228f5319b8388afbb96146a2a754aed844fcb076870bd49351a"
+    }
+  ],
+  "counts": {
+    "cards": 73,
+    "rows": 365,
+    "words": 975,
+    "stressForms": 259
+  },
+  "sourceRegistry": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+  "stressScope": "Literal stress forms were read on pages of the pinned normative PDFs. This verifies stress notation only, not by itself semantic relatedness, morphological analysis, or the school classification of the root.",
+  "stressForms": [
+    {
+      "form": "а́дрес",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 37,
+      "pageTextSha256": "ae0fe5943adc25a2aca0d99c5a48135e7afacd0ce5feb820606202384b7556fa",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "абонеме́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 10,
+      "pageTextSha256": "0a8d5d92f83f25aa9fa6ea91ad57b97cef6edff4041234e1d96f87806c694e52",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "абстра́ктный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 12,
+      "pageTextSha256": "7966f18ba760dde64640f05bb2684c105bf6324cf5bce89ce64a61b1e15e7550",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "автома́т",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 22,
+      "pageTextSha256": "cc57dcecac2114daee41d4ff5431b05d2897eea20a5aa9d45da822d4e07aef4d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "акаде́мия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 42,
+      "pageTextSha256": "b772d05bfe2970ec4fb1a53bd5c0452728cdc982da7c5c3911cad1a4b7759afe",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ана́лиз",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 69,
+      "pageTextSha256": "bd29940a63c07c8356e71b92e0b58cbcc2263d5260e2f8a601037b6f94ac7f2f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "аргуме́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 100,
+      "pageTextSha256": "a0abc065223e1586469fde1e82487a7c79b39e8d1930f7dcd3eb3fc3271aa644",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "архите́ктор",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 109,
+      "pageTextSha256": "d8d03a62bdab01b7ee505a8ed80e2571c59880e85497ee81808cae5cd4dfcef9",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "аспира́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 113,
+      "pageTextSha256": "53de09c46eed6b964b25862b8950e115c965b04551533891a8920461181e1a0c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "асфа́льт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 117,
+      "pageTextSha256": "c83ba0a08d1df852aa60814eeb4f162f28601d35f12730268ff4db6ae6740118",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ата́ка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 118,
+      "pageTextSha256": "9bf4e1d6d72123ac8e9880e98234fc5bdb8709ab9e422147a78cdf0e5e303a68",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "афори́зм",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 127,
+      "pageTextSha256": "051a05acb90a0ebd68d37dd133f71571e39fc7295a31e6916f3fae015e315874",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ба́сня",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 154,
+      "pageTextSha256": "a775a95eb396489e92a52a4d2a98dcfff05994c0b7a73410aae55e3a0506dc72",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "бала́нс",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 142,
+      "pageTextSha256": "5f1e4e425a4722a4fb3d729912f841af638604e01f89bacdd9aa3adc752622e9",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "бле́дный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 211,
+      "pageTextSha256": "52305cc2dfffc25fea94c9b3eb31c4cc3eadd2abe990cc72938f1f2d84a19b44",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "бли́зкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 212,
+      "pageTextSha256": "b0509976e7b0bfb8b7d78739753b8fde6b5c76d7ad7d4a6898083aac666b2be4",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "бо́дрый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 221,
+      "pageTextSha256": "4d446e324b87dbd51b17fa92939bec3cbb2b13b618bd1edcad20d6e67f2eee09",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "бога́тый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 217,
+      "pageTextSha256": "40c1427906c4359754f1df10c8425e875ff7ec16bf61b1da035e7ba7acd673d2",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ва́рит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 272,
+      "pageTextSha256": "5901b3cc11ee8b88882e70a9f47f832125be0187a25e09e4d87b2978adc25872",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ве́ра",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 289,
+      "pageTextSha256": "055a4ab48cafa7dde7d17e1258f135dad7b9120def3de8f6c8488ec491df9547",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ве́ртит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 293,
+      "pageTextSha256": "d5c8cb0bffb78d7d8b8d9271481aedbf6a4f6ed7332297202b32d54e97a132ec",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ве́ять",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 301,
+      "pageTextSha256": "3445de01313b6e6af140a310143f3af7cb81d8c0c893640037f52dd16579fa70",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "вели́кий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 273,
+      "pageTextSha256": "62834f655c899c9fca785de98ec5d8c26564c5b9cdffabcc96905232a61f11e6",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ви́шня",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 329,
+      "pageTextSha256": "6c6951f465d625097abce34d163e388892a3db57cb62b0eea8b6440f9b4e7c06",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "во́ля",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 365,
+      "pageTextSha256": "2552672b2e01186a05693c44f81282654b295f83407988d8265a6dfd13a05843",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "возвра́т",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 353,
+      "pageTextSha256": "ec57b9eeae98f0b79432db525127fbe9353ad0ead86f1bf37dd13c001776b436",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "возни́кнуть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 357,
+      "pageTextSha256": "cf74ef0bb8f657b2b2d23ce7e4574358f0282d36a9f370edd37f0d8fe92ea095",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "возрази́ть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 358,
+      "pageTextSha256": "01962cf667e1572f0249514c094152ed99259a6ef044567f4aeea591400c974d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "воспи́танный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 371,
+      "pageTextSha256": "2e56005dfa4c0af82c2bb24b475ce07e6ecdf344d76edfb5bbf20fb3de8d0fb3",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "восто́рг",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 373,
+      "pageTextSha256": "8c68bf061eb52e5afffe65cc8da14167aa9c6069244706b7f492817257c7ac5f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "вычита́ть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 450,
+      "pageTextSha256": "77e5d440c3bad25d527fdc9199bf21a004da1c72ac7e1df5818d92f85420acec",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "вя́жет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 455,
+      "pageTextSha256": "aa0d04d28306cc83046019b3bb149b3fe3fcf3377a0acc4414cc636b1b8c92ea",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "вя́нуть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 455,
+      "pageTextSha256": "aa0d04d28306cc83046019b3bb149b3fe3fcf3377a0acc4414cc636b1b8c92ea",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ге́ний",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 483,
+      "pageTextSha256": "831262f79f0b28b43703d483c0da59c9fd4ba918939a6b6c6df5d90cd28a99dc",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "геро́й",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 491,
+      "pageTextSha256": "9f8110708fdbdce629a9d5f57c7ac9460dc81f05af4f950f80772dbe05f1bb82",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "гигие́на",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 496,
+      "pageTextSha256": "6d62797f246bc276cb18fcd55535573f524f16c07fad0746a6d373b1f2e44ff8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "гимна́зия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 504,
+      "pageTextSha256": "0c005d4e5b72f215fe39ecea9647e3e0c70fd63b4b91de46f5b5c88bbaf232c0",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "гло́тка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 519,
+      "pageTextSha256": "51225aaf5b7b3fc9476f91621cc338d87462429c57f20c702bbd35114b02b107",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "го́вор",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 525,
+      "pageTextSha256": "2ec91c75b6b7ddbe00b9b508718234e733dccbb41872500103ca66001fb36805",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "го́рдый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 535,
+      "pageTextSha256": "d782905c4a9e90071558c49140f9ffd919e8177961e85d90ac1877570c1c4c95",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "го́ре",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 535,
+      "pageTextSha256": "d782905c4a9e90071558c49140f9ffd919e8177961e85d90ac1877570c1c4c95",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "го́ры",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 367,
+      "pageTextSha256": "f648e39bbc43c5b6416d58e0451bf1e1ffd2f3b38ad9e4a3e9ec392ac9c72c43",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "горизо́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 536,
+      "pageTextSha256": "a63e58e029a9131ee82a3c35b34d8c16620ec00c22971c73edcaef336a602aca",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "горя́чий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 541,
+      "pageTextSha256": "6206ccb39e1729ce59654af871cc2da780305e79930a277a32fb17a9e6dfa0c4",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "гра́мота",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 291,
+      "pageTextSha256": "5ab0ca4d2d5d30880f6edd43228e93e4ddbc2ff3f010091c72cc1d0f4aa4c9e2",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "громо́здкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 561,
+      "pageTextSha256": "e15ea206a6ce26363b658d77a514b278016dc51c8fb7e683a7a2a6e01b47447c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "дви́гать",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 584,
+      "pageTextSha256": "144442b4f41b790023d165c1c18abe069dafb4d8365ef45a5d52101089f1bd2f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "де́ржит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 618,
+      "pageTextSha256": "985ee4dba32b2df839b0ef2480e711d2f80a94f04b6f64a94ce3f6bdae09fbdf",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "деко́р",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 607,
+      "pageTextSha256": "7e9181f9c5b910d2946e607e460030b80af6c94d90c270e1ab1cbf7637e204ac",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "делега́т",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 608,
+      "pageTextSha256": "77b82ce1967b514d095b460211e0380a508beedc0bb28473b0078a9a83de9dc6",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ди́во",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 636,
+      "pageTextSha256": "99729f446119ac2ace658eb25841ee6667222c7894dd3d95b015ebbd09bfbb9f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ди́кий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 638,
+      "pageTextSha256": "a2799b80a7fb075931f05ccd8534969882db8d9146d4246b22d2e6cac392f603",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "дина́мика",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 640,
+      "pageTextSha256": "e7f8a3ad13a1572610b7b67de39136e0fbd877a6c0486fc26bd3ee7d9fedd616",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "дли́нный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 652,
+      "pageTextSha256": "10ad42f5682f2c6862b21e2ee14e36c84d85b622f6a4b187e03f7ad6a0729f39",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "до́рого",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 683,
+      "pageTextSha256": "52ed78d11db8cea9d84d781d0a66eb5465b07da221f3e922d055fd057e8f9959",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "дра́знит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 694,
+      "pageTextSha256": "08bdde00b60daf2c00b98eba191c99b7a8c557f919ee488a10d8565ddd005253",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "дра́ма",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 694,
+      "pageTextSha256": "08bdde00b60daf2c00b98eba191c99b7a8c557f919ee488a10d8565ddd005253",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "дря́хлый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 701,
+      "pageTextSha256": "1043315b35f3971c8316a92334b17f22abb05db05792f07d20329e3ab2bc5db5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "еди́ный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 716,
+      "pageTextSha256": "f39a2b26d1d60ea8c92d8f88a5402dd5271f1f2c91a47ee9057fbd6bded76ae8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "жа́лко",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 723,
+      "pageTextSha256": "815373ae8028b822f221be849035cc8ecf3bef3b6b5546db628f33830498e12d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "за́росли",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 802,
+      "pageTextSha256": "9773321a512bbcd98516d8db1012739686b2816b93f6588392699d1bbbb4f215",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "заве́т",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 299,
+      "pageTextSha256": "5c94ae7f31a956285732d4cd80ac69096e2d2190577c2d3f551a93e6d23aeffd",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "зага́дка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 752,
+      "pageTextSha256": "068e15a773e940cb664f45af551e29a9e66eec611bb125bc423b4077d5f826e4",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "зака́з",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 210,
+      "pageTextSha256": "32a88b58b353e163668c1a7720344c09724a5b4df1947f8a7219d5a236d6d3c5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "заме́тить",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 782,
+      "pageTextSha256": "3503923504111047f125a1926bab60546d5329b758c91403d058a7d6ef52ad59",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "запре́т",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 797,
+      "pageTextSha256": "f5c1577d5cd1960e1d544578b8c4a96bb62c08cbfc44cf8a889a63472fb40b0c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "затво́р",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 813,
+      "pageTextSha256": "8eb2259912e99a6730ef75a5851296594a525ace8e59cd614097623a9806e2cf",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "зе́мли",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 838,
+      "pageTextSha256": "eeee1f24cffacc37f98a92fde4e867c3f55d5cbe293721bdd54b43e407760914",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "зерка́льный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 839,
+      "pageTextSha256": "5210dd6fcbea3cf36b0a3494b7b7eb75af27be9caf993f538d0e20775fb7a732",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "зна́мя",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 487,
+      "pageTextSha256": "9a1ed3eeec59a3ede07097dec766c4974290b868968da107cbd050925efa2ca2",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "знако́мый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 846,
+      "pageTextSha256": "aca2178ef53024a28adcb99bd1b5d8b6b9760623b8469b4005dfa2d555d7e699",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "зо́лото",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 848,
+      "pageTextSha256": "244b864873f13cd2bc206a14df4c2c80b2ada5d9302142ca47775bd753208b5f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "и́ней",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 898,
+      "pageTextSha256": "be97f548a89d09eb417f9036d8be009d98f415cab5d911290a6dbcd9a2532c8a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "иде́я",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 861,
+      "pageTextSha256": "d19d18e5891f0926dbe05012bc14bd908666883c0bf17d1368c2ba843f513f3a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "изме́на",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 873,
+      "pageTextSha256": "356e82bdb6db24cc8d782eea6eac5ca241689677bd0eb520cff5918fb3b3fa86",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "индиви́д",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 895,
+      "pageTextSha256": "acaae1857e7aba1effed3df4534cf724bf3179e53a06ced5eafe0265e26d6936",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "интелле́кт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 905,
+      "pageTextSha256": "43e75bb8f2769f91b5e5b2879308a6e18ed5d4d5575d036a67391923efd99e00",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "исся́кнуть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 927,
+      "pageTextSha256": "423ff53ea0dbe989369bb34b1299ff2bda738adedf5876a7f0623f2fefe237bd",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ка́менный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 322,
+      "pageTextSha256": "6f4e27c69da1a707d82c9328544d9116e4e40321fccb4ccd1e7c0a927f7e252c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ка́чка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 983,
+      "pageTextSha256": "149dbc795bf2a08e005904c7ee327d8e9a65b9f62b81cf9b625b76c7cb3394fd",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "кли́мат",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1016,
+      "pageTextSha256": "738a2982c5e1b4858147b6ba03386ca21fc821734ca8339aff371234bd0270b5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ко́нчить",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1071,
+      "pageTextSha256": "6e9df9aab4ae048f81381a0f6157baf597572106b28cfb7a65082b17080f0662",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ко́сит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1086,
+      "pageTextSha256": "886c786e5722bba3735a7d7695f2557d24eda5c27a660dc69457e012c4dd2cf6",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ко́со",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1088,
+      "pageTextSha256": "00ee209227bb38cf73a8c46841fdca4a39f016aa086c884d13c1d5399586ef1b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ко́сы",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 180,
+      "pageTextSha256": "624ea504fdf8bcbc820039bb6eafda5877584a43b1cc6e0205d26782aa13406d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "колду́н",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1032,
+      "pageTextSha256": "7e7aaf71448781b8fdb28df3ae5d99573980babadaeff9fa686eb94322718d41",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "коле́блет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1032,
+      "pageTextSha256": "7e7aaf71448781b8fdb28df3ae5d99573980babadaeff9fa686eb94322718d41",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "колле́кция",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1035,
+      "pageTextSha256": "abd3c35ffa52da0b78ecdfb33b2f624b210ad9a7f8eb671e075da8feb9c98b64",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "консе́рвы",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1058,
+      "pageTextSha256": "e7358ee9dfd9763973f8f8b5b282b63df7af05ac71fac0540ffca10fc67d34ec",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "корре́ктный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1083,
+      "pageTextSha256": "60a0e95425a72e22eacfbe926dfa1c297e240d50a0122c42a8c723858d45a0ab",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "кра́сный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 57,
+      "pageTextSha256": "65db314c04798ecd75c10b75a29e89bcd48e8f3d60cd7c1ef042650368cbeb9f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "кра́ткий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1101,
+      "pageTextSha256": "feb1ad094c47053e59b133a82fdb7a7594a2c1719e434e7d7ef466a302ca4869",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "кре́пкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1105,
+      "pageTextSha256": "30861641122a1c31ca3a60137c9555a7af826732604da7e34932fcf1a22ec8c5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "кри́тик",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1111,
+      "pageTextSha256": "752c308ec94e85b6f7b58d449af2061fd1846d79d7fcfe5fbc4d81bcda525d84",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "кро́ткий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1117,
+      "pageTextSha256": "b73106acedc3c88993c7a4eae7e1cef85fdb00aebc09dff7cd74eff0d41f8f0e",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ла́ска",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1153,
+      "pageTextSha256": "b5144770eac488baedcdd55905362c545edc22cf1a0048ed1630267f874f44af",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ле́бедь",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1157,
+      "pageTextSha256": "269e12d521f905e062843e53eeccda0557d7c5cb11788fc55948fb028e11072d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ле́пет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1168,
+      "pageTextSha256": "f4658b2180941e2e7788e2cc0533309b11a59eebc626fb32f6311cb332ff30db",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ле́пит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1168,
+      "pageTextSha256": "f4658b2180941e2e7788e2cc0533309b11a59eebc626fb32f6311cb332ff30db",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "леге́нда",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1159,
+      "pageTextSha256": "8ddc7b3e01504ecf1ff60c0c69cd08e7dd8ebf850cbc310a275bad66e93d657a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "леле́ет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1166,
+      "pageTextSha256": "e9428b538d773ce51bb1ec187db1a4c1c15b37c1a14a512bfe2f3dc5236223dc",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ли́ния",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1182,
+      "pageTextSha256": "8ce6be115fcf453e6ac1335950a31721956ec432ab9722ab3fb199a0b73c55bf",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ли́нька",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1183,
+      "pageTextSha256": "05c3ad3b6763bd1bb46c201af2779ced54b5f923e519ac283d669c154d55cc57",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ли́пкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1184,
+      "pageTextSha256": "58a40c4d10fe1dd9d3e302a837a9dcf77f3f2f6e3ce93ddba2a196cd7cdb4d6b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ли́рика",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1185,
+      "pageTextSha256": "375783eb4120a0165579ba33792a70c83e7074c8b2bd73538174c15bf5d153fb",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ли́ца",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 227,
+      "pageTextSha256": "c9a6f833fe68109df54ecfef45c8050aa745169490638285aba5242b3df44d35",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ло́гика",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1194,
+      "pageTextSha256": "648a4e73fb96ac6088d3c4498f11962f588cf4f9bd8cb94659fbc1e9312002a1",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ло́коть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1197,
+      "pageTextSha256": "b7e1e6e7ba1eb3fc84e889ad60f2e1ee0029627b5cc17e1f63a49a13b60ae082",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ма́лый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 185,
+      "pageTextSha256": "912bad14ce6620549bf8ea862dab54196a1a6163da5715fefaa339f989855d70",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ма́стер",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 540,
+      "pageTextSha256": "2a90b016d1c5d8ea0ae7c5e28ed204dd96b765bee6b559c72e9ff4514483dda8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ме́лет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1333,
+      "pageTextSha256": "81980a668645acc084a5db0249bd06411ebc65e6215b1a3279ab4df7a43ba810",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ме́ра",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1278,
+      "pageTextSha256": "8e50e939baea7efa90b1c41d1551028637782b90d101b6d618342b3a34796324",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ме́сто",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 845,
+      "pageTextSha256": "8f0248811e6b13dac09378f016d5b4c2aef59b3f355488b0219c231c63538ff3",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "мета́фора",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1286,
+      "pageTextSha256": "2f833f1911ebb923fed4d004a58877ce338171900e1cf53dee508370c93ec525",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "меха́ника",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 345,
+      "pageTextSha256": "14e2054e99fb9d31bd75f9934905b55177d6eba252a2cb25867aed772c22aa7d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ми́нимум",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 100,
+      "pageTextSha256": "a0abc065223e1586469fde1e82487a7c79b39e8d1930f7dcd3eb3fc3271aa644",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "мно́го",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 365,
+      "pageTextSha256": "2552672b2e01186a05693c44f81282654b295f83407988d8265a6dfd13a05843",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "мо́лит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1331,
+      "pageTextSha256": "0843f8306f29c34e777040517c048e2bb76f607ce29475dd39bde2d7dc02e7d7",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "мо́лотый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1333,
+      "pageTextSha256": "81980a668645acc084a5db0249bd06411ebc65e6215b1a3279ab4df7a43ba810",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "мо́лча",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1333,
+      "pageTextSha256": "81980a668645acc084a5db0249bd06411ebc65e6215b1a3279ab4df7a43ba810",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "моти́в",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1347,
+      "pageTextSha256": "8a128b4cb58a14747fd9007ab66ba98ba10358fc8ba794eadd570a866d6c3ccd",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "мя́гкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1217,
+      "pageTextSha256": "019e3331a2514766c95a54edcc397d2dc6e3aeaf389fbce3e0321f9c5b7ac293",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "нака́л",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1396,
+      "pageTextSha256": "94445851728f5506f1951a0cf9c974ce1992806cf8aaa42a1e9dd22fbf9a36aa",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "напа́дки",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1411,
+      "pageTextSha256": "e1b00984f629d1d2db536cc25cce9d322008a8ac13a6a8e8b13732bbfd0b7bec",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "напра́вить",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1416,
+      "pageTextSha256": "a93fde7c00615268d0cc901e21d43a1bb591f617f2b56eae6876136b99c43d60",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "напря́г",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1418,
+      "pageTextSha256": "3e6ab930752b1bfcbf026e73e5ffd4f14f7d05f4bea9618853d35927ab8dddd5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "нау́ка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1438,
+      "pageTextSha256": "1d6f2ca75cd21f3b3c1a987da82a2cb5114e439658558b15137414611cb99f0b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "не́жный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1477,
+      "pageTextSha256": "0efff0405aa91631ea1c09aebade54e492e984833f971de966566298d733e074",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "неви́нный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1455,
+      "pageTextSha256": "5c45b1a31c0c678ff8e0dabad96d76ea8fb64a1de822e65238c5358fa24efbc7",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ни́зкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1554,
+      "pageTextSha256": "5c4264b9beb1cd6f524af98d64b835486d7467fbe213541c74569fea4362a96c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "о́блако",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 226,
+      "pageTextSha256": "54e6b8b709ad3369fd6b45a301b2a50261efff542a9e89b04d41772398659233",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "о́бщий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1628,
+      "pageTextSha256": "354f19bdbb38708ee60f2e5865bc9800c0256a4e760eba4a61faf54f8f7940e0",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "о́рган",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1085,
+      "pageTextSha256": "e139c818de361af927800e20adc6149605ef7e965115f38211aef856b9d7676c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "обая́ть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1582,
+      "pageTextSha256": "d3d0216528d8a91e27ef67a71a42e1b9332e48e443f9cb9b5b75bf6138f51b80",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "оби́да",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1595,
+      "pageTextSha256": "2145b72878a1773ca5575b5d78fc26eddee3e4154c348a6d749158feab185835",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "оби́тель",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1245,
+      "pageTextSha256": "0a0d2094f88dd9cbc7f3f0ede6dada4be33d5e8b4702ebde1a64928958753d8a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "обра́зчик",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1613,
+      "pageTextSha256": "dd48cc7bb8297a390c15dc31e7aac60178b7ef635d14067f6abfe2e387e11178",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "обя́занный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1499,
+      "pageTextSha256": "0fd1a515331c34b54e75559fa3266dfe1da9b59c3107ede574ca271ab5875f0f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ока́тит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1654,
+      "pageTextSha256": "cb40c101f93b56f5c454649011b18b8229b1bb5ef9f5b55570d26dc3000099ac",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "орби́та",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1687,
+      "pageTextSha256": "d59554bbda2eb32cf8566700d77ed4aac942b1b4ff0f77e8e580278a1a420972",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "орга́н",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1687,
+      "pageTextSha256": "d59554bbda2eb32cf8566700d77ed4aac942b1b4ff0f77e8e580278a1a420972",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "осна́стка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1704,
+      "pageTextSha256": "a8292f65cb702d7c678cf1e1343c11a457423aaab6d8114d4e0faaace6657072",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "осно́ва",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1704,
+      "pageTextSha256": "a8292f65cb702d7c678cf1e1343c11a457423aaab6d8114d4e0faaace6657072",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "отно́сится",
+      "sourceId": "gramota-state-orthoepic-pdf",
+      "pdfPage": 774,
+      "pageTextSha256": "e450e1330175913b0c9599c4419ad1ea2363f515d08f36b08a72625d4ecd3364",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "отто́ргнуть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1753,
+      "pageTextSha256": "479ff8d9d806a38156528b9c7365fbdef827a8a9d1e188497694562c90cc0a60",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "парадо́кс",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1788,
+      "pageTextSha256": "e38d2942fc9a63b1450e0c190fe4165ac71cde19ae98a17764fa02559296fcd2",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пери́од",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1869,
+      "pageTextSha256": "9533611dc523f7a9c8e6a9aedecc19355b1087084414ddb6f70d707027444e50",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пи́шет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 662,
+      "pageTextSha256": "91494b6e831c166f86978f0c3a58d8be8321b10041d30fc209d4469414234c4d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пла́кать",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 278,
+      "pageTextSha256": "9cf002fd9ea7a336de31669ec8cc3dfaca4cf7aaae290fb428bc5eadaafd6d1d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пла́та",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 800,
+      "pageTextSha256": "9846bc416854ec6b55be4d00351f6cd96497bf32b3b74f0d2370200cba9fac01",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пло́тный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1914,
+      "pageTextSha256": "fdc741bc3cba3f792c399679d2fc6ac402233c0cc7ff4c5cac4c10c3bc06ee6d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пля́ска",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 328,
+      "pageTextSha256": "fddbffc130742495ea68aa3f4d6e53a2aac1551845e59f552edb137ebf750943",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "по́лный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 577,
+      "pageTextSha256": "00db600f42cf21a3cba6caf6e497ed4110ef54c6babe423b6f2d5ab5ed4a5f28",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "по́льза",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2040,
+      "pageTextSha256": "1ca42cb5005d1478b217fe0394967dc98ba3f97d381f2a6480a23985313e3ecf",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "по́мощь",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 220,
+      "pageTextSha256": "7a502e55026155e0112821951529193878f4ec4c4ffa3d2c8761cfcae9c1b67a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "побе́да",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 806,
+      "pageTextSha256": "f146cc3edbc0078dbb6f45fcd6ebe9e112712f73ed5a5386734823ff8d0d3a71",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пове́сить",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1925,
+      "pageTextSha256": "40ebdd00a6063529a28aa8af36d527c11588ca08b74c5b7b7a9060ff2b3c995f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "повто́р",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1929,
+      "pageTextSha256": "fdd114c70545481eaede020600eb4a2268b1c52f72389f8d6429edc43bf8c63a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пока́жет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2000,
+      "pageTextSha256": "aef77c115c44efcb615fce819c4f2e977e06a07e89396717497839ff1c54f233",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "поко́й",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2002,
+      "pageTextSha256": "f9c3e46ec574e49d460228eea3df6181530cc0dc0fc333f3fbf822cf2eeddfe5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "поко́рный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2003,
+      "pageTextSha256": "0812d76e803ba4855277d268826a3fca1cff9f35b9baaef8896719314eff7363",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "поле́мика",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2009,
+      "pageTextSha256": "c2fed6a20793ca9dff9e24aede170d2cf2b6a3cf84438b3173077b986ac3a041",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "поло́щет",
+      "sourceId": "gramota-state-orthoepic-pdf",
+      "pdfPage": 932,
+      "pageTextSha256": "fe90915fdc480bbfc133c07ee25523bcf64bac3ece97dff339485dcd66e318cd",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "помо́жет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2047,
+      "pageTextSha256": "e03ec5c7cfa3dbf43c5ec67457e55dafc8480e4a8e9f9026b6e9dc2fac009425",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "порто́вый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2068,
+      "pageTextSha256": "9fd70369632a51e83684d1e8472005ba517aea5dbea67b38b1f534bcee04d50d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пости́гнуть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2083,
+      "pageTextSha256": "5154f0840dd589c9ca680e78de49875d79fe714b5cba83e9860c8b1d9b8842d6",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "поте́ря",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2090,
+      "pageTextSha256": "c68c4fd869c0fe6aa635312ff22d3a10ed62984c77ad0ed2965a624bf6068216",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "поща́да",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2105,
+      "pageTextSha256": "e927e14a2a4d73da4870d1dfc000150ade1b31dbcefc1603ded07c3b41e7f2e7",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пра́вить",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2108,
+      "pageTextSha256": "509512963944808c7e3290bd23024fad84b53494e88bfe8e3834403cf2e7f9a7",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "предвари́ть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2116,
+      "pageTextSha256": "a439ed48d929274cae749d71091a3e97ec42db7b46d93167db490a5018af1d3c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "предста́вить",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2123,
+      "pageTextSha256": "773ff5ebd93a00a80dbf1f05204d6ae84b6cdbee22303caa1a3c190435bb14e2",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "претенде́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2134,
+      "pageTextSha256": "4d6ad71cf0ff708a1e61f9d876bebd79ac02b6b3b6767a351e9f0bdd3901c1e0",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "прися́га",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2173,
+      "pageTextSha256": "75400672cfcefc498ce8ba92550dc1410b90ae181a939e87b9f45cfd5fbe5ce0",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "про́сто",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1519,
+      "pageTextSha256": "a4f17c21c6953d0a8e64bdb0db8925d6f5beb9b6ccd02688dfe52cf7bcdb9e44",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "програ́мма",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 285,
+      "pageTextSha256": "d4c0c6f9c4dae956c81a5ae018fca418bd31a84f0ad764e1d0f514ba92030cf1",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "прогре́сс",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2193,
+      "pageTextSha256": "a54139b7f96692b89be95fe7c1bd1a6ff9eb8819d8132209bc92d1e1f4c7a562",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пря́мо",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 988,
+      "pageTextSha256": "a2040470311619723d3aa4e80e53868a860b356fde5ee3669935b5d18dae193f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "пя́тна",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2279,
+      "pageTextSha256": "da9d27e02897cb669bdbc1391769d57883d4fec00712207a5468efd43f411548",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ра́зум",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2324,
+      "pageTextSha256": "d894e53fe569da9d6eb87edb00f0493d69353a3b46c93b216aff2404331c33bc",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ра́ма",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2328,
+      "pageTextSha256": "6bef9e95e43fac4cf89f0edaa4dfbacca2301554446de43de237cb0f555e952c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "разли́чие",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2309,
+      "pageTextSha256": "87690a8c09e7253baa30700aa2c75fe1b438e0fbe3cb3736a9eb2ce17103c9f3",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "разма́х",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2310,
+      "pageTextSha256": "12fe16b064f02b9acf2797392840c59ffa7a73dbac8e8280fff4343b23438b3b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "разря́д",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2323,
+      "pageTextSha256": "0af2a4212ef264ada2c121cf6b372c7d8b72df2640b4d975d49f1231017d3d7f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "реа́льный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2366,
+      "pageTextSha256": "5fb60cb6c3e29674441137c7dbaa48cc8795fccd900399566c8e2330371261b3",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "регла́мент",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 181,
+      "pageTextSha256": "6725acb46c0c132c9f672fc5397aac8d7aea0eadee6d6cf9bc11d7a4cf340a93",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "рекла́ма",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1763,
+      "pageTextSha256": "18c338ea0d328d58ff2ff0898b3f2c24cdb89285936031d54ff60906e557a99c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ро́д",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 229,
+      "pageTextSha256": "85445c0ac1ef8fbcaf15eefd233e54655d8bd760a9e3facb6992bab68039d395",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ро́скошь",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2414,
+      "pageTextSha256": "cde8b70c5fb80d3f3e8230b5fbd9a777fe8d8de42a13f6b77d4c6ac09dbf1f47",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "рома́н",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2412,
+      "pageTextSha256": "16552c0a354b06c6fb85424f483c2388f5a044306ced699419aa627c94783055",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "са́нкция",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2455,
+      "pageTextSha256": "c0fb2a2c8d9e866fc4ff60dc10ad05a78a5608d665bd6b1258de851bad0a4cc0",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сати́ра",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1277,
+      "pageTextSha256": "e822e2b3eb1c2fe25542e069a9ca0e3ea12c0c5cfd0dbe4ec21f74eec4f44286",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "све́жий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2469,
+      "pageTextSha256": "0332d90bb0b3b58e27fea7c1c8b512369ef6868f44ff6a44ad61e6f47e562b6b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "свя́тость",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2486,
+      "pageTextSha256": "387d877f9659a1243a13e4d87479a50d4ab0192aff3b9db70452a0416b774851",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "се́рия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1044,
+      "pageTextSha256": "91141a6ae3a3d79d505e820fbd4da0ddb34b80128bcd8cd4a1825018d5f53edc",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "се́ссия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 19,
+      "pageTextSha256": "b7df4ccab4682208310ba554f7cba3ff29d5adcbd9844a1907cb740ce4dea2ef",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "си́мвол",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1556,
+      "pageTextSha256": "34ac417ec4e554cb011a8d610252d5ca65f29992c48c099838b554c9e6906f38",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "симво́лика",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 88,
+      "pageTextSha256": "50d20302fee85dd80f3049e1d5072b267e5f9fb1488bf590029d29f61b0593aa",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "симпа́тия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2529,
+      "pageTextSha256": "b41f85fec2033a438b13f4330a3e1625e51f0b1ee73647e83d9590aa68328509",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "систе́ма",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 174,
+      "pageTextSha256": "c34079932de446f66d0fc9b9a96c38d94835a3fc689da64757d80beb648cab3b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ска́жет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1859,
+      "pageTextSha256": "f73fb7c518f1f4c8be0d39bcf643faedcc521126c4217afe965152c6dc3e569b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ске́птик",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2545,
+      "pageTextSha256": "35118cd9bb1b5e527426eee17f3fd7c052505404260117325ec38386841ebc3c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сла́бый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1879,
+      "pageTextSha256": "e549232946499aadb56ab9a82c32985f63823c9017fdab2b05faaa4f9656da00",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сла́ва",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 491,
+      "pageTextSha256": "9f8110708fdbdce629a9d5f57c7ac9460dc81f05af4f950f80772dbe05f1bb82",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сла́дость",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2565,
+      "pageTextSha256": "5f1c712b4269f90803631e844e5b204c5085c67494757d4a64a08c8d95a60d0f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сле́пнет",
+      "sourceId": "gramota-state-orthoepic-pdf",
+      "pdfPage": 1196,
+      "pageTextSha256": "d4ec02c5274454a9499aa583fa0537a6838d6da7c9211b9b2fe9b7ffaaeaf439",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сло́во",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 337,
+      "pageTextSha256": "1cd83cb5127ee437f8295650bd5a657cc0362f4376275993ea7a7309a14b4407",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сло́жный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 583,
+      "pageTextSha256": "c06c28aaf6bc93ae13b3966e74c7cd5f510e9eb6e7d0b366349623818bd5f553",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сми́рный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2579,
+      "pageTextSha256": "fb4e5a7f8f541378a714d1670d8c40894a260f42704fb480cd7009da165d6aa5",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сомне́ние",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2606,
+      "pageTextSha256": "0c65c5cf2f097e41b36ffe49279bc3babac4f3f13921cacd18ba668296f0123e",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "спо́соб",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 652,
+      "pageTextSha256": "10ad42f5682f2c6862b21e2ee14e36c84d85b622f6a4b187e03f7ad6a0729f39",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ста́рый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2659,
+      "pageTextSha256": "6801d2959acb21625a3eb3005f88b7e3b5d5d46fd595e6ca8e1bfde9378a065f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сти́мул",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2673,
+      "pageTextSha256": "71347ffbb567b42335692b4b582486708ebaf774a1f854eac2b1e7afeba40a02",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сто́рож",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2679,
+      "pageTextSha256": "1be2f51c3f7dafee649ef39a71432c21fb73ae242f94fd1bb3aaca98c9d74152",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "стре́лы",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2684,
+      "pageTextSha256": "25f73fa3ab228fdcb27f2b4d31b2ffd5f64424cfb858c88a81f3e57dbde0cd8b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "сча́стье",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1433,
+      "pageTextSha256": "8428e76a41b99aff292d215804f80c0cd93c16590305973a561104dc1014fb92",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "те́рмин",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2767,
+      "pageTextSha256": "5ae8f96590d4d60bb4680e8e4e73d9d2fd1cc0c257c72f24709234f3eae90a3f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "те́сный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 445,
+      "pageTextSha256": "a9f86a2687026f817162088453f664d4392fbce99f853a2933da8362110bd26d",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "теа́тр",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 52,
+      "pageTextSha256": "8371fbd51cf49748da100b874fdbad4436a89eff186be8d270c7537ba4df6d52",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "тео́рия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2762,
+      "pageTextSha256": "7a074d3539c75e0dea81c3d9f55da760805f0b01fdb30b8c7f7f395c6c4d67ba",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "тира́ж",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2782,
+      "pageTextSha256": "aca3be73a3f89f94bc4babf25cf6802cef415331f7ac6286d355f0440455b4e4",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "то́ждество",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2788,
+      "pageTextSha256": "4ce2e37a844f9ee6d8e120709ee9a246372f8916845c8071ea85c16b1bde95c8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "то́лстый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2792,
+      "pageTextSha256": "a330763b56350d1873199997d01a4b90b8da86b2715b06f3d055b7dd8b1073ba",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "то́мный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 375,
+      "pageTextSha256": "8cd9ba00c7776e033d1e8fce6c5eafa2c279b5ed8da4120f622a87c49b297877",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "то́нкий",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2794,
+      "pageTextSha256": "45996eb7372a4761307c4075f98edf1b2c91b632a5eb261b71bd747cfce72eec",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "то́чит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2804,
+      "pageTextSha256": "6d7afc489b140a077af4ac8d6a3eb366b8aae94585040cd3461743bd41def097",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "тожде́ственный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2788,
+      "pageTextSha256": "4ce2e37a844f9ee6d8e120709ee9a246372f8916845c8071ea85c16b1bde95c8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "торо́пит",
+      "sourceId": "gramota-state-orthoepic-pdf",
+      "pdfPage": 1291,
+      "pageTextSha256": "d8851d43295fb0551fd41a6bd37c67878e32222cb4651f4a799b870ef6f15f2e",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "тре́нер",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2817,
+      "pageTextSha256": "685e8b65773ee76f3a35aff1ee54dc3fd6278938859fb581f0616229f9492609",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "трево́га",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1611,
+      "pageTextSha256": "7c1919163eb94fe50bafba2d80f6a39f0f7018f08ca63b9e8c835336b111256e",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "тря́ска",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2839,
+      "pageTextSha256": "7f2c7c3ac77a58d0c06e01167a7921cef489926895da45f5c825aa24198ca77e",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "уличи́ть",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2880,
+      "pageTextSha256": "49dadd68af7ce36d92eabde88dc45fcec9358dca4c0a0b12d640e989409b6af7",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "фина́нсы",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 883,
+      "pageTextSha256": "eea9d2e34fef1a4a5599e0f05e0f3d34724da06e8e317166b84a97bd00faeed0",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "фо́рма",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 830,
+      "pageTextSha256": "523405098d4960159a999eeac394d1dded1ad653e40f37f37477c67b8dad770a",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "фрагме́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2969,
+      "pageTextSha256": "2040b76a11e47477972a495430b5060dee60045f9087fc3cb58231b0d1e06c92",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "хва́тка",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2988,
+      "pageTextSha256": "68dae6d12a139e2072682f603c00044f38f5417c424f247f55df56ff1813c100",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "хло́поты",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2998,
+      "pageTextSha256": "47e469ba3ef702efc7c84ebd393dd2686f64b636cea94554ea00dec4ca04b532",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "хлопо́т",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1497,
+      "pageTextSha256": "7d4fe9bb880319dfab957ac28be4fd35d7df4c694b34d33e25c4f2342076842c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "хро́ника",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2412,
+      "pageTextSha256": "16552c0a354b06c6fb85424f483c2388f5a044306ced699419aa627c94783055",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "це́нный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 1627,
+      "pageTextSha256": "86a645c15806cf814598466c041c27ef152f8ed8487e2e81d401a443af059862",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ча́ры",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3039,
+      "pageTextSha256": "e0dcaa98be807aa28a3a0f4ae8da2fe70e65894a2998306eeca224648fe5bcf6",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ча́сто",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2159,
+      "pageTextSha256": "da53dc54c00ae78d3c93b1e15c869ec8df8f1f5165340f2e47558b3dbc9c6982",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ча́стый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3041,
+      "pageTextSha256": "9d090b03fd8427d76f0d141be240993a6c4c86c00b5aadc1da0011fe39b4e54c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "че́ртит",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 5,
+      "pageTextSha256": "8ca49c0b5f0bf35c968531544dd4cbd1956824fa2b2953e4ee74a04e426a9c3e",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "че́тверо",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2831,
+      "pageTextSha256": "b15c664904987777d40fd3b071b617d8b5878bc511a1e64fda47cea8112ca71c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "чи́сла",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 302,
+      "pageTextSha256": "2e16ffbd96af3629c4b30f2d68b2e7cbaf5dd11e80b10eb648200e7b50b97596",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "чи́стый",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 11,
+      "pageTextSha256": "1af91309a2925bb3513be5bba81210bd5d480194747b0f4971046340b58a5f97",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ше́лест",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3080,
+      "pageTextSha256": "791e85e0b0f042495bf8269ade28a6671e8a248c1f5dfab0489813390e243fc6",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "ще́бет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3111,
+      "pageTextSha256": "4600627a01c04ebbf9c0e6a2d54abf213c18d1640c4fce35360d51e7fb554fb8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "щи́плет",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3114,
+      "pageTextSha256": "e1727e71eeabee13a27a2565f2a152dcb8c5085033c1113fd255ff2d9fab47ff",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "экза́мен",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 2101,
+      "pageTextSha256": "2749e0a74c14c3517f840b70e97bd9cea4a1788808537028bed69f6bc936d46b",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "эко́лог",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3124,
+      "pageTextSha256": "68fa1b6da123811ea492379658663423894a0c4613e8e314795c1478e4a7433c",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "эконо́мия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3125,
+      "pageTextSha256": "205dbe29c0361a7f5c34e232abd020c4e9b22cee2db2a3cc95b9006f0f308876",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "эле́ктрик",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3135,
+      "pageTextSha256": "ef2c57938b16ab4fd3d486e92b374f378366f834ae6a09499477e30d6fe158b8",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "элеме́нт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 37,
+      "pageTextSha256": "ae0fe5943adc25a2aca0d99c5a48135e7afacd0ce5feb820606202384b7556fa",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "эма́ль",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 565,
+      "pageTextSha256": "f3a6fc6c026e1ea6c94a0ea193e8edab5846a862082c874fe81876d9ec24d856",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "энциклопе́дия",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 225,
+      "pageTextSha256": "0e857009d18f46def8b1efad08dbcc91e16c9c60ea39f84cb70ffbd3269576dd",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "эсте́тика",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3165,
+      "pageTextSha256": "be5a9a9e6f2b093c38f76da887f3f2a917efa360360cef59b837e168100d6551",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "эффе́кт",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 609,
+      "pageTextSha256": "c1494b404ba1f369cca0a473c9d54c899cdb1c24d3605b5f0f005e7459b1e17f",
+      "method": "literal_stressed_form_on_pdf_page"
+    },
+    {
+      "form": "я́вный",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "pdfPage": 3179,
+      "pageTextSha256": "2067f7be94c3b87a2749fb1a65e5625afa1c5a25d6bde9f39d9f1ef5e15454d2",
+      "method": "literal_stressed_form_on_pdf_page"
+    }
+  ],
+  "ruleScope": "Paragraph text read: §§13,15,16,18,19,34,35,36. Generic rules are not individual dictionary attestations for all 975 words.",
+  "independentSubjectAcceptance": false,
+  "rejectedDraftChecks": [
+    "линять does not have stress on И; use линька for that position.",
+    "мелет does not prove О in молоть; use молотый.",
+    "предварить has stress on И, not А.",
+    "обаять and возразить do not check their preceding А by stress.",
+    "тираж has stress on А, not И; in тиражировать it checks А.",
+    "знакомый does not put А under stress.",
+    "промах has stress on О; a check for А must use another related form."
+  ]
+}

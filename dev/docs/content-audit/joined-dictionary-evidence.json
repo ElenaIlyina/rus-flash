@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-04",
+  "counts": {
+    "cards": 70,
+    "variants": 350,
+    "markedUnits": 700,
+    "newArticles": 30,
+    "totalArticles": 598
+  },
+  "reviewedCards": [
+    {
+      "id": "044D16",
+      "sourceContentSha256": "a6b3d1b5e12048a1a8569ee335ff88b32e292d7cfd9c73f3e83eef5bea888d5a",
+      "explanationSha256": "2138a914e96bef2caa4567fba7aa784a63295db8a67e6b8055172032a289535c"
+    },
+    {
+      "id": "07AB3A",
+      "sourceContentSha256": "3987468a6ea22523068440d224ab6acdfef2d91b0efe27d49095b9e9fed46155",
+      "explanationSha256": "66e10a9cc9129cbd05d53672ed5c6fad71d6ee00fbd36a102d10fe89cb806c9a"
+    },
+    {
+      "id": "08F8BC",
+      "sourceContentSha256": "b3cd4ebac2d8a3d7d05e45321dd6ad625004a68385bb5e8f064c3a45f7b01b6c",
+      "explanationSha256": "a4b87d59ed98bf27be1090fb7c668f4b4b27df95b4e3090f62da6cefd986265c"
+    },
+    {
+      "id": "0B429D",
+      "sourceContentSha256": "9282db880914055cebb5e662bf160fa0c3e7cc00d9692986d8cdf0573bd540a9",
+      "explanationSha256": "e9c1877a9a96dcc196de37204b00971bfd700b2ea1246dd2a5e5d4cdb039b4c3"
+    },
+    {
+      "id": "13C248",
+      "sourceContentSha256": "709e2ade2927be080181a509b95ee38934605c97e7d7a10d1c9fa8938f0ac47a",
+      "explanationSha256": "cf23ab4affb7bf79e2f1ed9c3c2630c70be3d16bb426ac3c8f1e048cb9ef0338"
+    },
+    {
+      "id": "15CE24",
+      "sourceContentSha256": "1b29a59f91ad7858b8d4235c1986053b4bf4463497c21f895e03d689c773cba6",
+      "explanationSha256": "308a8abb806454f474f889c981967e3dc9a4a01f6c802e93b25cff2c3196711a"
+    },
+    {
+      "id": "1BDE1A",
+      "sourceContentSha256": "1b6ecf14ef4e11ab2ba8119b06c70a30e5223014b767be272ed934b1c5a17d7e",
+      "explanationSha256": "7874ad6af9a9e3992b8a7b6b07ede3fc2b78a6158860142dc3e8f353dfee1ba3"
+    },
+    {
+      "id": "1CB807",
+      "sourceContentSha256": "7e415596398c158fb2bbf93c180d88bb4072e1480aa90c628a25a2025740f152",
+      "explanationSha256": "d8ebb796d084f1ca3f6d201d8899742f7f2cf428698a1e714fda3c6527f645f1"
+    },
+    {
+      "id": "206F47",
+      "sourceContentSha256": "f7fb82d245bb7e6b21d05dab4b2197a7cfa597d07116de8c0ebcd1ee15904cf1",
+      "explanationSha256": "bfdd65057636a03f48dba1703b704c913fd0c4543ad3d2feeb29fea04e1d3e3e"
+    },
+    {
+      "id": "265C0C",
+      "sourceContentSha256": "20c6e0f5d993f8d5f59b765fe818e79cf1c75b695f90b44c3e38199f8a2de407",
+      "explanationSha256": "18026fc4f28ac16fcb5e95d1e8a8e7ae071d9fc7c23deafd1267e71bead438be"
+    },
+    {
+      "id": "29729D",
+      "sourceContentSha256": "4aa5ca3dfc013b3144916538cb60d7c6b4a2cdef27d30620b049ee93bc89da0e",
+      "explanationSha256": "50db40109fb7dc8f218f853373459da97ebc6211fd1b3689d0e73e52dec1ecf7"
+    },
+    {
+      "id": "29FD62",
+      "sourceContentSha256": "8fde7ee8a80c7c5a2f0ee0155deadad364116e2db5982a2ca4347ca4eeb46eb2",
+      "explanationSha256": "c105d9b5021ba2a5f8336375f362f4889f20aa64f1d4e75518ac6c98d6a1617b"
+    },
+    {
+      "id": "329080",
+      "sourceContentSha256": "560bb9dc58a4c932e107a374d4dadb7b7757e49a6702ef44aa353f6bc402c80f",
+      "explanationSha256": "7952ebeba9805351a11f35c629ca8c92b33ae9aada37edc241431e47c6dc5e0b"
+    },
+    {
+      "id": "3573FE",
+      "sourceContentSha256": "850487631b6db6c1f0d141445dd68a668d3b6689c68ea747f26894540303ee17",
+      "explanationSha256": "2bb605d42046142c5cafaefcbc9588f785e04b3ffba290ed4a1a4338b4fdeedd"
+    },
+    {
+      "id": "3C5586",
+      "sourceContentSha256": "e7ec828ee036289ae4d7faa5b096566573788694b11c28ca450b215e4e5817c8",
+      "explanationSha256": "8f3521a29ce8acb8105bc32fb3174b051140552e8d53fe326346efb86fa5a8b2"
+    },
+    {
+      "id": "440CAF",
+      "sourceContentSha256": "175271aa4ba513d7c6ed6e6d417c72ea2e179f18ce3da4ac11b76c6a73707383",
+      "explanationSha256": "4d7c2683ff548ea3f9ee5e1901ecdee22009f4508fc8a8da0a86e5d4ca5c2f26"
+    },
+    {
+      "id": "449F35",
+      "sourceContentSha256": "d6a7323550a77a0b141e5397438cbaa165aa6d54c80c24558762f43bf215e42b",
+      "explanationSha256": "dd10b1fc1760a43fe2f700d7dedcbcaa484cfe21e8bee5f3a10d2c2198e0b82f"
+    },
+    {
+      "id": "462A4A",
+      "sourceContentSha256": "20def8afee7b7b58cf5054585b7657a9a66423ed3466e4a8ac7ab01f8649efa6",
+      "explanationSha256": "87154c3f1dab9a7e6ec41376371c174b21e4949d8b8bfa59c79785a25de517f7"
+    },
+    {
+      "id": "508493",
+      "sourceContentSha256": "fd3034935528d2228a65636b4069a951d43f45d74e20fedaa31267cda8eea370",
+      "explanationSha256": "431eee7f6f507952cce4676d9715f1975ec1caf7a618dfe57346f4ca1367a695"
+    },
+    {
+      "id": "56BF38",
+      "sourceContentSha256": "957ac8b6c94063392d9c68c4b363c9e3559616d47eff77239cefc7a05ae4c1fc",
+      "explanationSha256": "6b3c41d4b096e8a1edc61c231411022c89f72f8f85cf8cf794ea573d7c4077a0"
+    },
+    {
+      "id": "59EDC0",
+      "sourceContentSha256": "9054cb00a689675286e81ef9ceea124fe0fd484e293ad49975abfeb90779e189",
+      "explanationSha256": "c36c62a784cac744677ecba3af6bf9a3ef8b4b8f0e8f235e54ab073e08525c1f"
+    },
+    {
+      "id": "5F18B1",
+      "sourceContentSha256": "253b651b487345604e5e4ab92e2e8b45c3ccb280afb00f0ed2b4bb5fa5e7bb9f",
+      "explanationSha256": "f6ddc60374e4d3c6db8749f75abdd33287f225a95166b2e05d4c90abfda36da5"
+    },
+    {
+      "id": "63227E",
+      "sourceContentSha256": "84c1259c1f05a75651b669ad6c768c0c3191584c76316cf41c476637ec34fecf",
+      "explanationSha256": "89e9c1b19249b56f3426febd5c5a771a93de5a27dfa0b504783a336247c02c09"
+    },
+    {
+      "id": "65C40C",
+      "sourceContentSha256": "7619f65eec698634e490878b6298a7e07c1ddbad0a5f684ce618164ad0fc19ef",
+      "explanationSha256": "a9ce40b62d4bf308336462845a9d56635e325317c94b9f0882b42e18eef22a91"
+    },
+    {
+      "id": "68AD78",
+      "sourceContentSha256": "7b5a7c1e16168a9ac9839324689dbe3a364facffc9d38643ce0077c3e9f5f831",
+      "explanationSha256": "205e903b2237a10c26f280e8efa2b6605c8b5cb9b8f16b4aef68827e38944285"
+    },
+    {
+      "id": "6D1184",
+      "sourceContentSha256": "aac91b5bc43b936d9505085eb65f9d0ccf7d4f4407ae9cd2a6d7aeb06a99e812",
+      "explanationSha256": "d919f7ccc9bd706f8e8e19169640e3f07c285e46f3209a093e8121fcaa91354f"
+    },
+    {
+      "id": "6D1737",
+      "sourceContentSha256": "2b592b2b26527f9233c1bb74045416074c387e980403fd2eb4c6f0147dee7c96",
+      "explanationSha256": "21b2e81d8b630c141a00893cbdc12178637f61dfec7bd18959b1911721dbae4d"
+    },
+    {
+      "id": "774270",
+      "sourceContentSha256": "977ab5249a97594d8e240725139e71894a7100b4d1c13340d590ed5b1a2c9f85",
+      "explanationSha256": "3a6485e58903bc4f474f8e28c4d60cdb90ff90615a3b1f06320209bc7c2fec4a"
+    },
+    {
+      "id": "774D37",
+      "sourceContentSha256": "184f71b4d9ffa0aa2ab8a936c028817879e84af3213d8b17678c194fb4fc4002",
+      "explanationSha256": "8b316a833c0319c588ac71bf051f87a35b4654946313c2534d0c9934df55a06f"
+    },
+    {
+      "id": "7803B6",
+      "sourceContentSha256": "30db027998423166b9ba57b4390d8f62c47be856cce6465fb5883f0814e53f00",
+      "explanationSha256": "a9be49552f2e45335e2f65fedff0cd02d4058dd6f56b9f204e6f23577eef2012"
+    },
+    {
+      "id": "7C0BEF",
+      "sourceContentSha256": "03b8c4ad49fc9e907d166df47fcd91f102e4e6ca123df1c3b22c34bd4f4da5aa",
+      "explanationSha256": "3d8462ba56a61538b11514e63407ad02530c29689e8be7d041652dcf143cbff4"
+    },
+    {
+      "id": "821459",
+      "sourceContentSha256": "af661955eea253d3e2e1ea2b8b2c7395c2b17a6d26c60187b2945bf1e8f0dec8",
+      "explanationSha256": "ec744a4c951728be9f243b580983703e7ddc54605e03679bf163f10b96ba448d"
+    },
+    {
+      "id": "875B8A",
+      "sourceContentSha256": "a1adb97faf6fc8a4646795bb45892fa6c44fcb0e3ab05606db5fa5925bb884bc",
+      "explanationSha256": "06c40d31c9cf3ab8da2ff79e1c919488c939e19544b239ebcdd9c3bb61864259"
+    },
+    {
+      "id": "89205B",
+      "sourceContentSha256": "49fc3020124ceaea1a582dc496a332b9e0e97aa5d2567e84ca8b1942e23c0360",
+      "explanationSha256": "fd9dbef28a366cfb963873c8392f922d443eb1d4d5a29a0a040c6757051ffa85"
+    },
+    {
+      "id": "8B9259",
+      "sourceContentSha256": "2427e86df19573af1676f78ce99c206901f14f0075c353f6a6d24bb7638f3f02",
+      "explanationSha256": "4891f63b9eab8f348688c1e941444b1f572f9b03afed15ab29ea751af25f5df4"
+    },
+    {
+      "id": "8C7607",
+      "sourceContentSha256": "a985392ecfbaf3dbec9ddc76706ab060a80d1a7454230f81bb9cfbe855f1f1f2",
+      "explanationSha256": "8bef42d74444e6c8b8aa3f76600055e19792933cd3a1e02d349374bb5837a610"
+    },
+    {
+      "id": "8CC6DB",
+      "sourceContentSha256": "66a6207604accdd7b2de9caf835183cfc449bcd856599a327053122d21e8685d",
+      "explanationSha256": "4b6deef3be85322ae307dea2a9f2dba4a406255b69c807003598a2a80fa046e2"
+    },
+    {
+      "id": "93EB58",
+      "sourceContentSha256": "1f4fc875411fe69292219adf5c88898c037629d462c356e91ce57495330628dc",
+      "explanationSha256": "459ece2ef0e4ecd9e90107aad70b2e3b9d58ab41657521df0163d593b87f6241"
+    },
+    {
+      "id": "9E9F28",
+      "sourceContentSha256": "2edd7c5f322a185b9f27c6641e76c11f553e6595fc96b06679e1695bcdb4155a",
+      "explanationSha256": "ccf18b8c0b6ac16111f7d5d65a67c7cee3e7493a4f0783451e65196c3d965d1f"
+    },
+    {
+      "id": "A04FAC",
+      "sourceContentSha256": "a432863a3c79fb87aad02a5b534f0e2fe1510071945493c68b3a2e141d408f8e",
+      "explanationSha256": "a30c729d27ba0a751163cc98c9533ecbf299c5830d41ec671726f85db5d7ba7d"
+    },
+    {
+      "id": "A65413",
+      "sourceContentSha256": "df329c25389b692b74d389db2c82d569dc1b8f7040fdb4788fd5ff5798390be0",
+      "explanationSha256": "21c7092253b7aa8ed45c9cf3477d52ceef4a2aae5269cf2b0095ece1c2f0df82"
+    },
+    {
+      "id": "BC27EC",
+      "sourceContentSha256": "d4eb3a4be91ae511ffd5bdb5a6d278b636596443ee47e92dccfdd57fdfc60008",
+      "explanationSha256": "c0272d5468f844442232e5d568cfa7cbd89b91ed3be818866107f124550e722f"
+    },
+    {
+      "id": "C13590",
+      "sourceContentSha256": "5191188f44ebce9541b0ffea28ae28e7e6aa17af3f3ee538e13f091f1157739a",
+      "explanationSha256": "531bf133613e8f3ee9d9001ae863c19fff348ac314e67e3e37cbcf2dd82f5b03"
+    },
+    {
+      "id": "C2E6FB",
+      "sourceContentSha256": "f08715aa6f1fa9fddbb49920931e8e42942cb7ad4e0e4ff5475aa75e079afe3b",
+      "explanationSha256": "835bd3e012a3f442fffbc196477ed4eb39ec90750b642b2f4e14b037069053de"
+    },
+    {
+      "id": "C3F31C",
+      "sourceContentSha256": "d0fb72af896465836752dbd79f0adeac2cc4c2c259006fa2d7618547b1cf3cfb",
+      "explanationSha256": "e2222d7dc7b548e573971fc88842b1091627feaaa78a6d9cb273143c12f88176"
+    },
+    {
+      "id": "C80564",
+      "sourceContentSha256": "e7dfa8c5ac19df813f623a7177246b4df5cf58b3460dea04527f5506c77e8470",
+      "explanationSha256": "01f5018c671a61671916af62b75005b821d3a52efa6e542a4efd9fa9bca46ca1"
+    },
+    {
+      "id": "C89CC4",
+      "sourceContentSha256": "670fee8193aedb01bbb05d4aacfd47ed84b9038885ec148142096aa63dffc73f",
+      "explanationSha256": "6296f97716ec2e6c748b521aa08aa73be71d78b0e3660903202b7192cc554535"
+    },
+    {
+      "id": "C8C208",
+      "sourceContentSha256": "49b69f88ee0b283839b7fca09d4253b5aa9f3bfac5635f33eaa75e2e024dda62",
+      "explanationSha256": "d1e0536d7c23acb2fc9a666480a47c3a7ea7c1e3c7ce23db98684e7b71b14368"
+    },
+    {
+      "id": "CA93FD",
+      "sourceContentSha256": "05619978a5b342989cfafc29333fc527b5ccf31595ef44af0fb14fdb3e951705",
+      "explanationSha256": "5c08d4b7cfe854cc07a0660a7aaa70fcd637ca346ae90486794478093f4b8774"
+    },
+    {
+      "id": "CAC16C",
+      "sourceContentSha256": "ac67036f9ef16873d92c42655e7a40144cb554d8fa14fa6e056d38d0d76bb4d3",
+      "explanationSha256": "9bd3a4dc096bf85fb7198a1745c4302bf05950e88fe73d6170d055dedbff298d"
+    },
+    {
+      "id": "D0FABD",
+      "sourceContentSha256": "5a55df7ccab273295ccd8653de414cbbe412e253bc737d10d16c7daf5d010e9f",
+      "explanationSha256": "85d52a74c3b9917c2338457bbd269ba08a470d57e18e76ab2ac549b91d5b1f5e"
+    },
+    {
+      "id": "D2D6C9",
+      "sourceContentSha256": "5a15983a622342fc9f0d386197ad546d0227428f8b827eafb3725cf3e0b106ae",
+      "explanationSha256": "4230c0868816bee56b8d93fc3ca663ed35ff4e0955f7cbdd24f7413cad698657"
+    },
+    {
+      "id": "D7C6CE",
+      "sourceContentSha256": "f014a52a4dd9bc901574f0005776b0843115f0830c81f1493bac23b156cc826c",
+      "explanationSha256": "00356cc8141f79f0be16e531ebd4baa2af66ae60de214e5b21cbec3ae6fcb20b"
+    },
+    {
+      "id": "D86FA0",
+      "sourceContentSha256": "e010f9943618e4a65cce0d6c180966eb51822215cbca16a83daca1682cc57b87",
+      "explanationSha256": "b579ea62bae53062294d47925b771ff766a5b091238acff155e4264fc237adbd"
+    },
+    {
+      "id": "DA2157",
+      "sourceContentSha256": "da472794726bf676b6fb3fafba5d50bca2f02a8ce07aae7f88e8af5ec2bd09ec",
+      "explanationSha256": "bc74ff332fbeee01d8d3b05da49744fe623cb74e4f3156849629a0ada70cb43c"
+    },
+    {
+      "id": "DB8538",
+      "sourceContentSha256": "d204db3eff75eadd9d6dcc894a3aa420ab90edb809885344217a968c0dc9991d",
+      "explanationSha256": "5194f21b95e7657474c434e77b30aed8687cb7aea0b882b73512ca18a592d10b"
+    },
+    {
+      "id": "DE49B8",
+      "sourceContentSha256": "936d9c663c6cb7a9beaaaf9d7cb6ff2150b40c57dc160f85f1267dbb4277b7a3",
+      "explanationSha256": "5119fdfb7bbfd02d27fc6872edff09c113ab39109de1d3cecb1f8fe14ab83681"
+    },
+    {
+      "id": "DF9BF8",
+      "sourceContentSha256": "978f93a7814bfa15d2e97f43ef10030859486a260890ffc0b2ca91cba14e3cd0",
+      "explanationSha256": "158343b21e9a984bbb940dd8e8bb65e878cbbb7e073fa4c964a7b8efef0ac467"
+    },
+    {
+      "id": "DFF048",
+      "sourceContentSha256": "a3fac6bdc625b80bdaa8086efb5c685fa7ee6b4b9713a81c39ba5a8b876196cf",
+      "explanationSha256": "03e9ae941c181643ac0b99de94d2c209a3c32b4affec23c27f385f0c6a750970"
+    },
+    {
+      "id": "E0046A",
+      "sourceContentSha256": "71c0bb212b025092c9e2ed29a934d36e5e90d90ab1295861ca1fd224be13a81d",
+      "explanationSha256": "850ed8a07c9b8dbaf48ec26c60544fa75456a6d1db58ca521d399b910d3c496e"
+    },
+    {
+      "id": "E0107D",
+      "sourceContentSha256": "51055a94ed1c54762c1db35ae36282476da581a73287153396a45bc47b2e4de9",
+      "explanationSha256": "2a35556dea236225322d141ee6adf57c4ace37082e4cd80b6f5edb7df647a3e6"
+    },
+    {
+      "id": "E26E51",
+      "sourceContentSha256": "9e949d9dbb07e1df95f346e9236d1cb1dc8ca109bb0e7f496e500d2f65941779",
+      "explanationSha256": "73bb4beee4d302d3a56bd51115756374b84ea67ac673a25fb266835787dcccd1"
+    },
+    {
+      "id": "E3A511",
+      "sourceContentSha256": "705f946572c8ccade4a368c4c7d5254b0afe31373604fc3866cd38a5ab03220a",
+      "explanationSha256": "e97751847496cb89a1170ce3f8d9d3b49cbf685af31aaf95214b0e8692ddead4"
+    },
+    {
+      "id": "E48573",
+      "sourceContentSha256": "c8da2d95a87c05ab3b767c64baf4f956234a7fe186e916e8c9570d265eb97e6e",
+      "explanationSha256": "a88f9e10e894a6b8726c737706152cede8285f10322147bd5b0e540ebe7d4199"
+    },
+    {
+      "id": "E65C5F",
+      "sourceContentSha256": "41b89b0f03e817dd786a25b17cf6aa9044312a9f852ba6815da0ecbc25fc8a4a",
+      "explanationSha256": "b97ee0384757ecc4f2a930a234de3dec3c39c7ce94c3fda342253fc0b3688e95"
+    },
+    {
+      "id": "E6AB8D",
+      "sourceContentSha256": "419f8f57993d6c66c9db3deb573c03080d030207c4b11828e81b0c1b3bd2db0d",
+      "explanationSha256": "1083d3defd3c528c94036d4aad0a200c4c2cb09efb73546e7c78edcbfc964d8a"
+    },
+    {
+      "id": "ED38F5",
+      "sourceContentSha256": "ac5dc411b3ee3ebb0012d3cdd31a80cea18d7dddb828f80d6f558bea506b6d48",
+      "explanationSha256": "915e9d74d4480310efbbf346e2bfc8f041f762b679e2b39f56829ce478569982"
+    },
+    {
+      "id": "F91EC3",
+      "sourceContentSha256": "c0396d8fed1a4742a93d8813aa813211cb55846ff1d38dcdfdbeffa8aaa36f1d",
+      "explanationSha256": "73e78e25192abd38f1391cda69ddd6f2a12df0e4b30de925c1e2fb0513d555f5"
+    },
+    {
+      "id": "FA97E6",
+      "sourceContentSha256": "4d77f16876c9479579c8201475512b1378ccb02c4da27decdb8e354910385968",
+      "explanationSha256": "35d271ff82953ea5975e1c705abd2968b2c1a951fabc2da585152baa62fc6921"
+    },
+    {
+      "id": "FE8390",
+      "sourceContentSha256": "3873f23f42dfbfd00fdac1b1a82ef6c170486c828ee29ae2b13a4661774bf6e3",
+      "explanationSha256": "6850529b501852ea44314576cbd0f43934ada00c1a0c8c85acf8066d19457666"
+    }
+  ],
+  "readArticles": [
+    {
+      "headword": "белоснежный",
+      "entryId": "ozhegov-fe15844e3111",
+      "textSha256": "3b7bf673eca8428333a408be0d827b256e818e62d9ed80cff6ff82733b407bfb",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вдалеке",
+      "entryId": "ozhegov-53a735f55d63",
+      "textSha256": "9d82f069b4911b44112b641593d29cf80d83aa797bdf2e8bcc49d93598499ec3",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вдоль",
+      "entryId": "ozhegov-d9dd29237397",
+      "textSha256": "52eba280182a4b5e08bda5a4997075ce501c612a88c98d8d61d886bd4073bc9d",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вечнозеленый",
+      "entryId": "ozhegov-956fa458912a",
+      "textSha256": "8e93f11628b5d2ac5c40e1165bbdd631eea61b228c5bcd7d0d31ce338b8f73ed",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вместе",
+      "entryId": "ozhegov-9718792b7b80",
+      "textSha256": "43b56a5ae0009df024e1d7bca49e0aee628512d1c69a4b73e3bb3d7cdc0c90e9",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вничью",
+      "entryId": "ozhegov-9453b49a4177",
+      "textSha256": "d65a5ff5559cd69d971a3e1bda375da750bd5888cbf5bf52b4426a3f15b82508",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вовремя",
+      "entryId": "ozhegov-f2c96450f46c",
+      "textSha256": "05b93de1d6d366a1d67ea7774250a74c6ca1009868af04c110f9529f7e6deba9",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вокруг",
+      "entryId": "ozhegov-539982239467",
+      "textSha256": "3856d51153e096daf9130628cd3c99fb22e2e5dfc0e0d34863a46d6ff7bf527a",
+      "newlyPublished": true
+    },
+    {
+      "headword": "впоследствии",
+      "entryId": "ozhegov-bac44e440922",
+      "textSha256": "e1adbc978f7877d07bebfd182d762f82431056b35a81161284af372c4e36375f",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вправе",
+      "entryId": "ozhegov-8379a5720ee1",
+      "textSha256": "c3c42d5322fc89d4204ed4938dda541f77a7cfd777db42c6e65d8d9d3470ff12",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вскоре",
+      "entryId": "ozhegov-bfa3cc582804",
+      "textSha256": "3eabfadc88175e33a875dc052e38d871aff8266104b89b84db3f3e7015e4c00d",
+      "newlyPublished": true
+    },
+    {
+      "headword": "вслед",
+      "entryId": "ozhegov-088d3efde731",
+      "textSha256": "31e9483362666b2228b694c219f21357257822335fe956df48870a6e90455841",
+      "newlyPublished": true
+    },
+    {
+      "headword": "всплошную",
+      "entryId": "ozhegov-adb5c7429b60",
+      "textSha256": "6628a3160c418229484d3725b0731bcd49364150b9fdc07932c4883109942faf",
+      "newlyPublished": true
+    },
+    {
+      "headword": "втайне",
+      "entryId": "ozhegov-75b08791916d",
+      "textSha256": "7feb689f9a9ab5408fb10d3a9ac0c85bc70189e95d211be69c67ca35472a9553",
+      "newlyPublished": true
+    },
+    {
+      "headword": "заграница",
+      "entryId": "ozhegov-2a628428cb12",
+      "textSha256": "774213b7321cbe418f6a813e13ddedbc354420679076d582bc3e52635c8dc7fb",
+      "newlyPublished": true
+    },
+    {
+      "headword": "наедине",
+      "entryId": "ozhegov-756ff82a4410",
+      "textSha256": "51060b2188fcaa3f0ec4b78deabcda0e807d192f481564f91acf98f575c1fd84",
+      "newlyPublished": true
+    },
+    {
+      "headword": "наизусть",
+      "entryId": "ozhegov-3d7902ee1086",
+      "textSha256": "f70cfaa20a506e1d3924982393712e8098bf16ae2c62115d166353dd9ab7ab97",
+      "newlyPublished": true
+    },
+    {
+      "headword": "накануне",
+      "entryId": "ozhegov-e418f3e376d9",
+      "textSha256": "313834ea3483f540611c83b782ffbca1d45c100b97fe735544fc7020ffd019ef",
+      "newlyPublished": true
+    },
+    {
+      "headword": "наконец",
+      "entryId": "ozhegov-e77a871d3f3a",
+      "textSha256": "5d238691e64c3cc50d33213eb0ca9b1a8fbb8951e00d4b2291babdcf9122cc38",
+      "newlyPublished": true
+    },
+    {
+      "headword": "наоборот",
+      "entryId": "ozhegov-e66d4465922c",
+      "textSha256": "7b3fa677a61ad0496d9ba8afdb98fea844c85d96d925d1d7c7f523bfa727bdb0",
+      "newlyPublished": false
+    },
+    {
+      "headword": "наперегонки",
+      "entryId": "ozhegov-cb4122fbdf84",
+      "textSha256": "a7a4ca08c24ef13a501c42afdc133950e5e6785efa15f57bc7c4212a1fadc0f0",
+      "newlyPublished": true
+    },
+    {
+      "headword": "наперекор",
+      "entryId": "ozhegov-dca5944e383b",
+      "textSha256": "1bd0286ff70fa855f163eb26c5573831e8025728faf7eec087d120b74cc78d72",
+      "newlyPublished": false
+    },
+    {
+      "headword": "напоказ",
+      "entryId": "ozhegov-6694026c2790",
+      "textSha256": "cae50496e237703f942892ef8df72cde684b2f09f589d9a70a54a069b2cecb9c",
+      "newlyPublished": true
+    },
+    {
+      "headword": "нараспашку",
+      "entryId": "ozhegov-f5a912e9c178",
+      "textSha256": "0a76629c02cf782e326b87bc950ddc1e3dac323fbe93f3c2f4f5dde6f51983dc",
+      "newlyPublished": true
+    },
+    {
+      "headword": "наутро",
+      "entryId": "ozhegov-0c9f416d3201",
+      "textSha256": "e7019470226d685258709ac97bc0108b3cbf508f85acc8bb0aae6a22a7eb5643",
+      "newlyPublished": true
+    },
+    {
+      "headword": "поистине",
+      "entryId": "ozhegov-50fdb13e2361",
+      "textSha256": "6758a6455d635c87e2f2d73770580707a7682b8f46158a4ea11ae88841235649",
+      "newlyPublished": true
+    },
+    {
+      "headword": "полдень",
+      "entryId": "ozhegov-156de9ffd579",
+      "textSha256": "af31f8aa1b16a69377ac208b190852c7af77a9d209270c4ce37282c55eb4669f",
+      "newlyPublished": true
+    },
+    {
+      "headword": "помимо",
+      "entryId": "ozhegov-5088fc3d299a",
+      "textSha256": "a290c29cc89130146f044eb9c4c9531a43652e79bf63f234a1819eb6d1fb327d",
+      "newlyPublished": true
+    },
+    {
+      "headword": "поневоле",
+      "entryId": "ozhegov-f5240edbb851",
+      "textSha256": "a7ead4e8e257f1283101256f67856bda9f83f322e0de66cc9de97c4abfbf4873",
+      "newlyPublished": true
+    },
+    {
+      "headword": "пора",
+      "entryId": "ozhegov-3f408901d981",
+      "textSha256": "4f497538bfabdd777d8bf03d99caf2d87cdc218ebd52e24997945a1ebf19945b",
+      "newlyPublished": true
+    },
+    {
+      "headword": "потихоньку",
+      "entryId": "ozhegov-8169e58ebd30",
+      "textSha256": "dc62114aeb367e981d4461c5f78c5befce1f83d3f7f434452410f59f3ba5b056",
+      "newlyPublished": true
+    },
+    {
+      "headword": "снаружи",
+      "entryId": "ozhegov-336d99a51519",
+      "textSha256": "fb9dceb5027553b07023d2b7dadc7eaab4800f71715cb8138211dfa7c9a512a1",
+      "newlyPublished": true
+    }
+  ],
+  "missingMobiHeadwords": [
+    "дорогостоящий",
+    "научно-популярный"
+  ],
+  "orthographicPdfChecks": [
+    {
+      "sourceRegistry": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "headword": "дорогостоящий",
+      "printedToken": "дорогосто́ящий",
+      "pdfPage": 683,
+      "pageTextSha256": "52ed78d11db8cea9d84d781d0a66eb5465b07da221f3e922d055fd057e8f9959",
+      "method": "pdf_page_text_read"
+    },
+    {
+      "sourceRegistry": "dev/docs/content-audit/stress-dictionary-crosscheck.json",
+      "sourceId": "gramota-state-orthographic-pdf",
+      "headword": "научно-популярный",
+      "printedToken": "нау́чно-популя́рный",
+      "pdfPage": 1439,
+      "pageTextSha256": "03bdc16dc5a97372cbb96a297dc69c63444a1566422110dc67d715832e59e8b8",
+      "method": "pdf_page_text_read"
+    }
+  ],
+  "sourceNormalization": [
+    {
+      "cardId": "63227E",
+      "part": 4,
+      "item": 2,
+      "from": "осенему",
+      "to": "осеннему",
+      "scope": "explanation only; source card unchanged"
+    }
+  ],
+  "semanticSubjectCheck": [
+    {
+      "cardId": "3573FE",
+      "part": 2,
+      "item": 2,
+      "forms": [
+        "на утро",
+        "наутро"
+      ],
+      "status": "contextual_reading_requires_subject_acceptance",
+      "reason": "Appointment time vs next-morning reading. Both are shown conditionally; the row is excluded from an all-separate answer because ввиду is solid in either reading. The renderer rejects uncertainty that changes answer selection.",
+      "sourceUrl": "https://gramota.ru/meta/nautro"
+    }
+  ],
+  "independentSubjectAcceptance": false
+}

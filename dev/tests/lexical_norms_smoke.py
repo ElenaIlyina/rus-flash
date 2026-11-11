@@ -20,7 +20,7 @@ def main():
     errors=[]
     try:
         with sync_playwright() as p:
-            browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+            browser=p.chromium.launch(executable_path='/usr/bin/chromium' if Path('/usr/bin/chromium').exists() else None,args=['--no-sandbox'])
             page=browser.new_page(viewport={'width':390,'height':900})
             page.on('pageerror',lambda error:errors.append(str(error)))
             page.goto(base+'#card/060C0F',wait_until='networkidle')

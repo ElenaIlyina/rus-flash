@@ -2,6 +2,7 @@
 playwright==1.62.0
 # Optional source preparation; never needed for the production build.
 PyMuPDF==1.26.6
+pypdf==6.18.1
 fonttools==4.61.1
 mobi==0.4.1
 

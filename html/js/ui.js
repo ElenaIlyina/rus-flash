@@ -56,6 +56,13 @@ export function rich(value, { markdown = true } = {}) {
   }
   return [...doc.body.childNodes].map(clean).join("").replace(/\n/g, "<br>");
 }
+// Correction examples share one visual emphasis without changing card versions.
+export function richExplanation(value) {
+  return rich(value).replace(
+    /((?:<(?:b|strong)>)?(?:Правильно|Возможное исправление|Нейтральная редакция):(?:<\/(?:b|strong)>)?)([ \t]*)([\s\S]*?)(?=<br>|<\/p>|$)/g,
+    (_, label, space, sentence) => `${label}${space}<strong>${sentence}</strong>`,
+  );
+}
 export const plain = (s) =>
   new DOMParser().parseFromString(s || "", "text/html").body.textContent;
 export const num = (n) => n.toLocaleString("ru-RU");

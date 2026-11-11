@@ -67,6 +67,20 @@ def main():
     glossary = validate_glossary(read('data/knowledge/stress-glossary.json'), cards, mapping, text)
     write(OUT/'stress-glossary.json', glossary)
     (OUT/'stress-glossary.txt').write_text(glossary_text(glossary), encoding='utf-8')
+    lexical_out = OUT/'lexical-sources'
+    lexical_out.mkdir()
+    lexical_ids = set()
+    lexical_manifest = read('data/knowledge/lexical_sources.json')
+    write(OUT/'lexical-sources.json', {'sources':[{k:v for k,v in s.items() if k in ('id','sha256','pdfPages')} for s in lexical_manifest['sources']]})
+    for source in lexical_manifest['sources']:
+        sid = source['id']
+        if sid in lexical_ids or sid not in ('denisov-morkovkin-1983', 'rozental-stylistics-2001') or source['file'] != f'data/knowledge/sources/lexical/{sid}.pdf':
+            raise ValueError('Invalid lexical source path')
+        lexical_ids.add(sid)
+        raw = (ROOT/source['file']).read_bytes()
+        if hashlib.sha256(raw).hexdigest() != source['sha256']:
+            raise ValueError('Lexical excerpt checksum mismatch')
+        (lexical_out/f'{sid}.pdf').write_bytes(raw)
     dictionary_out = OUT/'dictionaries'
     dictionary_out.mkdir()
     for sid,source in sources.items():
@@ -145,8 +159,11 @@ def main():
             'strategyHint':entry.get('hint','') if allowed else '',
             'dictionarySourceRefs':[public_ref(r,sources) for r in entry.get('dictionaryRefs',[])] if allowed else [],
             'paronymComparisons':comparisons,'explanationSourceRefs':refs,
+            **({'grammarSourceRefs':entry['grammarSourceRefs']} if entry.get('grammarSourceRefs') else {}),
+            **({'styleSourceRefs':entry['styleSourceRefs']} if entry.get('styleSourceRefs') else {}),
             **({'stressSourceRefs':stress_refs} if stress_refs else {}),
-            'reviewNote':active_policy.get('reason','' if complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.'),
+            'reviewNote':entry.get('reviewNote',active_policy.get('reason','' if complete else 'Варианты ответов неполны. Автоматическая проверка отключена до восстановления по источнику.')),
+            **({'explanationNeedsSourceReview':True,'explanationReviewNote':entry['explanationReviewNote']} if entry.get('explanationNeedsSourceReview') else {}),
             'hasAnswer':bool(card.get('answer','').strip()),'hasExplanation':bool(public_card.get('explanation','').strip()),
             'hasPassage':bool(text(card.get('text',''))),
         })

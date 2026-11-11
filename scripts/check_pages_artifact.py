@@ -3,6 +3,7 @@
 
 Standard library only. Does not contact FIPI or validate educational answers.
 """
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -85,6 +86,20 @@ def check(root):
                 articles = json.loads(path.read_text())['entries']
                 if not any(a['id'] == ref['entryId'] and a['headword'] == ref['headword'] for a in articles):
                     raise ValueError('Missing dictionary article for ' + card['id'])
+    lexical = {source['id']:source for source in json.loads((root/'assets/data/lexical-sources.json').read_text())['sources']}
+    for sid, source in lexical.items():
+        if sid not in ('denisov-morkovkin-1983', 'rozental-stylistics-2001'):
+            raise ValueError('Unknown lexical source')
+        path = root/'assets/data/lexical-sources'/f'{sid}.pdf'
+        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != source['sha256']:
+            raise ValueError('Missing or changed lexical excerpt: '+sid)
+    for card in catalog['cards']:
+        for ref in card.get('grammarSourceRefs', []):
+            if not ref['url'].startswith('assets/'):
+                continue
+            match = re.fullmatch(r'assets/data/lexical-sources/([a-z0-9-]+)\.pdf#page=([1-9][0-9]*)', ref['url'])
+            if not match or match[1] not in lexical or not 1 <= int(match[2]) <= lexical[match[1]]['pdfPages']:
+                raise ValueError('Invalid local lexical source for '+card['id'])
     # Missing local ES module imports would otherwise cause a blank app on Pages.
     for path in (root / 'js').glob('*.js'):
         for imported in re.findall(r'\bfrom\s+[\'"]([^\'"]+)[\'"]', path.read_text()):

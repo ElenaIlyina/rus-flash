@@ -21,7 +21,7 @@ def main():
     errors = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+            browser = p.chromium.launch(executable_path='/usr/bin/chromium' if Path('/usr/bin/chromium').exists() else None, args=['--no-sandbox'])
             page = browser.new_page(viewport={'width': 390, 'height': 900})
             page.on('pageerror', lambda e: errors.append(str(e)))
             for cid, kind, label in [
@@ -50,7 +50,7 @@ def main():
                 event = page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1)')
                 assert event['correct'] and not event['assisted'] and event['attemptNumber'] == 1
                 page.get_by_role('button', name='Ответ и разбор', exact=True).click()
-                page.locator('.explanation-sources summary').click()
+                page.locator('.explanation-sources').filter(has=page.locator('a[href*="dictionary="]')).locator('summary').click()
                 page.locator('.explanation-sources a[href*="dictionary="]').first.click()
                 page.locator('[data-dictionary-entry]').wait_for()
                 assert page.locator(f'a[href*="list={kind}"]').is_visible()
@@ -59,6 +59,7 @@ def main():
                 page.locator(f'[data-text-skill="{kind}"]').wait_for()
 
             page.goto(base + '#card/7756B9')
+            page.locator('#answer-form').wait_for()
             assert page.locator('[name="answer-option"]').count() == 5
             page.get_by_role('button', name='Ответ и разбор', exact=True).click()
             assert 'прежнего орфоэпического списка' in page.locator('.explanation-text').inner_text()

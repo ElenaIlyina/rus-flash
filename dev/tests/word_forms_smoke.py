@@ -22,7 +22,8 @@ def main():
     errors = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+            executable = '/usr/bin/chromium' if Path('/usr/bin/chromium').is_file() else None
+            browser = p.chromium.launch(executable_path=executable, args=['--no-sandbox'])
             page = browser.new_page(viewport={'width': 390, 'height': 900})
             page.on('pageerror', lambda e: errors.append(str(e)))
             for index, review in enumerate(reviews):
@@ -40,7 +41,19 @@ def main():
                 assert review['hint'] in page.locator('#hint').inner_text(), cid
                 page.get_by_role('button', name='Ответ и разбор', exact=True).click()
                 assert form['correctedExcerpt'] in page.locator('.explanation-text').inner_text(), cid
-                page.locator('.explanation-sources summary').click()
+                if 'morphologySourceReview' in review:
+                    check = review['morphologySourceReview']
+                    references = page.locator('details.explanation-sources').filter(has_text='Источники проверки формы слова')
+                    assert references.count() == 1, cid
+                    references.locator('summary').click()
+                    labels = references.locator('a').all_text_contents()
+                    assert len(labels) == len(check['grammarEvidence']), cid
+                    assert all(label.startswith(f'Вариант {check["part"]}:') for label in labels), cid
+                    pending = check['status'] == 'variant_scope_pending'
+                    assert page.locator('[data-explanation-review]').count() == int(pending), cid
+                    assert page.locator('#answer-form [type=submit]').is_enabled(), cid
+                dictionaries = page.locator('details.explanation-sources').filter(has=page.locator('a[href*="dictionary="]'))
+                dictionaries.locator('summary').click()
                 links = page.locator('.explanation-sources a[href*="dictionary="]')
                 assert links.count() == len(review['dictionaryReview']['sourceRefs']), cid
                 links.first.click()

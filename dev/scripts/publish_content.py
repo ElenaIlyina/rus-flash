@@ -15,6 +15,13 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from card_data import load_cards
 from exam_2027 import mapping
 from paronym_sources import validate_sources, publication_ready
+from handbook_fb2 import read_handbook
+from review_prefix_explanations import validate_rule_evidence
+from review_grammar_explanations import load_sources as load_grammar_sources, public_refs as grammar_public_refs, render as render_grammar, PENDING_NOTE as GRAMMAR_PENDING_NOTE
+from review_style_sources import validate as validate_style_sources
+from review_cohesion_sources import validate as validate_cohesion_sources
+from review_lexical_sources import load_books as load_lexical_books, validate as validate_lexical_sources
+from review_word_form_sources import validate as validate_word_form_sources, PENDING_NOTE as WORD_FORM_PENDING_NOTE
 
 
 def read(path):
@@ -43,10 +50,13 @@ def payloads():
                              'sha256':source['articlesSha256'] if articles else source['sha256'],
                              **({} if articles else {'pdfPages':source['pdfPages']})})
     support = {}
+    _, rule_paragraphs = read_handbook(ROOT / "data/knowledge/sources/lopatin-2007.fb2.zip")
+    rule_paragraphs = {paragraph["id"]: paragraph for paragraph in rule_paragraphs}
     stress = read('data/knowledge/stress-list.json')
     stress_entries = {(e['text'],e['sourcePage']) for g in stress['groups'] for e in g['entries']}
-    for name in ('prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews'):
+    for name in ('prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews','suffix_card_reviews','verb_card_reviews','negation_card_reviews','n_card_reviews','joined_card_reviews'):
         for entry in read(f'dev/data/knowledge/{name}.json')['cards']:
+            validate_rule_evidence(entry, rule_paragraphs)
             cid = entry['id']
             if cid in support or cid not in cards:
                 raise ValueError('Duplicate or unknown support record: ' + cid)
@@ -72,11 +82,55 @@ def payloads():
                             'ruleSourceRefs':[{'part':row['number'],'sourceId':sid,
                                                'label':f"Орфография, §{sid.rsplit('-',1)[1]} · Эксмо, 2007"}
                                               for row in entry['rows'] for sid in row['sourceIds']]}
+    grammar_sources = load_grammar_sources()
+    lexical_books = load_lexical_books()
+    for entry in read('dev/data/knowledge/ege_1_6_card_reviews.json')['cards']:
+        if 'lexicalSourceReview' in entry:
+            cid = entry['id']
+            support[cid]['grammarSourceRefs'] = validate_lexical_sources(cards[cid], entry, grammar_sources, lexical_books)
+            check = entry['lexicalSourceReview']
+            if check['status'] == 'context_scope_pending':
+                support[cid]['explanationNeedsSourceReview'] = True
+                support[cid]['explanationReviewNote'] = check['studentNote']
+    for entry in read('dev/data/knowledge/ege_1_6_card_reviews.json')['cards']:
+        if 'contextSourceReview' in entry:
+            support[entry['id']]['grammarSourceRefs'] = validate_cohesion_sources(cards[entry['id']], entry, grammar_sources)
+    for entry in read('dev/data/knowledge/task_7_card_reviews.json')['cards']:
+        if 'morphologySourceReview' not in entry:
+            continue
+        cid = entry['id']
+        refs = validate_word_form_sources(cards[cid], entry, grammar_sources)
+        if support[cid]['explanationPublished']:
+            support[cid]['grammarSourceRefs'] = refs
+            if entry['morphologySourceReview']['status'] == 'variant_scope_pending':
+                support[cid]['explanationReviewNote'] = WORD_FORM_PENDING_NOTE
+                support[cid]['explanationNeedsSourceReview'] = True
+    for entry in read('dev/data/knowledge/grammar_card_reviews.json')['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or mapping(cards[cid])['task'] != 8:
+            raise ValueError('Duplicate or invalid grammar review: '+cid)
+        card = cards[cid]
+        if render_grammar(card, entry) != card['explanation']:
+            raise ValueError('Grammar explanation differs from review: '+cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(card['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[], 'ruleSourceRefs':[],
+                        'grammarSourceRefs':grammar_public_refs(entry, grammar_sources),
+                        **({'explanationReviewNote':GRAMMAR_PENDING_NOTE,'explanationNeedsSourceReview':True} if entry.get('sourceReviewPending') else {})}
+    style_ids = set()
+    for entry in read('dev/data/knowledge/style_source_reviews.json')['cards']:
+        cid = entry['id']
+        if cid not in support or cid in style_ids:
+            raise ValueError('Missing or duplicate style support: '+cid)
+        style_ids.add(cid)
+        support[cid]['styleSourceRefs'] = validate_style_sources(cards[cid], entry, grammar_sources)
     profile = read('dev/data/ege_2027_positions.json')
     handbook = read('dev/data/knowledge/source_registry.json')
     edition_keys = {'id','title','authors','editor','publisher','year','isbn','archiveSha256','fb2Sha256','sourceFile','errataFile'}
     overrides = read('dev/data/content_review_overrides.json')
     return {
+        'data/knowledge/lexical_sources.json':{'schemaVersion':1,'sources':[{k:v for k,v in book.items() if k in ('id','title','file','sha256','pdfPages','originalPdfPages','printedPages')} for book in lexical_books.values()]},
         'data/knowledge/card_support.json':{'schemaVersion':1,'cards':support},
         'data/knowledge/paronyms.json':{'schemaVersion':1,'pairs':public_pairs},
         'data/knowledge/dictionary_sources.json':{'schemaVersion':1,'sources':dictionaries},

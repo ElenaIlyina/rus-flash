@@ -1,0 +1,291 @@
+{
+  "reviewDate": "2026-11-11",
+  "baselineCommit": "f4ca04a8032d0111c9b8c64352f0d91ac5969466",
+  "scope": "technical_consistency_and_recorded_source_limits_not_independent_teacher_acceptance",
+  "sourceCardsUnchangedExceptExplanations": 2140,
+  "rewrittenExplanations": 572,
+  "rewrittenMaterialVersions": 572,
+  "unchangedTask1To7CardsAndVersions": 573,
+  "cardsInScope": 1145,
+  "currentProgressEligible": 968,
+  "historicalFormatCards": 177,
+  "unresolvedNotes": 22,
+  "pendingByTask": {
+    "6": 8,
+    "7": 2,
+    "8": 12
+  },
+  "pendingCardIds": [
+    "079D68",
+    "0C92F7",
+    "0D3499",
+    "1A8A12",
+    "321FC1",
+    "42A4FE",
+    "439D2C",
+    "55C0E8",
+    "6F7776",
+    "7013D5",
+    "706C1F",
+    "98489F",
+    "B86137",
+    "BD75A1",
+    "BF989E",
+    "C1871C",
+    "C1EB4C",
+    "C1F6AE",
+    "C50FE5",
+    "CA147A",
+    "D52745",
+    "F23DF9"
+  ],
+  "coverage": [
+    {
+      "task": 1,
+      "cards": 77,
+      "explanations": 77,
+      "hints": 77,
+      "currentProgressEligible": 68,
+      "historicalFormat": 9,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 77,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 77,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 2,
+      "cards": 82,
+      "explanations": 82,
+      "hints": 82,
+      "currentProgressEligible": 34,
+      "historicalFormat": 48,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 82,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 3,
+      "cards": 47,
+      "explanations": 47,
+      "hints": 47,
+      "currentProgressEligible": 47,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 47,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 47,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 4,
+      "cards": 114,
+      "explanations": 114,
+      "hints": 114,
+      "currentProgressEligible": 30,
+      "historicalFormat": 84,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 0,
+        "stressSourceRefs": 114,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 5,
+      "cards": 114,
+      "explanations": 114,
+      "hints": 114,
+      "currentProgressEligible": 114,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 114,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 6,
+      "cards": 67,
+      "explanations": 67,
+      "hints": 67,
+      "currentProgressEligible": 67,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 67,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 21,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 8
+    },
+    {
+      "task": 7,
+      "cards": 72,
+      "explanations": 72,
+      "hints": 72,
+      "currentProgressEligible": 72,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 72,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 23,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 2
+    },
+    {
+      "task": 8,
+      "cards": 73,
+      "explanations": 73,
+      "hints": 73,
+      "currentProgressEligible": 73,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 0,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 73,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 0
+      },
+      "unresolvedNotes": 12
+    },
+    {
+      "task": 9,
+      "cards": 73,
+      "explanations": 73,
+      "hints": 73,
+      "currentProgressEligible": 61,
+      "historicalFormat": 12,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 0,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 73
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 10,
+      "cards": 72,
+      "explanations": 72,
+      "hints": 72,
+      "currentProgressEligible": 72,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 41,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 72
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 11,
+      "cards": 73,
+      "explanations": 73,
+      "hints": 73,
+      "currentProgressEligible": 60,
+      "historicalFormat": 13,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 19,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 73
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 12,
+      "cards": 70,
+      "explanations": 70,
+      "hints": 70,
+      "currentProgressEligible": 59,
+      "historicalFormat": 11,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 37,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 70
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 13,
+      "cards": 70,
+      "explanations": 70,
+      "hints": 70,
+      "currentProgressEligible": 70,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 14,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 70
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 14,
+      "cards": 70,
+      "explanations": 70,
+      "hints": 70,
+      "currentProgressEligible": 70,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 50,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 70
+      },
+      "unresolvedNotes": 0
+    },
+    {
+      "task": 15,
+      "cards": 71,
+      "explanations": 71,
+      "hints": 71,
+      "currentProgressEligible": 71,
+      "historicalFormat": 0,
+      "sourceCoverage": {
+        "dictionarySourceRefs": 16,
+        "stressSourceRefs": 0,
+        "grammarSourceRefs": 0,
+        "styleSourceRefs": 0,
+        "explanationSourceRefs": 71
+      },
+      "unresolvedNotes": 0
+    }
+  ],
+  "limitations": [
+    "Словарные разночтения №4 учитываются отдельно в dev/disagreements.html и не входят в 22 пометки к объяснениям.",
+    "Наличие ссылки не означает независимой преподавательской приёмки объяснения.",
+    "572 переработанных объяснения №8–15 имеют новые materialVersion; неизменность прогресса подтверждается для 573 карточек №1–7.",
+    "177 карточек прежнего формата доступны для изучения, но не учитываются в текущем экзаменационном прогрессе.",
+    "Проверка не публикует сайт и не меняет ключи или принятые ответы."
+  ]
+}

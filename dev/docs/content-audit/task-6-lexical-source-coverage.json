@@ -1,0 +1,690 @@
+{
+  "reviewDate": "2026-11-11",
+  "cardsChecked": 21,
+  "supportedEdits": 13,
+  "contextScopePending": 8,
+  "oldExplanationsAccepted": false,
+  "independentTeacherAcceptance": false,
+  "answerUniquenessEstablished": false,
+  "cards": [
+    {
+      "id": "079D68",
+      "originalSentence": "Другая альтернатива экзотическим семенам чиа – отечественные семена льна, которые обладают аналогичными кулинарными свойствами.",
+      "correctedSentence": "Альтернатива экзотическим семенам чиа – отечественные семена льна, которые обладают аналогичными кулинарными свойствами.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "Другая",
+      "editSha256": "6ed78e4423f6735a7641f4800b4a6458a78e6742b16c0d4f101d139cdb34096b",
+      "reason": "Альтернатива в современном толковании может обозначать каждую из нескольких возможностей. Другая тогда отличает одну возможность от другой; в отдельном предложении про чиа предшествующие варианты не названы. Ключ даёт краткую редакцию, но словарь не устанавливает безусловную ошибочность определения.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-alternativa",
+          "textSha256": "e93666cd26ba429cb572f0019cbb3133706ebe10e6917fd6b678be08c1e44c73",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [],
+      "studentNote": "Альтернатива в современном толковании может обозначать каждую из нескольких возможностей. Другая тогда отличает одну возможность от другой; в отдельном предложении про чиа предшествующие варианты не названы. Ключ даёт краткую редакцию, но словарь не устанавливает безусловную ошибочность определения. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "16D9F4",
+      "originalSentence": "Журнал «Наука и жизнь» опубликовал материалы, в которых шла речь об особенностях ситуации, сложившейся в России, начиная с реформ Александра II и до свержения династии рода Романовых.",
+      "correctedSentence": "Журнал «Наука и жизнь» опубликовал материалы, в которых шла речь об особенностях ситуации, сложившейся в России, начиная с реформ Александра II и до свержения рода Романовых.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "династии",
+      "editSha256": "e809000dc7a8ec5fa78ca6afc9c5eed13095b9bd973579b04291d165c2d9b069",
+      "reason": "В историческом контексте род Романовых и его правящая династия указывают на одну названную семью; цепочка династии рода тяжеловесна. Удаление по ключу сокращает её. Род и династия не являются полными синонимами: род включает и нецарствующих родственников; вариант свержения династии Романовых также возможен.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-dinastiya",
+          "textSha256": "bb80a71578442f02035f1bc67bfad3b73c14c32f6728402c157eb19539cca312",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 9,
+          "originalPdfPage": 485,
+          "printedPage": 484,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "Ряд поколений, происходящих от одного предка, а также вообще поколение; происхождение, принадлежность по рождению к какой-л. определённой социальной группе.",
+          "quoteSha256": "e87f1c11d33634ddb8497ecca445d0f949b6db244c8a1da2bf3a3e36243a0f72",
+          "role": "context_definition",
+          "method": "visual_page_read"
+        }
+      ]
+    },
+    {
+      "id": "1FCD37",
+      "originalSentence": "По воспоминаниям К.С. Станиславского, первая премьера одного из его спектаклей чуть не обернулась катастрофой: за час до начала спектакля упали все ширмы, служившие декорациями.",
+      "correctedSentence": "По воспоминаниям К.С. Станиславского, премьера одного из его спектаклей чуть не обернулась катастрофой: за час до начала спектакля упали все ширмы, служившие декорациями.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "первая",
+      "editSha256": "d4cf68995792f862a21302d4633c6047f0e3a8e6a662016a960997d20528323e",
+      "reason": "Премьера уже обозначает первый показ данного спектакля. В этом предложении не сопоставляются премьеры разных постановок, сезонов или площадок; первая повторяет признак первого представления. Это обоснование данной редакции, а не запрет порядковых определений при премьере во всех контекстах.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-premera",
+          "textSha256": "20702f739f3aeed140d9d06b908f59773cd0f2c5f58b6d5613f076d123f796e9",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "1FF860",
+      "originalSentence": "В Петербурге в доме Теплова собрались любители музыки на первую премьеру концерта молодого композитора.",
+      "correctedSentence": "В Петербурге в доме Теплова собрались любители музыки на премьеру концерта молодого композитора.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "первую",
+      "editSha256": "eabecf51da31e3b006d4cda375bc6f7db48706b557553e4de45fd359a053c675",
+      "reason": "В описании одного концерта премьера несёт значение первого представления. Первую можно удалить без утраты сообщаемого события; контекста, в котором различаются несколько премьер, здесь нет.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-premera",
+          "textSha256": "20702f739f3aeed140d9d06b908f59773cd0f2c5f58b6d5613f076d123f796e9",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "3BE49C",
+      "originalSentence": "Мировое человечество вошло в третье тысячелетие с громадными знаниями и колоссальным потенциалом их использования.",
+      "correctedSentence": "Человечество вошло в третье тысячелетие с громадными знаниями и колоссальным потенциалом их использования.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "Мировое",
+      "editSha256": "48a5ba49df50aac914a35e294c95baa016f046097c13ea8e723be1c0c91c7fb5",
+      "reason": "Человечество обозначает человеческое общество в целом. В сообщении о вступлении в третье тысячелетие мировое не отделяет конкретную группу людей и не добавляет отдельного географического смысла. Удаление определения сохраняет обобщение.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-chelovechestvo",
+          "textSha256": "a471b69f393b81bfcdb35a3536021e3707c3a55806963d2362bb84a3f90928bc",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "439D2C",
+      "originalSentence": "Опросы показали, что 89 % населения цивилизованных стран знают о таком необычном феномене, как фантомная вибрация – ощущение кажущегося звонка мобильного телефона, который на самом деле молчит.",
+      "correctedSentence": "Опросы показали, что 89 % населения цивилизованных стран знают о таком феномене, как фантомная вибрация – ощущение кажущегося звонка мобильного телефона, который на самом деле молчит.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "необычном",
+      "editSha256": "05ae6468ead53d56f59465cd05ef8e9e77dc6da263a80cf54be2efb3bf99fe9d",
+      "reason": "Феномен может называться необычным явлением, но в исследовательском употреблении слово обозначает и наблюдаемое явление как таковое. Определение необычном тогда выражает отдельную оценку фантомной вибрации. Прочитанные толкования не позволяют признать удаление единственно необходимой правкой.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-fenomen",
+          "textSha256": "35b13295cd606cb7c3d3bdd6c3ef68c810def966ba560973096617e93bd4b635",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [],
+      "studentNote": "Феномен может называться необычным явлением, но в исследовательском употреблении слово обозначает и наблюдаемое явление как таковое. Определение необычном тогда выражает отдельную оценку фантомной вибрации. Прочитанные толкования не позволяют признать удаление единственно необходимой правкой. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "627BFA",
+      "originalSentence": "Одним из странных парадоксов внутренней политики Российской империи первой четверти XIX века стало то обстоятельство, что попытки обновления Российского государства сопровождались ограничением свобод населения и силовым характером государственного управления.",
+      "correctedSentence": "Одним из парадоксов внутренней политики Российской империи первой четверти XIX века стало то обстоятельство, что попытки обновления Российского государства сопровождались ограничением свобод населения и силовым характером государственного управления.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "странных",
+      "editSha256": "1aff2b9b747e0d5ab5450a35423f4a713ffcd54975511c83dc4b1b420c2bdcff",
+      "reason": "Парадокс в данном предложении — неожиданное противоречие между обновлением государства и ограничением свобод. Странных дублирует эту оценку, не поясняя отдельного вида противоречия. В ином контексте определение может усиливать субъективное удивление; общий запрет не выводится.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-paradoks",
+          "textSha256": "5417e9c599017d85a2dc1a09c96945f53db5898bbaf5ca4652a1e7338573ba6b",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "6F7776",
+      "originalSentence": "Другой альтернативой плаванию, положительно влияющему на физическое и психическое состояние человека, могут стать велосипедные прогулки.",
+      "correctedSentence": "Альтернативой плаванию, положительно влияющему на физическое и психическое состояние человека, могут стать велосипедные прогулки.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "Другой",
+      "editSha256": "3a02fb6498d2236ea0ef93e06aa680a8e830c0dec37d6488375ea641f850af56",
+      "reason": "Словарь допускает значение отдельной возможности среди нескольких альтернатив. Другой может отсылать к уже предложенной замене плаванию, но отдельная карточка такого предыдущего контекста не содержит. Ключ сокращает фразу, однако невозможность исходного сочетания не подтверждена.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-alternativa",
+          "textSha256": "e93666cd26ba429cb572f0019cbb3133706ebe10e6917fd6b678be08c1e44c73",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [],
+      "studentNote": "Словарь допускает значение отдельной возможности среди нескольких альтернатив. Другой может отсылать к уже предложенной замене плаванию, но отдельная карточка такого предыдущего контекста не содержит. Ключ сокращает фразу, однако невозможность исходного сочетания не подтверждена. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "7013D5",
+      "originalSentence": "О реальных событиях: о счастливом детстве, любимых наставниках, об учёбе в Тенишевском училище, о революции, трудных годах эмиграции – В.В. Набоков рассказал в своём автобиографическом романе «Другие берега».",
+      "correctedSentence": "О реальных событиях: о счастливом детстве, любимых наставниках, об учёбе в Тенишевском училище, о революции, трудных годах эмиграции – В.В. Набоков рассказал в автобиографическом романе «Другие берега».",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "своём",
+      "editSha256": "f54627dade66ef927f4c866763db5daea20684b68eabfeabdfa57a45b0305b5b",
+      "reason": "Автобиографический характеризует связь содержания произведения с жизнью автора. Своём может дополнительно обозначать принадлежность романа самому Набокову; это не то же самое, что буквальное своя автобиография из примера плеоназма. Удаление допустимо, но обязательность именно этой правки остаётся спорной.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-avtobiograficheskiy",
+          "textSha256": "3bf2c89c2ad07b81054a00b4b7ea9ad3820836c55db7d8b781285c6a98729f86",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [],
+      "studentNote": "Автобиографический характеризует связь содержания произведения с жизнью автора. Своём может дополнительно обозначать принадлежность романа самому Набокову; это не то же самое, что буквальное своя автобиография из примера плеоназма. Удаление допустимо, но обязательность именно этой правки остаётся спорной. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "84A09F",
+      "originalSentence": "Два месяца назад я приехал в родной город, чтобы осуществить редакционное задание, и внезапно принял решение остаться на родине.",
+      "correctedSentence": "Два месяца назад я приехал в родной город, чтобы выполнить редакционное задание, и внезапно принял решение остаться на родине.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "key_edit_supported",
+      "answer": "выполнить",
+      "editSha256": "1ad4560aec2ab0c988c8037fd72b9441ab4798b025f2dbd55b313ba0aad7ad70",
+      "reason": "В статье задание словаря сочетаемости прямо дан глагол выполнять. Здесь речь о поручении редакции, которое приезжий исполняет; форма выполнить согласована с инфинитивной конструкцией чтобы. Отсутствие осуществить в открытом списке примеров не доказывает запрета этого глагола во всех сочетаниях.",
+      "grammarEvidence": [],
+      "bookEvidence": [
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 5,
+          "originalPdfPage": 168,
+          "printedPage": 167,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "Выполнять, перевыполнять, давать, получать ... задание; доверить кому-л. ... какое-л. (ответственное ...) задание.",
+          "quoteSha256": "10fca880a44d206b7b99e2ea4e214a09f54d9b5a467e4d01cdfe433c8a48f77b",
+          "role": "corrected_collocation",
+          "method": "visual_page_read"
+        }
+      ]
+    },
+    {
+      "id": "926BD7",
+      "originalSentence": "Целью соревнований было не достижение хороших высоких результатов, а обмен опытом между дружественными командами.",
+      "correctedSentence": "Целью соревнований было не достижение высоких результатов, а обмен опытом между дружественными командами.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "хороших",
+      "editSha256": "d7fc1967ae2678c99ec34d768a6a9be7ef56d7ac2a5d8389e862e653413bf112",
+      "reason": "В спортивном сообщении высокий результат оценивает уровень достижения, а хороший повторяет положительную оценку. Словарь сочетаемости приводит оба определения, а продолжение статьи отдельно описывает спортивное значение результата. Удаление хороших уместно здесь; высокий не признаётся синонимом хороший во всех значениях.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-vysokiy",
+          "textSha256": "328ee4880fdb74ca23530a71615efee5231dd84facdef8618ec8cc8137cbbca0",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 7,
+          "originalPdfPage": 480,
+          "printedPage": 479,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "Хороший, [не] плохой, прекрасный, замечательный, высокий, отличный, блестящий, значительный, удовлетворительный, интересный, обнадёживающий, положительный, отрицательный, плачевный, печальный, отрадный, скромный, неожиданный, предварительный, окончательный, конечный, последний ... результат.",
+          "quoteSha256": "2c1fd97f8cc5effee64dab8c326d1dee803f2a6895d0856de8960253686b872c",
+          "role": "collocation_examples",
+          "method": "visual_page_read"
+        },
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 8,
+          "originalPdfPage": 481,
+          "printedPage": 480,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "[Какой-л.] результат в чём-л. — о показателе спортивного мастерства.",
+          "quoteSha256": "b1634e460ffdf841ca5df11f1818a6d8e00b250a9260590190ae1f5081d186b7",
+          "role": "context_definition",
+          "method": "visual_page_read"
+        }
+      ]
+    },
+    {
+      "id": "98489F",
+      "originalSentence": "Психологи отмечают, что ритм жизни огромных мегаполисов влияет на формирование у человека не только чувства времени, но и социальных связей.",
+      "correctedSentence": "Психологи отмечают, что ритм жизни мегаполисов влияет на формирование у человека не только чувства времени, но и социальных связей.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "огромных",
+      "editSha256": "2fb79275975e009529d4bd33b3a5b8e4001f7d7b7fd9f2251ff580f6ced4a0c1",
+      "reason": "Мегаполис обозначает город с многомиллионным населением, но огромный может оценивать его площадь, масштаб или размер относительно других мегаполисов. Словарное толкование не исключает такой градации; обязательность удаления огромных не установлена.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-megapolis",
+          "textSha256": "f238f2c3edd6a674f245e6d521db11085cdaffd33285b25a405c708c2f80c1ec",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [],
+      "studentNote": "Мегаполис обозначает город с многомиллионным населением, но огромный может оценивать его площадь, масштаб или размер относительно других мегаполисов. Словарное толкование не исключает такой градации; обязательность удаления огромных не установлена. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "AE91AF",
+      "originalSentence": "Нужно вновь возобновить на телевидении учебные передачи, научно-популярные программы, пропагандировать выдающиеся изобретения, представлять их авторов.",
+      "correctedSentence": "Нужно возобновить на телевидении учебные передачи, научно-популярные программы, пропагандировать выдающиеся изобретения, представлять их авторов.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "вновь",
+      "editSha256": "0ed50391d64aab4359fcebdaa19a962b91a93abf6b812e6fd8e766b801989d1e",
+      "reason": "Возобновить уже сообщает о возвращении к прерванным передачам. Вновь повторяет этот смысл; данных о нескольких циклах прекращения и восстановления, которые могло бы уточнять наречие, в предложении нет.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-vozobnovit",
+          "textSha256": "715f85d4b12844afd9a3d897bf04dd9828076d7708b3d6c84aaa88630e4376e6",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "B3C04B",
+      "originalSentence": "Среди популярных шлягеров разных лет есть много песен, обращённых к вечным ценностям и рассказывающих о любви к родителям, дому, Родине.",
+      "correctedSentence": "Среди шлягеров разных лет есть много песен, обращённых к вечным ценностям и рассказывающих о любви к родителям, дому, Родине.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "популярных",
+      "editSha256": "d8edcaa1c34b3192e1af240afabc0426d9254ae13e168b8aa2565e97d89c30b5",
+      "reason": "Значение шлягера включает популярность песни или мелодии. В сочетании разных лет нет отдельного указания на повторную или нынешнюю популярность; удаление популярных сохраняет содержание. Возможность подчеркнуть степень или период популярности в другом контексте не отрицается.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-shlyager",
+          "textSha256": "310d81bab183d90c7628e3946e0fd501e1c53e9652625104f63b107c58d9c43d",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "B5E8E4",
+      "originalSentence": "Работая над картиной, художник большинство времени проводил в мастерской.",
+      "correctedSentence": "Работая над картиной, художник большую часть времени проводил в мастерской.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "key_edit_supported",
+      "answer": "большую часть",
+      "editSha256": "ce57a0874517d22d88182ca1f69160bdbdc28fc6b1e8c4c55e90b26a1f871707",
+      "reason": "В §7 Розенталь прямо противопоставляет большинство времени сочетанию большая часть времени: большинство относится к совокупности счётных единиц. После проводил требуется винительный падеж большую часть. Источник обосновывает замену, но особенность двухсловного ключа при инструкции слово сохраняется отдельно.",
+      "grammarEvidence": [],
+      "bookEvidence": [
+        {
+          "sourceId": "rozental-stylistics-2001",
+          "excerptPage": 4,
+          "originalPdfPage": 64,
+          "printedPage": 63,
+          "sourceSha256": "6dd861f1dccfc7e1351518b0460a773cc7bff31cf28e732e50ba544300addb5b",
+          "originalSha256": "f8288b3401ad1fa80fd9afb012d2f5c05b4569319360d414cd67d039db516e5b",
+          "quote": "большинство времени — слово большинство сочетается со словами, обозначающими предметы, которые поддаются счету",
+          "quoteSha256": "adbd1cdd63499ee4c7a19a2bf343a50d91f6a5fe569ac37b45e07da49b6d0dd9",
+          "role": "explicit_norm",
+          "method": "visual_page_read"
+        },
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 3,
+          "originalPdfPage": 36,
+          "printedPage": 35,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "Большинство кого-чего: ~ людей, избирателей, депутатов, рабочих, крестьян, студентов, сотрудников, участников чего-л., детей, друзей, знакомых, населения, голосов, стран, книг, примеров ...",
+          "quoteSha256": "52772a8932935daa205ea65b2f5d82cca7e41515c3f7ee293d9fcce052599aff",
+          "role": "collocation_examples",
+          "method": "visual_page_read"
+        }
+      ]
+    },
+    {
+      "id": "C1F6AE",
+      "originalSentence": "Политика по обеспечению выхода российских купцов на европейский рынок принесла положительные последствия и качественно изменила внешнюю торговлю страны.",
+      "correctedSentence": "Политика по обеспечению выхода российских купцов на европейский рынок принесла положительные результаты и качественно изменила внешнюю торговлю страны.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "результаты",
+      "editSha256": "e5708147c23a26838dfb14f9c09e871e7d782945999719dcc62dfd07a27efe55",
+      "reason": "Последствия обычно имеют неблагоприятную оценку, но обычно не означает всегда. В словаре сочетаемости результат соединяется с положительный и относится к политике; это поддерживает редакцию по ключу. Однако прочитанные статьи не доказывают запрета положительных последствий или обязательной замены в данном предложении.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-posledstvie",
+          "textSha256": "3cd51226b055067bd242c936e87dd10202b48ec8c6d3facb1d0e5ebe7a15ecbb",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 7,
+          "originalPdfPage": 480,
+          "printedPage": 479,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "Результаты чего: ~ работы, труда, голосования, выборов, соревнования, конкурса, зачёта, экзамена, контрольной работы, опыта, эксперимента, анализа, воспитания, какой-л. политики ...",
+          "quoteSha256": "b94658dd3c5847a022802c7034be4103d0871584439103756df1e70271efc272",
+          "role": "corrected_collocation",
+          "method": "visual_page_read"
+        }
+      ],
+      "studentNote": "Последствия обычно имеют неблагоприятную оценку, но обычно не означает всегда. В словаре сочетаемости результат соединяется с положительный и относится к политике; это поддерживает редакцию по ключу. Однако прочитанные статьи не доказывают запрета положительных последствий или обязательной замены в данном предложении. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "C3F6BC",
+      "originalSentence": "Эти события навсегда запоминаются на всю жизнь, остаются в памяти как отпечаток, точный и подробный.",
+      "correctedSentence": "Эти события запоминаются на всю жизнь, остаются в памяти как отпечаток, точный и подробный.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "навсегда",
+      "editSha256": "a717fbd061ba90106e170d253991d17bc864e3571786c3bcf8f057f275da72b8",
+      "reason": "Навсегда в значении запоминания совпадает с на всю жизнь. В одном сообщении об устойчивой памяти обе формулы повторяют один временной охват. Удаление по ключу устраняет повтор; возможна и редакция с одним навсегда без на всю жизнь, но она не расширяет сохранённый ключ.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-navsegda",
+          "textSha256": "603894dc88c32df44533f855c928c85f963c775d025be1015c0f5b9c616b246a",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "C50FE5",
+      "originalSentence": "Туристы целеустремлённо приближались к цели своего путешествия, но их силы были на исходе.",
+      "correctedSentence": "Туристы приближались к цели своего путешествия, но их силы были на исходе.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "целеустремлённо",
+      "editSha256": "a7fde65e54f25e81ae535e153b3844cec4b4a3ab7cca84f0a4e7f0d06c86022e",
+      "reason": "В словарной статье целеустремлённый прямо приведено Целеустремлённо идти к своей цели. Это опровергает вывод об ошибке только из общего корня с целью. В карточке наречие может характеризовать настойчивость туристов, а цель — пункт путешествия; основание обязательного удаления не установлено.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-tseleustremlennyy",
+          "textSha256": "4bb0338dee5a1be3e34f49b0aa72ba54a5c655fd3f6aab615e8fa15f08751715",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-tavtologiya",
+          "textSha256": "d16f3ac08af2c5e453b25f51838333943a621e702bf4de270a3f43ef23924b20",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [],
+      "studentNote": "В словарной статье целеустремлённый прямо приведено Целеустремлённо идти к своей цели. Это опровергает вывод об ошибке только из общего корня с целью. В карточке наречие может характеризовать настойчивость туристов, а цель — пункт путешествия; основание обязательного удаления не установлено. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "D52745",
+      "originalSentence": "В школах города уже работают штатные психологи, оказывающие неослабную помощь ученикам и их родителям.",
+      "correctedSentence": "В школах города уже работают штатные психологи, оказывающие постоянную помощь ученикам и их родителям.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "context_scope_pending",
+      "answer": "постоянную",
+      "editSha256": "7419efd942cb11b6b81e3f0e99e43e02a07afdfc9f63fc0586a7a3b06e67890e",
+      "reason": "В статье помощь словаря сочетаемости приведены постоянная помощь и оказать помощь: замена по ключу подтверждена. Но отсутствие неослабная в этом перечне не является запретом; толкование неослабный допускает характеристику непрерывности. Причину обязательного исправления исходного определения ещё нужно установить.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-neoslabnyy",
+          "textSha256": "5c1f66f0c7e191aee6f917751ca3ef064849df340e5717b46836c57a8283c1aa",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 6,
+          "originalPdfPage": 409,
+          "printedPage": 408,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "постоянная, регулярная, периодическая",
+          "quoteSha256": "a82e5eec6e0daead88bf692a1b1f571621cc4e4862b0b72a61a1476ce132b6cf",
+          "role": "corrected_collocation",
+          "method": "visual_page_read"
+        }
+      ],
+      "studentNote": "В статье помощь словаря сочетаемости приведены постоянная помощь и оказать помощь: замена по ключу подтверждена. Но отсутствие неослабная в этом перечне не является запретом; толкование неослабный допускает характеристику непрерывности. Причину обязательного исправления исходного определения ещё нужно установить. Ответ проверяется по сохранённому ключу задания."
+    },
+    {
+      "id": "E19566",
+      "originalSentence": "Злободневность, умение вести взаимный диалог со зрителем, интеллигентная внешность и профессионализм ведущего сразу же расположили к нему телезрителей.",
+      "correctedSentence": "Злободневность, умение вести диалог со зрителем, интеллигентная внешность и профессионализм ведущего сразу же расположили к нему телезрителей.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "взаимный",
+      "editSha256": "d5800f259641f92de5cf09fbf319fd632c3e86354757f893234827293369940d",
+      "reason": "Здесь диалог ведущего со зрителем — обмен репликами между участниками; взаимность уже входит в это значение. Определение взаимный не уточняет отдельного свойства общения. Разбор не переносится автоматически на мысленный диалог или специальное противопоставление настоящего обмена монологу.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-dialog",
+          "textSha256": "159f654afe70b970581093ce70cf13fa1c6de7a4f47a1cce9fea094385ed7fe9",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": []
+    },
+    {
+      "id": "EFD46C",
+      "originalSentence": "Первый русский царь из династии рода Романовых дал согласие на правление, когда находился в костромском Ипатьевском монастыре.",
+      "correctedSentence": "Первый русский царь из рода Романовых дал согласие на правление, когда находился в костромском Ипатьевском монастыре.",
+      "reviewDate": "2026-11-11",
+      "scope": "preserved_key_edit_in_original_sentence",
+      "oldExplanationsUsedAsEvidence": false,
+      "independentTeacherAcceptance": false,
+      "answerUniquenessEstablished": false,
+      "originalUniversallyForbidden": false,
+      "status": "contextual_edit_supported",
+      "answer": "династии",
+      "editSha256": "4943a62d83c88d481d18bd85882b45d178b7cb8f1a7555cf5e6b6c38aa8ef716",
+      "reason": "В из династии рода Романовых вложены два обозначения происхождения из одной названной семьи. Удаление династии по ключу оставляет из рода Романовых. Возможна и редакция из династии Романовых; различие объёма понятий род и правящая династия сохранено.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-lexical-dinastiya",
+          "textSha256": "bb80a71578442f02035f1bc67bfad3b73c14c32f6728402c157eb19539cca312",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "gramota-lexical-pleonazm",
+          "textSha256": "2a2f95951bed19b41eae6a98e74a32268e52e5991208673657dc83a242d15725",
+          "method": "section_text_read"
+        }
+      ],
+      "bookEvidence": [
+        {
+          "sourceId": "denisov-morkovkin-1983",
+          "excerptPage": 9,
+          "originalPdfPage": 485,
+          "printedPage": 484,
+          "sourceSha256": "123939b2208e07e5da9a81c5aaff66a041cb906611bea189e3b35f42707a2264",
+          "originalSha256": "87643d18583a3f0c6f06ab5c46d29c23beaf3c795acf9b26b57aac443fdd2e81",
+          "quote": "Из какого-л. рода (быть ~, происходить ~ ...); из рода в род (передавать что-л. ~ ...). К какому-л. роду (принадлежать ~ ...).",
+          "quoteSha256": "54b5daef195b78df30b09df093053404b8fab5b3c7fce3872f769243ee8e0498",
+          "role": "corrected_collocation",
+          "method": "visual_page_read"
+        }
+      ]
+    }
+  ]
+}

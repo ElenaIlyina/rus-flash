@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-10",
+  "scope": "Supplementary independent dictionary check of the 15 forms previously lacking direct FIPI-list evidence. Existing explanations and FIPI keys are unchanged. This is not independent teacher acceptance.",
+  "sources": [
+    {
+      "id": "gramota-state-orthoepic-pdf",
+      "title": "Орфоэпический словарь русского языка как государственного языка Российской Федерации",
+      "url": "https://gramota.ru/storage/public/normdicts/orfoepicheskij_slovar.pdf",
+      "sha256": "c7db9f77ff003fe576c78ef0ceb19fd627842df1f9868118f6fcae113b894c86",
+      "pages": 1459,
+      "editionNote": "Downloaded 2026-11-04. No title/imprint page in this PDF; not identified as Kasatkin 2021 or a FIPI 2027 prescribed edition."
+    },
+    {
+      "id": "gramota-state-orthographic-pdf",
+      "title": "Орфографический словарь русского языка как государственного языка Российской Федерации",
+      "url": "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf",
+      "sha256": "d463813e90a522c0be03c768cd8f159a813b9bde6101b31bf285f53265903a01",
+      "pages": 3188,
+      "editionNote": "Title and stress notation read in preface. Do not identify this file as the 2023 Russian Orthographic Dictionary. Two accents denote alternative pronunciations, not two simultaneous primary stresses."
+    }
+  ],
+  "forms": [
+    {
+      "form": "лЕкторы",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "лектор",
+          "pdfPage": 556,
+          "printedToken": "ле́кторы",
+          "pageTextSha256": "3f52b72e6ff3b50826b4f10ba1bc9548df652f309bead4365087b4d5cf502b77",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "61B25C",
+          "part": 3
+        },
+        {
+          "cardId": "985484",
+          "part": 4
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 348,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "низведЁн",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "низвести",
+          "pdfPage": 681,
+          "printedToken": "низведён",
+          "pageTextSha256": "ec9f0fb8cabfd69f73ca105091e2aa8980e081f6607604f6c307681fb8e11bf8",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "CD2264",
+          "part": 5
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 439,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "ободрЁн",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "ободрить",
+          "pdfPage": 709,
+          "printedToken": "ободрён",
+          "pageTextSha256": "1a146a8b88de5623f9e1cbbed448ea6feb891452654d47f2f0b366c49e8f27ee",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "0E759D",
+          "part": 2
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 458,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "прИбыло",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "прибыть",
+          "pdfPage": 981,
+          "printedToken": "при́было",
+          "pageTextSha256": "fe1640eb04c4228f60c8480d3e8f5bff6c4200858f14afe66f2a9fc42457aebd",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "11F8AD",
+          "part": 1
+        },
+        {
+          "cardId": "32203B",
+          "part": 1
+        },
+        {
+          "cardId": "CEEEFC",
+          "part": 3
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 637,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "завИдно",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "завидно",
+          "pdfPage": 334,
+          "printedToken": "ЗАВИ́ДНО",
+          "pageTextSha256": "c582b0b2a4506185e696e4e0afe9f06745eece6026fe402ea30ca4655cfb2a29",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "5E2837",
+          "part": 4
+        },
+        {
+          "cardId": "D4F0CF",
+          "part": 1
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 207,
+        "status": "variant_scope_pending",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": true
+      }
+    },
+    {
+      "form": "молЯщий",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "молить",
+          "pdfPage": 613,
+          "printedToken": "моля́щий",
+          "pageTextSha256": "3dc8c3e9f2a21bd6b6a1ab6a11161f0b9a60a64d4afe51c4672d85491b0a28bb",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "1F69B3",
+          "part": 2
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 387,
+        "status": "variant_scope_pending",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": true
+      }
+    },
+    {
+      "form": "ободренА",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "ободрить",
+          "pdfPage": 709,
+          "printedToken": "ободрена́",
+          "pageTextSha256": "1a146a8b88de5623f9e1cbbed448ea6feb891452654d47f2f0b366c49e8f27ee",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "2BF8A3",
+          "part": 5
+        },
+        {
+          "cardId": "738248",
+          "part": 4
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 458,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "опломбировАть",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "опломбировать",
+          "pdfPage": 741,
+          "printedToken": "ОПЛОМБИРОВА́ТЬ",
+          "pageTextSha256": "f2f1e93f1320e7c77e0bcdeb542bbf06dff265f0db3e090163b8a2a9c86d4b98",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "3278D2",
+          "part": 1
+        },
+        {
+          "cardId": "C26BDA",
+          "part": 3
+        },
+        {
+          "cardId": "D1C396",
+          "part": 3
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 473,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "принУдить",
+      "status": "exact_form_read",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "принудить",
+          "pdfPage": 993,
+          "printedToken": "ПРИНУ́ДИТЬ",
+          "pageTextSha256": "a04f61555fc3a67bd1520763efdf7cd3321ac094ee9223193b4fc942a6802547",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "BB5BA8",
+          "part": 5
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 643,
+        "status": "variant_scope_pending",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": true
+      }
+    },
+    {
+      "form": "откУпорил",
+      "status": "indirect_paradigm_only",
+      "note": "Инфинитив и личные формы напечатаны; точная форма прошедшего времени не найдена.",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "откупорить",
+          "pdfPage": 770,
+          "printedToken": "ОТКУ́ПОРИТЬ",
+          "pageTextSha256": "67645c373b6a3fcad1a484e8d1610c52a29588be676e1bbc632c49ff17ae3f11",
+          "method": "pdf_text_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "B851D5",
+          "part": 2
+        },
+        {
+          "cardId": "BC85F1",
+          "part": 2
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 488,
+        "status": "related_paradigm_only",
+        "targetExplicitlyPrinted": false,
+        "exclusiveStressNotEstablished": true
+      },
+      "reznichenko2003Comparison": {
+        "sourceId": "local-new-5fc24a2053626fed",
+        "status": "related_paradigm_only",
+        "pdfPages": [
+          700,
+          305
+        ]
+      }
+    },
+    {
+      "form": "добелА",
+      "status": "variant_scope_pending",
+      "note": "Орфоэпический PDF поддерживает добела́; орфографический также даёт до́бела.",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "добела",
+          "pdfPage": 285,
+          "printedToken": "ДОБЕЛА́",
+          "pageTextSha256": "0a8c0df3e994062ccbc0a971b7af2946c602c64a56003f0965a0b831f05ba230",
+          "method": "pdf_text_read"
+        },
+        {
+          "sourceId": "gramota-state-orthographic-pdf",
+          "headword": "добела",
+          "pdfPage": 654,
+          "printedToken": "до́бела́",
+          "pageTextSha256": "538db083c8df97bdef51604b7f419eccff8c99a0b51346e8feaf2f902aef885b",
+          "method": "pdf_text_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "2BF8A3",
+          "part": 3
+        },
+        {
+          "cardId": "DB85C3",
+          "part": 3
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 176,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "навЕрх",
+      "status": "variant_scope_pending",
+      "note": "Орфоэпический PDF поддерживает наве́рх; орфографический также даёт на́верх.",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "наверх",
+          "pdfPage": 627,
+          "printedToken": "НАВЕ́ РХ",
+          "pageTextSha256": "bb429e6364d694a5ffb86ef71fd3974ba1d7f5a5c1e926f2ee0106de6221c0e0",
+          "method": "pdf_text_read"
+        },
+        {
+          "sourceId": "gramota-state-orthographic-pdf",
+          "headword": "наверх",
+          "pdfPage": 1374,
+          "printedToken": "на́ве́рх",
+          "pageTextSha256": "92fca53f9bb1f26b88a7d2fde437fb0e501344749233777b41ded881da319795",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "4E6E33",
+          "part": 4
+        },
+        {
+          "cardId": "A0403A",
+          "part": 2
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 397,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "налитА",
+      "status": "variant_scope_pending",
+      "note": "Напечатаны нали́та и налита́; допустимость одного варианта не доказывает ошибочности другого.",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "налить",
+          "pdfPage": 640,
+          "printedToken": "налита́",
+          "pageTextSha256": "66a64a1e93e06faf21c507d81a5b9e9e4d4ddbaf608c64e6ccc6fe929288d8c1",
+          "method": "pdf_text_read"
+        },
+        {
+          "sourceId": "gramota-state-orthographic-pdf",
+          "headword": "налитый",
+          "pdfPage": 1403,
+          "printedToken": "нали́та́",
+          "pageTextSha256": "0c4b957f4bc02560100f52d7e405daed8e36437607204661176d6814b3bc5f73",
+          "method": "pdf_text_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "A7FA5F",
+          "part": 4
+        },
+        {
+          "cardId": "DAA9CB",
+          "part": 3
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 405,
+        "status": "exact_form_read",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": false
+      }
+    },
+    {
+      "form": "тОртов",
+      "status": "variant_scope_pending",
+      "note": "Орфоэпический PDF не печатает родительный множественного; орфографический печатает -ов и торто́в.",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "торт",
+          "pdfPage": 1292,
+          "printedToken": "ТОРТ",
+          "pageTextSha256": "a2d93ec50d9e8e536e81117588e52ffd5de3d5d1aed724d42f5f691129745388",
+          "method": "pdf_text_read"
+        },
+        {
+          "sourceId": "gramota-state-orthographic-pdf",
+          "headword": "торт",
+          "pdfPage": 2801,
+          "printedToken": "торто́в",
+          "pageTextSha256": "88bd3144868c8b3e002628018c18fdd9a23dd93d926221f5d11843a6e83f02a3",
+          "method": "pdf_text_and_rendered_page_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "EA05E1",
+          "part": 3
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 839,
+        "status": "related_paradigm_only",
+        "targetExplicitlyPrinted": false,
+        "exclusiveStressNotEstablished": true
+      },
+      "reznichenko2003Comparison": {
+        "sourceId": "local-new-5fc24a2053626fed",
+        "status": "explicit_abbreviated_inflection_read",
+        "pdfPages": [
+          1024
+        ]
+      }
+    },
+    {
+      "form": "исчЕрпать",
+      "status": "source_disagreement_pending",
+      "note": "Орфоэпический PDF печатает исчерпа́ть; орфографический — два ударения исче́рпа́ть. Нельзя использовать как доказательство единственности исче́рпать.",
+      "evidence": [
+        {
+          "sourceId": "gramota-state-orthoepic-pdf",
+          "headword": "исчерпать",
+          "pdfPage": 452,
+          "printedToken": "ИСЧЕРПА́ТЬ",
+          "pageTextSha256": "895dc3771f8c73e8023303fecd06a9adc88435dfec839e742f284086926ec7e8",
+          "method": "pdf_text_and_rendered_page_read"
+        },
+        {
+          "sourceId": "gramota-state-orthographic-pdf",
+          "headword": "исчерпать",
+          "pdfPage": 932,
+          "printedToken": "исче́рпа́ть",
+          "pageTextSha256": "bcff62e0b3c06eebc29a9ff1f90e9594cab43db594ce51bb940c1473e37c1e19",
+          "method": "pdf_text_read"
+        }
+      ],
+      "occurrences": [
+        {
+          "cardId": "E92465",
+          "part": 1
+        },
+        {
+          "cardId": "FD0C05",
+          "part": 1
+        },
+        {
+          "cardId": "FE8FF6",
+          "part": 5
+        }
+      ],
+      "local2018Comparison": {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 283,
+        "status": "variant_scope_pending",
+        "targetExplicitlyPrinted": true,
+        "exclusiveStressNotEstablished": true
+      },
+      "reznichenko2003Comparison": {
+        "sourceId": "local-new-5fc24a2053626fed",
+        "status": "exact_form_read",
+        "pdfPages": [
+          400
+        ]
+      }
+    }
+  ],
+  "localSourceReview": {
+    "reviewDate": "2026-11-10",
+    "inventory": "materials-new-inventory.json",
+    "sourceId": "local-new-aa53de251996d2c3",
+    "evidence": [
+      {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 176,
+        "printedPage": 175,
+        "headword": "добела",
+        "visuallyReadForms": "добела́",
+        "status": "exact_form_read",
+        "note": "Прямо прочитано; до́бела помечено как нерекомендуемое.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "b65eba9e35f58f703652e6aa8857988d090c46c0f424ee7b239a6488052c8e04",
+        "ocrIsStressEvidence": false,
+        "targetForm": "добелА"
+      },
+      {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 283,
+        "printedPage": 282,
+        "headword": "исчерпать",
+        "visuallyReadForms": "исчерпа́ть; допустимо исче́рпать",
+        "status": "variant_scope_pending",
+        "note": "Вариантность издания 2018 года не подменяет список ФИПИ или другое издание.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "ee35662f4fba1e616a0028d2b14ff80b3b2b32246ba03538d9598019120031c5",
+        "ocrIsStressEvidence": false,
+        "targetForm": "исчЕрпать"
+      },
+      {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 397,
+        "printedPage": 396,
+        "headword": "наверх",
+        "visuallyReadForms": "наве́рх",
+        "status": "exact_form_read",
+        "note": "Прямо прочитано; на́верх помечено как нерекомендуемое.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "1f51ec60e7fe8af78a3bc43c6ecac079c924bbaa1eddd30a4262aca34c42857a",
+        "ocrIsStressEvidence": false,
+        "targetForm": "навЕрх"
+      },
+      {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 405,
+        "printedPage": 404,
+        "headword": "налить",
+        "visuallyReadForms": "налита́",
+        "status": "exact_form_read",
+        "note": "Целевая краткая форма прямо напечатана в статье.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "a121e2505269e2005f2232c4bffbf1b36d0dc42aa73f3304fa5396efeda1a53e",
+        "ocrIsStressEvidence": false,
+        "targetForm": "налитА"
+      },
+      {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 488,
+        "printedPage": 487,
+        "headword": "откупорить",
+        "visuallyReadForms": "отку́порить, отку́порю, отку́порит",
+        "status": "related_paradigm_only",
+        "note": "Невозвратная прошедшая форма откупорил на странице прямо не напечатана.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "cb343abd0b637984e0800a3695e2d886a8115e4b716d0715665da54fb30903c0",
+        "ocrIsStressEvidence": false,
+        "targetForm": "откУпорил"
+      },
+      {
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 839,
+        "printedPage": 838,
+        "headword": "торт",
+        "visuallyReadForms": "то́рт, то́рта, то́рты, то́ртам",
+        "status": "related_paradigm_only",
+        "note": "Целевой родительный множественного тортов прямо не напечатан.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "58776aafbb22907ceb73d0669f4d891070ad0326898b122f7a0f8a5e8e249a65",
+        "ocrIsStressEvidence": false,
+        "targetForm": "тОртов"
+      },
+      {
+        "targetForm": "лЕкторы",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 348,
+        "printedPage": 347,
+        "headword": "лектор",
+        "visuallyReadForms": "ле́кторы",
+        "status": "exact_form_read",
+        "note": "Целевая форма множественного числа прямо напечатана.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "91a3c91ce2122110b9b4695f0ad18f974ecf50073e6635244a450e32bb70a73c",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "низведЁн",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 439,
+        "printedPage": 438,
+        "headword": "низвести",
+        "visuallyReadForms": "низведён",
+        "status": "exact_form_read",
+        "note": "Целевая краткая форма прямо напечатана.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "e364e15ae2711ee07c8ee18cc63588e30d9b02049a133181c3bd374f783756c5",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "ободрЁн",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 458,
+        "printedPage": 457,
+        "headword": "ободрить",
+        "visuallyReadForms": "ободрён",
+        "status": "exact_form_read",
+        "note": "Краткая форма мужского рода прямо напечатана.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "4bb54aa2b024b5314fe88d1329bb9752f4b08c816736910f9ac7a854c1ae9ac6",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "прИбыло",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 637,
+        "printedPage": 636,
+        "headword": "прибыть",
+        "visuallyReadForms": "при́было",
+        "status": "exact_form_read",
+        "note": "Краткая парадигма прошедшего времени прямо печатает целевую форму; прибы́ло отмечено как неправильное.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "04bfceb8de032e2ce7dd6635914c2207c192562ffbcac3733d22d4c5259cf645",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "завИдно",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 207,
+        "printedPage": 206,
+        "headword": "завидно",
+        "visuallyReadForms": "зави́дно; допустимо за́видно",
+        "status": "variant_scope_pending",
+        "note": "Целевая форма подтверждена; другое ударение также допускается в издании 2018 года.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "58a927d0ffcd0d03cbd1f78c109edf185abf028e4f71a6458a2960d55dab1d9b",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "молЯщий",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 387,
+        "printedPage": 386,
+        "headword": "молить",
+        "visuallyReadForms": "мо́лящий; допустимо моля́щий",
+        "status": "variant_scope_pending",
+        "note": "Целевая форма дана как допустимая, а не единственная; основной вариант имеет ударение на О.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "787c90ef7a4b5a08c19d3696717cdb2ce80f9c7ab93362c06ab90c14b916fc3b",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "ободренА",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 458,
+        "printedPage": 457,
+        "headword": "ободрить",
+        "visuallyReadForms": "ободрена́",
+        "status": "exact_form_read",
+        "note": "Краткая форма женского рода прямо напечатана.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "4bb54aa2b024b5314fe88d1329bb9752f4b08c816736910f9ac7a854c1ae9ac6",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "опломбировАть",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 473,
+        "printedPage": 472,
+        "headword": "опломбировать",
+        "visuallyReadForms": "опломбирова́ть",
+        "status": "exact_form_read",
+        "note": "Целевой инфинитив прямо напечатан; опломби́ровать отмечено как неправильное.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "bd9d82fa266f3712088720d9f9a18f6411a1e71f218c932641abaafe46d43775",
+        "ocrIsStressEvidence": false
+      },
+      {
+        "targetForm": "принУдить",
+        "sourceId": "local-new-aa53de251996d2c3",
+        "djvuPage": 643,
+        "printedPage": 642,
+        "headword": "принудить",
+        "visuallyReadForms": "прину́дить; допустимо принуди́ть",
+        "status": "variant_scope_pending",
+        "note": "Целевая форма подтверждена; другое ударение также допускается в издании 2018 года.",
+        "method": "rendered_page_read",
+        "ocrPageSha256": "c44297f6f689cce8fad257b4418868b245e8f409ea209432c9d15a01b7687883",
+        "ocrIsStressEvidence": false
+      }
+    ],
+    "scope": "Completed targeted comparison of all 15 forms in 27 cards against the 2018 edition. Thirteen exact forms are printed, two have related paradigms only. Four printed forms have permitted stress variants. Existing public-PDF statuses and FIPI keys are unchanged; dictionary scope is not exam-list scope.",
+    "summary": {
+      "targetForms": 15,
+      "distinctCards": 27,
+      "occurrences": 28,
+      "directlyPrintedForms": 13,
+      "relatedParadigmOnlyForms": 2,
+      "directFormsWithPermittedVariants": 4,
+      "directFormsWithoutPermittedStressAlternativeInReadEntry": 9,
+      "sourceKeyDisagreements": [
+        {
+          "form": "исчЕрпать",
+          "cards": [
+            "FD0C05",
+            "FE8FF6"
+          ],
+          "sourceVariant": "исчерпа́ть",
+          "sourceAssessment": "Основной вариант в словаре 2018 года; исче́рпать допускается.",
+          "keyAssessment": "В этих двух карточках исчерпАть указано как ошибочное ударение.",
+          "resolution": "Сопоставление с экзаменационным списком/предписанным изданием остаётся открытым. Ключи не изменены."
+        }
+      ],
+      "report": "task-4-local-dictionary-review.md",
+      "cardDataChanged": false
+    }
+  },
+  "reznichenkoSourceReview": {
+    "reviewDate": "2026-11-10",
+    "sourceId": "local-new-5fc24a2053626fed",
+    "inventory": "materials-new-inventory.json",
+    "scope": "Three remaining targets only; not a full crosscheck of all 15 forms in this new source. Cards, keys, published data and progress unchanged.",
+    "evidence": [
+      {
+        "form": "исчЕрпать",
+        "headword": "исчерпать(ся)",
+        "status": "exact_form_read",
+        "visuallyRead": "исче́рпать(ся); неправ. исчерпа́ть(ся)",
+        "pages": [
+          {
+            "pdfPage": 400,
+            "printedPage": 400,
+            "method": "ocr_then_rendered_page_read",
+            "ocrSha256": "94910618a5cc2ec5ee71f9bfbb14466625e56955110a03fdd19e6dd068d8945c",
+            "ocrIsStressEvidence": false
+          }
+        ],
+        "conclusion": "Supports the existing assessment in E92465, FD0C05, FE8FF6 for this edition. Disagrees with the 2018 dictionary; no exclusive universal norm or current exam scope inferred."
+      },
+      {
+        "form": "тОртов",
+        "headword": "торт",
+        "status": "explicit_abbreviated_inflection_read",
+        "visuallyRead": "торт, то́рта, мн. то́рты, -ов; неправ. мн. торты́, -о́в",
+        "pages": [
+          {
+            "pdfPage": 1024,
+            "printedPage": 1024,
+            "method": "ocr_then_rendered_page_read",
+            "ocrSha256": "fe7e5ec3db29d06d2a7910597bb365628cec41dfd26143d5e7a0b323cdbc8cce",
+            "ocrIsStressEvidence": false
+          }
+        ],
+        "conclusion": "Genitive plural explicitly recorded in abbreviated notation with unstressed -ов; stressed -о́в explicitly rejected. Supports тОртов in EA05E1 without claiming that the full token тортов is printed."
+      },
+      {
+        "form": "откУпорил",
+        "headword": "откупорить(ся) → закупорить(ся)",
+        "status": "related_paradigm_only",
+        "visuallyRead": "отку́порить(ся) см. заку́порить(ся); заку́порю, заку́поришь, заку́порив; так же отку́порить(ся)",
+        "pages": [
+          {
+            "pdfPage": 700,
+            "printedPage": 700,
+            "method": "ocr_then_rendered_page_read",
+            "ocrSha256": "e4f4a38ccd2cff8830eaefb8726dc1496af21519744d3e9dbe24a0774201ca8b",
+            "ocrIsStressEvidence": false
+          },
+          {
+            "pdfPage": 305,
+            "printedPage": 305,
+            "method": "ocr_then_rendered_page_read",
+            "ocrSha256": "c24bf42bf5b3c04e3b0df8e06ddf5d8b0bb633baed96b832bb98b3463a3c1c30",
+            "ocrIsStressEvidence": false
+          }
+        ],
+        "conclusion": "Infinitive and cross-referenced paradigm support the root stress. The target past-tense form откупорил is not directly printed in the reviewed entries."
+      }
+    ]
+  }
+}

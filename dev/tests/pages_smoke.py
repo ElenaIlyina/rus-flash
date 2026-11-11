@@ -33,7 +33,7 @@ def main():
         failed = []
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+                browser = p.chromium.launch(executable_path='/usr/bin/chromium' if Path('/usr/bin/chromium').is_file() else None, args=['--no-sandbox'])
                 page = browser.new_page()
                 page.on('pageerror', lambda error: errors.append(str(error)))
                 page.on('response', lambda response: failed.append(response.url) if response.status >= 400 else None)
@@ -53,6 +53,17 @@ def main():
                 page.goto(base + '#knowledge?source=lopatin-2007-orthography-82', wait_until='networkidle')
                 page.locator('[data-source-id="lopatin-2007-orthography-82"]').wait_for()
                 assert 'Приставки' in page.locator('.source-paragraph').inner_text()
+                for cid in ('B5E8E4', 'D52745'):
+                    page.goto(base + '#card/' + cid, wait_until='networkidle')
+                    page.get_by_text('КАРТОЧКА ' + cid, exact=True).wait_for()
+                    page.locator('[data-action="reveal"]').click()
+                    links = page.locator('a[href*="assets/data/lexical-sources/"]')
+                    assert links.count() > 0
+                    for link in links.all():
+                        url = link.evaluate('(a) => a.href')
+                        assert '/rus-flash/assets/data/lexical-sources/' in url
+                        response = page.request.get(url)
+                        assert response.ok and response.body().startswith(b'%PDF-')
                 assert not errors, errors
                 assert not failed, failed
                 browser.close()

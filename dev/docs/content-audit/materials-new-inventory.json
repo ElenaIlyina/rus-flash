@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-10",
+  "scope": "Inventory and initial targeted reading. Not a claim that all books or all statements have been reviewed. Full extracted texts and rendered pages remain in /tmp; original books are not republished.",
+  "sources": [
+    {
+      "id": "local-new-aa53de251996d2c3",
+      "pathFromWorkspace": "materials_new/Большой орфоэпический словарь русского языка (Каленчук М. Л., Касаткин Л. Л. etc.) (z-library.sk, 1lib.sk, z-lib.sk).djvu",
+      "format": "djvu",
+      "sizeBytes": 47213670,
+      "sha256": "aa53de251996d2c3ab982a7ff32d3e2e2348bd142f18a51d703a086b8458e517",
+      "pages": 1025,
+      "textLayer": "ocr_search_only_accents_require_visual_read",
+      "extractedTextSha256": "ed2e4191a70c8f6d2d97454498f813a6ee53509dc8b876551bb7a768965ec512",
+      "provenance": "user_provided_materials_new",
+      "verifiedBibliography": {
+        "authors": [
+          "М. Л. Каленчук",
+          "Л. Л. Касаткин",
+          "Р. Ф. Касаткина"
+        ],
+        "title": "Большой орфоэпический словарь русского языка",
+        "editor": "Л. Л. Касаткин",
+        "publisher": "АСТ-ПРЕСС ШКОЛА",
+        "year": 2018,
+        "edition": "2-е, исправленное и дополненное",
+        "isbn": "978-5-906971-21-0",
+        "metadataDjvuPage": 3,
+        "method": "rendered_page_read"
+      }
+    },
+    {
+      "id": "local-new-0c1a9e8e7ee64b5b",
+      "pathFromWorkspace": "materials_new/Большой справочник по русскому языку орфография, пунктуация, орфографический словарь, прописная или строч... (z-library.sk, 1lib.sk, z-lib.sk).djvu",
+      "format": "djvu",
+      "sizeBytes": 7443584,
+      "sha256": "0c1a9e8e7ee64b5b19feceb9d726478fc239d27b6f686e96e58c5eec8706499f",
+      "pages": 177,
+      "textLayer": "ocr_search_only_accents_require_visual_read",
+      "extractedTextSha256": "39e5581d1188550eaf538bf5e255597dd20e1ab4a40d720d79a47fd6389bc5c5",
+      "provenance": "user_provided_materials_new"
+    },
+    {
+      "id": "local-new-082d71b2eff62859",
+      "pathFromWorkspace": "materials_new/Русский язык. Орфография и пунктуация (Розенталь Д.Э.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 1230149,
+      "sha256": "082d71b2eff628596c2540142f668b2b1f1eacb2faa74e86e1b2994ce75cacce",
+      "pages": 290,
+      "textLayer": "searchable_text_requires_page_verification",
+      "extractedTextSha256": "0e871d9b3c6268c1cf828913ff90150351ba96cab2014febcf31bf30b76fa90b",
+      "provenance": "user_provided_materials_new"
+    },
+    {
+      "id": "local-new-d5cb152c41c97fc2",
+      "pathFromWorkspace": "materials_new/Русский язык. Орфография. Пунктуация (Розенталь Д.Э., Голуб И.Б.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 21112912,
+      "sha256": "d5cb152c41c97fc24569e6e1588990b43034a37f56f2a13285076e167be654df",
+      "pages": 382,
+      "textLayer": "scan_requires_ocr",
+      "extractedTextSha256": "70e51879b3ad21f081d4a0a9fdac948dda281ec58664c7b20d5e479cfffe635a",
+      "provenance": "user_provided_materials_new"
+    },
+    {
+      "id": "local-new-f1b418d4405f5de9",
+      "pathFromWorkspace": "materials_new/Справочник по орфографии, правописанию и стилистике (Розенталь Д.Э.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 1508933,
+      "sha256": "f1b418d4405f5de98360304d737fe124904b2d7970d1011cfc57bdc4571f026c",
+      "pages": 348,
+      "textLayer": "searchable_text_requires_page_verification",
+      "extractedTextSha256": "2ec2ba925ad0851c89423e4773d289a1c07dd765ac3df853854540427717a64b",
+      "provenance": "user_provided_materials_new"
+    },
+    {
+      "id": "local-new-30aa9507092b5cef",
+      "pathFromWorkspace": "materials_new/Справочник по пунктуации (Д. Э. Розенталь) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 2011845,
+      "sha256": "30aa9507092b5cef074f44ecfe645c725278cb08e0309f3b034883e6496e128c",
+      "pages": 252,
+      "textLayer": "searchable_text_requires_page_verification",
+      "extractedTextSha256": "d1b090d53e606fbb443bc79314644835231b903c9551fd1f9e84fc2f8b9edac7",
+      "provenance": "user_provided_materials_new"
+    },
+    {
+      "id": "local-new-f8288b3401ad1fa8",
+      "pathFromWorkspace": "materials_new/Справочник по русскому языку. Практическая стилистика. (Розенталь Д.Э.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 21453303,
+      "sha256": "f8288b3401ad1fa80fd9afb012d2f5c05b4569319360d414cd67d039db516e5b",
+      "pages": 382,
+      "textLayer": "scan_requires_ocr",
+      "extractedTextSha256": "70e51879b3ad21f081d4a0a9fdac948dda281ec58664c7b20d5e479cfffe635a",
+      "provenance": "user_provided_materials_new",
+      "verifiedBibliography": {
+        "author": "Д. Э. Розенталь",
+        "title": "Справочник по русскому языку. Практическая стилистика",
+        "publisher": "Издательский дом «ОНИКС 21 век»; Мир и образование",
+        "year": 2001,
+        "isbn": "5-329-00322-9",
+        "metadataPdfPage": 3,
+        "method": "rendered_page_read"
+      }
+    },
+    {
+      "id": "local-new-c00cf7350f53aa23",
+      "pathFromWorkspace": "materials_new/Стилистический энциклопедический словарь русского языка ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 3298835,
+      "sha256": "c00cf7350f53aa23e055f270aa4f4deb6026675d50b5a6c5c7ebf288490cd6d0",
+      "pages": 696,
+      "textLayer": "searchable_text_requires_page_verification",
+      "extractedTextSha256": "52fb8b02718d14512ad809c9ba544078efb500b4deae9a08e8aa10b97c2672dd",
+      "provenance": "user_provided_materials_new"
+    },
+    {
+      "id": "local-new-5fc24a2053626fed",
+      "pathFromWorkspace": "materials_new/Орфоэпический словарь русского языка Произношение. Ударение Ок. 25 000 единиц (Резниченко И. Л.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "format": "pdf",
+      "sizeBytes": 8809112,
+      "sha256": "5fc24a2053626fed556a141ac1c3267718396bff0fbf01e5ff8997b8a3803ef4",
+      "pages": 1183,
+      "textLayer": "image_only_pdftotext_empty_pages",
+      "provenance": "user_provided_materials_new",
+      "verifiedBibliography": {
+        "author": "И. Л. Резниченко",
+        "title": "Орфоэпический словарь русского языка: Произношение. Ударение: Ок. 25 000 единиц",
+        "year": 2003,
+        "publishers": [
+          "Астрель",
+          "АСТ"
+        ],
+        "isbn": [
+          "5-17-015419-4",
+          "5-271-06540-5"
+        ],
+        "metadataPdfPage": 2,
+        "method": "rendered_page_read"
+      },
+      "scope": "Targeted review of исчерпать, откупорить/закупорить and торт. Not the 2008 stress dictionary previously requested."
+    }
+  ],
+  "grammarEvidence": [
+    {
+      "sourceId": "local-new-f1b418d4405f5de9",
+      "pdfPage": 263,
+      "pageTextSha256": "c82f69c5bf6a60ac88c4bf94d488a6a0319dd7a941cf3dc3929b17eaaa950e47",
+      "method": "text_and_rendered_page_read",
+      "scope": "Обратное согласование: начало раздела"
+    },
+    {
+      "sourceId": "local-new-f1b418d4405f5de9",
+      "pdfPage": 264,
+      "pageTextSha256": "67f0b513bc6508e3a3ff0c9ded7a7d89c9e592533c6882327724f7b3ae49525f",
+      "method": "text_and_rendered_page_read",
+      "scope": "Обратное согласование: продолжение; общие правила не разрешают конкретное спорное предложение"
+    },
+    {
+      "sourceId": "local-new-f1b418d4405f5de9",
+      "pdfPage": 299,
+      "pageTextSha256": "8c58d4d15f0a85ba4ef26d8be0625504c443b4a98bc0560008965c4e34d589ec",
+      "method": "text_and_rendered_page_read",
+      "scope": "Контекстные ошибки союзной связи; пример лишнего соотносительного слова не является общим запретом ТО"
+    },
+    {
+      "sourceId": "local-new-f1b418d4405f5de9",
+      "pdfPage": 302,
+      "pageTextSha256": "cf70a475027dae240c03a0682fdad91d1b0a1923ee88dfa021ba38f48b743726",
+      "method": "text_and_rendered_page_read",
+      "scope": "Положение причастного оборота и запрет включать определяемое имя внутрь оборота; не основание запретить любое удаление"
+    },
+    {
+      "sourceId": "local-new-f1b418d4405f5de9",
+      "pdfPage": 303,
+      "pageTextSha256": "c91dd1fb56d68a27bfbc6c8179341ba5ee046bf63495549df3948749146974d8",
+      "method": "text_and_rendered_page_read",
+      "scope": "Общий исполнитель деепричастия, инфинитивные конструкции и страдательный залог"
+    },
+    {
+      "sourceId": "local-new-f8288b3401ad1fa8",
+      "pdfPage": 327,
+      "printedPage": 326,
+      "method": "ocr_search_then_rendered_page_read",
+      "scope": "§96: соотносительное слово может быть лишним, но также может придавать книжную окраску; точных восьми спорных примеров здесь нет"
+    }
+  ],
+  "pendingTask8Outcome": {
+    "remaining": 15,
+    "status": "requires_context_specific_review",
+    "note": "New passages strengthen general criteria but do not independently settle the 15 historical-key assignments. Flags and keys are retained."
+  },
+  "stressEvidence": [
+    {
+      "sourceId": "local-new-aa53de251996d2c3",
+      "djvuPage": 176,
+      "printedPage": 175,
+      "headword": "добела",
+      "visuallyReadForms": "добела́",
+      "status": "exact_form_read",
+      "note": "Прямо прочитано; до́бела помечено как нерекомендуемое.",
+      "method": "rendered_page_read",
+      "ocrPageSha256": "b65eba9e35f58f703652e6aa8857988d090c46c0f424ee7b239a6488052c8e04",
+      "ocrIsStressEvidence": false
+    },
+    {
+      "sourceId": "local-new-aa53de251996d2c3",
+      "djvuPage": 283,
+      "printedPage": 282,
+      "headword": "исчерпать",
+      "visuallyReadForms": "исчерпа́ть; допустимо исче́рпать",
+      "status": "variant_scope_pending",
+      "note": "Вариантность издания 2018 года не подменяет список ФИПИ или другое издание.",
+      "method": "rendered_page_read",
+      "ocrPageSha256": "ee35662f4fba1e616a0028d2b14ff80b3b2b32246ba03538d9598019120031c5",
+      "ocrIsStressEvidence": false
+    },
+    {
+      "sourceId": "local-new-aa53de251996d2c3",
+      "djvuPage": 397,
+      "printedPage": 396,
+      "headword": "наверх",
+      "visuallyReadForms": "наве́рх",
+      "status": "exact_form_read",
+      "note": "Прямо прочитано; на́верх помечено как нерекомендуемое.",
+      "method": "rendered_page_read",
+      "ocrPageSha256": "1f51ec60e7fe8af78a3bc43c6ecac079c924bbaa1eddd30a4262aca34c42857a",
+      "ocrIsStressEvidence": false
+    },
+    {
+      "sourceId": "local-new-aa53de251996d2c3",
+      "djvuPage": 405,
+      "printedPage": 404,
+      "headword": "налить",
+      "visuallyReadForms": "налита́",
+      "status": "exact_form_read",
+      "note": "Целевая краткая форма прямо напечатана в статье.",
+      "method": "rendered_page_read",
+      "ocrPageSha256": "a121e2505269e2005f2232c4bffbf1b36d0dc42aa73f3304fa5396efeda1a53e",
+      "ocrIsStressEvidence": false
+    },
+    {
+      "sourceId": "local-new-aa53de251996d2c3",
+      "djvuPage": 488,
+      "printedPage": 487,
+      "headword": "откупорить",
+      "visuallyReadForms": "отку́порить, отку́порю, отку́порит",
+      "status": "related_paradigm_only",
+      "note": "Невозвратная прошедшая форма откупорил на странице прямо не напечатана.",
+      "method": "rendered_page_read",
+      "ocrPageSha256": "cb343abd0b637984e0800a3695e2d886a8115e4b716d0715665da54fb30903c0",
+      "ocrIsStressEvidence": false
+    },
+    {
+      "sourceId": "local-new-aa53de251996d2c3",
+      "djvuPage": 839,
+      "printedPage": 838,
+      "headword": "торт",
+      "visuallyReadForms": "то́рт, то́рта, то́рты, то́ртам",
+      "status": "related_paradigm_only",
+      "note": "Целевой родительный множественного тортов прямо не напечатан.",
+      "method": "rendered_page_read",
+      "ocrPageSha256": "58776aafbb22907ceb73d0669f4d891070ad0326898b122f7a0f8a5e8e249a65",
+      "ocrIsStressEvidence": false
+    }
+  ]
+}

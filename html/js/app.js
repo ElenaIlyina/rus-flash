@@ -1,3 +1,4 @@
+import { renderGrammarReferences } from "./grammar-sources.js";
 import { filterStressGlossary } from "./stress-glossary.js";
 import { renderStressReferences } from "./stress-list.js";
 import {
@@ -19,7 +20,7 @@ import { orderCards } from "./bank-order.js";
 import { projectProgress, labels } from "./learning.js";
 import { renderGlobalProgress, renderLearningProgress } from "./progress.js";
 import { strategyHint } from "./hints.js";
-import { icon, esc, rich, plain, num } from "./ui.js";
+import { icon, esc, rich, richExplanation, plain, num } from "./ui.js";
 import { parseProgress, mergeProgress } from "./progress-transfer.js";
 import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
@@ -337,7 +338,7 @@ function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${rich(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanationReviewNote ? `<p class="feedback warning" data-explanation-review>${esc(c.explanationReviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${richExplanation(c.explanation)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${renderGrammarReferences(c.grammarSourceRefs, { kind: c.task === 6 ? "lexical" : c.task === 1 ? "cohesion" : c.task === 7 ? "morphology" : "grammar" })}${renderGrammarReferences(c.styleSourceRefs, { kind: "style" })}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>Источники по рядам задания</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">Ряд ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();

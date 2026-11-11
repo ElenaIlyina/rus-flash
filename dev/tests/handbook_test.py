@@ -68,7 +68,7 @@ class HandbookTest(unittest.TestCase):
 
     def test_prefix_explanations_match_rows_and_historical_answers(self):
         reviews=json.loads((ROOT/'dev/data/knowledge/prefix_card_reviews.json').read_text())['cards']
-        self.assertEqual(len(reviews),12)
+        self.assertEqual(len(reviews),72)
         for review in reviews:
             card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
             self.assertEqual(render_prefix(card,review),card['explanation'])
@@ -77,7 +77,7 @@ class HandbookTest(unittest.TestCase):
 
     def test_root_batch_preserves_fipi_source_and_has_exact_links(self):
         reviews=json.loads((ROOT/'dev/data/knowledge/root_card_reviews.json').read_text())['cards']
-        self.assertEqual(len(reviews),19)
+        self.assertEqual(len(reviews),73)
         for review in reviews:
             card=json.loads((ROOT/'data'/f"card_{review['id']}.json").read_text())
             self.assertEqual(render_prefix(card,review),card['explanation'])

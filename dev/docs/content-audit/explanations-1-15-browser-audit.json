@@ -1,0 +1,16 @@
+{
+  "rendered": 1145,
+  "references": 3194,
+  "corrections": 365,
+  "badCorrections": [],
+  "uiChecks": 84,
+  "distinctUiCards": 42,
+  "widths": [
+    1440,
+    390
+  ],
+  "pendingUiCards": 22,
+  "javascriptErrors": 0,
+  "failedLocalRequests": 0,
+  "scope": "All 1145 explanations and renderer-filtered source lists; 42 selected full UI cards at two widths. Orthography paragraph references additionally checked by check_pages_artifact.py."
+}

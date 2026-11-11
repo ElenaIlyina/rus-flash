@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-10",
+  "scope": "Fresh check of the target correction in the 23 previously rule-only task-7 records, not a rewrite or teacher acceptance of every explanation. Dictionary articles and grammar rules are separate evidence.",
+  "reviewedCards": 23,
+  "sourceSupportedCards": 21,
+  "variantScopePendingCards": 2,
+  "pendingCardIds": [
+    "CA147A",
+    "F23DF9"
+  ],
+  "sourceSupportedCardIds": [
+    "09D8E7",
+    "20ECC0",
+    "27713B",
+    "2AD233",
+    "2BD565",
+    "3282E5",
+    "41D6D8",
+    "4B38A8",
+    "521887",
+    "5D5744",
+    "617D1E",
+    "890AB3",
+    "A4CB01",
+    "AE0374",
+    "B3DAE9",
+    "C88373",
+    "D8BE94",
+    "DD4AE3",
+    "E60EB4",
+    "F05133",
+    "F5ED6D"
+  ],
+  "sourceCatalog": "../../data/knowledge/grammar_sources.json",
+  "sourceFingerprintsVerified": [
+    "litnevskaya-comparison-adjectives",
+    "litnevskaya-comparison-adverbs",
+    "litnevskaya-ordinal-declension",
+    "litnevskaya-noun-declension",
+    "litnevskaya-reflexivity",
+    "litnevskaya-active-participles",
+    "litnevskaya-verb-mood",
+    "litnevskaya-verb-conjugation",
+    "gramota-meta-bukhgalter",
+    "gramota-meta-tort",
+    "gramota-meta-sous",
+    "gramota-meta-povidlo",
+    "gramota-meta-tyul",
+    "gramota-meta-sezdit",
+    "gramota-meta-pech_3751.h2",
+    "gramota-meta-ispech",
+    "gramota-meta-poprobovat",
+    "gramota-pronoun-n-exceptions",
+    "state-orthographic-sous"
+  ],
+  "cardDataChanged": false,
+  "gradingKeysChanged": false,
+  "oldExplanationsUsedAsEvidence": false,
+  "cards": [
+    {
+      "id": "09D8E7",
+      "part": 4,
+      "sourceExcerpt": "более ДВЕ тысяч человек",
+      "correctedExcerpt": "более двух тысяч человек",
+      "sourceContentSha256": "bfb221bacbad35131d8546949922719c46bccb3b44d8f0fe13f7915d17c6c21d",
+      "status": "source_supported",
+      "reason": "Более обозначает превышение количества и управляет родительным падежом (словарные статьи более → больше); в таблице числительного два родительный падеж — двух. Получаем более двух тысяч человек.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-numeral",
+          "textSha256": "7ecb003937921713aa45f964bf336d0a6f570bee05e9df25cea11ee66f37a46e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "20ECC0",
+      "part": 2,
+      "sourceExcerpt": "молодые БУХГАЛТЕРА",
+      "correctedExcerpt": "молодые бухгалтеры",
+      "sourceContentSha256": "d1054d0929d6f7ce3d3a058b38cd02c0552a42ae2d2d580a6fddafe20e9002b1",
+      "status": "source_supported",
+      "reason": "В таблице именительный множественного прямо напечатан: бухгалтеры. Бухгалтера — форма родительного единственного, а в сочетании молодые бухгалтеры нужно множественное число.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-bukhgalter",
+          "textSha256": "3d58f140612607247dd138c6fc2ea03d536754e7c1186c9e537418abf0f749b1",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "27713B",
+      "part": 2,
+      "sourceExcerpt": "ВЫИГРАВШИЙСЯ приз",
+      "correctedExcerpt": "выигравший приз",
+      "sourceContentSha256": "bc6aea221b2c2d801dd08e023769ded0efea1de4b2d2456f0a1e01034ead12d4",
+      "status": "source_supported",
+      "reason": "В сочетании с объектом приз используется невозвратное выиграть (выиграть что? приз). Действительное причастие от основы выигра- образуется суффиксом -вш-; добавление -ся не требуется. Речь о том, кто выиграл приз, а не о причастном определении к слову приз.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-active-participles",
+          "textSha256": "084f51fe511dbeb829904b1290f38c646cae9f740ac588eb5f8a27204e3081b3",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-reflexivity",
+          "textSha256": "1118061765ac924c844fe4c4348627d4b8ee193bd6e5e006d92065d4f7cca906",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "2AD233",
+      "part": 3,
+      "sourceExcerpt": "свежие ТОРТА",
+      "correctedExcerpt": "свежие торты",
+      "sourceContentSha256": "ffa35c491e0a946940b5bbffe3ea1b84b241b1da1f285d0b4defbdde65dae9f9",
+      "status": "source_supported",
+      "reason": "Таблица прямо даёт именительный множественного торты; в свежие торты требуется эта форма. Родительный единственного торта — другая грамматическая позиция.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-tort",
+          "textSha256": "3def367f71aa419ee74d532d956ad56659c4095693aff679a912f73cbed3176d",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "2BD565",
+      "part": 4,
+      "sourceExcerpt": "голос более ЗВУЧНЕЕ",
+      "correctedExcerpt": "голос более звучный",
+      "sourceContentSha256": "b026db9acb5e9270b503f1a3e7a16079c317e8e4784c5f7d384475af7e235a6a",
+      "status": "source_supported",
+      "reason": "Более + положительная степень: более звучный. Звучнее — простая сравнительная форма; в составной форме её не используют.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-comparison-adjectives",
+          "textSha256": "2e1f2631998f55c613e4feaeda088934251c015f7ef31beda6208b512def2b7e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "3282E5",
+      "part": 1,
+      "sourceExcerpt": "прыгал более ВЫШЕ",
+      "correctedExcerpt": "прыгал более высоко",
+      "sourceContentSha256": "eff0cedf97378a56d40b948399afde7ba31d272deb2348167bc577aba84f8ea6",
+      "status": "source_supported",
+      "reason": "Источник прямо иллюстрирует составную степень примером прыгнул более высоко. После более нужна положительная форма наречия высоко, а не простая сравнительная выше.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-comparison-adverbs",
+          "textSha256": "63bc47d8df3a6e6be1dd3ba479824aeab4e53de0e05f355f0bbb8147b206c9e3",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "41D6D8",
+      "part": 3,
+      "sourceExcerpt": "он более УГРЮМЕЕ",
+      "correctedExcerpt": "он более угрюмый",
+      "sourceContentSha256": "174754f17a55fbb03e00bc64bf3cfc99e3910af65d45ae220b11f2580da09db6",
+      "status": "source_supported",
+      "reason": "После более в составной сравнительной форме используется положительная степень угрюмый. Исправляется только выделенное слово, более сохраняется.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-comparison-adjectives",
+          "textSha256": "2e1f2631998f55c613e4feaeda088934251c015f7ef31beda6208b512def2b7e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "4B38A8",
+      "part": 4,
+      "sourceExcerpt": "более ДВЕ тысяч человек",
+      "correctedExcerpt": "более двух тысяч человек",
+      "sourceContentSha256": "9d11d83b8723a3574cacc1d871bebcb17e84d4634d408c80dc9b314f4a4fbc54",
+      "status": "source_supported",
+      "reason": "Более в количественном значении требует родительного падежа; словарная статья больше иллюстрирует это количественными группами. Таблица два → двух подтверждает нужную форму.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-numeral",
+          "textSha256": "7ecb003937921713aa45f964bf336d0a6f570bee05e9df25cea11ee66f37a46e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "521887",
+      "part": 1,
+      "sourceExcerpt": "он более УГРЮМЕЕ",
+      "correctedExcerpt": "он более угрюмый",
+      "sourceContentSha256": "e9daf0b7798b6258b496eb0240b3febffcb123cb963fcbbdcd3df66dd6aaa223",
+      "status": "source_supported",
+      "reason": "Составная сравнительная степень: более + положительная форма угрюмый. Выделенное угрюмее заменяется без удаления невыделенного более.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-comparison-adjectives",
+          "textSha256": "2e1f2631998f55c613e4feaeda088934251c015f7ef31beda6208b512def2b7e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "5D5744",
+      "part": 3,
+      "sourceExcerpt": "к ДВУХ тысячи двадцать первому году",
+      "correctedExcerpt": "к две тысячи двадцать первому году",
+      "sourceContentSha256": "9f9640738f66a06f90d69b93427ba5d7a8ba44cd212511fa3b57b1cd21c5d220",
+      "status": "source_supported",
+      "reason": "В названии года склоняется последняя часть составного порядкового числительного: к две тысячи двадцать первому году. Начальные две тысячи сохраняются.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-ordinal-declension",
+          "textSha256": "86fba16877218092e99af1f50971df9b318cf23fbe098334d1ff5039c3bdebf7",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "617D1E",
+      "part": 3,
+      "sourceExcerpt": "по ОБОИМ сторонам",
+      "correctedExcerpt": "по обеим сторонам",
+      "sourceContentSha256": "b63ddc76f6e76a2a4d66ba0c8356d0bc539470ea5235b9b0c4795d330536a7a7",
+      "status": "source_supported",
+      "reason": "В таблице количественных числительных дательный падеж женской формы обе — обеим. Сторона женского рода, поэтому по обеим сторонам.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-numeral",
+          "textSha256": "7ecb003937921713aa45f964bf336d0a6f570bee05e9df25cea11ee66f37a46e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "890AB3",
+      "part": 2,
+      "sourceExcerpt": "пить чай с ПОВИДЛОЙ",
+      "correctedExcerpt": "пить чай с повидлом",
+      "sourceContentSha256": "b3f301c30d46c807ece8e41f8c48d05f226cc2fe13c070e27d650f4ec3b37277",
+      "status": "source_supported",
+      "reason": "Повидло среднего рода, второго склонения; творительный падеж повидлом прямо указан в таблице. С предлогом с нужен творительный: с повидлом.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-povidlo",
+          "textSha256": "99efe75776c408813dcb0aaafa6c8465096fbdb6ed0f126e11f81381a7b614f7",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-noun-declension",
+          "textSha256": "06029c1cf6705b221b3724ff3d0e320b63a4294054c31ee2fe27dddcae4330b8",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "A4CB01",
+      "part": 3,
+      "sourceExcerpt": "бабушка ПЕКЁТ пироги",
+      "correctedExcerpt": "бабушка печёт пироги",
+      "sourceContentSha256": "f4e0a5f1463e148e673c671f3e77215a61d2c35862e5d71a14af6e3a39ca8bd7",
+      "status": "source_supported",
+      "reason": "Для глагола печь форма третьего лица единственного числа настоящего времени прямо дана как печёт. Словарное чередование основы не выводится только из инфинитива.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-pech_3751.h2",
+          "textSha256": "76466ece76f0658bc0253ea12e5e6058fff68b497442fe3599278b20cbc2844b",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-verb-conjugation",
+          "textSha256": "ecae8ed6ac2896dba9bb884b82cd9effc729dbf5b63fc6749d6a94abdbe6cc58",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "AE0374",
+      "part": 3,
+      "sourceExcerpt": "с ПОВИДЛОЙ",
+      "correctedExcerpt": "с повидлом",
+      "sourceContentSha256": "6d5d5479b4bf266047b24fb5af4d53c82e55412629a018b8d5e35b968e6fe3e1",
+      "status": "source_supported",
+      "reason": "В таблице существительного среднего рода повидло творительный падеж — повидлом. В сочетании с повидлом используется эта форма.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-povidlo",
+          "textSha256": "99efe75776c408813dcb0aaafa6c8465096fbdb6ed0f126e11f81381a7b614f7",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-noun-declension",
+          "textSha256": "06029c1cf6705b221b3724ff3d0e320b63a4294054c31ee2fe27dddcae4330b8",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "B3DAE9",
+      "part": 2,
+      "sourceExcerpt": "СЪЕЗДИЙ на дачу",
+      "correctedExcerpt": "съезди на дачу",
+      "sourceContentSha256": "ca42d5ad48f3229571cc5646da6a1b24c39ff61e0a84dad6d5ddc6f69ae3c49b",
+      "status": "source_supported",
+      "reason": "В таблице глагола съездить прямо напечатана повелительная форма съезди. Добавление й к этой форме не требуется; не подменяем глагол другой лексемой.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-sezdit",
+          "textSha256": "08ff8e475c75be533004672e3cb1857005381d7c047c1a34616ef8cbb0b13241",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-verb-mood",
+          "textSha256": "58b23cec4e96388bc7625f86e0a0159fc2b41bc5cfdd2066274ef13ac32657b5",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "C88373",
+      "part": 2,
+      "sourceExcerpt": "накрыть ТЮЛЬЮ",
+      "correctedExcerpt": "накрыть тюлем",
+      "sourceContentSha256": "f6632129091a9f9ede54c7b6346287e5e4c2dfa8ca657649f2cfa9cefd95fb05",
+      "status": "source_supported",
+      "reason": "Тюль мужского рода, второго склонения; таблица прямо даёт творительный тюлем. Исправление не относится к существительным женского рода третьего склонения.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-tyul",
+          "textSha256": "a173ff21a9692f4094416d730177ff1f844527d72972803d68a446b6c53f0eb1",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-noun-declension",
+          "textSha256": "06029c1cf6705b221b3724ff3d0e320b63a4294054c31ee2fe27dddcae4330b8",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "CA147A",
+      "part": 1,
+      "sourceExcerpt": "томатные СОУСА",
+      "correctedExcerpt": "томатные соусы",
+      "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
+      "status": "variant_scope_pending",
+      "reason": "Таблица метасловаря даёт соусы, что согласуется с ключом. Но государственный орфографический словарь фиксирует также разговорное соуса́: общий запрет этой формы был бы слишком широким. Требуется разграничить экзаменационную и разговорную область.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-sous",
+          "textSha256": "b4db9be683a6905c650ce8e889f0c7727869ba9c5043079d5ac04c147cd0bb4f",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "state-orthographic-sous",
+          "textSha256": "56739fe07b6154f0949a83f9eeecb8923d6531358490cda52aa161af9156a1b9",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "D8BE94",
+      "part": 2,
+      "sourceExcerpt": "ПОПРОБОВАЕМ решить",
+      "correctedExcerpt": "попробуем решить",
+      "sourceContentSha256": "e8325aeb7f18e91eb30ad10ba548571ab76b840b455099682662449a241551ff",
+      "status": "source_supported",
+      "reason": "Таблица глагола попробовать прямо даёт форму первого лица множественного будущего попробуем. Она отличается от основы инфинитива на -ова-.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-poprobovat",
+          "textSha256": "c44b63a102cc4f514e0d08692dbae74415afbf32f1f48295de605807b4817d18",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-verb-conjugation",
+          "textSha256": "ecae8ed6ac2896dba9bb884b82cd9effc729dbf5b63fc6749d6a94abdbe6cc58",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "DD4AE3",
+      "part": 1,
+      "sourceExcerpt": "ИСПЕКЁТ пирожок",
+      "correctedExcerpt": "испечёт пирожок",
+      "sourceContentSha256": "3e7ea801efe51b9162f6a0573e4a0dd94840eed54a975ac449043c971bd91f1c",
+      "status": "source_supported",
+      "reason": "У испечь прямо дана форма третьего лица единственного числа будущего испечёт. Приставка сохраняется; чередование к/ч соотносится с формами испеку — испечёшь — испечёт.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-ispech",
+          "textSha256": "a48add5f864a4ab445056751931a5725aa4b3566baf78f0f7aa1441106f0dafe",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "litnevskaya-verb-conjugation",
+          "textSha256": "ecae8ed6ac2896dba9bb884b82cd9effc729dbf5b63fc6749d6a94abdbe6cc58",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "E60EB4",
+      "part": 1,
+      "sourceExcerpt": "он более МОЛОЖЕ",
+      "correctedExcerpt": "он более молодой",
+      "sourceContentSha256": "4a65f2e6c1c8441eb82cb91abe958f0513c3f8e687a9907d3e503ac55c4c8d69",
+      "status": "source_supported",
+      "reason": "После более используется положительная форма молодой; моложе — отдельная простая сравнительная степень. Меняется только выделенное слово.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-comparison-adjectives",
+          "textSha256": "2e1f2631998f55c613e4feaeda088934251c015f7ef31beda6208b512def2b7e",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "F05133",
+      "part": 3,
+      "sourceExcerpt": "в ДВУХ тысячи десятом году",
+      "correctedExcerpt": "в две тысячи десятом году",
+      "sourceContentSha256": "f6f3b56a7e4804d85cd178b29d6cf17399724fd6317afe487e6114e1edc1f69c",
+      "status": "source_supported",
+      "reason": "В составном порядковом названии года изменяется только последний компонент: в две тысячи десятом году. Две тысячи не превращаются в двух тысячи.",
+      "grammarEvidence": [
+        {
+          "sourceId": "litnevskaya-ordinal-declension",
+          "textSha256": "86fba16877218092e99af1f50971df9b318cf23fbe098334d1ff5039c3bdebf7",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "F23DF9",
+      "part": 4,
+      "sourceExcerpt": "томатные СОУСА",
+      "correctedExcerpt": "томатные соусы",
+      "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
+      "status": "variant_scope_pending",
+      "reason": "Ключ выбирает соусы; эта основная форма есть в таблице. У соуса́ существует словарная помета разг., поэтому универсальная ненормативность формы не установлена; экзаменационную область нужно уточнить.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-meta-sous",
+          "textSha256": "b4db9be683a6905c650ce8e889f0c7727869ba9c5043079d5ac04c147cd0bb4f",
+          "method": "section_text_read"
+        },
+        {
+          "sourceId": "state-orthographic-sous",
+          "textSha256": "56739fe07b6154f0949a83f9eeecb8923d6531358490cda52aa161af9156a1b9",
+          "method": "section_text_read"
+        }
+      ]
+    },
+    {
+      "id": "F5ED6D",
+      "part": 1,
+      "sourceExcerpt": "наперекор НЕМУ",
+      "correctedExcerpt": "наперекор ему",
+      "sourceContentSha256": "1cc66d132400e00c7397081ccb1f57d6da63d78e4819f2f8b83579ca8a735ec1",
+      "status": "source_supported",
+      "reason": "Справка прямо перечисляет наперекор ему в колонке сочетаний без начального Н. Это исключение не распространяется на все производные предлоги.",
+      "grammarEvidence": [
+        {
+          "sourceId": "gramota-pronoun-n-exceptions",
+          "textSha256": "b58ff39ee1dd96aa836c38d606b853c1cd08ab45764da5f3276637f740259a1b",
+          "method": "section_text_read"
+        }
+      ]
+    }
+  ]
+}
