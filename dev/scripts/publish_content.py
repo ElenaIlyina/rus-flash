@@ -21,6 +21,10 @@ from review_grammar_explanations import load_sources as load_grammar_sources, pu
 from review_style_sources import validate as validate_style_sources
 from review_cohesion_sources import validate as validate_cohesion_sources
 from review_lexical_sources import load_books as load_lexical_books, validate as validate_lexical_sources
+from review_punctuation_explanations import render as render_punctuation, external_sources as punctuation_external_sources, public_external_refs as punctuation_public_refs, PENDING_NOTE as PUNCTUATION_PENDING_NOTE
+from review_isolation_explanations import render as render_isolation
+from review_introductory_explanations import render as render_introductory
+from review_subordination_explanations import render as render_subordination
 from review_word_form_sources import validate as validate_word_form_sources, PENDING_NOTE as WORD_FORM_PENDING_NOTE
 
 
@@ -118,6 +122,35 @@ def payloads():
                         'paronymPairIds':[], 'ruleSourceRefs':[],
                         'grammarSourceRefs':grammar_public_refs(entry, grammar_sources),
                         **({'explanationReviewNote':GRAMMAR_PENDING_NOTE,'explanationNeedsSourceReview':True} if entry.get('sourceReviewPending') else {})}
+    punctuation = read('dev/data/knowledge/punctuation_card_reviews.json')
+    punctuation_sources = punctuation_external_sources(punctuation)
+    for entry in punctuation['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or render_punctuation(cards[cid], entry, rule_paragraphs, punctuation_sources) != cards[cid]['explanation']:
+            raise ValueError('Invalid or stale punctuation review: '+cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[],
+                        'ruleSourceRefs':[{'part':row['number'], 'sourceId':sid,
+                                          'label':f"Пунктуация, §{sid.rsplit('-',1)[1]} · Лопатин (ред.), Эксмо, 2007"}
+                                         for row in entry['rows'] for sid in row['sourceIds']],
+                        'grammarSourceRefs':punctuation_public_refs(entry, punctuation_sources),
+                        **({'explanationNeedsSourceReview':True,'explanationReviewNote':PUNCTUATION_PENDING_NOTE} if entry['sourceReviewPending'] else {})}
+    for registry_file, numbered_renderer in (('isolation_card_reviews.json', render_isolation), ('introductory_card_reviews.json', render_introductory), ('subordination_card_reviews.json', render_subordination)):
+        for entry in read('dev/data/knowledge/' + registry_file)['cards']:
+            cid = entry['id']
+            if cid in support or cid not in cards or numbered_renderer(cards[cid], entry, rule_paragraphs) != cards[cid]['explanation']:
+                raise ValueError('Invalid or stale numbered punctuation review: '+cid)
+            support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                            'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                            'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                            'paronymPairIds':[], 'grammarSourceRefs':[],
+                            'ruleSourceRefs':[{'part':row['number'], 'sourceId':sid,
+                                              'label':f"Пунктуация, §{sid.rsplit('-',1)[1]} · Лопатин (ред.), Эксмо, 2007"}
+                                             for row in entry['rows'] for sid in row['sourceIds']]}
+            if entry.get('sourceReviewPending'):
+                support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
     style_ids = set()
     for entry in read('dev/data/knowledge/style_source_reviews.json')['cards']:
         cid = entry['id']

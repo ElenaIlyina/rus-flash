@@ -1,0 +1,1312 @@
+{
+  "reviewDate": "2026-11-11",
+  "baselineCommit": "f5382a2b80df130b8fa8290ebebba2313a75a0d2",
+  "task": 16,
+  "taskCards": 86,
+  "freshlyReviewedCards": 86,
+  "sentencesReviewed": 430,
+  "remainingCards": [],
+  "preservedConditionsAndKeys": 2140,
+  "unchangedTask1To15CardsAndProgressVersions": 1145,
+  "independentTeacherAcceptance": false,
+  "pendingCards": [],
+  "sources": [
+    "Лопатин (ред.), Эксмо, 2007: пунктуация §§25–29, 37, 38, 40, 112, 127",
+    "И. А. Башкирова, ГГТУ, 2023: PDF-с. 22, прочитан индексированный текст; изображение страницы и локальная копия PDF недоступны",
+    "ФИПИ, рекомендации по самоподготовке к ЕГЭ-2023: текст и изображение с. 12",
+    "Грамота, ответ №332573 от 18.05.2026: прочитаны вопрос и ответ",
+    "Грамота, ответ №285111: прочитан ответ об инфинитиве при другом субъекте"
+  ],
+  "cards": [
+    {
+      "id": "0366D7",
+      "sourceContentSha256": "ce9118e56e976d6525f2d4e864affbe173897567ea89ed077055042f713c56ee",
+      "explanationSha256": "ee8fb04795172d34622e13333ee55144bf0e21929ad1f678419088497f2fde85",
+      "answer": "12",
+      "answerVerifyBitmask": "11000",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "043BD3",
+      "sourceContentSha256": "554b867a92ab915b0aa6178cee2c99010ec9ea1329908e819d8267595bee6cae",
+      "explanationSha256": "32017b24bae614bed27c1691ad21609e0eac945bc39f20a35da15a81e459d83a",
+      "answer": "245",
+      "answerVerifyBitmask": "01011",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "08B326",
+      "sourceContentSha256": "b1084a69ed522c6e16b553ea51bdc3c29e55400a872dfa2cfb138512e7641387",
+      "explanationSha256": "0004a3c13aac39512f0ab8d25ba00e5d785de9f76a1987069500e441bf317cc7",
+      "answer": "1235",
+      "answerVerifyBitmask": "11101",
+      "commaCounts": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "094195",
+      "sourceContentSha256": "f4035dfb253135a700f0b7732dad597fce336c0bf107ab4b2b1c6faa0bbf964e",
+      "explanationSha256": "9c4649fa1f857c7a82ea3c39ffe4489f6925bdc1603d5ad2defa9151976c55d6",
+      "answer": "14",
+      "answerVerifyBitmask": "10010",
+      "commaCounts": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "09A68A",
+      "sourceContentSha256": "72df82245d8f996de1f3ad73fefd7c99741932d22c47e83975ae7c87c3147981",
+      "explanationSha256": "b1e7a7dfe8af6b5463006983ec3c0c13ab709087c8d1870f4ec0786085c13292",
+      "answer": "24",
+      "answerVerifyBitmask": "01010",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "1475B0",
+      "sourceContentSha256": "b52fbc76ed4d05905dff76e4fc65004d6161cb659e27fcb382c726ef72c2f58b",
+      "explanationSha256": "3ef38fa54ef0f6505dd52b73c7135dce6d90276992c7db1f42638f33064deaa0",
+      "answer": "1345",
+      "answerVerifyBitmask": "10111",
+      "commaCounts": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "15CA45",
+      "sourceContentSha256": "d4ce7d1b1bfea2b59ac401ca88bff62c1eca695f910265565afa05303704f840",
+      "explanationSha256": "e75432c5f9870af89cde22a0d7224d7e0e557d7c39e36b2418cb6abcc60751f5",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "16C82F",
+      "sourceContentSha256": "92590749a984673f77d367c7444ec6dc360fc5c4f181c664912c734354486f5b",
+      "explanationSha256": "875e48407bb35ef88d45222cda2863f8a81629c43d2217d7cbd45d03f8a154d8",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "1B9355",
+      "sourceContentSha256": "f4ddfcadcfa263fec23919102f137bf61f7b237b5f6bd490ca45427ad1315933",
+      "explanationSha256": "406a5ccd693b12b69ba7641c3e73bd04c2cf608993f70dbd4fe6f5157cbb2784",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "1F509A",
+      "sourceContentSha256": "cde6684e83f9cfa232e21a988152000e51026d12cfdb4593693d755a66263872",
+      "explanationSha256": "7e55cb08c4c13f37f85a463cb348c5da545b1db99a46aa138bec9f223727942c",
+      "answer": "125",
+      "answerVerifyBitmask": "11001",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "1F6545",
+      "sourceContentSha256": "785a5c773feb336000836663c1fbe64eb00392dcc095bc7777e567600051b5cd",
+      "explanationSha256": "1b8ad8c6a6506f60b2c049a11412349362fcbb4a8617b588b14d34219ec923c7",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "231649",
+      "sourceContentSha256": "ea92c00bc29d0ad9cf5e02e2de6427a405cb3c1322772905dc737fc567000156",
+      "explanationSha256": "4256bd734161cc8de38889aca8eb0f8e6cf4a2d501c45238d82f252de3d53931",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        2,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "24A55B",
+      "sourceContentSha256": "dfd098e8a553b3ffed4f58c14ac4e760c5ec2e04c359f8b1c9b2ad16896ea43a",
+      "explanationSha256": "b6a019f51e5c54d4b7d3d2238e1d0609161b2ea7a30ff7dd9161a8052f34a391",
+      "answer": "145",
+      "answerVerifyBitmask": "10011",
+      "commaCounts": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "277103",
+      "sourceContentSha256": "8f504a55fc573f1a62176505c4969d9db06a1d7ba0bed05b5d7fd824a61163f9",
+      "explanationSha256": "0ee5a0f583cac720b06984f2eab35f6335bab58e81192f9c3560b44864419764",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "2AC82D",
+      "sourceContentSha256": "503171a1ed7677d928bb205b6ca378bfd69664697488814b3a6f3f769b060e80",
+      "explanationSha256": "a92c74a1ce8054fa4d43c1d8aa34af4012ba0c639a7241d49a2705b242250191",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "2D6FA6",
+      "sourceContentSha256": "712e0549daed7d5e8a742d876ca10c92c6b5335233c74fcfcaf37f7371b7ad9d",
+      "explanationSha256": "6c9db001164712048b0d65f1586ecde5173dbc0625e26b6ab1eb741b2d144c52",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "309691",
+      "sourceContentSha256": "2cd89eb1672c455d50e392c4b18f3432544c432950cfd3802e50690cf7b6ef2b",
+      "explanationSha256": "a17dfaf6ac8c6ee6fb6cf33b8f723a7656498fc55f58a9ca566b6eac45ca5900",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "31951C",
+      "sourceContentSha256": "1c2af4a1ca43343690e2581bfd545407316a31875e70e4696c34454e92d17ee7",
+      "explanationSha256": "055c5da54d809f027c626c69b0053986675405a2b564653c53d9a0235d31630b",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "3471DE",
+      "sourceContentSha256": "df2ef46bc2336c39f4d68211a6dd8fd7ef399a15dd88379532ef35e8d6aabca5",
+      "explanationSha256": "7720b8035cc4e8edaddd097120d27d6ccc47a0171e855c6eb38ff6be7b648175",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "3BD82B",
+      "sourceContentSha256": "7e651c87c274777772cfb9394432f1fd279d36d5dc7025f5e9088526b68ae9b1",
+      "explanationSha256": "e0dd8e134585ecefaa7acab37545308f9aa846012d98ece4ded75da19b7031b1",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "3C0CA5",
+      "sourceContentSha256": "f96fae39cf738c4fa07089f46584bdacf1a72ecb49dd0492ac6bfe1516fa20ff",
+      "explanationSha256": "8016f3d6fe2bce6c53371db67e81a6f576846f3ededd4148178f61b2b012f283",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "4020CC",
+      "sourceContentSha256": "3f03878529c8118b250c520cfd3acd754021144593d067d6e37cbfaa9de3ef0c",
+      "explanationSha256": "584671a33dd63b70ae39711484c469275bbe188ce41bb445feb40f5e0707d046",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "41634D",
+      "sourceContentSha256": "05d8f3967fec934c8d3e4d0b0c6745180c932d574675564b1040cde11b18fd73",
+      "explanationSha256": "c8e2c723dcb56a88c41a57bb3aac3c10c347a83d5e13713c49bc02dde468f8bd",
+      "answer": "23",
+      "answerVerifyBitmask": "01100",
+      "commaCounts": [
+        5,
+        1,
+        1,
+        2,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "41CB0B",
+      "sourceContentSha256": "f515a6a4a7066c819e849f6d9ca5ddc6c7f7359126bf9f4de6df90ec0f73faf7",
+      "explanationSha256": "937ac79c1135f64cf58a0bd2710231b9203af47967e094eede8ce3c334ade28a",
+      "answer": "124",
+      "answerVerifyBitmask": "11010",
+      "commaCounts": [
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "426DB7",
+      "sourceContentSha256": "c293e775b7aba23d57e3e0da9ccd6a251a45ecd40326a886b6ec6448522d4896",
+      "explanationSha256": "17f738ddb72223a0de781393f1df839a8338579356fbd3b143de8ea55f961b8a",
+      "answer": "125",
+      "answerVerifyBitmask": "11001",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "4C639E",
+      "sourceContentSha256": "1c75361447cfebdc47a253117bebd61a36bf837b09d4dcfae9773f023b72dac0",
+      "explanationSha256": "ddc72c0ee22958d068a994765643afbea8f987db7494ad4ba3eed6d72dfae9fb",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "50D045",
+      "sourceContentSha256": "c04aab39f988919d1612b5541b7ecd9c991f6929ff65f878f701d8677e3e3666",
+      "explanationSha256": "40f00734a453d5c3a69a9b5c798e7acf8b9a03b7511834ff9e0dea01acd38fd4",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "556D57",
+      "sourceContentSha256": "9c85b2e25e75f066b71fd9faf0bf060be74dc69e3f68244e6400a53b4cf4a019",
+      "explanationSha256": "601b7560259f5f535e713e804f65e9e54119bb82aedffa679c9a1ba7e2314013",
+      "answer": "134",
+      "answerVerifyBitmask": "10110",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "57CA81",
+      "sourceContentSha256": "49c8e93ed94c71fe445a214df5744616090fffbc1ed78a85408c2c6dfcea3011",
+      "explanationSha256": "95aa01dac3f3b5410160893383a3409f762c8769af7db08b705a635f4864d2fc",
+      "answer": "123",
+      "answerVerifyBitmask": "11100",
+      "commaCounts": [
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "5ACCE3",
+      "sourceContentSha256": "720f1b439b060943439ab8e8262f5a1bfb23b1aaff6d552b339ec2a666acca67",
+      "explanationSha256": "5f3f75dbccab6bc89541e3a1d5fe7f79211119097856388eaf48cf8b08eaaa81",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "5ADA1A",
+      "sourceContentSha256": "370fc653a21cd61e01c55fa96fe6f052496e57333a00161aa95e472d45f2e946",
+      "explanationSha256": "82fe898d041c66ecd790a08b8ce147c69a3deeb586746916d1bc880c7ba3342b",
+      "answer": "23",
+      "answerVerifyBitmask": "01100",
+      "commaCounts": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "5BCCDE",
+      "sourceContentSha256": "400b0c7526c5be0970b16ed8695682cfa622ac673bedd72fe7ffc627b5166ffa",
+      "explanationSha256": "152c808b2865af2e735aa61127fd6a6562c2a746a9d1f38beae96d7e9bcfb45a",
+      "answer": "234",
+      "answerVerifyBitmask": "01110",
+      "commaCounts": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "5D24FF",
+      "sourceContentSha256": "b56a80c681f54e75d276147fe37dd804074288429c858337e6a01897be470392",
+      "explanationSha256": "c3d0b9a4f3f49e00f0fb8e2dd54e9ed69ea0a777b17c10d6e6a9a05b78263958",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "5E0203",
+      "sourceContentSha256": "b9b361a291431b9f837ea51d6f3659c0d3ce82a5537badba622a92c2fcf107d1",
+      "explanationSha256": "6c8ac0335fa536c8d19bb5aea8114656e2097a0b1c89b07c938c58b6386e0a27",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "5F5453",
+      "sourceContentSha256": "3c50a821ffdf3160825c7717d824b52aeecf8ec245db121a6c3dffdeaf485491",
+      "explanationSha256": "931e119e98da45d5bb53d17a95b2da65c3a37e4824f9b6f12311410b526f6c1f",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "65BE62",
+      "sourceContentSha256": "7c2219ceb910f2cb822a188a47ee3ad2a46cbb41919a5f0246db74c4314cf891",
+      "explanationSha256": "3fdfa1e665ed30c74330ee72a6ebfc423110278b396be7e32e2a5e62aae3f806",
+      "answer": "134",
+      "answerVerifyBitmask": "10110",
+      "commaCounts": [
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "69EA2B",
+      "sourceContentSha256": "63c8a8381926a17cf579982863fd8b16348c536f64d815dac0813490dc7e65ef",
+      "explanationSha256": "3262255c4d6f422a31cfa3cb55716fd4a0897c5ca4a44cc82524fff6d1f1db57",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "6AB1EC",
+      "sourceContentSha256": "767e5fe47666eb6870d765dc960847a43720c2ec32839929993b35ad1c4d3153",
+      "explanationSha256": "def1ab234645dad999f9c9478a6f4ad3322b1d68fe7a6587fddd033367a06d6b",
+      "answer": "134",
+      "answerVerifyBitmask": "10110",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "6C24E3",
+      "sourceContentSha256": "fedc06eddedb704348e7ead71ee058c4cabb0d8260e08d716ab64e3f672ebfcc",
+      "explanationSha256": "4ca4c76be86953c089c83220b560e8a418416a4fccc741f08c9e7a8b78faaa43",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "6F130E",
+      "sourceContentSha256": "2adc1e91d884945ced48de3b89b4a396e8816df5cdfbc8fb97f9215f583babb2",
+      "explanationSha256": "1f3e23872f34627fc5b370cbd2ff3c24a4d7a7437925284b703904d1468bb2f0",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "76D8C5",
+      "sourceContentSha256": "4c38e2b881b38bb18a5b08179fe30a44a8340a1cab2b843350657a8ff88b1f77",
+      "explanationSha256": "8f1bcc686f2e652e640e744cbdcc66e869b6ab5b6d59dae525231f9db970d876",
+      "answer": "13",
+      "answerVerifyBitmask": "10100",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "79EC9B",
+      "sourceContentSha256": "36952488c183c901408f2f15ebf8c6fd298ee9586444b96df6395b51d6ffb7f9",
+      "explanationSha256": "34351a605f30799f9ed87fb1f86c3633063f50f75a01613ba88e58848d86eee9",
+      "answer": "23",
+      "answerVerifyBitmask": "01100",
+      "commaCounts": [
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "7B1D45",
+      "sourceContentSha256": "6b9e9fdc2ff36b4f334d67d982e7674ad1d12c56c942c5955c08cd73f51c94e9",
+      "explanationSha256": "48d8bb737d4df7436e0d9e1a4bfc6d064275374875be02c1e7c73c7af2b26474",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "7B7296",
+      "sourceContentSha256": "bda66b2fa7bf0f0754e5910bd3246450109118f77fd4cbd9e1ca14f2a7501ca0",
+      "explanationSha256": "c5746fa72ee8637e23093befafa946b1e8672f7e4b58f2937e326af09503e398",
+      "answer": "134",
+      "answerVerifyBitmask": "10110",
+      "commaCounts": [
+        1,
+        3,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "7C9C0F",
+      "sourceContentSha256": "05270dc45fd17ff54b730148bcd73c5bfc2ff5743e23ef62656426094b5cd577",
+      "explanationSha256": "6f7df7185729b7c439691a18438997c16c2a726a7e1cf3fafc650e5799f591bf",
+      "answer": "245",
+      "answerVerifyBitmask": "01011",
+      "commaCounts": [
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "7EC5DB",
+      "sourceContentSha256": "2f77a59c12ef423fb73f84073889a84794708ce1a510767dadb0983c803c2bde",
+      "explanationSha256": "30fa40a9eb7cc88f987e9e716bcfacac8be6ae16d730a56a04a0592c569d7668",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "816E17",
+      "sourceContentSha256": "270873ef66d61448387cdec8bcd7ff9733ce19d6e798e9319a4fab1d7b89cc32",
+      "explanationSha256": "aaa071d901924612c50ba6eec66af08a7b67831a77718aa693b50794e911c344",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "86BA6E",
+      "sourceContentSha256": "7410f36040d39efcccd99b9e1f5b4f9a883c7c428fca3ff2e686ff2a32a78be3",
+      "explanationSha256": "e2c216d65dab3b857005d44da1d5bceb1532ba5dfa6dc2223436a977e2a1535b",
+      "answer": "245",
+      "answerVerifyBitmask": "01011",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "88DA4B",
+      "sourceContentSha256": "fa8822588d8888e61c66a9b4f6c32a3132712a967a1d25b3353c9fbe057962b9",
+      "explanationSha256": "b5ccf2f5cbd1ec35a6ecf5a411a41f968931d137b37c9260c1fcef13101a0d57",
+      "answer": "135",
+      "answerVerifyBitmask": "10101",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "8D359E",
+      "sourceContentSha256": "4bbe2779f2b54e844be6ef79b3cdca49d0aef4f45511f04979bc0a7a7a8b1c8e",
+      "explanationSha256": "7080d572b4278a2d9d93585d824e58c6e57b3b9a21453e03b447212d71137e9d",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "8E0C44",
+      "sourceContentSha256": "ab4aa5c2787d04b483553bd584087c7b1231a08bb77aa5b2d549770158595583",
+      "explanationSha256": "1d2a5f894878a0716c055e2c1fbad892c6805ad58825d6e1063aa1c566e8549e",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        2,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "8FCAB6",
+      "sourceContentSha256": "ddc862983edc2b76ed7dd7ae17350ce669eac5ad7e3459a8ea6079622f11753a",
+      "explanationSha256": "1ea2f9bb1e62a26f2e74910c5832e312fb2e205256322ed395f5577cc3177064",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "9746F8",
+      "sourceContentSha256": "b822bebd854f745449b97816e786c094befc74605694040820259a6ed00d2e57",
+      "explanationSha256": "037c7dd9271a28a5f5a1edf69ae4ee43128ae66a689f3a4d9bb50bbd53228ed2",
+      "answer": "24",
+      "answerVerifyBitmask": "01010",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "98B57E",
+      "sourceContentSha256": "7211f4edbbeb0b6642d1fb19424c26061376938e6ba58d9b46819fb3ff0fa05d",
+      "explanationSha256": "131f5c1a2d8dc7b3bb485a84c895ab1f9a6976bc3c84c9307750bac8d2684295",
+      "answer": "135",
+      "answerVerifyBitmask": "10101",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "993BCA",
+      "sourceContentSha256": "c834371d5eccd407129518016fe8adb438b48361861d88ab268e1ffcfabd649f",
+      "explanationSha256": "e4f13f68040a1cb15d904b5eee673fb8a6fcda70d48cce87128b570719e1e96a",
+      "answer": "23",
+      "answerVerifyBitmask": "01100",
+      "commaCounts": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "9C377A",
+      "sourceContentSha256": "c25c5bb5c96a4246f4e68575f2362b9464b16996d5af4f38cb20c9ff7348dc35",
+      "explanationSha256": "ba38edadc78946377460a4d1a6b137260ea27a08f85fde2fc97d5e51126f9de5",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "A57019",
+      "sourceContentSha256": "8f7cc683f4da97bc0a15d873d329d1ccbe393558ac88a44e90f98bed77d5ce67",
+      "explanationSha256": "4e56828dd14ef82b86f9b4f8173dd56f15a402b4b3e4f183f330268d92b99f5a",
+      "answer": "345",
+      "answerVerifyBitmask": "00111",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "A9D51D",
+      "sourceContentSha256": "d4b27bd168091ad0616351e5f3bc84454b01d31790c4a761c69a1f9192882444",
+      "explanationSha256": "4b32c9ede236a097c99328cdd90a0c0c734c3e00a23dab39a9310de10c2ea73b",
+      "answer": "125",
+      "answerVerifyBitmask": "11001",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "B2AFEB",
+      "sourceContentSha256": "92be418d45ecaa191f8de701e816b5b73563e52b2d50c4feb3856d4ca7e5f629",
+      "explanationSha256": "aaf480e35b0f4d6fd4ca49d4980cf7e5e55fb7d4441dd2e7c2f2b517139f3003",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "B350C0",
+      "sourceContentSha256": "b5d8eb6dec12e408926b8fc58a838467678a1df6e556647ce4999262522945fe",
+      "explanationSha256": "498ada07c6c2f716b8359d19f90516d63d53060de1b1cc12aede513b65cf3ef2",
+      "answer": "135",
+      "answerVerifyBitmask": "10101",
+      "commaCounts": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "B8B145",
+      "sourceContentSha256": "efacf49c65d8f7c4833e72033f734387aa776921fce4680b26cad647b9cb9651",
+      "explanationSha256": "cb734c63a1bfb1a824558d21fc76fc0aadb98b0d0740e10c48f430a05a6f6ab2",
+      "answer": "125",
+      "answerVerifyBitmask": "11001",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "B9E099",
+      "sourceContentSha256": "1875fabce79b8fef33326170171a9fdb0ec42e50465403be889227c8ec7a22d8",
+      "explanationSha256": "b3e3ca8e440daaa825ee45dd056b0c514670c0f925bbddfdb7a8dac2edcf3b2e",
+      "answer": "134",
+      "answerVerifyBitmask": "10110",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "BA96DA",
+      "sourceContentSha256": "bac4a12bb0cd47136485dc61a49b7541a63af7c7c5f31b22dd6fa8ef6f0ba811",
+      "explanationSha256": "35006434f5c0bef262ead3a7a940c7e6f53cbec7d47c5c3fcebaf4c1e0f827a2",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "BD95C9",
+      "sourceContentSha256": "014b380445e51a6f466c8636aff6cd935ebcfaa9d154cc3d1a401277154d63ae",
+      "explanationSha256": "e96b96dc06605f352fa0e2cbcdf839a7a7e2c7b4b2f623edbd1ae36733a118d4",
+      "answer": "35",
+      "answerVerifyBitmask": "00101",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "C0D34E",
+      "sourceContentSha256": "52ae24512348b35038c18f0a4d1cdd9251fea231c88a8b8fa70c1a22df98ec84",
+      "explanationSha256": "193f5c0bd07783a032d47bb10729f94782d4416b00126ed807776128b6cd9ebe",
+      "answer": "123",
+      "answerVerifyBitmask": "11100",
+      "commaCounts": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "C30926",
+      "sourceContentSha256": "fecba9fc6366c3dba723fb405c2de31b68f03f5d6ceae4983627f424cc315c9f",
+      "explanationSha256": "740a3dd85f2b812b60a187c7468c40ed5add575270f2594455e15761a9b85449",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "C42BDE",
+      "sourceContentSha256": "3ba4ab5f3f8f537c5cc947396eab0eb35ce2355fccf916e2e50c8f9f46a911ce",
+      "explanationSha256": "ab088fb61718f7e9c4f7b7cd6abad48904eb65990c10244e3b97906ef4b55d35",
+      "answer": "13",
+      "answerVerifyBitmask": "10100",
+      "commaCounts": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "D09030",
+      "sourceContentSha256": "b44740e8818e15fb7bb82fd176a6a11ec51ec862814def7a2a7a04205b2ee875",
+      "explanationSha256": "0a3317f2b7048642875ed43b22aa423b478d600d9ac2d01988d386952b76821c",
+      "answer": "245",
+      "answerVerifyBitmask": "01011",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "D2BEBA",
+      "sourceContentSha256": "06ef35e5fa095e77e04a0fb8201918890d815cbb85f1a46b0e31e4fc3ef94690",
+      "explanationSha256": "8707e77c81bb14623890ed9c11dd490201d5065f339fa829e54965d0666faaa0",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "D6AF53",
+      "sourceContentSha256": "06c5b2e312e057eff27774b795f70a905edd4766bea1ddbe4f97b3c0882ee2b8",
+      "explanationSha256": "994ed3ae6542f839f9b9b23f5483918bd5940713a5c7c5a16bdd1c01058b2c6a",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "D924A1",
+      "sourceContentSha256": "1dad29af52b532a8a9101fe639ebafa208f0e6cb06826c02e2aef3f9645bbfc3",
+      "explanationSha256": "1df680c2a20fe848abe72056e50c82ca1947165b0a093f1a925fcf6ea51164ea",
+      "answer": "1235",
+      "answerVerifyBitmask": "11101",
+      "commaCounts": [
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "D9E9BC",
+      "sourceContentSha256": "ba17873d0d58769a80e5400506608e15f5520d5c262142a4764c18601fbce1e2",
+      "explanationSha256": "55a56ad8a784899cee4ecd3e08969d8a7059a8784c305ed93f1bc1ab5cb51f7d",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "DBD2F7",
+      "sourceContentSha256": "8df2efefdff163fb51562b7d1c522127a063bf117e4ce84edecb691cb621c3e6",
+      "explanationSha256": "17358b1a2e9454005034cf304185c18b85b2cc8ee3038e82be0af3c7b58363f5",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "E27078",
+      "sourceContentSha256": "e7baabffae9ea4d15d199901e45aa66507f580268912312c8b9fea310f88a166",
+      "explanationSha256": "c8ef0095dd15acbac48117e4c0f396052aca9f081bed54e6bd55c6ad95469118",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "E75D9A",
+      "sourceContentSha256": "999b0ca9d0b427040a7c13adec1a0f5f4fc8892f44e2225dca1e21b1527eb749",
+      "explanationSha256": "1f7e832cc79e2689a61541e0b97e7da6f70e481f0a2d1b8142ef8f074a3bec7e",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "EB6325",
+      "sourceContentSha256": "10a1b0af521a1893b5cbd3de04ab05ae7d289da37e6959b3ccb79fc2ea895884",
+      "explanationSha256": "3da52547e8131890ffe69709431ed2c3d1742d06f7e81b375a53943943be0f6c",
+      "answer": "12",
+      "answerVerifyBitmask": "11000",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "EEB2F8",
+      "sourceContentSha256": "b1f5c3c4e879cd233a5c5d9cb38cf2fc8386fee01ad8f480b3a2fb72a140b33c",
+      "explanationSha256": "97b281c722de8e6f8ff8ec60182a153e74a4571de76df7d2b527979113166085",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "EFDE36",
+      "sourceContentSha256": "39b4bde72262515d191649196ae1260d5d2bfb5636835439b3d4aa029fb163bb",
+      "explanationSha256": "0b640d72573b30b76327dda39cc28e2b2e1daae77c8e3e1a54a170d8f2989bf1",
+      "answer": "125",
+      "answerVerifyBitmask": "11001",
+      "commaCounts": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "F2380D",
+      "sourceContentSha256": "103914f1b34ce535383b2ba46a6614419bda5cb15d95d7b55efe40eb1031ea14",
+      "explanationSha256": "f7ad9aa322b0444c6bf536b75f811475528fb48895347c0f701185cad48fa375",
+      "answer": "125",
+      "answerVerifyBitmask": "11001",
+      "commaCounts": [
+        1,
+        1,
+        3,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "F25615",
+      "sourceContentSha256": "d7460c97a77d6cfc00b638df7f5dd08bf6425324dead6b40566f2e51d0bebcf0",
+      "explanationSha256": "72b17b70aa76bd8a87520aeae2646e9792c3828433b22a0af203a8e889f34757",
+      "answer": "123",
+      "answerVerifyBitmask": "11100",
+      "commaCounts": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "F3677E",
+      "sourceContentSha256": "30225d183a40b2fff8afed7d1aa027f27197fc59660196cfd844f3624d489d98",
+      "explanationSha256": "5901fc185827b54373308c7c2627bb8afb73b1f84f8d5c3023d9ed37dd4196f2",
+      "answer": "34",
+      "answerVerifyBitmask": "00110",
+      "commaCounts": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "F3BDD1",
+      "sourceContentSha256": "36d1b5d8017e2665fcb2131f8bff501ea2d0f91a7f0ec8865d8591fad63dce00",
+      "explanationSha256": "0c518cdc0e813339bb30905a9358c966489b594b80afd2939699d49c99261b59",
+      "answer": "135",
+      "answerVerifyBitmask": "10101",
+      "commaCounts": [
+        1,
+        2,
+        1,
+        0,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "F7BBB1",
+      "sourceContentSha256": "27c845eb7824678eb6dfde7ff51410f45cb728be7e18a30aaaddd59aea3d44a8",
+      "explanationSha256": "0efdf0c55cc3c0d068a6020cbce07704fa771f65783fd9ec7a22655b10eced80",
+      "answer": "15",
+      "answerVerifyBitmask": "10001",
+      "commaCounts": [
+        1,
+        0,
+        0,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "F947CB",
+      "sourceContentSha256": "aafc6a4b63406da637175e531db6cfb60a6de8e8bfb26b36b8f40cd23620950d",
+      "explanationSha256": "0b1aef7c807e99d383ff8d500f759ed81205a2cbb1fcc9dc9808b415dd130512",
+      "answer": "25",
+      "answerVerifyBitmask": "01001",
+      "commaCounts": [
+        0,
+        1,
+        4,
+        2,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "FB7E2C",
+      "sourceContentSha256": "0c69432e41ce7c5fed2f8200f876a04bf2f577dee015b7d3f85bf5aecf3cb500",
+      "explanationSha256": "6ae5fae70c636f2a282372a504c90dcf6f7ed88dc1d102441b93e298e7c60345",
+      "answer": "45",
+      "answerVerifyBitmask": "00011",
+      "commaCounts": [
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    },
+    {
+      "id": "FD6F27",
+      "sourceContentSha256": "725efbcdc481b58415af81e1b210b28d50dc3f3453dd0a0cd6572b5707150adf",
+      "explanationSha256": "cffb0305fc643f204d95625a083eda674d17f26b0f9e45005b07a5fce79f4dbe",
+      "answer": "245",
+      "answerVerifyBitmask": "01011",
+      "commaCounts": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sourceReviewPending": false
+    }
+  ]
+}

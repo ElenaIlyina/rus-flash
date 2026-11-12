@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-12",
+  "task": 19,
+  "cards": [],
+  "resolved": [
+    {
+      "id": "5D6C52",
+      "issueId": "TASK19-SRC-001",
+      "sourceContentSha256": "0ec1af3caa1d763ca0b084349170a96b84c61ef31e91cc53744220e812bedf91",
+      "status": "resolved_by_author",
+      "kind": "unmatched_closing_quote",
+      "fragment": "«магическим» кристаллом»",
+      "reason": "В исходной строке после кристаллом стоит лишняя закрывающая кавычка. Это дефект исходника, не изменение пронумерованной пунктуации.",
+      "answerAffected": false,
+      "conditionChanged": false,
+      "originalStatus": "source_typography_preserved",
+      "resolvedAt": "2026-11-12",
+      "resolution": "Автор указала на неповторение совпадающих кавычек одного рисунка. Утверждение о дефекте снято; первоначальное замечание сохранено как история вопроса."
+    }
+  ],
+  "policy": "Открытых замечаний к исходникам №19 нет. Первоначальные формулировки сохранены в resolved вместе с решениями."
+}

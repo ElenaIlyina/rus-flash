@@ -95,3 +95,29 @@ dev/.venv/bin/python dev/tests/review_debug_smoke.py
 
 Проверка переноса ключей: `python3 dev/scripts/import_verified_fipi_answers.py --check`.
 [2069 рабочих ключей, альтернативы и журнал](docs/content-audit/verified-answer-import.md).
+
+## Объяснения пунктуации №16–21
+
+[Объём и статус](docs/explanations-16-21.md). Ручной реестр подготовленных порций —
+`data/knowledge/punctuation_card_reviews.json`. Проверка и применение:
+`python3 dev/scripts/review_punctuation_explanations.py [--write] [--report]`.
+Браузерная проверка: `dev/tests/punctuation_smoke.py`.
+
+Для №17: реестр `data/knowledge/isolation_card_reviews.json`, инструмент
+`python3 dev/scripts/review_isolation_explanations.py [--write] [--report]`,
+браузерная проверка `dev/tests/isolation_smoke.py`. Ссылки привязаны
+к пронумерованным позициям исходного условия.
+
+Для №18: реестр `data/knowledge/introductory_card_reviews.json`, инструмент
+`python3 dev/scripts/review_introductory_explanations.py [--write] [--report]`,
+браузерная проверка `dev/tests/introductory_smoke.py`. В разборе различаются
+вводные элементы, обращения и слова, не требующие обособления в данном контексте.
+
+Для №19: реестр `data/knowledge/subordination_card_reviews.json`, инструмент
+`python3 dev/scripts/review_subordination_explanations.py [--write] [--report]`,
+браузерная проверка `dev/tests/subordination_smoke.py`. Разбираются границы
+придаточных частей и положения союзов и союзных слов внутри них.
+
+## Единый реестр замечаний
+
+[Все замечания и вопросы](issues.html) — поиск по карточке, тексту, статусу и разделу. Сохраняет исходные записи и отдельно показывает действующие флаги проверки. Исторические записи без подтверждённого решения отмечены как требующие сверки статуса. Исходные журналы не заменены. Пересборка из корня приложения: `python3 dev/scripts/build_issue_registry.py`.
