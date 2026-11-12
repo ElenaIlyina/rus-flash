@@ -19,7 +19,7 @@ def check(root):
         'assets/brand/slovo-za-slovo-school.png',
         'js/stress-glossary.js', 'assets/data/stress-glossary.json', 'assets/data/stress-glossary.txt',
         'js/stress-list.js', 'assets/data/stress-list.json', 'assets/data/stress-list-source.pdf',
-        'js/paronyms.js',
+        'js/paronyms.js', 'js/exam.js', 'js/exam-page.js', 'js/exam-theory.js', 'css/exam.css',
         'js/lexical-norms.js',
         'assets/data/paronym-index.json', 'assets/data/paronym-index-source.pdf',
     ]

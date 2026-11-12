@@ -1,0 +1,39 @@
+{
+  "scope": "Учебные варианты, feat/exam-variants",
+  "date": "2026-11-12",
+  "unitTests": 207,
+  "unitResult": "passed",
+  "existingBrowserScenarios": 10,
+  "newBrowserModes": [
+    "learning",
+    "exam",
+    "scored"
+  ],
+  "selectionSeedsTested": 100,
+  "gradedTasks": 26,
+  "maxPoints": 28,
+  "scoring": "8 and 22: 0/2 only; all other graded tasks: 0/1",
+  "all2140SourceCardsUnchanged": true,
+  "checks": [
+    "production build",
+    "Pages artifact",
+    "production synchronization",
+    "shared passage groups",
+    "autosave and resume",
+    "theory-use flags",
+    "exact scoring and empty answers",
+    "completed result history",
+    "rotation after completion",
+    "stale material blocks new grading",
+    "localStorage failure is visible",
+    "finish-load failure keeps draft; retry succeeds",
+    "ordinary progress unchanged",
+    "320/390/768/1440 layouts"
+  ],
+  "independentTeacherAcceptance": false,
+  "limitations": [
+    "Essay is an ungraded optional draft; source instruction may be historical.",
+    "Theory is introductory per-position coverage, not detailed subtopic adaptation.",
+    "Variant history is local and is not included in existing progress exports."
+  ]
+}

@@ -1,5 +1,6 @@
 /** Shared presentation helpers: icons, numbers and safe source formatting. */
 const icons = {
+  variants: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 4-4M8 16h8"/>',
   warning: '<path d="M12 3 2 21h20L12 3Z"/><path d="M12 9v5"/><circle cx="12" cy="17.5" r=".65" fill="currentColor" stroke="none"/>',
   study: '<path d="m9 5 11 7-11 7z"/>',
   bank: '<rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/>',
