@@ -57,8 +57,9 @@ export function rich(value, { markdown = true } = {}) {
   return [...doc.body.childNodes].map(clean).join("").replace(/\n/g, "<br>");
 }
 // Correction examples share one visual emphasis without changing card versions.
-export function richExplanation(value) {
-  return rich(value).replace(
+// HTML-only explanations can disable Markdown to retain literal source markers.
+export function richExplanation(value, options = {}) {
+  return rich(value, options).replace(
     /((?:<(?:b|strong)>)?(?:Правильно|Возможное исправление|Нейтральная редакция):(?:<\/(?:b|strong)>)?)([ \t]*)([\s\S]*?)(?=<br>|<\/p>|$)/g,
     (_, label, space, sentence) => `${label}${space}<strong>${sentence}</strong>`,
   );

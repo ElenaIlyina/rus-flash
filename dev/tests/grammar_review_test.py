@@ -150,6 +150,12 @@ for (const bad of ['javascript:alert(1)', 'https://gramota.ru.evil.example/bibli
   assert.equal(render([{...valid,url:bad}]), '');
 }
 assert.equal(render([{...valid,part:10}]), '');
+const ozhegov = 'https://lib.ru/DIC/OZHEGOW/ozhegow_a_d.txt';
+assert.ok(render([{...valid,part:1,url:ozhegov}], {kind:'lexical'}).includes(ozhegov));
+assert.equal(render([{...valid,part:1,url:ozhegov}], {kind:'grammar'}), '');
+for (const bad of [ozhegov+'?bad=1', ozhegov.replace('lib.ru','lib.ru.evil.example'), ozhegov.replace('_a_d','_other')]) {
+  assert.equal(render([{...valid,part:1,url:bad}], {kind:'lexical'}), '');
+}
 const meta = 'https://gramota.ru/meta/pech_3751.h2';
 assert.ok(render([{...valid,url:meta}], {kind:'morphology'}).includes('Вариант 9'));
 assert.ok(render([{...valid,url:meta}], {kind:'morphology'}).includes('Источники проверки формы слова'));

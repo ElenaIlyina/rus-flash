@@ -42,7 +42,9 @@ class ContentAuditTest(unittest.TestCase):
         for r in rows:
             self.assertEqual(r['answer_verify'],self.by_id[r['id']]['answer_verify'])
         conflicts=[r['id'] for r in rows if r['explanation_header_check']=='header_conflicts_with_answer']
-        self.assertEqual(conflicts,['682A9C'])
+        # The historical header conflict in 682A9C was removed by its fresh review.
+        self.assertEqual(conflicts,[])
+        self.assertEqual(self.by_id['682A9C']['answer'], '26')
 
     def test_official_documents_are_exactly_pinned(self):
         folder=ROOT/'dev/docs/references/ege-2027'

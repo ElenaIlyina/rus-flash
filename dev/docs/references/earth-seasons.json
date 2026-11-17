@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-17",
+  "source": {
+    "url": "https://science.nasa.gov/earth/facts/",
+    "title": "Facts About Earth · NASA Science",
+    "method": "primary_source_article_text_read",
+    "checkedAt": "2026-11-17",
+    "supports": "The Orbit and Rotation section distinguishes daily rotation from the annual orbit and explains seasons through axial tilt and changing illumination during the year.",
+    "localRecord": "dev/docs/references/earth-seasons.json"
+  },
+  "scope": "Scientific detail in original passage; not evidence for FIPI language answer key",
+  "cardIds": [
+    "0121C7",
+    "097BED",
+    "20C422",
+    "2D2E56",
+    "518886",
+    "57E66E",
+    "961876",
+    "BAFD8B",
+    "C2836D",
+    "C56F78",
+    "D04DF3",
+    "E3512D"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-17",
+  "scope": "General cohesion and morphology criteria, not FIPI answer keys",
+  "sources": [
+    {
+      "id": "litnevskaya-cohesion-text",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/rech-tekst",
+      "file": "dev/docs/references/textual-cohesion/text.txt",
+      "citationLabel": "Речь. Текст · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "4934ad852abfc8a9442d7476257cb24b1df94825257491f3255e98e000553bd4",
+      "snapshotSha256": "9b110f5bf91f4ef3b2234431a1c96c5503c92db5485492209c2104db5f445134"
+    },
+    {
+      "id": "litnevskaya-cohesion-pronoun-meaning",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/razryady-mestoimeniy-po-znacheniyu",
+      "file": "dev/docs/references/textual-cohesion/pronoun-meaning.txt",
+      "citationLabel": "Разряды местоимений по значению · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "fdf68ea0312054cc9e1fa137a8f8df2dc97338938917302a7368f58734e9e04d",
+      "snapshotSha256": "96427428006f050ecd966d2f80bc51959d24fb5256f558012bb3d0de78d89e8d"
+    },
+    {
+      "id": "litnevskaya-cohesion-pronoun-adjectives",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/grammaticheskie-priznaki-mestoimeniy-prilagatelnykh",
+      "file": "dev/docs/references/textual-cohesion/pronoun-adjectives.txt",
+      "citationLabel": "Местоимения-прилагательные · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "cd48093923c36a86386b356bb0ad5026f8d3ea9d6b8921e88c60a07210719edd",
+      "snapshotSha256": "0908226b41f445f6c72fcad58010056b254feb58a3e45e0a32138eb30d3f6503"
+    },
+    {
+      "id": "litnevskaya-cohesion-personal-forms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/grammaticheskie-priznaki-mestoimeniy-sushchestvitelnykh",
+      "file": "dev/docs/references/textual-cohesion/personal-forms.txt",
+      "citationLabel": "Личные местоимения: падежные формы · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "5bf3818ae21e65d131b5adc6fd004b92a9113454c6340c13867af7fced4346bd",
+      "snapshotSha256": "7784d678396c0ea0dad2b6e73b32b4518fd9aef5604d43ccf3635750639d2ab9"
+    },
+    {
+      "id": "litnevskaya-cohesion-conjunction",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/soyuz",
+      "file": "dev/docs/references/textual-cohesion/conjunction.txt",
+      "citationLabel": "Союз · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "e7e1f9b452209265a93743b1f6832cb97aeb5e8db6ee1d70b9f44d46a3aa2843",
+      "snapshotSha256": "898924ae53a4d296301f1b8d01881333c3b06992bb4ad7f5d5c8274cfe6facc8"
+    },
+    {
+      "id": "litnevskaya-cohesion-adverb",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/narechie",
+      "file": "dev/docs/references/textual-cohesion/adverb.txt",
+      "citationLabel": "Наречие · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "2c173b7105d232da21fe7e37cc7b5447bc4b7eaa88ab1d1cb99f3210b41d7229",
+      "snapshotSha256": "2173b327ccfe2d50afafceabb1024f12ec527aa2bb012477b734ad506cb03916"
+    },
+    {
+      "id": "litnevskaya-cohesion-particle",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/chastitsa",
+      "file": "dev/docs/references/textual-cohesion/particle.txt",
+      "citationLabel": "Частица · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "0837a76de1ccfc72786d32594fe0c6d5e17c1d8fe01da2035ba22a21c6dbfd2c",
+      "snapshotSha256": "01104741c6bb4c43e44b3747536f9370abb91f967a1571e613dbd33e92ed9737"
+    },
+    {
+      "id": "litnevskaya-lexical-synonyms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/sinonimy",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-synonyms.txt",
+      "textSha256": "602d79cb33f135b841ca089df541b5bc52a7251dd6d168369027eca8a2d3613f",
+      "htmlSha256": "dbcc0dab99e48a5ecb4f408d37b540693fa4e0c1c4948fd8531f5a0c2b50f162",
+      "readMethod": "section_text_read",
+      "citationLabel": "Синонимы в языке и контексте · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "353c6c5c7bce5f227d157a74de99d274ac317a228774bebe51c3663b9d985969"
+    },
+    {
+      "id": "litnevskaya-cohesion-collective",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/razryady-chislitelnykh-po-znacheniyu",
+      "file": "dev/docs/references/textual-cohesion/collective.txt",
+      "citationLabel": "Разряды числительных по значению · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "fb5993c90be829dc9ff9f235f4d047531372387dededcac055d41dc7346ca6b6",
+      "snapshotSha256": "50076345b2fadd82a44abd0666c1abb587341d2c32bf2e2d3d81c6466e36ff6e"
+    },
+    {
+      "id": "litnevskaya-cohesion-introductory",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/oslozhnennye-predlozheniya",
+      "file": "dev/docs/references/textual-cohesion/introductory.txt",
+      "citationLabel": "Вводные слова и связь мыслей · Е. И. Литневская, Грамота.ру",
+      "readMethod": "section_text_read_paraphrase_and_application_note_saved",
+      "textSha256": "71a67c8ddeb416af724b4716eda98065dbdd33ab61c2150fb702c381fd71d7f7",
+      "snapshotSha256": "841414cef14d5b0c04a20df538337b78a49b75e6a0ec83284dd48b07848a2b4b"
+    }
+  ]
+}

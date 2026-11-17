@@ -159,7 +159,7 @@ def coverage_report(registry, paragraphs, external):
                     raise ValueError('Previously prepared card or progress version changed')
                 stable += 1
     other_ids = set()
-    for filename in ('isolation_card_reviews.json', 'introductory_card_reviews.json', 'subordination_card_reviews.json'):
+    for filename in ('isolation_card_reviews.json', 'introductory_card_reviews.json', 'subordination_card_reviews.json', 'complex_card_reviews.json', 'punctuation_analysis_card_reviews.json', 'rhetoric_card_reviews.json', 'reading_content_card_reviews.json', 'discourse_card_reviews.json', 'lexical_analysis_card_reviews.json', 'textual_cohesion_card_reviews.json'):
         path = ROOT / 'dev/data/knowledge' / filename
         if path.is_file():
             other_ids.update(r['id'] for r in json.loads(path.read_text())['cards'])

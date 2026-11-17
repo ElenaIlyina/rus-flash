@@ -27,7 +27,7 @@ def main():
             assert page.locator('.debug-settings,.debug-panel,a[href="#debug"]').count()==0
             assert not any('review-data.json' in url or 'review-debug.js' in url for url in requests)
             page.goto(base+'/html/#card/003B4D',wait_until='networkidle')
-            history=page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events')
+            history=page.evaluate('(JSON.parse(localStorage.getItem("rusflash_learning_v1")) || {events:[]}).events')
             page.goto(base+'/dev/review/#debug?filter=all',wait_until='networkidle')
             page.locator('a[href="#card/003B4D"]').click()
             page.locator('.debug-panel').wait_for()
@@ -38,6 +38,8 @@ def main():
             page.get_by_role('button',name='Вернуть на ревью',exact=True).wait_for()
             payload=json.loads((ROOT/'dev/review/review-data.json').read_text())
             next(e for e in payload if e['id']=='003B4D')['version']='changed-version'
+            # 493862's real source defect is resolved; inject an isolated issue fixture.
+            next(e for e in payload if e['id']=='493862')['issues']=['Тестовое открытое замечание']
             page.route('**/review-data.json',lambda route:route.fulfill(json=payload))
             page.reload(wait_until='networkidle')
             page.get_by_role('button',name='Разбор принят',exact=True).wait_for()
@@ -49,7 +51,7 @@ def main():
             for width in [320,390,768,1440]:
                 page.set_viewport_size({'width':width,'height':900})
                 assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),width
-            assert page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events')==history
+            assert page.evaluate('(JSON.parse(localStorage.getItem("rusflash_learning_v1")) || {events:[]}).events')==history
             assert not errors,errors
             browser.close()
     finally:server.shutdown()

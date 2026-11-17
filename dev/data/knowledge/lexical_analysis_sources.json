@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-17",
+  "scope": "Lexical meanings and classification criteria; not FIPI-specific answer keys",
+  "sources": [
+    {
+      "id": "gramota-lexical-analysis-szhat",
+      "url": "https://gramota.ru/meta/szhat",
+      "file": "dev/docs/references/lexical-analysis-gramota/szhat.txt",
+      "citationLabel": "Сжать · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "e169a149668fcf979d04cc997cf1edca5366ded0850f28e378ede96aac86ef36",
+      "snapshotSha256": "a838fd2fc0ab82a97e70e46795d8d48b0917190cffd132a2a308e7eebce24c2e"
+    },
+    {
+      "id": "gramota-lexical-analysis-stisnut",
+      "url": "https://gramota.ru/meta/stisnut",
+      "file": "dev/docs/references/lexical-analysis-gramota/stisnut.txt",
+      "citationLabel": "Стиснуть · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "625f0f4f494e38104d3326a846cf0679d232fa9598a8cff0fa8a8af9d067fdc4",
+      "snapshotSha256": "996f540498f74fdf00598a07ebd7870ac4e339dcc2f14b97bbe9eb82a12781be"
+    },
+    {
+      "id": "gramota-lexical-analysis-vzyskatelnyy",
+      "url": "https://gramota.ru/meta/vzyskatelnyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/vzyskatelnyy.txt",
+      "citationLabel": "Взыскательный · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "bb59cc917d302961b0d5fa2c90e2eead74e2707d1176baa5254b2650f52a56f2",
+      "snapshotSha256": "415f9b47e68bcf82cddd6bfe7241d217a24945fd4bfa9bf58d30886bf776270b"
+    },
+    {
+      "id": "gramota-lexical-analysis-shedevr",
+      "url": "https://gramota.ru/meta/shedevr",
+      "file": "dev/docs/references/lexical-analysis-gramota/shedevr.txt",
+      "citationLabel": "Шедевр · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "48c3b65a609a877c5dd959acfcfee9bd52bbd35de49465bacf5eae7f2b5d8439",
+      "snapshotSha256": "dcfe3abb47ac1d379a8419c900933b6cb09dd4a0a51850d57057aefbb95475bf"
+    },
+    {
+      "id": "gramota-lexical-analysis-sardonicheskiy",
+      "url": "https://gramota.ru/meta/sardonicheskiy",
+      "file": "dev/docs/references/lexical-analysis-gramota/sardonicheskiy.txt",
+      "citationLabel": "Сардонический · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "32e705e23385e61239285e7280432c493440fd4e1495f60988dabfa799a00d0e",
+      "snapshotSha256": "82cf0ba784371c8954decc3bebbbd5b3b9321d1e19a49c77dc64ec2eb47ce39a"
+    },
+    {
+      "id": "gramota-lexical-analysis-besstrashnyy",
+      "url": "https://gramota.ru/meta/besstrashnyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/besstrashnyy.txt",
+      "citationLabel": "Бесстрашный · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "2ce2e8bb86f1443663d8519c967233980fe74bd3a82b662d3640a0910d2ac7b8",
+      "snapshotSha256": "7b8328d8cf1932f1d976318920799af003a3af049ace3095e82928cb00945de6"
+    },
+    {
+      "id": "gramota-lexical-analysis-krasivyy",
+      "url": "https://gramota.ru/meta/krasivyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/krasivyy.txt",
+      "citationLabel": "Красивый · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "e7e36e464ecc763a1aec6872c62480758a34763b48c310d81977279b53f32c73",
+      "snapshotSha256": "36833e3493dd8e4396d1c9a82f0ce321ca2d9e42c9b64111bc4ea77e531f8c71"
+    },
+    {
+      "id": "gramota-lexical-analysis-urodlivyy",
+      "url": "https://gramota.ru/meta/urodlivyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/urodlivyy.txt",
+      "citationLabel": "Уродливый · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "a32722b68cb8e6999ff54fadef74f87a6dc91411c2bfdd0b8e6204bcf9a5ab85",
+      "snapshotSha256": "0672f81a92c219c8986441671e5628b32f8b12183f1024440ed23b2f49d41853"
+    },
+    {
+      "id": "gramota-lexical-analysis-chernyy",
+      "url": "https://gramota.ru/meta/chernyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/chernyy.txt",
+      "citationLabel": "Чёрный · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "cab6a1eb32f7bbc544fc56b033b941377f581ee35144d07d4ecaa797b58d22f3",
+      "snapshotSha256": "90a81074b838216df398fe3cfae3c40298294205266706d1cde0dd2bea723c4f"
+    },
+    {
+      "id": "gramota-lexical-analysis-skazhite-na-milost",
+      "url": "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/skazhite-na-milost",
+      "file": "dev/docs/references/lexical-analysis-gramota/skazhite-na-milost.txt",
+      "citationLabel": "Скажи(те) на милость · Пахомов, Свинцов, Филатова, справочник Грамоты",
+      "readMethod": "reference_article_text_read_relevant_extract_saved",
+      "textSha256": "5856a1ab24de7e1d0e2e8413acc96366fad8364ad0ba171dbe0672e7ed18f9a1",
+      "snapshotSha256": "9c053679dd73ca9533a4d9548d66bb4d4d9aebd2f72ebdb0c83003849a0e0822"
+    },
+    {
+      "id": "gramota-lexical-analysis-na-vsyakiy-sluchay",
+      "url": "https://gramota.ru/biblioteka/spravochniki/spravochnik-po-punktuatsii/na-vsyakiy-sluchay",
+      "file": "dev/docs/references/lexical-analysis-gramota/na-vsyakiy-sluchay.txt",
+      "citationLabel": "На всякий случай · Пахомов, Свинцов, Филатова, справочник Грамоты",
+      "readMethod": "reference_article_text_read_relevant_extract_saved",
+      "textSha256": "f556a79dd43bd0276ce17a35e3052adba86f2ae8b7aeb3d37098fd5ce6872869",
+      "snapshotSha256": "b20efd693bc752e7d5385737c3947e183cc81ce87997f246d5651a99f71b3914"
+    },
+    {
+      "id": "litnevskaya-lexical-phraseology",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/frazeologizmy",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-phraseology.txt",
+      "textSha256": "aa7a37e6e5e6af6f50b910d59d31432a0b574fe82694f5ff897ec7734c14e0c1",
+      "htmlSha256": "7b0577a8306cb6f4cde11297b91b66037abc5201f50344d5487d4ccff3120f81",
+      "readMethod": "section_text_read",
+      "citationLabel": "Фразеологизмы и их окраска · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "e48704a630f4a2e46ff14719d67e714432e96632746457e63a7a9727a3e0a211"
+    },
+    {
+      "id": "litnevskaya-lexical-synonyms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/sinonimy",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-synonyms.txt",
+      "textSha256": "602d79cb33f135b841ca089df541b5bc52a7251dd6d168369027eca8a2d3613f",
+      "htmlSha256": "dbcc0dab99e48a5ecb4f408d37b540693fa4e0c1c4948fd8531f5a0c2b50f162",
+      "readMethod": "section_text_read",
+      "citationLabel": "Синонимы в языке и контексте · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "353c6c5c7bce5f227d157a74de99d274ac317a228774bebe51c3663b9d985969"
+    },
+    {
+      "id": "litnevskaya-lexical-antonyms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/sinonimy-285",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-antonyms.txt",
+      "textSha256": "a1c47c74a0b7885175b9119318da5f395fa64387bd23b6b2137f09ab333f01c1",
+      "htmlSha256": "cbcef9ec93c68c7ddee5a2f8d6efc88d9f3082ccaffe86114c7a29f0e35be234",
+      "readMethod": "section_text_read",
+      "citationLabel": "Антонимы и противопоставление · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "7c422ee94549409b3251a593ee24c810497db1e331181e3043bdc9b4a666c899"
+    },
+    {
+      "id": "gramota-lexical-analysis-blago",
+      "url": "https://gramota.ru/meta/blago",
+      "file": "dev/docs/references/lexical-analysis-gramota/blago.txt",
+      "citationLabel": "Благо · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "f6394609ad0f8eda03fc8f0c24f61c01aa27250fa5eb956780573e0f5760df97",
+      "snapshotSha256": "a48113967f5bd65db97d267fe8523677619a29e710eff4fd35aedc50bdff4b1e"
+    },
+    {
+      "id": "gramota-lexical-analysis-burkat",
+      "url": "https://gramota.ru/meta/burkat",
+      "file": "dev/docs/references/lexical-analysis-gramota/burkat.txt",
+      "citationLabel": "Буркать · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "afb09bac2bb51cf15861f7a3900a4cf38fde900755dacf7146a3e8edb4842577",
+      "snapshotSha256": "3a40506b41ad4c8421d1c26ddc80f55199f36ca2ded2e8e09de0bf3711178e58"
+    },
+    {
+      "id": "gramota-lexical-analysis-gumanitarnyy",
+      "url": "https://gramota.ru/meta/gumanitarnyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/gumanitarnyy.txt",
+      "citationLabel": "Гуманитарный · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "3ebe90244f82fd6791ccef6ed3baea16cd372dc04abb0d0daa906bf4485b1cdd",
+      "snapshotSha256": "44a10bd341eae7033c1c0892124da8b4f52a0665c58220046ec4e270fab957c2"
+    },
+    {
+      "id": "gramota-lexical-analysis-pervyy",
+      "url": "https://gramota.ru/meta/pervyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/pervyy.txt",
+      "citationLabel": "Первый · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "2eb7bb88eb4e755c44752a842823515ec1b98bde87ec7e7a6a3be85282ff5832",
+      "snapshotSha256": "026ded9349bdbb0fc1ef2d0468a4c8509a7693718903b50b936f05bb18174e65"
+    },
+    {
+      "id": "gramota-lexical-analysis-rot",
+      "url": "https://gramota.ru/meta/rot",
+      "file": "dev/docs/references/lexical-analysis-gramota/rot.txt",
+      "citationLabel": "Рот · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "b91d5b6fe57b582bdf1725b742b29bb56f0e08b55aa95f8aa56e9483e98c6216",
+      "snapshotSha256": "4db213cb08e75acbfa035e6e6ed242770ee7a52e1757caf1af7db701946fa7aa"
+    },
+    {
+      "id": "gramota-lexical-analysis-prezhde",
+      "url": "https://gramota.ru/meta/prezhde",
+      "file": "dev/docs/references/lexical-analysis-gramota/prezhde.txt",
+      "citationLabel": "Прежде · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "ea095d56bd17e2628cfa57d4b5cbbe5b60189123496da7bc215bf7742840564f",
+      "snapshotSha256": "afb71c078bbd221f32d484541f0ed9902841751344dd387e91f8d67a54eba23e"
+    },
+    {
+      "id": "gramota-lexical-analysis-ochered",
+      "url": "https://gramota.ru/meta/ochered",
+      "file": "dev/docs/references/lexical-analysis-gramota/ochered.txt",
+      "citationLabel": "Очередь · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "29354955fea6856555e39c48d6d66d61514dd94dd806d70a54bcf2682633d870",
+      "snapshotSha256": "3f3d92f0daf9dc442e80d491ffd80291e8586f82dc89f9c675d1871d3662ddeb"
+    },
+    {
+      "id": "gramota-lexical-analysis-iskra",
+      "url": "https://gramota.ru/meta/iskra",
+      "file": "dev/docs/references/lexical-analysis-gramota/iskra.txt",
+      "citationLabel": "Искра · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "4f99964482f4b54e35029af9901a7e8308639f9bacc4840a09e493ff147dcaa7",
+      "snapshotSha256": "e8dc828945ebb45c134b030c7f53896f02ad18380afaac2b9910bda6217f5e87"
+    },
+    {
+      "id": "gramota-lexical-analysis-dukh",
+      "url": "https://gramota.ru/meta/dukh",
+      "file": "dev/docs/references/lexical-analysis-gramota/dukh.txt",
+      "citationLabel": "Дух · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "3ef81226ac833c5ab2e8749d740f63e8311bf00e4a43fd02e5cb61232bdd9adc",
+      "snapshotSha256": "4e0524103444e4b753804139dad3f307ff3b1d694bca7f2153a0583161953321"
+    },
+    {
+      "id": "gramota-lexical-analysis-litso",
+      "url": "https://gramota.ru/meta/litso",
+      "file": "dev/docs/references/lexical-analysis-gramota/litso.txt",
+      "citationLabel": "Лицо · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "463fb1973bc73ef8c12947601107fff1ca9a80430edcab089c0031770eda9b79",
+      "snapshotSha256": "94e9655de7d35d459b9eee1305d129f9fb62b4406c7652e1aac836040b1af581"
+    },
+    {
+      "id": "gramota-lexical-analysis-blagotvornyy",
+      "url": "https://gramota.ru/meta/blagotvornyy",
+      "file": "dev/docs/references/lexical-analysis-gramota/blagotvornyy.txt",
+      "citationLabel": "Благотворный · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "01814889c024d9634cd8d0caa252aae341f511ff158baea229d09923f50c71eb",
+      "snapshotSha256": "53e9ceef8abad941e713df8314c3c63a48f3d507d6e64c00478c49bf12a1022d"
+    },
+    {
+      "id": "ozhegov-shvedova-blagotvornyy",
+      "url": "https://lib.ru/DIC/OZHEGOW/ozhegow_a_d.txt",
+      "file": "dev/docs/references/lexical-analysis-gramota/ozhegov-shvedova-blagotvornyy.txt",
+      "citationLabel": "Благотворный · С. И. Ожегов, Н. Ю. Шведова, Толковый словарь русского языка · текст на Lib.ru",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "2f19e8f955f5efdedaf7175082635a531bcc6699c92542315c196c6f4af74e7f",
+      "snapshotSha256": "b372ba2898b0633d00aa1e46677262aa3fcbc77a2fbcd5b672679c6f818b9e59"
+    },
+    {
+      "id": "gramota-lexical-analysis-mozhet-byt",
+      "url": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-vvodnykh-slovakh-sochetaniyakh-slov-i-predlozheniyakh",
+      "file": "dev/docs/references/lexical-analysis-gramota/introductory-mozhet-byt.txt",
+      "citationLabel": "Вводные сочетания · Правила русской орфографии и пунктуации, Грамота.ру",
+      "readMethod": "reference_article_text_read_paraphrase_saved",
+      "textSha256": "5659a67d99ff02654f5dbd6465f035ed26eb0a6ae22612ba74ea2b09a2d8565a",
+      "snapshotSha256": "3e9d958eaa18c5d865d289c7bf01c4690853b65e11890010d1270a43e0366a01"
+    },
+    {
+      "id": "gramota-lexical-analysis-umudritsya",
+      "url": "https://gramota.ru/meta/umudritsya",
+      "file": "dev/docs/references/lexical-analysis-gramota/umudritsya.txt",
+      "citationLabel": "Умудриться · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "760531b26abae06c8cfe8979093d6f3fcc4d6179dc28bfce11a73bfe74526fcb",
+      "snapshotSha256": "8cda682452dcd24cf62dce246c32f3b2fd44e61ed252b034a4a3faec3d554660"
+    },
+    {
+      "id": "gramota-lexical-analysis-obshchnost",
+      "url": "https://gramota.ru/meta/obshchnost",
+      "file": "dev/docs/references/lexical-analysis-gramota/obshchnost.txt",
+      "citationLabel": "Общность · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "508169c8c88523a676415ec7cb046a22f6508e360db02084df420a420c209d10",
+      "snapshotSha256": "59e6164d4a92dd62d16500999d1082a7e92ea5268ea25f80a801494c29ca9922"
+    },
+    {
+      "id": "gramota-lexical-analysis-znamenie",
+      "url": "https://gramota.ru/meta/znamenie",
+      "file": "dev/docs/references/lexical-analysis-gramota/znamenie.txt",
+      "citationLabel": "Знамение · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "c714c4dbedb4f6f8a3c37291b947faf769416df9423eb8717fdf22ef10864fe3",
+      "snapshotSha256": "296615cf9bc3cead45df878b6975b945800899acf384b8b012327f62d530973f"
+    },
+    {
+      "id": "gramota-lexical-analysis-varvarskiy",
+      "url": "https://gramota.ru/meta/varvarskiy",
+      "file": "dev/docs/references/lexical-analysis-gramota/varvarskiy.txt",
+      "citationLabel": "Варварский · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "c5aee37fdd0ba71b9c08d17c325051816cd447802126096a3c8dbbff6e302f96",
+      "snapshotSha256": "f75c3c22040691df7e9b4a66b25e582bc0dfb81f03d3d6f3f508f1e479d416b6"
+    },
+    {
+      "id": "gramota-lexical-analysis-chin",
+      "url": "https://gramota.ru/meta/chin",
+      "file": "dev/docs/references/lexical-analysis-gramota/chin.txt",
+      "citationLabel": "Чин · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "9c0928fa1fa465348fc2092763dbadf8c19bd6dc9aff70193ac63749b39b2ad9",
+      "snapshotSha256": "b77fb5bec4378459443623c34262ebadfc8f6b07382bdcb64ddde39101894f09"
+    },
+    {
+      "id": "gramota-lexical-analysis-demobilizovatsya",
+      "url": "https://gramota.ru/meta/demobilizovatsya",
+      "file": "dev/docs/references/lexical-analysis-gramota/demobilizovatsya.txt",
+      "citationLabel": "Демобилизоваться · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "43c536b8efa56bb8928725a15037a41570b9e46d72fff57fbb4421e25ad5816b",
+      "snapshotSha256": "8e3157f8dd062b4e53cf59d5e5e40f5ffcbccf05a0a6f91a271aefb78820f33e"
+    },
+    {
+      "id": "gramota-lexical-analysis-slukh",
+      "url": "https://gramota.ru/meta/slukh",
+      "file": "dev/docs/references/lexical-analysis-gramota/slukh.txt",
+      "citationLabel": "Слух · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "72a3a5824bc16977aa88af62705a6975e8fb254056fb6e7030a01a2f4acee0d1",
+      "snapshotSha256": "c22a5eb1b43f80cdc3bada57b983b23ff183a9263da69028218990fdbd506644"
+    },
+    {
+      "id": "gramota-lexical-analysis-khvost",
+      "url": "https://gramota.ru/meta/khvost",
+      "file": "dev/docs/references/lexical-analysis-gramota/khvost.txt",
+      "citationLabel": "Хвост · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "7efef94b089fc4c5fca231380b2113b90ad170861b9a3097e6d5e51efc466678",
+      "snapshotSha256": "c6af54c586c29da05958be4325967135f7faa710208d91fd51665997e967a9e5"
+    },
+    {
+      "id": "gramota-lexical-analysis-glaz",
+      "url": "https://gramota.ru/meta/glaz",
+      "file": "dev/docs/references/lexical-analysis-gramota/glaz.txt",
+      "citationLabel": "Глаз · Большой толковый словарь русского языка, Грамота.ру",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "00dc8bfa97891888bfd88bcde3a8c90aff41cef1549e12118c80eb2d02e46c48",
+      "snapshotSha256": "47e49991b2df07558db4e404dd4c4e19e9299ab09f50ac72464578281f6572fc"
+    },
+    {
+      "id": "ozhegov-shvedova-znamenie",
+      "url": "https://lib.ru/DIC/OZHEGOW/ozhegow_e_l.txt",
+      "file": "dev/docs/references/lexical-analysis-gramota/ozhegov-shvedova-znamenie.txt",
+      "citationLabel": "Знамение · С. И. Ожегов, Н. Ю. Шведова, Толковый словарь русского языка · текст на Lib.ru",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "9b61ef91e1abdcca7249ddc0d4f77454728ef641026544804de639732153d347",
+      "snapshotSha256": "b7847f257778fdc7094a03e02cc70bb9d3123d11116d12ba4c6a10becba5cb60"
+    }
+  ]
+}

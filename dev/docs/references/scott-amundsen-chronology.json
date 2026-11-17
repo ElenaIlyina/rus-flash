@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-17",
+  "source": {
+    "url": "https://nzaht.org/the-expeditions-of-roald-amundsen/",
+    "title": "The Expeditions of Roald Amundsen",
+    "organization": "Antarctic Heritage Trust",
+    "method": "institutional_article_text_read"
+  },
+  "facts": {
+    "amundsenReachedSouthPole": "1911-12-14",
+    "scottReachedSouthPole": "1912-01-17",
+    "elapsedDays": 34
+  },
+  "scope": "Проверка исторической детали TASK23-FACT-001; не основание менять литературный текст или ключ ФИПИ.",
+  "verbatimArticleCopied": false
+}

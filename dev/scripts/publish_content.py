@@ -25,6 +25,13 @@ from review_punctuation_explanations import render as render_punctuation, extern
 from review_isolation_explanations import render as render_isolation
 from review_introductory_explanations import render as render_introductory
 from review_subordination_explanations import render as render_subordination
+from review_complex_explanations import render as render_complex
+from review_punctuation_analysis import render as render_punctuation_analysis
+from review_reading_content import render as render_reading_content
+from review_discourse import load_sources as load_discourse_sources, render as render_discourse
+from review_lexical_analysis import load_sources as load_lexical_analysis_sources, render as render_lexical_analysis, public_refs as lexical_analysis_public_refs
+from review_textual_cohesion import load_sources as load_textual_cohesion_sources, render as render_textual_cohesion, public_refs as textual_cohesion_public_refs
+from review_rhetoric_explanations import load_sources as load_rhetoric_sources, render as render_rhetoric, public_refs as rhetoric_public_refs, local_refs as rhetoric_local_refs
 from review_word_form_sources import validate as validate_word_form_sources, PENDING_NOTE as WORD_FORM_PENDING_NOTE
 
 
@@ -137,7 +144,7 @@ def payloads():
                                          for row in entry['rows'] for sid in row['sourceIds']],
                         'grammarSourceRefs':punctuation_public_refs(entry, punctuation_sources),
                         **({'explanationNeedsSourceReview':True,'explanationReviewNote':PUNCTUATION_PENDING_NOTE} if entry['sourceReviewPending'] else {})}
-    for registry_file, numbered_renderer in (('isolation_card_reviews.json', render_isolation), ('introductory_card_reviews.json', render_introductory), ('subordination_card_reviews.json', render_subordination)):
+    for registry_file, numbered_renderer in (('isolation_card_reviews.json', render_isolation), ('introductory_card_reviews.json', render_introductory), ('subordination_card_reviews.json', render_subordination), ('complex_card_reviews.json', render_complex), ('punctuation_analysis_card_reviews.json', render_punctuation_analysis)):
         for entry in read('dev/data/knowledge/' + registry_file)['cards']:
             cid = entry['id']
             if cid in support or cid not in cards or numbered_renderer(cards[cid], entry, rule_paragraphs) != cards[cid]['explanation']:
@@ -151,6 +158,63 @@ def payloads():
                                              for row in entry['rows'] for sid in row['sourceIds']]}
             if entry.get('sourceReviewPending'):
                 support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
+    rhetoric_sources = load_rhetoric_sources()
+    for entry in read('dev/data/knowledge/rhetoric_card_reviews.json')['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or render_rhetoric(cards[cid], entry, rhetoric_sources) != cards[cid]['explanation']:
+            raise ValueError('Invalid or stale rhetoric review: ' + cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[], 'ruleSourceRefs':rhetoric_local_refs(entry, rhetoric_sources),
+                        'grammarSourceRefs':rhetoric_public_refs(entry, rhetoric_sources)}
+        if entry.get('sourceReviewPending'):
+            support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
+    for entry in read('dev/data/knowledge/reading_content_card_reviews.json')['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or render_reading_content(cards[cid], entry) != cards[cid]['explanation']:
+            raise ValueError('Invalid or stale reading-content review: ' + cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[], 'ruleSourceRefs':[], 'grammarSourceRefs':[]}
+        if entry.get('sourceReviewPending'):
+            support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
+    discourse_sources = load_discourse_sources()
+    for entry in read('dev/data/knowledge/discourse_card_reviews.json')['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or render_discourse(cards[cid], entry, discourse_sources) != cards[cid]['explanation']:
+            raise ValueError('Invalid or stale discourse review: ' + cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[], 'ruleSourceRefs':[], 'grammarSourceRefs':[]}
+        if entry.get('sourceReviewPending'):
+            support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
+    lexical_analysis_sources = load_lexical_analysis_sources()
+    for entry in read('dev/data/knowledge/lexical_analysis_card_reviews.json')['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or render_lexical_analysis(cards[cid], entry, lexical_analysis_sources) != cards[cid]['explanation']:
+            raise ValueError('Invalid or stale lexical-analysis review: ' + cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[], 'ruleSourceRefs':[],
+                        'grammarSourceRefs':lexical_analysis_public_refs(entry, lexical_analysis_sources)}
+        if entry.get('sourceReviewPending'):
+            support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
+    textual_cohesion_sources = load_textual_cohesion_sources()
+    for entry in read('dev/data/knowledge/textual_cohesion_card_reviews.json')['cards']:
+        cid = entry['id']
+        if cid in support or cid not in cards or render_textual_cohesion(cards[cid], entry, textual_cohesion_sources) != cards[cid]['explanation']:
+            raise ValueError('Invalid or stale textual-cohesion review: ' + cid)
+        support[cid] = {'sourceContentSha256':entry['sourceContentSha256'],
+                        'explanationSha256':hashlib.sha256(cards[cid]['explanation'].encode()).hexdigest(),
+                        'explanationPublished':True, 'hint':entry['hint'], 'dictionaryRefs':[],
+                        'paronymPairIds':[], 'ruleSourceRefs':[],
+                        'grammarSourceRefs':textual_cohesion_public_refs(entry, textual_cohesion_sources)}
+        if entry.get('sourceReviewPending'):
+            support[cid].update(explanationNeedsSourceReview=True, explanationReviewNote=entry['sourceReviewNote'])
     style_ids = set()
     for entry in read('dev/data/knowledge/style_source_reviews.json')['cards']:
         cid = entry['id']

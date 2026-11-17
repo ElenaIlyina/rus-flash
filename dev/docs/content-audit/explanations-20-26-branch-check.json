@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-18",
+  "branch": "feat/explanations-sources-20-26",
+  "scope": "Current branch: technical checks, publication consistency and educational-content integrity; not independent teacher acceptance",
+  "result": "passed",
+  "integrity": {
+    "date": "2026-11-18",
+    "branch": "feat/explanations-sources-20-26",
+    "baselineCommit": "03b9ed5123402ab05337ef1d0fe2e4309cfd51fc",
+    "conditionsAndKeysPreserved": 2140,
+    "unchangedTask1To19Cards": 1531,
+    "unchangedPublishedSupportRecords": 1531,
+    "changedExplanations": 501,
+    "preparedCardsByTask": {
+      "20": 88,
+      "21": 58,
+      "22": 71,
+      "23": 71,
+      "24": 71,
+      "25": 71,
+      "26": 71
+    },
+    "all501HavePublishedHintsAndMatchingHashes": true,
+    "task1To15MaterialVersionsPreserved": true,
+    "pendingInterpretationsVisibleInApp": [
+      "00EA20",
+      "01D3AC",
+      "05AC9F",
+      "1DA0CC",
+      "1DC0F3",
+      "1E7690",
+      "22B2FF",
+      "24EAE1",
+      "39AA6F",
+      "41186D",
+      "44A99E",
+      "503B73",
+      "5C797C",
+      "5E18CB",
+      "66CDCF",
+      "6A4DD9",
+      "6E2A0F",
+      "79B0A0",
+      "7A95AF",
+      "86E041",
+      "88BC90",
+      "9C4102",
+      "A0805E",
+      "A2EC98",
+      "A9FD8A",
+      "AF9D0D",
+      "B2FEA0",
+      "BA3A4B",
+      "C590CF",
+      "CAC1B8",
+      "E7F8EF",
+      "F15C9D"
+    ],
+    "issueRecords": 50,
+    "independentTeacherAcceptance": false
+  },
+  "editorialRegistries": [
+    {
+      "command": "python3 dev/scripts/review_complex_explanations.py",
+      "exitCode": 0,
+      "output": "Task 20: 88 cards checked; 0 explanations updated\n"
+    },
+    {
+      "command": "python3 dev/scripts/review_punctuation_analysis.py",
+      "exitCode": 0,
+      "output": "Task 21: 58 cards checked; 0 explanations updated\n"
+    },
+    {
+      "command": "python3 dev/scripts/review_rhetoric_explanations.py",
+      "exitCode": 0,
+      "output": "Task 22: 71 cards checked; 0 explanations updated\n"
+    },
+    {
+      "command": "python3 dev/scripts/review_reading_content.py",
+      "exitCode": 0,
+      "output": "Task 23: 71 cards checked; 0 explanations updated\n"
+    },
+    {
+      "command": "python3 dev/scripts/review_discourse.py",
+      "exitCode": 0,
+      "output": "Task 24: 71 cards checked; 0 explanations updated\n"
+    },
+    {
+      "command": "python3 dev/scripts/review_lexical_analysis.py",
+      "exitCode": 0,
+      "output": "Task 25: 71 cards checked; 0 explanations updated\n"
+    },
+    {
+      "command": "python3 dev/scripts/review_textual_cohesion.py",
+      "exitCode": 0,
+      "output": "Task 26: 71 cards checked; 0 explanations updated\n"
+    }
+  ],
+  "unitTests": {
+    "command": "python3 -m unittest discover -s dev/tests -p '*_test.py'",
+    "passed": 253,
+    "log": "/tmp/wbw-branch-unit-complete.log",
+    "logSha256": "67b633786aa5de9f0ebdf646d5bfc9f045c1db048457eb2492114e1bca1a8cad"
+  },
+  "browser": {
+    "passedScenarios": 31,
+    "allNewCardsExercised": 501,
+    "task26CardsExercised": 71,
+    "runnerNote": "Repository scenarios run with installed Playwright Chromium when /usr/bin/chromium is unavailable.",
+    "scenarios": [
+      {
+        "scenario": "dev/tests/bank_knowledge_smoke.py",
+        "exitCode": 0,
+        "seconds": 5.68,
+        "log": "/tmp/wbw-branch-browser-final/bank_knowledge_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/complex_smoke.py",
+        "exitCode": 0,
+        "seconds": 42.9,
+        "log": "/tmp/wbw-branch-browser/complex_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/composed_home_smoke.py",
+        "exitCode": 0,
+        "seconds": 7.35,
+        "log": "/tmp/wbw-branch-browser/composed_home_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/content_issues_smoke.py",
+        "exitCode": 0,
+        "seconds": 4.53,
+        "log": "/tmp/wbw-branch-browser/content_issues_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/discourse_smoke.py",
+        "exitCode": 0,
+        "seconds": 30.16,
+        "log": "/tmp/wbw-branch-browser/discourse_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/explanations_batch_smoke.py",
+        "exitCode": 0,
+        "seconds": 29.26,
+        "log": "/tmp/wbw-branch-browser/explanations_batch_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/fipi_answers_smoke.py",
+        "exitCode": 0,
+        "seconds": 7.75,
+        "log": "/tmp/wbw-branch-browser/fipi_answers_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/fipi_format_smoke.py",
+        "exitCode": 0,
+        "seconds": 10.31,
+        "log": "/tmp/wbw-branch-browser/fipi_format_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/grammar_sources_smoke.py",
+        "exitCode": 0,
+        "seconds": 6.59,
+        "log": "/tmp/wbw-branch-browser/grammar_sources_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/introductory_smoke.py",
+        "exitCode": 0,
+        "seconds": 32.9,
+        "log": "/tmp/wbw-branch-browser/introductory_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/isolation_smoke.py",
+        "exitCode": 0,
+        "seconds": 36.31,
+        "log": "/tmp/wbw-branch-browser/isolation_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/learning_smoke.py",
+        "exitCode": 0,
+        "seconds": 7.99,
+        "log": "/tmp/wbw-branch-browser/learning_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/lexical_analysis_smoke.py",
+        "exitCode": 0,
+        "seconds": 18.47,
+        "log": "/tmp/wbw-branch-browser/lexical_analysis_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/lexical_norms_smoke.py",
+        "exitCode": 0,
+        "seconds": 4.03,
+        "log": "/tmp/wbw-branch-browser/lexical_norms_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/lexical_sources_smoke.py",
+        "exitCode": 0,
+        "seconds": 6.48,
+        "log": "/tmp/wbw-branch-browser/lexical_sources_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/pages_smoke.py",
+        "exitCode": 0,
+        "seconds": 5.84,
+        "log": "/tmp/wbw-branch-browser/pages_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/paronyms_smoke.py",
+        "exitCode": 0,
+        "seconds": 3.28,
+        "log": "/tmp/wbw-branch-browser/paronyms_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/priority_1_6_smoke.py",
+        "exitCode": 0,
+        "seconds": 131.82,
+        "log": "/tmp/wbw-branch-browser/priority_1_6_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/progress_transfer_smoke.py",
+        "exitCode": 0,
+        "seconds": 3.98,
+        "log": "/tmp/wbw-branch-browser/progress_transfer_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/punctuation_analysis_smoke.py",
+        "exitCode": 0,
+        "seconds": 26.35,
+        "log": "/tmp/wbw-branch-browser/punctuation_analysis_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/punctuation_smoke.py",
+        "exitCode": 0,
+        "seconds": 45.66,
+        "log": "/tmp/wbw-branch-browser/punctuation_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/reading_content_smoke.py",
+        "exitCode": 0,
+        "seconds": 28.1,
+        "log": "/tmp/wbw-branch-browser/reading_content_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/review_debug_smoke.py",
+        "exitCode": 0,
+        "seconds": 4.88,
+        "log": "/tmp/wbw-branch-browser-final/review_debug_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/rhetoric_smoke.py",
+        "exitCode": 0,
+        "seconds": 30.11,
+        "log": "/tmp/wbw-branch-browser/rhetoric_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/stress_glossary_smoke.py",
+        "exitCode": 0,
+        "seconds": 3.68,
+        "log": "/tmp/wbw-branch-browser-rerun/stress_glossary_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/stress_list_smoke.py",
+        "exitCode": 0,
+        "seconds": 3.93,
+        "log": "/tmp/wbw-branch-browser/stress_list_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/subordination_smoke.py",
+        "exitCode": 0,
+        "seconds": 57.84,
+        "log": "/tmp/wbw-branch-browser/subordination_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/text_skills_smoke.py",
+        "exitCode": 0,
+        "seconds": 4.38,
+        "log": "/tmp/wbw-branch-browser/text_skills_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/textual_cohesion_smoke.py",
+        "exitCode": 0,
+        "seconds": 16.36,
+        "log": "/tmp/wbw-branch-browser-rerun/textual_cohesion_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/ui_smoke.py",
+        "exitCode": 0,
+        "seconds": 6.99,
+        "log": "/tmp/wbw-branch-browser/ui_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/word_forms_smoke.py",
+        "exitCode": 0,
+        "seconds": 38.74,
+        "log": "/tmp/wbw-branch-browser/word_forms_smoke.log"
+      }
+    ],
+    "initialFailures": [
+      {
+        "scenario": "dev/tests/bank_knowledge_smoke.py",
+        "exitCode": 1,
+        "seconds": 5.53,
+        "log": "/tmp/wbw-branch-browser/bank_knowledge_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/textual_cohesion_smoke.py",
+        "exitCode": 1,
+        "seconds": 40.04,
+        "log": "/tmp/wbw-branch-browser/textual_cohesion_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/review_debug_smoke.py",
+        "exitCode": 1,
+        "seconds": 2.87,
+        "log": "/tmp/wbw-branch-browser/review_debug_smoke.log"
+      },
+      {
+        "scenario": "dev/tests/stress_glossary_smoke.py",
+        "exitCode": 1,
+        "seconds": 4.03,
+        "log": "/tmp/wbw-branch-browser/stress_glossary_smoke.log"
+      }
+    ],
+    "screenshotsViewed": [
+      "/tmp/wbw-task26-DABD69-390.png",
+      "/tmp/wbw-task26-694236-390.png"
+    ]
+  },
+  "checks": [
+    {
+      "command": "bash scripts/install.sh",
+      "result": "passed"
+    },
+    {
+      "command": "python3 dev/scripts/build_review_data.py",
+      "result": "passed",
+      "entries": 143
+    },
+    {
+      "command": "python3 dev/scripts/publish_content.py --check",
+      "result": "passed",
+      "productionInputs": 7
+    },
+    {
+      "command": "python3 scripts/check_pages_artifact.py html",
+      "result": "passed",
+      "runtimeCards": 2140
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "TASK26-UI-001",
+      "cardId": "682A9C",
+      "change": "Removed obsolete progress restriction after both keyed lexical repetitions had been explained; old restriction archived.",
+      "answerChanged": false
+    },
+    {
+      "change": "Updated historical audit assertion that still required the resolved 682A9C header conflict."
+    },
+    {
+      "change": "Added independent parsing of requested task-26 means from the question and rejection of duplicate sentence evidence; added regression tests and full browser scenario."
+    },
+    {
+      "change": "Marked both task-20 interpretation records explicitly as affecting explanations for uniform journal/schema treatment; their unresolved status is unchanged."
+    },
+    {
+      "change": "Updated stale bank hint expectations, review-workbench issue fixture and empty-learning-history assumption; added explicit route completion wait to stress glossary scenario."
+    }
+  ],
+  "pendingInterpretationCards": 32,
+  "canonicalIssueRecords": {
+    "open": 47,
+    "resolved": 3
+  },
+  "openInterpretationsResolvedByTheseTests": false,
+  "independentTeacherAcceptance": false,
+  "commitPushMergePerformed": false,
+  "separateExamVariantsBranchIncluded": false
+}

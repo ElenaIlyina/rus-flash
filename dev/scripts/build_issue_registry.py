@@ -60,19 +60,20 @@ def build():
              'dev/docs/content-audit/grammar-review-pending.json',
              'dev/docs/content-audit/task-19-review-pending.json',
              'dev/docs/content-audit/task-19-source-issues.json',
-             'dev/docs/content-audit/card-edit-proposals.json']
+             'dev/docs/content-audit/card-edit-proposals.json',
+             'dev/docs/content-audit/explanations-20-26-issues.json']
     for source in paths:
         data = json.loads((ROOT / source).read_text())
-        for key in ['cards', 'resolved', 'proposals', 'resolvedAssignments']:
+        for key in ['cards', 'resolved', 'proposals', 'resolvedAssignments', 'issues']:
             values = data.get(key, [])
             if isinstance(values, dict):
                 values = [dict(value, cardId=card) for card, value in values.items()]
             for value in values:
-                status = ('Решено' if key in ['resolved', 'resolvedAssignments'] or value.get('status') in ['applied', 'resolved_by_author']
-                          else 'Открыто' if key == 'cards' else 'История: статус требует сверки')
+                status = ('Решено' if key in ['resolved', 'resolvedAssignments'] or value.get('status') in ['applied', 'resolved_by_author', 'resolved']
+                          else 'Открыто' if key == 'cards' or value.get('status') == 'open' else 'История: статус требует сверки')
                 card = value.get('cardId', value.get('id', ''))
                 add(source, value.get('issueId', card or 'Предложение'), pretty(value), status,
-                    [card] if re.fullmatch(r'[0-9A-F]{6}', card) else None)
+                    value.get('cardIds') or ([card] if re.fullmatch(r'[0-9A-F]{6}', card) else None))
 
     for name, key, status in [
         ('stress-dictionary-crosscheck.json', 'forms', 'Сверка источников зафиксирована'),

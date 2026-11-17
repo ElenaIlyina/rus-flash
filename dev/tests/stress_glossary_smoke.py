@@ -55,6 +55,7 @@ def main():
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()
             assert page.locator('#explanation').get_by_role('link',name='Словарик ударений из всех карточек',exact=True).count()==1
             page.goto(base+'#card/0E759D',wait_until='networkidle')
+            page.get_by_text('КАРТОЧКА 0E759D',exact=True).wait_for()
             assert page.locator('.practice-aside').get_by_role('link',name='Словарик ударений из всех карточек',exact=True).count()==1
             page.goto(base+'#knowledge',wait_until='networkidle')
             page.get_by_role('link',name='Словарик ударений из всех карточек',exact=True).click()

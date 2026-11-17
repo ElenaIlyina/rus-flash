@@ -33,7 +33,8 @@ dev/
 3. Выполнить `bash scripts/install.sh`. Эта сборка читает только production.
 
 Проверка синхронности без записи: `python3 dev/scripts/publish_content.py --check`.
-Редакторские статусы, цитаты-основания и журналы не переносятся в production.
+Редакторские реестры и журналы не переносятся в production.
+Учебные цитаты-основания включаются в опубликованные объяснения.
 Готовые подсказки, значения и учебные ссылки являются частью приложения.
 
 ## Отдельная страница ревью
@@ -121,3 +122,36 @@ dev/.venv/bin/python dev/tests/review_debug_smoke.py
 ## Единый реестр замечаний
 
 [Все замечания и вопросы](issues.html) — поиск по карточке, тексту, статусу и разделу. Сохраняет исходные записи и отдельно показывает действующие флаги проверки. Исторические записи без подтверждённого решения отмечены как требующие сверки статуса. Исходные журналы не заменены. Пересборка из корня приложения: `python3 dev/scripts/build_issue_registry.py`.
+
+## Объяснения №20–26
+
+[Объём, источники и самопроверка](docs/explanations-20-26.md),
+[единый журнал вопросов этой партии](docs/content-audit/explanations-20-26-issues.md).
+Подготовлены все №20–26: 501 карточка с объяснениями и подсказками.
+Незаполненных нет; спорные трактовки помечены в журнале и приложении.
+Полная проверка ветки выполнена 18.11.2026: 253 теста и 31 браузерный сценарий.
+[Результат и исправления](docs/content-audit/explanations-20-26-branch-check.md).
+При подготовке последних порций проверки откладывались по просьбе автора.
+Реестры №20/21: `data/knowledge/complex_card_reviews.json` и
+`data/knowledge/punctuation_analysis_card_reviews.json`; №22 —
+`data/knowledge/rhetoric_card_reviews.json`.
+Проверки №22: `scripts/review_rhetoric_explanations.py --report`,
+`tests/rhetoric_smoke.py`.
+№23: `data/knowledge/reading_content_card_reviews.json`,
+`scripts/review_reading_content.py --report`, `tests/reading_content_smoke.py`.
+№24: `data/knowledge/discourse_card_reviews.json`,
+`data/knowledge/discourse_sources.json`, `scripts/review_discourse.py --report`,
+`tests/discourse_smoke.py`.
+
+№25: `data/knowledge/lexical_analysis_card_reviews.json`,
+`data/knowledge/lexical_analysis_sources.json`,
+`scripts/review_lexical_analysis.py --report`, `tests/lexical_analysis_smoke.py`.
+Проверка привязывает формы ответов к исходному диапазону, сохраняет цитаты
+и открытые вопросы о допустимых альтернативах; ключи не расширяет.
+
+№26: `data/knowledge/textual_cohesion_card_reviews.json`,
+`data/knowledge/textual_cohesion_sources.json`,
+`scripts/review_textual_cohesion.py --write` — подготовка объяснений.
+Связь фиксируется с непосредственно предыдущим предложением, по всем
+средствам, перечисленным в условии. Первоначальные статусы порций сохранены отдельно; итоговый прогон включает
+`tests/textual_cohesion_smoke.py` и все 71 карточку №26.

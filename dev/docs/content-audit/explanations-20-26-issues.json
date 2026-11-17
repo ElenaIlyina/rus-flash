@@ -1,0 +1,1167 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-17",
+  "policy": "Сохранять открытые и решённые вопросы с ID карточек, источниками и отдельным решением. Условия и ключи не менять без автора. Старые объяснения не являются доказательством.",
+  "issues": [
+    {
+      "issueId": "TASK20-INT-001",
+      "cardIds": [
+        "503B73"
+      ],
+      "task": 20,
+      "status": "open",
+      "position": 1,
+      "kind": "circumstance_scope_requires_review",
+      "reason": "Начальное обстоятельство «Этой осенью» может быть отнесено к обеим главным частям. Сохранённый ключ требует запятой перед и; при общем обстоятельстве §112 предусматривает отсутствие этой запятой. Нужно установить область действия в данном контексте. Это не доказанная ошибка ключа.",
+      "savedAnswer": "1234",
+      "sourceIds": [
+        "lopatin-2007-punctuation-112"
+      ],
+      "resolution": null,
+      "createdAt": "2026-11-17",
+      "affectsExplanation": true
+    },
+    {
+      "issueId": "TASK20-INT-002",
+      "cardIds": [
+        "A0805E"
+      ],
+      "task": 20,
+      "status": "open",
+      "position": 1,
+      "kind": "circumstance_scope_requires_review",
+      "reason": "Начальное обстоятельство «Ночью» может быть отнесено к обеим главным частям. Сохранённый ключ требует запятой перед и; при общем обстоятельстве §112 предусматривает отсутствие этой запятой. Нужно установить область действия в данном контексте. Это не доказанная ошибка ключа.",
+      "savedAnswer": "1234",
+      "sourceIds": [
+        "lopatin-2007-punctuation-112"
+      ],
+      "resolution": null,
+      "createdAt": "2026-11-17",
+      "affectsExplanation": true
+    },
+    {
+      "issueId": "TASK21-INT-001",
+      "cardIds": [
+        "1E7690"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "rule_grouping_requires_review",
+      "reason": "Ключ 46 объединяет поясняющее обстоятельство пути «по Золотому кольцу» и приложение к названию маршрута. Нужна дополнительная проверка того, насколько широко здесь понимается одно и то же правило. Это не доказанная ошибка ключа.",
+      "sourceIds": [
+        "lopatin-2007-punctuation-85",
+        "lopatin-2007-punctuation-61"
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK21-SRC-001",
+      "cardIds": [
+        "139F0C"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "damaged_source_token",
+      "reason": "В предложении 9 сохранено «Бо – ьшую». Повреждение слова не исправлялось и не использовалось для вывода о ключе 58; требуется восстановление по источнику/согласованию автора.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK21-SRC-002",
+      "cardIds": [
+        "8EA0E9"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "agreement_typo",
+      "reason": "Предложение 4: «Эта просьба заключалось…»: несогласование женского рода просьба с заключалось. Вероятная редакция «заключалась»; исходное условие не менялось.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK21-SRC-003",
+      "cardIds": [
+        "D12501"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "word_form_typo",
+      "reason": "Предложение 7: «местные судостроителя и привезённые сюда мастера… начали». По синтаксису ожидается «судостроители»; исходник сохранён.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK21-SRC-004",
+      "cardIds": [
+        "E6A81A"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "double_superlative",
+      "reason": "Предложение 2: «одним из самых красивейших» сочетает составное и суффиксальное выражение превосходной степени. Вероятные редакции «одним из самых красивых» / «одним из красивейших»; условие сохранено, ключ пунктуационного задания не менялся.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK21-SRC-005",
+      "cardIds": [
+        "23E453",
+        "B4D450"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "missing_word_spaces",
+      "reason": "В 23E453 напечатано «ставитсяв»; в B4D450 — «Ноэкология» и «исоциологу». Записаны как вопросы оформления исходника; пробелы не добавлялись.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK21-FACT-001",
+      "cardIds": [
+        "80D166",
+        "9DDA37"
+      ],
+      "task": 21,
+      "status": "open",
+      "kind": "source_factual_disagreement",
+      "reason": "В обеих карточках указаны 5 февраля 2013 и масса 10 тонн при диаметре не менее 17 м. NASA сообщает дату 15 февраля и массу порядка тысяч тонн (в статье 11000 метрических тонн). Вероятны пропуск цифры 1 в дате и пропуск «тысяч» в массе; точную редакцию исходника нужно согласовать. В 80D166 также «в Тюменских областях» при ожидаемом единственном числе. На сравнение пунктуационных правил эти сведения не влияют; условия сохранены.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null,
+      "externalEvidence": [
+        {
+          "url": "https://www.nasa.gov/solar-system/around-the-world-in-four-days-nasa-tracks-chelyabinsk-meteor-plume/",
+          "method": "primary_source_text_read",
+          "checkedAt": "2026-11-17",
+          "supports": "15 February 2013; 18 m; 11000 metric tons"
+        }
+      ]
+    },
+    {
+      "issueId": "TASK22-INT-001",
+      "cardIds": [
+        "00EA20"
+      ],
+      "task": 22,
+      "status": "open",
+      "kind": "rhetorical_interpretation_requires_review",
+      "reason": "Гипербола в «Это было всё, что осталось у него от жизни» зависит от контекста: без него возможен буквальный смысл. В Б сказуемое перед подлежащим само по себе ещё не доказывает стилистическую инверсию. Ключ сохранён; нужен полный контекст для подтверждения выразительности.",
+      "savedAnswer": "39681",
+      "sourceIds": [
+        "nntu-rhetoric-189",
+        "gramota-rhetoric-inversiya"
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK22-INT-002",
+      "cardIds": [
+        "66CDCF"
+      ],
+      "task": 22,
+      "status": "open",
+      "kind": "rhetorical_interpretation_requires_review",
+      "reason": "В «Не жалею, не зову, не плачу» ключ выбирает градацию. Последовательность отрицаний видна, но шкала усиления или ослабления чувств не однозначна. Перечисление само по себе не является достаточным доказательством градации; требуется уточнение авторской/учебной трактовки.",
+      "savedAnswer": "89426",
+      "sourceIds": [
+        "nntu-rhetoric-190"
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK22-INT-003",
+      "cardIds": [
+        "6A4DD9"
+      ],
+      "task": 22,
+      "status": "open",
+      "kind": "rhetorical_interpretation_requires_review",
+      "reason": "В ключе «наваливались» отнесено к просторечной лексике. Прочитанное определение стилевых пластов различает разговорную и просторечную лексику; словарная статья «наваливаться» отсылает к «навалиться» и не подтверждает нужную помету данного значения. Нужна словарная помета точного значения.",
+      "savedAnswer": "7346",
+      "sourceIds": [
+        "litnevskaya-lexical-register",
+        "gramota-rhetoric-navalivatsya"
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null,
+      "followUp": {
+        "checkedAt": "2026-11-17",
+        "reason": "Ключ относит «наваливались» к просторечным словам. Большой толковый словарь на Грамоте в статье «навалиться», значение 5 «наброситься, напуститься на кого-либо», даёт помету «разговорно-сниженное». Сниженная окраска подтверждается, но равенство этой пометы школьной категории «просторечное» требует уточнения; ключ сохранён.",
+        "sourceIds": [
+          "gramota-rhetoric-navalitsya"
+        ],
+        "url": "https://gramota.ru/meta/navalitsya",
+        "status": "open"
+      }
+    },
+    {
+      "issueId": "TASK22-SRC-001",
+      "cardIds": [
+        "C96DCA"
+      ],
+      "task": 22,
+      "status": "open",
+      "kind": "existing_damaged_source_punctuation",
+      "reason": "Сохранено существующее content_issue: в источнике повреждён знак после слова «троп» перед пропуском (А). Прежний читаемый вариант уже находился в карточке до этой партии; точный знак требует сверки. Это не новое восстановление условия.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-INT-001",
+      "cardIds": [
+        "1DC0F3"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "implicit_detail_requires_review",
+      "reason": "В варианте 4 сказано, что вороны узнают кормящего их человека. Предложение 30 прямо подтверждает узнавание знакомой женщины и её знание корма, но не говорит прямо, что кормит ворон именно она. Это вывод по контексту, а не точная цитата; ключ с вариантом 4 сохранён, требуется подтвердить допустимость такого вывода.",
+      "savedAnswer": "145",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        30
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-SRC-001",
+      "cardIds": [
+        "0AE104",
+        "1C949E",
+        "1E0400",
+        "217D24",
+        "72B5A1",
+        "DFDA9A"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "damaged_combining_marks",
+      "reason": "В предложении 27 в имени Жанны д’Арк сохранено сочетание «д̓̓̓̓Арк» с несколькими комбинируемыми знаками. Похоже на техническое повреждение апострофа; точное исходное оформление не восстанавливалось. На оценку пяти утверждений не влияет.",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        27
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-INT-002",
+      "cardIds": [
+        "5E18CB"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "stronger_superlative_than_passage",
+      "reason": "Вариант 1 называет Ковалёва лучшим наводчиком уже со времён Первой мировой войны. В предложении 15 о том времени сказано только «выдающимся», а «лучшим наводчиком фронта» он назван в описываемую войну (№10). Ключ включает вариант 1; нужно уточнить допустимость усиления оценки и переноса превосходства на ранний период. Исходный ключ сохранён.",
+      "savedAnswer": "15",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        10,
+        15,
+        23,
+        24,
+        27
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-UI-001",
+      "cardIds": [
+        "478D44",
+        "5E18CB"
+      ],
+      "task": 23,
+      "status": "resolved",
+      "kind": "source_footnote_markers_parsed_as_markdown",
+      "reason": "При браузерной сверке точные цитаты с повторёнными авторскими сносками не совпали с отображённым текстом: служебные звёздочки воспринимались обработчиком Markdown как курсив. Это дефект вывода, не дефект исходных звёздочек.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": {
+        "date": "2026-11-17",
+        "by": "assistant",
+        "change": "HTML-объяснения №23 выводятся без интерпретации Markdown; буквальные знаки сносок сохранены. Условия, ключи и текст объяснений не менялись. Для остальных заданий прежняя обработка Markdown остаётся по умолчанию.",
+        "files": [
+          "html/js/ui.js",
+          "html/js/app.js"
+        ],
+        "verification": "reading_content_smoke.py: 40 карточек, все цитаты и индивидуальные подсказки; дополнительная проверка сохранения Markdown по умолчанию."
+      }
+    },
+    {
+      "issueId": "TASK23-INT-003",
+      "cardIds": [
+        "88BC90"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "stronger_quantifier_than_passage",
+      "reason": "Вариант 3 говорит о требовании прочесть все произведения Достоевского, тогда как предложение 13 содержит «почти весь». Ключ 234 включает этот вариант. Знакомство с Достоевским подтверждено, но усиление до абсолютной полноты требует уточнения; ключ сохранён.",
+      "savedAnswer": "234",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        13
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-INT-004",
+      "cardIds": [
+        "B2FEA0"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "unstated_causal_connection",
+      "reason": "Вариант 1 связывает верхнюю одежду Евгении Ивановны с холодом в комнате. Холод, нетопленая плита, ватник и платок названы в №2, но причинное «потому что» в тексте отсутствует. Неподвижность и невнимание героини объясняются также потрясением от похоронки и вести о сыне (№5, 27, 34–35). Ключ 134 сохранён; нужно уточнить допустимость причинного вывода о верхней одежде.",
+      "savedAnswer": "134",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        2,
+        5,
+        27,
+        34,
+        35
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-SRC-002",
+      "cardIds": [
+        "71FF7C",
+        "8BD010",
+        "A974B4",
+        "C590CF",
+        "CB7468"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "missing_sentence_marker_bracket",
+      "reason": "В исходном тексте сохранено «(40Минут через пятнадцать…»: после номера 40 пропущена закрывающая скобка. Условие не исправлялось. Подготовительный парсер распознаёт этот единственный явно видимый номер по точному сочетанию и ID 8BD010; слова предложения не восстанавливаются и не угадываются.",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        40
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null,
+      "parserRecognition": {
+        "updatedAt": "2026-11-17",
+        "cardIds": [
+          "71FF7C",
+          "8BD010",
+          "A974B4",
+          "C590CF",
+          "CB7468"
+        ],
+        "method": "Recognize exact visible marker (40Минут through a fixed list of shared-passage card IDs; no source field is edited.",
+        "originalCardFieldsChanged": false,
+        "status": "source_format_issue_still_open"
+      }
+    },
+    {
+      "issueId": "TASK23-SRC-003",
+      "cardIds": [
+        "8C3C02",
+        "921234",
+        "BF2ADD",
+        "CA304E",
+        "DAB89F",
+        "F98ADC"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "unexplained_setting_change",
+      "reason": "В №18 герои залегают в осиновой роще, в №23 остаются в берёзовой, в №53 вновь упомянуты осины; переход между разными рощами не описан. Нужна сверка авторского текста: это не доказанное искажение ФИПИ. В варианте 2 карточки 921234 неверно прежде всего приписывание спасения Ромашову, поэтому порода деревьев не используется как основание исключения.",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        18,
+        23,
+        53
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-SRC-004",
+      "cardIds": [
+        "1ACAE9",
+        "47289C",
+        "51673C",
+        "6A4DD9",
+        "E62562",
+        "EA3B9A"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "verb_government_requires_source_check",
+      "reason": "В №20 сохранено «возмущались моей позе». Управление выглядит нетипичным; возможную редакцию «возмущались моей позой» нужно проверить по авторскому тексту и словарю управления. Прямая словарная статья Грамоты оказалась недоступна (403); доказанной нормативной ошибкой это в данной партии не объявляется. Условие не менялось.",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        20
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK23-FACT-001",
+      "cardIds": [
+        "3CC9EE",
+        "5B5D51",
+        "90588E",
+        "99B56E",
+        "C20573",
+        "C77D93"
+      ],
+      "task": 23,
+      "status": "open",
+      "kind": "historical_chronology_disagreement",
+      "reason": "В рассказе о Скотте указано отставание от Амундсена на пятнадцать дней. Antarctic Heritage Trust указывает достижение полюса Амундсеном 14 декабря 1911 и Скоттом 17 января 1912: между этими датами 34 дня. Это расхождение исторической детали исходного повествования; на оценку пяти утверждений C77D93 не влияет. Текст и ключи всех карточек общего фрагмента сохранены.",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        37,
+        39
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null,
+      "externalEvidence": [
+        {
+          "url": "https://nzaht.org/the-expeditions-of-roald-amundsen/",
+          "title": "The Expeditions of Roald Amundsen · Antarctic Heritage Trust",
+          "method": "institutional_article_text_read",
+          "checkedAt": "2026-11-17",
+          "supports": "Dates of reaching the South Pole: 14 December 1911 and 17 January 1912; elapsed difference 34 days.",
+          "localRecord": "dev/docs/references/scott-amundsen-chronology.json"
+        }
+      ]
+    },
+    {
+      "issueId": "TASK24-INT-001",
+      "cardIds": [
+        "24EAE1"
+      ],
+      "task": 24,
+      "status": "open",
+      "kind": "reasoning_vs_justified_appeal",
+      "reason": "Вариант 5 относит предложение 19 к рассуждению. В нём продолжается эмоциональное побуждение «Выпрямиться и выстоять» с обоснованием цели через «ради будущего наших детей» и сохранение прекрасного. Это позволяет увидеть аргументативный компонент, но самостоятельного развёрнутого рассуждения здесь нет. Ключ 35 сохранён; требуется уточнить границу побуждения с обоснованием и рассуждения в данном задании.",
+      "savedAnswer": "35",
+      "sourceIds": [
+        "kozhina-discourse-578",
+        "kozhina-discourse-579"
+      ],
+      "originalPassageSentences": [
+        17,
+        18,
+        19
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK24-SRC-001",
+      "cardIds": [
+        "34DD9B"
+      ],
+      "task": 24,
+      "status": "open",
+      "kind": "latin_homoglyph_in_russian_word",
+      "reason": "В варианте 4 карточки 34DD9B сохранено «В предложенияx 54 – 58»: последняя x латинская, а не русская х. На смысл суждения и выбор ответа не влияет. Смешение алфавитов зафиксировано как особенность исходного оформления; условие не редактировалось.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK24-FACT-001",
+      "cardIds": [
+        "0121C7",
+        "097BED",
+        "20C422",
+        "2D2E56",
+        "518886",
+        "57E66E",
+        "961876",
+        "BAFD8B",
+        "C2836D",
+        "C56F78",
+        "D04DF3",
+        "E3512D"
+      ],
+      "task": 24,
+      "status": "open",
+      "kind": "source_scientific_inaccuracy",
+      "reason": "В общем тексте о Земле растения названы выделяющими в верхние слои атмосферы кислород и озон (в 57E66E — №18). NASA описывает образование стратосферного озона из молекулярного кислорода под действием солнечного ультрафиолета, а не как прямое выделение растениями в верхнюю атмосферу. Это научная неточность исходного фрагмента; точную редакцию нужно согласовать отдельно. Она не меняет языковую функцию №14–18 как пояснения авторской оценки в №13; условия и ключи всех связанных карточек сохранены.",
+      "sourceIds": [],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null,
+      "externalEvidence": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/chemistry-in-the-sunlight/",
+          "title": "Chemistry in the Sunlight · NASA Earth Observatory",
+          "method": "primary_source_article_text_read",
+          "checkedAt": "2026-11-17",
+          "supports": "Stratospheric ozone formation: solar UV splits molecular oxygen; oxygen atoms combine with oxygen molecules to form ozone.",
+          "localRecord": "dev/docs/references/ozone-layer-formation.json"
+        }
+      ]
+    },
+    {
+      "issueId": "TASK24-INT-002",
+      "cardIds": [
+        "A2EC98"
+      ],
+      "task": 24,
+      "status": "open",
+      "kind": "description_misclassified_as_narration",
+      "reason": "Вариант 1 называет №8–10 повествованием с элементами описания и включён в ключ 124. В указанных границах изображены одновременно наблюдаемые отражение неба, сидящий человек и лежащий портфель. Движение отражения само по себе не задаёт последовательности событий. Переход рассказчика (№6) и крик человека (№12) находятся вне фрагмента. Классификация как повествования недостаточно обоснована; требуется независимая проверка. Ключ и условие сохранены, сомнение показано в объяснении.",
+      "savedAnswer": "124",
+      "sourceIds": [
+        "kozhina-discourse-578",
+        "kozhina-discourse-579"
+      ],
+      "originalPassageSentences": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK24-FACT-002",
+      "cardIds": [
+        "0121C7",
+        "097BED",
+        "20C422",
+        "2D2E56",
+        "518886",
+        "57E66E",
+        "961876",
+        "BAFD8B",
+        "C2836D",
+        "C56F78",
+        "D04DF3",
+        "E3512D"
+      ],
+      "task": 24,
+      "status": "open",
+      "kind": "source_scientific_inaccuracy",
+      "reason": "В общем тексте о Земле предложение «Вращение Земли обеспечивает чередование дней и ночей на планете, смену времён года» объединяет разные механизмы. Суточное вращение объясняет смену дня и ночи; годовой цикл сезонов связан с наклоном оси и обращением Земли вокруг Солнца. NASA прямо разделяет эти процессы. Формулировка исходника требует научного уточнения. Это не меняет функцию перечисления как доводов к авторской оценке планеты в C56F78; все условия и ключи сохранены.",
+      "sourceIds": [],
+      "originalPassageSentences": [
+        16
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": null,
+      "externalEvidence": [
+        {
+          "url": "https://science.nasa.gov/earth/facts/",
+          "title": "Facts About Earth · NASA Science",
+          "method": "primary_source_article_text_read",
+          "checkedAt": "2026-11-17",
+          "supports": "The Orbit and Rotation section distinguishes daily rotation from the annual orbit and explains seasons through axial tilt and changing illumination during the year.",
+          "localRecord": "dev/docs/references/earth-seasons.json"
+        }
+      ]
+    },
+    {
+      "issueId": "TASK25-ALT-001",
+      "cardIds": [
+        "01D3AC"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В диапазоне №18–25, кроме сохранённого ответа скажи на милость, есть возможный фразеологический кандидат не даёт покоя (№20). Нужна отдельная словарная проверка и согласование допустимости альтернативного ответа. Не утверждается, что ключ ошибочен; сохранённая формула подходит. Список принимаемых ответов не расширялся.",
+      "savedAnswer": "скажи на милость",
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology",
+        "gramota-lexical-analysis-skazhite-na-milost"
+      ],
+      "originalPassageSentences": [
+        19,
+        20
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-002",
+      "cardIds": [
+        "05AC9F"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "При условии выписать один фразеологизм из №9–13 сохранён ответ на всякий случай (№9). В №13 также есть кандидат про чёрный день в переносном значении трудного времени. Словарная статья чёрный связывает это значение с тяготами жизни; требуется согласовать достаточность основания и приём альтернативного ответа. Ключ и список принимаемых ответов сохранены.",
+      "savedAnswer": "на всякий случай",
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology",
+        "gramota-lexical-analysis-na-vsyakiy-sluchay",
+        "gramota-lexical-analysis-chernyy"
+      ],
+      "originalPassageSentences": [
+        9,
+        13
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-003",
+      "cardIds": [
+        "1DA0CC"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "alternative_word_form_acceptance",
+      "reason": "Словарному определению соответствует шедевр. В заданном диапазоне №32–34 слово встречается в формах шедевров (№32) и шедеврами (№33), а ключ содержит только шедевров. Обе формы видны в тексте; допустимость второй при автоматической проверке требует согласования. Ключ и список принимаемых ответов сохранены.",
+      "savedAnswer": "шедевров",
+      "sourceIds": [
+        "gramota-lexical-analysis-shedevr"
+      ],
+      "originalPassageSentences": [
+        32,
+        33
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-REG-001",
+      "cardIds": [
+        "39AA6F"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "colloquial_vs_vernacular_register",
+      "reason": "Условие просит просторечное слово, ключ буркнул. Большой толковый словарь русского языка на Грамоте помечает буркать как разговорное и приводит буркнуть в однокоренных словах. Значение отрывистой негромкой невнятной речи соответствует контексту. Разговорная помета сама по себе не равна просторечной; нужна проверка стилистической квалификации условия. Ключ и исходник сохранены, различие помет видно в объяснении.",
+      "savedAnswer": "буркнул",
+      "sourceIds": [
+        "gramota-lexical-analysis-burkat"
+      ],
+      "originalPassageSentences": [
+        17
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-INT-001",
+      "cardIds": [
+        "5C797C"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "introductory_phrase_vs_phraseological_unit",
+      "reason": "Ключ может быть соответствует устойчивому вводному сочетанию со значением предположения в №5. Академические правила Грамоты подтверждают вводную функцию, но это само по себе не доказывает принадлежность к фразеологизмам. Нужна проверка границ школьного термина фразеологизм для данного задания. Ключ и исходник сохранены; оговорка видна в приложении.",
+      "savedAnswer": "может быть",
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology",
+        "gramota-lexical-analysis-mozhet-byt"
+      ],
+      "originalPassageSentences": [
+        5
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-INT-002",
+      "cardIds": [
+        "7A95AF"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "spatial_gloss_vs_contextual_self_confrontation",
+      "reason": "Задание даёт толкование очень близко и ключ лицом к лицу. В №2 оборот употреблён переносно: мысль ставит героя перед собственной самооценкой. Пространственное значение в словаре есть, но буквальная физическая близость не объясняет данный контекст. Нужно уточнить точность заданного толкования; ключ сохранён, переносный смысл раскрыт в объяснении.",
+      "savedAnswer": "лицом к лицу",
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology",
+        "gramota-lexical-analysis-litso"
+      ],
+      "originalPassageSentences": [
+        1,
+        2,
+        3
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-REG-002",
+      "cardIds": [
+        "773A42"
+      ],
+      "task": 25,
+      "status": "resolved",
+      "kind": "register_corroborated_in_second_dictionary",
+      "reason": "В статье благотворный Большого толкового словаря на Грамоте значение совпало с заданием, но книжная помета не указана. Отсутствие пометы не объявляется доказательством нейтральности. Дополнительно прочитана статья Ожегова и Шведовой: в ней есть помета книжн. Книжная характеристика задания подтверждена вторым словарём; оба источника доступны в объяснении.",
+      "savedAnswer": "благотворную",
+      "sourceIds": [
+        "gramota-lexical-analysis-blagotvornyy",
+        "ozhegov-shvedova-blagotvornyy"
+      ],
+      "originalPassageSentences": [
+        11
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-17",
+      "resolution": {
+        "date": "2026-11-17",
+        "method": "second_dictionary_article_read",
+        "sourceId": "ozhegov-shvedova-blagotvornyy",
+        "answerChanged": false
+      }
+    },
+    {
+      "issueId": "TASK25-ALT-004",
+      "cardIds": [
+        "86E041"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В том же №32 есть ещё кандидат в голову приходит. Допустимость этого альтернативного устойчивого выражения требует согласования; ключ обратилась в слух и принимаемые ответы сохранены.",
+      "savedAnswer": "обратилась в слух",
+      "possibleAlternatives": [
+        "в голову приходит"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology",
+        "gramota-lexical-analysis-slukh"
+      ],
+      "originalPassageSentences": [
+        32,
+        33
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-005",
+      "cardIds": [
+        "9C4102"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В диапазоне есть ещё устойчивое вводное сочетание в сущности (№8). Его допустимость как альтернативного фразеологического ответа требует уточнения; ключ повис на хвосте сохранён.",
+      "savedAnswer": "повис на хвосте",
+      "possibleAlternatives": [
+        "в сущности"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology",
+        "gramota-lexical-analysis-khvost"
+      ],
+      "originalPassageSentences": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-006",
+      "cardIds": [
+        "A9FD8A"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В №13 есть также устойчивое вводное сочетание может быть. Возможность принять его как ещё один фразеологический ответ зависит от трактовки термина в задании; ключ нет дела сохранён.",
+      "savedAnswer": "нет дела",
+      "possibleAlternatives": [
+        "может быть"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology"
+      ],
+      "originalPassageSentences": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-007",
+      "cardIds": [
+        "AF9D0D"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В том же №22 есть другой устойчивый оборот во что бы то ни стало. Условие просит один фразеологизм, но ключ содержит только как снег на голову. Допустимость альтернативы требует согласования; принимаемые ответы не менялись.",
+      "savedAnswer": "как снег на голову",
+      "possibleAlternatives": [
+        "во что бы то ни стало"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology"
+      ],
+      "originalPassageSentences": [
+        20,
+        21,
+        22
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-008",
+      "cardIds": [
+        "C590CF"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В №5 есть и устойчивое выражение что есть мочи со значением изо всех сил. Возможность принять его как альтернативный ответ требует согласования; ключ со дня на день сохранён.",
+      "savedAnswer": "со дня на день",
+      "possibleAlternatives": [
+        "что есть мочи"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology"
+      ],
+      "originalPassageSentences": [
+        4,
+        5,
+        6
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-009",
+      "cardIds": [
+        "CAC1B8"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В №13 есть кандидаты своими словами и может быть. Их допустимость как иных устойчивых ответов требует уточнения границ фразеологизма в данном задании; ключ до глубины души сохранён.",
+      "savedAnswer": "до глубины души",
+      "possibleAlternatives": [
+        "своими словами",
+        "может быть"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology"
+      ],
+      "originalPassageSentences": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-010",
+      "cardIds": [
+        "E7F8EF"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В №14 есть другой устойчивый оборот само собой, а в №12 — вводное быть может. Требуется согласовать допустимость альтернативных фразеологических ответов; ключ на всём белом свете сохранён.",
+      "savedAnswer": "на всём белом свете",
+      "possibleAlternatives": [
+        "само собой",
+        "быть может"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology"
+      ],
+      "originalPassageSentences": [
+        12,
+        13,
+        14
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK25-ALT-011",
+      "cardIds": [
+        "F15C9D"
+      ],
+      "task": 25,
+      "status": "open",
+      "kind": "possible_alternative_phraseological_answer",
+      "reason": "В №12 есть кандидат не в состоянии со значением не способен. Его допустимость как альтернативного фразеологического ответа требует согласования; ключ сплошь и рядом и принимаемые ответы сохранены.",
+      "savedAnswer": "сплошь и рядом",
+      "possibleAlternatives": [
+        "не в состоянии"
+      ],
+      "sourceIds": [
+        "litnevskaya-lexical-phraseology"
+      ],
+      "originalPassageSentences": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK26-ALT-001",
+      "cardIds": [
+        "22B2FF"
+      ],
+      "task": 26,
+      "status": "open",
+      "kind": "possible_additional_sentence_with_all_requested_links",
+      "reason": "Ключ содержит №6: эта отсылает к поговорке в №5 и поговорка повторяется. Однако №8 также выглядит соответствующим условию: этих в этих случаях обобщает ситуацию праздничных щей с мясом из №7, а кусочки буквально повторено в обоих предложениях. Возможная полнота ответа 6 и 8 требует независимой сверки; ключ 6 и принимаемые ответы сохранены. Объяснение не объявляет №8 заведомо неправильным.",
+      "savedAnswer": "6",
+      "possibleAlternative": "68",
+      "sourceIds": [
+        "litnevskaya-cohesion-text",
+        "litnevskaya-cohesion-pronoun-meaning"
+      ],
+      "originalPassageSentences": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK26-INT-001",
+      "cardIds": [
+        "41186D"
+      ],
+      "task": 26,
+      "status": "open",
+      "kind": "copula_forms_as_cohesion",
+      "reason": "В №9 есть яма — ямы и бурьян — бурьяна: сохранённый ключ подтверждается. В №10 есть было и была после был в №9. Неясно, учитываются ли формы связочного быть как запрошенная связь формами слов; в другой карточке 46631F тот же служебный был включён как лексический повтор. Требуется уточнение полноты ответа, а не автоматическое исправление ключа. Сохранён ключ 9.",
+      "savedAnswer": "9",
+      "sourceIds": [
+        "litnevskaya-cohesion-text"
+      ],
+      "originalPassageSentences": [
+        8,
+        9,
+        10
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK26-INT-002",
+      "cardIds": [
+        "44A99E"
+      ],
+      "task": 26,
+      "status": "open",
+      "kind": "participle_and_finite_verb_forms_as_cohesion",
+      "reason": "Ключ 15 подтверждён формами Щербаку — Щербак из №14–15. Но в №10–11 есть идущей — шла, соотносимые с глаголом идти. При трактовке причастия как формы глагола это возможный дополнительный кандидат №11; нужно уточнить школьную грамматическую трактовку и способ связи. Ответ 15 и принимаемые варианты не менялись.",
+      "savedAnswer": "15",
+      "sourceIds": [
+        "litnevskaya-cohesion-text"
+      ],
+      "originalPassageSentences": [
+        10,
+        11,
+        14,
+        15
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-17",
+      "resolution": null
+    },
+    {
+      "issueId": "TASK26-ALT-002",
+      "cardIds": [
+        "6E2A0F"
+      ],
+      "task": 26,
+      "status": "open",
+      "kind": "possible_additional_sentence_with_word_forms",
+      "reason": "Кроме сохранённых 31 и 33, в паре №25–26 есть слову — слово/словом, формы существительного слово. Возможен дополнительный ответ 26; требуется сверка полноты ключа. Ключ и принимаемые варианты сохранены.",
+      "savedAnswer": "3133",
+      "sourceIds": [
+        "litnevskaya-cohesion-text",
+        "litnevskaya-cohesion-personal-forms"
+      ],
+      "originalPassageSentences": [
+        25,
+        26,
+        30,
+        31,
+        32,
+        33
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-18",
+      "resolution": null,
+      "possibleAdditionalSentence": 26
+    },
+    {
+      "issueId": "TASK26-ALT-003",
+      "cardIds": [
+        "79B0A0"
+      ],
+      "task": 26,
+      "status": "open",
+      "kind": "personal_pronoun_chain_as_additional_link",
+      "reason": "Ключ содержит 15, но №16 начинается он, продолжающим обозначение того же героя после ним в №15. Нужно уточнить, учитывается ли такая местоименная цепочка как дополнительная связь с предыдущим. Ответ 15 и принимаемые варианты сохранены.",
+      "savedAnswer": "15",
+      "sourceIds": [
+        "litnevskaya-cohesion-text",
+        "litnevskaya-cohesion-pronoun-meaning",
+        "litnevskaya-cohesion-personal-forms"
+      ],
+      "originalPassageSentences": [
+        14,
+        15,
+        16
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-18",
+      "resolution": null,
+      "possibleAdditionalSentence": 16
+    },
+    {
+      "issueId": "TASK26-INT-003",
+      "cardIds": [
+        "BA3A4B"
+      ],
+      "task": 26,
+      "status": "open",
+      "kind": "deictic_first_person_vs_anaphoric_link",
+      "reason": "В №33–35 есть я — мной — я; сохранённый ключ выделяет только 40 с заменой ружьё — оно. Нужно уточнить учёт форм первого лица как связи соседних предложений, в отличие от явной анафорической замены названия предмета. Ключ сохранён.",
+      "savedAnswer": "40",
+      "sourceIds": [
+        "litnevskaya-cohesion-text",
+        "litnevskaya-cohesion-pronoun-meaning",
+        "litnevskaya-cohesion-personal-forms"
+      ],
+      "originalPassageSentences": [
+        33,
+        34,
+        35,
+        39,
+        40
+      ],
+      "affectsExplanation": true,
+      "createdAt": "2026-11-18",
+      "resolution": null,
+      "sentencesRequiringInterpretation": [
+        34,
+        35
+      ]
+    },
+    {
+      "issueId": "TASK26-UI-001",
+      "cardIds": [
+        "682A9C"
+      ],
+      "task": 26,
+      "status": "resolved",
+      "kind": "obsolete_progress_block_after_explanation_rewrite",
+      "reason": "В реестре ограничений оставался исторический запрет автопроверки: старое объяснение обосновывало только №2 при ключе 26. Свежий разбор подтверждает обе соседние пары: №1–2 шёл — Шёл, №5–6 он — Он. Заголовок и ключ согласованы, но старый флаг скрывал форму ответа. Устаревшая блокировка снята; исходное замечание сохранено здесь и в историческом журнале.",
+      "savedAnswer": "26",
+      "originalOverride": {
+        "explanationStatus": "conflicts_with_historical_answer",
+        "eligibleForProgress": false,
+        "reason": "В answer и answer_verify записано 26, а объяснение обосновывает только предложение 2. В предложении 6 заявленный лексический повтор не установлен. До предметной/сетевой сверки не менять ответ и не учитывать в закреплении.",
+        "studentMessage": "Ответ и объяснение этой карточки расходятся. Автоматическая проверка временно недоступна."
+      },
+      "sourceIds": [
+        "litnevskaya-cohesion-text"
+      ],
+      "originalPassageSentences": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "affectsExplanation": false,
+      "createdAt": "2026-11-18",
+      "resolution": {
+        "date": "2026-11-18",
+        "answerChanged": false,
+        "questionChanged": false,
+        "explanationChangedDuringValidation": false,
+        "action": "Removed obsolete progress restriction; original restriction archived in this issue.",
+        "evidence": "Fresh task-26 review gives both lexical repetitions and matches preserved answer 26."
+      }
+    }
+  ]
+}

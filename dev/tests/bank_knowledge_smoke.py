@@ -126,7 +126,9 @@ def main():
             assert not page.evaluate('Boolean(window.sourceInjected)')
             page.goto(base+'#card/1A1A4B',wait_until='networkidle')
             page.get_by_role('button',name='Подсказка',exact=True).click()
-            assert 'БЛЕСТ-/БЛИСТ-' in page.locator('#hint').inner_text()
+            expected_hint=json.loads((ROOT/'data/knowledge/card_support.json').read_text())['cards']['1A1A4B']['hint']
+            assert expected_hint in page.locator('#hint').inner_text()
+            assert 'ГОР-' in expected_hint
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()
             assert 'Ряд 5' in page.locator('#explanation').inner_text()
             page.locator('.explanation-sources summary').click()
@@ -135,13 +137,13 @@ def main():
             page.goto(base+'#card/003B4D',wait_until='networkidle')
             page.get_by_role('button',name='Подсказка',exact=True).click()
             hint=page.locator('#hint').inner_text()
-            assert 'Слова уже написаны полностью' in hint
+            assert json.loads((ROOT/'data/knowledge/card_support.json').read_text())['cards']['003B4D']['hint'] in hint
             assert 'пропуск' not in hint
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()
             explanation=page.locator('#explanation').inner_text()
             assert 'Пропущенные буквы' not in explanation
             assert 'шЕлестеть' not in explanation and 'ше́лест' in explanation
-            assert 'се́д' in explanation and 'Ряд 5 — подходит' in explanation
+            assert 'краткая форма седой' in explanation and 'Ряд 5 — подходит' in explanation
             page.locator('.explanation-sources summary').click()
             page.get_by_role('link',name='Ряд 4: Орфография, §34 · Эксмо, 2007',exact=True).click()
             page.locator('[data-source-id="lopatin-2007-orthography-34"]').wait_for()
@@ -151,7 +153,7 @@ def main():
             assert 'симв..лизировать' in page.locator('.options').inner_text()
             page.goto(base+'#card/135475',wait_until='networkidle')
             page.get_by_role('button',name='Подсказка',exact=True).click()
-            assert 'Слова уже написаны полностью' in page.locator('#hint').inner_text()
+            assert json.loads((ROOT/'data/knowledge/card_support.json').read_text())['cards']['135475']['hint'] in page.locator('#hint').inner_text()
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()
             explanation=page.locator('#explanation').inner_text()
             assert 'экза́мен' in explanation and 'Ряд 5 — не подходит' in explanation
@@ -161,7 +163,7 @@ def main():
             page.locator('[data-source-id="lopatin-2007-orthography-35"]').wait_for()
             page.goto(base+'#card/2A9943',wait_until='networkidle')
             page.get_by_role('button',name='Подсказка',exact=True).click()
-            assert 'проверка строится на ударении' in page.locator('#hint').inner_text()
+            assert json.loads((ROOT/'data/knowledge/card_support.json').read_text())['cards']['2A9943']['hint'] in page.locator('#hint').inner_text()
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()
             explanation=page.locator('#explanation').inner_text()
             assert 'экза́мен' in explanation and 'Верно: 3, 4, 5' in explanation

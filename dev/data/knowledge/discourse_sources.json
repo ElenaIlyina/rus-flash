@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-17",
+  "citationLabel": "Стилистический энциклопедический словарь / под ред. М. Н. Кожиной · Флинта, 2016 · статья «Функционально-смысловые типы речи», с. 578–579.",
+  "sources": [
+    {
+      "id": "kozhina-discourse-578",
+      "file": "dev/docs/references/discourse/kozhina-2016-578.txt",
+      "pdfPage": 578,
+      "printedPage": 578,
+      "sourceFile": "../materials_new/Стилистический энциклопедический словарь русского языка ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "sourceFileSha256": "c00cf7350f53aa23e055f270aa4f4deb6026675d50b5a6c5c7ebf288490cd6d0",
+      "textSha256": "f73e1fab530743c75de2404cd7d7b7e307d90fb9d1ac55f08900e7dd926eb188",
+      "snapshotSha256": "c5eb433e2bdfb235dc77212fd688aca0fe254ee797d31dd6b1ba4960cb1339e3",
+      "readMethod": "decoded_pdf_text_and_rendered_page_read",
+      "encodingNote": "Детерминированное декодирование /Gxx по CP1251; проверено по изображению страницы. Оригинальный PDF не изменялся."
+    },
+    {
+      "id": "kozhina-discourse-579",
+      "file": "dev/docs/references/discourse/kozhina-2016-579.txt",
+      "pdfPage": 579,
+      "printedPage": 579,
+      "sourceFile": "../materials_new/Стилистический энциклопедический словарь русского языка ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "sourceFileSha256": "c00cf7350f53aa23e055f270aa4f4deb6026675d50b5a6c5c7ebf288490cd6d0",
+      "textSha256": "4951dd10b1bad122ca2bf249fa4899e0e9334714ed7996a25e4c4cac1045ea1f",
+      "snapshotSha256": "4676c1ab49c5018e72350ab26ddae655b5e3a7bcaa6408c4b2193051f805b9f5",
+      "readMethod": "decoded_pdf_text_and_rendered_page_read",
+      "encodingNote": "Детерминированное декодирование /Gxx по CP1251; проверено по изображению страницы. Оригинальный PDF не изменялся."
+    }
+  ]
+}

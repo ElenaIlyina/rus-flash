@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-17",
+  "scope": "General definitions, not FIPI-specific keys or attestations",
+  "sources": [
+    {
+      "id": "gramota-rhetoric-epitet",
+      "url": "https://gramota.ru/meta/epitet",
+      "htmlSha256": "71e0167a809970cfb949365eddf4574540bffbef925103451352cec67d8987cb",
+      "textSha256": "3eb0c9e2b2f04b39e38e336cf7d079ff6d6a9cc888c6fe2af7d8184024facb00",
+      "file": "dev/docs/references/rhetoric-gramota/epitet.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: эпитет",
+      "snapshotSha256": "f9ad990bc49af26286f6031ed542c5530cf3e46007dc35223c1407a59b62b3fe"
+    },
+    {
+      "id": "gramota-rhetoric-metafora",
+      "url": "https://gramota.ru/meta/metafora",
+      "htmlSha256": "c80165eb22662dd2cd886cb661539f9af287ea8d10b6ad7fc219e55dccac1b7a",
+      "textSha256": "8213805c6a81402571df9b0478935cb31b43405726f6ee7a0b64547693636ce7",
+      "file": "dev/docs/references/rhetoric-gramota/metafora.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: метафора",
+      "snapshotSha256": "58dbd32ff4a7df2ea035b4b0709fab88eb985de9ba6f4c04e94baa6e649aecf7"
+    },
+    {
+      "id": "gramota-rhetoric-metonimiya",
+      "url": "https://gramota.ru/meta/metonimiya",
+      "htmlSha256": "32ad36ed776c7f649d85e13d844ab8850a53b02093b4e2cb2ce9075ee0b09bf9",
+      "textSha256": "4619d893c5d971c0ca7b8b8e7949737d321cfbffc3f95cbded1114ff948b99dc",
+      "file": "dev/docs/references/rhetoric-gramota/metonimiya.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: метонимия",
+      "snapshotSha256": "533d697ee4599178c8a75783ba1f4642c3ae2680d646f8af541a7660c1efcab9"
+    },
+    {
+      "id": "gramota-rhetoric-giperbola",
+      "url": "https://gramota.ru/meta/giperbola",
+      "htmlSha256": "185c3e8ab968af3c6a05133e1ff13009cf1fa5fa3f42ee8e836446172b0da8f8",
+      "textSha256": "eb0a5c2bbdf9bf9aa45bc9d8c72fed2a6595d2744e86a02ac0dc2c10fbb94a6e",
+      "file": "dev/docs/references/rhetoric-gramota/giperbola.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: гипербола",
+      "snapshotSha256": "294d7bae561294e1c6bf6647f4c7337c944d3f80ab9c75eec1acc2a1e09eec1d"
+    },
+    {
+      "id": "gramota-rhetoric-anafora",
+      "url": "https://gramota.ru/meta/anafora",
+      "htmlSha256": "d1be9013a8de6399411fd44c8342d42d2609fb5911dd71e8dcd25c01328a5d82",
+      "textSha256": "1d8a9bcb8db1d815041a434b7894e3f7ae17996a7ae08aa983c0296eb83f340f",
+      "file": "dev/docs/references/rhetoric-gramota/anafora.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: анафора",
+      "snapshotSha256": "0b40304be783136aeb895c64474d12adc491d26179c60ae7d581468d25dfa65f"
+    },
+    {
+      "id": "gramota-rhetoric-epifora",
+      "url": "https://gramota.ru/meta/epifora",
+      "htmlSha256": "3a816a5a847758e51721682ca2562b0a413c5b78828addd73c15f7efbca2d752",
+      "textSha256": "b3ddc73701fefecdc31110c8be057de453707eb0699af301abfc99038b1acd40",
+      "file": "dev/docs/references/rhetoric-gramota/epifora.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: эпифора",
+      "snapshotSha256": "9e7c612ab5f17c00efb559241e1c23c0d6a298067fae4bb795a2aa0905094d73"
+    },
+    {
+      "id": "gramota-rhetoric-gradatsiya",
+      "url": "https://gramota.ru/meta/gradatsiya",
+      "htmlSha256": "73bf379cf7ce6a6ea7d019241eb6e6be6b623bd0b8a179387b343cf517491990",
+      "textSha256": "dde9c59875a2151c4bac4f066d0ae0f72d23f4b4546def2eef8bf7b06a4feb24",
+      "file": "dev/docs/references/rhetoric-gramota/gradatsiya.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: градация",
+      "snapshotSha256": "d0aa1a45fd17c1424b687a58496525f0964a174973be8d0005bf1ab61f736d14"
+    },
+    {
+      "id": "gramota-rhetoric-antiteza",
+      "url": "https://gramota.ru/meta/antiteza",
+      "htmlSha256": "159bf3f8e8e8282d6ba4c718ed3677ebf9e3f857848714fe8866e5c2070c4e93",
+      "textSha256": "fe74ba8caf7a5494d8b189bdbea830f35575755dc62d6fa3d7b89349419db831",
+      "file": "dev/docs/references/rhetoric-gramota/antiteza.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: антитеза",
+      "snapshotSha256": "9e2e13518783761d71992e2183f28dc29635bbfe735c5230ee4dfd9128a900c4"
+    },
+    {
+      "id": "gramota-rhetoric-inversiya",
+      "url": "https://gramota.ru/meta/inversiya",
+      "htmlSha256": "fadbf0d3f7295c3d6c41df14030cff3099f1280335e8523ef394fa4b18006622",
+      "textSha256": "76ea4792b810d6361965f07270be913b243877d788d4638ac71123bfa2c2a445",
+      "file": "dev/docs/references/rhetoric-gramota/inversiya.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: инверсия",
+      "snapshotSha256": "2d6c5380ffb0458cacb4d10a20de24866b9d61e4bcf3deb88ac0e2115a261e3c"
+    },
+    {
+      "id": "gramota-rhetoric-alliteratsiya",
+      "url": "https://gramota.ru/meta/alliteratsiya",
+      "htmlSha256": "6a5a07849043f4b54f70f41a603a23f8c1894178477c5241da0b97340d2b40b9",
+      "textSha256": "695d035ea92096ef3a8bb4f7cdd4170d3695469860bb2fa5feee083b242bd1df",
+      "file": "dev/docs/references/rhetoric-gramota/alliteratsiya.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: аллитерация",
+      "snapshotSha256": "23fa1923d25c0bd071aca5b76b8e8a44cc97a13790eca4cf119e7045178005ed"
+    },
+    {
+      "id": "gramota-rhetoric-assonans",
+      "url": "https://gramota.ru/meta/assonans",
+      "htmlSha256": "98f8ffba0adcc5018b5c1b8bbda4b0fc1a298b3ca39749c5da8c629ec76744f4",
+      "textSha256": "f7f26c53fcf42f5faa348df0c2473536491a2eec8ce8b4343299e27feec9c1bb",
+      "file": "dev/docs/references/rhetoric-gramota/assonans.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: ассонанс",
+      "snapshotSha256": "b433651a3f4e90c6280dc4c88abf4fcc6345aaed6ae68963dcc1ba0dddcd173e"
+    },
+    {
+      "id": "gramota-rhetoric-olitsetvorenie",
+      "url": "https://gramota.ru/meta/olitsetvorenie",
+      "htmlSha256": "3acaa71f841e27ddf2605c3593ebff6c0e84cf6d3badbca4ba881b2dfff62488",
+      "textSha256": "8333a49318b9896c3741725812f280901fcae24d4246d65619fe737ef9d10c3c",
+      "file": "dev/docs/references/rhetoric-gramota/olitsetvorenie.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: олицетворение",
+      "snapshotSha256": "31044bb19aef2ce2d38d4877503a6e3d4b54499ea6f9769af5afec9f79833650"
+    },
+    {
+      "id": "gramota-rhetoric-ritoricheskiy",
+      "url": "https://gramota.ru/meta/ritoricheskiy",
+      "htmlSha256": "01a100b366059bfc729ae938be9126b0b3974a0ed983b446dab87fc4550e4641",
+      "textSha256": "e556dae3fcb2a199a01b48eed75fa062d272ed3882df44d22461b9edc21af426",
+      "file": "dev/docs/references/rhetoric-gramota/ritoricheskiy.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: риторический",
+      "snapshotSha256": "621462b2e2899faff291460a301388b2ff19840378307fbbb8296b51feca3516"
+    },
+    {
+      "id": "gramota-rhetoric-sravnenie",
+      "url": "https://gramota.ru/meta/sravnenie",
+      "htmlSha256": "1e3b8cf36fd614eabbf95e5ea897e3b27461ca15a157f6047196a1564752ba7b",
+      "textSha256": "a9826c27862a7602293da9a836e232b6cc0761932fb6b736ecb9320e7c397c48",
+      "file": "dev/docs/references/rhetoric-gramota/sravnenie.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: сравнение",
+      "snapshotSha256": "9f916ee93c9da4c49b59656efe4443a164661801a9ba14802ed56609381fcca7"
+    },
+    {
+      "id": "gramota-rhetoric-povtor",
+      "url": "https://gramota.ru/meta/povtor",
+      "htmlSha256": "c27f59b54dddb86d292432ec85e6ae83e1377eacd3cb37906f630cefe9086ed4",
+      "textSha256": "653c4775f6fb0b52fd7ff872c0ab25c9030f21e7aa318f7b93c697301ae3f71a",
+      "file": "dev/docs/references/rhetoric-gramota/povtor.txt",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: повтор",
+      "snapshotSha256": "ac5192ea8d6474d7063005ae91e73b840f6f64441b17765e20b6e1273e22d341"
+    },
+    {
+      "id": "nntu-rhetoric-189",
+      "url": "https://www.nntu.ru/frontend/web/ngtu/files/org_structura/library/resurvsy/pervokursnik/irit/rus/osnovn/1.pdf#page=189",
+      "file": "dev/docs/references/rhetoric-gramota/nntu-page-189.txt",
+      "textSha256": "c72bdc047c041a89804cdeff0e6c011cb7fefdc8606eeb58b3f97789fad98f02",
+      "fileSha256": "bc1a50184c09a848d0caba11fbffd95081bc87a6c470ed024210cc81bce5f181",
+      "readMethod": "pdf_text_read",
+      "citationLabel": "Велижанина и др. Русский язык и культура речи · НГТУ, 2010 · с. 189",
+      "snapshotSha256": "c72bdc047c041a89804cdeff0e6c011cb7fefdc8606eeb58b3f97789fad98f02"
+    },
+    {
+      "id": "nntu-rhetoric-190",
+      "url": "https://www.nntu.ru/frontend/web/ngtu/files/org_structura/library/resurvsy/pervokursnik/irit/rus/osnovn/1.pdf#page=190",
+      "file": "dev/docs/references/rhetoric-gramota/nntu-page-190.txt",
+      "textSha256": "6c09e40331b83c4ab97d158d83671ae84cc6e88e94e1897476ce607c1e0c42d1",
+      "fileSha256": "bc1a50184c09a848d0caba11fbffd95081bc87a6c470ed024210cc81bce5f181",
+      "readMethod": "pdf_text_read",
+      "citationLabel": "Велижанина и др. Русский язык и культура речи · НГТУ, 2010 · с. 190",
+      "snapshotSha256": "6c09e40331b83c4ab97d158d83671ae84cc6e88e94e1897476ce607c1e0c42d1"
+    },
+    {
+      "id": "kozhina-rhetoric-39",
+      "url": null,
+      "file": "dev/docs/references/rhetoric-gramota/kozhina-page-39.txt",
+      "sourceFile": "../materials_new/Стилистический энциклопедический словарь русского языка ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "textSha256": "1ede2b57595826ed091dcecedf3c6a28de03e4f6ea5ec7a53a4f5dd8bba16489",
+      "fileSha256": "c00cf7350f53aa23e055f270aa4f4deb6026675d50b5a6c5c7ebf288490cd6d0",
+      "readMethod": "decoded_pdf_text_and_rendered_page_read",
+      "citationLabel": "Стилистический энциклопедический словарь / под ред. М. Н. Кожиной · Флинта, 2016 · с. 39",
+      "snapshotSha256": "1ede2b57595826ed091dcecedf3c6a28de03e4f6ea5ec7a53a4f5dd8bba16489"
+    },
+    {
+      "id": "kozhina-rhetoric-453",
+      "url": null,
+      "file": "dev/docs/references/rhetoric-gramota/kozhina-page-453.txt",
+      "sourceFile": "../materials_new/Стилистический энциклопедический словарь русского языка ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "textSha256": "ff9c3160675541c7b8c0967d785756de40b1d5a974ad688b77bc4e26ccb5a31f",
+      "fileSha256": "c00cf7350f53aa23e055f270aa4f4deb6026675d50b5a6c5c7ebf288490cd6d0",
+      "readMethod": "decoded_pdf_text_and_rendered_page_read",
+      "citationLabel": "Стилистический энциклопедический словарь / под ред. М. Н. Кожиной · Флинта, 2016 · с. 453",
+      "snapshotSha256": "ff9c3160675541c7b8c0967d785756de40b1d5a974ad688b77bc4e26ccb5a31f"
+    },
+    {
+      "id": "lopatin-rhetoric-1",
+      "url": "#knowledge?source=lopatin-2007-punctuation-1",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-1.txt",
+      "textSha256": "104411d8f66a28b84c0765d3a51aa055a6ba8b8d4ffe2b5b4aa74755d1e3d6ca",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §1",
+      "snapshotSha256": "104411d8f66a28b84c0765d3a51aa055a6ba8b8d4ffe2b5b4aa74755d1e3d6ca"
+    },
+    {
+      "id": "lopatin-rhetoric-9",
+      "url": "#knowledge?source=lopatin-2007-punctuation-9",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-9.txt",
+      "textSha256": "1bbbb0453563479c14cbf4cb500e7df398fe54418385eeaf86e567822cfa1fcd",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §9",
+      "snapshotSha256": "1bbbb0453563479c14cbf4cb500e7df398fe54418385eeaf86e567822cfa1fcd"
+    },
+    {
+      "id": "lopatin-rhetoric-25",
+      "url": "#knowledge?source=lopatin-2007-punctuation-25",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-25.txt",
+      "textSha256": "5c33ad1659a9a702317e74c6a928569cfa907f82ca6c3b7b3220963034d4405c",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §25",
+      "snapshotSha256": "5c33ad1659a9a702317e74c6a928569cfa907f82ca6c3b7b3220963034d4405c"
+    },
+    {
+      "id": "lopatin-rhetoric-26",
+      "url": "#knowledge?source=lopatin-2007-punctuation-26",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-26.txt",
+      "textSha256": "04f8f4b1ac04a812100fce003e5b70371c05dfa03b7f2edffe3bc5f4e2c9a1cb",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §26",
+      "snapshotSha256": "04f8f4b1ac04a812100fce003e5b70371c05dfa03b7f2edffe3bc5f4e2c9a1cb"
+    },
+    {
+      "id": "lopatin-rhetoric-91",
+      "url": "#knowledge?source=lopatin-2007-punctuation-91",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-91.txt",
+      "textSha256": "356ef9f9c70df59b6b369cc6009c149b50684265020f88c83e75023ca9e83deb",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §91",
+      "snapshotSha256": "356ef9f9c70df59b6b369cc6009c149b50684265020f88c83e75023ca9e83deb"
+    },
+    {
+      "id": "lopatin-rhetoric-100",
+      "url": "#knowledge?source=lopatin-2007-punctuation-100",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-100.txt",
+      "textSha256": "4eca0f46c85d4e3e5cde5e25520aeecde8e4ea61dadb79de2b8f3863ea605488",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §100",
+      "snapshotSha256": "4eca0f46c85d4e3e5cde5e25520aeecde8e4ea61dadb79de2b8f3863ea605488"
+    },
+    {
+      "id": "lopatin-rhetoric-133",
+      "url": "#knowledge?source=lopatin-2007-punctuation-133",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-133.txt",
+      "textSha256": "e23eb481576071be8c008f15f6cdce3b57b863a34afc26fcbceb341ce523d031",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §133",
+      "snapshotSha256": "e23eb481576071be8c008f15f6cdce3b57b863a34afc26fcbceb341ce523d031"
+    },
+    {
+      "id": "litnevskaya-lexical-phraseology",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/frazeologizmy",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-phraseology.txt",
+      "textSha256": "aa7a37e6e5e6af6f50b910d59d31432a0b574fe82694f5ff897ec7734c14e0c1",
+      "htmlSha256": "7b0577a8306cb6f4cde11297b91b66037abc5201f50344d5487d4ccff3120f81",
+      "readMethod": "section_text_read",
+      "citationLabel": "Фразеологизмы и их окраска · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "e48704a630f4a2e46ff14719d67e714432e96632746457e63a7a9727a3e0a211"
+    },
+    {
+      "id": "litnevskaya-lexical-synonyms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/sinonimy",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-synonyms.txt",
+      "textSha256": "602d79cb33f135b841ca089df541b5bc52a7251dd6d168369027eca8a2d3613f",
+      "htmlSha256": "dbcc0dab99e48a5ecb4f408d37b540693fa4e0c1c4948fd8531f5a0c2b50f162",
+      "readMethod": "section_text_read",
+      "citationLabel": "Синонимы в языке и контексте · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "353c6c5c7bce5f227d157a74de99d274ac317a228774bebe51c3663b9d985969"
+    },
+    {
+      "id": "litnevskaya-lexical-antonyms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/sinonimy-285",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-antonyms.txt",
+      "textSha256": "a1c47c74a0b7885175b9119318da5f395fa64387bd23b6b2137f09ab333f01c1",
+      "htmlSha256": "cbcef9ec93c68c7ddee5a2f8d6efc88d9f3082ccaffe86114c7a29f0e35be234",
+      "readMethod": "section_text_read",
+      "citationLabel": "Антонимы и противопоставление · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "7c422ee94549409b3251a593ee24c810497db1e331181e3043bdc9b4a666c899"
+    },
+    {
+      "id": "litnevskaya-lexical-register",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/stilisticheskie-plasty-leksiki",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-register.txt",
+      "textSha256": "b9a7faf2fad1c139cdef430c2e97aefcbc6c07c8c9c4fce3c4fd8e108a4642dc",
+      "htmlSha256": "4e246755b50359c41610a6332432da8843def2d287ba1b4850ad829465a70ade",
+      "readMethod": "section_text_read",
+      "citationLabel": "Стилистические пласты лексики · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "961fec67922f007eedee5246165aff1af5edcd3ed8e4f598bab05336613848e6"
+    },
+    {
+      "id": "litnevskaya-lexical-restricted",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/obshcheupotrebitelnaya-leksika-i-leksika-ogranichennogo-upotrebleniya",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-restricted.txt",
+      "textSha256": "87d6350176d33055fa7eee0c327281bd207b22c44ff1f23f564d22433bec8de2",
+      "htmlSha256": "129e108c73a9085a4b07e7c5ee0634565debcc37a7603eeaba01568c9e7b3b92",
+      "readMethod": "section_text_read",
+      "citationLabel": "Общеупотребительная и ограниченная лексика · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "4da9328d09f93c0af8b1f9615d478fd9c941cf76051caa968a08ee7924b3d1fe"
+    },
+    {
+      "id": "litnevskaya-lexical-terms",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/spetsialnaya-leksika",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-lexical-terms.txt",
+      "textSha256": "7203c4eb5ce6fb3de4766906feae3032c4663c0ad1beb4b302a5583b3deba4b1",
+      "htmlSha256": "3fe27ca6e95b528abd3d43291eca1b43b8782e9b24e486d56b76df899a013936",
+      "readMethod": "section_text_read",
+      "citationLabel": "Специальная лексика · Е. И. Литневская, Грамота.ру",
+      "snapshotSha256": "f453d525d0c88a12459366e4bb0765e869dbb99c5984c0fefbc9a6fdfd02c3c0"
+    },
+    {
+      "id": "lopatin-rhetoric-97",
+      "url": "#knowledge?source=lopatin-2007-punctuation-97",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-97.txt",
+      "textSha256": "6116b96dd23b79afe4e6e83691e1508fb4911c42df9bd08ff8b40f0bd814d2e7",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §97",
+      "snapshotSha256": "6116b96dd23b79afe4e6e83691e1508fb4911c42df9bd08ff8b40f0bd814d2e7"
+    },
+    {
+      "id": "lopatin-rhetoric-101",
+      "url": "#knowledge?source=lopatin-2007-punctuation-101",
+      "file": "dev/docs/references/rhetoric-gramota/lopatin-rhetoric-101.txt",
+      "textSha256": "4989c9cf3078df6fa0cbe0f4c00eb71cea43756477b12a7f677370d3d7d6eb52",
+      "readMethod": "paragraph_text_read",
+      "citationLabel": "Лопатин (ред.), Эксмо, 2007 · пунктуация, §101",
+      "snapshotSha256": "4989c9cf3078df6fa0cbe0f4c00eb71cea43756477b12a7f677370d3d7d6eb52"
+    },
+    {
+      "id": "gramota-rhetoric-ironiya",
+      "url": "https://gramota.ru/meta/ironiya",
+      "file": "dev/docs/references/rhetoric-gramota/ironiya.txt",
+      "textSha256": "40d724c4971caac83a9583bd5e2b1e066ac17827a8ec82507c8d9541436e4257",
+      "snapshotSha256": "94dfab1c386dc591a661a6d71fa52606712e670e53267c4fc5b73b4e83550dcf",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: ирония"
+    },
+    {
+      "id": "gramota-rhetoric-navalivatsya",
+      "url": "https://gramota.ru/meta/navalivatsya",
+      "file": "dev/docs/references/rhetoric-gramota/navalivatsya.txt",
+      "textSha256": "0fd1f8a6bc04aa4001f476a0e90dfb2af19f2b83e89a45c5f09a7c4ee8423901",
+      "snapshotSha256": "8a12cfcd3bae27dd1ca2f6635dec8b666552700f85787f660e913235f59c34c3",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Толковые словари Грамоты: наваливаться"
+    },
+    {
+      "id": "litnevskaya-single",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/odnosostavnoe-predlozhenie-vyrazhenie-glavnogo-chlena-v-nem",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-single.txt",
+      "textSha256": "4009924192446459fd8fe6b90a96b04a76dd503715d1610f574db3d514f976fa",
+      "snapshotSha256": "8b21b08bdaea42863afe20f79748ba38382111a22ebe61b6b6956a2765bbaa37",
+      "readMethod": "section_text_read",
+      "citationLabel": "Е. И. Литневская: односоставное предложение"
+    },
+    {
+      "id": "litnevskaya-personal",
+      "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/opredelenno-lichnye-neopredelenno-lichnye-predlozheniya-obobshchenno-lichnye-predlozheniya",
+      "file": "dev/docs/references/rhetoric-gramota/litnevskaya-personal.txt",
+      "textSha256": "05aac373cbf481c12171091ddb64e0adc1d6a093e018fffc9cf5efebaead472b",
+      "snapshotSha256": "78f0bb8dc30146bf21c48e277c1216629c242f0c2edc38ceaae4c1fe60eaca8c",
+      "readMethod": "section_text_read",
+      "citationLabel": "Е. И. Литневская: определённо-личные и неопределённо-личные предложения"
+    },
+    {
+      "id": "gramota-rhetoric-navalitsya",
+      "url": "https://gramota.ru/meta/navalitsya",
+      "file": "dev/docs/references/rhetoric-gramota/navalitsya.txt",
+      "textSha256": "9629046f7b56a630746934b0fad4c55a5f651955f0064218e660aac8727076fa",
+      "snapshotSha256": "52b5122a5016f4bdaf045c41f993cd76a653c4e4ecaa754d4f39b73bcf115dae",
+      "readMethod": "dictionary_article_text_read",
+      "citationLabel": "Большой толковый словарь на Грамоте: навалиться, значение 5"
+    }
+  ]
+}
