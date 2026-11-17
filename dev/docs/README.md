@@ -84,3 +84,6 @@
 [вопросы и несоответствия](content-audit/explanations-20-26-issues.md).
 
 [Полная проверка ветки №20–26: результаты и исправления](content-audit/explanations-20-26-branch-check.md).
+## Учебные варианты
+
+[Три режима, подбор, баллы и ограничения](exam-variants.md).

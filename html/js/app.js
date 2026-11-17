@@ -1,3 +1,4 @@
+import { createExamController } from "./exam-page.js";
 import { renderGrammarReferences } from "./grammar-sources.js";
 import { filterStressGlossary } from "./stress-glossary.js";
 import { renderStressReferences } from "./stress-list.js";
@@ -29,6 +30,7 @@ const main = document.querySelector("#main");
 const navs = [
   ["study", "Заниматься"],
   ["bank", "Банк заданий"],
+  ["variants", "Варианты"],
   ["progress", "Мой прогресс"],
   ["knowledge", "Справочник"],
 ];
@@ -67,6 +69,7 @@ let catalog,
   renderVersion = 0,
   reveal = false;
 let pendingImport = null;
+let examController;
 const shuffleSeed = Math.floor(Math.random() * 0xffffffff);
 let filter = {
   query: "",
@@ -476,6 +479,10 @@ async function render() {
   }
   try {
     if (path.startsWith("card/")) await renderCard(path.slice(5), version);
+    else if (path === "variants") {
+      examController ||= createExamController({ main, getCatalog: () => catalog, isCurrent: () => route().path === "variants" });
+      await examController.render();
+    }
     else if (path === "bank") renderBank(params);
     else if (path === "progress") renderProgress(params);
     else if (path === "knowledge") await renderKnowledge(params, version);

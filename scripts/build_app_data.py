@@ -166,6 +166,9 @@ def main():
             **({'explanationNeedsSourceReview':True,'explanationReviewNote':entry['explanationReviewNote']} if entry.get('explanationNeedsSourceReview') else {}),
             'hasAnswer':bool(card.get('answer','').strip()),'hasExplanation':bool(public_card.get('explanation','').strip()),
             'hasPassage':bool(text(card.get('text',''))),
+            'passageGroupId':hashlib.sha256(card['text'].strip().encode()).hexdigest()[:24] if card.get('text','').strip() else None,
+            'examTopic':f"task-{task}:" + hashlib.sha256(json.dumps(card.get('kes',[]),ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12],
+            'hasContentIssue':bool(card.get('content_issue','').strip()),
         })
         write(OUT/'cards'/f'{cid}.json',public_card)
     write(OUT/'catalog.json',{'schemaVersion':1,'classificationStatus':'official_fipi_2027_draft','taskNames':names,'cards':catalog})
