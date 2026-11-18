@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import threading
 import sys
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
 
@@ -22,7 +23,7 @@ def main():
     errors = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium' if Path('/usr/bin/chromium').is_file() else None, args=['--no-sandbox'])
+            browser = launch_chromium(p)
             page = browser.new_page(viewport={'width':390,'height':900})
             page.on('pageerror', lambda e: errors.append(str(e)))
             page.goto(base, wait_until='networkidle')
@@ -72,7 +73,8 @@ def main():
                 const p=project(c,events,start+4*H);
                 assert(p.skillTotal===27&&p.covered===4,'stable denominators');
                 assert(Object.values(p.counts).reduce((a,b)=>a+b,0)===c.cards.length,'card partition');
-                assert(!c.cards.find(x=>x.id==='682A9C').eligibleForProgress,'quarantine');
+                const blocked={...c,cards:c.cards.map(x=>x.id===pool[0].id?{...x,eligibleForProgress:false}:x)};
+                assert(project(blocked,[events[0]],start).cardScores.get(pool[0].id)===null,'excluded card is not scored');
                 const simple={...c,cards:c.cards.map(x=>({...x,exerciseKind:'simple'}))};
                 const simpleScore=project(simple,[events[0]],start).groups.find(g=>g.id===5).score;
                 assert(simpleScore<group([events[0]]).score,'simple lower topic weight');

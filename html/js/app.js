@@ -21,7 +21,7 @@ import { orderCards } from "./bank-order.js";
 import { projectProgress, labels } from "./learning.js";
 import { renderGlobalProgress, renderLearningProgress } from "./progress.js";
 import { strategyHint } from "./hints.js";
-import { icon, esc, rich, richExplanation, plain, num } from "./ui.js";
+import { icon, esc, rich, cardExplanation, matchingColumns, plain, num } from "./ui.js";
 import { parseProgress, mergeProgress } from "./progress-transfer.js";
 import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
@@ -123,7 +123,7 @@ function renderStudy() {
   main.innerHTML = `
     <div class="study-intro">
       <section class="hero study-hero" aria-labelledby="hero-title">
-        <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>${renderGlobalProgress(learning())}</div>
+        <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>${renderGlobalProgress(progress)}</div>
       </section>
       <a class="study-poster" href="#card/${candidate.id}" aria-label="Начать заниматься"><div class="poster-face"><span class="poster-art" aria-hidden="true"><svg class="poster-glyph" viewBox="0 0 300 260" fill="none"><g fill="currentColor" transform="rotate(-9 130 130)"><path d="M62 18h27v27H62zM122 18h27v27h-27zM62 72h113v27H90v37h76v27H90v39h85v27H62z"/></g><g fill="#ff7952" transform="rotate(10 220 165)"><path d="M209 99h26l-3 103h-20zM209 216h26v26h-26z"/></g></svg></span><span class="poster-cta">Начать заниматься</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
 
@@ -323,14 +323,16 @@ async function renderCard(id, version) {
   const meta = catalog.cards.find((v) => v.id === id);
   Object.assign(c, meta || {});
   const tags = store.tags(id);
-  const status = learning().cardStates.get(id);
+  const progress = learning();
+  const status = progress.cardStates.get(id);
+  const score = progress.cardScores.get(id);
   const canCheck = Boolean(c.answer && !c.reviewNote);
   main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
     <div class="practice-layout"><article class="exercise"><div class="exercise-header"><div class="exercise-heading"><span class="eyebrow">КАРТОЧКА ${id}</span>${contentIssue(c)}</div><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
-      <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span><span data-learning-score>Оценка карточки: ${learning().cardScores.get(id) === null ? "ещё нет" : learning().cardScores.get(id).toFixed(3)}</span></div>
+      <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span><span data-learning-score>Оценка карточки: ${score === null ? "ещё нет" : score.toFixed(3)}</span></div>
       ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
       ${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}<section class="question-section" aria-labelledby="question-label"><h2 id="question-label">Задание</h2><div class="question-text">${rich(c.instruction)}</div></section>
-      ${c.errors.length && c.sentences.length ? `<div class="matching"><section><h3>Грамматические ошибки</h3>${c.errors.map((x, i) => `<p><b>${"АБВГДЕ"[i] || i + 1}.</b> ${rich(x)}</p>`).join("")}</section><section><h3>Предложения</h3>${c.sentences.map((x, i) => `<p><b>${i + 1}.</b> ${rich(x)}</p>`).join("")}</section></div>` : ""}
+      ${matchingColumns(c)}
       ${c.options.length ? `<fieldset class="options"><legend>${c.responseType === "multiple_choice" ? "Выберите верные варианты" : "Варианты к заданию"}</legend>${c.options.map((x, i) => (c.responseType === "multiple_choice" ? `<label class="option"><input type="checkbox" name="answer-option" value="${i + 1}"><span>${rich(x)}</span></label>` : `<div class="option static-option"><span class="option-number">${i + 1}</span><span>${rich(x)}</span></div>`)).join("")}</fieldset>` : ""}
       <form id="answer-form" class="answer-form">${c.responseType !== "multiple_choice" ? `<label for="answer-input">${c.answer ? "Ваш ответ" : "Ваш ответ для самопроверки"}</label><input id="answer-input" autocomplete="off" placeholder="Введите ответ" ${c.answer ? "required" : ""}>` : ""}<div class="answer-actions">${canCheck ? `<button type="submit" class="button primary">Проверить ${icon("check")}</button>` : '<p class="muted">Автоматическая проверка недоступна: нет эталона или материал требует сверки.</p>'}<button type="button" class="button quiet" data-action="hint">Подсказка</button><button type="button" class="button quiet" data-action="reveal">${c.answer ? (c.task === 5 && !c.hasExplanation ? "Показать ответ" : "Ответ и разбор") : "Открыть разбор"}</button></div></form>
       <section id="hint" class="aside-card" hidden aria-live="polite"></section><div id="answer-feedback" aria-live="polite"></div><button class="text-link" data-action="new-attempt">Начать новую попытку</button><section id="explanation" class="explanation" hidden></section>
@@ -341,7 +343,7 @@ function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanationReviewNote ? `<p class="feedback warning" data-explanation-review>${esc(c.explanationReviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${richExplanation(c.explanation, { markdown: ![23, 24, 25, 26].includes(c.task) })}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${renderGrammarReferences(c.grammarSourceRefs, { kind: c.task === 22 ? "rhetoric" : c.task === 16 ? "punctuation" : [6, 25].includes(c.task) ? "lexical" : [1, 26].includes(c.task) ? "cohesion" : c.task === 7 ? "morphology" : "grammar" })}${renderGrammarReferences(c.styleSourceRefs, { kind: "style" })}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>${[16, 21].includes(c.task) ? "Пунктуация: правила по предложениям" : [17, 18, 19, 20].includes(c.task) ? "Пунктуация: правила по позициям" : c.task === 22 ? "Правила для фрагментов задания" : "Источники по рядам задания"}</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">${[16, 21].includes(c.task) ? "Предложение" : [17, 18, 19, 20].includes(c.task) ? "Позиция" : c.task === 22 ? "Фрагмент" : "Ряд"} ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanationReviewNote ? `<p class="feedback warning" data-explanation-review>${esc(c.explanationReviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${cardExplanation(c.explanation, c.task)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${renderGrammarReferences(c.grammarSourceRefs, { kind: c.task === 22 ? "rhetoric" : c.task === 16 ? "punctuation" : [6, 25].includes(c.task) ? "lexical" : [1, 26].includes(c.task) ? "cohesion" : c.task === 7 ? "morphology" : "grammar" })}${renderGrammarReferences(c.styleSourceRefs, { kind: "style" })}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>${[16, 21].includes(c.task) ? "Пунктуация: правила по предложениям" : [17, 18, 19, 20].includes(c.task) ? "Пунктуация: правила по позициям" : c.task === 22 ? "Правила для фрагментов задания" : "Источники по рядам задания"}</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">${[16, 21].includes(c.task) ? "Предложение" : [17, 18, 19, 20].includes(c.task) ? "Позиция" : c.task === 22 ? "Фрагмент" : "Ряд"} ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -373,12 +375,13 @@ function checkAnswer(event) {
     assisted,
     c.materialVersion || 1,
   );
+  const progress = learning();
   const statusLabel = main.querySelector("[data-learning-status]");
   if (statusLabel)
-    statusLabel.textContent = labels[learning().cardStates.get(c.id)];
+    statusLabel.textContent = labels[progress.cardStates.get(c.id)];
   const scoreLabel = main.querySelector("[data-learning-score]");
   if (scoreLabel) {
-    const value = learning().cardScores.get(c.id);
+    const value = progress.cardScores.get(c.id);
     scoreLabel.textContent =
       "Оценка карточки: " + (value === null ? "ещё нет" : value.toFixed(3));
   }
@@ -418,7 +421,7 @@ function renderProgress(params) {
         return `<div class="topic-progress"><span>${t.name}</span><div class="progress-track"><span style="width:${cards.length ? (count / cards.length) * 100 : 0}%"></span></div><small>${count} / ${cards.length}</small></div>`;
       })
       .join("")}</section>
-    <section class="panel"><div class="section-heading"><div><h2>Последние попытки</h2><p>Ответы сверяются с текущей, ещё не проверенной базой</p></div></div>${
+    <section class="panel"><div class="section-heading"><div><h2>Последние попытки</h2><p>Здесь показан результат, сохранённый в момент каждой попытки.</p></div></div>${
       s.history.length
         ? s.history
             .slice(-8)

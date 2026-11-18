@@ -68,3 +68,15 @@ export function richExplanation(value, options = {}) {
 export const plain = (s) =>
   new DOMParser().parseFromString(s || "", "text/html").body.textContent;
 export const num = (n) => n.toLocaleString("ru-RU");
+
+export function cardExplanation(text, task) {
+  return richExplanation(text, { markdown: ![23, 24, 25, 26].includes(task) });
+}
+
+export function matchingColumns(card) {
+  if (!card.errors.length || !card.sentences.length) return "";
+  const column = (title, items, label) =>
+    `<section><h3>${title}</h3>${items.map((item, index) =>
+      `<p><b>${label(index)}.</b> ${rich(item)}</p>`).join("")}</section>`;
+  return `<div class="matching">${column("Грамматические ошибки", card.errors, i => "АБВГДЕ"[i] || i + 1)}${column("Предложения", card.sentences, i => i + 1)}</div>`;
+}

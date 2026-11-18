@@ -4,6 +4,7 @@ import functools,hashlib,http.server,json,threading
 from collections import Counter
 from urllib.parse import urlsplit, parse_qs
 from pathlib import Path
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
 ROOT=Path(__file__).resolve().parents[2]
@@ -35,7 +36,7 @@ def main():
     threading.Thread(target=server.serve_forever,daemon=True).start();errors=[]
     try:
         with sync_playwright() as p:
-            browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+            browser=launch_chromium(p)
             page=browser.new_page(viewport={'width':390,'height':900});page.on('pageerror',lambda e:errors.append(str(e)))
             for index,review in enumerate(reviews):
                 if index%20==0: print(f'Browser: {index}/{len(reviews)} cards',flush=True)

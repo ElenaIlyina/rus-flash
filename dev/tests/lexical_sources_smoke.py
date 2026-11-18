@@ -1,6 +1,7 @@
 """Task-6 source links, retained keys and pending notes; standalone review table."""
 import functools, hashlib, http.server, json, threading, sys
 from pathlib import Path
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 root = Path(__file__).resolve().parents[2]
 Path('/tmp/wbw-lexical-review').mkdir(exist_ok=True)
@@ -14,7 +15,7 @@ byid = {b['id']: b for b in books}
 errors = []
 try:
     with sync_playwright() as p:
-        browser = p.chromium.launch(executable_path='/usr/bin/chromium' if Path('/usr/bin/chromium').exists() else None, args=['--no-sandbox'])
+        browser = launch_chromium(p)
         page = browser.new_page(viewport={'width': 390, 'height': 900})
         page.on('pageerror', lambda e: errors.append(str(e)))
         for r in reviews:

@@ -5,6 +5,7 @@ import http.server
 import json
 from pathlib import Path
 import threading
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright, expect
 from ui_smoke import QuietHandler
 
@@ -20,7 +21,7 @@ def main():
     threading.Thread(target=server.serve_forever,daemon=True).start();errors=[]
     try:
         with sync_playwright() as p:
-            browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+            browser=launch_chromium(p)
             page=browser.new_page(viewport={'width':390,'height':900});page.on('pageerror',lambda e:errors.append(str(e)))
             base=f'http://127.0.0.1:{server.server_port}/';page.goto(base)
             count=page.evaluate('''async(cases)=>{
@@ -33,7 +34,7 @@ def main():
                 }
                 return cases.length;
             }''',cases);assert count==2069
-            for cid,answer,accepted in [('005141','неизбежность',True),('D30EAB','235',True),('6E2A0F','3133',True),
+            for cid,answer,accepted in [('00EA20','39618',False),('00EA20','39681',True),('005141','неизбежность',True),('D30EAB','235',True),('6E2A0F','3133',True),
                                         ('8CD68D','2526',True),('09C71B','затем',True),('432ADD','а',True),
                                         ('12BBAB','позже',False),('012CAB','лаковым',False)]:
                 page.goto(base+'#card/'+cid);page.locator('#answer-form').wait_for()

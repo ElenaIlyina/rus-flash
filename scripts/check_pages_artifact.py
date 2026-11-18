@@ -70,6 +70,7 @@ def check(root):
         for ref in rule.get('sourceRefs', []):
             if ref['sourceId'] not in source_ids:
                 raise ValueError('Missing source paragraph: ' + ref['sourceId'])
+    dictionary_entries = {}
     for card in catalog['cards']:
         for ref in card.get('explanationSourceRefs', []):
             if ref['sourceId'] not in source_ids: raise ValueError('Missing explanation source for ' + card['id'])
@@ -83,8 +84,12 @@ def check(root):
             if not re.fullmatch(r'[a-z0-9-]+', sid) or not path.is_file():
                 raise ValueError('Missing dictionary source for ' + card['id'])
             if extension == 'json':
-                articles = json.loads(path.read_text())['entries']
-                if not any(a['id'] == ref['entryId'] and a['headword'] == ref['headword'] for a in articles):
+                if sid not in dictionary_entries:
+                    dictionary_entries[sid] = {
+                        (article['id'], article['headword'])
+                        for article in json.loads(path.read_text())['entries']
+                    }
+                if (ref['entryId'], ref['headword']) not in dictionary_entries[sid]:
                     raise ValueError('Missing dictionary article for ' + card['id'])
     lexical = {source['id']:source for source in json.loads((root/'assets/data/lexical-sources.json').read_text())['sources']}
     for sid, source in lexical.items():

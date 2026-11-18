@@ -10,6 +10,7 @@ import http.server
 import json
 from pathlib import Path
 import threading
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -28,11 +29,10 @@ def main():
     server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), functools.partial(QuietHandler, directory=str(ROOT / 'html')))
     threading.Thread(target=server.serve_forever, daemon=True).start()
     base = f'http://127.0.0.1:{server.server_port}'
-    executable = args.chromium or ('/usr/bin/chromium' if Path('/usr/bin/chromium').is_file() else None)
     errors, checked = [], 0
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path=executable, args=['--no-sandbox'])
+            browser = launch_chromium(p, args.chromium)
             for width in (1440, 390):
                 context = browser.new_context(viewport={'width':width, 'height':1000})
                 page = context.new_page()

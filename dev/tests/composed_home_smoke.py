@@ -5,6 +5,7 @@ import http.server
 from pathlib import Path
 import sys
 import threading
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
 
@@ -22,7 +23,7 @@ def main():
     errors = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+            browser = launch_chromium(p)
             page = browser.new_page()
             page.on('pageerror', lambda error: errors.append(str(error)))
             folder = Path('/tmp/rus-flash-screenshots/home')
@@ -58,7 +59,9 @@ def main():
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
                 if width > 760:
                     assert page.locator('.sidebar').bounding_box()['width'] == 84
-                    assert page.locator('#desktop-nav a[aria-label]').count() == 4
+                    assert set(page.locator('#desktop-nav a[aria-label]').evaluate_all(
+                        '(links) => links.map(link => link.hash)'
+                    )) == {'#study', '#bank', '#variants', '#progress', '#knowledge'}
                 if width == 1440:
                     note = page.locator('.topic-note').first
                     before_motion = note.evaluate('e => { const m = new DOMMatrix(getComputedStyle(e).transform); return [m.a,m.b,m.c,m.d,m.f]; }')

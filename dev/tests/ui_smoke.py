@@ -10,10 +10,10 @@ import json
 from pathlib import Path
 import sys
 import threading
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
-import sys
 sys.path.insert(0,str(ROOT/'dev/scripts'))
 sys.path.insert(0,str(ROOT/'scripts'))
 
@@ -34,7 +34,7 @@ def main():
     checks = 0
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+            browser = launch_chromium(p)
             context = browser.new_context(viewport={'width': 1440, 'height': 1100})
             page = context.new_page()
             page.on('pageerror', lambda e: errors.append(str(e)))

@@ -87,3 +87,5 @@
 ## Учебные варианты
 
 [Три режима, подбор, баллы и ограничения](exam-variants.md).
+
+[Комплексное ревью приложения · 18.11.2026](content-audit/project-review.md) · [Вопросы для предметной проверки и решения автора](content-audit/project-review-human-questions.md).

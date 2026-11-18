@@ -5,6 +5,7 @@ import http.server
 import json
 from pathlib import Path
 import threading
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
 
@@ -21,7 +22,7 @@ def main():
     errors = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+            browser = launch_chromium(p)
             page = browser.new_page(viewport={'width':390,'height':900})
             page.on('pageerror', lambda error: errors.append(str(error)))
             page.goto(base+'#knowledge?list=paronyms', wait_until='networkidle')

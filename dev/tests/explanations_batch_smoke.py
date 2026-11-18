@@ -5,6 +5,7 @@ import http.server
 import json
 from pathlib import Path
 import threading
+from browser_support import launch_chromium
 from playwright.sync_api import sync_playwright
 from ui_smoke import QuietHandler
 
@@ -24,7 +25,7 @@ def main():
     cases.update(['8C38AE', 'B5E8E4', 'BD75A1', '55C0E8', 'BF989E', '1A8A12', '4ED72E', '8C2046', 'D9E1DD'])
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(executable_path='/usr/bin/chromium' if Path('/usr/bin/chromium').is_file() else None, args=['--no-sandbox'])
+            browser = launch_chromium(p)
             page = browser.new_page()
             page.on('pageerror', lambda e: errors.append(str(e)))
             page.on('response', lambda r: failed.append(r.url) if r.status >= 400 else None)
