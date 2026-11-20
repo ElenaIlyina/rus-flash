@@ -9,7 +9,7 @@ import json
 import shutil
 from pathlib import Path
 from card_data import load_cards
-from exam_2027 import mapping, text
+from exam_2027 import mapping, sentence_numbers, text
 from handbook_fb2 import read_handbook, apply_errata
 from dictionary_data import load_sources, public_ref
 from paronym_inventory import inventory as paronym_inventory
@@ -130,7 +130,15 @@ def main():
         task = position['task']
         allowed = task not in {5,6,7} or entry.get('explanationPublished',False)
         public_card = card if allowed else {**card,'explanation':''}
-        basis = {'card':card,'position':position,'assessmentPolicy':'responses-v1'}
+        if task == 26:
+            public_card = {**public_card, 'sentence_numbers': sentence_numbers(card['question'], card['answer'])}
+        if task == 21:
+            public_card = {**public_card, 'answer_type': 'position_set'}
+        # Preserve learner history when only the label for the same mapping changes.
+        version_position = dict(position)
+        if version_position['mappingStatus'] == 'content_mapped_to_specification':
+            version_position['mappingStatus'] = 'content_mapped_to_official_draft'
+        basis = {'card':card,'position':version_position,'assessmentPolicy':'responses-v1'}
         version = max(2,int(hashlib.sha256(json.dumps(basis,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:8],16))
         trusted = bool(card.get('answer_verify','').strip())
         context = task not in {1,2,3,23,24,25,26} or bool(text(card.get('text','')))
@@ -152,6 +160,11 @@ def main():
             comparisons.append({**pair,'words':[{**word,'dictionaryRefs':[public_ref(r,sources) for r in word['dictionaryRefs']]} for word in pair['words']]})
         catalog.append({
             'id':cid,**position,'title':card['question'][:210],
+            'examFormatEligible': (
+                text(card['question']).startswith('напишите сочинение-рассуждение по проблеме') if task == 27 else
+                card['answer'].strip().isdigit() if task in {10, 13, 14} else
+                position['formatStatus'] != 'historical_format'
+            ),
             'skillId':f'task-{task}' if task else None,'hasVerifiedAnswer':trusted,
             'eligibleForProgress':eligible,'materialVersion':version,
             'ruleIds':[p['id'] for p in handbook['paragraphs'] if task in p['tasks']],
@@ -171,7 +184,7 @@ def main():
             'hasContentIssue':bool(card.get('content_issue','').strip()),
         })
         write(OUT/'cards'/f'{cid}.json',public_card)
-    write(OUT/'catalog.json',{'schemaVersion':1,'classificationStatus':'official_fipi_2027_draft','taskNames':names,'cards':catalog})
+    write(OUT/'catalog.json',{'schemaVersion':1,'classificationStatus':'official_fipi_2027_approved','taskNames':names,'cards':catalog})
     print(f'Application data: {len(catalog)} cards; production inputs only')
 
 

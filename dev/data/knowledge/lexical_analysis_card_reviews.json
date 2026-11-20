@@ -7,14 +7,14 @@
     {
       "id": "01D3AC",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "b6bb363358e33e59e74192e2fa5ba43ea860949319a0bbc135ea6041a8b7f5d3",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "319b22e1584f5434d06f13c67a278c817f3b5ff50d0574a632a6d5f544f7f137",
+      "previousExplanationSha256": "42323721aabbd2c1a1ffc5bde09f66fa41660b48d61e2b6ed7a583798c9f6527",
       "answer": "скажи на милость",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Найдите готовую эмоциональную формулу: лесник выражает удивление, а не просит буквально рассказать о добром поступке. Выпишите её целиком.",
       "reason": "В №19 скажи на милость — устойчивое междометное выражение удивления. Оно воспроизводится как готовая формула, а слово милость здесь не называет конкретного благодеяния. Справочник Грамоты отдельно рассматривает это выражение.",
-      "contrast": "В ответе сохраняется форма исходника скажи, без замены на скажите и без добавления соседних И вот. Задание просит один оборот, а не все устойчивые сочетания диапазона.",
+      "contrast": "В ответе сохраняется форма исходника скажи, без замены на скажите и без добавления соседних И вот. Задание просит один оборот, а не все устойчивые сочетания диапазона. В №20 есть второй оборот «не даёт покоя». Слово занимает мысли рассказчика, он снова и снова к нему возвращается.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -79,20 +79,19 @@
           "method": "reference_article_text_read_relevant_extract_saved"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "Сохранён ответ скажи на милость. В №20 есть ещё кандидат не даёт покоя; допустимость альтернативного ответа требует отдельной проверки. Список принимаемых ответов не расширялся."
+      "sourceReviewPending": false
     },
     {
       "id": "05AC9F",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "57dfec9f500b8c0c1046f9c3ee98db15352d7eff1e918ea7022ad5bb38aa6c91",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "349aa2b847b39a2a9dd185637cd24f4995c16487de82af85ee52c1df001875b2",
+      "previousExplanationSha256": "1391542f4bb9fba00312518dbf267bc78c4bb14eac5460d78ba5d5262c0dcbcb",
       "answer": "на всякий случай",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Ищите оборот со смыслом в надежде на возможное стечение обстоятельств. Не надо выписывать всё пояснение после двоеточия.",
       "reason": "На всякий случай в №9 обозначает действие с расчётом на возможную встречу: женщины не знают, окажется ли среди раненых родственник или человек, способный сообщить о нём. Это устойчивое наречное выражение, рассматриваемое в справочнике Грамоты.",
-      "contrast": "Выписывается весь оборот, включая предлог на. Текст после двоеточия раскрывает надежду женщин и объясняет значение оборота в контексте, но не входит в ответ.",
+      "contrast": "Выписывается весь оборот, включая предлог на. Текст после двоеточия раскрывает надежду женщин и объясняет значение оборота в контексте, но не входит в ответ. Подходит и «про чёрный день» из №13. Так говорят о том, что берегут на случай трудностей.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -147,8 +146,16 @@
           "method": "dictionary_article_text_read_relevant_extract_saved"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В диапазоне есть и выражение про чёрный день (№13). Это возможный альтернативный фразеологический ответ; требуется согласовать его допустимость. Сохранён ключ на всякий случай, список принимаемых ответов не изменён."
+      "sourceReviewPending": false,
+      "sourceFormatSync": [
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "0591e126eb64f0d99158157caedc6be5d1d81d947258c4ab52e38eb7062a6970",
+          "sourceContentSha256": "349aa2b847b39a2a9dd185637cd24f4995c16487de82af85ee52c1df001875b2",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
+        }
+      ]
     },
     {
       "id": "065D97",
@@ -463,14 +470,14 @@
     {
       "id": "1DA0CC",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "ca169b522ba285ebfc595777dc105c5b8a89d0eb3e6771ebab824c6ef60d4067",
-      "previousExplanationSha256": "0068cac7469608c07ec093a50ca2edd3eaeb183dc6383b309776c67825b4bd1c",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "895fe7c8e55765069a1df2b44db32115f91dd62e8768199697b1dc733939a8c0",
+      "previousExplanationSha256": "02a94f762bd1374ddd005ff7630c5ae7a0fd9c41e05889b3f35e3babcaeadeda",
       "answer": "шедевров",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Определение указывает на выдающееся произведение, а не на любой результат труда. Найдите соответствующее существительное и сохраните его окончание.",
       "reason": "Шедевр — исключительное по достоинствам произведение искусства, образцовое создание мастера: это значение прямо зафиксировано в словаре. В №32 говорится, что шедевров немного; нужное слово здесь стоит в родительном падеже множественного числа.",
-      "contrast": "В №33 повторено шедеврами, но сохранённый ответ использует форму из №32 — шедевров. Не заменяйте её начальной формой шедевр. Образные сокровища в №34 не являются точным названием, данным в определении.",
+      "contrast": "В №33 стоит творительный падеж множественного числа — «шедеврами». Банк принимает обе формы из текста. Выпишите одну из них.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -505,8 +512,7 @@
           "method": "dictionary_article_text_read_relevant_extract_saved"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В диапазоне есть обе формы одного искомого слова: шедевров (№32) и шедеврами (№33). Ключ содержит только шедевров; допустимость второй формы требует согласования. Ключ и список принимаемых ответов сохранены."
+      "sourceReviewPending": false
     },
     {
       "id": "20C422",
@@ -874,7 +880,7 @@
       "id": "33F7FF",
       "task": 25,
       "reviewDate": "2026-11-17",
-      "sourceContentSha256": "c0e00528e949f40f94a6b54359784ccdb1322a46707ec7915b34d1ff8bb95505",
+      "sourceContentSha256": "35e3dfccbce2bf4d18c0790c04e24fcb2a8aeb932752400c4f17f523e7141361",
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "answer": "хлопот полон рот",
       "status": "assistant_rewritten_source_linked",
@@ -908,6 +914,15 @@
           "sourceId": "gramota-lexical-analysis-rot",
           "textSha256": "b91d5b6fe57b582bdf1725b742b29bb56f0e08b55aa95f8aa56e9483e98c6216",
           "method": "dictionary_article_text_read_relevant_extract_saved"
+        }
+      ],
+      "sourceFormatSync": [
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "c0e00528e949f40f94a6b54359784ccdb1322a46707ec7915b34d1ff8bb95505",
+          "sourceContentSha256": "35e3dfccbce2bf4d18c0790c04e24fcb2a8aeb932752400c4f17f523e7141361",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -1110,7 +1125,7 @@
       "id": "3A969F",
       "task": 25,
       "reviewDate": "2026-11-17",
-      "sourceContentSha256": "a9858160570bedc0ad1d46139b1261346dd0872026e693e1d30f33ce12cb36bc",
+      "sourceContentSha256": "405f9b23eb9c7cc9563380e25c107589319b1d18c84bbfc97a8dcb4d291fc59f",
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "answer": "того и гляди",
       "status": "assistant_rewritten_source_linked",
@@ -1164,6 +1179,15 @@
           "sourceId": "litnevskaya-lexical-phraseology",
           "textSha256": "aa7a37e6e5e6af6f50b910d59d31432a0b574fe82694f5ff897ec7734c14e0c1",
           "method": "section_text_read"
+        }
+      ],
+      "sourceFormatSync": [
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "a9858160570bedc0ad1d46139b1261346dd0872026e693e1d30f33ce12cb36bc",
+          "sourceContentSha256": "405f9b23eb9c7cc9563380e25c107589319b1d18c84bbfc97a8dcb4d291fc59f",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -1484,7 +1508,7 @@
       "id": "5FF50C",
       "task": 25,
       "reviewDate": "2026-11-17",
-      "sourceContentSha256": "72f07810b050e3b5d71e331090e238b37d878351e16c8f298b58524822c8d689",
+      "sourceContentSha256": "287340506d6e4fda6026e8fcdb789cd2535df928ebeb24c400144c7ec170c700",
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "answer": "божьей искрой",
       "status": "assistant_rewritten_source_linked",
@@ -1533,6 +1557,15 @@
           "sourceId": "gramota-lexical-analysis-iskra",
           "textSha256": "4f99964482f4b54e35029af9901a7e8308639f9bacc4840a09e493ff147dcaa7",
           "method": "dictionary_article_text_read_relevant_extract_saved"
+        }
+      ],
+      "sourceFormatSync": [
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "72f07810b050e3b5d71e331090e238b37d878351e16c8f298b58524822c8d689",
+          "sourceContentSha256": "287340506d6e4fda6026e8fcdb789cd2535df928ebeb24c400144c7ec170c700",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -1947,7 +1980,7 @@
       "answer": "лицом к лицу",
       "status": "assistant_rewritten_requires_source_review",
       "hint": "В данном контексте оборот переносный: мысль заставляет человека непосредственно столкнуться с оценкой самого себя. Не представляйте физическую встречу с другим человеком.",
-      "reason": "Лицом к лицу в №2 — устойчивое выражение непосредственного столкновения или встречи. Словарь показывает и пространственное употребление, и употребление при столкновении с опасностью. Здесь мысль о трусости заставляет рассказчика прямо обратиться к собственной личности.",
+      "reason": "Словарь под редакцией Молоткова различает у «лицом к лицу» пространственное значение и переносное значение непосредственного, серьёзного столкновения с чем-либо. В №2 мысль о трусости заставляет рассказчика прямо взглянуть на самого себя. Здесь подходит переносное значение.",
       "contrast": "Подсказка очень близко указывает на общее значение близости, но не вполне раскрывает переносный смысл лицом к лицу с самим собою. Ключ позволяет найти оборот, однако буквальное объяснение физической дистанцией было бы неверным. В ответ входят слова лицом к лицу, без с самим собою.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
@@ -2011,6 +2044,11 @@
           "sourceId": "gramota-lexical-analysis-litso",
           "textSha256": "463fb1973bc73ef8c12947601107fff1ca9a80430edcab089c0031770eda9b79",
           "method": "dictionary_article_text_read_relevant_extract_saved"
+        },
+        {
+          "sourceId": "molotkov-1968-litso-k-litsu",
+          "textSha256": "cedd6a9f9130af8be328762b1697aafa741d6673a87484156b47c6a4f88f5f5a",
+          "method": "dictionary_page_visually_read_with_summary"
         }
       ],
       "sourceReviewPending": true,
@@ -2187,14 +2225,14 @@
     {
       "id": "86E041",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "89781dba4ed055f39b32b150c71b97c9c18e80d378d762184018cb958e98c954",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "d580dcc76708fc7d1beb27f9d798e66bd8228a3cfd73308c9047dfc5cbb6343d",
+      "previousExplanationSha256": "16b02842cc60ddf32e4d22bd4cc9d564ec947afb9126b9c134c9885bdaffc06a",
       "answer": "обратилась в слух",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Найдите образное обозначение полного внимания к звучащим стихам. Вся усиливает выражение, но не входит в сохранённый ответ.",
       "reason": "Обратилась в слух в №32 означает начала слушать очень внимательно, сосредоточилась на чтении. Словарная статья слух фиксирует устойчивое выражение обратиться в слух именно с этим значением.",
-      "contrast": "Девочка не превратилась буквально в орган или способность слуха. Из текста выписывается обратилась в слух — форма женского рода прошедшего времени; слово вся лишь подчёркивает полноту внимания.",
+      "contrast": "Девочка не превратилась буквально в орган или способность слуха. Из текста выписывается обратилась в слух — форма женского рода прошедшего времени; слово вся лишь подчёркивает полноту внимания. В том же предложении есть второй ответ «в голову приходит». Герой вспоминает картину из своей жизни.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -2229,8 +2267,7 @@
           "method": "dictionary_article_text_read_relevant_extract_saved"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В том же №32 есть ещё кандидат в голову приходит. Допустимость этого альтернативного устойчивого выражения требует согласования; ключ обратилась в слух и принимаемые ответы сохранены."
+      "sourceReviewPending": false
     },
     {
       "id": "8DA96F",
@@ -2348,7 +2385,7 @@
       "id": "90588E",
       "task": 25,
       "reviewDate": "2026-11-17",
-      "sourceContentSha256": "d12ac63eb2c72ee4421cd7e62687244ee0d5d8cbd16212f4383d3793522f44cb",
+      "sourceContentSha256": "58098fc728f9ddfdb943730117b0f4de790e2c6cd3275e7d088904f367b14091",
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "answer": "в самом деле",
       "status": "assistant_rewritten_source_linked",
@@ -2412,6 +2449,15 @@
           "sourceId": "litnevskaya-lexical-phraseology",
           "textSha256": "aa7a37e6e5e6af6f50b910d59d31432a0b574fe82694f5ff897ec7734c14e0c1",
           "method": "section_text_read"
+        }
+      ],
+      "sourceFormatSync": [
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "d12ac63eb2c72ee4421cd7e62687244ee0d5d8cbd16212f4383d3793522f44cb",
+          "sourceContentSha256": "58098fc728f9ddfdb943730117b0f4de790e2c6cd3275e7d088904f367b14091",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -2571,14 +2617,14 @@
     {
       "id": "9C4102",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "b4da1001fb2f883bb083cae193d22beb6bbc1c7e205dc9c1eda440b9b97b39cd",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "10bc8acf67f3dc74991b48259f323cfb3764b36a5d508cfe58213283b00ea51e",
+      "previousExplanationSha256": "169c57670b894f670471217331c284a0f0528207182b624a7e245166db6ec7be",
       "answer": "повис на хвосте",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Хвост машины здесь образный. Оборот показывает, что водитель держится слишком близко позади танка.",
       "reason": "Повис на хвосте в №10 означает пристроился вплотную позади впереди идущей машины и не отстаёт от неё. Словарь фиксирует быть, висеть на хвосте у кого как устойчивое образное выражение; контекст уточняет опасно малую дистанцию.",
-      "contrast": "Речь не о буквальном хвосте животного и не о физическом подвешивании самоходки. Сохранённый ответ — повис на хвосте, без слов впереди идущей машины.",
+      "contrast": "Речь не о буквальном хвосте животного и не о физическом подвешивании самоходки. Сохранённый ответ — повис на хвосте, без слов впереди идущей машины. ФИПИ также принимает «в сущности» из №8. Здесь сочетание означает «по сути».",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -2658,8 +2704,7 @@
           "method": "dictionary_article_text_read_relevant_extract_saved"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В диапазоне есть ещё устойчивое вводное сочетание в сущности (№8). Его допустимость как альтернативного фразеологического ответа требует уточнения; ключ повис на хвосте сохранён."
+      "sourceReviewPending": false
     },
     {
       "id": "9DAD30",
@@ -2766,13 +2811,13 @@
     {
       "id": "A9FD8A",
       "task": 25,
-      "reviewDate": "2026-11-17",
+      "reviewDate": "2026-11-18",
       "sourceContentSha256": "25e829943315a8f78cdb8edca92c91b35494ce1d870cba0a5a69498376946574",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "previousExplanationSha256": "18d734fccc217cb931a37a6a58b73bcf22ec25294ec8ec34b611d4ce291367f5",
       "answer": "нет дела",
       "status": "assistant_rewritten_requires_source_review",
       "hint": "Отрицание и существительное разделены другими словами. Найдите ядро выражения, передающего безразличие леса к человеку.",
-      "reason": "Нет дела в №10 означает не интересует, не касается: лес равнодушен к рассказчику. В исходнике компоненты разделены: нет ему до меня никакого дела. В сохранённый ответ входят отрицательное слово и существительное, образующие ядро устойчивой конструкции.",
+      "reason": "Словарь под редакцией Молоткова фиксирует оборот «нет дела кому до кого, до чего». В №10 лесу безразличен рассказчик. В тексте компоненты стоят отдельно: «нет ему до меня никакого дела». В ключ входят два основных слова оборота.",
       "contrast": "Нельзя заменить нет на не: в тексте и ключе именно нет дела. Ему, до меня и никакого уточняют участников и усиливают отрицание; они не включены в сохранённый ответ.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
@@ -2821,10 +2866,15 @@
           "sourceId": "litnevskaya-lexical-phraseology",
           "textSha256": "aa7a37e6e5e6af6f50b910d59d31432a0b574fe82694f5ff897ec7734c14e0c1",
           "method": "section_text_read"
+        },
+        {
+          "sourceId": "molotkov-1968-net-dela",
+          "textSha256": "feca26e43d4231dd0ce8e68d8819caeb689c3d2d595e3fef8efe3bf33a5d3c83",
+          "method": "dictionary_page_visually_read_with_summary"
         }
       ],
       "sourceReviewPending": true,
-      "sourceReviewNote": "В №13 есть также устойчивое вводное сочетание может быть. Возможность принять его как ещё один фразеологический ответ зависит от трактовки термина в задании; ключ нет дела сохранён."
+      "sourceReviewNote": "В №13 сочетание «может быть» выражает предположение. Навигатор ФИПИ для №25 относит такие вводные употребления к фразеологизмам. Банк принимает здесь «нет дела», а строку «может быть» отклоняет. Причина расхождения требует предметной сверки."
     },
     {
       "id": "AD0E15",
@@ -2890,14 +2940,14 @@
     {
       "id": "AF9D0D",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "9692210f089e3ca9c8ffdc5b34c1934e503dacfdf3f6eeaadc7645739b80beab",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "869c629aee7050073220b1ca4607e6e18b53a114022084e45854d1fc2415850e",
+      "previousExplanationSha256": "22bce353e6539a665fb7f8cb3a6d883391e97aba87797fd5daa7c316584846a9",
       "answer": "как снег на голову",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Искомый оборот характеризует неожиданное появление человека, а не снегопад. Выпишите образное сравнение целиком.",
       "reason": "Как снег на голову в №22 означает внезапно, неожиданно, без предупреждения. Маклер сам появляется, не оставляя адреса и телефона, поэтому оборот точно характеризует непредсказуемость его визитов.",
-      "contrast": "Это готовое устойчивое сравнение, а не буквальное сообщение о погоде. В ответ входит весь оборот как снег на голову, включая как и на; слова появляется сам в него не входят.",
+      "contrast": "Это готовое устойчивое сравнение, а не буквальное сообщение о погоде. В ответ входит весь оборот как снег на голову, включая как и на; слова появляется сам в него не входят. В №22 можно выписать и «во что бы то ни стало». Герой должен появиться у Люси при любых обстоятельствах.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -2932,8 +2982,7 @@
           "method": "section_text_read"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В том же №22 есть другой устойчивый оборот во что бы то ни стало. Условие просит один фразеологизм, но ключ содержит только как снег на голову. Допустимость альтернативы требует согласования; принимаемые ответы не менялись."
+      "sourceReviewPending": false
     },
     {
       "id": "B0B76B",
@@ -3259,14 +3308,14 @@
     {
       "id": "C590CF",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "44c49093d1714e54a9cf8f89d9f48f71d4b9bec8057fd1ed820e69a181aaa6f9",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "40f6b6fd4fa6d03fa039c78c9ec7278b7a95d1eae7aeb0dd4be93600003d6561",
+      "previousExplanationSha256": "dd6c56e4d2f7201391f4145042811ddb527b9e9164b6a358e5942261ec6b8dbd",
       "answer": "со дня на день",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Ищите выражение скорого наступления события, срок которого точно не назван. Оно относится к ожиданию прибытия частей.",
       "reason": "Со дня на день в №5 означает в самое ближайшее время, вот-вот. Так передаётся ожидание скорого прихода воинских частей; речь не о переносе дела с одной даты на другую.",
-      "contrast": "Не смешивайте со дня на день с изо дня в день: последнее означает ежедневное повторение. В сохранённом ответе нужны слова со дня на день в точном порядке.",
+      "contrast": "Не смешивайте со дня на день с изо дня в день: последнее означает ежедневное повторение. В сохранённом ответе нужны слова со дня на день в точном порядке. В №5 есть и другой ответ «что есть мочи». Он показывает, как будут защищать Москву — изо всех сил.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -3301,20 +3350,19 @@
           "method": "section_text_read"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В №5 есть и устойчивое выражение что есть мочи со значением изо всех сил. Возможность принять его как альтернативный ответ требует согласования; ключ со дня на день сохранён."
+      "sourceReviewPending": false
     },
     {
       "id": "CAC1B8",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "c369088986ffde2eb99bef472ec1d80c332667881335f748498b130069f3740a",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "f68ddf260699dd5a59bdb17c95fcf24ce426c03bb2d5e760161eebd1c8325511",
+      "previousExplanationSha256": "575513b265c7020d0006ba7356e66a5ab3f5b717ce6cdd4b4d3550a77e708463",
       "answer": "до глубины души",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Найдите выражение очень сильного эмоционального впечатления. Глагол поразила задаёт смысл, но не входит в сохранённый оборот.",
       "reason": "До глубины души в №11 означает чрезвычайно сильно, глубоко затронув чувства. Хозяев удивило, что гостья сразу занялась книгой и не участвовала в общем общении. Это устойчивое образное обозначение силы впечатления.",
-      "contrast": "Душа здесь не имеет буквальной измеримой глубины. Выписываются слова до глубины души, без глагола поразила и без обозначения тех, кого поразило поведение девочки.",
+      "contrast": "Душа здесь не имеет буквальной измеримой глубины. Выписываются слова до глубины души, без глагола поразила и без обозначения тех, кого поразило поведение девочки. В №13 подходят ещё два отдельных ответа. «Своими словами» указывает на пересказ, «может быть» выражает предположение рассказчицы. Впишите один из них или «до глубины души».",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -3354,8 +3402,7 @@
           "method": "section_text_read"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В №13 есть кандидаты своими словами и может быть. Их допустимость как иных устойчивых ответов требует уточнения границ фразеологизма в данном задании; ключ до глубины души сохранён."
+      "sourceReviewPending": false
     },
     {
       "id": "D2F43D",
@@ -3837,14 +3884,14 @@
     {
       "id": "E7F8EF",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "e2105d335dbb63d19382a1f67324d344243fe34afe395f43c7e4fd5988d3b507",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "d0c96e7ab2192f5c34764351858ce2c102fe9f6a70caebe4cda5d0b4450064e7",
+      "previousExplanationSha256": "22e60822d23a8d6b6507e2d13fe4032766b1617a4324ec3f7ff2fb585eacdfe9",
       "answer": "на всём белом свете",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Устойчивое выражение охватывает весь мир. Слово белом здесь образное и входит в состав оборота.",
       "reason": "На всём белом свете в №12 означает во всём мире, где бы то ни было. Включение всего мира усиливает утверждение: родная природа дороже человеку всего остального.",
-      "contrast": "Речь не об освещённой части мира и не о белом цвете предметов. Выписывается весь оборот на всём белом свете, включая предлог и местоимение в форме исходника.",
+      "contrast": "Речь не об освещённой части мира и не о белом цвете предметов. Выписывается весь оборот на всём белом свете, включая предлог и местоимение в форме исходника. Подходит также «само собой» из №14. Чувство возникло естественно. Строку «быть может» из №12 банк для этой карточки отклоняет.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -3879,8 +3926,7 @@
           "method": "section_text_read"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В №14 есть другой устойчивый оборот само собой, а в №12 — вводное быть может. Требуется согласовать допустимость альтернативных фразеологических ответов; ключ на всём белом свете сохранён."
+      "sourceReviewPending": false
     },
     {
       "id": "F10B43",
@@ -3956,14 +4002,14 @@
     {
       "id": "F15C9D",
       "task": 25,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "2d2b97a07e44fa9d7dca99168c1c4d711702b50bc499bb44ae2af0cbed85d2f7",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-18",
+      "sourceContentSha256": "9f3a2d17d03004a295fe0190527954ca020d5d19e99349294146602e17cb6575",
+      "previousExplanationSha256": "c56554e6e50e9cb2a5b27f18fd0a0351e16828cf7e920bc46c205b88746a3882",
       "answer": "сплошь и рядом",
-      "status": "assistant_rewritten_requires_source_review",
+      "status": "assistant_rewritten_source_linked",
       "hint": "Ищите выражение частой повторяемости: рассказчик иронически представляет необычную прозрачность воды как обычное дело.",
       "reason": "Сплошь и рядом в №16 означает очень часто, на каждом шагу. Рассказчик иронизирует над отсутствием удивления товарища: тот будто бы постоянно видит такое и на Москве-реке.",
-      "contrast": "Буквальное пространственное значение рядом не объясняет оборота. Выписывается всё сочетание сплошь и рядом, включая союз и; словам такое возможно отведена другая роль в предложении.",
+      "contrast": "Буквальное пространственное значение рядом не объясняет оборота. Выписывается всё сочетание сплошь и рядом, включая союз и; словам такое возможно отведена другая роль в предложении. В №12 можно выписать «не в состоянии». Герой уже не способен удивляться и восхищаться.",
       "sourceEvidence": {
         "kind": "original_fipi_passage",
         "method": "requested_fragments_and_context_read",
@@ -4008,8 +4054,7 @@
           "method": "section_text_read"
         }
       ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "В №12 есть кандидат не в состоянии со значением не способен. Его допустимость как альтернативного фразеологического ответа требует согласования; ключ сплошь и рядом и принимаемые ответы сохранены."
+      "sourceReviewPending": false
     },
     {
       "id": "F5168B",

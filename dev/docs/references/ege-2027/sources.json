@@ -1,25 +1,25 @@
 {
   "examYear": 2027,
-  "status": "official_fipi_draft",
-  "receivedAt": "2026-10-27",
+  "status": "official_fipi_approved",
+  "receivedAt": "2026-11-20",
   "landingPage": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
   "archiveUrl": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ru_11_2027.zip",
-  "archiveSha256": "b109165272379b897447d980b4e729fa2aa0e1b2a77844693389ee226f19b6b9",
+  "archiveSha256": "6070bfd76cfd7ca0a268b1f4d8a6dcd0c67792050136f4fc5f4115a50e3c2e68",
   "documents": [
     {
       "file": "specification.pdf",
-      "sha256": "a615ab1653a5265dd3d7a39c110c8c94f6c6e0f59b6f3cb060a69008d7a2751a",
-      "status": "ПРОЕКТ"
+      "sha256": "978ecad3c4999c4484f89f8b19e162afa819f81390efafae1e998cd4bad0567b",
+      "status": "УТВЕРЖДЕНО"
     },
     {
       "file": "demo.pdf",
-      "sha256": "a099403e7a0481cb6c87ec3f888ed5f5a9128e2b86c7beda900f7a30b059e673",
-      "status": "ПРОЕКТ"
+      "sha256": "f78fa92a5c94991ba22a6d4edfa59d61f64663282c1ba7c5e95b511d4c422980",
+      "status": "УТВЕРЖДЕНО"
     },
     {
       "file": "codifier.pdf",
-      "sha256": "1888e4318d9d004b483ef9e6dcb7a0bb730577bf9aba6db48680e985995fda3f",
-      "status": "ПРОЕКТ"
+      "sha256": "c5a960f1fd69e3ca4aa8ccc61645680e47a4db2e9db9e2193740f50f04a55830",
+      "status": "УТВЕРЖДЕНО"
     }
   ]
 }

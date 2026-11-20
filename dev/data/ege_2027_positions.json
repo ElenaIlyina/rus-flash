@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "examYear": 2027,
-  "sourceStatus": "official_fipi_draft",
+  "sourceStatus": "official_fipi_approved",
   "sourceRegistry": "../docs/references/ege-2027/sources.json",
   "positions": [
     {
@@ -12,7 +12,7 @@
       ],
       "action": "Самостоятельно подобрать слово требуемой части речи в пропуск текста.",
       "caution": "1.2 встречается и в №26; различать по действию.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 2,
@@ -22,7 +22,7 @@
       ],
       "action": "Выбрать значения выделенных слов, подходящие к контексту.",
       "caution": "Старая словарная статья с одним словом — та же тема, но иной формат.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 3,
@@ -32,7 +32,7 @@
       ],
       "action": "Выбрать верные характеристики текста/фрагмента.",
       "caution": "Не смешивать с анализом типов речи №24.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 4,
@@ -42,7 +42,7 @@
       ],
       "action": "Выбрать слова с верно обозначенным ударением.",
       "caution": "Старая инструкция найти одно неверное ударение требует отметки прежнего формата.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 5,
@@ -52,7 +52,7 @@
       ],
       "action": "Исправить неверно употреблённый пароним.",
       "caution": "Один КЭС с №6, решает формулировка.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 6,
@@ -62,7 +62,7 @@
       ],
       "action": "Отредактировать предложение: заменить слово или исключить лишнее.",
       "caution": "Не относить в №2 только по лексической тематике.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 7,
@@ -72,9 +72,9 @@
         "3.4.2",
         "3.6.3–3.6.7"
       ],
-      "action": "Исправить ошибочную форму слова.",
+      "action": "Исправить грамматическую ошибку и записать верную форму.",
       "caution": "Синтаксические КЭС пересекаются с №8, важен тип действия.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 8,
@@ -84,7 +84,7 @@
       ],
       "action": "Установить соответствие между ошибками и предложениями.",
       "caution": "Ответ — упорядоченные соответствия, не множество цифр.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 9,
@@ -94,7 +94,7 @@
       ],
       "action": "Определить ряды по написаниям в корнях.",
       "caution": "Старая инструкция выписать одно слово — прежний формат.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 10,
@@ -105,7 +105,7 @@
       ],
       "action": "Определить ряды по написаниям приставок, разделительных знаков и Ы/И.",
       "caution": "Комбинация 3.7.3 + 3.7.4 не является основанием относить карточку к №12.",
-      "specificationPrintedPage": 17
+      "specificationPrintedPage": 18
     },
     {
       "number": 11,
@@ -115,7 +115,7 @@
       ],
       "action": "Определить написания обычных суффиксов.",
       "caution": "Код 3.7.5 сам по себе неоднозначен: в №12 он тоже есть.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 12,
@@ -126,7 +126,7 @@
       ],
       "action": "Определить написания глагольных окончаний и суффиксов соответствующих форм.",
       "caution": "Смешение суффиксов и окончаний нельзя автоматически оставлять в №11.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 13,
@@ -136,7 +136,7 @@
       ],
       "action": "Определить написания НЕ/НИ с разными частями речи.",
       "caution": "Выбор точного формата сверять с демоверсией.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 14,
@@ -146,7 +146,7 @@
       ],
       "action": "Определить написания слов разных частей речи.",
       "caution": "Не использовать прежнюю смесь суффиксов/окончаний как основание №14.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 15,
@@ -156,7 +156,7 @@
       ],
       "action": "Указать позиции написания Н/НН.",
       "caution": "Смотреть требуемую букву/сочетание именно в инструкции.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 16,
@@ -167,7 +167,7 @@
       ],
       "action": "Выбрать предложения с требуемым числом запятых.",
       "caution": "Код 3.8.7 пересекается с №19, решает формат.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 17,
@@ -177,7 +177,7 @@
       ],
       "action": "Расставить знаки при обособленных конструкциях.",
       "caution": "Сверять конструкции в предложении, а не только общий КЭС пунктуации.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 18,
@@ -187,7 +187,7 @@
       ],
       "action": "Определить пунктуацию соответствующих конструкций.",
       "caution": "Не смешивать с обособлением или границами сложного предложения.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 19,
@@ -197,7 +197,7 @@
       ],
       "action": "Указать знаки в сложном предложении.",
       "caution": "От №16 отличать по действию и структуре условия.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 20,
@@ -207,7 +207,7 @@
       ],
       "action": "Указать знаки при сочетании разных видов связи.",
       "caution": "Нужен анализ структуры предложения.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 21,
@@ -217,7 +217,7 @@
       ],
       "action": "Найти предложения, где знак объясняется одним правилом.",
       "caution": "Сам факт запятой/тире ещё не задаёт №16–20.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 22,
@@ -229,7 +229,7 @@
       ],
       "action": "Установить соответствие примеров и средств выразительности.",
       "caution": "Старую рецензию с пропусками нельзя выдать за идентичный современный формат.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 23,
@@ -239,7 +239,7 @@
       ],
       "action": "Проверить соответствие утверждений содержанию прочитанного текста.",
       "caution": "Не смешивать с типами речи и логическими отношениями №24.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 24,
@@ -249,7 +249,7 @@
       ],
       "action": "Проверить утверждения о типах речи и смысловых отношениях предложений.",
       "caution": "Даже если в старой карточке стоят КЭС 1.2 или 2, анализировать варианты ответов.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 25,
@@ -259,7 +259,7 @@
       ],
       "action": "Найти/выписать лексическую единицу из указанных предложений.",
       "caution": "Код общий с №2; выписывание из текста отличается от выбора значения.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 26,
@@ -269,7 +269,7 @@
       ],
       "action": "Найти предложения, связанные с предыдущим заданными средствами.",
       "caution": "Не смешивать с подбором пропущенного слова №1.",
-      "specificationPrintedPage": 18
+      "specificationPrintedPage": 19
     },
     {
       "number": 27,
@@ -280,7 +280,7 @@
       ],
       "action": "Написать развёрнутый ответ по исходному тексту.",
       "caution": "Краткий эталон для автоматической проверки неприменим.",
-      "specificationPrintedPage": 19
+      "specificationPrintedPage": 20
     }
   ]
 }

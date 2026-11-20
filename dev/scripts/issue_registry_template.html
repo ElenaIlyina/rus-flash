@@ -3,6 +3,7 @@
 <h1>Единый реестр замечаний и вопросов</h1>
 <p>Карточки, разночтения, вопросы к источникам и история исправлений. Исходные документы сохранены. Здесь индексируются записи, поэтому один вопрос может иметь несколько исторических записей.</p>
 <p><b>«Открыто»</b> — действующий флаг или список предметной проверки. <b>«История: статус требует сверки»</b> — первоначальная запись: она могла быть закрыта позднее, её нельзя считать действующим дефектом. Восстановление текста не означает предметной приёмки объяснения. Для новых замечаний добавляйте запись в исходный журнал и пересобирайте реестр: <code>python3 dev/scripts/build_issue_registry.py</code>.</p>
+<p>Предметная сверка 18.11.2026 · <a href="docs/content-audit/decisions.md">Решения с источниками</a> · <a href="docs/content-audit/remaining.md">Оставшиеся вопросы</a>.</p>
 <nav><input id="search" aria-label="Поиск" placeholder="ID карточки, слово или вопрос"><select id="status" aria-label="Статус"><option value="">Все статусы</option></select><select id="category" aria-label="Раздел"><option value="">Все разделы</option></select></nav>
 <p id="count" role="status"></p><main id="results"></main><button id="more">Показать ещё</button><details><summary>Исходные документы</summary><ul id="sources"></ul></details>
 <script id="data" type="application/json">__DATA__</script><script>

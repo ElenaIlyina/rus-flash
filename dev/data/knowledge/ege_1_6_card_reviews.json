@@ -8,7 +8,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "678f298e1b056dd30850ff3ea6a6d1ee4e94cbefd8422ee6e2427c4fd4def178",
+      "sourceContentSha256": "30a5183fc4c64312c96ef2dbfec8f41f640ebe6340fa1633e0871d94b2612836",
       "explanationSha256": "83160169f7c3fbda1baba0754a5dbe82fd4582f532b52561c7eceeb89f817812",
       "hint": "Условие требует: сочинительный противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…в небольшой компании с одногодками, где тоже многому учатся, [пропуск] уже друг у…».",
       "rows": [],
@@ -41,6 +41,13 @@
           "previousSourceContentSha256": "0f0cb5c95fb61b0e9bea16936c43f6191e5824af038002685c6bfac6594c1ef1",
           "sourceContentSha256": "678f298e1b056dd30850ff3ea6a6d1ee4e94cbefd8422ee6e2427c4fd4def178",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "678f298e1b056dd30850ff3ea6a6d1ee4e94cbefd8422ee6e2427c4fd4def178",
+          "sourceContentSha256": "30a5183fc4c64312c96ef2dbfec8f41f640ebe6340fa1633e0871d94b2612836",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -226,7 +233,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "8c25d352d02e973ebc05f13e3a17edafacbf8b97829f8d81db846d7c5a233478",
+      "sourceContentSha256": "f1dde7b2aa5f469032152ce5a0dbcda72b57d0827912b1db5b70cdee4c8bea8a",
       "explanationSha256": "b925804f59cb1cb49b3481c6e45dabff64e42675373d4d742f16ff2897d523ef",
       "hint": "Условие требует: вводное слово. Определите, вводится ли пример, вывод или оценка достоверности. Учитывайте уже поставленные запятые; не делайте вводное слово членом предложения. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…обычно «привязана» к странам и районам добычи. (3)Этим, [пропуск] , объясняется и то, что в ряде стран Азии, Африки и Латинской…».",
       "rows": [],
@@ -259,6 +266,13 @@
           "previousSourceContentSha256": "94768ca9ee0d0654b487f1acd0435bcb84644d5cf88eebfbf58f86e2fd81246f",
           "sourceContentSha256": "8c25d352d02e973ebc05f13e3a17edafacbf8b97829f8d81db846d7c5a233478",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "8c25d352d02e973ebc05f13e3a17edafacbf8b97829f8d81db846d7c5a233478",
+          "sourceContentSha256": "f1dde7b2aa5f469032152ce5a0dbcda72b57d0827912b1db5b70cdee4c8bea8a",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -297,7 +311,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7d59f07d4137f5722a069646896600836648a1f7b50e1769c1350c84ab18e80c",
+      "sourceContentSha256": "47c9e874c0e52138e1d7cdd3a60ecd03903ffac1601f2944e163048ae10bd2c0",
       "explanationSha256": "bf7ab61e7da5bbd5ff465d563ceb688b84b2316dc6b4d3767a8151c6dfa14573",
       "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…электрических нагревателей, электрочайников, утюгов. (2) [пропуск] в природе существуют удивительные материалы – сверхпроводники,…».",
       "rows": [],
@@ -330,6 +344,13 @@
           "previousSourceContentSha256": "f5934097cab108cc52629e1bc8b79af7ef5405ef1a4fa8df161e99f6cb7a77f0",
           "sourceContentSha256": "7d59f07d4137f5722a069646896600836648a1f7b50e1769c1350c84ab18e80c",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "7d59f07d4137f5722a069646896600836648a1f7b50e1769c1350c84ab18e80c",
+          "sourceContentSha256": "47c9e874c0e52138e1d7cdd3a60ecd03903ffac1601f2944e163048ae10bd2c0",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -439,7 +460,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "5b8830e85b976cded0707521e9e765c512e225b17189d2d2b3d65f8db8cc95f1",
+      "sourceContentSha256": "0b72ecf5cc7001b71b2b6803cd2b8fc49019d0ab3584457fd3d47c7573094737",
       "explanationSha256": "234a64ab38e52a3fee3f5d9d60a6173b7e7c436868bdab88d9ce5e5734de34c6",
       "hint": "Условие требует: наречие времени. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с военной выправкой – сказывались годы сначала в царской, [пропуск] в Красной армии. Постоянную бледность он объяснял тем, что был…».",
       "rows": [],
@@ -493,6 +514,13 @@
           "answerEvidenceLedgerSha256": "04d9f9bef5488061609987dd783fb43ab8fa3713f20a277d25e7c927fb383c9c",
           "previousSourceContentSha256": "930cb84062c92c7d9539bdd7841fc798ce0442650caf499e006ab0e782dcf552",
           "sourceContentSha256": "5b8830e85b976cded0707521e9e765c512e225b17189d2d2b3d65f8db8cc95f1",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "5b8830e85b976cded0707521e9e765c512e225b17189d2d2b3d65f8db8cc95f1",
+          "sourceContentSha256": "0b72ecf5cc7001b71b2b6803cd2b8fc49019d0ab3584457fd3d47c7573094737",
           "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
@@ -740,7 +768,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "a61ae3165c19ee3c7fa16dfede7bec9e8ddcce969b3d1f48e758ede82f3c7b00",
+      "sourceContentSha256": "8ce823ff283f039f2082c787cda14a5bf019061418beb14d4aad4ddd8a88df85",
       "explanationSha256": "8de69888efa872cee17b9aee0495b2fcc6af896f590455cae09016464379067b",
       "hint": "Условие требует: наречие времени. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…с военной выправкой – сказывались годы сначала в царской, [пропуск] в Красной Армии. Постоянную бледность он объяснял тем, что был…».",
       "rows": [],
@@ -780,6 +808,13 @@
           "previousSourceContentSha256": "2e313e8d925ddbc13da55a7498754d946722bb2488f11f884ec8e3e44a4ef638",
           "sourceContentSha256": "a61ae3165c19ee3c7fa16dfede7bec9e8ddcce969b3d1f48e758ede82f3c7b00",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "a61ae3165c19ee3c7fa16dfede7bec9e8ddcce969b3d1f48e758ede82f3c7b00",
+          "sourceContentSha256": "8ce823ff283f039f2082c787cda14a5bf019061418beb14d4aad4ddd8a88df85",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -1261,7 +1296,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "06cdfa98d477d96b406f2a748b1bdc5246b4430dac99bc3a06a1529bcf937ce2",
+      "sourceContentSha256": "fda448263b07aec6e8c23d28a5e892800bb355cdb9608fa0cc5baec51ed8a08b",
       "explanationSha256": "3923eb96830c06f63a812ad8e4ecd13c52dda44d1cecf1235f489e52cde35de0",
       "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…московскими пределами калачами и сайками, был разборчив и не [пропуск] случаем пользовался, где можно деньги нажить. Испокон веков был…».",
       "rows": [],
@@ -1294,6 +1329,13 @@
           "previousSourceContentSha256": "79ce2ab939d4d9377e8cc30370046ee0d4d309970d1d43dda518ac387217ce3a",
           "sourceContentSha256": "06cdfa98d477d96b406f2a748b1bdc5246b4430dac99bc3a06a1529bcf937ce2",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "06cdfa98d477d96b406f2a748b1bdc5246b4430dac99bc3a06a1529bcf937ce2",
+          "sourceContentSha256": "fda448263b07aec6e8c23d28a5e892800bb355cdb9608fa0cc5baec51ed8a08b",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -1610,7 +1652,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "fbe62965ca3b01acb8f1a7d3417626f79c9eaea2a695cdfd24aeb01a3e1109fd",
+      "sourceContentSha256": "fe482615c1155140012a4790a62dd67bf43c08829411e689756f515f36b22f1f",
       "explanationSha256": "80dac941bb11a20a5cc553ee680923d7f17c3e091c36a6d396740cf40ad892e1",
       "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…в своих пьесах. Справедливо или несправедливо – другой вопрос, [пропуск] речь идёт о неписаных кодексах чести, приличия, которых обязан был…».",
       "rows": [],
@@ -1643,6 +1685,13 @@
           "previousSourceContentSha256": "16dc4dfb1f6a16cb6962a196a558ba875958b7bf325eb0ed385fbc34397c423c",
           "sourceContentSha256": "fbe62965ca3b01acb8f1a7d3417626f79c9eaea2a695cdfd24aeb01a3e1109fd",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "fbe62965ca3b01acb8f1a7d3417626f79c9eaea2a695cdfd24aeb01a3e1109fd",
+          "sourceContentSha256": "fe482615c1155140012a4790a62dd67bf43c08829411e689756f515f36b22f1f",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -1838,7 +1887,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "a83164f81f61ec3ec6c5783d6ecf736f8f8f22568d716f11a958397f3acc8cb9",
+      "sourceContentSha256": "0818e6982dc89b27bcadcf47b14f70c02394319bf2496686d6beb87f76183c3a",
       "explanationSha256": "7e1a02ca9e31f2e190fb4777ea571d3220497b3e54deceb938b3d2a4660b02c3",
       "hint": "Условие требует: местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…часто имели хозяйство за пределами города и пользовались [пропуск] , что оно давало. (3)При этом рельеф Греции не благоприятствовал…».",
       "rows": [],
@@ -1871,6 +1920,13 @@
           "previousSourceContentSha256": "cd4855d1b9b660bce2abccbdf449e157aa811d40811398dcf67bcbee90d9b285",
           "sourceContentSha256": "a83164f81f61ec3ec6c5783d6ecf736f8f8f22568d716f11a958397f3acc8cb9",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "a83164f81f61ec3ec6c5783d6ecf736f8f8f22568d716f11a958397f3acc8cb9",
+          "sourceContentSha256": "0818e6982dc89b27bcadcf47b14f70c02394319bf2496686d6beb87f76183c3a",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -1993,7 +2049,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "f59baeb97096a58111ba13c6a7df8e49cac11cfb42215783cc7d29d8a9af7360",
+      "sourceContentSha256": "c85971e1133f53cd77a79f807bf1eeefddd12961a447c5dad1c0dfc20ee6789c",
       "explanationSha256": "a1050d2ce1b0a007e10272aff582ef94dc1f53397768f4ff1da2c5ac9696db83",
       "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…является то, что одна группа нервов ускоряет сердцебиение, [пропуск] другая замедляет его, действуя как своеобразный…».",
       "rows": [],
@@ -2032,6 +2088,13 @@
           "answerEvidenceLedgerSha256": "04d9f9bef5488061609987dd783fb43ab8fa3713f20a277d25e7c927fb383c9c",
           "previousSourceContentSha256": "be1f7712f146e2f0daccdcdb818e4cca544770a75cd043665d7dced2fb831ce4",
           "sourceContentSha256": "f59baeb97096a58111ba13c6a7df8e49cac11cfb42215783cc7d29d8a9af7360",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "f59baeb97096a58111ba13c6a7df8e49cac11cfb42215783cc7d29d8a9af7360",
+          "sourceContentSha256": "c85971e1133f53cd77a79f807bf1eeefddd12961a447c5dad1c0dfc20ee6789c",
           "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
@@ -2304,7 +2367,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "87d0327599e37e0f215cf26f428f8ec1f649ae81c31e1c0c0c499e74a33938d3",
+      "sourceContentSha256": "e62d405727ece3a03ccf6a4c6e088f96d014a4918c246a2b049b9e0f3b6e7f82",
       "explanationSha256": "cf0ec10895c7d0c25fbebd16c485c7b920596e3bde8a3894a2e874585c3ede4e",
       "hint": "Условие требует: сочинительный разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…средств. При переходе дороги и движении по обочинам [пропуск] краю проезжей части в тёмное время суток или в условиях…».",
       "rows": [],
@@ -2337,6 +2400,13 @@
           "previousSourceContentSha256": "a743570f89bd4661d9752cb0dea55cab198f5561e880014fc9ab0276fde67e8b",
           "sourceContentSha256": "87d0327599e37e0f215cf26f428f8ec1f649ae81c31e1c0c0c499e74a33938d3",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "87d0327599e37e0f215cf26f428f8ec1f649ae81c31e1c0c0c499e74a33938d3",
+          "sourceContentSha256": "e62d405727ece3a03ccf6a4c6e088f96d014a4918c246a2b049b9e0f3b6e7f82",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -2522,7 +2592,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "7999ee8bcdedb130657586dae68d500746410c07e0a0779e8346daf47fd23d45",
+      "sourceContentSha256": "3772639248583cc40664027dcc6c513dcf36ae277a20ec600850e3b4aefb9bb2",
       "explanationSha256": "7fd4b2cfd5e2656c7dbb0a397e90ed304132c85c964bfdb1fb6cf089339f5978",
       "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…говорим, является только содержанием речи, темой наших слов. [пропуск] темой может быть, например, «природа», «человек», «придаточное…».",
       "rows": [],
@@ -2555,6 +2625,13 @@
           "previousSourceContentSha256": "0f2b2c16df13b3934c67f53246203599b58f093a0eef2ef8fe9e8edbb5e37a87",
           "sourceContentSha256": "7999ee8bcdedb130657586dae68d500746410c07e0a0779e8346daf47fd23d45",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "7999ee8bcdedb130657586dae68d500746410c07e0a0779e8346daf47fd23d45",
+          "sourceContentSha256": "3772639248583cc40664027dcc6c513dcf36ae277a20ec600850e3b4aefb9bb2",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -2598,7 +2675,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ca08bbed32aba4f6336ad7c0f04cc4ec176c65859a4bd4c6cd60369e411248c4",
+      "sourceContentSha256": "3c7075e415c8efe553f16068137cde95301906f2f17538b9e8e2118b82d2cf59",
       "explanationSha256": "fdf2ee591a001b69f68c37b901cb106503f413f282ae72b4a00e7d829620c087",
       "hint": "Условие требует: подчинительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…свёртывания крови очень сложный и строго последовательный, [пропуск] каждая реакция катализируется ферментом, образующимся в результате…».",
       "rows": [],
@@ -2631,6 +2708,13 @@
           "previousSourceContentSha256": "df7a05744ec68525a60373c8f827c73f871579085a3cd56ccecb11bddde038d5",
           "sourceContentSha256": "ca08bbed32aba4f6336ad7c0f04cc4ec176c65859a4bd4c6cd60369e411248c4",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "ca08bbed32aba4f6336ad7c0f04cc4ec176c65859a4bd4c6cd60369e411248c4",
+          "sourceContentSha256": "3c7075e415c8efe553f16068137cde95301906f2f17538b9e8e2118b82d2cf59",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -2816,7 +2900,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "8f0d8937b3097a18202a0900e86f6b01db2ed703c6e24d60e4fb35834304e36b",
+      "sourceContentSha256": "7dae2f52b7ad15f54b369dc557a66c78a9a524f85494acc484c0769529a21c7d",
       "explanationSha256": "dce5bac86baf9bf4f40d71dfc81754068541646ba171948d27122bf52421b596",
       "hint": "Условие требует: подчинительный уступительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…будет выглядеть «не от мира сего», и легче назвать её святой, [пропуск] её деяния – норма именно для человека. (По М.М.…».",
       "rows": [],
@@ -2857,6 +2941,13 @@
           "previousSourceContentSha256": "5a7ae2f5b699a9177acf356ef95017b97f0739f4aaae120c7f05b25aa94f4ec2",
           "sourceContentSha256": "8f0d8937b3097a18202a0900e86f6b01db2ed703c6e24d60e4fb35834304e36b",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "8f0d8937b3097a18202a0900e86f6b01db2ed703c6e24d60e4fb35834304e36b",
+          "sourceContentSha256": "7dae2f52b7ad15f54b369dc557a66c78a9a524f85494acc484c0769529a21c7d",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -3179,7 +3270,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "96cd56524a711048ee192dfb48ef2b3180ea4b4128809da3f07b90d7de863cb4",
+      "sourceContentSha256": "edc791652487fbd9e344bb1c0d63165aae0f6c95dc0b4c8308311de24e96dc80",
       "explanationSha256": "12604bfc404d28f1106f7377118455b008f4290e0729997fdffc4cef2d1da089",
       "hint": "Условие требует: разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…проекты получения воды путём растапливания айсбергов [пропуск] активного применения процесса опреснения морской воды. (3)Не менее…».",
       "rows": [],
@@ -3212,6 +3303,13 @@
           "previousSourceContentSha256": "822255031c8ae3728f26245d78c59feaa1b8e56bbc22a849ddda0f4bd17e1360",
           "sourceContentSha256": "96cd56524a711048ee192dfb48ef2b3180ea4b4128809da3f07b90d7de863cb4",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "96cd56524a711048ee192dfb48ef2b3180ea4b4128809da3f07b90d7de863cb4",
+          "sourceContentSha256": "edc791652487fbd9e344bb1c0d63165aae0f6c95dc0b4c8308311de24e96dc80",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -3404,7 +3502,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "aa1e4e580fc2890621f998143227d24bba0bd740666f7d8be202051ba565d298",
+      "sourceContentSha256": "6a2c34eb81b4e6e72dd7b302485f7178bf457f9be156321c7350c275e2442f73",
       "explanationSha256": "31c74f4d407bfde98eb406e5e1f4b59e40f438c7d12f8a240da2a05d41d1d780",
       "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…Есть ли вообще в человеке какое-то внутренне устойчивое ядро? [пропуск] феномен может быть осмыслен, по-видимому, двояким способом: либо…».",
       "rows": [],
@@ -3444,6 +3542,13 @@
           "previousSourceContentSha256": "19affe30b112fde7f11ad7cc3c0611f79944cf6bfd8800ced4afdd72d7d5a195",
           "sourceContentSha256": "aa1e4e580fc2890621f998143227d24bba0bd740666f7d8be202051ba565d298",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "aa1e4e580fc2890621f998143227d24bba0bd740666f7d8be202051ba565d298",
+          "sourceContentSha256": "6a2c34eb81b4e6e72dd7b302485f7178bf457f9be156321c7350c275e2442f73",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -3487,7 +3592,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ce8ffb3c1ed911c70cabfcace5c2917da4dd4fe1e19a07c15fd012048aaab114",
+      "sourceContentSha256": "2c126deaa13828813c2f5c6f81fbcf209397198b1b064e85072a0503c936e865",
       "explanationSha256": "d02bc87be3a4c61dc85bf2b53af4ef36149afd5971d90ff255ce8bf76232f78b",
       "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…многое: утрачивается какая-то сторона смысла (чаще всего в [пропуск] случаях ускользает эмоциональная тональность), обедняется…».",
       "rows": [],
@@ -3520,6 +3625,13 @@
           "previousSourceContentSha256": "f59a776b73d447ceef30889027885fa25eaac4274003f77579ad4640a0cd0280",
           "sourceContentSha256": "ce8ffb3c1ed911c70cabfcace5c2917da4dd4fe1e19a07c15fd012048aaab114",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "ce8ffb3c1ed911c70cabfcace5c2917da4dd4fe1e19a07c15fd012048aaab114",
+          "sourceContentSha256": "2c126deaa13828813c2f5c6f81fbcf209397198b1b064e85072a0503c936e865",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -3715,7 +3827,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "3f12b66e437157122efc8c4dbd40a2272827baeabde8c240aaa1625bcd979dac",
+      "sourceContentSha256": "db7afefd298a896e85123d70b1a86b9d96257a6de91cf46a7425e2a344adb508",
       "explanationSha256": "613e4c56e22047f0ff9fce81739f1a455c94512b4de1064a7155b7672b7202f0",
       "hint": "Условие требует: подчинительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…свёртывания крови очень сложный и строго последовательный, [пропуск] каждая реакция катализируется ферментом, образующимся в результате…».",
       "rows": [],
@@ -3748,6 +3860,13 @@
           "previousSourceContentSha256": "d76bfde27f68840b64a23fb15dbcdc2f597cc64be8efb7c263f2ea7e6a764f58",
           "sourceContentSha256": "3f12b66e437157122efc8c4dbd40a2272827baeabde8c240aaa1625bcd979dac",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "3f12b66e437157122efc8c4dbd40a2272827baeabde8c240aaa1625bcd979dac",
+          "sourceContentSha256": "db7afefd298a896e85123d70b1a86b9d96257a6de91cf46a7425e2a344adb508",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -3862,7 +3981,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "dacdf9c81dbdb7980c0b5c573713bcbc426c65cb6f060e533224683f7ccfa9b5",
+      "sourceContentSha256": "7ea8df1593af502e2293eed2c1e53e0270b7f7b73aa0bdefaf98e34dab18f944",
       "explanationSha256": "9f702df0272010f9905230c90f01a61b67c403b62a10e605fca24d3040ad51c1",
       "hint": "Условие требует: уточняющую частицу. Проверьте, что подчёркивается: напоминание об известном или выделение конкретного предмета. Частица не заменяет союз и не называет предмет. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…роль играет нервная система, в том числе блуждающий нерв. (2) [пропуск] центральная нервная система человека, работая автоматически,…».",
       "rows": [],
@@ -3895,6 +4014,13 @@
           "previousSourceContentSha256": "3b120d9c39e0047534d40a55a5c4b0a55219f23034dd54a4ccceb09226f1675f",
           "sourceContentSha256": "dacdf9c81dbdb7980c0b5c573713bcbc426c65cb6f060e533224683f7ccfa9b5",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "dacdf9c81dbdb7980c0b5c573713bcbc426c65cb6f060e533224683f7ccfa9b5",
+          "sourceContentSha256": "7ea8df1593af502e2293eed2c1e53e0270b7f7b73aa0bdefaf98e34dab18f944",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4090,7 +4216,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "ee9e20b093a68157fe5096c1964f3d1a2b9748976e0cdc0ccf580e20b2874951",
+      "sourceContentSha256": "73c0c9286e98f363e09ef3e5fbae84f319049f29b99af34f619c1845a3ff950c",
       "explanationSha256": "506fda32f9c837e7d27f36f5ed032b42fe27213bb5214cb54dfc5bca6b49958d",
       "hint": "Условие требует: указательное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…север, а зимой на юг. (3)Сегодня сохранилось очень малое число [пропуск] особей, поэтому гренландский кит взят под охрану международным…».",
       "rows": [],
@@ -4123,6 +4249,13 @@
           "previousSourceContentSha256": "a64a6f89db6572d3f0faa66ea62f7425b0eccbd36952d8cf943562dce5b02407",
           "sourceContentSha256": "ee9e20b093a68157fe5096c1964f3d1a2b9748976e0cdc0ccf580e20b2874951",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "ee9e20b093a68157fe5096c1964f3d1a2b9748976e0cdc0ccf580e20b2874951",
+          "sourceContentSha256": "73c0c9286e98f363e09ef3e5fbae84f319049f29b99af34f619c1845a3ff950c",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4371,7 +4504,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "3788a4a1857a83ac831f75181a59e54fbb0fee15909fb181515ad7eb8e859a07",
+      "sourceContentSha256": "f08ec5d36c33bef2c078480a038e8d9790260255e7c9cdc7ebf07a324644898a",
       "explanationSha256": "8bddc963df0b33d30254708e858c0c7e1ce1efac9f5478cfd596f5c6cf15612d",
       "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…гиен, в сообществах большинства приматов есть свои вожаки. (3) [пропуск] теперь выяснилось, что у многих животных это соподчинение проведено…».",
       "rows": [],
@@ -4404,6 +4537,13 @@
           "previousSourceContentSha256": "96ba1531b5a163dde03c646c4ea0c743db84e7fc699f13f390bca2568a37f66b",
           "sourceContentSha256": "3788a4a1857a83ac831f75181a59e54fbb0fee15909fb181515ad7eb8e859a07",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "3788a4a1857a83ac831f75181a59e54fbb0fee15909fb181515ad7eb8e859a07",
+          "sourceContentSha256": "f08ec5d36c33bef2c078480a038e8d9790260255e7c9cdc7ebf07a324644898a",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4442,7 +4582,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "09e1292449049b8ac7c54bf20286779226858ffa0e6399e69f8405c4d7fdb4eb",
+      "sourceContentSha256": "fc9ee2c2757a4cb323649e48d920ec55c0bd7f41c91d7964c48e36188079b196",
       "explanationSha256": "1f0f4ee15a2080bae3d17c491af7994aa714d5016f7c10324c79ff3986da9125",
       "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…употреблении языка писал ещё античный комедиограф Аристофан. [пропуск] нынешнее наше существование исполнено речевой агрессии как никогда…».",
       "rows": [],
@@ -4475,6 +4615,13 @@
           "previousSourceContentSha256": "039f2e70ce3c07ddb2f5da0b3201d1b31d42b0892f64b1c9906bdb947d048954",
           "sourceContentSha256": "09e1292449049b8ac7c54bf20286779226858ffa0e6399e69f8405c4d7fdb4eb",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "09e1292449049b8ac7c54bf20286779226858ffa0e6399e69f8405c4d7fdb4eb",
+          "sourceContentSha256": "fc9ee2c2757a4cb323649e48d920ec55c0bd7f41c91d7964c48e36188079b196",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4513,7 +4660,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "28da731a7ec4170fe3212b1343a970f7b8b5a6899b6233e6766ad9f5ebff1c74",
+      "sourceContentSha256": "a42efb153e784c5a005385170854a175128b6b29fcb657dfc9e5324cb9978fb3",
       "explanationSha256": "aa95f1071f9c86e036a4850d3897782c11c19bbfc564384580c3f4483563c567",
       "hint": "Условие требует: противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…После такой беседы мы поняли: покорять Антарктиду трудно, [пропуск] можно. Сразу захотелось поглядеть на эти глубокие трещины. Они…».",
       "rows": [],
@@ -4546,6 +4693,13 @@
           "previousSourceContentSha256": "2ce16657a7eedee211069de001ff663ea1a433de9e004fb0f3127323cfeb77e6",
           "sourceContentSha256": "28da731a7ec4170fe3212b1343a970f7b8b5a6899b6233e6766ad9f5ebff1c74",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "28da731a7ec4170fe3212b1343a970f7b8b5a6899b6233e6766ad9f5ebff1c74",
+          "sourceContentSha256": "a42efb153e784c5a005385170854a175128b6b29fcb657dfc9e5324cb9978fb3",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4665,7 +4819,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "1c37563eb7b478f8c1eed560935d4c48c28b7de46c964c564d968131aada85c5",
+      "sourceContentSha256": "d2e0fc28d1b9170ea0906d7e2ab1daf1839e7c8b30d8484c77fed1d1c46baaa1",
       "explanationSha256": "f4c5a6b152ea5b94cd8dcecf5a963d3433856e5adf479a5872557df5e0981a8d",
       "hint": "Условие требует: сочинительный противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…– парниковый эффект, претендует на статус достоверного. [пропуск] убедительные научные доказательства, подтверждающие это мнение, не…».",
       "rows": [],
@@ -4698,6 +4852,13 @@
           "previousSourceContentSha256": "4c98e13479676b05fd3125fd9ef32987329ce0a314b561f210c3d190b2c6c878",
           "sourceContentSha256": "1c37563eb7b478f8c1eed560935d4c48c28b7de46c964c564d968131aada85c5",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "1c37563eb7b478f8c1eed560935d4c48c28b7de46c964c564d968131aada85c5",
+          "sourceContentSha256": "d2e0fc28d1b9170ea0906d7e2ab1daf1839e7c8b30d8484c77fed1d1c46baaa1",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4736,7 +4897,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "b8eccddab9f58b5106364d55b6133c1e5d21e0b6082dbe3b936988b290083691",
+      "sourceContentSha256": "28b3b8c27cd9e40a7991847455f86c1f6f548767cae04a6e62a8f6f5d86d6132",
       "explanationSha256": "bac9941d115c06edb4e758810f0f7fbdde2bf11dacb8cd1155982d99a627f372",
       "hint": "Условие требует: разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…глюкозу; соответственно, уровень сахара в крови повышается [пропуск] понижается. (3)Любое нарушение в выработке этих гормонов может…».",
       "rows": [],
@@ -4769,6 +4930,13 @@
           "previousSourceContentSha256": "8ddf17bb2079af8ce9f190c06b7c1221377d9b43d8e6f8d312ac35fdd401db54",
           "sourceContentSha256": "b8eccddab9f58b5106364d55b6133c1e5d21e0b6082dbe3b936988b290083691",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "b8eccddab9f58b5106364d55b6133c1e5d21e0b6082dbe3b936988b290083691",
+          "sourceContentSha256": "28b3b8c27cd9e40a7991847455f86c1f6f548767cae04a6e62a8f6f5d86d6132",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -4959,7 +5127,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "afd4a1f566691183aedbbb60fbc02ca3f8bfc3e471207f4c1bca4fee74c10ae5",
+      "sourceContentSha256": "26b7cb063c25396d532ea8d5fa21721e336db089d6faac6a9d4f2982654aaae3",
       "explanationSha256": "47624a2c567d8f51029a4bbfe4cae705d4bf9f900c8b6f8331f891b4e9b677b1",
       "hint": "Условие требует: сочинительный противительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…жилые дома были построены по одному из образцовых проектов. [пропуск] каждый из домов имел своё лицо. Пройдитесь по Сивцеву Вражку или…».",
       "rows": [],
@@ -4992,6 +5160,13 @@
           "previousSourceContentSha256": "5e39b2c53ff4dde269fee6a457ddf22437405b422d462022e7d505a0681577c7",
           "sourceContentSha256": "afd4a1f566691183aedbbb60fbc02ca3f8bfc3e471207f4c1bca4fee74c10ae5",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "afd4a1f566691183aedbbb60fbc02ca3f8bfc3e471207f4c1bca4fee74c10ae5",
+          "sourceContentSha256": "26b7cb063c25396d532ea8d5fa21721e336db089d6faac6a9d4f2982654aaae3",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -5177,7 +5352,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "12f9c213bb6d56c4d4a5aaa36856a3696b1c6f62322fe732a0891f2327caada0",
+      "sourceContentSha256": "4be0e57ddc7580fccb114959cf2fb199bae89651baa8999f32782609909b8c12",
       "explanationSha256": "8a657acca5f97371cf8719a3187bce78b5e78b04a75066d3441fcb32d043c8fa",
       "hint": "Условие требует: разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…мир, выражающий эти объяснения колебаниями звука, жестами [пропуск] письменными знаками. В вечном движении мира действуют свои…».",
       "rows": [],
@@ -5210,6 +5385,13 @@
           "previousSourceContentSha256": "239f30c35c50095f9c5c8442971c3904a7c142c4590d223981c5f06675cb1436",
           "sourceContentSha256": "12f9c213bb6d56c4d4a5aaa36856a3696b1c6f62322fe732a0891f2327caada0",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "12f9c213bb6d56c4d4a5aaa36856a3696b1c6f62322fe732a0891f2327caada0",
+          "sourceContentSha256": "4be0e57ddc7580fccb114959cf2fb199bae89651baa8999f32782609909b8c12",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -5248,7 +5430,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "d6b73d725037bdb73465e3a4c5e6f37e3bcab88023e5e6a11cfbfdf5b83a1138",
+      "sourceContentSha256": "4daf0e24656e8a8d96d931797840bab689bf91421c7e2646d07292848170bcd0",
       "explanationSha256": "8659ae3ccdf7853b781b72736867a5649870d2b86764d2b9ed3d8934e9553e53",
       "hint": "Условие требует: наречие. Установите порядок событий и проверьте, нужно ли обозначить время, причину или способ действия. Не добавляйте лишний союз. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…обработку, в результате чего получается вытяжка целлюлозы, а [пропуск] из полученного раствора выделяют чистую целлюлозу, из которой…».",
       "rows": [],
@@ -5281,6 +5463,13 @@
           "previousSourceContentSha256": "1cf11f839691aada21e762f2f33cd2b099919713d9f71ad809bd0e18e3ad7f9f",
           "sourceContentSha256": "d6b73d725037bdb73465e3a4c5e6f37e3bcab88023e5e6a11cfbfdf5b83a1138",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "d6b73d725037bdb73465e3a4c5e6f37e3bcab88023e5e6a11cfbfdf5b83a1138",
+          "sourceContentSha256": "4daf0e24656e8a8d96d931797840bab689bf91421c7e2646d07292848170bcd0",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -5390,7 +5579,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "fb7286d9ee893c4eaaa7c2ba942bb6cda54b3963b8efbe064dbf45c0b6e61c1d",
+      "sourceContentSha256": "5586a4f959ac445f1a9baa26108872335adc54a9152092ae6bb6c4993656cab9",
       "explanationSha256": "cc88eae18f679824908c32dac2ffe458dc89f1fe3047575282eb6920ad147013",
       "hint": "Условие требует: сочинительный разделительный союз. Определите связь: противопоставление, условие, причину, уступку или выбор. Проверьте, какие слова перед пропуском и после него уже сохранены. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…и еловым грядам всё нипочём, они всё так же надменно молчат [пропуск] грозно и страшно гудят, вздымают свои возмущённые гривы, и тогда…».",
       "rows": [],
@@ -5423,6 +5612,13 @@
           "previousSourceContentSha256": "a40e066432025ed19cfe75287c4ec3f2e49600a8f5db6239dfa3eb512726c285",
           "sourceContentSha256": "fb7286d9ee893c4eaaa7c2ba942bb6cda54b3963b8efbe064dbf45c0b6e61c1d",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "fb7286d9ee893c4eaaa7c2ba942bb6cda54b3963b8efbe064dbf45c0b6e61c1d",
+          "sourceContentSha256": "5586a4f959ac445f1a9baa26108872335adc54a9152092ae6bb6c4993656cab9",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -5939,7 +6135,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "2a0ee1c6a8a60d61c2e34c1d9bd74cd773c0395b2304bbad42a63397262c759a",
+      "sourceContentSha256": "1a76b86e67ccae6a70fc451d83ab7e69d2e08821a58cae7053f2ce26d49d0eb4",
       "explanationSha256": "8e800bb7b32321d7e20295a4c5a6bfd95c0d9f090f01e5bac7983dd6c51461bd",
       "hint": "Условие требует: определительное местоимение. Найдите, к какому предмету или целому сообщению возвращает пропуск. Различите принадлежность, указание и обобщение; падеж определяйте по роли в предложении. Проверьте связь с соседними предложениями, а не только звучание одной фразы. Фрагмент: «…бы составили собой неотъемлемую принадлежность нашего «я». [пропуск] человек представляет собой независимое и обособленное целое. Быть…».",
       "rows": [],
@@ -5972,6 +6168,13 @@
           "previousSourceContentSha256": "9b6f7f63fa9ad207b89be441caf702ddfae3c69a47368dceedea8c432bffbc50",
           "sourceContentSha256": "2a0ee1c6a8a60d61c2e34c1d9bd74cd773c0395b2304bbad42a63397262c759a",
           "correctionLog": "dev/docs/content-audit/full-page-passage-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "2a0ee1c6a8a60d61c2e34c1d9bd74cd773c0395b2304bbad42a63397262c759a",
+          "sourceContentSha256": "1a76b86e67ccae6a70fc451d83ab7e69d2e08821a58cae7053f2ce26d49d0eb4",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ],
@@ -28143,7 +28346,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "08de4865a40973f639073fda06366303a321d3385bb3016c61a16a3c0277e2b2",
-      "explanationSha256": "d0c3142393bc39738d1aca2f974b830fbba5e5c4555aa625532c2fd8387a129c",
+      "explanationSha256": "b63afafee39a05a954d0a4cdf7f6e55d80defd2de21352a52db8b9d3df40079b",
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, поделенный, значимость, прибыв, договоренность. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
       "rows": [],
       "referenceStatus": "fipi_list_forms_notes_and_verified_bank_options_distinguished",
@@ -28182,7 +28385,7 @@
             "normativeForm": "исчЕрпать",
             "correct": true,
             "evidenceType": "verified_fipi_option",
-            "note": "Инфинитив: исче́рпать. Сопоставьте с че́рпать: ударение на е в корне.",
+            "note": "Государственный орфоэпический словарь ИРЯ РАН приводит исчерпа́ть (PDF, с. 444). При разборе этой карточки отдельно учитываем сохранённый ключ ФИПИ.",
             "evidenceDetail": {
               "cardId": "E92465",
               "guid": "DC86B07A356AA47240661D3B6938EA8A",
@@ -28827,7 +29030,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "a8549d9679b87fd3dc975ca500acbe1931eb02a95e0bcca1d0a75f31f638f3ca",
-      "explanationSha256": "5296765dd49bd176a71bfca54453dcf7f6b53edaf1cb2493643441104c11f577",
+      "explanationSha256": "e29a602c0e8d4aac2c5bdd7b3a5a5a91493899c2bf5f25363370fa36c4853f9f",
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, наврала, верна, озлобить, занята. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
       "rows": [],
       "referenceStatus": "fipi_list_forms_notes_and_verified_bank_options_distinguished",
@@ -28866,7 +29069,7 @@
             "normativeForm": "исчЕрпать",
             "correct": false,
             "evidenceType": "verified_fipi_option",
-            "note": "Инфинитив: исче́рпать. Сопоставьте с че́рпать: ударение на е в корне.",
+            "note": "Государственный орфоэпический словарь ИРЯ РАН приводит исчерпа́ть (PDF, с. 444). При разборе этой карточки отдельно учитываем сохранённый ключ ФИПИ.",
             "evidenceDetail": {
               "cardId": "E92465",
               "guid": "DC86B07A356AA47240661D3B6938EA8A",
@@ -28931,7 +29134,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "ae412b6254cfc6becb838f4f18fc821cea54cff94b7c8e98c6deda102894b0db",
-      "explanationSha256": "621401f14a6211c3db43e2a909d67730d44803c236b03ae55b9a07ffd90b74fa",
+      "explanationSha256": "c90ee2a12d26461ed0e0af325e3720517e82f9c58cfaa1444b816941156f56da",
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: повторит, прирученный, начавший, засветло, исчерпать. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
       "rows": [],
       "referenceStatus": "fipi_list_forms_notes_and_verified_bank_options_distinguished",
@@ -29002,7 +29205,7 @@
             "normativeForm": "исчЕрпать",
             "correct": false,
             "evidenceType": "verified_fipi_option",
-            "note": "Инфинитив: исче́рпать. Сопоставьте с че́рпать: ударение на е в корне.",
+            "note": "Государственный орфоэпический словарь ИРЯ РАН приводит исчерпа́ть (PDF, с. 444). При разборе этой карточки отдельно учитываем сохранённый ключ ФИПИ.",
             "evidenceDetail": {
               "cardId": "E92465",
               "guid": "DC86B07A356AA47240661D3B6938EA8A",
@@ -35844,7 +36047,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c",
+      "sourceContentSha256": "29f17d64bd50328e37175e69638425095144628fbf380a4cf89e0b2d4e9d83f0",
       "explanationSha256": "f07bb2ddc07662718f0e66e82defeeb33a6baa4f3742b3e1e439fcac223b5658",
       "hint": "Определите, что нужно выразить: руководящую роль или сосредоточенность интереса к проблеме.",
       "rows": [],
@@ -35895,6 +36098,13 @@
           "previousSourceContentSha256": "880e3e8b0b2c404362a1b8dc2fdab54cae0296eb21f82a3c6269b5b73de84bcc",
           "sourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c",
+          "sourceContentSha256": "29f17d64bd50328e37175e69638425095144628fbf380a4cf89e0b2d4e9d83f0",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ]
@@ -36534,7 +36744,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31",
+      "sourceContentSha256": "6eafb56f9dec3f142bb26f8b75dfd2a8f4d83913718df421b7db30a9f22d47db",
       "explanationSha256": "5cf9e56dc0d965a3ff7a9ae38a7cbbdc539062de60a7804b68c58ffe94ee8f92",
       "hint": "Определите, какой глагол обозначает появление отклика на воздействие, затем согласуйте его со словом «фильм».",
       "rows": [],
@@ -36585,6 +36795,13 @@
           "previousSourceContentSha256": "1eb7a5b17623747d616a8068a18b3058b94ab3aac15cf72ba0c2608c71d6053a",
           "sourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31",
+          "sourceContentSha256": "6eafb56f9dec3f142bb26f8b75dfd2a8f4d83913718df421b7db30a9f22d47db",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ]
@@ -36734,7 +36951,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714",
+      "sourceContentSha256": "7823683a980a5437fcc21c9d5c87f9d3e0418e7d255910ea19c752d637d27382",
       "explanationSha256": "cb48ec7e81c01e311fd2ebaf82c0a0ad65767185582564f2f46c409a497f5ec3",
       "hint": "Оставьте глагол из предложения и вспомните его устойчивое сочетание со словом, обозначающим успех в состязании.",
       "rows": [],
@@ -36785,6 +37002,13 @@
           "previousSourceContentSha256": "f98bf9b3e89b13491083589568d12f9b2117e09ec059d535ea659ef61a6da2a9",
           "sourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714",
+          "sourceContentSha256": "7823683a980a5437fcc21c9d5c87f9d3e0418e7d255910ea19c752d637d27382",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ]
@@ -37022,7 +37246,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f",
+      "sourceContentSha256": "3cbdeb8b78ed69685555340f5ae292d087b53c8febbc0f563bb6925cd79b0dc5",
       "explanationSha256": "b5158854145c36ececb6f4cb4a9f964653ec90fdb8518a1034d96561a1467df0",
       "hint": "Отделите быстроту развития от поспешности решения или поступка и учтите стилистическую окраску слова.",
       "rows": [],
@@ -37073,6 +37297,13 @@
           "previousSourceContentSha256": "e12d9b8ed99f6a73ab7c9af2a0e6e35b83457c35f2ecb0f7cd9a135bb139a647",
           "sourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f",
+          "sourceContentSha256": "3cbdeb8b78ed69685555340f5ae292d087b53c8febbc0f563bb6925cd79b0dc5",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ]
@@ -38793,7 +39024,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "bfd312e908ccd7014e6d0900dc2e1cb49eed1553d719188872b048f5ac6148c8",
-      "explanationSha256": "506d62bda1b5e173fd4f0d4b2c8ba0d33a899f2d1f6eec274584d2a003aefa73",
+      "explanationSha256": "d30f05659aa384eac0532c45d0ca3d7a9c3c92fc56f2825d301869c740ce224a",
       "hint": "Уточните требуемый смысл продолжительности помощи. Не выводите запрет сочетания только из отсутствия примера в короткой статье.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
@@ -38848,7 +39079,7 @@
         "status": "context_scope_pending",
         "answer": "постоянную",
         "editSha256": "7419efd942cb11b6b81e3f0e99e43e02a07afdfc9f63fc0586a7a3b06e67890e",
-        "reason": "В статье помощь словаря сочетаемости приведены постоянная помощь и оказать помощь: замена по ключу подтверждена. Но отсутствие неослабная в этом перечне не является запретом; толкование неослабный допускает характеристику непрерывности. Причину обязательного исправления исходного определения ещё нужно установить.",
+        "reason": "Словарь сочетаемости подтверждает сочетания «постоянная помощь» и «оказать помощь». Толковый словарь государственного языка РФ (СПбГУ, часть А–Н, с. 374) объясняет «неослабный» через «неослабевающий». Это допускает смысл помощи, которая не ослабевает. Причина обязательной замены исходного определения остаётся открытой.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-neoslabnyy",
@@ -38870,7 +39101,7 @@
             "method": "visual_page_read"
           }
         ],
-        "studentNote": "В статье помощь словаря сочетаемости приведены постоянная помощь и оказать помощь: замена по ключу подтверждена. Но отсутствие неослабная в этом перечне не является запретом; толкование неослабный допускает характеристику непрерывности. Причину обязательного исправления исходного определения ещё нужно установить. Ответ проверяется по сохранённому ключу задания."
+        "studentNote": "Словарь сочетаемости подтверждает сочетания «постоянная помощь» и «оказать помощь». Толковый словарь государственного языка РФ (СПбГУ, часть А–Н, с. 374) объясняет «неослабный» через «неослабевающий». Это допускает смысл помощи, которая не ослабевает. Причина обязательной замены исходного определения остаётся открытой. Ответ проверяется по сохранённому ключу задания."
       }
     },
     {
@@ -38948,7 +39179,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861",
+      "sourceContentSha256": "3da5e9c647275052e229283729b30f5feb956fd31577f84610a2aa5c72c372a6",
       "explanationSha256": "1baf2879575b7ed27e4e23d2599ad19a3d7b4caf342c20f2a4413fd0e44566cf",
       "hint": "Перескажите сказуемое через «являются ценными» и подберите глагол для такой характеристики картин.",
       "rows": [],
@@ -38999,6 +39230,13 @@
           "previousSourceContentSha256": "f9027bacdbed6388c43deb758a61c48c4d0a885b441def6de864ecddb23ebddc",
           "sourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861",
+          "sourceContentSha256": "3da5e9c647275052e229283729b30f5feb956fd31577f84610a2aa5c72c372a6",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ]
@@ -39552,7 +39790,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3",
+      "sourceContentSha256": "ff33c0f401d4c6a5979411ff366956f2df12c7d52614c35e73cd943df9884aa0",
       "explanationSha256": "5ab1e6ec90b015efb80a09ebecd14c44a112af7cb6973691221d494ebd969b06",
       "hint": "Сохраните глагол из предложения и проверьте его устойчивую связь с существительным. Не заменяйте сразу оба слова.",
       "rows": [],
@@ -39604,6 +39842,13 @@
           "sourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
           "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3",
+          "sourceContentSha256": "ff33c0f401d4c6a5979411ff366956f2df12c7d52614c35e73cd943df9884aa0",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
+          "subjectReviewRepeated": false
         }
       ]
     },
@@ -39613,7 +39858,7 @@
       "kind": "contextual_explanation",
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
-      "sourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125",
+      "sourceContentSha256": "db88d6c43b20b958da85cda4a11707a6453f774d76cf0d5adb010d590e2b7611",
       "explanationSha256": "d0b67638b7886c001c125250dc2dfe80efb69f84a788567c07f35088c230553c",
       "hint": "Различите результат, которого добиваются, и недостатки, которые уже имеются и должны быть устранены.",
       "rows": [],
@@ -39664,6 +39909,13 @@
           "previousSourceContentSha256": "0be698ad39eb43bc7a44d33bb2c2a0db05651691b65f0626b9a805e6e0a37589",
           "sourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125",
           "correctionLog": "dev/docs/content-audit/raw-format-changes.jsonl",
+          "subjectReviewRepeated": false
+        },
+        {
+          "answerEvidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
+          "previousSourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125",
+          "sourceContentSha256": "db88d6c43b20b958da85cda4a11707a6453f774d76cf0d5adb010d590e2b7611",
+          "correctionLog": "dev/docs/content-audit/verified-answer-import.jsonl",
           "subjectReviewRepeated": false
         }
       ]

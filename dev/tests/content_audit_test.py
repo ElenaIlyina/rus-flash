@@ -53,7 +53,7 @@ class ContentAuditTest(unittest.TestCase):
             self.assertEqual(hashlib.sha256((folder/doc['file']).read_bytes()).hexdigest(),doc['sha256'])
         profile=json.loads((ROOT/'dev/data/ege_2027_positions.json').read_text())
         self.assertEqual([p['number'] for p in profile['positions']],list(range(1,28)))
-        self.assertEqual(profile['sourceStatus'],'official_fipi_draft')
+        self.assertEqual(profile['sourceStatus'],'official_fipi_approved')
 
     def test_review_log_matches_current_explanations(self):
         reviews=json.loads((ROOT/'dev/docs/content-audit/explanation-reviews.json').read_text())['reviews']

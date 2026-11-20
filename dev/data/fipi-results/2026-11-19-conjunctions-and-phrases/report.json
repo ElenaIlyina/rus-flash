@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-11-18T22:16:10+00:00",
+  "status": "finished",
+  "planSha256": "236d66df35c27d867573f7ff1105cf79471d37f8e01c42a61fee45939754d4e0",
+  "project": "AF0ED3F2557F8FFC4C06F80B6803FD26",
+  "endpoint": "https://ege.fipi.ru/bank/solve.php",
+  "results": [
+    {
+      "caseId": "BANK-014016",
+      "cardId": "014016",
+      "guid": "52D052D1A3E18AED462ACC43DB64C2FA",
+      "sourceContentSha256": "bda36766d5ccb07c0d92c910095ce807290a1cd6940de05e38c3cd0a7615041f",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:12+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-0413FB",
+      "cardId": "0413FB",
+      "guid": "12450ED0B6129C434E3D950AABD6B4BF",
+      "sourceContentSha256": "b6bb388cd282c52cb1bdfeccb21213fbdf370e4c4617ca2f234d9dde43ecdb86",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:12+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-3E1E8E",
+      "cardId": "3E1E8E",
+      "guid": "FEC5CC50A345B3874DA9D30532C619CE",
+      "sourceContentSha256": "2557c777fc43f2c4aa9d5a08a74ac20b6fe264fbb68897b18917e1b1cfd72aed",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:13+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-BD18BF",
+      "cardId": "BD18BF",
+      "guid": "44157FD292C190B94851287C6AECAF76",
+      "sourceContentSha256": "a26bec9a81c442d2520161ab0b47f16840d49a26fe05e343b86af112b38036cb",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:14+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-C13CB6",
+      "cardId": "C13CB6",
+      "guid": "4ADE5AF7860FA3B147EFF575B5A73E19",
+      "sourceContentSha256": "10c9cd294d3108644309464d399d3219869247b07dd3f6d61eaf86bfb379d182",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:15+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-C2F0DC",
+      "cardId": "C2F0DC",
+      "guid": "7AA162BC5FACA61D41EEA22EF2D77D09",
+      "sourceContentSha256": "8c34325daa0ca27a800654d0d76785cb49f27834085da6f79802b5038e3da0a6",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:16+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-C89F82",
+      "cardId": "C89F82",
+      "guid": "fa6bf1ad498f4283ab2297f4ee2723e8",
+      "sourceContentSha256": "b631f0c39cb38839645c73780fb4a041e4de30e1529c99fe9a920be5d241ed60",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:17+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-D2DE30",
+      "cardId": "D2DE30",
+      "guid": "e7276cca665141be868256714f7a0727",
+      "sourceContentSha256": "e416d3c1eababaa1e3cc3aff47e90ff504fc34c35dae2d37b1f26fb3f6b8e132",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:18+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-5280BD",
+      "cardId": "5280BD",
+      "guid": "487F628579BFA29B447247F73D8AA579",
+      "sourceContentSha256": "5fa543b3883f6ad3bc15cc9f8bb3ba31b1ddc91edf98146fde93e5e3ae36ce1c",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:19+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-85F64B",
+      "cardId": "85F64B",
+      "guid": "0F418D15605E9BD34EC93D4E2BF59BC3",
+      "sourceContentSha256": "ce5bad50760dab62b1289d7d1cc9fe178cb8073c3a8ca8b0ba8f7bda0de079cf",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:19+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-C93798",
+      "cardId": "C93798",
+      "guid": "BAFEB3948C5DB7FB47A7513287CB5A68",
+      "sourceContentSha256": "ac2b171549aa3ca3a8c7f1c0eec9f136f6018e365472606e47104ba28cc2bbe6",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:20+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-D8A6C7",
+      "cardId": "D8A6C7",
+      "guid": "A739FD87DFCE94874600FEFC64B82F9F",
+      "sourceContentSha256": "a2e09545e60c7f39afb9e0275a68cf54a447fd3320e01ec22fd452eccbbc8e7a",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:21+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-ED40CA",
+      "cardId": "ED40CA",
+      "guid": "ac9072c5154140e18177e1aa43575a4f",
+      "sourceContentSha256": "73236f45e00a0bf829049953f84aae6ae303f75264609f4b41d95a98de3f519c",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:22+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-63DE3A",
+      "cardId": "63DE3A",
+      "guid": "ED97EC8E057AA58F437C7ABD6F5B85B3",
+      "sourceContentSha256": "9340619d1a3bc12ff7591a3dd95b2f555f6f3d80538e4719349d606ff7dee36b",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:23+00:00",
+          "answer": "потому что",
+          "wireAnswer": "потому что",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:24+00:00",
+          "answer": "поскольку",
+          "wireAnswer": "поскольку",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-9F80FC",
+      "cardId": "9F80FC",
+      "guid": "1BAF121EAE45996A4FC4095A06C615FC",
+      "sourceContentSha256": "981aefdd6250347651d8a1d615fc292c14e970589b4c0efa61ca1f6641cdd33e",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:25+00:00",
+          "answer": "потому что",
+          "wireAnswer": "потому что",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:26+00:00",
+          "answer": "поскольку",
+          "wireAnswer": "поскольку",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-1AEE7A",
+      "cardId": "1AEE7A",
+      "guid": "359C9C0469D9991945598DAF7D8DBAB6",
+      "sourceContentSha256": "7d04f5886498ee15649c7f9007e74564111244ff825f4a231574ea8e2eab525f",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:27+00:00",
+          "answer": "каждым",
+          "wireAnswer": "каждым",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:27+00:00",
+          "answer": "любым",
+          "wireAnswer": "любым",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-FBB9F0",
+      "cardId": "FBB9F0",
+      "guid": "11244BAF9E8B9ABB48FA56A4A2652DFA",
+      "sourceContentSha256": "9276454082aebeba3e6c7103c9a6160c281dccccaf66eac27b39d7e1c0b2565b",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:38+00:00",
+          "answer": "каждый",
+          "wireAnswer": "каждый",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:39+00:00",
+          "answer": "любой",
+          "wireAnswer": "любой",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-90B817",
+      "cardId": "90B817",
+      "guid": "5B342FC6BA12A9464AF02C0BA5189332",
+      "sourceContentSha256": "da69f15753d539579eba2296fb53533e6240afcba5b5b6e98bb2024522d1db8f",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:40+00:00",
+          "answer": "каждый",
+          "wireAnswer": "каждый",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:41+00:00",
+          "answer": "любой",
+          "wireAnswer": "любой",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-DED39B",
+      "cardId": "DED39B",
+      "guid": "B747CE470C3387A644137CC236F005D4",
+      "sourceContentSha256": "4679cc65134c34a31ade18dbe8339416331bd1c4a89d13ddb1e48ec6921835f6",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:42+00:00",
+          "answer": "затем",
+          "wireAnswer": "затем",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-12BBAB",
+      "cardId": "12BBAB",
+      "guid": "954464872E2690EF4F1F2C22F367D3F3",
+      "sourceContentSha256": "3b4f437341886f25fe399e7dd88b076142bda812eb4d93b909d94f9097ac10eb",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:43+00:00",
+          "answer": "потом",
+          "wireAnswer": "потом",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-09C71B",
+      "cardId": "09C71B",
+      "guid": "524AB3EC3616AF12459D6CB56B3BC3ED",
+      "sourceContentSha256": "a0f3bac0c0930e31218116bb504bc2508a399b8e7675cc931ffae1973789f935",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:44+00:00",
+          "answer": "потом",
+          "wireAnswer": "потом",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-032DE7",
+      "cardId": "032DE7",
+      "guid": "C236E740BA9DB0C74C709BE1AF8FF8D2",
+      "sourceContentSha256": "f2ec174029ef6ca0f90a2ae1920363c17174711b46326da01467c045e050d101",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:44+00:00",
+          "answer": "в частности",
+          "wireAnswer": "в частности",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-67E825",
+      "cardId": "67E825",
+      "guid": "6D8C3FA5258A8424483A33CBFABBBB80",
+      "sourceContentSha256": "6707de852194c2a2b74d7cc7742d9831b1c19eaaad5118118ea2f7c7f1ef6b64",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:45+00:00",
+          "answer": "хоть",
+          "wireAnswer": "хоть",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected"
+        },
+        {
+          "time": "2026-11-18T22:16:46+00:00",
+          "answer": "несмотря на то что",
+          "wireAnswer": "несмотря на то что",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-3FCABA",
+      "cardId": "3FCABA",
+      "guid": "4E9A191048B788DB45BA87716A022F1B",
+      "sourceContentSha256": "423a0a6ffd4ee3f9791b5ba4a9c912a8abd9313d0ecb68f549d3dd174febceca",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:47+00:00",
+          "answer": "тем",
+          "wireAnswer": "тем",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-A4548C",
+      "cardId": "A4548C",
+      "guid": "F9A8006FA4A28C9B47D6DB385DAF6A9D",
+      "sourceContentSha256": "ab0c6fbd0dc250f55734204f587a088b25b2b37781c6146fe12ed6d30a71b669",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:48+00:00",
+          "answer": "как раз",
+          "wireAnswer": "как раз",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-05AC9F",
+      "cardId": "05AC9F",
+      "guid": "B2198AC79D5285D24E44350FA5C989D6",
+      "sourceContentSha256": "9148968e924e015b13e81123aaaef7fa03f4c48f7f111fc756f1b622f60e4898",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:49+00:00",
+          "answer": "может быть",
+          "wireAnswer": "может быть",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-3A969F",
+      "cardId": "3A969F",
+      "guid": "BE1B9D9BAD09BAAB4516143C315F120B",
+      "sourceContentSha256": "42f55f5bb619cbb62755b8395d1bebf60237a57ba89de529bde277d6f0486bff",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:50+00:00",
+          "answer": "речь идёт",
+          "wireAnswer": "речь идёт",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-5FF50C",
+      "cardId": "5FF50C",
+      "guid": "28A118D62C4A8EBC4AA3D89AE78003BA",
+      "sourceContentSha256": "328262ef5af70eb1e14099216932cb439e66b2a883df62798217085dc66c780f",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:51+00:00",
+          "answer": "между тем",
+          "wireAnswer": "между тем",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-9C4102",
+      "cardId": "9C4102",
+      "guid": "2B60A54A1635BD004A954F5F5D7990E1",
+      "sourceContentSha256": "f05657df57f03a6b69dd993e3889020b2d56ec6cedc0da82ea98ce1f7a2759e8",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:51+00:00",
+          "answer": "на ходу",
+          "wireAnswer": "на ходу",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected"
+        }
+      ],
+      "status": "no_accepted_answer"
+    },
+    {
+      "caseId": "BANK-90588E",
+      "cardId": "90588E",
+      "guid": "FBC82F65EECCB6674719604989A8F80A",
+      "sourceContentSha256": "13582b9af92c4cf039849411aa0737c845b9dde91cc12313c543cad0d00dddb4",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:52+00:00",
+          "answer": "ведёшь себя",
+          "wireAnswer": "ведёшь себя",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:53+00:00",
+          "answer": "ведут себя",
+          "wireAnswer": "ведут себя",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-33F7FF",
+      "cardId": "33F7FF",
+      "guid": "1E11E32AF877AC6644E8FD6FEF65C6E2",
+      "sourceContentSha256": "d8eb0d4fe27bafee0cbf77f4f455c347cd8fbdce3f7f6e10b9d4654ee2a75f12",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T22:16:54+00:00",
+          "answer": "с другой стороны",
+          "wireAnswer": "с другой стороны",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:16:55+00:00",
+          "answer": "что называется",
+          "wireAnswer": "что называется",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T22:17:06+00:00",
+          "answer": "казалось бы",
+          "wireAnswer": "казалось бы",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected"
+        }
+      ],
+      "status": "accepted"
+    }
+  ],
+  "runs": [
+    {
+      "startedAt": "2026-11-18T22:16:10+00:00",
+      "delay": 0.8,
+      "batchSize": 20,
+      "batchDelay": 10,
+      "requests": 41,
+      "tlsVerification": true,
+      "caFile": "/tmp/wbw19-direct/chain.pem",
+      "session": {
+        "status": "opened",
+        "httpStatus": 200
+      }
+    }
+  ],
+  "finishedAt": "2026-11-18T22:17:06+00:00",
+  "summary": {
+    "cardsInPlan": 31,
+    "withAcceptedAnswer": 30,
+    "withMultipleAcceptedStrings": 7,
+    "withRequestError": 0,
+    "notChecked": 0
+  }
+}

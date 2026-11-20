@@ -65,11 +65,23 @@ def main():
                     page.screenshot(path='/tmp/wbw-exam-learning-1440.png',full_page=True)
                     page.set_viewport_size({'width':390,'height':844})
                     page.screenshot(path='/tmp/wbw-exam-learning-390.png',full_page=True)
+                if mode == 'exam':
+                    page.locator('[data-exam="jump"][data-index="26"]').click()
+                    page.locator('#exam-answer').fill(' '.join(['слово'] * 150))
+                    assert page.locator('[data-essay-count]').inner_text() == '150'
+                    assert page.locator('[data-exam-clock]').is_visible()
                 page.locator('[data-exam="finish-ask"]').click()
                 page.locator('[data-exam="finish"]').click()
                 page.locator('.exam-result').first.wait_for()
                 saved = page.evaluate(f'JSON.parse(localStorage.getItem("{KEY}")).sessions.at(-1)')
                 assert saved['finishedAt'] and len(saved['results']) == 26
+                if mode == 'exam':
+                    page.locator('[name="points"]').fill('20')
+                    page.locator('[data-essay-review] button').click()
+                    page.get_by_role('heading', name='48 из 50 баллов').wait_for()
+                    page.locator('[data-exam="home"]').click()
+                    page.locator('[data-exam="result"]').click()
+                    page.get_by_role('heading', name='48 из 50 баллов').wait_for()
                 assert sum(r['points'] for r in saved['results']) == (24 if mode=='scored' else 28)
                 assert sum(r['correct'] for r in saved['results']) == (24 if mode=='scored' else 26)
                 if mode == 'scored':
@@ -92,6 +104,25 @@ def main():
                 page.get_by_role('alert').wait_for()
                 assert 'Материал варианта изменился' in page.get_by_role('alert').inner_text()
                 context.close()
+            context = browser.new_context()
+            page = context.new_page()
+            page.goto(base)
+            page.locator('[data-mode="exam"]').click()
+            page.locator('#exam-answer').fill('сохранённый ответ')
+            page.evaluate(f"""() => {{
+              const state = JSON.parse(localStorage.getItem('{KEY}'));
+              state.sessions.at(-1).startedAt = Date.now() - 211 * 60000;
+              localStorage.setItem('{KEY}', JSON.stringify(state));
+            }}""")
+            page.reload()
+            page.get_by_role('heading', name='Время пробного экзамена истекло').wait_for()
+            assert page.locator('#exam-answer').count() == 0
+            page.get_by_role('button', name='Проверить сохранённые ответы').click()
+            page.locator('.exam-result').first.wait_for()
+            ended = page.evaluate(f'JSON.parse(localStorage.getItem("{KEY}")).sessions.at(-1)')
+            assert ended['results'][0]['answer'] == 'сохранённый ответ'
+            assert ended['finishedAt'] - ended['startedAt'] == 210 * 60000
+            context.close()
             # Storage failure must be visible, not a false promise of saved answers.
             context=browser.new_context()
             context.add_init_script("const set=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='rusflash_variants_v1')throw new Error('quota');return set.call(this,k,v)}")

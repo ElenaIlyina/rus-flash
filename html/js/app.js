@@ -360,7 +360,7 @@ function checkAnswer(event) {
     area.innerHTML = '<p class="feedback warning">Сначала укажите ответ.</p>';
     return;
   }
-  const correct = checkResponse(c.responseType, actual, c.acceptedAnswers);
+  const correct = checkResponse(c.responseType, actual, c.acceptedAnswers, c.sentenceNumbers);
   // One completion result per assignment; intermediate errors remain in history.
   const assignment = store.assignment(c.id);
   if (assignment.completed) {

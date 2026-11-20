@@ -13,11 +13,33 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { generateVariant, gradeVariant, validateSession, maxPoints } from './html/js/exam.js';
 import { theoryFor } from './html/js/exam-theory.js';
+import { checkResponse } from './html/js/assessment.js';
+import { essayReview, wordEstimate, essayCriteria } from './html/js/exam-essay.js';
 const catalog=JSON.parse(fs.readFileSync('html/assets/data/catalog.json'));
 const byId=new Map(catalog.cards.map(c=>[c.id,c]));
+for (const id of ['073234','005141','044D16']) {
+  assert.equal(byId.get(id).examFormatEligible,false);
+  assert.ok(byId.get(id).eligibleForProgress);
+}
+const raw = id => JSON.parse(fs.readFileSync('html/assets/data/cards/'+id+'.json'));
+assert.ok(checkResponse(raw('04262D').answer_type,'763',raw('04262D').answer));
+assert.ok(checkResponse('short_text','скажинамилость',raw('01D3AC').accepted_answers));
+assert.ok(!checkResponse('short_text','скажи мне на милость',raw('01D3AC').accepted_answers));
+for (const [id, valid, invalid] of [['66262F','3633','6333'],['682A9C','62','226'],['0121C7','26','62']]) {
+  const card=raw(id);
+  assert.ok(checkResponse('sentence_numbers',valid,card.answer,card.sentence_numbers));
+  assert.ok(!checkResponse('sentence_numbers',invalid,card.answer,card.sentence_numbers));
+}
+assert.equal(essayCriteria.reduce((n,c)=>n+c[1],0),22);
+assert.equal(wordEstimate('М. Ю. Лермонтов всё-таки прожил 26 лет.'),4);
+assert.throws(()=>essayReview(149,1));
+assert.throws(()=>essayReview(150,23));
+assert.equal(essayReview(150,22).points,22);
 for(let seed=0;seed<100;seed++) {
   const s=generateVariant(catalog,[],{seed,now:1,mode:'scored'});
   assert.equal(s.items.length,26);
+  assert.ok(byId.get(s.essayId).examFormatEligible);
+  assert.ok(s.items.every(i=>byId.get(i.id).examFormatEligible));
   assert.equal(new Set(s.items.map(i=>i.id)).size,26);
   assert.ok(validateSession(s,catalog));
   for(const tasks of [[1,2,3],[23,24,25,26]]) {
@@ -42,6 +64,11 @@ for(const task of [8,22]) {
  assert.equal(result.points,0); assert.equal(result.max,2);
  s.answers[id]='54321'; assert.equal(gradeVariant(s,cards)[task-1].points,0);
  s.answers[id]='12345'; assert.equal(gradeVariant(s,cards)[task-1].points,2);
+ const exam={...s, mode:'exam'};
+ for (const [input, points] of [['12345',2],['12346',1],['12367',1],['12987',0],['123456',0],['',0]]) {
+   exam.answers[id]=input; assert.equal(gradeVariant(exam,cards)[task-1].points,points);
+ }
+ exam.answers[id]='12345';
 }
 const id=s.items[0].id;
 cards[0].responseType='multiple_choice';s.answers[id]='54321';assert.ok(gradeVariant(s,cards)[0].correct);

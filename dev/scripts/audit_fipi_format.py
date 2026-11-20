@@ -182,7 +182,7 @@ def inspect(card, raw):
 def rebind_support(changed, log_entries, source_evidence=None, correction_log=None):
     # Preserve explanations/reviews; explicitly record which source hash was
     # rebound after a source-backed presentation repair, never a new subject review.
-    for name in ('prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews'):
+    for name in ('prefix_card_reviews','root_card_reviews','ege_1_6_card_reviews','task_7_card_reviews','lexical_analysis_card_reviews'):
         path = ROOT/f'dev/data/knowledge/{name}.json'
         book = json.loads(path.read_text())
         touched = False

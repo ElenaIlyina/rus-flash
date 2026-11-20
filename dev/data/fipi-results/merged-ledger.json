@@ -6,7 +6,10 @@
     "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395",
     "1e49fe551af3c24452e18adf6dc72f82f2f022381990c46243863fc03d086951",
     "5634f090ee655d300cf7b225b8c9b9c15d40403565c47e26ae4e8377613456cb",
-    "7da7c885d829457160de992a3a9e2a67b5ae5ccb0a656d68e91014b1061f644a"
+    "7da7c885d829457160de992a3a9e2a67b5ae5ccb0a656d68e91014b1061f644a",
+    "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a",
+    "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5",
+    "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
   ],
   "productionChanged": false,
   "cards": [
@@ -277,10 +280,33 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:12+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:17:27+00:00",
+          "answer": "а",
+          "wireAnswer": "а",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "status": "accepted"
     },
@@ -516,10 +542,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:43+00:00",
+          "answer": "не даёт покоя",
+          "wireAnswer": "не даёт покоя",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "скажи на милость"
+        "скажи на милость",
+        "не даёт покоя"
       ],
       "status": "accepted"
     },
@@ -700,10 +738,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:44+00:00",
+          "answer": "в частности",
+          "wireAnswer": "в частности",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "например"
+        "например",
+        "в частности"
       ],
       "status": "accepted"
     },
@@ -894,10 +944,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:12+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "status": "accepted"
     },
@@ -1337,10 +1399,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:44+00:00",
+          "answer": "про чёрный день",
+          "wireAnswer": "про чёрный день",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
+        },
+        {
+          "time": "2026-11-18T22:16:49+00:00",
+          "answer": "может быть",
+          "wireAnswer": "может быть",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "на всякий случай"
+        "на всякий случай",
+        "про чёрный день",
+        "может быть"
       ],
       "status": "accepted"
     },
@@ -2349,11 +2435,23 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:44+00:00",
+          "answer": "потом",
+          "wireAnswer": "потом",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
         "позже",
-        "затем"
+        "затем",
+        "потом"
       ],
       "status": "accepted"
     },
@@ -4564,10 +4662,22 @@
           "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
           "status": "rejected",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:43+00:00",
+          "answer": "потом",
+          "wireAnswer": "потом",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "затем"
+        "затем",
+        "потом"
       ],
       "status": "accepted"
     },
@@ -6390,10 +6500,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:27+00:00",
+          "answer": "каждым",
+          "wireAnswer": "каждым",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:27+00:00",
+          "answer": "любым",
+          "wireAnswer": "любым",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "всяким"
+        "всяким",
+        "каждым",
+        "любым"
       ],
       "status": "accepted"
     },
@@ -6916,10 +7050,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T15:31:43+00:00",
+          "answer": "шедеврами",
+          "wireAnswer": "шедеврами",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "шедевров"
+        "шедевров",
+        "шедеврами"
       ],
       "status": "accepted"
     },
@@ -10273,10 +10419,33 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:15+00:00",
+          "answer": "повышенное",
+          "wireAnswer": "повышенное",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        },
+        {
+          "time": "2026-11-18T22:17:16+00:00",
+          "answer": "особое",
+          "wireAnswer": "особое",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "пристальное"
+        "пристальное",
+        "особое"
       ],
       "status": "accepted"
     },
@@ -12278,10 +12447,45 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T22:16:54+00:00",
+          "answer": "с другой стороны",
+          "wireAnswer": "с другой стороны",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:55+00:00",
+          "answer": "что называется",
+          "wireAnswer": "что называется",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:17:06+00:00",
+          "answer": "казалось бы",
+          "wireAnswer": "казалось бы",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "хлопот полон рот"
+        "хлопот полон рот",
+        "с другой стороны",
+        "что называется"
       ],
       "status": "accepted"
     },
@@ -13699,10 +13903,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T22:16:50+00:00",
+          "answer": "речь идёт",
+          "wireAnswer": "речь идёт",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "того и гляди"
+        "того и гляди",
+        "речь идёт"
       ],
       "status": "accepted"
     },
@@ -14588,10 +14804,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:13+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:17:28+00:00",
+          "answer": "а",
+          "wireAnswer": "а",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "status": "accepted"
     },
@@ -14919,10 +15159,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:47+00:00",
+          "answer": "тем",
+          "wireAnswer": "тем",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "всем"
+        "всем",
+        "тем"
       ],
       "status": "accepted"
     },
@@ -15625,11 +15877,23 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:31+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
         "но",
-        "а"
+        "а",
+        "однако"
       ],
       "status": "accepted"
     },
@@ -18889,10 +19153,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:19+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "status": "accepted"
     },
@@ -20177,10 +20453,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:44+00:00",
+          "answer": "такой",
+          "wireAnswer": "такой",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "этой"
+        "этой",
+        "такой"
       ],
       "status": "accepted"
     },
@@ -20863,6 +21151,17 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:17+00:00",
+          "answer": "спровоцировать",
+          "wireAnswer": "спровоцировать",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
@@ -21319,10 +21618,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T22:16:51+00:00",
+          "answer": "между тем",
+          "wireAnswer": "между тем",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "божьей искрой"
+        "божьей искрой",
+        "между тем"
       ],
       "status": "accepted"
     },
@@ -21719,10 +22030,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:18+00:00",
+          "answer": "спровоцировал",
+          "wireAnswer": "спровоцировал",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "вызвал"
+        "вызвал",
+        "спровоцировал"
       ],
       "status": "accepted"
     },
@@ -22120,10 +22443,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:23+00:00",
+          "answer": "потому что",
+          "wireAnswer": "потому что",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:24+00:00",
+          "answer": "поскольку",
+          "wireAnswer": "поскольку",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "так как"
+        "так как",
+        "потому что",
+        "поскольку"
       ],
       "status": "accepted"
     },
@@ -23159,10 +23506,33 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:45+00:00",
+          "answer": "хоть",
+          "wireAnswer": "хоть",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:46+00:00",
+          "answer": "несмотря на то что",
+          "wireAnswer": "несмотря на то что",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "хотя"
+        "хотя",
+        "несмотря на то что"
       ],
       "status": "accepted"
     },
@@ -24199,10 +24569,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:26+00:00",
+          "answer": "завоевать",
+          "wireAnswer": "завоевать",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "победу"
+        "победу",
+        "завоевать"
       ],
       "status": "accepted"
     },
@@ -25839,10 +26221,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:19+00:00",
+          "answer": "быстрый",
+          "wireAnswer": "быстрый",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        },
+        {
+          "time": "2026-11-18T22:17:20+00:00",
+          "answer": "бурный",
+          "wireAnswer": "бурный",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "стремительный"
+        "стремительный",
+        "быстрый",
+        "бурный"
       ],
       "status": "accepted"
     },
@@ -29467,10 +29873,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:19+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "status": "accepted"
     },
@@ -29650,10 +30068,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:45+00:00",
+          "answer": "в голову приходит",
+          "wireAnswer": "в голову приходит",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "обратилась в слух"
+        "обратилась в слух",
+        "в голову приходит"
       ],
       "status": "accepted"
     },
@@ -31835,10 +32265,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T22:16:52+00:00",
+          "answer": "ведёшь себя",
+          "wireAnswer": "ведёшь себя",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:53+00:00",
+          "answer": "ведут себя",
+          "wireAnswer": "ведут себя",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "в самом деле"
+        "в самом деле",
+        "ведёшь себя",
+        "ведут себя"
       ],
       "status": "accepted"
     },
@@ -31948,10 +32402,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:40+00:00",
+          "answer": "каждый",
+          "wireAnswer": "каждый",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:41+00:00",
+          "answer": "любой",
+          "wireAnswer": "любой",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "всякий"
+        "всякий",
+        "каждый",
+        "любой"
       ],
       "status": "accepted"
     },
@@ -32826,10 +33304,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:43+00:00",
+          "answer": "этих",
+          "wireAnswer": "этих",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "таких"
+        "таких",
+        "этих"
       ],
       "status": "accepted"
     },
@@ -34433,10 +34923,33 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:46+00:00",
+          "answer": "в сущности",
+          "wireAnswer": "в сущности",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
+        },
+        {
+          "time": "2026-11-18T22:16:51+00:00",
+          "answer": "на ходу",
+          "wireAnswer": "на ходу",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "повис на хвосте"
+        "повис на хвосте",
+        "в сущности"
       ],
       "status": "accepted"
     },
@@ -35085,10 +35598,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:25+00:00",
+          "answer": "потому что",
+          "wireAnswer": "потому что",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:26+00:00",
+          "answer": "поскольку",
+          "wireAnswer": "поскольку",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "так как"
+        "так как",
+        "потому что",
+        "поскольку"
       ],
       "status": "accepted"
     },
@@ -36110,10 +36647,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:48+00:00",
+          "answer": "как раз",
+          "wireAnswer": "как раз",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "именно"
+        "именно",
+        "как раз"
       ],
       "status": "accepted"
     },
@@ -38253,10 +38802,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:47+00:00",
+          "answer": "во что бы то ни стало",
+          "wireAnswer": "во что бы то ни стало",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "как снег на голову"
+        "как снег на голову",
+        "во что бы то ни стало"
       ],
       "status": "accepted"
     },
@@ -38994,10 +39555,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:42+00:00",
+          "answer": "этих",
+          "wireAnswer": "этих",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "таких"
+        "таких",
+        "этих"
       ],
       "status": "accepted"
     },
@@ -41423,10 +41996,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:14+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "status": "accepted"
     },
@@ -42201,10 +42786,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:15+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:17:29+00:00",
+          "answer": "а",
+          "wireAnswer": "а",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "status": "accepted"
     },
@@ -42591,10 +43200,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:16+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "status": "accepted"
     },
@@ -43319,10 +43940,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:48+00:00",
+          "answer": "что есть мочи",
+          "wireAnswer": "что есть мочи",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "со дня на день"
+        "со дня на день",
+        "что есть мочи"
       ],
       "status": "accepted"
     },
@@ -43879,10 +44512,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:17+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:17:30+00:00",
+          "answer": "а",
+          "wireAnswer": "а",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "status": "accepted"
     },
@@ -44095,10 +44752,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:20+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "status": "accepted"
     },
@@ -44632,10 +45301,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:49+00:00",
+          "answer": "своими словами",
+          "wireAnswer": "своими словами",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
+        },
+        {
+          "time": "2026-11-18T15:31:50+00:00",
+          "answer": "может быть",
+          "wireAnswer": "может быть",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "до глубины души"
+        "до глубины души",
+        "своими словами",
+        "может быть"
       ],
       "status": "accepted"
     },
@@ -46274,10 +46967,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:18+00:00",
+          "answer": "однако",
+          "wireAnswer": "однако",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:17:31+00:00",
+          "answer": "а",
+          "wireAnswer": "а",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "status": "accepted"
     },
@@ -46752,6 +47469,17 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:23+00:00",
+          "answer": "регулярную",
+          "wireAnswer": "регулярную",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "2",
+          "responseSha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "status": "rejected",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
@@ -47358,10 +48086,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:21+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "status": "accepted"
     },
@@ -47814,10 +48554,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:23+00:00",
+          "answer": "имеют",
+          "wireAnswer": "имеют",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "представляют"
+        "представляют",
+        "имеют"
       ],
       "status": "accepted"
     },
@@ -48728,10 +49480,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:42+00:00",
+          "answer": "затем",
+          "wireAnswer": "затем",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "потом"
+        "потом",
+        "затем"
       ],
       "status": "accepted"
     },
@@ -50938,10 +51702,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:51+00:00",
+          "answer": "само собой",
+          "wireAnswer": "само собой",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "на всём белом свете"
+        "на всём белом свете",
+        "само собой"
       ],
       "status": "accepted"
     },
@@ -52306,10 +53082,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:22+00:00",
+          "answer": "либо",
+          "wireAnswer": "либо",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "status": "accepted"
     },
@@ -53014,10 +53802,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:24+00:00",
+          "answer": "придавать",
+          "wireAnswer": "придавать",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        },
+        {
+          "time": "2026-11-18T22:17:25+00:00",
+          "answer": "придать",
+          "wireAnswer": "придать",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "внимание"
+        "внимание",
+        "придавать",
+        "придать"
       ],
       "status": "accepted"
     },
@@ -53173,10 +53985,22 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        },
+        {
+          "time": "2026-11-18T15:31:52+00:00",
+          "answer": "не в состоянии",
+          "wireAnswer": "не в состоянии",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         }
       ],
       "acceptedWireAnswers": [
-        "сплошь и рядом"
+        "сплошь и рядом",
+        "не в состоянии"
       ],
       "status": "accepted"
     },
@@ -53654,10 +54478,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:17:21+00:00",
+          "answer": "имеющимися",
+          "wireAnswer": "имеющимися",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        },
+        {
+          "time": "2026-11-18T22:17:22+00:00",
+          "answer": "выявленными",
+          "wireAnswer": "выявленными",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         }
       ],
       "acceptedWireAnswers": [
-        "существующими"
+        "существующими",
+        "имеющимися",
+        "выявленными"
       ],
       "status": "accepted"
     },
@@ -55425,10 +56273,34 @@
           "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
           "status": "accepted",
           "evidenceReportSha256": "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        },
+        {
+          "time": "2026-11-18T22:16:38+00:00",
+          "answer": "каждый",
+          "wireAnswer": "каждый",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        },
+        {
+          "time": "2026-11-18T22:16:39+00:00",
+          "answer": "любой",
+          "wireAnswer": "любой",
+          "role": "contextual_alternative",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted",
+          "evidenceReportSha256": "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         }
       ],
       "acceptedWireAnswers": [
-        "всякий"
+        "всякий",
+        "каждый",
+        "любой"
       ],
       "status": "accepted"
     },
@@ -56246,6 +57118,6 @@
     "acceptedCards": 2069,
     "unresolvedCards": 0,
     "essayCards": 71,
-    "withMultipleAcceptedStrings": 2
+    "withMultipleAcceptedStrings": 50
   }
 }

@@ -49,7 +49,7 @@ class LexicalAnalysisReviewTest(unittest.TestCase):
         with self.assertRaises(ValueError): review.validate(c, r, self.sources)
 
     def test_open_alternative_answers_remain_visible_without_expanding_key(self):
-        for cid in ['01D3AC', '05AC9F', '1DA0CC']:
+        for cid in ['A9FD8A', '7A95AF']:
             r = self.reviews[cid]
             self.assertIn(r['sourceReviewNote'], review.render(self.card(cid), r, self.sources))
             broken = copy.deepcopy(r); broken['sourceReviewPending'] = False

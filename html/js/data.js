@@ -20,6 +20,8 @@ export async function loadCard(id) {
   return adaptCard(await response.json());
 }
 function responseType(raw, question, options) {
+  if (raw.sentence_numbers?.length) return "sentence_numbers";
+  if (raw.answer_type === "position_set") return "position_set";
   // An ordered matching task may also say «запишите цифры».
   if ((raw.errors?.length && raw.sentences?.length) ||
       /^\s*установите\s+соответствие(?:\s|[.:])/iu.test(question)) {
@@ -61,6 +63,7 @@ export function adaptCard(raw) {
     errors: raw.errors || [],
     sentences: raw.sentences || [],
     responseType: responseType(raw, questionText, options),
+    sentenceNumbers: raw.sentence_numbers || [],
     answer: (raw.answer || "").trim(),
     acceptedAnswers: Array.isArray(raw.accepted_answers) ? raw.accepted_answers : [(raw.answer || "").trim()],
     explanation: raw.explanation || "",

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "evidenceLedgerSha256": "04d9f9bef5488061609987dd783fb43ab8fa3713f20a277d25e7c927fb383c9c",
+  "evidenceLedgerSha256": "9e99256262758fc46c13add77c53dfceb00302a661c02fc6bb5ac135da1de7a3",
   "summary": {
     "confirmedCards": 2069,
     "essayCards": 71,
-    "changedCards": 1290,
-    "newPrimaryKeys": 1134,
-    "existingVerificationPayloadUpdates": 154,
-    "cardsWithConfirmedAlternatives": 2,
+    "changedCards": 41,
+    "newPrimaryKeys": 0,
+    "existingVerificationPayloadUpdates": 0,
+    "cardsWithConfirmedAlternatives": 50,
     "unpublishedKeys": 0
   },
   "cards": [
@@ -155,11 +155,15 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -279,12 +283,16 @@
       "answer": "скажи на милость",
       "answerVerify": "скажи на милость",
       "acceptedAnswers": [
-        "скажи на милость"
+        "скажи на милость",
+        "не даёт покоя"
       ],
       "evidenceReports": {
         "скажи на милость": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "не даёт покоя": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -400,11 +408,15 @@
       "answer": "например",
       "answerVerify": "например",
       "acceptedAnswers": [
-        "например"
+        "например",
+        "в частности"
       ],
       "evidenceReports": {
         "например": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "в частности": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -508,11 +520,15 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -740,12 +756,20 @@
       "answer": "на всякий случай",
       "answerVerify": "на всякий случай",
       "acceptedAnswers": [
-        "на всякий случай"
+        "на всякий случай",
+        "про чёрный день",
+        "может быть"
       ],
       "evidenceReports": {
         "на всякий случай": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "про чёрный день": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
+        ],
+        "может быть": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -1295,7 +1319,8 @@
       "answerVerify": "позже",
       "acceptedAnswers": [
         "позже",
-        "затем"
+        "затем",
+        "потом"
       ],
       "evidenceReports": {
         "позже": [
@@ -1303,6 +1328,9 @@
         ],
         "затем": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "потом": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -2543,11 +2571,15 @@
       "answer": "затем",
       "answerVerify": "затем",
       "acceptedAnswers": [
-        "затем"
+        "затем",
+        "потом"
       ],
       "evidenceReports": {
         "затем": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "потом": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -3585,11 +3617,19 @@
       "answer": "всяким",
       "answerVerify": "всяким",
       "acceptedAnswers": [
-        "всяким"
+        "всяким",
+        "каждым",
+        "любым"
       ],
       "evidenceReports": {
         "всяким": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "каждым": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "любым": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -3891,11 +3931,15 @@
       "answer": "шедевров",
       "answerVerify": "шедевров",
       "acceptedAnswers": [
-        "шедевров"
+        "шедевров",
+        "шедеврами"
       ],
       "evidenceReports": {
         "шедевров": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "шедеврами": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -5820,11 +5864,15 @@
       "answer": "пристальное",
       "answerVerify": "пристальное",
       "acceptedAnswers": [
-        "пристальное"
+        "пристальное",
+        "особое"
       ],
       "evidenceReports": {
         "пристальное": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "особое": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -6924,12 +6972,20 @@
       "answer": "хлопот полон рот",
       "answerVerify": "хлопот полон рот",
       "acceptedAnswers": [
-        "хлопот полон рот"
+        "хлопот полон рот",
+        "с другой стороны",
+        "что называется"
       ],
       "evidenceReports": {
         "хлопот полон рот": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "с другой стороны": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "что называется": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -7677,12 +7733,16 @@
       "answer": "того и гляди",
       "answerVerify": "того и гляди",
       "acceptedAnswers": [
-        "того и гляди"
+        "того и гляди",
+        "речь идёт"
       ],
       "evidenceReports": {
         "того и гляди": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "речь идёт": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -8183,11 +8243,19 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "а": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -8380,11 +8448,15 @@
       "answer": "всем",
       "answerVerify": "всем",
       "acceptedAnswers": [
-        "всем"
+        "всем",
+        "тем"
       ],
       "evidenceReports": {
         "всем": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "тем": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -8788,7 +8860,8 @@
       "answerVerify": "но",
       "acceptedAnswers": [
         "но",
-        "а"
+        "а",
+        "однако"
       ],
       "evidenceReports": {
         "но": [
@@ -8796,6 +8869,9 @@
         ],
         "а": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -10668,11 +10744,15 @@
       "answer": "или",
       "answerVerify": "или",
       "acceptedAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "evidenceReports": {
         "или": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "либо": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -11402,11 +11482,15 @@
       "answer": "этой",
       "answerVerify": "этой",
       "acceptedAnswers": [
-        "этой"
+        "этой",
+        "такой"
       ],
       "evidenceReports": {
         "этой": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "такой": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -12047,12 +12131,16 @@
       "answer": "божьей искрой",
       "answerVerify": "божьей искрой",
       "acceptedAnswers": [
-        "божьей искрой"
+        "божьей искрой",
+        "между тем"
       ],
       "evidenceReports": {
         "божьей искрой": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "между тем": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -12278,11 +12366,15 @@
       "answer": "вызвал",
       "answerVerify": "вызвал",
       "acceptedAnswers": [
-        "вызвал"
+        "вызвал",
+        "спровоцировал"
       ],
       "evidenceReports": {
         "вызвал": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "спровоцировал": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -12521,11 +12613,19 @@
       "answer": "так как",
       "answerVerify": "так как",
       "acceptedAnswers": [
-        "так как"
+        "так как",
+        "потому что",
+        "поскольку"
       ],
       "evidenceReports": {
         "так как": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "потому что": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "поскольку": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -13106,11 +13206,15 @@
       "answer": "хотя",
       "answerVerify": "хотя",
       "acceptedAnswers": [
-        "хотя"
+        "хотя",
+        "несмотря на то что"
       ],
       "evidenceReports": {
         "хотя": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "несмотря на то что": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -13704,11 +13808,15 @@
       "answer": "победу",
       "answerVerify": "победу",
       "acceptedAnswers": [
-        "победу"
+        "победу",
+        "завоевать"
       ],
       "evidenceReports": {
         "победу": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "завоевать": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -14583,11 +14691,19 @@
       "answer": "стремительный",
       "answerVerify": "стремительный",
       "acceptedAnswers": [
-        "стремительный"
+        "стремительный",
+        "быстрый",
+        "бурный"
       ],
       "evidenceReports": {
         "стремительный": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "быстрый": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        ],
+        "бурный": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -16609,11 +16725,15 @@
       "answer": "или",
       "answerVerify": "или",
       "acceptedAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "evidenceReports": {
         "или": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "либо": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -16715,12 +16835,16 @@
       "answer": "обратилась в слух",
       "answerVerify": "обратилась в слух",
       "acceptedAnswers": [
-        "обратилась в слух"
+        "обратилась в слух",
+        "в голову приходит"
       ],
       "evidenceReports": {
         "обратилась в слух": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "в голову приходит": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -17919,12 +18043,20 @@
       "answer": "в самом деле",
       "answerVerify": "в самом деле",
       "acceptedAnswers": [
-        "в самом деле"
+        "в самом деле",
+        "ведёшь себя",
+        "ведут себя"
       ],
       "evidenceReports": {
         "в самом деле": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "ведёшь себя": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "ведут себя": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -17981,11 +18113,19 @@
       "answer": "всякий",
       "answerVerify": "всякий",
       "acceptedAnswers": [
-        "всякий"
+        "всякий",
+        "каждый",
+        "любой"
       ],
       "evidenceReports": {
         "всякий": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "каждый": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "любой": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -18473,11 +18613,15 @@
       "answer": "таких",
       "answerVerify": "таких",
       "acceptedAnswers": [
-        "таких"
+        "таких",
+        "этих"
       ],
       "evidenceReports": {
         "таких": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "этих": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -19389,12 +19533,16 @@
       "answer": "повис на хвосте",
       "answerVerify": "повис на хвосте",
       "acceptedAnswers": [
-        "повис на хвосте"
+        "повис на хвосте",
+        "в сущности"
       ],
       "evidenceReports": {
         "повис на хвосте": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "в сущности": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -19772,11 +19920,19 @@
       "answer": "так как",
       "answerVerify": "так как",
       "acceptedAnswers": [
-        "так как"
+        "так как",
+        "потому что",
+        "поскольку"
       ],
       "evidenceReports": {
         "так как": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "потому что": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "поскольку": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -20327,11 +20483,15 @@
       "answer": "именно",
       "answerVerify": "именно",
       "acceptedAnswers": [
-        "именно"
+        "именно",
+        "как раз"
       ],
       "evidenceReports": {
         "именно": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "как раз": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -21497,12 +21657,16 @@
       "answer": "как снег на голову",
       "answerVerify": "как снег на голову",
       "acceptedAnswers": [
-        "как снег на голову"
+        "как снег на голову",
+        "во что бы то ни стало"
       ],
       "evidenceReports": {
         "как снег на голову": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "во что бы то ни стало": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -21901,11 +22065,15 @@
       "answer": "таких",
       "answerVerify": "таких",
       "acceptedAnswers": [
-        "таких"
+        "таких",
+        "этих"
       ],
       "evidenceReports": {
         "таких": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "этих": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -23280,11 +23448,15 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -23738,11 +23910,19 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "а": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -23980,11 +24160,15 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -24379,12 +24563,16 @@
       "answer": "со дня на день",
       "answerVerify": "со дня на день",
       "acceptedAnswers": [
-        "со дня на день"
+        "со дня на день",
+        "что есть мочи"
       ],
       "evidenceReports": {
         "со дня на день": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "что есть мочи": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -24702,11 +24890,19 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "а": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -24824,11 +25020,15 @@
       "answer": "или",
       "answerVerify": "или",
       "acceptedAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "evidenceReports": {
         "или": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "либо": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -25130,12 +25330,20 @@
       "answer": "до глубины души",
       "answerVerify": "до глубины души",
       "acceptedAnswers": [
-        "до глубины души"
+        "до глубины души",
+        "своими словами",
+        "может быть"
       ],
       "evidenceReports": {
         "до глубины души": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "своими словами": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
+        ],
+        "может быть": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -26065,11 +26273,19 @@
       "answer": "но",
       "answerVerify": "но",
       "acceptedAnswers": [
-        "но"
+        "но",
+        "однако",
+        "а"
       ],
       "evidenceReports": {
         "но": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "однако": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "а": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -26688,11 +26904,15 @@
       "answer": "или",
       "answerVerify": "или",
       "acceptedAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "evidenceReports": {
         "или": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "либо": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -26932,11 +27152,15 @@
       "answer": "представляют",
       "answerVerify": "представляют",
       "acceptedAnswers": [
-        "представляют"
+        "представляют",
+        "имеют"
       ],
       "evidenceReports": {
         "представляют": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "имеют": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -27454,11 +27678,15 @@
       "answer": "потом",
       "answerVerify": "потом",
       "acceptedAnswers": [
-        "потом"
+        "потом",
+        "затем"
       ],
       "evidenceReports": {
         "потом": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "затем": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -28707,12 +28935,16 @@
       "answer": "на всём белом свете",
       "answerVerify": "на всём белом свете",
       "acceptedAnswers": [
-        "на всём белом свете"
+        "на всём белом свете",
+        "само собой"
       ],
       "evidenceReports": {
         "на всём белом свете": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "само собой": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -29476,11 +29708,15 @@
       "answer": "или",
       "answerVerify": "или",
       "acceptedAnswers": [
-        "или"
+        "или",
+        "либо"
       ],
       "evidenceReports": {
         "или": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "либо": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },
@@ -29888,11 +30124,19 @@
       "answer": "внимание",
       "answerVerify": "внимание",
       "acceptedAnswers": [
-        "внимание"
+        "внимание",
+        "придавать",
+        "придать"
       ],
       "evidenceReports": {
         "внимание": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "придавать": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        ],
+        "придать": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -29966,12 +30210,16 @@
       "answer": "сплошь и рядом",
       "answerVerify": "сплошь и рядом",
       "acceptedAnswers": [
-        "сплошь и рядом"
+        "сплошь и рядом",
+        "не в состоянии"
       ],
       "evidenceReports": {
         "сплошь и рядом": [
           "c7964879d78c1083cc32d63db6de6db40d6b7b95d0d35983589b96ef88751595",
           "f4edf9182bf0d713c267bc68d5240cc85fcf961307258ffed29ef6efd1b5a395"
+        ],
+        "не в состоянии": [
+          "2c9741785bb644921f2b6393d19a84a582bb430f06231f1d195e1e7593e60d5a"
         ]
       }
     },
@@ -30256,11 +30504,19 @@
       "answer": "существующими",
       "answerVerify": "существующими",
       "acceptedAnswers": [
-        "существующими"
+        "существующими",
+        "имеющимися",
+        "выявленными"
       ],
       "evidenceReports": {
         "существующими": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "имеющимися": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
+        ],
+        "выявленными": [
+          "1a72d57c0fb49f15ed3cc0e03bb3c1914fc4ac0cda882b7841318ad8e40a93b9"
         ]
       }
     },
@@ -31269,11 +31525,19 @@
       "answer": "всякий",
       "answerVerify": "всякий",
       "acceptedAnswers": [
-        "всякий"
+        "всякий",
+        "каждый",
+        "любой"
       ],
       "evidenceReports": {
         "всякий": [
           "b19380d2296203ff709cb01297c5dcfdd493f90dda5530dbdb7f475a877f9243"
+        ],
+        "каждый": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
+        ],
+        "любой": [
+          "c188759c9a584aebbc6bfa0c5ff5ac2bb67eb9033f3a50cb14c259bd72ce50d5"
         ]
       }
     },

@@ -19,7 +19,14 @@
       ],
       "resolution": null,
       "createdAt": "2026-11-17",
-      "affectsExplanation": true
+      "affectsExplanation": true,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "234": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK20-INT-002",
@@ -37,7 +44,14 @@
       ],
       "resolution": null,
       "createdAt": "2026-11-17",
-      "affectsExplanation": true
+      "affectsExplanation": true,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "234": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK21-INT-001",
@@ -242,7 +256,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "15": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK23-SRC-001",
@@ -286,7 +307,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "5": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK23-UI-001",
@@ -328,7 +356,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-10-29-pending-repeat-run/report.json",
+        "answers": {
+          "24": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK23-INT-004",
@@ -350,7 +385,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "34": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK23-SRC-002",
@@ -486,7 +528,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "3": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK24-SRC-001",
@@ -562,7 +611,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "24": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK24-FACT-002",
@@ -608,7 +664,7 @@
         "01D3AC"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В диапазоне №18–25, кроме сохранённого ответа скажи на милость, есть возможный фразеологический кандидат не даёт покоя (№20). Нужна отдельная словарная проверка и согласование допустимости альтернативного ответа. Не утверждается, что ключ ошибочен; сохранённая формула подходит. Список принимаемых ответов не расширялся.",
       "savedAnswer": "скажи на милость",
@@ -622,7 +678,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В №20 есть второй оборот «не даёт покоя». Слово занимает мысли рассказчика, он снова и снова к нему возвращается.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "не даёт покоя": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-002",
@@ -630,7 +697,7 @@
         "05AC9F"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "При условии выписать один фразеологизм из №9–13 сохранён ответ на всякий случай (№9). В №13 также есть кандидат про чёрный день в переносном значении трудного времени. Словарная статья чёрный связывает это значение с тяготами жизни; требуется согласовать достаточность основания и приём альтернативного ответа. Ключ и список принимаемых ответов сохранены.",
       "savedAnswer": "на всякий случай",
@@ -645,7 +712,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "Подходит и «про чёрный день» из №13. Так говорят о том, что берегут на случай трудностей.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "про чёрный день": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-003",
@@ -653,7 +731,7 @@
         "1DA0CC"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "alternative_word_form_acceptance",
       "reason": "Словарному определению соответствует шедевр. В заданном диапазоне №32–34 слово встречается в формах шедевров (№32) и шедеврами (№33), а ключ содержит только шедевров. Обе формы видны в тексте; допустимость второй при автоматической проверке требует согласования. Ключ и список принимаемых ответов сохранены.",
       "savedAnswer": "шедевров",
@@ -666,7 +744,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В №33 стоит творительный падеж множественного числа — «шедеврами». Банк принимает обе формы из текста. Выпишите одну из них.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json",
+        "answers": {
+          "шедеврами": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-REG-001",
@@ -764,7 +853,7 @@
         "86E041"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В том же №32 есть ещё кандидат в голову приходит. Допустимость этого альтернативного устойчивого выражения требует согласования; ключ обратилась в слух и принимаемые ответы сохранены.",
       "savedAnswer": "обратилась в слух",
@@ -781,7 +870,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В том же предложении есть второй ответ «в голову приходит». Герой вспоминает картину из своей жизни.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "в голову приходит": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-005",
@@ -789,7 +889,7 @@
         "9C4102"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В диапазоне есть ещё устойчивое вводное сочетание в сущности (№8). Его допустимость как альтернативного фразеологического ответа требует уточнения; ключ повис на хвосте сохранён.",
       "savedAnswer": "повис на хвосте",
@@ -815,7 +915,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "ФИПИ также принимает «в сущности» из №8. Здесь сочетание означает «по сути».",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "в сущности": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-006",
@@ -843,7 +954,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "может быть": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-007",
@@ -851,7 +969,7 @@
         "AF9D0D"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В том же №22 есть другой устойчивый оборот во что бы то ни стало. Условие просит один фразеологизм, но ключ содержит только как снег на голову. Допустимость альтернативы требует согласования; принимаемые ответы не менялись.",
       "savedAnswer": "как снег на голову",
@@ -868,7 +986,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В №22 можно выписать и «во что бы то ни стало». Герой должен появиться у Люси при любых обстоятельствах.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "во что бы то ни стало": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-008",
@@ -876,7 +1005,7 @@
         "C590CF"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В №5 есть и устойчивое выражение что есть мочи со значением изо всех сил. Возможность принять его как альтернативный ответ требует согласования; ключ со дня на день сохранён.",
       "savedAnswer": "со дня на день",
@@ -893,7 +1022,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В №5 есть и другой ответ «что есть мочи». Он показывает, как будут защищать Москву — изо всех сил.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "что есть мочи": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-009",
@@ -901,7 +1041,7 @@
         "CAC1B8"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В №13 есть кандидаты своими словами и может быть. Их допустимость как иных устойчивых ответов требует уточнения границ фразеологизма в данном задании; ключ до глубины души сохранён.",
       "savedAnswer": "до глубины души",
@@ -920,7 +1060,19 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В №13 подходят ещё два отдельных ответа. «Своими словами» указывает на пересказ, «может быть» выражает предположение рассказчицы. Впишите один из них или «до глубины души».",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "своими словами": "accepted",
+          "может быть": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-010",
@@ -928,7 +1080,7 @@
         "E7F8EF"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В №14 есть другой устойчивый оборот само собой, а в №12 — вводное быть может. Требуется согласовать допустимость альтернативных фразеологических ответов; ключ на всём белом свете сохранён.",
       "savedAnswer": "на всём белом свете",
@@ -946,7 +1098,19 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "Подходит также «само собой» из №14. Чувство возникло естественно. Строку «быть может» из №12 банк для этой карточки отклоняет.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "само собой": "accepted",
+          "быть может": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK25-ALT-011",
@@ -954,7 +1118,7 @@
         "F15C9D"
       ],
       "task": 25,
-      "status": "open",
+      "status": "resolved",
       "kind": "possible_alternative_phraseological_answer",
       "reason": "В №12 есть кандидат не в состоянии со значением не способен. Его допустимость как альтернативного фразеологического ответа требует согласования; ключ сплошь и рядом и принимаемые ответы сохранены.",
       "savedAnswer": "сплошь и рядом",
@@ -973,7 +1137,18 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": {
+        "date": "2026-11-18",
+        "change": "В №12 можно выписать «не в состоянии». Герой уже не способен удивляться и восхищаться.",
+        "evidence": "dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json"
+      },
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "не в состоянии": "accepted"
+        }
+      }
     },
     {
       "issueId": "TASK26-ALT-001",
@@ -998,7 +1173,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "68": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK26-INT-001",
@@ -1020,7 +1202,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "910": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK26-INT-002",
@@ -1043,7 +1232,14 @@
       ],
       "affectsExplanation": true,
       "createdAt": "2026-11-17",
-      "resolution": null
+      "resolution": null,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "1115": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK26-ALT-002",
@@ -1070,7 +1266,14 @@
       "affectsExplanation": true,
       "createdAt": "2026-11-18",
       "resolution": null,
-      "possibleAdditionalSentence": 26
+      "possibleAdditionalSentence": 26,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "263133": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK26-ALT-003",
@@ -1095,7 +1298,14 @@
       "affectsExplanation": true,
       "createdAt": "2026-11-18",
       "resolution": null,
-      "possibleAdditionalSentence": 16
+      "possibleAdditionalSentence": 16,
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-10-29-pending-repeat-run/report.json",
+        "answers": {
+          "1516": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK26-INT-003",
@@ -1125,7 +1335,14 @@
       "sentencesRequiringInterpretation": [
         34,
         35
-      ]
+      ],
+      "serverCheck": {
+        "date": "2026-11-18",
+        "report": "dev/data/fipi-results/2026-11-18-disputed/report.json",
+        "answers": {
+          "343540": "rejected"
+        }
+      }
     },
     {
       "issueId": "TASK26-UI-001",

@@ -1,4 +1,4 @@
-"""Content-first mapping to the official FIPI 2027 DRAFT, appendix pp. 17–19.
+"""Content-first mapping to the approved FIPI 2027 specification, pp. 18–20.
 
 A subject match does not certify the answer, explanation, or current exam format.
 """
@@ -9,6 +9,27 @@ from card_data import extract_codes
 
 def text(value):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]*>', ' ', value))).strip().lower()
+
+
+def sentence_numbers(question, answer):
+    """Recover whole sentence numbers from an ascending FIPI key and its range."""
+    limits = re.search(r'(\d+)\s*[-–—]\s*(\d+)', text(question))
+    if not limits:
+        return []
+    first, last = map(int, limits.groups())
+
+    def split(rest, lower):
+        if not rest:
+            return [[]]
+        options = []
+        for length in range(1, min(len(rest), len(str(last))) + 1):
+            part = rest[:length]
+            if part.isdigit() and lower <= int(part) <= last and str(int(part)) == part:
+                options.extend([part, *tail] for tail in split(rest[length:], int(part) + 1))
+        return options
+
+    choices = split(answer.strip(), first)
+    return choices[0] if len(choices) == 1 else []
 
 
 def mapping(card):
@@ -73,6 +94,6 @@ def mapping(card):
     if task is None:
         status = 'needs_manual_review'
     else:
-        status = 'content_mapped_to_official_draft'
+        status = 'content_mapped_to_specification'
     return {'task': task, 'basis': basis, 'mappingStatus': status,
             'formatStatus': 'historical_format' if legacy else 'format_requires_review'}

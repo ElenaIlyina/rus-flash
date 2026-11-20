@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-11-18T15:31:41+00:00",
+  "status": "finished",
+  "planSha256": "928fb72fee913a0289f788b723e869b3f597cb49a9e62f37fe94228ad97a9ff8",
+  "project": "AF0ED3F2557F8FFC4C06F80B6803FD26",
+  "endpoint": "https://ege.fipi.ru/bank/solve.php",
+  "results": [
+    {
+      "caseId": "BANK-1DA0CC",
+      "cardId": "1DA0CC",
+      "guid": "A5A9726B4A85BE8B45E8AD409EEC8575",
+      "sourceContentSha256": "648cf836c1941f1ce6ad1dfb2623bc08cebd9557e79d2e973b86722f2f693ed6",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:43+00:00",
+          "answer": "шедеврами",
+          "wireAnswer": "шедеврами",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-01D3AC",
+      "cardId": "01D3AC",
+      "guid": "92A75E4E4D97A7CC4D6B6CE5B98229CE",
+      "sourceContentSha256": "9e7456510b41380b2883adf4f7dba6c890fc85bf1c4254bb475cd682e40b5b66",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:43+00:00",
+          "answer": "не даёт покоя",
+          "wireAnswer": "не даёт покоя",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-05AC9F",
+      "cardId": "05AC9F",
+      "guid": "B2198AC79D5285D24E44350FA5C989D6",
+      "sourceContentSha256": "9148968e924e015b13e81123aaaef7fa03f4c48f7f111fc756f1b622f60e4898",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:44+00:00",
+          "answer": "про чёрный день",
+          "wireAnswer": "про чёрный день",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-86E041",
+      "cardId": "86E041",
+      "guid": "0F5CD24134E3814C4C029E468AC75B93",
+      "sourceContentSha256": "fe8be4992454f5ecf08cb3424e450f999761107df04b920a102ba2d142e6aaea",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:45+00:00",
+          "answer": "в голову приходит",
+          "wireAnswer": "в голову приходит",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-9C4102",
+      "cardId": "9C4102",
+      "guid": "2B60A54A1635BD004A954F5F5D7990E1",
+      "sourceContentSha256": "f05657df57f03a6b69dd993e3889020b2d56ec6cedc0da82ea98ce1f7a2759e8",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:46+00:00",
+          "answer": "в сущности",
+          "wireAnswer": "в сущности",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-AF9D0D",
+      "cardId": "AF9D0D",
+      "guid": "297b172ae83143b58f673fa48fd4c46a",
+      "sourceContentSha256": "fec6186bd06f440fb8237a35db59b2f067e70a30b383b6d70d618f2d2e7b5d53",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:47+00:00",
+          "answer": "во что бы то ни стало",
+          "wireAnswer": "во что бы то ни стало",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-C590CF",
+      "cardId": "C590CF",
+      "guid": "aa1b82ee16694abe8bd4b946765b99c2",
+      "sourceContentSha256": "a70ce9f3556fd1ebf07265372ef34bc152e800d368235ee8473e84e77ec42e73",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:48+00:00",
+          "answer": "что есть мочи",
+          "wireAnswer": "что есть мочи",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-CAC1B8",
+      "cardId": "CAC1B8",
+      "guid": "4AFA95F36C96935E4C1496C4F468E387",
+      "sourceContentSha256": "0a974d53ee203ad5240af2046f9e563b3adee3bf922001e5f247bf306e709f04",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:49+00:00",
+          "answer": "своими словами",
+          "wireAnswer": "своими словами",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        },
+        {
+          "time": "2026-11-18T15:31:50+00:00",
+          "answer": "может быть",
+          "wireAnswer": "может быть",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-E7F8EF",
+      "cardId": "E7F8EF",
+      "guid": "CC113FD332B1B2E2472E0ADAD14CB002",
+      "sourceContentSha256": "06b58de0aa38d54717fbbdc93104573e64d617543f0beb8adce240703a057bda",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:51+00:00",
+          "answer": "само собой",
+          "wireAnswer": "само собой",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    },
+    {
+      "caseId": "BANK-F15C9D",
+      "cardId": "F15C9D",
+      "guid": "B1785A5A9F3D954444A63470CEAEFF15",
+      "sourceContentSha256": "d706d20cc6d727d063b4dd8ee42c091f9bb8690c0aecdb3abf2982a803756fc6",
+      "liveTextCompared": false,
+      "mode": "verify_alternatives",
+      "attempts": [
+        {
+          "time": "2026-11-18T15:31:52+00:00",
+          "answer": "не в состоянии",
+          "wireAnswer": "не в состоянии",
+          "role": "explicit_hypothesis",
+          "httpStatus": 200,
+          "response": "3",
+          "responseSha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "status": "accepted"
+        }
+      ],
+      "status": "accepted"
+    }
+  ],
+  "runs": [
+    {
+      "startedAt": "2026-11-18T15:31:41+00:00",
+      "delay": 0.8,
+      "batchSize": 20,
+      "batchDelay": 10,
+      "requests": 12,
+      "tlsVerification": true,
+      "caFile": "/tmp/fipi-direct.3WWh2EKo/chain.pem",
+      "session": {
+        "status": "opened",
+        "httpStatus": 200
+      }
+    }
+  ],
+  "finishedAt": "2026-11-18T15:31:52+00:00",
+  "summary": {
+    "cardsInPlan": 10,
+    "withAcceptedAnswer": 10,
+    "withMultipleAcceptedStrings": 1,
+    "withRequestError": 0,
+    "notChecked": 0
+  }
+}

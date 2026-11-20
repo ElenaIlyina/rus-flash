@@ -6,20 +6,10 @@
   "requestedSentencesReviewed": 358,
   "remainingCards": [],
   "pendingCards": [
-    "01D3AC",
-    "05AC9F",
-    "1DA0CC",
     "39AA6F",
     "5C797C",
     "7A95AF",
-    "86E041",
-    "9C4102",
-    "A9FD8A",
-    "AF9D0D",
-    "C590CF",
-    "CAC1B8",
-    "E7F8EF",
-    "F15C9D"
+    "A9FD8A"
   ],
   "independentTeacherAcceptance": false,
   "cards": [
@@ -104,5 +94,6 @@
     "browserScenarios": 31,
     "report": "dev/docs/content-audit/explanations-20-26-branch-check.json",
     "independentTeacherAcceptance": false
-  }
+  },
+  "answerReviewDate": "2026-11-18"
 }

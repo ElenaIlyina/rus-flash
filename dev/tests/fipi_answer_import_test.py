@@ -21,12 +21,14 @@ class VerifiedAnswerImportTest(unittest.TestCase):
         updates,proofs=importer.prepare(self.cards,self.ledger,self.raw)
         self.assertFalse(updates);self.assertEqual(len(proofs),2069)
         self.assertEqual(sum(bool(c['answer_verify']) for c in self.cards.values()),2069)
-        self.assertEqual(sum(len(p['acceptedAnswers'])>1 for p in proofs),2)
+        self.assertEqual(sum(len(p['acceptedAnswers'])>1 for p in proofs),50)
         for proof in proofs:
             self.assertIn(proof['answerVerify'],proof['evidenceReports'])
             self.assertTrue(proof['evidenceReports'][proof['answerVerify']])
-        self.assertEqual(self.cards['09C71B']['accepted_answers'],['позже','затем'])
-        self.assertEqual(self.cards['432ADD']['accepted_answers'],['но','а'])
+        self.assertTrue({'позже','затем'} <= set(self.cards['09C71B']['accepted_answers']))
+        self.assertTrue({'но','а'} <= set(self.cards['432ADD']['accepted_answers']))
+        self.assertEqual(self.cards['1DA0CC']['accepted_answers'],['шедевров','шедеврами'])
+        self.assertEqual(self.cards['CAC1B8']['accepted_answers'],['до глубины души','своими словами','может быть'])
         self.assertNotIn('accepted_answers',self.cards['012CAB'])
 
     def test_one_missing_key_is_recovered_and_other_fields_are_not_an_import_target(self):
@@ -43,7 +45,8 @@ class VerifiedAnswerImportTest(unittest.TestCase):
     def test_logged_patch_scope_and_existing_primary_answers_are_preserved(self):
         entries=[json.loads(line) for line in importer.LOG.read_text().splitlines()]
         changes=[e for e in entries if e['event']=='verified_answer_imported']
-        self.assertEqual(len(changes),1290)
+        self.assertEqual(sum(e['date']=='2026-10-30' for e in changes),1290)
+        self.assertEqual(sum(e['date']=='2026-11-18' for e in changes),10)
         self.assertEqual(sum(not e['before'].get('answer') for e in changes),1134)
         for change in changes:
             self.assertEqual(change['beforeProtectedFieldsSha256'],change['afterProtectedFieldsSha256'])

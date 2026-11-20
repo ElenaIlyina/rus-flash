@@ -29,7 +29,14 @@ class MergedResultsTest(unittest.TestCase):
         merged=merger.merge(self.reports,self.snapshots)
         self.assertEqual(merged['summary'],{'cards':2140,'acceptedCards':2069,'unresolvedCards':0,
                                          'essayCards':71,'withMultipleAcceptedStrings':2})
-        self.assertEqual(merged,json.loads((ROOT/'dev/data/fipi-results/merged-ledger.json').read_text()))
+        latest = ROOT / 'dev/data/fipi-results/2026-11-18-confirmed-alternatives/report.json'
+        evidence = (json.loads(latest.read_text()), hashlib.sha256(latest.read_bytes()).hexdigest())
+        current = merger.merge([*self.reports, evidence], self.snapshots)
+        self.assertEqual(current['summary']['withMultipleAcceptedStrings'], 12)
+        recent = sorted((ROOT / 'dev/data/fipi-results').glob('2026-11-19*/report.json'))
+        current = merger.merge([*self.reports, evidence, *((json.loads(p.read_text()), hashlib.sha256(p.read_bytes()).hexdigest()) for p in recent)], self.snapshots)
+        self.assertEqual(current['summary']['withMultipleAcceptedStrings'], 50)
+        self.assertEqual(current, json.loads((ROOT/'dev/data/fipi-results/merged-ledger.json').read_text()))
         # Use archive snapshots for completeness checks independently of generated local files.
         manifest=checker.load_plan(ROOT/'dev/data/fipi_retry_checks.json')
         with tempfile.TemporaryDirectory() as temp:

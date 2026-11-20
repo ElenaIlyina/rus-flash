@@ -94,7 +94,11 @@ def render(card, review, sources):
 
 
 def public_refs(review, sources):
-    return [{'part':1, 'sourceId':e['sourceId'], 'label':sources[e['sourceId']]['citationLabel'], 'url':sources[e['sourceId']]['url']} for e in review['lexicalEvidence']]
+    return [
+        {'part': 1, 'sourceId': source['id'], 'label': source['citationLabel'], 'url': source['url']}
+        for evidence in review['lexicalEvidence']
+        if (source := sources[evidence['sourceId']]).get('url')
+    ]
 
 
 def main():

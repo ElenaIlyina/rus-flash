@@ -338,6 +338,22 @@
       "readMethod": "dictionary_article_text_read_relevant_extract_saved",
       "textSha256": "9b61ef91e1abdcca7249ddc0d4f77454728ef641026544804de639732153d347",
       "snapshotSha256": "b7847f257778fdc7094a03e02cc70bb9d3123d11116d12ba4c6a10becba5cb60"
+    },
+    {
+      "id": "molotkov-1968-litso-k-litsu",
+      "file": "dev/docs/references/lexical-analysis-molotkov/litso-k-litsu.txt",
+      "citationLabel": "Фразеологический словарь русского языка под ред. А. И. Молоткова, 1968, с. 228–229",
+      "readMethod": "dictionary_page_visually_read_with_summary",
+      "textSha256": "cedd6a9f9130af8be328762b1697aafa741d6673a87484156b47c6a4f88f5f5a",
+      "snapshotSha256": "0078d670fa9ba1d48a94c9c867b550305aa3ca3bd7ebcca2b1f56d1f093574f2"
+    },
+    {
+      "id": "molotkov-1968-net-dela",
+      "file": "dev/docs/references/lexical-analysis-molotkov/net-dela.txt",
+      "citationLabel": "Фразеологический словарь русского языка под ред. А. И. Молоткова, 1968, с. 277",
+      "readMethod": "dictionary_page_visually_read_with_summary",
+      "textSha256": "feca26e43d4231dd0ce8e68d8819caeb689c3d2d595e3fef8efe3bf33a5d3c83",
+      "snapshotSha256": "da9ce2dca905ab51283de7bbeffd0ecdb74b2eb8dd7de5ee407365cb116e10cd"
     }
   ]
 }

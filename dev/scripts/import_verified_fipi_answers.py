@@ -4,6 +4,7 @@ import argparse
 import copy
 import hashlib
 import json
+from datetime import date
 from pathlib import Path
 
 import audit_fipi_format as formatting
@@ -80,7 +81,7 @@ def run(apply=False,check=False):
             if formatting.digest({k:v for k,v in card.items() if k not in ANSWER_FIELDS})!=protected:
                 raise ValueError('Changed source/explanation: '+cid)
             (ROOT/f'data/card_{cid}.json').write_text(json.dumps(card,ensure_ascii=False,indent=2)+'\n')
-            entries.append({'event':'verified_answer_imported','date':'2026-10-30','cardId':cid,
+            entries.append({'event':'verified_answer_imported','date':date.today().isoformat(),'cardId':cid,
                 'before':before,'after':fields,'beforeProtectedFieldsSha256':protected,
                 'afterProtectedFieldsSha256':protected,'evidenceLedgerSha256':hashlib.sha256(LEDGER.read_bytes()).hexdigest(),
                 'reason':'Publish answers accepted by FIPI; preserve any previously confirmed primary key.'})

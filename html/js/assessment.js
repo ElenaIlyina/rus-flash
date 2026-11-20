@@ -6,9 +6,19 @@ function text(value) {
     .toLowerCase()
     .replaceAll("ё", "е");
 }
-export function checkResponse(type, actual, expected) {
+function matchesNumbers(input, numbers) {
+  if (/[\s,;]/u.test(input)) {
+    const parts = input.split(/[\s,;]+/u);
+    return parts.length === numbers.length && [...numbers].sort().join(",") === parts.sort().join(",");
+  }
+  if (!numbers.length) return input === "";
+  return numbers.some((n, i) => input.startsWith(n) &&
+    matchesNumbers(input.slice(n.length), numbers.filter((_, index) => i !== index)));
+}
+
+export function checkResponse(type, actual, expected, sentenceNumbers = []) {
   if (Array.isArray(expected))
-    return expected.some((answer) => checkResponse(type, actual, answer));
+    return expected.some((answer) => checkResponse(type, actual, answer, sentenceNumbers));
   if (type === "multiple_choice" || type === "position_set") {
     const canonical = (value) =>
       text(value)
@@ -18,6 +28,9 @@ export function checkResponse(type, actual, expected) {
         .join("");
     return canonical(actual) === canonical(expected);
   }
-  // Matching and sentence numbers preserve order: 13254 is not 52341; 26 is not 62.
-  return text(actual) === text(expected);
+  const input = text(actual), key = text(expected);
+  if (type === "sentence_numbers" && sentenceNumbers.length && key === sentenceNumbers.join(""))
+    return matchesNumbers(input, sentenceNumbers);
+  if (type === "short_text" && input === key.replace(/\s+/gu, "")) return true;
+  return input === key;
 }

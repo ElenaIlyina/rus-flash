@@ -346,7 +346,7 @@
     },
     {
       "id": "2C4EBE",
-      "sourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c",
+      "sourceContentSha256": "29f17d64bd50328e37175e69638425095144628fbf380a4cf89e0b2d4e9d83f0",
       "answer": "пристальное",
       "answerVerify": "пристальное",
       "explanationSha256": "f07bb2ddc07662718f0e66e82defeeb33a6baa4f3742b3e1e439fcac223b5658",
@@ -385,7 +385,7 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "880e3e8b0b2c404362a1b8dc2fdab54cae0296eb21f82a3c6269b5b73de84bcc"
+      "formatSyncPreviousSourceContentSha256": "d5d2ea5f71f460abf4f04ddbda2d190fcb85ccc5fad1d96220a5cc4db0b8018c"
     },
     {
       "id": "2EC28B",
@@ -787,7 +787,7 @@
     },
     {
       "id": "62221D",
-      "sourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31",
+      "sourceContentSha256": "6eafb56f9dec3f142bb26f8b75dfd2a8f4d83913718df421b7db30a9f22d47db",
       "answer": "вызвал",
       "answerVerify": "вызвал",
       "explanationSha256": "5cf9e56dc0d965a3ff7a9ae38a7cbbdc539062de60a7804b68c58ffe94ee8f92",
@@ -826,7 +826,7 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "1eb7a5b17623747d616a8068a18b3058b94ab3aac15cf72ba0c2608c71d6053a"
+      "formatSyncPreviousSourceContentSha256": "dc2fbaef1db0178bd883fd621543a2c8c87add8d296df7bc7df2d26d02b3ab31"
     },
     {
       "id": "627BFA",
@@ -908,7 +908,7 @@
     },
     {
       "id": "6C3603",
-      "sourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714",
+      "sourceContentSha256": "7823683a980a5437fcc21c9d5c87f9d3e0418e7d255910ea19c752d637d27382",
       "answer": "победу",
       "answerVerify": "победу",
       "explanationSha256": "cb48ec7e81c01e311fd2ebaf82c0a0ad65767185582564f2f46c409a497f5ec3",
@@ -947,7 +947,7 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "f98bf9b3e89b13491083589568d12f9b2117e09ec059d535ea659ef61a6da2a9"
+      "formatSyncPreviousSourceContentSha256": "5af55417df3232087758d5774bcc713905d4c646e69dbfc44daa8450fc28f714"
     },
     {
       "id": "6ECC3F",
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "74341C",
-      "sourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f",
+      "sourceContentSha256": "3cbdeb8b78ed69685555340f5ae292d087b53c8febbc0f563bb6925cd79b0dc5",
       "answer": "стремительный",
       "answerVerify": "стремительный",
       "explanationSha256": "b5158854145c36ececb6f4cb4a9f964653ec90fdb8518a1034d96561a1467df0",
@@ -1111,7 +1111,7 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "e12d9b8ed99f6a73ab7c9af2a0e6e35b83457c35f2ecb0f7cd9a135bb139a647"
+      "formatSyncPreviousSourceContentSha256": "324429503bdc5c2415485a5c51246533a10f4ebeace99a52e3afd4597ec06e7f"
     },
     {
       "id": "78A254",
@@ -2118,7 +2118,7 @@
       "sourceContentSha256": "bfd312e908ccd7014e6d0900dc2e1cb49eed1553d719188872b048f5ac6148c8",
       "answer": "постоянную",
       "answerVerify": "постоянную",
-      "explanationSha256": "506d62bda1b5e173fd4f0d4b2c8ba0d33a899f2d1f6eec274584d2a003aefa73",
+      "explanationSha256": "d30f05659aa384eac0532c45d0ca3d7a9c3c92fc56f2825d301869c740ce224a",
       "contextAssessment": "context_sensitive_key_preserved",
       "edit": {
         "operation": "replace",
@@ -2146,7 +2146,11 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "ee24784fd5c7be44400afc1152bd45a4b40a1c6c2daa6bfbbbf8d7db7a23b0de"
+      "formatSyncPreviousSourceContentSha256": "ee24784fd5c7be44400afc1152bd45a4b40a1c6c2daa6bfbbbf8d7db7a23b0de",
+      "dictionaryReconciliation": {
+        "previousExplanationSha256": "506d62bda1b5e173fd4f0d4b2c8ba0d33a899f2d1f6eec274584d2a003aefa73",
+        "review": "REFERENCE-2026-11-20-D52745"
+      }
     },
     {
       "id": "D820E1",
@@ -2201,7 +2205,7 @@
     },
     {
       "id": "DA7A61",
-      "sourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861",
+      "sourceContentSha256": "3da5e9c647275052e229283729b30f5feb956fd31577f84610a2aa5c72c372a6",
       "answer": "представляют",
       "answerVerify": "представляют",
       "explanationSha256": "1baf2879575b7ed27e4e23d2599ad19a3d7b4caf342c20f2a4413fd0e44566cf",
@@ -2240,7 +2244,7 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "f9027bacdbed6388c43deb758a61c48c4d0a885b441def6de864ecddb23ebddc"
+      "formatSyncPreviousSourceContentSha256": "e6c8d315eb9d9c608b7d7f7d354d3a4ba1017d2d3ef8a8ba4514d17009351861"
     },
     {
       "id": "DCF3FC",
@@ -2580,7 +2584,7 @@
     },
     {
       "id": "F06518",
-      "sourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3",
+      "sourceContentSha256": "ff33c0f401d4c6a5979411ff366956f2df12c7d52614c35e73cd943df9884aa0",
       "answer": "внимание",
       "answerVerify": "внимание",
       "explanationSha256": "5ab1e6ec90b015efb80a09ebecd14c44a112af7cb6973691221d494ebd969b06",
@@ -2619,11 +2623,11 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "9e4d45a8835884276dd0986ceb154a43b607ebbc3a7267e10c6a5c8b00b4e490"
+      "formatSyncPreviousSourceContentSha256": "8c5f92e9268a85eb5a2e49b8d13edf4da8294609966786c6402c6d6ee70076e3"
     },
     {
       "id": "F3E10B",
-      "sourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125",
+      "sourceContentSha256": "db88d6c43b20b958da85cda4a11707a6453f774d76cf0d5adb010d590e2b7611",
       "answer": "существующими",
       "answerVerify": "существующими",
       "explanationSha256": "d0b67638b7886c001c125250dc2dfe80efb69f84a788567c07f35088c230553c",
@@ -2662,7 +2666,7 @@
           "reviewDate": "2026-10-29"
         }
       ],
-      "formatSyncPreviousSourceContentSha256": "0be698ad39eb43bc7a44d33bb2c2a0db05651691b65f0626b9a805e6e0a37589"
+      "formatSyncPreviousSourceContentSha256": "836ad3de6cc0b9c345e1dc8a2eb4f1ba52fb2a81f16c854ea784b3bf2438a125"
     },
     {
       "id": "F6854B",
@@ -2767,5 +2771,5 @@
       "formatSyncPreviousSourceContentSha256": "8b0c03ea7d08ae34c6030847b6333c3c8f10abf7ed6229bd551781cbf0f36d44"
     }
   ],
-  "formatSyncEvidence": "dev/docs/content-audit/raw-format-audit.json"
+  "formatSyncEvidence": "dev/docs/content-audit/verified-answer-import.json"
 }
