@@ -24,6 +24,15 @@ KEEP = {'b','strong','i','em','u','sub','sup'}
 BLOCK = {'p','div','table','tr','td','li'}
 DROP = {'script','style','input','textarea','select','iframe','object'}
 FIELDS = ('question','variants','errors','sentences')
+AUTHOR_CORRECTIONS = {
+    '23E453': (('question', 'ставитсяв соответствии', 'ставится в соответствии'),),
+    '34DD9B': (('variants', 'В предложенияx 54', 'В предложениях 54'),),
+    '80D166': (('question', 'Тюменских областях', 'Тюменской области'),),
+    '8EA0E9': (('question', 'Эта просьба заключалось', 'Эта просьба заключалась'),),
+    'B4D450': (('question', 'Ноэкология', 'Но экология'),
+               ('question', 'философу исоциологу', 'философу и социологу')),
+    'D12501': (('question', 'местные судостроителя', 'местные судостроители'),),
+}
 
 
 def digest(value):
@@ -163,6 +172,13 @@ def inspect(card, raw):
     if card['number']!=raw['number'] or card['guid'].lower()!=raw['guid'].lower():
         raise ValueError('Card identity mismatch')
     proposed = extract(raw)
+    for field, before, after in AUTHOR_CORRECTIONS.get(card['number'], ()):
+        value = proposed[field]
+        parts = value if isinstance(value, list) else [value]
+        if sum(part.count(before) for part in parts) != 1:
+            raise ValueError('Author-approved correction no longer matches the source: ' + card['number'])
+        corrected = [part.replace(before, after) for part in parts]
+        proposed[field] = corrected if isinstance(value, list) else corrected[0]
     changes,issues = {},[]
     for key,new in proposed.items():
         old = card.get(key,[] if key!='question' else '')

@@ -8,7 +8,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'dev/scripts'))
 from review_grammar_explanations import load_sources
-from review_word_form_sources import validate, PENDING_NOTE
+from review_word_form_sources import validate
 
 
 def read(path):
@@ -43,16 +43,17 @@ class WordFormSourcesTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'evidence'):
             validate(card, review, self.sources)
 
-    def test_colloquial_variants_keep_warning_without_disabling_grading(self):
+    def test_neutral_plural_has_no_review_warning(self):
         support = read('data/knowledge/card_support.json')['cards']
         for cid in ('CA147A', 'F23DF9'):
             review = self.reviews[cid]
-            self.assertEqual(review['morphologySourceReview']['status'], 'variant_scope_pending')
-            self.assertEqual(support[cid]['explanationReviewNote'], PENDING_NOTE)
+            self.assertEqual(review['morphologySourceReview']['status'], 'source_supported')
+            self.assertNotIn('explanationReviewNote', support[cid])
+            self.assertFalse(support[cid].get('explanationNeedsSourceReview'))
             self.assertNotIn('reviewNote', support[cid])
             self.assertTrue(support[cid]['explanationPublished'])
             changed = copy.deepcopy(review)
-            changed['morphologyReview']['specialistGrammarReferencePending'] = False
+            changed['morphologySourceReview']['status'] = 'variant_scope_pending'
             with self.assertRaisesRegex(ValueError, 'unresolved'):
                 validate(read('data/card_'+cid+'.json'), changed, self.sources)
 

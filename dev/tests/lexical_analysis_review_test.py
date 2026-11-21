@@ -48,15 +48,17 @@ class LexicalAnalysisReviewTest(unittest.TestCase):
         r['sourceContentSha256'] = review.frozen(c)
         with self.assertRaises(ValueError): review.validate(c, r, self.sources)
 
-    def test_open_alternative_answers_remain_visible_without_expanding_key(self):
-        for cid in ['A9FD8A', '7A95AF']:
-            r = self.reviews[cid]
-            self.assertIn(r['sourceReviewNote'], review.render(self.card(cid), r, self.sources))
-            broken = copy.deepcopy(r); broken['sourceReviewPending'] = False
-            with self.assertRaises(ValueError): review.validate(self.card(cid), broken, self.sources)
+    def test_only_the_saved_answer_is_used_for_a9fd8a(self):
+        r = self.reviews['A9FD8A']
+        card = self.card(r['id'])
+        self.assertEqual(card.get('accepted_answers', [card['answer']]), ['нет дела'])
+        self.assertNotIn('Требует уточнения', review.render(card, r, self.sources))
+        broken = copy.deepcopy(r)
+        broken.update(sourceReviewPending=True, sourceReviewNote='Повторная проверка')
+        with self.assertRaises(ValueError): review.validate(card, broken, self.sources)
 
     def test_clickable_refs_match_verified_catalog(self):
         for entry in self.reviews.values():
             refs = review.public_refs(entry, self.sources)
             self.assertTrue(refs)
-            self.assertTrue(all(ref['part'] == 1 and (ref['url'].startswith('https://gramota.ru/') or ref['url'] in {'https://lib.ru/DIC/OZHEGOW/ozhegow_a_d.txt', 'https://lib.ru/DIC/OZHEGOW/ozhegow_e_l.txt'}) for ref in refs))
+            self.assertTrue(all(ref['part'] == 1 and (ref['url'].startswith('https://gramota.ru/') or ref['url'] in {'https://doc.fipi.ru/navigator-podgotovki/navigator-ege/2026/ru-2-leksika-i-frazeologija.pdf#page=11', 'https://lib.ru/DIC/OZHEGOW/ozhegow_a_d.txt', 'https://lib.ru/DIC/OZHEGOW/ozhegow_e_l.txt'}) for ref in refs))

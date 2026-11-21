@@ -54,6 +54,16 @@ def main():
             first=page.locator('.bank-row').first.get_attribute('href')
             page.locator('[data-action=more]').click()
             assert page.locator('.bank-row').first.get_attribute('href')==first
+            page.goto(base+'#knowledge',wait_until='networkidle')
+            page.get_by_role('heading', name='Справочники', exact=True).wait_for()
+            assert page.locator('.knowledge-category h2').all_text_contents() == [
+                'Орфография и грамматика', 'Лексика', 'Ударения', 'Работа с текстом', 'Первоисточники']
+            assert page.locator('.knowledge-rule').count() == 0
+            page.get_by_role('link', name='Короткие правила орфографии', exact=False).click()
+            page.get_by_role('heading', name='Короткие правила орфографии', exact=True).wait_for()
+            assert page.locator('.knowledge-links a').count() == 7
+            page.get_by_role('link', name='§2. И и Ы после приставок', exact=True).click()
+            page.locator('#rule-prefixes-i-y').wait_for()
             page.goto(base+'#card/09169B',wait_until='networkidle')
             page.locator('.practice-aside .rule-links').get_by_role('link',name='§2. И и Ы после приставок',exact=True).click()
             page.locator('#rule-prefixes-i-y').wait_for()
@@ -88,6 +98,13 @@ def main():
             assert not page.evaluate('JSON.parse(localStorage.getItem("rusflash_learning_v1")).events.at(-1).assisted')
             page.goto(base+'#bank?status=verified',wait_until='networkidle')
             assert page.locator('#answer-availability').input_value()=='verified'
+            page.locator('#bank-format').select_option('historical')
+            assert page.locator('.results-meta').inner_text().strip() == 'Найдено 271'
+            assert all('прежний формат' in row for row in page.locator('.bank-row').all_inner_texts())
+            page.locator('#task-filter').select_option('22')
+            assert page.locator('.results-meta').inner_text().strip() == 'Найдено 58'
+            page.locator('#task-filter').select_option('')
+            page.locator('#bank-format').select_option('all')
             assert 'С ответом' not in page.locator('.filter-tabs').inner_text()
             assert 'Без ответа' not in page.locator('.filter-tabs').inner_text()
             for button in page.locator('.filter-tab').all():

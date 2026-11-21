@@ -586,9 +586,9 @@
     {
       "id": "139F0C",
       "task": 21,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "04f54618012db6d88702da4521ce980c120ecf39b3b68991270fbb2d7b524a85",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-21",
+      "sourceContentSha256": "ab6439ee9ce667dd4fc2a65ad8c2accb59c228861db6d9335db76dd2dfb94760",
+      "previousExplanationSha256": "4e6e087bbefdb208597b580252b6aed5f55223c70f3ba0808c90f9803264131b",
       "status": "assistant_rewritten_source_linked",
       "target": "запятая",
       "commonRule": "Запятая между главной и придаточной частями сложноподчинённого предложения.",
@@ -712,9 +712,9 @@
         },
         {
           "number": 9,
-          "sentenceSha256": "5a4e4aebf864cb43bc8d06c98d78e9f8112522464f6582b304da11191893ea2b",
+          "sentenceSha256": "066638b6c3a2c807b2bc713daf2a2bbe4f5c544beffb60e42cb180cfc07e94d3",
           "matchesCommonRule": false,
-          "reason": "И соединяет главные части покров царит и ветры делают: запятая перед сочинительным союзом, а не при подчинении. Повреждённое Бо – ьшую в исходнике записано отдельно; текст не исправлялся.",
+          "reason": "Союз «и» соединяет две части сложносочинённого предложения с основами «покров царит» и «ветры делают». Перед союзом ставится запятая.",
           "sourceIds": [
             "lopatin-2007-punctuation-112"
           ]
@@ -1112,13 +1112,13 @@
     {
       "id": "1E7690",
       "task": 21,
-      "reviewDate": "2026-11-17",
+      "reviewDate": "2026-11-20",
       "sourceContentSha256": "2a63dfb2394b47f85bb6ed63d6d091aa148fb202238370181f55c36931e89c61",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "assistant_rewritten_requires_source_review",
+      "previousExplanationSha256": "736f8488562485d0614690c767d3af19e52676bf632ec1ef6fe35166875b9ca1",
+      "status": "assistant_rewritten_source_linked",
       "target": "тире",
-      "commonRule": "В сохранённом ключе объединены поясняющее название пути и поясняющее приложение. Строгое тождество этих оснований требует дополнительной сверки.",
-      "hint": "Различите границы маршрута, числовое сказуемое, пояснение пути и приложение. Совпадение тире не означает автоматически одинаковую синтаксическую функцию.",
+      "commonRule": "В предложениях 4 и 6 тире обособляет пояснительные приложения.",
+      "hint": "Найдите сочетания, которые поясняют или характеризуют уже названное. Проверьте, где тире выделяет приложение.",
       "rewriteReview": {
         "scope": "all_numbered_sentences",
         "oldExplanationsUsedAsEvidence": false,
@@ -1143,11 +1143,6 @@
         {
           "sourceId": "lopatin-2007-punctuation-61",
           "textSha256": "9de3e5129846d8965f7200968e69659bdcc8edd4289df62fd7a800e9717e2d58",
-          "method": "paragraph_text_read"
-        },
-        {
-          "sourceId": "lopatin-2007-punctuation-85",
-          "textSha256": "d8b83d56a07faac31c1fd374337d02c37debeecd0f64ce17b27e59b821aae710",
           "method": "paragraph_text_read"
         }
       ],
@@ -1174,7 +1169,7 @@
           "number": 3,
           "sentenceSha256": "ea64eb1dbbe44bde83a78f05982adba292b12af094ad107555cc8138548192a4",
           "matchesCommonRule": false,
-          "reason": "Протяжённость маршрута — подлежащее; пятьсот сорок километров — числовое именное сказуемое.",
+          "reason": "«Протяжённость маршрута» — подлежащее. «Пятьсот сорок километров» — числовое именное сказуемое. Тире ставится на месте пропущенного глагола-связки.",
           "sourceIds": [
             "lopatin-2007-punctuation-13"
           ]
@@ -1183,16 +1178,16 @@
           "number": 4,
           "sentenceSha256": "5a8dd013fb6d9c36ec7be8ee7024a30e5fdb4a456e4ad210195076f2bb61499d",
           "matchesCommonRule": true,
-          "reason": "По Золотому кольцу поясняет метафорическое по страницам истории Древней Руси: тире перед поясняющим наименованием пути. Сопоставимость с приложением в №6 отмечена для сверки.",
+          "reason": "«По Золотому кольцу» — пояснительное приложение. Оно называет маршрут, который обозначен образно словами «по страницам истории Древней Руси». Приложение стоит в конце предложения и отделяется одним тире. Перед приложением можно вставить «а именно».",
           "sourceIds": [
-            "lopatin-2007-punctuation-85"
+            "lopatin-2007-punctuation-61"
           ]
         },
         {
           "number": 5,
           "sentenceSha256": "361b03aeed438359b3fb533ab7fc79fe0a798dab694ff29fd11bf6208877fbe6",
           "matchesCommonRule": false,
-          "reason": "Посещаемость снизилась — следствие общего спада туризма; тире между бессоюзными частями.",
+          "reason": "Тире разделяет части бессоюзного сложного предложения. В первой части сообщается, что наблюдался спад внутреннего туризма. Во второй говорится о следствии этого спада — снижении посещаемости городов Золотого кольца.",
           "sourceIds": [
             "lopatin-2007-punctuation-130"
           ]
@@ -1201,20 +1196,18 @@
           "number": 6,
           "sentenceSha256": "13f4aa776d97f8b5f4cca492ed0b51013484a65d75b8a8b20b2f40dc2df6ca97",
           "matchesCommonRule": true,
-          "reason": "Один из развитых туристических маршрутов — приложение к наименованию маршрута; главное сказуемое пользуется популярностью.",
+          "reason": "«Один из развитых туристических маршрутов» — обособленное приложение к слову «маршрут». Оно стоит внутри предложения, поэтому выделено двумя тире. Сказуемое «пользуется популярностью» относится к подлежащему «маршрут». Перед приложением можно вставить «а именно».",
           "sourceIds": [
             "lopatin-2007-punctuation-61"
           ]
         }
-      ],
-      "sourceReviewPending": true,
-      "sourceReviewNote": "Ключ 46 объединяет поясняющее обстоятельство пути «по Золотому кольцу» и приложение к названию маршрута. Нужна дополнительная проверка того, насколько широко здесь понимается одно и то же правило. Это не доказанная ошибка ключа."
+      ]
     },
     {
       "id": "23E453",
       "task": 21,
       "reviewDate": "2026-11-17",
-      "sourceContentSha256": "1943b51ecc248a87a2d8be6a406cdc1b83537782d22cbef8e189dfb7fec0a10e",
+      "sourceContentSha256": "06e34a0606f17c8dfa50adafc8f6e6b7b6dc8ba4ab3570e8108b617dd6dd58eb",
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "status": "assistant_rewritten_source_linked",
       "target": "двоеточие",
@@ -2892,9 +2885,9 @@
     {
       "id": "80D166",
       "task": 21,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "909524e92de28467bd7bccc2970e4ad1ef229aba4bd5dc0471fd64d073dbdb06",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-21",
+      "sourceContentSha256": "4246c477cdb90acfbc9fab931cb1fed86c79c85c918e6e64044b8ea337930a1f",
+      "previousExplanationSha256": "f0e3a6dbad692c94507633b661aa238b9be46d9066003d04f498e8ea0dadf81b",
       "status": "assistant_rewritten_source_linked",
       "target": "запятая",
       "commonRule": "Запятые между однородными членами предложения.",
@@ -2971,7 +2964,7 @@
         },
         {
           "number": 5,
-          "sentenceSha256": "f92678f0f591880eab65dfa2b139b87808795294e3467e8383c884e32c2a7fed",
+          "sentenceSha256": "01610e4107af4e2ef32a539e29a1de3d13961001003167b630638b033128277c",
           "matchesCommonRule": true,
           "reason": "Запятые разделяют однородные обстоятельства места с названиями регионов; зависимые слова относятся к одному наблюдали.",
           "sourceIds": [
@@ -3457,9 +3450,9 @@
     {
       "id": "8EA0E9",
       "task": 21,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "0cbc77cff251e4252b652a50c97883374932dc10744db0f548c77e95e50c57b8",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-21",
+      "sourceContentSha256": "650541500158a1cbf09c2089dcbbb7113c4da4ea239a8a450b3f4c43e3efb7ea",
+      "previousExplanationSha256": "878eb71ebd204883413d2b900da2996657ddf2845f70952d57b1c22c5d909ea1",
       "status": "assistant_rewritten_source_linked",
       "target": "двоеточие",
       "commonRule": "Двоеточие между бессоюзными частями сложного предложения: вторая раскрывает содержание первой или поясняет его.",
@@ -3511,9 +3504,9 @@
         },
         {
           "number": 4,
-          "sentenceSha256": "ab6b382f0c6b45481b0bc7d135f6cd123d159e64ad17b8f3219978b0f488e5eb",
+          "sentenceSha256": "b74c1ac0d877cc047a38223b206caa1a7de82e5cd421b09b81a672e2a9ec0644",
           "matchesCommonRule": true,
-          "reason": "После в следующем сообщается содержание просьбы отдельной безличной частью надо выхлопотать. В исходнике есть несогласование просьба заключалось; оно не исправлялось и записано в журнале.",
+          "reason": "После слов «просьба заключалась в следующем» вторая часть раскрывает содержание просьбы. Перед пояснением ставится двоеточие.",
           "sourceIds": [
             "lopatin-2007-punctuation-129"
           ]
@@ -4107,9 +4100,9 @@
     {
       "id": "9DDA37",
       "task": 21,
-      "reviewDate": "2026-11-17",
+      "reviewDate": "2026-11-21",
       "sourceContentSha256": "f2d321ab1820ba0ffc3225f8dc8050e5b5bd09e5dac7dec917b965d43bbfcda5",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "previousExplanationSha256": "38877706732b800adc2488fd92047dab7fbe4f14086c6330dfcca3f28a3519ef",
       "status": "assistant_rewritten_source_linked",
       "target": "запятая",
       "commonRule": "Запятые при однородных членах предложения.",
@@ -5010,9 +5003,9 @@
     {
       "id": "B4D450",
       "task": 21,
-      "reviewDate": "2026-11-17",
-      "sourceContentSha256": "8a5f96ce202ea3d5a2f6342c55cd8af658150fa057d8873d3d5b2060df219ca0",
-      "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewDate": "2026-11-21",
+      "sourceContentSha256": "37774da6e2bad3b36f2134013a34dc669bd636b70235268c1f18ff3b53b60350",
+      "previousExplanationSha256": "b5f733087de2820b76900015408949d89a1a8afd93fc66ec24ee4f25c95b76e9",
       "status": "assistant_rewritten_source_linked",
       "target": "тире",
       "commonRule": "Тире между подлежащим и именным сказуемым при отсутствующей связке.",
@@ -5082,16 +5075,16 @@
         },
         {
           "number": 6,
-          "sentenceSha256": "3aa6867d79846c23e571162ee405babb634ac14255d48d18d53a2e133df0bf50",
+          "sentenceSha256": "60d7ce3a99d405730f0b5fe8978fa8a504567fb5b17ce57c1b02aeac58c560f2",
           "matchesCommonRule": true,
-          "reason": "Экология — подлежащее, понятие — именное сказуемое. Слитное Ноэкология в исходнике отмечено отдельно; текст не менялся.",
+          "reason": "«Экология» — подлежащее, «понятие более широкое» — именное сказуемое без связки.",
           "sourceIds": [
             "lopatin-2007-punctuation-10"
           ]
         },
         {
           "number": 7,
-          "sentenceSha256": "1782efb2803458dbbf5e877f6338f391dfcb28e1e5dd0a79277290c87f004d48",
+          "sentenceSha256": "31757246caceac6dba7a056ab948ecdc9a082b1a70d01af7b0c4f883abe61c04",
           "matchesCommonRule": true,
           "reason": "Наука — подлежащее, перекрёсток — именное сказуемое.",
           "sourceIds": [
@@ -5475,7 +5468,7 @@
       "id": "D12501",
       "task": 21,
       "reviewDate": "2026-11-17",
-      "sourceContentSha256": "3e20e501815a33eadfb6394d71322ac2f1114799c6f9bee19d1d82d1185691f3",
+      "sourceContentSha256": "f14241979c3f8f2f6c9ff277135f7c17fbfe71d1805cd72d37c629c36b0b98f4",
       "previousExplanationSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "status": "assistant_rewritten_source_linked",
       "target": "запятая",
@@ -5572,7 +5565,7 @@
         },
         {
           "number": 7,
-          "sentenceSha256": "91a9e545a7943a6c45fc4da28dc452103a613f917a093bf35e2aa109f13e34bc",
+          "sentenceSha256": "b77d06c48f1e49c8e5b30f4e3c5fdc8d203b88b4747789e73fc7908932b9b9b3",
           "matchesCommonRule": false,
           "reason": "Чтобы начали возведение — придаточное изъяснительное при распорядился; это не уточняющий член предложения.",
           "sourceIds": [

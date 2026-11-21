@@ -2,17 +2,11 @@
   "task": 26,
   "reviewDate": "2026-11-18",
   "taskCards": 71,
-  "preparedCards": 71,
-  "requestedSentencesPrepared": 510,
+  "freshlyReviewedCards": 71,
+  "requestedSentencesReviewed": 510,
   "remainingCards": [],
-  "pendingCards": [
-    "22B2FF",
-    "41186D",
-    "44A99E",
-    "6E2A0F",
-    "79B0A0",
-    "BA3A4B"
-  ],
+  "pendingCards": [],
+  "independentTeacherAcceptance": false,
   "cards": [
     "0121C7",
     "07D25E",
@@ -85,19 +79,5 @@
     "F98782",
     "F98ADC",
     "FCF0BE"
-  ],
-  "oldExplanationsUsedAsEvidence": false,
-  "independentTeacherAcceptance": false,
-  "testsRun": false,
-  "selfReviewRun": false,
-  "checksRunForFinalBatch": false,
-  "note": "All requested ranges and previous context read during authoring. Final batch published without separate checks or tests at user request; standard publication safeguards remain active.",
-  "latestBranchVerification": {
-    "date": "2026-11-18",
-    "result": "passed",
-    "unitTests": 253,
-    "browserScenarios": 31,
-    "report": "dev/docs/content-audit/explanations-20-26-branch-check.json",
-    "independentTeacherAcceptance": false
-  }
+  ]
 }

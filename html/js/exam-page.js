@@ -1,4 +1,4 @@
-import { esc, rich, cardExplanation, matchingColumns } from './ui.js';
+import { esc, rich, renderPassage, renderQuestionOption, renderEditorialNote, cardExplanation, matchingColumns } from './ui.js';
 import { loadCard } from './data.js';
 import { generateVariant, gradeVariant, modes, maxPoints, validateSession, examMinutes, isFullExam } from './exam.js';
 import { essayCriteria, essayReview, wordEstimate } from './exam-essay.js';
@@ -71,7 +71,7 @@ export function createExamController({ main, getCatalog, isCurrent }) {
     if (warning) warning.hidden = !storageFailed;
   }
   function wrap(content) {
-    main.innerHTML = `<section class="exam-page"><div class="page-heading"><div><div class="eyebrow">ШАГ ЗА ШАГОМ ПО ВСЕМ ТЕМАМ</div><h1>Варианты</h1><p>Учебные варианты по банку ЕГЭ · 26 заданий с автопроверкой</p></div></div>
+    main.innerHTML = `<section class="exam-page"><div class="page-heading"><div><h1>Варианты</h1></div></div>
       <p class="feedback warning" data-exam-storage ${storageFailed ? '' : 'hidden'}>Не удалось сохранить вариант в браузере. Не закрывайте страницу: ответы сейчас хранятся только в памяти.</p>
       ${error ? `<p class="feedback warning" role="alert">${esc(error)}</p>` : ''}${content}</section>`;
   }
@@ -110,13 +110,14 @@ export function createExamController({ main, getCatalog, isCurrent }) {
       wrap(`<div class="exam-toolbar">${button('home', 'К списку', 'quiet')}<span>${esc(modes[s.mode])}${isFullExam(s) ? ` · осталось <time data-exam-clock>${formatTime(timeLeft(s))}</time>` : ''} · заполнено <b data-exam-completed>${completed}</b> / 26</span>${button('finish-ask', 'Завершить вариант', 'secondary')}</div>
         <nav class="exam-numbers" aria-label="Задания варианта">${s.items.map((it,i) => button('jump', String(it.task), 'quiet', `data-index="${i}" aria-label="Задание ${it.task}${s.answers[it.id]?.trim() ? ', ответ сохранён' : ''}" ${s.cursor === i ? 'aria-current="step"' : ''} ${s.answers[it.id]?.trim() ? 'data-answered' : ''}`)).join('')}${s.essayId ? button('jump', s.examYear ? '27' : 'Черновик', 'quiet', `data-index="26" ${isEssay ? 'aria-current="step"' : ''}`) : ''}</nav>
         ${confirming === 'finish' ? `<section class="panel exam-confirm" role="region" aria-label="Завершение варианта"><h2>Завершить и проверить?</h2><p>Без ответа: ${26-completed}. Они получат 0 баллов. ${isFullExam(s) && !s.essay.trim() ? 'Сочинение не заполнено и получит 0 баллов. ' : ''}После завершения ответы нельзя изменить.</p>${button('finish', 'Завершить и проверить', 'primary')}${button('cancel', 'Продолжить решение', 'quiet')}</section>` : ''}
-        ${t && s.mode === 'learning' ? `<details class="exam-theory panel" data-exam-theory><summary>Теория · ${esc(t.title)}</summary><p>${esc(t.rule)}</p><ol>${t.steps.map(step => `<li>${esc(step)}</li>`).join('')}</ol><p><b>Обратите внимание:</b> ${esc(t.trap)}</p>${t.practice ? `<p><b>Попробуйте сами.</b> ${esc(t.practice[0])}</p><details><summary>Проверить себя</summary><p>${esc(t.practice[1])}</p></details>` : ''}${theoryComparison(t.comparison)}<div class="rule-links">${sourceLinks(item.task, meta)}</div><p class="muted">Краткая учебная опора; разбор конкретного задания появится после завершения варианта.</p></details>` : ''}
+        ${t && s.mode === 'learning' ? `<details class="exam-theory panel" data-exam-theory><summary>Теория · ${esc(t.title)}</summary><p>${esc(t.rule)}</p><ol>${t.steps.map(step => `<li>${esc(step)}</li>`).join('')}</ol><p><b>Обратите внимание:</b> ${esc(t.trap)}</p>${t.practice ? `<p><b>Попробуйте сами.</b> ${esc(t.practice[0])}</p><details><summary>Проверить себя</summary><p>${esc(t.practice[1])}</p></details>` : ''}${theoryComparison(t.comparison)}<div class="rule-links">${sourceLinks(item.task, meta)}</div></details>` : ''}
         <article class="exercise"><span class="eyebrow">${isEssay ? (s.examYear ? 'ЗАДАНИЕ 27' : 'ДОПОЛНИТЕЛЬНО · БЕЗ АВТОМАТИЧЕСКОЙ ОЦЕНКИ') : `ЗАДАНИЕ ${item.task} · КАРТОЧКА ${item.id}`}</span><h2>${isEssay ? (s.examYear ? 'Сочинение' : 'Письменный черновик') : esc(getCatalog().taskNames[item.task])}</h2>
-        ${isEssay && s.examYear ? '<p>Объём — не менее 150 слов.</p>' : isEssay ? '<p class="feedback warning">Письменное задание из банка может относиться к прежнему формату. Это дополнительная практика; текст не входит в балл за №1–26.</p>' : s.mode === 'scored' ? `<p>Максимум за задание: ${maxPoints(item.task)}. Баллы начисляются только за полностью правильный ответ.</p>` : ''}
-        ${card.passage ? `<details class="passage" open><summary>Текст к заданию</summary><div class="passage-content">${rich(card.passage)}</div></details>` : ''}
+        ${isEssay && s.examYear ? '<p>Объём — не менее 150 слов.</p>' : isEssay ? '<p class="muted">Черновик не учитывается в балле за задания №1–26.</p>' : s.mode === 'scored' ? `<p>Максимум за задание: ${maxPoints(item.task)}. Баллы начисляются только за полностью правильный ответ.</p>` : ''}
+        ${card.passage ? `<details class="passage" open><summary>Текст к заданию</summary><div class="passage-content">${renderPassage(card)}</div></details>` : ''}
         <div class="question-text">${rich(card.instruction)}</div>
         ${matchingColumns(card)}
-        ${card.options.length ? `<div class="options">${card.options.map((x,i) => `<div class="option static-option"><span class="option-number">${i+1}</span><span>${rich(x)}</span></div>`).join('')}</div>` : ''}
+        ${card.options.length ? `<div class="options">${card.options.map((x,i) => `<div class="option static-option"><span class="option-number">${i+1}</span><span>${renderQuestionOption(card, x)}</span></div>`).join('')}</div>` : ''}
+        ${renderEditorialNote(card.questionNote, "question-note")}
         <div class="answer-form"><label for="exam-answer">${isEssay ? 'Ваш черновик' : 'Ваш ответ'}</label>${isEssay ? `<textarea id="exam-answer" rows="14">${esc(value || '')}</textarea>` : `<input id="exam-answer" autocomplete="off" value="${esc(value)}" placeholder="${card.responseType === 'matching' ? 'Номера в порядке соответствий, например 13254' : 'Введите ответ'}">`}${isEssay && s.examYear ? `<p>Предварительный подсчёт слов: <b data-essay-count>${wordEstimate(value)}</b></p>` : ''}<p class="muted">Ответ сохраняется автоматически. ${isEssay ? '' : 'Проверка — после завершения всего варианта.'}</p></div>
         <div class="exam-toolbar">${button('previous', 'Назад', 'quiet', s.cursor === 0 ? 'disabled' : '')}${button('next', isEssay || s.cursor === 25 && !s.essayId ? 'К завершению' : 'Следующее задание', 'primary')}</div></article>`);
     } catch(e) {

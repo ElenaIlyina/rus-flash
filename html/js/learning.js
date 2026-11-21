@@ -131,7 +131,8 @@ export function projectProgress(catalog, history, now, settings = defaults) {
   );
   const total = catalog.cards.length,
     covered = total - counts.not_started;
-  const consolidated = groups.filter((g) =>
+  const scoredGroups = groups.filter((g) => g.id !== 27);
+  const consolidated = scoredGroups.filter((g) =>
     ["demonstrated", "due"].includes(g.status),
   ).length;
   return {
@@ -147,9 +148,9 @@ export function projectProgress(catalog, history, now, settings = defaults) {
     covered,
     events: unique,
     consolidated,
-    skillTotal: groups.length,
-    consolidation: groups.length
-      ? Math.floor((100 * consolidated) / groups.length)
+    skillTotal: scoredGroups.length,
+    consolidation: scoredGroups.length
+      ? Math.floor((100 * consolidated) / scoredGroups.length)
       : null,
     coverage: total ? Math.floor((100 * covered) / total) : null,
   };

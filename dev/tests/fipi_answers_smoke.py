@@ -51,8 +51,7 @@ def main():
                                         ('A9FD8A','может быть',False),('12BBAB','позже',False),('012CAB','лаковым',False)]:
                 page.goto(base+'#card/'+cid);page.locator('#answer-form').wait_for()
                 if cid=='6E2A0F':
-                    page.get_by_role('button',name='Замечание к заданию',exact=True).click()
-                    page.keyboard.press('Escape')
+                    assert page.get_by_role('button',name='Замечание к заданию',exact=True).count()==0
                 if page.locator('[name="answer-option"]').count():
                     for digit in answer:page.locator(f'[name="answer-option"][value="{digit}"]').check()
                 else:page.locator('#answer-input').fill(answer)

@@ -354,6 +354,24 @@
       "readMethod": "dictionary_page_visually_read_with_summary",
       "textSha256": "feca26e43d4231dd0ce8e68d8819caeb689c3d2d595e3fef8efe3bf33a5d3c83",
       "snapshotSha256": "da9ce2dca905ab51283de7bbeffd0ecdb74b2eb8dd7de5ee407365cb116e10cd"
+    },
+    {
+      "id": "fipi-25-introductory-phrases",
+      "url": "https://doc.fipi.ru/navigator-podgotovki/navigator-ege/2026/ru-2-leksika-i-frazeologija.pdf#page=11",
+      "citationLabel": "ФИПИ · Навигатор ЕГЭ-2026, лексика и фразеология, с. 11",
+      "file": "dev/docs/references/lexical-analysis-gramota/fipi-introductory-phrases.txt",
+      "readMethod": "section_text_read",
+      "textSha256": "840a68cbd108bb83b816314a44c07a8eabd6b96f77b6c41066161aef770011ff",
+      "snapshotSha256": "91a40626fbaa4623f72d631bc9376ea853b496594ee290f6a339889f007c16d4"
+    },
+    {
+      "id": "ozhegov-shvedova-burkat",
+      "url": "https://lib.ru/DIC/OZHEGOW/ozhegow_a_d.txt",
+      "file": "dev/docs/references/lexical-analysis-gramota/ozhegov-shvedova-burkat.txt",
+      "citationLabel": "Буркать · С. И. Ожегов, Н. Ю. Шведова, Толковый словарь русского языка · текст на Lib.ru",
+      "readMethod": "dictionary_article_text_read_relevant_extract_saved",
+      "textSha256": "741d14ddbd206936a44f5c87c6db7f43aa495de6440e48579b7a5768691088b1",
+      "snapshotSha256": "0e0bf56745d1b81cba4018206b7570c46acecbb59d7ffaf0541573254d4715d7"
     }
   ]
 }

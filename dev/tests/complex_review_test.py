@@ -56,11 +56,12 @@ class ComplexReviewTest(unittest.TestCase):
             broken=copy.deepcopy(r);mutate(broken)
             with self.assertRaises(ValueError):review.validate(self.card(r['id']),broken,self.ps)
 
-    def test_uncertainty_cannot_silently_be_published_as_settled(self):
-        pending={cid for cid,r in self.reviews.items() if r.get('sourceReviewPending')}
-        self.assertEqual(pending,{'503B73','A0805E'})
-        for cid in pending:
-            r=self.reviews[cid]
-            self.assertIn('Требует уточнения',review.render(self.card(cid),r,self.ps))
-            broken=copy.deepcopy(r);broken['sourceReviewPending']=False
-            with self.assertRaises(ValueError):review.validate(self.card(cid),broken,self.ps)
+    def test_author_resolved_both_circumstance_cases(self):
+        for cid in ('503B73', 'A0805E'):
+            with self.subTest(card=cid):
+                entry = self.reviews[cid]
+                self.assertFalse(entry.get('sourceReviewPending'))
+                rendered = review.render(self.card(cid), entry, self.ps)
+                self.assertNotIn('Требует уточнения', rendered)
+                self.assertNotIn('может быть отнесено к обеим', rendered)
+                self.assertEqual(self.card(cid)['answer'], '1234')

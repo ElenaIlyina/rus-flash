@@ -6,7 +6,7 @@ import re
 from review_punctuation_explanations import ROOT, frozen, digest, clean
 from review_isolation_explanations import plain_question
 from exam_2027 import mapping
-from review_reading_content import sentences
+from review_reading_content import render_statement, sentences
 
 REGISTRY = ROOT / 'dev/data/knowledge/discourse_card_reviews.json'
 ISSUES = ROOT / 'dev/docs/content-audit/explanations-20-26-issues.json'
@@ -104,15 +104,15 @@ def render(card, review, sources):
     validate(card, review, sources)
     direction = 'ОШИБОЧНЫЕ' if review['selection'] == 'incorrect' else 'ВЕРНЫЕ'
     blocks = [f'Нужно выбрать <b>{direction}</b> утверждения о построении текста. Ответ: <b>{card["answer"]}</b>.']
+    footnotes = []
     if review.get('sourceReviewPending'):
         blocks.insert(0, '<b>Требует уточнения.</b><br>' + clean(review['sourceReviewNote']))
     for row in review['rows']:
         verdict = 'верно' if row['isCorrect'] else 'неверно'
         action = 'выбираем' if chosen(review, row) else 'не выбираем'
-        evidence = '<br>'.join(f'({e["sentence"]}) «{clean(e["quote"])}»' for e in row['evidence'])
-        blocks.append(f'<b>Утверждение {row["number"]} — {verdict}; {action}.</b><br>' + clean(row['statement']) + '<br>' + clean(row['reason']) + '<br>Основание — исходный текст:<br>' + evidence)
+        blocks.append(render_statement(row, verdict, action, footnotes))
     blocks.append('Критерии анализа типов речи: ' + clean(sources['citationLabel']) + '<br>Конкретные смысловые связи установлены по приведённым фрагментам; справочник не является ключом к карточке.')
-    return '<br><br>'.join(blocks)
+    return '<br><br>'.join(blocks) + ''.join(footnotes)
 
 
 def main():

@@ -46,11 +46,15 @@ class ReadingContentReviewTest(unittest.TestCase):
             broken = copy.deepcopy(r); change(broken)
             with self.assertRaises(ValueError): review.validate(self.card(r['id']), broken)
 
-    def test_implicit_feeding_is_marked_and_logged(self):
+    def test_context_supports_the_accepted_inference(self):
         r = self.reviews['1DC0F3']
-        self.assertTrue(r['sourceReviewPending'])
-        self.assertIn('прямого сообщения', r['rows'][3]['reason'])
-        broken = copy.deepcopy(r); broken['sourceReviewPending'] = False
+        card = self.card(r['id'])
+        self.assertFalse(r.get('sourceReviewPending'))
+        self.assertEqual(card['answer'], '145')
+        self.assertNotIn('Требует уточнения', card['explanation'])
+        self.assertIn('подразумевается', r['rows'][3]['reason'])
+        broken = copy.deepcopy(r)
+        broken.update(sourceReviewPending=True, sourceReviewNote='Повторная проверка')
         with self.assertRaises(ValueError): review.validate(self.card(r['id']), broken)
 
     def test_distractors_preserve_time_speaker_and_group_distinctions(self):
@@ -59,15 +63,14 @@ class ReadingContentReviewTest(unittest.TestCase):
         self.assertIn('полковник', self.reviews['2EF1B4']['rows'][3]['reason'])
         self.assertIn('Книппер', self.reviews['1618E6']['rows'][2]['reason'])
 
-    def test_documented_missing_bracket_is_parsed_without_editing_source(self):
+    def test_restored_bracket_is_present_in_all_copies_of_the_passage(self):
         for cid in ['8BD010', '71FF7C', 'A974B4', 'C590CF', 'CB7468']:
             card = self.card(cid)
             raw = card['text']
-            self.assertIn('(40Минут через пятнадцать', raw)
+            self.assertIn('(40)Минут через пятнадцать', raw)
             ss = review.sentences(card)
             self.assertEqual(len(ss), 48)
             self.assertEqual(ss[39], 'Минут через пятнадцать мы достигли леса и остановились.')
-            self.assertEqual(card['text'], raw)
-        card['text'] = raw.replace('(40Минут', '(400Минут')
+        card['text'] = raw.replace('(40)Минут', '(40Минут')
         with self.assertRaises(ValueError):
             review.sentences(card)

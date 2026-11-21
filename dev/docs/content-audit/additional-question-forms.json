@@ -1309,7 +1309,7 @@
       ],
       "sourceContentSha256": "08de4865a40973f639073fda06366303a321d3385bb3016c61a16a3c0277e2b2",
       "beforeExplanationSha256": "f79647044126f4656a37643cc767c9df2954f19aa333b7da953cd7fe9f5e2528",
-      "afterExplanationSha256": "b63afafee39a05a954d0a4cdf7f6e55d80defd2de21352a52db8b9d3df40079b",
+      "afterExplanationSha256": "027fda63947d50911f1e2618b6b0a4a4231721ceb65f9510d2cd907fb81205bc",
       "dictionaryReconciliation": {
         "previousExplanationSha256": "d0c3142393bc39738d1aca2f974b830fbba5e5c4555aa625532c2fd8387a129c",
         "review": "REFERENCE-2026-11-20-E92465"
@@ -1393,7 +1393,7 @@
       ],
       "sourceContentSha256": "a8549d9679b87fd3dc975ca500acbe1931eb02a95e0bcca1d0a75f31f638f3ca",
       "beforeExplanationSha256": "91177672c2ceebcf8efe48251a7ec187a449b8dfed9a0c0482fa0ce4b6fe6f53",
-      "afterExplanationSha256": "e29a602c0e8d4aac2c5bdd7b3a5a5a91493899c2bf5f25363370fa36c4853f9f",
+      "afterExplanationSha256": "90e6a63d7d6b76fc9d28699c2f9a6b9507cdb2cac313500bde0bdd2337813f51",
       "dictionaryReconciliation": {
         "previousExplanationSha256": "5296765dd49bd176a71bfca54453dcf7f6b53edaf1cb2493643441104c11f577",
         "review": "REFERENCE-2026-11-20-FD0C05"
@@ -1417,7 +1417,7 @@
       ],
       "sourceContentSha256": "ae412b6254cfc6becb838f4f18fc821cea54cff94b7c8e98c6deda102894b0db",
       "beforeExplanationSha256": "64a12d858e16f224cae71a3b27699d1610f21286f76423de115784a24a28c4fc",
-      "afterExplanationSha256": "c90ee2a12d26461ed0e0af325e3720517e82f9c58cfaa1444b816941156f56da",
+      "afterExplanationSha256": "35acba6af7dd34c5d32cd35209f9a2e199de2ccadb264a1b8af583a107287936",
       "dictionaryReconciliation": {
         "previousExplanationSha256": "621401f14a6211c3db43e2a909d67730d44803c236b03ae55b9a07ffd90b74fa",
         "review": "REFERENCE-2026-11-20-FE8FF6"

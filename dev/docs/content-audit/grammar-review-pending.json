@@ -2,92 +2,7 @@
   "schemaVersion": 1,
   "reviewDate": "2026-11-10",
   "policy": "Every task-8 explanation has been rewritten. Remaining pending reviews separate four confirmed matches from one unresolved historical-key assignment. Original conditions and keys remain unchanged; no universal prohibition is inferred from a key.",
-  "cards": [
-    {
-      "id": "0C92F7",
-      "sentence": 2,
-      "reason": "Нужно точное основание для запрета «чувствовал то, как…» именно в этом контексте; избыточность указательного слова не выводится из общего описания СПП.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "ffb2e646c0b654d3ca72c081f09188dd4b0eaa818ce299c373f71d5e57ebac4b"
-    },
-    {
-      "id": "0D3499",
-      "sentence": 1,
-      "reason": "Числовое расхождение подлежащего и именного сказуемого не всегда нарушает норму. Нужен источник для оценки именно «Идея … — главные идеи…», без распространения запрета на все именные сказуемые.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "df461ad6b3e99563f3fe44b2dc5a00a8f7c2f5f238165f8e4680362fe316abe8"
-    },
-    {
-      "id": "1A8A12",
-      "sentence": 4,
-      "reason": "Причастие «требовавшие» формально согласовано с «пьесы», но отдалено от него. Дистантное обособленное определение бывает нормативным; требуется разбор конкретной конструкции, а не общий запрет удаления.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "2a048314f516e822a916792bc5d0579264360650968fa82fcd1e56790a3ba981"
-    },
-    {
-      "id": "321FC1",
-      "sentence": 1,
-      "reason": "Нужно проверить статус «установили то, что…» в данном контексте, а не объявлять любое указательное ТО перед ЧТО ошибкой.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "d6d96a34cf100d70a801b38d961a0368866865bc1517bf2ef44ad7832c4adafd"
-    },
-    {
-      "id": "42A4FE",
-      "sentence": 1,
-      "reason": "Нужно предметное основание для оценки «узнать то, как…»; общая возможность убрать ТО ещё не является доказательством грамматического нарушения.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "b8e5773698c87836eaef19c9ee38cca8901c7923171656fafd544b93f1671e27"
-    },
-    {
-      "id": "55C0E8",
-      "sentence": 2,
-      "reason": "Причастие «собравшихся» по форме может относиться к «делегатов». Требуется доказать ошибочность именно этого удаления через сказуемое; само по себе расстояние между именем и определением недостаточно.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "424076b0d04533e607954a905377eed817de93b4ac45ba2b7ca32dc6268d64e6"
-    },
-    {
-      "id": "706C1F",
-      "sentence": 2,
-      "reason": "Причастие «собравшихся» по форме может относиться к «делегатов». Требуется доказать ошибочность именно этого удаления через сказуемое; само по себе расстояние между именем и определением недостаточно.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "c9b19ebf81934caf6b7f31a23a72b71e6e76ed1242c362a3b1f75046fbb11a6a"
-    },
-    {
-      "id": "B86137",
-      "sentence": 1,
-      "reason": "Нужно точное основание для запрета «чувствовал то, как…» именно в этом контексте; избыточность указательного слова не выводится из общего описания СПП.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "87541ab691ab5ed4f12bc076b149d7af0db748d288f904d908ecab74a43ab717"
-    },
-    {
-      "id": "BD75A1",
-      "sentence": 7,
-      "reason": "Нужно проверить семантику исполнителя «нарушив его зимнюю спячку»: формально подлежащее «медведь» совпадает с исполнителем оборота, но вероятное намерение — приписать нарушение спячки грохоту. Один общий запрет разных исполнителей этого случая не доказывает.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "04748e0da19169eae349aa985c4c454e0945418d63544504d83abee2a6b84d84"
-    },
-    {
-      "id": "BF989E",
-      "sentence": 8,
-      "reason": "«Возникающие» согласовано с «нефтяные загрязнения», но отдалено от них сказуемым и зависимыми группами. Нужен контекстный нормативный разбор; §46 допускает удалённые обособленные определения.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "f1889b675b7379b509372995e49feddd3bf4cad1220a300ced947e2464d4470f"
-    },
-    {
-      "id": "C1871C",
-      "sentence": 1,
-      "reason": "Нужно точное основание для запрета «чувствовал то, как…» именно в этом контексте; избыточность указательного слова не выводится из общего описания СПП.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "9a3905c1feeb5d7f9d89b1fc970b1d8d2be40cfeb37c95dc40fc6688d6c3c609"
-    },
-    {
-      "id": "C1EB4C",
-      "sentence": 8,
-      "reason": "«Возникающие» согласовано с «нефтяные загрязнения», но отдалено от них сказуемым и зависимыми группами. Нужен контекстный нормативный разбор; §46 допускает удалённые обособленные определения.",
-      "status": "new_explanation_requires_source_review",
-      "sourceContentSha256": "2e45ad30720588e6e4281103acc0384757c52bf8ba95bff2fbfc2511c9079ed5"
-    }
-  ],
+  "cards": [],
   "primaryEvidence": [
     {
       "id": "gramota-correlative-to",
@@ -105,8 +20,8 @@
   ],
   "unreadCards": 0,
   "freshlyRewrittenCards": 73,
-  "readyCards": 61,
-  "requiresSourceReview": 12,
+  "readyCards": 73,
+  "requiresSourceReview": 0,
   "additionalReferenceReview": {
     "reviewDate": "2026-11-10",
     "inventory": "materials-new-inventory.json",
@@ -146,46 +61,105 @@
       "textSha256": "3a8e11a3f7f0dd7509b0500cb00373d8c07dd08a5c605a5d518bfc2bb6d5dc2b",
       "basis": "Section 8.4, examples 121–124, printed p.233 / PDF 24: simple opinion clause after считать distinguished from secondary predication. No secondary evaluation present in the card.",
       "scope": "source_supported_editorial_analysis; no independent teacher acceptance claimed"
+    },
+    {
+      "id": "0D3499",
+      "sentence": 1,
+      "sourceContentSha256": "df461ad6b3e99563f3fe44b2dc5a00a8f7c2f5f238165f8e4680362fe316abe8",
+      "resolvedAt": "2026-11-20",
+      "basis": "Решение автора: «идея — идеи» в данном предложении — явная ошибка. Подлежащее обозначает одну идею. Исправление: «главная идея».",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "55C0E8",
+      "sentence": 2,
+      "sourceContentSha256": "424076b0d04533e607954a905377eed817de93b4ac45ba2b7ca32dc6268d64e6",
+      "resolvedAt": "2026-11-20",
+      "basis": "Автор подтвердила разбор и сняла пометку о спорности в обеих карточках. Причастие относится к делегатам, оборот переносится к определяемому слову.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "706C1F",
+      "sentence": 2,
+      "sourceContentSha256": "c9b19ebf81934caf6b7f31a23a72b71e6e76ed1242c362a3b1f75046fbb11a6a",
+      "resolvedAt": "2026-11-20",
+      "basis": "Автор подтвердила разбор и сняла пометку о спорности в обеих карточках. Причастие относится к делегатам, оборот переносится к определяемому слову.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "1A8A12",
+      "sentence": 4,
+      "sourceContentSha256": "2a048314f516e822a916792bc5d0579264360650968fa82fcd1e56790a3ba981",
+      "resolvedAt": "2026-11-20",
+      "basis": "Автор подтвердила ошибку в порядке слов. Причастный оборот следует за определяемым словом «пьесы» в примере исправления. Соответствие Б–4 сохранено.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "BF989E",
+      "sentence": 8,
+      "sourceContentSha256": "f1889b675b7379b509372995e49feddd3bf4cad1220a300ced947e2464d4470f",
+      "resolvedAt": "2026-11-20",
+      "basis": "Автор подтвердила ошибку в порядке слов. После существительного «океане» стоит оборот, который согласуется со словом «загрязнения». Соответствие Г–8 сохранено.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "C1EB4C",
+      "sentence": 8,
+      "sourceContentSha256": "2e45ad30720588e6e4281103acc0384757c52bf8ba95bff2fbfc2511c9079ed5",
+      "resolvedAt": "2026-11-20",
+      "basis": "Автор подтвердила ошибку в порядке слов. После существительного «океане» стоит оборот, который согласуется со словом «загрязнения». Соответствие Г–8 сохранено.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "BD75A1",
+      "sentence": 7,
+      "sourceContentSha256": "04748e0da19169eae349aa985c4c454e0945418d63544504d83abee2a6b84d84",
+      "resolvedAt": "2026-11-20",
+      "basis": "Автор подтвердила ошибку в употреблении деепричастного оборота. Оборот относит действие к медведю, хотя по смыслу спячку прервал грохот. Соответствие А–7 сохранено.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "0C92F7",
+      "sentence": 2,
+      "sourceContentSha256": "ffb2e646c0b654d3ca72c081f09188dd4b0eaa818ce299c373f71d5e57ebac4b",
+      "resolvedAt": "2026-11-20",
+      "basis": "Придаточная часть с «как» раскрывает, что ощущал Степан: тело не слушалось, глаза слипались. Она присоединяется к слову «чувствовал» напрямую. В этой фразе «то» не выполняет отдельной смысловой роли, поэтому его убираем.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "321FC1",
+      "sentence": 1,
+      "sourceContentSha256": "d6d96a34cf100d70a801b38d961a0368866865bc1517bf2ef44ad7832c4adafd",
+      "resolvedAt": "2026-11-20",
+      "basis": "Придаточная часть с «что» называет факт, который установили учёные: в древности янтарь использовали как украшение. Она поясняет глагол «установили» напрямую. В этой конструкции «то» избыточно.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "42A4FE",
+      "sentence": 1,
+      "sourceContentSha256": "b8e5773698c87836eaef19c9ee38cca8901c7923171656fafd544b93f1671e27",
+      "resolvedAt": "2026-11-20",
+      "basis": "Придаточная часть передаёт косвенный вопрос «как разводить первоцветы и ухаживать за ними?». Она напрямую поясняет глагол «узнать». Слово «то» в этой конструкции лишнее.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "B86137",
+      "sentence": 1,
+      "sourceContentSha256": "87541ab691ab5ed4f12bc076b149d7af0db748d288f904d908ecab74a43ab717",
+      "resolvedAt": "2026-11-20",
+      "basis": "Придаточная часть с «как» раскрывает, что ощущал Степан: тело не слушалось, глаза слипались. Она присоединяется к слову «чувствовал» напрямую. В этой фразе «то» не выполняет отдельной смысловой роли, поэтому его убираем.",
+      "scope": "resolved_by_author"
+    },
+    {
+      "id": "C1871C",
+      "sentence": 1,
+      "sourceContentSha256": "9a3905c1feeb5d7f9d89b1fc970b1d8d2be40cfeb37c95dc40fc6688d6c3c609",
+      "resolvedAt": "2026-11-20",
+      "basis": "Придаточная часть с «как» раскрывает, что ощущал Степан: тело не слушалось, глаза слипались. Она присоединяется к слову «чувствовал» напрямую. В этой фразе «то» не выполняет отдельной смысловой роли, поэтому его убираем.",
+      "scope": "resolved_by_author"
     }
   ],
-  "remainingGroups": [
-    {
-      "kind": "correlative_to",
-      "cards": [
-        "0C92F7",
-        "B86137",
-        "C1871C",
-        "321FC1",
-        "42A4FE"
-      ],
-      "nextEvidence": "Проверить управление именно чувствовать + КАК, узнать + косвенный вопрос КАК, установить + союз ЧТО; модель видеть, что на эти случаи автоматически не переносить."
-    },
-    {
-      "kind": "distant_participle",
-      "cards": [
-        "1A8A12",
-        "55C0E8",
-        "706C1F",
-        "BF989E",
-        "C1EB4C"
-      ],
-      "nextEvidence": "Проверить допустимость конкретного порядка слов и однозначность связи в §98 Практической стилистики; само удаление и совпадение с ключом не доказательства."
-    },
-    {
-      "kind": "nominal_predicate",
-      "cards": [
-        "0D3499"
-      ],
-      "nextEvidence": "Оценить конкретную предикацию «идея — главные идеи» с учётом обратного согласования."
-    },
-    {
-      "kind": "gerund_semantics",
-      "cards": [
-        "BD75A1"
-      ],
-      "nextEvidence": "Разграничить грамматического исполнителя и семантическую причину нарушения спячки; проверить референцию его."
-    }
-  ],
+  "remainingGroups": [],
   "targetedRecheck": {
     "date": "2026-11-10",
     "cards": 12,

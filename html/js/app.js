@@ -21,7 +21,7 @@ import { orderCards } from "./bank-order.js";
 import { projectProgress, labels } from "./learning.js";
 import { renderGlobalProgress, renderLearningProgress } from "./progress.js";
 import { strategyHint } from "./hints.js";
-import { icon, esc, rich, cardExplanation, matchingColumns, plain, num } from "./ui.js";
+import { icon, esc, rich, renderPassage, renderQuestionOption, renderEditorialNote, cardExplanation, matchingColumns, plain, num } from "./ui.js";
 import { parseProgress, mergeProgress } from "./progress-transfer.js";
 import { loadCatalog, loadCard } from "./data.js";
 import { store } from "./store.js";
@@ -78,6 +78,7 @@ let filter = {
   page: 1,
   sort: "practice",
   availability: "verified",
+  historicalOnly: false,
 };
 function topicCards(topic) {
   return catalog.cards.filter((c) => topic.tasks.includes(c.task));
@@ -123,12 +124,12 @@ function renderStudy() {
   main.innerHTML = `
     <div class="study-intro">
       <section class="hero study-hero" aria-labelledby="hero-title">
-        <div class="hero-copy"><span class="eyebrow">РУССКИЙ ЯЗЫК · В СВОЁМ ТЕМПЕ</span><h1 id="hero-title">Не всё сразу.<br>Начнём с одной карточки.</h1><p>Разобраться в правиле. Попробовать.<br> И однажды заметить: получается.</p><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>${renderGlobalProgress(progress)}</div>
+        <div class="hero-copy"><h1 id="hero-title">Подготовка к ЕГЭ по русскому языку</h1><section class="stat-strip" aria-label="Ваши результаты"><div>${icon("bank")}<span><strong>${num(catalog.cards.length)}</strong><small>карточек в банке</small></span></div><div>${icon("check")}<span><strong>${s.practiced.size}</strong><small>карточек попробовано</small></span></div><div>${icon("bookmark")}<span><strong>${catalog.cards.filter((c) => store.tags(c.id).fav).length}</strong><small>в избранном</small></span></div></section>${renderGlobalProgress(progress)}</div>
       </section>
       <a class="study-poster" href="#card/${candidate.id}" aria-label="Начать заниматься"><div class="poster-face"><span class="poster-art" aria-hidden="true"><svg class="poster-glyph" viewBox="0 0 300 260" fill="none"><g fill="currentColor" transform="rotate(-9 130 130)"><path d="M62 18h27v27H62zM122 18h27v27h-27zM62 72h113v27H90v37h76v27H90v39h85v27H62z"/></g><g fill="#ff7952" transform="rotate(10 220 165)"><path d="M209 99h26l-3 103h-20zM209 216h26v26h-26z"/></g></svg></span><span class="poster-cta">Начать заниматься</span><span class="poster-arrow">${icon("arrow")}</span></div></a>
 
     </div>
-    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><span class="eyebrow">ОТ ПРОСТОГО К ПОНЯТНОМУ</span><h2 id="topics-title">Что разберём сегодня?</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="#bank?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="eyebrow">${String(i + 1).padStart(2, "0")} / ВЫБЕРИ НАПРАВЛЕНИЕ</span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>`;
+    <section class="study-topics" aria-labelledby="topics-title"><div class="section-heading"><div><h2 id="topics-title">Темы</h2></div><a class="text-link" href="#bank">Весь банк ${icon("arrow")}</a></div><div class="topic-grid topic-notes">${topics.map((t, i) => `<a class="topic-card topic-note ${t.color}" href="#bank?topic=${i}"><span class="note-tape" aria-hidden="true"></span><span class="topic-icon">${icon(t.icon)}</span><h3>${t.name}</h3><p>${t.detail}</p><span class="note-bottom"><span class="topic-count">${num(topicCards(t).length)} карточек</span><span class="note-open">Открыть ${icon("arrow")}</span></span></a>`).join("")}</div></section>`;
 }
 function bankResults() {
   const topic = route().params.get("topic");
@@ -141,6 +142,7 @@ function bankResults() {
     )
       return false;
     if (filter.task && String(c.task) !== filter.task) return false;
+    if (filter.historicalOnly && c.formatStatus !== "historical_format") return false;
     if (
       filter.query &&
       !(c.id + " " + plain(c.title))
@@ -255,7 +257,10 @@ function renderBank(params) {
       )
       .join(
         "",
-      )}</select></label><label class="select-field bank-sort"><span>Порядок:</span><select id="bank-sort" aria-label="Порядок карточек">${[
+      )}</select></label><label class="select-field bank-sort"><span>Формат:</span><select id="bank-format" aria-label="Формат задания">
+        <option value="all">Все форматы</option>
+        <option value="historical" ${filter.historicalOnly ? "selected" : ""}>Прежний формат</option>
+      </select></label><label class="select-field bank-sort"><span>Порядок:</span><select id="bank-sort" aria-label="Порядок карточек">${[
       ["practice", "Для практики"],
       ["exam", "По позициям ЕГЭ"],
       ["shuffle", "Перемешать"],
@@ -330,20 +335,21 @@ async function renderCard(id, version) {
   main.innerHTML = `<div class="card-breadcrumb"><a class="text-link" href="#bank">${icon("back")} К банку заданий</a><span>Группа ${meta?.task || "—"} · ${esc(id)}</span></div>
     <div class="practice-layout"><article class="exercise"><div class="exercise-header"><div class="exercise-heading"><span class="eyebrow">КАРТОЧКА ${id}</span>${contentIssue(c)}</div><button class="icon-button ${tags.fav ? "selected" : ""}" data-action="favorite" aria-label="В избранное" aria-pressed="${!!tags.fav}">${icon("bookmark")}</button></div>
       <h1 class="exercise-title">${esc(catalog.taskNames[meta?.task] || "Практика русского языка")}</h1><div class="exercise-status"><span class="pill ${c.answer ? "sage-pill" : "neutral-pill"}">${c.hasVerifiedAnswer ? "Ответ ранее проверялся ФИПИ" : c.answer ? "Ответ из текущей базы" : "Самостоятельная проверка"}</span>${c.formatStatus === "historical_format" ? "<span>Прежний формат задания</span>" : ""}<span class="pill neutral-pill" data-learning-status>${labels[status]}</span><span data-learning-score>Оценка карточки: ${score === null ? "ещё нет" : score.toFixed(3)}</span></div>
-      ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${rich(c.passage)}</div></details>` : ""}
+      ${c.passage ? `<details class="passage" open><summary>${icon("knowledge")} Текст к заданию<span>Свернуть / раскрыть</span></summary><div class="passage-content">${renderPassage(c)}</div></details>` : ""}
       ${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}<section class="question-section" aria-labelledby="question-label"><h2 id="question-label">Задание</h2><div class="question-text">${rich(c.instruction)}</div></section>
       ${matchingColumns(c)}
-      ${c.options.length ? `<fieldset class="options"><legend>${c.responseType === "multiple_choice" ? "Выберите верные варианты" : "Варианты к заданию"}</legend>${c.options.map((x, i) => (c.responseType === "multiple_choice" ? `<label class="option"><input type="checkbox" name="answer-option" value="${i + 1}"><span>${rich(x)}</span></label>` : `<div class="option static-option"><span class="option-number">${i + 1}</span><span>${rich(x)}</span></div>`)).join("")}</fieldset>` : ""}
+      ${c.options.length ? `<fieldset class="options"><legend>${c.responseType === "multiple_choice" ? "Выберите верные варианты" : "Варианты к заданию"}</legend>${c.options.map((x, i) => (c.responseType === "multiple_choice" ? `<label class="option"><input type="checkbox" name="answer-option" value="${i + 1}"><span>${renderQuestionOption(c, x)}</span></label>` : `<div class="option static-option"><span class="option-number">${i + 1}</span><span>${renderQuestionOption(c, x)}</span></div>`)).join("")}</fieldset>` : ""}
+      ${renderEditorialNote(c.questionNote, "question-note")}
       <form id="answer-form" class="answer-form">${c.responseType !== "multiple_choice" ? `<label for="answer-input">${c.answer ? "Ваш ответ" : "Ваш ответ для самопроверки"}</label><input id="answer-input" autocomplete="off" placeholder="Введите ответ" ${c.answer ? "required" : ""}>` : ""}<div class="answer-actions">${canCheck ? `<button type="submit" class="button primary">Проверить ${icon("check")}</button>` : '<p class="muted">Автоматическая проверка недоступна: нет эталона или материал требует сверки.</p>'}<button type="button" class="button quiet" data-action="hint">Подсказка</button><button type="button" class="button quiet" data-action="reveal">${c.answer ? (c.task === 5 && !c.hasExplanation ? "Показать ответ" : "Ответ и разбор") : "Открыть разбор"}</button></div></form>
       <section id="hint" class="aside-card" hidden aria-live="polite"></section><div id="answer-feedback" aria-live="polite"></div><button class="text-link" data-action="new-attempt">Начать новую попытку</button><section id="explanation" class="explanation" hidden></section>
       <div class="exercise-bottom"><button class="button quiet ${tags.hard ? "selected" : ""}" data-action="repeat" aria-pressed="${!!tags.hard}">${icon("repeat")} Повторить позже</button><button class="button secondary ${tags.studied ? "selected" : ""}" data-action="studied" aria-pressed="${!!tags.studied}">${icon("check")} ${tags.studied ? "Отмечено изученным" : "Отметить изученным"}</button><button class="button primary" data-action="next">Дальше ${icon("arrow")}</button></div>
-    </article><aside class="practice-aside"><div class="aside-card"><span class="eyebrow">СНАЧАЛА ПОНИМАНИЕ</span><h2>Правило рядом</h2><p>${c.task === 4 ? "Сравните похожие слова в словарике и проверьте форму по списку ФИПИ." : c.ruleRefs?.length ? "Вспомните правило и посмотрите примеры по этой теме." : "Найдите нужную тему в справочнике."}</p><div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">Открыть справочник ${icon("arrow")}</button></div><div class="aside-tip">${icon("leaf")}<p>Не торопитесь. Можно вернуться к тексту, попробовать ещё раз или отложить карточку.</p></div><button class="text-link" data-action="report">Нашли неточность?</button></aside></div>`;
+    </article><aside class="practice-aside"><div class="aside-card"><h2>Правило рядом</h2><p>${c.task === 4 ? "Сравните похожие слова в словарике и проверьте форму по списку ФИПИ." : c.ruleRefs?.length ? "Вспомните правило и посмотрите примеры по этой теме." : "Найдите нужную тему в справочнике."}</p><div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">Открыть справочник ${icon("arrow")}</button></div><div class="aside-tip">${icon("leaf")}<p>Не торопитесь. Можно вернуться к тексту, попробовать ещё раз или отложить карточку.</p></div><button class="text-link" data-action="report">Нашли неточность?</button></aside></div>`;
 }
 function renderExplanation() {
   const c = currentCard;
   const area = document.querySelector("#explanation");
   area.hidden = false;
-  area.innerHTML = `<span class="eyebrow">РАЗБЕРЁМСЯ ВМЕСТЕ</span><h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanationReviewNote ? `<p class="feedback warning" data-explanation-review>${esc(c.explanationReviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${cardExplanation(c.explanation, c.task)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${renderGrammarReferences(c.grammarSourceRefs, { kind: c.task === 22 ? "rhetoric" : c.task === 16 ? "punctuation" : [6, 25].includes(c.task) ? "lexical" : [1, 26].includes(c.task) ? "cohesion" : c.task === 7 ? "morphology" : "grammar" })}${renderGrammarReferences(c.styleSourceRefs, { kind: "style" })}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>${[16, 21].includes(c.task) ? "Пунктуация: правила по предложениям" : [17, 18, 19, 20].includes(c.task) ? "Пунктуация: правила по позициям" : c.task === 22 ? "Правила для фрагментов задания" : "Источники по рядам задания"}</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">${[16, 21].includes(c.task) ? "Предложение" : [17, 18, 19, 20].includes(c.task) ? "Позиция" : c.task === 22 ? "Фрагмент" : "Ряд"} ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
+  area.innerHTML = `<h2>${c.answer ? "Ответ: " + esc(c.answer) : "Эталонный ответ ещё не добавлен"}</h2>${c.acceptedAnswers.length > 1 ? `<p>Также принимается: ${c.acceptedAnswers.filter((answer) => answer !== c.answer).map(esc).join(", ")}.</p>` : ""}${c.reviewNote ? `<p class="feedback warning">${esc(c.reviewNote)}</p>` : ""}${c.explanationReviewNote ? `<p class="feedback warning" data-explanation-review>${esc(c.explanationReviewNote)}</p>` : ""}${c.explanation ? `<div class="explanation-text">${cardExplanation(c.explanation, c.task)}</div>` : "<p>Объяснение пока недоступно. Можно обратиться к справочнику.</p>"}${renderParonymComparisons(c.paronymComparisons, c.id)}${renderStressReferences(c.stressSourceRefs)}${renderGrammarReferences(c.grammarSourceRefs, { kind: c.task === 22 ? "rhetoric" : c.task === 16 ? "punctuation" : [6, 25].includes(c.task) ? "lexical" : [1, 26].includes(c.task) ? "cohesion" : c.task === 7 ? "morphology" : "grammar" })}${renderGrammarReferences(c.styleSourceRefs, { kind: "style" })}${c.explanationSourceRefs?.length ? `<details class="explanation-sources"><summary>${[16, 21].includes(c.task) ? "Пунктуация: правила по предложениям" : [17, 18, 19, 20].includes(c.task) ? "Пунктуация: правила по позициям" : c.task === 22 ? "Правила для фрагментов задания" : "Источники по рядам задания"}</summary><nav class="rule-links">${c.explanationSourceRefs.map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&card=${c.id}">${[16, 21].includes(c.task) ? "Предложение" : [17, 18, 19, 20].includes(c.task) ? "Позиция" : c.task === 22 ? "Фрагмент" : "Ряд"} ${ref.part}: ${esc(ref.label)}</a>`).join("")}</nav></details>` : ""}${c.dictionarySourceRefs?.length ? `<details class="explanation-sources"><summary>${c.task === 6 ? "Источники разбора" : "Словарные источники разбора"}</summary>${renderDictionaryReferences(c.dictionarySourceRefs, c.id)}</details>` : ""}<div class="rule-links">${cardTheoryLinks(c)}</div><button class="text-link" data-action="card-rules">${icon("knowledge")} Связанные правила</button>`;
 }
 function checkAnswer(event) {
   event.preventDefault();
@@ -413,7 +419,7 @@ function renderProgress(params) {
       '<div class="progress-actions"><a class="button primary" href="#progress">Обзор прогресса</a><button class="button secondary" data-action="export">Скачать прогресс</button><button class="button secondary" data-action="import">Загрузить прогресс</button></div>',
     ) +
     `
-    <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong><p>По истории нового интерфейса</p></div><div class="metric"><span>Проверки без подсказок</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
+    <div class="progress-grid"><div class="metric"><span>Карточек попробовано</span><strong>${s.practiced.size}<small> / ${num(catalog.cards.length)}</small></strong></div><div class="metric"><span>Проверки без подсказок</span><strong>${rate === null ? "—" : rate + "%"}</strong><p>${independent.length ? `${s.correct.length} совпадений из ${independent.length} попыток` : "Появятся после первой проверки"}</p></div><div class="metric"><span>Отмечено изученным</span><strong>${catalog.cards.filter((c) => store.tags(c.id).studied).length}</strong><p>Ручная отметка, не результат проверки</p></div></div>
     <section class="panel"><div class="section-heading"><div><h2>Практика по темам</h2><p>Карточки с попытками, а не оценка освоения навыка</p></div></div>${topics
       .map((t) => {
         const cards = topicCards(t);
@@ -447,7 +453,7 @@ async function renderKnowledge(params, version) {
 function modal(title, body) {
   document.querySelector("#info-dialog form button").textContent = "Понятно";
   document.querySelector("#dialog-body").innerHTML =
-    `<span class="eyebrow">СЛОВО ЗА СЛОВО</span><h2 id="dialog-title">${title}</h2>${body}`;
+    `<h2 id="dialog-title">${title}</h2>${body}`;
   document.querySelector("#info-dialog").showModal();
 }
 function toast(text) {
@@ -749,6 +755,11 @@ document.addEventListener("change", (event) => {
     filter.sort = ["practice", "exam", "shuffle"].includes(event.target.value)
       ? event.target.value
       : "practice";
+    filter.page = 1;
+    bankResults();
+  }
+  if (event.target.id === "bank-format") {
+    filter.historicalOnly = event.target.value === "historical";
     filter.page = 1;
     bankResults();
   }

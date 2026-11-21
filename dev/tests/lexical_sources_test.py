@@ -24,7 +24,7 @@ class LexicalSourcesTest(unittest.TestCase):
         expected = {r['id'] for r in all_reviews if r['task'] == 6 and r.get('contextAssessment') == 'context_sensitive_key_preserved'}
         self.assertEqual(set(self.reviews), expected)
         self.assertEqual(len(expected), 21)
-        self.assertEqual(sum(r['lexicalSourceReview']['status'] == 'context_scope_pending' for r in self.reviews.values()), 8)
+        self.assertFalse(any(r['lexicalSourceReview']['status'] == 'context_scope_pending' for r in self.reviews.values()))
         for r in self.reviews.values(): self.assertTrue(validate(self.card(r), r, self.sources, self.books))
 
     def test_changed_key_or_condition_rejected(self):
@@ -34,7 +34,8 @@ class LexicalSourcesTest(unittest.TestCase):
             with self.assertRaises(ValueError): validate(card, r, self.sources, self.books)
 
     def test_pending_note_cannot_disappear(self):
-        r = copy.deepcopy(self.reviews['D52745']); r['lexicalSourceReview'].pop('studentNote')
+        r = copy.deepcopy(self.reviews['D52745'])
+        r['lexicalSourceReview']['status'] = 'context_scope_pending'
         with self.assertRaises(ValueError): validate(self.card(r), r, self.sources, self.books)
 
     def test_stale_web_evidence_rejected(self):

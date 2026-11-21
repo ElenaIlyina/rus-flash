@@ -160,13 +160,6 @@
 .topic-note.blue {
   background: rgb(226, 235, 238);
 }
-.topic-note .eyebrow {
-  font-size: 7px;
-  letter-spacing: 1px;
-  color: rgb(141, 129, 122);
-  position: relative;
-  z-index: 1;
-}
 .topic-note .topic-icon {
   margin-top: 18px;
   background: transparent;
@@ -201,17 +194,6 @@
   width: 58px;
   background: rgba(233, 227, 209, 0.667);
   transform: rotate(5deg);
-}
-.note-number {
-  position: absolute;
-  bottom: -20px;
-  right: -5px;
-  font-size: 115px;
-  line-height: 1;
-  letter-spacing: -9px;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.024);
-  pointer-events: none;
 }
 .note-bottom {
   display: flex;
@@ -330,11 +312,6 @@
     line-height: 1.15;
     margin-top: 15px;
   }
-  .topic-note .eyebrow {
-    font-size: 6px;
-    letter-spacing: 0.65px;
-    line-height: 1.6;
-  }
   .topic-note .topic-icon {
     margin-top: 15px;
   }
@@ -348,10 +325,6 @@
     flex-direction: column;
     gap: 10px;
     padding-top: 23px;
-  }
-  .note-number {
-    font-size: 95px;
-    bottom: -14px;
   }
   .topic-note .topic-count {
     font-size: 8px;

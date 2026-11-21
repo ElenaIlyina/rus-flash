@@ -72,6 +72,7 @@ def render(card, review, paragraphs):
     return '<br><br>'.join(blocks)
 
 
+
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--report',action='store_true');args=p.parse_args()
     registry=read_registry();_,ps=read_handbook(ROOT/'data/knowledge/sources/lopatin-2007.fb2.zip');ps={p['id']:p for p in ps}

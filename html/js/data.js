@@ -34,6 +34,44 @@ function responseType(raw, question, options) {
   return /(?:укажите|запишите)[^.!?]*цифр/i.test(question) ? "position_set" : "short_text";
 }
 
+function rhetoricColumns(question) {
+  const headings = "\n<b><u>ПРЕДЛОЖЕНИЯ</u></b>\n<b><u>ИЗОБРАЗИТЕЛЬНО-ВЫРАЗИТЕЛЬНЫЕ СРЕДСТВА ЯЗЫКА</u></b>\n";
+  const [intro, table] = question.split(headings);
+  if (!table) return null;
+  const footer = table.lastIndexOf("\nЗапишите в таблицу");
+  if (footer < 0) return null;
+  const cells = table.slice(0, footer).split(/(?:^|\n)([АБВГД1-9])\)[ \t]*\n/u);
+  const labels = cells.filter((_, index) => index % 2 === 1).join("");
+  const values = cells.filter((_, index) => index > 0 && index % 2 === 0).map(value => value.trim());
+  if (labels !== "АБВГД123456789" || cells[0].trim() || values.some(value => !value)) return null;
+  return {
+    instruction: intro.trim() + "\n" + table.slice(footer).trim(),
+    sentences: values.slice(0, 5),
+    terms: values.slice(5).map(value => value.replace(/\s+/gu, " ")),
+  };
+}
+
+function rhetoricTermList(question) {
+  const heading = /(?:^|\s)(?:<b><u>)?Список терминов:(?:<\/u><\/b>)?(?=\s)/iu.exec(question);
+  if (!heading) return null;
+  const list = question.slice(heading.index + heading[0].length);
+  const cells = list.split(/(?:^|\s)(?:<b>)?([1-9])\)(?:<\/b>)?(?=\s)/u);
+  const labels = cells.filter((_, index) => index % 2 === 1).join("");
+  const terms = cells.filter((_, index) => index > 0 && index % 2 === 0).map(value => value.trim());
+  if (labels !== "123456789" || cells[0].trim() || terms.some(term => !term)) return null;
+  return { instruction: question.slice(0, heading.index).trim(), terms };
+}
+
+function punctuationExamples(question) {
+  const match = /^([\s\S]*?одним\s+и\s+тем\s+же\s+правилом\s+пунктуации\.\s+Запишите\s+номера\s+этих\s+предложений\.)\s*(\(1\)[\s\S]*)$/iu.exec(question);
+  if (!match) return null;
+  const cells = match[2].split(/(?:^|\s+)\((\d+)\)/u).slice(1);
+  const numbers = cells.filter((_, index) => index % 2 === 0);
+  const options = cells.filter((_, index) => index % 2 === 1).map(text => text.trim());
+  if (options.length < 2 || options.some((text, index) => !text || Number(numbers[index]) !== index + 1)) return null;
+  return { instruction: match[1], options };
+}
+
 export function adaptCard(raw) {
   let options = raw.variants || [];
   if (options.length === 1 && /^\s*\d\)/.test(options[0])) {
@@ -44,7 +82,14 @@ export function adaptCard(raw) {
   } else {
     options = options.map((s) => String(s).replace(/^\s*\d\)\s*/, ""));
   }
-  let instruction = raw.question;
+  const rhetoric = raw.text ? rhetoricTermList(raw.question) : rhetoricColumns(raw.question);
+  const examples = !raw.text && !options.length ? punctuationExamples(raw.question) : null;
+  let instruction = rhetoric?.instruction || examples?.instruction || raw.question;
+  if (rhetoric && !rhetoric.sentences) {
+    // FIPI puts this direction in the header outside the review and term list.
+    instruction = "<b>Установите соответствие и впишите ответ.</b><br>" +
+      "Запишите четыре цифры в порядке А, Б, В, Г.\n\n" + instruction;
+  }
   const questionText = plain(raw.question);
   if (
     raw.errors?.length &&
@@ -59,9 +104,12 @@ export function adaptCard(raw) {
     id: raw.number,
     instruction,
     passage: raw.text || "",
-    options,
+    passageNote: raw.passage_note,
+    questionNote: raw.question_note,
+    options: examples?.options || options,
     errors: raw.errors || [],
     sentences: raw.sentences || [],
+    rhetoric,
     responseType: responseType(raw, questionText, options),
     sentenceNumbers: raw.sentence_numbers || [],
     answer: (raw.answer || "").trim(),

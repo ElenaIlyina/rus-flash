@@ -17,12 +17,6 @@ def read_registry():
 
 def sentences(card):
     text = plain_question(card['text'])
-    # TASK23-SRC-002: recognize the visible number, without editing the source card.
-    if card['number'] in {'8BD010', '71FF7C', 'A974B4', 'C590CF', 'CB7468'}:
-        marker = '(40Минут через пятнадцать'
-        if text.count(marker) != 1:
-            raise ValueError('Documented malformed marker changed')
-        text = text.replace(marker, '(40)Минут через пятнадцать', 1)
     markers = list(re.finditer(r'\((\d+)\)', text))
     if not markers or [int(m[1]) for m in markers] != list(range(1, len(markers)+1)):
         raise ValueError('Missing or duplicated passage sentence')
@@ -71,18 +65,30 @@ def validate(card, review):
         raise ValueError('Invalid task-23 review status')
 
 
+def render_statement(row, verdict, action, footnotes):
+    evidence = '<br>'.join(f'({e["sentence"]}) «{clean(e["quote"])}»' for e in row['evidence'])
+    marker = ''
+    if row.get('footnote'):
+        verdict = 'оценка по ключу ФИПИ'
+        marker = f'<sup>{len(footnotes) + 1}</sup>'
+        footnotes.append(f'<p class="editorial-note">{marker} {clean(row["footnote"])}</p>')
+    return (f'<b>Утверждение {row["number"]} — {verdict}; {action}.</b><br>'
+            + clean(row['statement']) + marker + '<br>' + clean(row['reason'])
+            + '<br>Основание — исходный текст:<br>' + evidence)
+
+
 def render(card, review):
     validate(card, review)
     direction = 'НЕ соответствующие' if review['selection'] == 'not_corresponding' else 'соответствующие'
     blocks = [f'Нужно выбрать <b>{direction}</b> тексту утверждения. Ответ: <b>{card["answer"]}</b>.']
+    footnotes = []
     if review.get('sourceReviewPending'):
         blocks.insert(0, '<b>Требует уточнения.</b><br>' + clean(review['sourceReviewNote']))
     for row in review['rows']:
         verdict = 'соответствует тексту' if row['correspondsToText'] else 'не соответствует тексту'
         action = 'выбираем' if chosen(review, row) else 'не выбираем'
-        evidence = '<br>'.join(f'({e["sentence"]}) «{clean(e["quote"])}»' for e in row['evidence'])
-        blocks.append(f'<b>Утверждение {row["number"]} — {verdict}; {action}.</b><br>' + clean(row['statement']) + '<br>' + clean(row['reason']) + '<br>Основание — исходный текст:<br>' + evidence)
-    return '<br><br>'.join(blocks)
+        blocks.append(render_statement(row, verdict, action, footnotes))
+    return '<br><br>'.join(blocks) + ''.join(footnotes)
 
 
 def main():

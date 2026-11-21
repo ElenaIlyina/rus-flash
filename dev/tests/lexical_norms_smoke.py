@@ -66,7 +66,8 @@ def main():
             page.locator('#answer-form [type=submit]').click()
             assert page.locator('#answer-feedback .success').is_visible()
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()
-            assert 'нейтрально' in page.locator('.explanation-text').inner_text()
+            assert 'принесла положительные результаты' in page.locator('.explanation-text').inner_text()
+            assert page.locator('[data-explanation-review]').count()==0
             assert page.locator('.debug-panel').count()==0
             page.goto(base+'#card/1D1FBE',wait_until='networkidle')
             page.get_by_role('button',name='Ответ и разбор',exact=True).click()

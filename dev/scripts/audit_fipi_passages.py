@@ -19,6 +19,19 @@ SOURCE_SHA256='8811e359262c8eb797aabc038ec4f9349f7c7501c024d5aa6134ed9e5c6c70f3'
 REPORT=ROOT/'dev/docs/content-audit/full-page-passages.json'
 LOG=ROOT/'dev/docs/content-audit/full-page-passage-changes.jsonl'
 QBLOCKS='//div[contains(concat(" ",normalize-space(@class)," ")," qblock ")]'
+AUTHOR_PASSAGE_CORRECTIONS = {
+    '3DDCF6': ('(40Минут через пятнадцать', '(40)Минут через пятнадцать'),
+    'C82296': ('д̓̓̓̓Арк', 'д’Арк'),
+}
+
+
+def approved_passage_text(group_id, text):
+    if correction := AUTHOR_PASSAGE_CORRECTIONS.get(group_id):
+        before, after = correction
+        if text.count(before) != 1:
+            raise ValueError('Author-approved correction no longer matches the passage: ' + group_id)
+        return text.replace(before, after)
+    return text
 
 
 def parse_page(data, expected):
@@ -85,7 +98,8 @@ def run(apply=False,check=False):
     if hashlib.sha256(data).hexdigest()!=SOURCE_SHA256:raise ValueError('Full source checksum mismatch')
     current={p.stem[5:]:json.loads(p.read_text()) for p in (ROOT/'data').glob('card_*.json')}
     groups,rows,decoded=parse_page(data,current)
-    proposed={member['cardId']:group['text'] for group in groups for member in group['cards']}
+    proposed={member['cardId']:approved_passage_text(group['groupId'], group['text'])
+              for group in groups for member in group['cards']}
     changed={cid for cid,value in proposed.items() if current[cid].get('text','')!=value}
     semantic=[cid for cid in changed if presentation.visible(current[cid].get('text',''))!=presentation.visible(proposed[cid])]
     if semantic:raise ValueError('Not a formatting-only restoration: '+', '.join(sorted(semantic)))

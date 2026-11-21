@@ -2909,7 +2909,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
-      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
+      "explanationSha256": "a69f31f74b4d0018a7ab6dfec9eb7e9b77b2ed5f9856ed4e02f794b9e8e7edb0",
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
       "rows": [],
       "referenceStatus": "rule_application",
@@ -2920,7 +2920,7 @@
         "sourceExcerpt": "томатные СОУСА",
         "correctedExcerpt": "томатные соусы",
         "evidenceScope": "rule_application",
-        "specialistGrammarReferencePending": true
+        "specialistGrammarReferencePending": false
       },
       "dictionaryReview": {
         "status": "verified",
@@ -2947,16 +2947,16 @@
         }
       ],
       "morphologySourceReview": {
-        "reviewDate": "2026-11-10",
+        "reviewDate": "2026-11-21",
         "scope": "target_form_only",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
-        "status": "variant_scope_pending",
+        "status": "source_supported",
         "part": 1,
         "variantSha256": "78deb09c21c9cb6d049bb8b8f057beb6f1f99db357954c5f041487676b82c3f8",
         "answer": "соусы",
         "correctedExcerpt": "томатные соусы",
-        "reason": "Таблица метасловаря даёт соусы, что согласуется с ключом. Но государственный орфографический словарь фиксирует также разговорное соуса́: общий запрет этой формы был бы слишком широким. Требуется разграничить экзаменационную и разговорную область.",
+        "reason": "Метасловарь подтверждает нейтральную форму именительного падежа множественного числа «соусы».",
         "grammarEvidence": [
           {
             "sourceId": "gramota-meta-sous",
@@ -3554,7 +3554,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
-      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
+      "explanationSha256": "a69f31f74b4d0018a7ab6dfec9eb7e9b77b2ed5f9856ed4e02f794b9e8e7edb0",
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
       "rows": [],
       "referenceStatus": "rule_application",
@@ -3565,7 +3565,7 @@
         "sourceExcerpt": "томатные СОУСА",
         "correctedExcerpt": "томатные соусы",
         "evidenceScope": "rule_application",
-        "specialistGrammarReferencePending": true
+        "specialistGrammarReferencePending": false
       },
       "dictionaryReview": {
         "status": "verified",
@@ -3592,16 +3592,16 @@
         }
       ],
       "morphologySourceReview": {
-        "reviewDate": "2026-11-10",
+        "reviewDate": "2026-11-21",
         "scope": "target_form_only",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
-        "status": "variant_scope_pending",
+        "status": "source_supported",
         "part": 4,
         "variantSha256": "78deb09c21c9cb6d049bb8b8f057beb6f1f99db357954c5f041487676b82c3f8",
         "answer": "соусы",
         "correctedExcerpt": "томатные соусы",
-        "reason": "Ключ выбирает соусы; эта основная форма есть в таблице. У соуса́ существует словарная помета разг., поэтому универсальная ненормативность формы не установлена; экзаменационную область нужно уточнить.",
+        "reason": "Метасловарь подтверждает нейтральную форму именительного падежа множественного числа «соусы».",
         "grammarEvidence": [
           {
             "sourceId": "gramota-meta-sous",

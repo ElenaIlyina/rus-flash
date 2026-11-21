@@ -85,12 +85,15 @@ def validate(card, review, sources):
 
 def render(card, review, sources):
     validate(card, review, sources)
-    blocks = ['Ответ: <b>' + clean(review['answer']) + '</b>.', clean(review['reason']), clean(review['contrast'])]
+    footnote = review.get('footnote')
+    marker = '<sup>1</sup>' if footnote else ''
+    blocks = ['Ответ: <b>' + clean(review['answer']) + '</b>' + marker + '.', clean(review['reason']), clean(review['contrast'])]
     if review.get('sourceReviewPending'):
         blocks.insert(0, '<b>Требует уточнения.</b><br>' + clean(review['sourceReviewNote']))
     blocks.append('Основание — исходный текст:<br>' + '<br>'.join(f'({e["sentence"]}) «{clean(e["quote"])}»' for e in review['evidence']))
     blocks.append('Источники лексической проверки: ' + '; '.join(clean(sources[e['sourceId']]['citationLabel']) for e in review['lexicalEvidence']) + '.<br>Словарные значения и общие определения соотнесены с контекстом; они не являются ключом ФИПИ.')
-    return '<br><br>'.join(blocks)
+    note = f'<p class="editorial-note">{marker} {clean(footnote)}</p>' if footnote else ''
+    return '<br><br>'.join(blocks) + note
 
 
 def public_refs(review, sources):

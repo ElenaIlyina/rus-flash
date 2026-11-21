@@ -55,5 +55,14 @@ class PunctuationAnalysisTest(unittest.TestCase):
         for change in [lambda x:x['rows'].pop(),lambda x:x['rows'][0].update(sentenceSha256='bad'),lambda x:x['rows'][0].update(matchesCommonRule=True),lambda x:x['rewriteReview'].update(oldExplanationsUsedAsEvidence=True)]:
             broken=copy.deepcopy(r);change(broken)
             with self.assertRaises(ValueError):review.validate(self.card(r['id']),broken,self.ps)
-        pending=copy.deepcopy(self.reviews['1E7690']);pending['sourceReviewPending']=False
+        pending=copy.deepcopy(self.reviews['1E7690']);pending['sourceReviewPending']=True
         with self.assertRaises(ValueError):review.validate(self.card(pending['id']),pending,self.ps)
+
+
+    def test_author_resolved_appositions_in_1e7690(self):
+        entry = self.reviews['1E7690']
+        self.assertFalse(entry.get('sourceReviewPending'))
+        matches = [r for r in entry['rows'] if r['matchesCommonRule']]
+        self.assertEqual([r['number'] for r in matches], [4, 6])
+        self.assertTrue(all('приложение' in r['reason'] for r in matches))
+        self.assertNotIn('Требует уточнения', review.render(self.card('1E7690'), entry, self.ps))

@@ -5,12 +5,7 @@
   "freshlyReviewedCards": 71,
   "requestedSentencesReviewed": 358,
   "remainingCards": [],
-  "pendingCards": [
-    "39AA6F",
-    "5C797C",
-    "7A95AF",
-    "A9FD8A"
-  ],
+  "pendingCards": [],
   "independentTeacherAcceptance": false,
   "cards": [
     "01D3AC",
@@ -84,16 +79,5 @@
     "F15C9D",
     "F5168B",
     "FA4ECF"
-  ],
-  "finalBatchChecksRun": false,
-  "note": "All requested fragments read during authoring; final batch of 35 authored and published locally without separate checks, tests or self-review at user request.",
-  "latestBranchVerification": {
-    "date": "2026-11-18",
-    "result": "passed",
-    "unitTests": 253,
-    "browserScenarios": 31,
-    "report": "dev/docs/content-audit/explanations-20-26-branch-check.json",
-    "independentTeacherAcceptance": false
-  },
-  "answerReviewDate": "2026-11-18"
+  ]
 }

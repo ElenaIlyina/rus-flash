@@ -53,11 +53,15 @@ class DiscourseReviewTest(unittest.TestCase):
             with self.assertRaises(ValueError): review.validate(self.card(r['id']), broken, self.sources)
         self.assertIn(self.sources['citationLabel'], review.render(self.card(r['id']), r, self.sources))
 
-    def test_pending_interpretation_must_remain_visible_and_logged(self):
+    def test_discussion_is_explained_in_a_footnote(self):
         r = self.reviews['24EAE1']
-        self.assertTrue(r['sourceReviewPending'])
-        self.assertIn(r['sourceReviewNote'], review.render(self.card(r['id']), r, self.sources))
-        broken = copy.deepcopy(r); broken['sourceReviewPending'] = False
+        explanation = review.render(self.card(r['id']), r, self.sources)
+        self.assertFalse(r.get('sourceReviewPending'))
+        self.assertNotIn('Требует уточнения', explanation)
+        self.assertIn('В предложении 19 содержится рассуждение.<sup>1</sup>', explanation)
+        self.assertIn(r['rows'][4]['footnote'], explanation)
+        broken = copy.deepcopy(r)
+        broken.update(sourceReviewPending=True, sourceReviewNote='Повторная проверка')
         with self.assertRaises(ValueError): review.validate(self.card(r['id']), broken, self.sources)
 
     def test_saved_page_evidence_works_without_external_materials_directory(self):

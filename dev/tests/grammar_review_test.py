@@ -80,29 +80,14 @@ class GrammarReviewTest(unittest.TestCase):
         self.assertEqual(pending['unreadCards'], 0)
         self.assertEqual(pending['freshlyRewrittenCards'], len(self.reviews))
 
-    def test_unresolved_assignment_keeps_its_warning_and_provenance(self):
-        review = self.reviews['0C92F7']
-        card = read('data/card_0C92F7.json')
-        row = review['rows'][1]
-        self.assertIsNone(row['errorIndex'])
-        self.assertEqual(row['assignmentEvidence'], 'historical_key_only')
-        rendered = renderer.render(card, review)
-        self.assertIn('По эталону задания:', rendered)
-        self.assertIn('спорное соответствие', rendered)
-        support = read('data/knowledge/card_support.json')['cards']['0C92F7']
-        self.assertEqual(support['explanationReviewNote'], renderer.PENDING_NOTE)
-        self.assertNotIn('reviewNote', support)
-        self.assertTrue(support['explanationNeedsSourceReview'])
-        for change in ('flag', 'status', 'provenance'):
-            altered = copy.deepcopy(review)
-            if change == 'flag':
-                altered['sourceReviewPending'] = False
-            elif change == 'status':
-                altered['status'] = 'assistant_corrected_applied'
-            else:
-                altered['rows'][1]['assignmentEvidence'] = 'independently_confirmed'
-            with self.assertRaises(ValueError):
-                renderer.render(card, altered)
+    def test_task8_author_review_is_complete_and_warnings_are_removed(self):
+        support = read('data/knowledge/card_support.json')['cards']
+        for cid, review in self.reviews.items():
+            with self.subTest(card=cid):
+                self.assertFalse(review.get('sourceReviewPending'))
+                self.assertNotIn('explanationReviewNote', support[cid])
+                self.assertNotIn('explanationNeedsSourceReview', support[cid])
+                self.assertNotIn('спорное соответствие', read(f'data/card_{cid}.json')['explanation'])
 
     def test_resolved_perception_cases_have_source_and_no_pending_warning(self):
         support = read('data/knowledge/card_support.json')['cards']
@@ -116,8 +101,6 @@ class GrammarReviewTest(unittest.TestCase):
             renderer.validate_evidence(review, self.sources)
             self.assertNotIn('explanationReviewNote', support[cid])
             self.assertNotIn('explanationNeedsSourceReview', support[cid])
-        # The distinction for ЧТО does not resolve perception with КАК.
-        self.assertTrue(self.reviews['0C92F7']['sourceReviewPending'])
 
     def test_impersonal_infinitive_is_a_valid_control(self):
         row = self.reviews['04E391']['rows'][8]

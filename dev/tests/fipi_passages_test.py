@@ -33,7 +33,7 @@ class FipiPassagesTest(unittest.TestCase):
                 cid=member['cardId']
                 self.assertEqual(member['numberInGroup'],index)
                 self.assertEqual(self.rows[cid]['groupId'],group['groupId'])
-                self.assertEqual(self.cards[cid]['text'],group['text'])
+                self.assertEqual(self.cards[cid]['text'],passages.approved_passage_text(group['groupId'], group['text']))
                 self.assertNotIn('\ufffd',group['text'])
 
     def test_previously_approved_missing_highlights_are_present_in_the_full_source(self):
@@ -53,7 +53,7 @@ class FipiPassagesTest(unittest.TestCase):
         for patch in patches:
             self.assertEqual(patch['beforeProtectedFieldsSha256'],patch['afterProtectedFieldsSha256'])
             self.assertEqual(presentation.visible(patch['before']),presentation.visible(patch['after']))
-            self.assertEqual(patch['after'],self.cards[patch['cardId']]['text'])
+            self.assertEqual(passages.approved_passage_text(patch['groupId'], patch['after']),self.cards[patch['cardId']]['text'])
             self.assertEqual(patch['sourcePageSha256'],passages.SOURCE_SHA256)
 
     def test_mismatched_identity_group_and_encoding_stop_the_import(self):

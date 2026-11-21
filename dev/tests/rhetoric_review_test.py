@@ -37,14 +37,14 @@ class RhetoricReviewTest(unittest.TestCase):
         r = copy.deepcopy(self.reviews['FAC079']); r['rows'][0]['quote'] = 'выдуманная цитата'
         with self.assertRaises(ValueError): review.validate(self.card(r['id']), r, self.sources)
 
-    def test_doubts_are_not_silently_accepted_as_proof(self):
+    def test_resolved_rhetoric_notes(self):
         pending = {cid for cid, r in self.reviews.items() if r.get('sourceReviewPending')}
-        self.assertEqual(pending, {'00EA20', '66CDCF', '6A4DD9'})
-        for cid in pending:
-            r = copy.deepcopy(self.reviews[cid]); r['sourceReviewPending'] = False
-            with self.assertRaises(ValueError): review.validate(self.card(cid), r, self.sources)
+        self.assertEqual(pending, set())
         self.assertIn('шкалы', self.reviews['66CDCF']['hint'])
-        self.assertIn('разговорно-сниженное', self.reviews['6A4DD9']['rows'][2]['reason'])
+        card = self.card('6A4DD9')
+        self.assertNotIn('Требует уточнения', card['explanation'])
+        self.assertIn('«наваливались»<sup>1</sup>', card['explanation'])
+        self.assertIn('«разговорно-сниженное»', card['explanation'])
 
     def test_public_sources_and_local_handbook_are_separate(self):
         for r in self.reviews.values():

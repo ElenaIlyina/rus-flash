@@ -46,11 +46,12 @@ def main():
                     if not style:
                         labels = explanation.locator('b').all_text_contents()
                         assert sum(label.startswith('Предложение ') for label in labels) == 9
-                    if cid in ('0C92F7', '1A8A12'):
-                        assert page.locator('[data-explanation-review]').filter(has_text='Одно соответствие').count() == 1
+                    if not style:
+                        assert page.locator('[data-explanation-review]').count() == 0
+                        assert 'спорное соответствие' not in explanation.inner_text()
+                    if cid == '0C92F7':
                         assert page.locator('#answer-form button[type=submit]').count() == 1
-                        assert 'спорное соответствие' in explanation.inner_text()
-                        assert 'Нейтральная редакция' in explanation.inner_text()
+                        assert 'Степан чувствовал, как' in explanation.inner_text()
                         answer = json.loads((ROOT / 'data' / f'card_{cid}.json').read_text())['answer']
                         page.locator('#answer-input').fill(answer)
                         page.locator('#answer-form button[type=submit]').click()
@@ -68,10 +69,11 @@ def main():
                     assert all(('Вариант ' if style else 'Предложение ') in text for text in links.all_text_contents())
                     assert all(links.nth(i).get_attribute('rel') == 'noopener noreferrer' for i in range(links.count()))
                     assert not any('Эксмо' in text for text in links.all_text_contents())
-                    if cid in ('4ED72E', '8C2046'):
+                    if cid in ('1A8A12', '4ED72E', '8C2046'):
                         assert page.locator('[data-explanation-review]').count() == 0
                         assert 'спорное соответствие' not in explanation.inner_text()
-                        assert sources.locator('a[href*="cyberleninka.ru/article/n/"]').count() == 1
+                        if cid in ('4ED72E', '8C2046'):
+                            assert sources.locator('a[href*="cyberleninka.ru/article/n/"]').count() == 1
                     if cid == 'D9E1DD':
                         assert page.locator('[data-explanation-review]').count() == 0
                         assert sources.locator('a[href="https://dcl.bas.bg/wp-content/uploads/2022/11/08_Letuchiy_STONTBgRu2022.pdf#page=24"]').count() == 1

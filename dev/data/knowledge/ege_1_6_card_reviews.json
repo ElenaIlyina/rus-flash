@@ -28346,7 +28346,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "08de4865a40973f639073fda06366303a321d3385bb3016c61a16a3c0277e2b2",
-      "explanationSha256": "b63afafee39a05a954d0a4cdf7f6e55d80defd2de21352a52db8b9d3df40079b",
+      "explanationSha256": "027fda63947d50911f1e2618b6b0a4a4231721ceb65f9510d2cd907fb81205bc",
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, поделенный, значимость, прибыв, договоренность. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
       "rows": [],
       "referenceStatus": "fipi_list_forms_notes_and_verified_bank_options_distinguished",
@@ -28385,7 +28385,7 @@
             "normativeForm": "исчЕрпать",
             "correct": true,
             "evidenceType": "verified_fipi_option",
-            "note": "Государственный орфоэпический словарь ИРЯ РАН приводит исчерпа́ть (PDF, с. 444). При разборе этой карточки отдельно учитываем сохранённый ключ ФИПИ.",
+            "note": "При проверке этого задания ФИПИ засчитывает «прибыв»: в деепричастии ударение падает на последний слог — прибы́в.",
             "evidenceDetail": {
               "cardId": "E92465",
               "guid": "DC86B07A356AA47240661D3B6938EA8A",
@@ -29030,7 +29030,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "a8549d9679b87fd3dc975ca500acbe1931eb02a95e0bcca1d0a75f31f638f3ca",
-      "explanationSha256": "e29a602c0e8d4aac2c5bdd7b3a5a5a91493899c2bf5f25363370fa36c4853f9f",
+      "explanationSha256": "90e6a63d7d6b76fc9d28699c2f9a6b9507cdb2cac313500bde0bdd2337813f51",
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, наврала, верна, озлобить, занята. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
       "rows": [],
       "referenceStatus": "fipi_list_forms_notes_and_verified_bank_options_distinguished",
@@ -29069,7 +29069,7 @@
             "normativeForm": "исчЕрпать",
             "correct": false,
             "evidenceType": "verified_fipi_option",
-            "note": "Государственный орфоэпический словарь ИРЯ РАН приводит исчерпа́ть (PDF, с. 444). При разборе этой карточки отдельно учитываем сохранённый ключ ФИПИ.",
+            "note": "В ключе этой карточки использовано ударение «исче́рпать», поэтому выписываем слово с выделенным «А».",
             "evidenceDetail": {
               "cardId": "E92465",
               "guid": "DC86B07A356AA47240661D3B6938EA8A",
@@ -29134,7 +29134,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "ae412b6254cfc6becb838f4f18fc821cea54cff94b7c8e98c6deda102894b0db",
-      "explanationSha256": "c90ee2a12d26461ed0e0af325e3720517e82f9c58cfaa1444b816941156f56da",
+      "explanationSha256": "35acba6af7dd34c5d32cd35209f9a2e199de2ccadb264a1b8af583a107287936",
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: повторит, прирученный, начавший, засветло, исчерпать. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
       "rows": [],
       "referenceStatus": "fipi_list_forms_notes_and_verified_bank_options_distinguished",
@@ -29205,7 +29205,7 @@
             "normativeForm": "исчЕрпать",
             "correct": false,
             "evidenceType": "verified_fipi_option",
-            "note": "Государственный орфоэпический словарь ИРЯ РАН приводит исчерпа́ть (PDF, с. 444). При разборе этой карточки отдельно учитываем сохранённый ключ ФИПИ.",
+            "note": "В ключе этой карточки использовано ударение «исче́рпать», поэтому выписываем слово с выделенным «А».",
             "evidenceDetail": {
               "cardId": "E92465",
               "guid": "DC86B07A356AA47240661D3B6938EA8A",
@@ -35483,7 +35483,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "0adf68b8306e3667e81d34a7259c0ceeed367c1f10da7e0ef4d438065f2da7f0",
-      "explanationSha256": "6408d5ec56df804e9787cd21ab03bb47287012b6bc0eae226ecc921b3e34b072",
+      "explanationSha256": "2bfc782874ae94e4053d389fade048b5b69dce29fdfe196e9047d51e796c29dd",
       "hint": "Проверьте, упомянут ли до этого ещё один вариант замены, который нужно отличить от названного.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
@@ -35529,16 +35529,15 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "Другая",
         "editSha256": "6ed78e4423f6735a7641f4800b4a6458a78e6742b16c0d4f101d139cdb34096b",
-        "reason": "Альтернатива в современном толковании может обозначать каждую из нескольких возможностей. Другая тогда отличает одну возможность от другой; в отдельном предложении про чиа предшествующие варианты не названы. Ключ даёт краткую редакцию, но словарь не устанавливает безусловную ошибочность определения.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-alternativa",
@@ -35552,7 +35551,7 @@
           }
         ],
         "bookEvidence": [],
-        "studentNote": "Альтернатива в современном толковании может обозначать каждую из нескольких возможностей. Другая тогда отличает одну возможность от другой; в отдельном предложении про чиа предшествующие варианты не названы. Ключ даёт краткую редакцию, но словарь не устанавливает безусловную ошибочность определения. Ответ проверяется по сохранённому ключу задания."
+        "reason": "Семена льна названы заменой семенам чиа. Слово «другая» подразумевает ещё один вариант замены. В предложении указан один вариант, поэтому определение лишнее."
       }
     },
     {
@@ -36475,7 +36474,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "67692ab08eedd9f228899e6ef8654813f5a5ef4c0751b41136bc0142e9bff52e",
-      "explanationSha256": "cb985c101b1d9415d0b2640573e74a13e6ff2e962d2045b690fd2ef9967b676d",
+      "explanationSha256": "79c69550719e0a5563c697cb57078154027dfedad26cbff16d23184772e7fd49",
       "hint": "Учитывайте многозначность слова «феномен»: нейтральное явление и нечто исключительное — разные прочтения.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
@@ -36529,16 +36528,15 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "необычном",
         "editSha256": "05ae6468ead53d56f59465cd05ef8e9e77dc6da263a80cf54be2efb3bf99fe9d",
-        "reason": "Феномен может называться необычным явлением, но в исследовательском употреблении слово обозначает и наблюдаемое явление как таковое. Определение необычном тогда выражает отдельную оценку фантомной вибрации. Прочитанные толкования не позволяют признать удаление единственно необходимой правкой.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-fenomen",
@@ -36552,7 +36550,7 @@
           }
         ],
         "bookEvidence": [],
-        "studentNote": "Феномен может называться необычным явлением, но в исследовательском употреблении слово обозначает и наблюдаемое явление как таковое. Определение необычном тогда выражает отдельную оценку фантомной вибрации. Прочитанные толкования не позволяют признать удаление единственно необходимой правкой. Ответ проверяется по сохранённому ключу задания."
+        "reason": "В этом предложении слово «феномен» употреблено в значении «необычное явление». Определение «необычном» повторяет этот признак."
       }
     },
     {
@@ -37073,8 +37071,8 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "76999d482c49a92190c5852acb4e96fa98907498abf2e28c7f5b5e6d8c114e17",
-      "explanationSha256": "2fcc0c29017a916389db19154ace9e58c1025533e49bfc3310260a8f1f5fd17d",
-      "hint": "Проверьте, отсылает ли определение к уже названному альтернативному занятию или лишь повторно выражает идею замены.",
+      "explanationSha256": "c4c69b0d5cdf2d4260ae7464fe8b6bc7a2db1490a6381a716c4edc5d8d01c207",
+      "hint": "Найдите слово, которое предполагает, что ещё один вариант замены уже был назван.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
       "contextAssessment": "context_sensitive_key_preserved",
@@ -37119,16 +37117,16 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "Другой",
         "editSha256": "3a02fb6498d2236ea0ef93e06aa680a8e830c0dec37d6488375ea641f850af56",
-        "reason": "Словарь допускает значение отдельной возможности среди нескольких альтернатив. Другой может отсылать к уже предложенной замене плаванию, но отдельная карточка такого предыдущего контекста не содержит. Ключ сокращает фразу, однако невозможность исходного сочетания не подтверждена.",
+        "reason": "Велосипедные прогулки названы альтернативой плаванию. Слово «другой» подразумевает, что ранее уже был назван вариант замены, а в этом предложении такой вариант не назван.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-alternativa",
@@ -37141,8 +37139,7 @@
             "method": "section_text_read"
           }
         ],
-        "bookEvidence": [],
-        "studentNote": "Словарь допускает значение отдельной возможности среди нескольких альтернатив. Другой может отсылать к уже предложенной замене плаванию, но отдельная карточка такого предыдущего контекста не содержит. Ключ сокращает фразу, однако невозможность исходного сочетания не подтверждена. Ответ проверяется по сохранённому ключу задания."
+        "bookEvidence": []
       }
     },
     {
@@ -37152,7 +37149,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "579b891f2914f18d2c73641161237bcf01071681fc8372bcec27325b36de087d",
-      "explanationSha256": "e86059ffda081b3a1e48d6e73ba4961c6337bca59e847e62955b5c2f1b743a5a",
+      "explanationSha256": "e70c05cd51d1f632db75fc59b4a39564f174953096305c43eeea11bd3b0041e6",
       "hint": "Установите, к кому относится рассказ о жизни, и подумайте, есть ли противопоставление романа Набокова чужому произведению.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
@@ -37214,16 +37211,15 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "своём",
         "editSha256": "f54627dade66ef927f4c866763db5daea20684b68eabfeabdfa57a45b0305b5b",
-        "reason": "Автобиографический характеризует связь содержания произведения с жизнью автора. Своём может дополнительно обозначать принадлежность романа самому Набокову; это не то же самое, что буквальное своя автобиография из примера плеоназма. Удаление допустимо, но обязательность именно этой правки остаётся спорной.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-avtobiograficheskiy",
@@ -37237,7 +37233,7 @@
           }
         ],
         "bookEvidence": [],
-        "studentNote": "Автобиографический характеризует связь содержания произведения с жизнью автора. Своём может дополнительно обозначать принадлежность романа самому Набокову; это не то же самое, что буквальное своя автобиография из примера плеоназма. Удаление допустимо, но обязательность именно этой правки остаётся спорной. Ответ проверяется по сохранённому ключу задания."
+        "reason": "Набоков рассказывает о событиях собственной жизни в автобиографическом романе. Связь романа с биографией автора уже выражена словом «автобиографическом», поэтому «своём» лишнее."
       }
     },
     {
@@ -37803,8 +37799,8 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "a91ea717f5bedc169ed34c6f0fb827ef48fbdfad4b0a0ae58bc881f37686e185",
-      "explanationSha256": "4ef59c24bc2d29cd91e94d3cd2712f8d2231b671397eafcd143c1296de59b9d6",
-      "hint": "Проверьте, уточняется ли конкретный размер города или лишь повторяется общий признак крупного населённого пункта.",
+      "explanationSha256": "3af3fb61aaf5253ebb3614be3dc8c89bc100780a49164656b96fb650da9496d2",
+      "hint": "Определите, какой признак уже выражен существительным «мегаполис».",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
       "contextAssessment": "context_sensitive_key_preserved",
@@ -37857,16 +37853,16 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "огромных",
         "editSha256": "2fb79275975e009529d4bd33b3a5b8e4001f7d7b7fd9f2251ff580f6ced4a0c1",
-        "reason": "Мегаполис обозначает город с многомиллионным населением, но огромный может оценивать его площадь, масштаб или размер относительно других мегаполисов. Словарное толкование не исключает такой градации; обязательность удаления огромных не установлена.",
+        "reason": "Мегаполис — очень крупный город. Здесь слово «огромных» повторяет признак большого размера, который уже выражен словом «мегаполисов».",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-megapolis",
@@ -37879,8 +37875,7 @@
             "method": "section_text_read"
           }
         ],
-        "bookEvidence": [],
-        "studentNote": "Мегаполис обозначает город с многомиллионным населением, но огромный может оценивать его площадь, масштаб или размер относительно других мегаполисов. Словарное толкование не исключает такой градации; обязательность удаления огромных не установлена. Ответ проверяется по сохранённому ключу задания."
+        "bookEvidence": []
       }
     },
     {
@@ -38520,8 +38515,8 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "063e056773b9b5d180f14c6f3af74009d65ed95ff16bc0f6e20fd0eda6f803dc",
-      "explanationSha256": "58dcad01fb21b2b4e14c6db639aaa0b0976d70848a7f57c385b3cdc7ef97c726",
-      "hint": "Сопоставьте существительные, называющие итог деятельности. Не приписывайте слову обязательную отрицательную оценку без словарного основания.",
+      "explanationSha256": "0ae18f18494291794c782052f17504ece2e752c35991d74d2167351f591c9788",
+      "hint": "Подберите существительное, которое обозначает достигнутые итоги политики и сочетается со словом «положительные».",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
       "contextAssessment": "context_sensitive_key_preserved",
@@ -38566,16 +38561,16 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "результаты",
         "editSha256": "e5708147c23a26838dfb14f9c09e871e7d782945999719dcc62dfd07a27efe55",
-        "reason": "Последствия обычно имеют неблагоприятную оценку, но обычно не означает всегда. В словаре сочетаемости результат соединяется с положительный и относится к политике; это поддерживает редакцию по ключу. Однако прочитанные статьи не доказывают запрета положительных последствий или обязательной замены в данном предложении.",
+        "reason": "В предложении речь о полезных итогах целенаправленной политики. Этот смысл передаёт сочетание «принесла положительные результаты».",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-posledstvie",
@@ -38596,8 +38591,7 @@
             "role": "corrected_collocation",
             "method": "visual_page_read"
           }
-        ],
-        "studentNote": "Последствия обычно имеют неблагоприятную оценку, но обычно не означает всегда. В словаре сочетаемости результат соединяется с положительный и относится к политике; это поддерживает редакцию по ключу. Однако прочитанные статьи не доказывают запрета положительных последствий или обязательной замены в данном предложении. Ответ проверяется по сохранённому ключу задания."
+        ]
       }
     },
     {
@@ -38685,7 +38679,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "a450ba077b0447bc08b2bf2f94d696eed8cf551f491a4756271ddc5c476d4b93",
-      "explanationSha256": "771e21d4b793d84cbf799f471be6ad475efe006ad5e6df8e4167dd6c62a9f00f",
+      "explanationSha256": "d2fc55bb89baabddc72c253986c6ebc16b1576082c67ae86bf94d5394fd99ea4",
       "hint": "Не ограничивайтесь поиском одинакового корня: проверьте, добавляет ли наречие новое качество движения к уже названной цели.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
@@ -38739,16 +38733,15 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "целеустремлённо",
         "editSha256": "a7fde65e54f25e81ae535e153b3844cec4b4a3ab7cca84f0a4e7f0d06c86022e",
-        "reason": "В словарной статье целеустремлённый прямо приведено Целеустремлённо идти к своей цели. Это опровергает вывод об ошибке только из общего корня с целью. В карточке наречие может характеризовать настойчивость туристов, а цель — пункт путешествия; основание обязательного удаления не установлено.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-tseleustremlennyy",
@@ -38762,7 +38755,7 @@
           }
         ],
         "bookEvidence": [],
-        "studentNote": "В словарной статье целеустремлённый прямо приведено Целеустремлённо идти к своей цели. Это опровергает вывод об ошибке только из общего корня с целью. В карточке наречие может характеризовать настойчивость туристов, а цель — пункт путешествия; основание обязательного удаления не установлено. Ответ проверяется по сохранённому ключу задания."
+        "reason": "Оборот «приближались к цели своего путешествия» уже указывает, к чему двигались туристы. В этом предложении наречие «целеустремлённо» повторяет указание на направленность движения."
       }
     },
     {
@@ -39024,7 +39017,7 @@
       "status": "assistant_corrected_applied",
       "authorReviewRequired": false,
       "sourceContentSha256": "bfd312e908ccd7014e6d0900dc2e1cb49eed1553d719188872b048f5ac6148c8",
-      "explanationSha256": "d30f05659aa384eac0532c45d0ca3d7a9c3c92fc56f2825d301869c740ce224a",
+      "explanationSha256": "b44e7aedd49cd9794f72e0900597c32c80212f73fca201e732814541475ab559",
       "hint": "Уточните требуемый смысл продолжительности помощи. Не выводите запрет сочетания только из отсутствия примера в короткой статье.",
       "rows": [],
       "referenceStatus": "dictionary_meanings_read_and_key_preserved",
@@ -39070,16 +39063,15 @@
         }
       ],
       "lexicalSourceReview": {
-        "reviewDate": "2026-11-11",
+        "reviewDate": "2026-11-21",
         "scope": "preserved_key_edit_in_original_sentence",
         "oldExplanationsUsedAsEvidence": false,
         "independentTeacherAcceptance": false,
         "answerUniquenessEstablished": false,
         "originalUniversallyForbidden": false,
-        "status": "context_scope_pending",
+        "status": "contextual_edit_supported",
         "answer": "постоянную",
         "editSha256": "7419efd942cb11b6b81e3f0e99e43e02a07afdfc9f63fc0586a7a3b06e67890e",
-        "reason": "Словарь сочетаемости подтверждает сочетания «постоянная помощь» и «оказать помощь». Толковый словарь государственного языка РФ (СПбГУ, часть А–Н, с. 374) объясняет «неослабный» через «неослабевающий». Это допускает смысл помощи, которая не ослабевает. Причина обязательной замены исходного определения остаётся открытой.",
         "grammarEvidence": [
           {
             "sourceId": "gramota-lexical-neoslabnyy",
@@ -39101,7 +39093,7 @@
             "method": "visual_page_read"
           }
         ],
-        "studentNote": "Словарь сочетаемости подтверждает сочетания «постоянная помощь» и «оказать помощь». Толковый словарь государственного языка РФ (СПбГУ, часть А–Н, с. 374) объясняет «неослабный» через «неослабевающий». Это допускает смысл помощи, которая не ослабевает. Причина обязательной замены исходного определения остаётся открытой. Ответ проверяется по сохранённому ключу задания."
+        "reason": "В предложении говорится о регулярной поддержке учеников и родителей школьными психологами. Этот смысл передаёт сочетание «оказывать постоянную помощь»."
       }
     },
     {

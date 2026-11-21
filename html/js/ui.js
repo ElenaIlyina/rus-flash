@@ -26,8 +26,14 @@ export const esc = (value) =>
         c
       ],
   );
+const editorialNoteHeading = title => `<span class="eyebrow">${title}</span>`;
+const factNoteHeading = editorialNoteHeading("Найдена неточность");
+const noteSourceLink = (href, content) => /^https:\/\//i.test(href || "")
+  ? `<a class="text-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${content}</a>`
+  : "";
+
 // Retain meaningful source formatting, drop executable/unknown markup and attributes.
-export function rich(value, { markdown = true } = {}) {
+export function rich(value, { markdown = true, tables = false } = {}) {
   const formatted = !markdown
     ? String(value || "")
     : String(value || "")
@@ -45,6 +51,9 @@ export function rich(value, { markdown = true } = {}) {
     "BR",
     "P",
   ]);
+  if (tables) {
+    for (const tag of ["TABLE", "THEAD", "TBODY", "TR", "TH", "TD"]) allowed.add(tag);
+  }
   function clean(node) {
     if (node.nodeType === Node.TEXT_NODE) return esc(node.textContent);
     if (node.nodeType !== Node.ELEMENT_NODE) return "";
@@ -53,16 +62,43 @@ export function rich(value, { markdown = true } = {}) {
     const inside = [...node.childNodes].map(clean).join("");
     if (!allowed.has(node.tagName)) return inside;
     const name = node.tagName.toLowerCase();
+    if (name === "p" && node.getAttribute("class") === "editorial-note") {
+      return `<p class="editorial-note">${editorialNoteHeading("Можно обсудить")}${inside}</p>`;
+    }
     return name === "br" ? "<br>" : `<${name}>${inside}</${name}>`;
   }
   return [...doc.body.childNodes].map(clean).join("").replace(/\n/g, "<br>");
+}
+export function renderEditorialNote(note, location) {
+  if (!note) return "";
+  const heading = note.kind === "fact" ? factNoteHeading : "";
+  const sources = note.sources || [{ url: note.sourceUrl, label: note.sourceLabel }];
+  const links = sources.map(source => noteSourceLink(source.url, esc(source.label))).filter(Boolean).join("<br>");
+  const text = esc(note.text).replace(/\n/g, "<br>");
+  return `<p class="${location} editorial-note">${heading}<small><sup>1</sup> ${text}</small>${links ? "<br>" + links : ""}</p>`;
+}
+
+function markNote(html, anchor) {
+  const term = esc(anchor);
+  return html.replace(term, term + "<sup>1</sup>");
+}
+
+export function renderPassage(card) {
+  const passage = rich(card.passage);
+  const note = card.passageNote;
+  if (!note) return passage;
+  return (note.anchors || [note.anchor]).reduce(markNote, passage) + renderEditorialNote(note, "passage-note");
+}
+
+export function renderQuestionOption(card, option) {
+  return (card.questionNote?.anchors || []).reduce(markNote, rich(option));
 }
 // Correction examples share one visual emphasis without changing card versions.
 // HTML-only explanations can disable Markdown to retain literal source markers.
 export function richExplanation(value, options = {}) {
   return rich(value, options).replace(
     /((?:<(?:b|strong)>)?(?:Правильно|Возможное исправление|Нейтральная редакция):(?:<\/(?:b|strong)>)?)([ \t]*)([\s\S]*?)(?=<br>|<\/p>|$)/g,
-    (_, label, space, sentence) => `${label}${space}<strong>${sentence}</strong>`,
+    (_, label, space, sentence) => `${label}${space}<strong class="correction-example">${sentence}</strong>`,
   );
 }
 export const plain = (s) =>
@@ -70,13 +106,20 @@ export const plain = (s) =>
 export const num = (n) => n.toLocaleString("ru-RU");
 
 export function cardExplanation(text, task) {
-  return richExplanation(text, { markdown: ![23, 24, 25, 26].includes(task) });
+  return richExplanation(text, { markdown: ![23, 24, 25, 26].includes(task), tables: task === 22 });
 }
 
 export function matchingColumns(card) {
-  if (!card.errors.length || !card.sentences.length) return "";
   const column = (title, items, label) =>
     `<section><h3>${title}</h3>${items.map((item, index) =>
       `<p><b>${label(index)}.</b> ${rich(item)}</p>`).join("")}</section>`;
+  if (card.rhetoric) {
+    const { sentences, terms } = card.rhetoric;
+    if (!sentences) {
+      return `<div class="matching rhetoric-terms">${column("Список терминов", terms, i => i + 1)}</div>`;
+    }
+    return `<div class="matching rhetoric-matching">${column("Предложения", sentences, i => "АБВГД"[i])}${column("Средства выразительности", terms, i => i + 1)}</div>`;
+  }
+  if (!card.errors.length || !card.sentences.length) return "";
   return `<div class="matching">${column("Грамматические ошибки", card.errors, i => "АБВГДЕ"[i] || i + 1)}${column("Предложения", card.sentences, i => i + 1)}</div>`;
 }

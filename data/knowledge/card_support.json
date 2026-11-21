@@ -18586,7 +18586,7 @@
     },
     "E92465": {
       "sourceContentSha256": "08de4865a40973f639073fda06366303a321d3385bb3016c61a16a3c0277e2b2",
-      "explanationSha256": "b63afafee39a05a954d0a4cdf7f6e55d80defd2de21352a52db8b9d3df40079b",
+      "explanationSha256": "027fda63947d50911f1e2618b6b0a4a4231721ceb65f9510d2cd907fb81205bc",
       "explanationPublished": true,
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, поделенный, значимость, прибыв, договоренность. Найдите деепричастия и не подменяйте их похожими формами прошедшего времени. Сначала назовите точную форму каждого слова.",
       "dictionaryRefs": [],
@@ -18799,7 +18799,7 @@
     },
     "FD0C05": {
       "sourceContentSha256": "a8549d9679b87fd3dc975ca500acbe1931eb02a95e0bcca1d0a75f31f638f3ca",
-      "explanationSha256": "e29a602c0e8d4aac2c5bdd7b3a5a5a91493899c2bf5f25363370fa36c4853f9f",
+      "explanationSha256": "90e6a63d7d6b76fc9d28699c2f9a6b9507cdb2cac313500bde0bdd2337813f51",
       "explanationPublished": true,
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: исчерпать, наврала, верна, озлобить, занята. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
       "dictionaryRefs": [],
@@ -18826,7 +18826,7 @@
     },
     "FE8FF6": {
       "sourceContentSha256": "ae412b6254cfc6becb838f4f18fc821cea54cff94b7c8e98c6deda102894b0db",
-      "explanationSha256": "c90ee2a12d26461ed0e0af325e3720517e82f9c58cfaa1444b816941156f56da",
+      "explanationSha256": "35acba6af7dd34c5d32cd35209f9a2e199de2ccadb264a1b8af583a107287936",
       "explanationPublished": true,
       "hint": "Нужно найти одно слово с ошибкой, а не перечислить правильные варианты. В списке: повторит, прирученный, начавший, засветло, исчерпать. Похожие глаголы нельзя объединять в одно правило ударения. Сопоставляйте только формы данного слова, учитывая приставку и время.",
       "dictionaryRefs": [],
@@ -21638,7 +21638,7 @@
     },
     "079D68": {
       "sourceContentSha256": "0adf68b8306e3667e81d34a7259c0ceeed367c1f10da7e0ef4d438065f2da7f0",
-      "explanationSha256": "6408d5ec56df804e9787cd21ab03bb47287012b6bc0eae226ecc921b3e34b072",
+      "explanationSha256": "2bfc782874ae94e4053d389fade048b5b69dce29fdfe196e9047d51e796c29dd",
       "explanationPublished": true,
       "hint": "Проверьте, упомянут ли до этого ещё один вариант замены, который нужно отличить от названного.",
       "dictionaryRefs": [
@@ -21668,9 +21668,7 @@
           "label": "Плеоназм · Большой толковый словарь, Грамота",
           "url": "https://gramota.ru/meta/pleonazm"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Альтернатива в современном толковании может обозначать каждую из нескольких возможностей. Другая тогда отличает одну возможность от другой; в отдельном предложении про чиа предшествующие варианты не названы. Ключ даёт краткую редакцию, но словарь не устанавливает безусловную ошибочность определения. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "0CB0DD": {
       "sourceContentSha256": "b2e7c9dc7e93c83d38a1fe311706f6dd44090e31af4d3a08ccb1b9f3c5048f55",
@@ -22046,7 +22044,7 @@
     },
     "439D2C": {
       "sourceContentSha256": "67692ab08eedd9f228899e6ef8654813f5a5ef4c0751b41136bc0142e9bff52e",
-      "explanationSha256": "cb985c101b1d9415d0b2640573e74a13e6ff2e962d2045b690fd2ef9967b676d",
+      "explanationSha256": "79c69550719e0a5563c697cb57078154027dfedad26cbff16d23184772e7fd49",
       "explanationPublished": true,
       "hint": "Учитывайте многозначность слова «феномен»: нейтральное явление и нечто исключительное — разные прочтения.",
       "dictionaryRefs": [
@@ -22081,9 +22079,7 @@
           "label": "Плеоназм · Большой толковый словарь, Грамота",
           "url": "https://gramota.ru/meta/pleonazm"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Феномен может называться необычным явлением, но в исследовательском употреблении слово обозначает и наблюдаемое явление как таковое. Определение необычном тогда выражает отдельную оценку фантомной вибрации. Прочитанные толкования не позволяют признать удаление единственно необходимой правкой. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "5D58C2": {
       "sourceContentSha256": "a9bffeb6d71919fecb341cd10ef9e292aef5a4451c8dc979bb48e7fdd6d1a0fa",
@@ -22291,9 +22287,9 @@
     },
     "6F7776": {
       "sourceContentSha256": "76999d482c49a92190c5852acb4e96fa98907498abf2e28c7f5b5e6d8c114e17",
-      "explanationSha256": "2fcc0c29017a916389db19154ace9e58c1025533e49bfc3310260a8f1f5fd17d",
+      "explanationSha256": "c4c69b0d5cdf2d4260ae7464fe8b6bc7a2db1490a6381a716c4edc5d8d01c207",
       "explanationPublished": true,
-      "hint": "Проверьте, отсылает ли определение к уже названному альтернативному занятию или лишь повторно выражает идею замены.",
+      "hint": "Найдите слово, которое предполагает, что ещё один вариант замены уже был назван.",
       "dictionaryRefs": [
         {
           "dictionaryId": "ozhegov-shvedova-user-copy",
@@ -22321,13 +22317,11 @@
           "label": "Плеоназм · Большой толковый словарь, Грамота",
           "url": "https://gramota.ru/meta/pleonazm"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Словарь допускает значение отдельной возможности среди нескольких альтернатив. Другой может отсылать к уже предложенной замене плаванию, но отдельная карточка такого предыдущего контекста не содержит. Ключ сокращает фразу, однако невозможность исходного сочетания не подтверждена. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "7013D5": {
       "sourceContentSha256": "579b891f2914f18d2c73641161237bcf01071681fc8372bcec27325b36de087d",
-      "explanationSha256": "e86059ffda081b3a1e48d6e73ba4961c6337bca59e847e62955b5c2f1b743a5a",
+      "explanationSha256": "e70c05cd51d1f632db75fc59b4a39564f174953096305c43eeea11bd3b0041e6",
       "explanationPublished": true,
       "hint": "Установите, к кому относится рассказ о жизни, и подумайте, есть ли противопоставление романа Набокова чужому произведению.",
       "dictionaryRefs": [
@@ -22367,9 +22361,7 @@
           "label": "Плеоназм · Большой толковый словарь, Грамота",
           "url": "https://gramota.ru/meta/pleonazm"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Автобиографический характеризует связь содержания произведения с жизнью автора. Своём может дополнительно обозначать принадлежность романа самому Набокову; это не то же самое, что буквальное своя автобиография из примера плеоназма. Удаление допустимо, но обязательность именно этой правки остаётся спорной. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "74341C": {
       "sourceContentSha256": "3cbdeb8b78ed69685555340f5ae292d087b53c8febbc0f563bb6925cd79b0dc5",
@@ -22597,9 +22589,9 @@
     },
     "98489F": {
       "sourceContentSha256": "a91ea717f5bedc169ed34c6f0fb827ef48fbdfad4b0a0ae58bc881f37686e185",
-      "explanationSha256": "4ef59c24bc2d29cd91e94d3cd2712f8d2231b671397eafcd143c1296de59b9d6",
+      "explanationSha256": "3af3fb61aaf5253ebb3614be3dc8c89bc100780a49164656b96fb650da9496d2",
       "explanationPublished": true,
-      "hint": "Проверьте, уточняется ли конкретный размер города или лишь повторяется общий признак крупного населённого пункта.",
+      "hint": "Определите, какой признак уже выражен существительным «мегаполис».",
       "dictionaryRefs": [
         {
           "dictionaryId": "ozhegov-shvedova-user-copy",
@@ -22632,9 +22624,7 @@
           "label": "Плеоназм · Большой толковый словарь, Грамота",
           "url": "https://gramota.ru/meta/pleonazm"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Мегаполис обозначает город с многомиллионным населением, но огромный может оценивать его площадь, масштаб или размер относительно других мегаполисов. Словарное толкование не исключает такой градации; обязательность удаления огромных не установлена. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "9BC9C0": {
       "sourceContentSha256": "eb50bd605d11d8fa1caee59c576b063e28c217f81914092c15dbc8fb4064525e",
@@ -22900,9 +22890,9 @@
     },
     "C1F6AE": {
       "sourceContentSha256": "063e056773b9b5d180f14c6f3af74009d65ed95ff16bc0f6e20fd0eda6f803dc",
-      "explanationSha256": "58dcad01fb21b2b4e14c6db639aaa0b0976d70848a7f57c385b3cdc7ef97c726",
+      "explanationSha256": "0ae18f18494291794c782052f17504ece2e752c35991d74d2167351f591c9788",
       "explanationPublished": true,
-      "hint": "Сопоставьте существительные, называющие итог деятельности. Не приписывайте слову обязательную отрицательную оценку без словарного основания.",
+      "hint": "Подберите существительное, которое обозначает достигнутые итоги политики и сочетается со словом «положительные».",
       "dictionaryRefs": [
         {
           "dictionaryId": "ozhegov-shvedova-user-copy",
@@ -22930,9 +22920,7 @@
           "label": "Денисов—Морковкин, 1983, с. 479 · выбранные страницы",
           "url": "assets/data/lexical-sources/denisov-morkovkin-1983.pdf#page=7"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Последствия обычно имеют неблагоприятную оценку, но обычно не означает всегда. В словаре сочетаемости результат соединяется с положительный и относится к политике; это поддерживает редакцию по ключу. Однако прочитанные статьи не доказывают запрета положительных последствий или обязательной замены в данном предложении. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "C3F6BC": {
       "sourceContentSha256": "d3afc68fd6cbf94d6938d5b1ef95116a2cad5d699f8b797b7e39c4b6f2cac103",
@@ -22970,7 +22958,7 @@
     },
     "C50FE5": {
       "sourceContentSha256": "a450ba077b0447bc08b2bf2f94d696eed8cf551f491a4756271ddc5c476d4b93",
-      "explanationSha256": "771e21d4b793d84cbf799f471be6ad475efe006ad5e6df8e4167dd6c62a9f00f",
+      "explanationSha256": "d2fc55bb89baabddc72c253986c6ebc16b1576082c67ae86bf94d5394fd99ea4",
       "explanationPublished": true,
       "hint": "Не ограничивайтесь поиском одинакового корня: проверьте, добавляет ли наречие новое качество движения к уже названной цели.",
       "dictionaryRefs": [
@@ -23005,9 +22993,7 @@
           "label": "Тавтология · Большой толковый словарь, Грамота",
           "url": "https://gramota.ru/meta/tavtologiya"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В словарной статье целеустремлённый прямо приведено Целеустремлённо идти к своей цели. Это опровергает вывод об ошибке только из общего корня с целью. В карточке наречие может характеризовать настойчивость туристов, а цель — пункт путешествия; основание обязательного удаления не установлено. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "C7CF0B": {
       "sourceContentSha256": "7ded5921a347a48cf5c6fd1f9a96066b7ab5ab1e6472dbfbee44d29d604392fa",
@@ -23116,7 +23102,7 @@
     },
     "D52745": {
       "sourceContentSha256": "bfd312e908ccd7014e6d0900dc2e1cb49eed1553d719188872b048f5ac6148c8",
-      "explanationSha256": "d30f05659aa384eac0532c45d0ca3d7a9c3c92fc56f2825d301869c740ce224a",
+      "explanationSha256": "b44e7aedd49cd9794f72e0900597c32c80212f73fca201e732814541475ab559",
       "explanationPublished": true,
       "hint": "Уточните требуемый смысл продолжительности помощи. Не выводите запрет сочетания только из отсутствия примера в короткой статье.",
       "dictionaryRefs": [
@@ -23146,9 +23132,7 @@
           "label": "Денисов—Морковкин, 1983, с. 408 · выбранные страницы",
           "url": "assets/data/lexical-sources/denisov-morkovkin-1983.pdf#page=6"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Словарь сочетаемости подтверждает сочетания «постоянная помощь» и «оказать помощь». Толковый словарь государственного языка РФ (СПбГУ, часть А–Н, с. 374) объясняет «неослабный» через «неослабевающий». Это допускает смысл помощи, которая не ослабевает. Причина обязательной замены исходного определения остаётся открытой. Ответ проверяется по сохранённому ключу задания."
+      ]
     },
     "D820E1": {
       "sourceContentSha256": "ecfa081cc7d5d56aa0d567b35b8844fa97a82f3588ca66246931678c840a9a4d",
@@ -24605,7 +24589,7 @@
     },
     "CA147A": {
       "sourceContentSha256": "219bb88738dad62beb400e8469effd4064746d6119c8071ed1257cb2a0ccca23",
-      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
+      "explanationSha256": "a69f31f74b4d0018a7ab6dfec9eb7e9b77b2ed5f9856ed4e02f794b9e8e7edb0",
       "explanationPublished": true,
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
       "dictionaryRefs": [
@@ -24630,9 +24614,7 @@
           "label": "Соус: соусы и разг. соуса́ · орфографический словарь, PDF 2619",
           "url": "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf#page=2619"
         }
-      ],
-      "explanationReviewNote": "В словаре также есть разговорное «соуса́». Разбор области допустимости требует уточнения; ответ проверяется по сохранённому ключу задания.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "D05218": {
       "sourceContentSha256": "70f993d8442669c3294995e96b22cbbb753b254d0d963f1062199be8bc059b56",
@@ -24855,7 +24837,7 @@
     },
     "F23DF9": {
       "sourceContentSha256": "ac3c154a2ae4da114dba91f68b788bc9dc707802345ac23ed8257a8b7bafde5c",
-      "explanationSha256": "f7f69ce94798d5908602caa6469c3d152dbd6255470f5dc064146dc78c801311",
+      "explanationSha256": "a69f31f74b4d0018a7ab6dfec9eb7e9b77b2ed5f9856ed4e02f794b9e8e7edb0",
       "explanationPublished": true,
       "hint": "Определение указывает на несколько предметов, поэтому проверьте именительный падеж множественного числа. Не путайте его с родительным падежом единственного.",
       "dictionaryRefs": [
@@ -24880,9 +24862,7 @@
           "label": "Соус: соусы и разг. соуса́ · орфографический словарь, PDF 2619",
           "url": "https://gramota.ru/storage/public/normdicts/orfograficheskij_slovar.pdf#page=2619"
         }
-      ],
-      "explanationReviewNote": "В словаре также есть разговорное «соуса́». Разбор области допустимости требует уточнения; ответ проверяется по сохранённому ключу задания.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "F26529": {
       "sourceContentSha256": "f7b4f38acee1b23fb3b21554a6338f3fdf692fff16fc49d9d75cd15b464aa9bd",
@@ -47739,9 +47719,9 @@
     },
     "0C92F7": {
       "sourceContentSha256": "ffb2e646c0b654d3ca72c081f09188dd4b0eaa818ce299c373f71d5e57ebac4b",
-      "explanationSha256": "d2945fe5806abbee86de31f6679067443be73c7c36bf5cc8a30d014ac21f0bd4",
+      "explanationSha256": "126dade445190b515c935a9ebbf3fd5d87cd981c588c6871e66bf50841e899ae",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Различайте избыточность соотносительного ТО и грамматическую ошибку: это не одно и то же. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, которое поясняет придаточная часть. Проверьте, нужно ли указательное слово перед ней.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -47800,15 +47780,13 @@
           "label": "Связь главной и придаточной частей · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/slozhnoe-predlozhenie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "0D3499": {
       "sourceContentSha256": "df461ad6b3e99563f3fe44b2dc5a00a8f7c2f5f238165f8e4680362fe316abe8",
-      "explanationSha256": "1d7cd47085e2581a5dd7f3227d16a4e9da46398d3ab8a40a0cb3d2459ecb60d9",
+      "explanationSha256": "b0a601732c663c61398b4442101185d7314cb79395a3fc119eb3039b084b62b4",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Правило для личного глагола нельзя автоматически переносить на именную часть сказуемого. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите грамматическую основу каждого предложения. Если сказуемое выражено существительным, проверьте, говорит ли оно о том же предмете, что и подлежащее.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -47867,15 +47845,13 @@
           "label": "Союзы и их парные части · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/soyuz"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "1A8A12": {
       "sourceContentSha256": "2a048314f516e822a916792bc5d0579264360650968fa82fcd1e56790a3ba981",
-      "explanationSha256": "a9176a8ccca9de6993efedf5f7321077f813dfdd1041866b30159d6083728707",
+      "explanationSha256": "37189b0c50347f586dd9c5b86669f7bdd9fb3dece1749caea940b414d946bb6d",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Удаление определения от имени само по себе не запрещено; проверьте понятность конкретной связи. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите причастие и слово, к которому оно относится. Проверьте порядок слов в предложении.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -47934,15 +47910,13 @@
           "label": "Деепричастие: общий исполнитель действий · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/deeprichastie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "321FC1": {
       "sourceContentSha256": "d6d96a34cf100d70a801b38d961a0368866865bc1517bf2ef44ad7832c4adafd",
-      "explanationSha256": "53a3264457c469aec98dce2bd5503ac027e623cb3e67525eff18a63a1b0c73cc",
+      "explanationSha256": "0c3236c98aa10d2bb31a83d958c1bf4cb1acb9bc94ef00f8e76533b412329ecd",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Различайте избыточность соотносительного ТО и грамматическую ошибку: это не одно и то же. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, которое поясняет придаточная часть. Проверьте, нужно ли указательное слово перед ней.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48001,15 +47975,13 @@
           "label": "Связь главной и придаточной частей · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/slozhnoe-predlozhenie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "42A4FE": {
       "sourceContentSha256": "b8e5773698c87836eaef19c9ee38cca8901c7923171656fafd544b93f1671e27",
-      "explanationSha256": "2f51b47f664b708465a9563d77c2d61a5a33e51cb3a1e33e0c98a7d746e316c0",
+      "explanationSha256": "080d3fdad7e0f4d492d5ab0cb963afdfe472bb2d3ab7bda9f7e587dae5819517",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Различайте избыточность соотносительного ТО и грамматическую ошибку: это не одно и то же. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, которое поясняет придаточная часть. Проверьте, нужно ли указательное слово перед ней.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48068,9 +48040,7 @@
           "label": "Причастие и согласование · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/prichastie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "4ED72E": {
       "sourceContentSha256": "015f8b3ad4360ca2bd3097b542d26f7b80ac6fedc63fa01c8e012d48baa61f83",
@@ -48145,9 +48115,9 @@
     },
     "55C0E8": {
       "sourceContentSha256": "424076b0d04533e607954a905377eed817de93b4ac45ba2b7ca32dc6268d64e6",
-      "explanationSha256": "cdb3718a826e1a6498e9db456f4af6ad923481e6fb04e218ba3b1ab955ef685e",
+      "explanationSha256": "b38820c52b6c6c272fd1bb0db2204a2cb4bdb1b504d26a6f2f155370bd695244",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Удаление определения от имени само по себе не запрещено; проверьте понятность конкретной связи. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, к которому относится причастие. Сопоставьте их формы и проверьте место оборота в предложении.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48206,15 +48176,13 @@
           "label": "Словосочетание и управление · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/predlozhenie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "706C1F": {
       "sourceContentSha256": "c9b19ebf81934caf6b7f31a23a72b71e6e76ed1242c362a3b1f75046fbb11a6a",
-      "explanationSha256": "d1223b84776dd7c6818eb2ee10b029e05b17436ec697ef0182b8441495a88a76",
+      "explanationSha256": "ed504db3ba03c10207d9f3df3467f703794c237ca7c6e26c52c351238f568186",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Удаление определения от имени само по себе не запрещено; проверьте понятность конкретной связи. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, к которому относится причастие. Сопоставьте их формы и проверьте место оборота в предложении.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48273,9 +48241,7 @@
           "label": "Словосочетание и управление · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/predlozhenie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "8C2046": {
       "sourceContentSha256": "885b89cac9b3e8ac4b922c117f6da03def5058802a98d433d6ddfd453501b597",
@@ -48350,9 +48316,9 @@
     },
     "B86137": {
       "sourceContentSha256": "87541ab691ab5ed4f12bc076b149d7af0db748d288f904d908ecab74a43ab717",
-      "explanationSha256": "01366843e722997ca88c9d0368e8f10cfa50b04f3a7c806f336353b38a98eda9",
+      "explanationSha256": "0daaae458afd97df88fa50da3548c802afad4deafd7349c6b2be39bac6b30feb",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Различайте избыточность соотносительного ТО и грамматическую ошибку: это не одно и то же. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, которое поясняет придаточная часть. Проверьте, нужно ли указательное слово перед ней.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48411,15 +48377,13 @@
           "label": "Согласование подлежащего и сказуемого · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/osobennosti-soglasovaniya-skazuemogo-s-podlezhashchim-nesoglasovannoe-skazuemoe"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "BD75A1": {
       "sourceContentSha256": "04748e0da19169eae349aa985c4c454e0945418d63544504d83abee2a6b84d84",
-      "explanationSha256": "6611d13291d98fccb8e2fdb7829ca8c8b5bb311f4b249f0127df8d9932225563",
+      "explanationSha256": "0c36d25b39e5f8f3c29b79f8b7b0f884eaed2b9f05d86ce43005983e66a0e863",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Проверьте не только грамматического исполнителя, но и смысл действия и отсылку местоимения. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите подлежащее и проверьте, оно ли выполняет действие, названное деепричастием.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48478,15 +48442,13 @@
           "label": "Согласование подлежащего и сказуемого · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/osobennosti-soglasovaniya-skazuemogo-s-podlezhashchim-nesoglasovannoe-skazuemoe"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "BF989E": {
       "sourceContentSha256": "f1889b675b7379b509372995e49feddd3bf4cad1220a300ced947e2464d4470f",
-      "explanationSha256": "e999da181d3560bc01be6810cf7b5eeeb063067ac92776a8f3f54e41d5918e41",
+      "explanationSha256": "ddcca6bde95f01aad9b94c11016855a0cf5e3e804ef8058af6fdca274cf31c44",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Удаление определения от имени само по себе не запрещено; проверьте понятность конкретной связи. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите существительное, с которым согласуется причастие. Сравните его с существительным, стоящим перед оборотом.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48545,15 +48507,13 @@
           "label": "Деепричастие: общий исполнитель действий · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/deeprichastie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "C1871C": {
       "sourceContentSha256": "9a3905c1feeb5d7f9d89b1fc970b1d8d2be40cfeb37c95dc40fc6688d6c3c609",
-      "explanationSha256": "769abcc6c1c8d3776442bacb526eaa61276f287d8228e363d8b6e1fce0379918",
+      "explanationSha256": "3b97eee2628c7fbba73a06b5fd3204a55df43919454a8e21e1fe76389611d247",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Различайте избыточность соотносительного ТО и грамматическую ошибку: это не одно и то же. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите слово, которое поясняет придаточная часть. Проверьте, нужно ли указательное слово перед ней.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48612,9 +48572,7 @@
           "label": "Согласование подлежащего и сказуемого · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/osobennosti-soglasovaniya-skazuemogo-s-podlezhashchim-nesoglasovannoe-skazuemoe"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "D9E1DD": {
       "sourceContentSha256": "1c68988db0f96504a3b16b4007006a678f8efc6ebfe9e4ac190e7af50fb4ce83",
@@ -48689,9 +48647,9 @@
     },
     "C1EB4C": {
       "sourceContentSha256": "2e45ad30720588e6e4281103acc0384757c52bf8ba95bff2fbfc2511c9079ed5",
-      "explanationSha256": "a11819b9b5f8a8c3468c23f8d158c6a027229783aff7a9688f3a1d6245d3d102",
+      "explanationSha256": "5cf9ed4433a4bfbf5834306b65b5ffe6ecf5bf1b7f0e2dd71de08a3871d6c018",
       "explanationPublished": true,
-      "hint": "Для каждого оборота найдите опорное слово или исполнителя, в сложном предложении — основу каждой части. Удаление определения от имени само по себе не запрещено; проверьте понятность конкретной связи. Спорное соответствие отмечено в разборе.",
+      "hint": "Найдите существительное, с которым согласуется причастие. Сравните его с существительным, стоящим перед оборотом.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -48750,9 +48708,7 @@
           "label": "Деепричастие: общий исполнитель действий · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/deeprichastie"
         }
-      ],
-      "explanationReviewNote": "Одно соответствие в этом задании требует предметной проверки. Подтверждённые связи объяснены, спорный случай отмечен отдельно.",
-      "explanationNeedsSourceReview": true
+      ]
     },
     "0366D7": {
       "sourceContentSha256": "ce9118e56e976d6525f2d4e864affbe173897567ea89ed077055042f713c56ee",
@@ -64406,9 +64362,9 @@
     },
     "503B73": {
       "sourceContentSha256": "ad6f7f16b26aba89ea6226fb4372394d7bd6e25d743b1d9e64185ad610986591",
-      "explanationSha256": "127cac8a877d61b31316229ebbdff4c92f667aa662e34973667d93035b7362d5",
+      "explanationSha256": "ea65d0ec7f6d49346ee572e037121bf592808522d5554edacc501cfaa426f812",
       "explanationPublished": true,
-      "hint": "Выделите временную часть когда шумел тростник и изъяснение после казалось. Отдельно проверьте, относится ли Этой осенью к обеим главным частям.",
+      "hint": "Найдите главные части, которые соединяет «и». Затем выделите придаточное с «когда» и придаточное с «что».",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "grammarSourceRefs": [],
@@ -64433,9 +64389,7 @@
           "sourceId": "lopatin-2007-punctuation-115",
           "label": "Пунктуация, §115 · Лопатин (ред.), Эксмо, 2007"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Начальное обстоятельство «Этой осенью» может быть отнесено к обеим главным частям. Сохранённый ключ требует запятой перед и; при общем обстоятельстве §112 предусматривает отсутствие этой запятой. Нужно установить область действия в данном контексте. Это не доказанная ошибка ключа."
+      ]
     },
     "578A01": {
       "sourceContentSha256": "b061e36e2c4ed64c130ab1dbc3043ef466a0bd8c1b608a539c903c7ef2e31324",
@@ -65475,9 +65429,9 @@
     },
     "A0805E": {
       "sourceContentSha256": "63564c96161e6522a73c4018ba45e42484acbafeab2ee522d55f8659fec8dc99",
-      "explanationSha256": "f0da8c1446b6dfc81ba4bf94a11bed4ab2b3571c05f8890046a54af6c8612e6b",
+      "explanationSha256": "a975cd7fb5ad8ee704dbcf906189258e669f2231ae11d142d688473601a324c2",
       "explanationPublished": true,
-      "hint": "Выделите когда не спалось и что скрывается. Отдельно проверьте, можно ли считать ночью общим обстоятельством двух главных частей.",
+      "hint": "Найдите две главные части. Определите, где начинается и заканчивается придаточное с «когда» и к какому глаголу относится часть с «что».",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "grammarSourceRefs": [],
@@ -65502,9 +65456,7 @@
           "sourceId": "lopatin-2007-punctuation-115",
           "label": "Пунктуация, §115 · Лопатин (ред.), Эксмо, 2007"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Начальное обстоятельство «Ночью» может быть отнесено к обеим главным частям. Сохранённый ключ требует запятой перед и; при общем обстоятельстве §112 предусматривает отсутствие этой запятой. Нужно установить область действия в данном контексте. Это не доказанная ошибка ключа."
+      ]
     },
     "A1D7F4": {
       "sourceContentSha256": "5b838205eaea64bdd34fd35dbaf972ebae02a653a94d7833e8cac0509002d672",
@@ -66782,8 +66734,8 @@
       ]
     },
     "139F0C": {
-      "sourceContentSha256": "04f54618012db6d88702da4521ce980c120ecf39b3b68991270fbb2d7b524a85",
-      "explanationSha256": "4e6e087bbefdb208597b580252b6aed5f55223c70f3ba0808c90f9803264131b",
+      "sourceContentSha256": "ab6439ee9ce667dd4fc2a65ad8c2accb59c228861db6d9335db76dd2dfb94760",
+      "explanationSha256": "29b821bc59f44182dd6ab3579a469fad01f461a7c54f45ff0f545c6a039dc85a",
       "explanationPublished": true,
       "hint": "В одном предложении могут сочетаться перечисление, обособление и придаточная часть. Для общего основания найдите союзное слово и собственную основу придаточной.",
       "dictionaryRefs": [],
@@ -67032,9 +66984,9 @@
     },
     "1E7690": {
       "sourceContentSha256": "2a63dfb2394b47f85bb6ed63d6d091aa148fb202238370181f55c36931e89c61",
-      "explanationSha256": "28b6c3dcce69239ff18fc09ef6cf8e6bc52482ac80b08d9921079e556fc0f300",
+      "explanationSha256": "c1888616dbcbb913f44a5844792f6ce50f12110a1d0dd1e06162a50834626e12",
       "explanationPublished": true,
-      "hint": "Различите границы маршрута, числовое сказуемое, пояснение пути и приложение. Совпадение тире не означает автоматически одинаковую синтаксическую функцию.",
+      "hint": "Найдите сочетания, которые поясняют или характеризуют уже названное. Проверьте, где тире выделяет приложение.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "grammarSourceRefs": [],
@@ -67056,8 +67008,8 @@
         },
         {
           "part": 4,
-          "sourceId": "lopatin-2007-punctuation-85",
-          "label": "Пунктуация, §85 · Лопатин (ред.), Эксмо, 2007"
+          "sourceId": "lopatin-2007-punctuation-61",
+          "label": "Пунктуация, §61 · Лопатин (ред.), Эксмо, 2007"
         },
         {
           "part": 5,
@@ -67069,12 +67021,10 @@
           "sourceId": "lopatin-2007-punctuation-61",
           "label": "Пунктуация, §61 · Лопатин (ред.), Эксмо, 2007"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Ключ 46 объединяет поясняющее обстоятельство пути «по Золотому кольцу» и приложение к названию маршрута. Нужна дополнительная проверка того, насколько широко здесь понимается одно и то же правило. Это не доказанная ошибка ключа."
+      ]
     },
     "23E453": {
-      "sourceContentSha256": "1943b51ecc248a87a2d8be6a406cdc1b83537782d22cbef8e189dfb7fec0a10e",
+      "sourceContentSha256": "06e34a0606f17c8dfa50adafc8f6e6b7b6dc8ba4ab3570e8108b617dd6dd58eb",
       "explanationSha256": "c304227d772efa82894206c27927e9c1c0236d7c2b2b89c0010b3e7b43fe89ed",
       "explanationPublished": true,
       "hint": "После двоеточия ищите свою грамматическую основу; отдельные существительные в списке такой основы не образуют.",
@@ -67894,8 +67844,8 @@
       ]
     },
     "80D166": {
-      "sourceContentSha256": "909524e92de28467bd7bccc2970e4ad1ef229aba4bd5dc0471fd64d073dbdb06",
-      "explanationSha256": "f0e3a6dbad692c94507633b661aa238b9be46d9066003d04f498e8ea0dadf81b",
+      "sourceContentSha256": "4246c477cdb90acfbc9fab931cb1fed86c79c85c918e6e64044b8ea337930a1f",
+      "explanationSha256": "6f76a92efd8ed45d66c487a1ffde7772462be8f0a64ce9e9a72e36097262a61f",
       "explanationPublished": true,
       "hint": "В №3 найдите не только начальное вводное сочетание, но и перечисленные характеристики одного метеорита.",
       "dictionaryRefs": [],
@@ -68164,8 +68114,8 @@
       ]
     },
     "8EA0E9": {
-      "sourceContentSha256": "0cbc77cff251e4252b652a50c97883374932dc10744db0f548c77e95e50c57b8",
-      "explanationSha256": "878eb71ebd204883413d2b900da2996657ddf2845f70952d57b1c22c5d909ea1",
+      "sourceContentSha256": "650541500158a1cbf09c2089dcbbb7113c4da4ea239a8a450b3f4c43e3efb7ea",
+      "explanationSha256": "5be069eb937de00791589f5b7d29865aad58ba21153ba0b79065acf85a40ed5d",
       "explanationPublished": true,
       "hint": "Отличайте содержание факта, решения или обещания от цитаты, оформленной прямой речью.",
       "dictionaryRefs": [],
@@ -68903,8 +68853,8 @@
       ]
     },
     "B4D450": {
-      "sourceContentSha256": "8a5f96ce202ea3d5a2f6342c55cd8af658150fa057d8873d3d5b2060df219ca0",
-      "explanationSha256": "b5f733087de2820b76900015408949d89a1a8afd93fc66ec24ee4f25c95b76e9",
+      "sourceContentSha256": "37774da6e2bad3b36f2134013a34dc669bd636b70235268c1f18ff3b53b60350",
+      "explanationSha256": "890e899b7db795fcb887f95671bb1affc86bc52d67ee38b633700590ab6af73c",
       "explanationPublished": true,
       "hint": "При тире между главными членами определите подлежащее и то, что о нём утверждается. У каждого вида — особенности устроено иначе.",
       "dictionaryRefs": [],
@@ -69142,7 +69092,7 @@
       ]
     },
     "D12501": {
-      "sourceContentSha256": "3e20e501815a33eadfb6394d71322ac2f1114799c6f9bee19d1d82d1185691f3",
+      "sourceContentSha256": "f14241979c3f8f2f6c9ff277135f7c17fbfe71d1805cd72d37c629c36b0b98f4",
       "explanationSha256": "5ac213f3290bd8f22e043638091fb4d95f798ad19dc436c90ba533d9bdd55749",
       "explanationPublished": true,
       "hint": "От широкого указания перейдите к более узкому: к северо-востоку — на тракте, когда-то — задолго до эпохи, здесь — на берегу.",
@@ -69708,9 +69658,9 @@
     },
     "00EA20": {
       "sourceContentSha256": "44c1727af37c2a47ab891b6196cdd11b2ca0f449b287624f050f59d406796814",
-      "explanationSha256": "444ae84ec8d2af276ded7624381f3703c4723a6ba6730338b664be1ed8b738f5",
+      "explanationSha256": "3bbdacad54830642c31528eb8e606ada48a7e77f8e3d6ccd5b026b5aa6b50002",
       "explanationPublished": true,
-      "hint": "Ищите признак в каждом фрагменте: образное определение, необычный порядок слов, перечисление без союзов, преувеличение или явное уподобление. Не называйте любой абсолютный оборот гиперболой без проверки контекста.",
+      "hint": "Ищите образное определение, выразительный порядок слов, перечисление без союзов, преувеличение или явное уподобление.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -69739,9 +69689,7 @@
           "label": "Велижанина и др. Русский язык и культура речи · НГТУ, 2010 · с. 189",
           "url": "https://www.nntu.ru/frontend/web/ngtu/files/org_structura/library/resurvsy/pervokursnik/irit/rus/osnovn/1.pdf#page=189"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Гипербола в «Это было всё, что осталось у него от жизни» зависит от контекста: без него возможен буквальный смысл. В Б сказуемое перед подлежащим само по себе ещё не доказывает стилистическую инверсию. Ключ сохранён; нужен полный контекст для подтверждения выразительности."
+      ]
     },
     "06E59E": {
       "sourceContentSha256": "3d4e1cba81a398070ea59b46bf9fceb86f7871a4abc5d059b0a56ae407500049",
@@ -69987,7 +69935,7 @@
       ]
     },
     "1E0400": {
-      "sourceContentSha256": "38e2967c1ad7602a0de1dcc5823591b54e3013c843910da27c7788d466c3b748",
+      "sourceContentSha256": "ac1d33ab8105508685da1474800b05c4e0700ce89356811ba00068760f6e3d70",
       "explanationSha256": "b6651342d89d7785c9d1b25c91f07856f1b492bb02ab8bc8b72976e0d4ae7180",
       "explanationPublished": true,
       "hint": "Слова спешить, суетиться, торопиться сопоставьте по значению. Устойчивый оборот положа руку на сердце не объясняйте как буквальное действие.",
@@ -70666,9 +70614,9 @@
     },
     "66CDCF": {
       "sourceContentSha256": "3a600f9fa3c74a4d458e11d57b4c90d0d54f9fce9acb99b7dbcde5253b4622df",
-      "explanationSha256": "96ded2925606ecb813310354dd5ed203376967fd2147e0b7230b44690382250c",
+      "explanationSha256": "b8a772a3fc1d523663d410617415c31f9f0798609a483e1ae69b2ecc6b6daa78",
       "explanationPublished": true,
-      "hint": "Градация требует смысловой шкалы, а не просто трёх глаголов. В деревушке проверьте перенос населённый пункт → жители; как вводит явное сравнение.",
+      "hint": "Для градации ищите ступени смысловой шкалы. В примере с деревушкой подумайте, кто именно вышел хоронить солдата. Союз «как» помогает найти сравнение.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -70703,15 +70651,13 @@
           "label": "Велижанина и др. Русский язык и культура речи · НГТУ, 2010 · с. 189",
           "url": "https://www.nntu.ru/frontend/web/ngtu/files/org_structura/library/resurvsy/pervokursnik/irit/rus/osnovn/1.pdf#page=189"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В «Не жалею, не зову, не плачу» ключ выбирает градацию. Последовательность отрицаний видна, но шкала усиления или ослабления чувств не однозначна. Перечисление само по себе не является достаточным доказательством градации; требуется уточнение авторской/учебной трактовки."
+      ]
     },
     "6A4DD9": {
       "sourceContentSha256": "619e469668c009227ce7ebb061e66d3d16174731a67112bc9e444a503b899f83",
-      "explanationSha256": "9c4f5fdc2de72fd6b929184460879ec46e5549f34810c75d9c943de5d410b36f",
+      "explanationSha256": "72fb54abe57a7e6481e25c6442154048825ea5cb72a7ebf529f19ff2a38ba597",
       "explanationPublished": true,
-      "hint": "Повтор замечания о носилках связывает несколько фраз. У наваливались нужно уточнить словарный регистр: разговорное и просторечное — не одно и то же.",
+      "hint": "Сравните соседние предложения о носилках. Найдите повторяющиеся слова и выражения.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [
@@ -70746,9 +70692,7 @@
           "label": "Большой толковый словарь на Грамоте: навалиться, значение 5",
           "url": "https://gramota.ru/meta/navalitsya"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Ключ относит «наваливались» к просторечным словам. Большой толковый словарь на Грамоте в статье «навалиться», значение 5 «наброситься, напуститься на кого-либо», даёт помету «разговорно-сниженное». Сниженная окраска подтверждается, но равенство этой пометы школьной категории «просторечное» требует уточнения; ключ сохранён."
+      ]
     },
     "702B3F": {
       "sourceContentSha256": "59d8713b2a9cdf1e6bf6afb1ac6cf9d5759b3d7cbd671662577445a6208a8360",
@@ -71554,7 +71498,7 @@
     },
     "C96DCA": {
       "sourceContentSha256": "cfafbc6b0974b983eb139dd6e37a3b960cbcb1b19d1639fc31a17c5b49d4fa29",
-      "explanationSha256": "4566afb7aa04d5c8f896d7573def585d9ec21b3046d6e4a7c42c5bef159d7cbb",
+      "explanationSha256": "b1b2adacf7dba2f0ad681c201aa7f778ca8e4c1f973aa0b8b39680acf9d92ca7",
       "explanationPublished": true,
       "hint": "Различайте перечисление действий, уподобление с как будто или словно и переносное сломается душа. В противопоставлении сопоставлены свойства души и металла.",
       "dictionaryRefs": [],
@@ -72357,19 +72301,17 @@
     },
     "1DC0F3": {
       "sourceContentSha256": "018e7cadd0fc989c1cccb72a3d093ed7c09e7fda00a4fbcdfffd468163a5ed4d",
-      "explanationSha256": "3d5aecfb470ff22f0102aa48e6101ac369644d63a0353efe309d28e69dedfe2d",
+      "explanationSha256": "cfe36062162f73c72f422ba48f32acd8d18047174f1705c73691ff76ca9d97f1",
       "explanationPublished": true,
-      "hint": "Различайте то, о чём сказано прямо, и правдоподобное дополнение. Слова о современной технике относятся к наблюдению животных, а не к манере письма художников.",
+      "hint": "Сопоставьте утверждения с деталями текста. Обратите внимание, что женщина знает о воронах и как они реагируют на её появление.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
-      "grammarSourceRefs": [],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В варианте 4 сказано, что вороны узнают кормящего их человека. Предложение 30 прямо подтверждает узнавание знакомой женщины и её знание корма, но не говорит прямо, что кормит ворон именно она. Это вывод по контексту, а не точная цитата; ключ с вариантом 4 сохранён, требуется подтвердить допустимость такого вывода."
+      "grammarSourceRefs": []
     },
     "217D24": {
-      "sourceContentSha256": "815cc321a9d4f2f98ada2407f90dd445533c25cce6975bf7f8973124e7cf62fe",
-      "explanationSha256": "78ca8d9d5f3c43698fff81cb59ffc5d78e7c28f05133e5a53be220bbead784d9",
+      "sourceContentSha256": "6ebaf314d2d011d02aee8acbfc648da27ee656ca15c4de9365acf88b543c8920",
+      "explanationSha256": "f19ebbdb3d27ced83d4a5ed98d0f2225455b2fadb26a3547f804fad38dd05893",
       "explanationPublished": true,
       "hint": "Здесь выбираются НЕ соответствующие тексту высказывания. Сравните старые гостиницы с новыми и проверьте, считает ли автор современную суету свободным временем.",
       "dictionaryRefs": [],
@@ -72519,15 +72461,13 @@
     },
     "5E18CB": {
       "sourceContentSha256": "f759727fd53bbd511426486ba2b6b781e15789a750d0fd3699de8dfd29b91d5a",
-      "explanationSha256": "10021fc3d9e2bf9b557ba561fb7327a4382cdc6f7b8faeb7872011fb2b11a939",
+      "explanationSha256": "f5f687e40ef9914c270eabf9d2e9fc28e5f5f2340568786a7ed6901259d231a1",
       "explanationPublished": true,
       "hint": "Различайте оценку мастерства Ковалёва в двух войнах и причины отказа от повышения. Совет давать дорогу молодым исходит от самого наводчика.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
-      "grammarSourceRefs": [],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Вариант 1 называет Ковалёва лучшим наводчиком уже со времён Первой мировой войны. В предложении 15 о том времени сказано только «выдающимся», а «лучшим наводчиком фронта» он назван в описываемую войну (№10). Ключ включает вариант 1; нужно уточнить допустимость усиления оценки и переноса превосходства на ранний период. Исходный ключ сохранён."
+      "grammarSourceRefs": []
     },
     "5E43AC": {
       "sourceContentSha256": "29237bf30ed0818869edf48adf7961290ffbb99dc8347190f137acf94411bfe3",
@@ -72641,18 +72581,16 @@
     },
     "88BC90": {
       "sourceContentSha256": "e10403b2583b23b974e9d3cf79c5bc90621c7d061eaa1be19b962df1360b1e07",
-      "explanationSha256": "e8e668e321eccd2cea9c56ae6f5c65bdc69fc565cdbcdd10b23831a1dd0776ce",
+      "explanationSha256": "1f27b80e77830b8c26b963aaed6641efcf6311bf76171b9b61fc657cb79fcc03",
       "explanationPublished": true,
       "hint": "Проверьте, кто читал литературу вслух: математик Колмогоров или учитель Подлипчук. Также различайте всё и почти всё.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
-      "grammarSourceRefs": [],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Вариант 3 говорит о требовании прочесть все произведения Достоевского, тогда как предложение 13 содержит «почти весь». Ключ 234 включает этот вариант. Знакомство с Достоевским подтверждено, но усиление до абсолютной полноты требует уточнения; ключ сохранён."
+      "grammarSourceRefs": []
     },
     "8BD010": {
-      "sourceContentSha256": "9b9573ba037a8a1beae6f6df8a796529393be35c6146b246ed6f8d952e5551df",
+      "sourceContentSha256": "89f9600757f8c9beb665df5ec722b7ffcb6fc2e2dfcfd517a6209ed64e91824b",
       "explanationSha256": "288325c1ed6e4a6b14e79e781a25134e5dd321b4c6de2b36f655f5c9b68ccc6c",
       "explanationPublished": true,
       "hint": "Различайте ожидание своих частей и внезапное появление врага. Отдельно проверьте, за чем ушли товарищи и кто именно плакал после бегства.",
@@ -72753,15 +72691,13 @@
     },
     "B2FEA0": {
       "sourceContentSha256": "92869da173c3119471083d3ebc95cced84244adedc792650dd20112ef14dc75d",
-      "explanationSha256": "ba6271da221bb5d1b10b8869e991e357f6667e272449b4d8ffc26424759ad044",
+      "explanationSha256": "eff95c080d7193b4b22389f1b586dbc1e0aebf0282c5e835b4c4963f070c6285",
       "explanationPublished": true,
-      "hint": "Различайте собственное мнение Нины и чужие слова о Луке. В истории о похоронке уточните, чей муж вернулся домой; причину сидения в верхней одежде не считайте прямо названной.",
+      "hint": "Сопоставьте детали обстановки с описанием Евгении Ивановны. Проверьте, чей муж получил похоронку и кто считал Луку вредным утешителем.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
-      "grammarSourceRefs": [],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Вариант 1 связывает верхнюю одежду Евгении Ивановны с холодом в комнате. Холод, нетопленая плита, ватник и платок названы в №2, но причинное «потому что» в тексте отсутствует. Неподвижность и невнимание героини объясняются также потрясением от похоронки и вести о сыне (№5, 27, 34–35). Ключ 134 сохранён; нужно уточнить допустимость причинного вывода о верхней одежде."
+      "grammarSourceRefs": []
     },
     "B31A91": {
       "sourceContentSha256": "784d7262b358f6010bd018f0c902288d044cf4803ab3e30f79cbd09ee08bc6b1",
@@ -73044,7 +72980,7 @@
       "grammarSourceRefs": []
     },
     "1C949E": {
-      "sourceContentSha256": "0a2bec7ebe6dbc0e9af86c1b2a3464c40efd1fd2b980dd681c8ea190fb560d03",
+      "sourceContentSha256": "e808813579d5d88444da89333799315a349554240bf324f9535ca0619dc78c64",
       "explanationSha256": "147bf907d9b06d7b0ecf655714dc7877e85d1ddd1c9d0c3cecdd79a53f497021",
       "explanationPublished": true,
       "hint": "Ищите, какую мысль объясняет следующее предложение. Союз но может опровергать ожидаемый результат, а не обозначать фактическое следствие.",
@@ -73065,15 +73001,13 @@
     },
     "24EAE1": {
       "sourceContentSha256": "665b6204f5cd47c6ce8799568a8af3424b1f05aaf511795414af37af0a79ad52",
-      "explanationSha256": "6382df2799949780cefaf04bd7aebc9b904c0cb821a6023c7d69012e6374bcd2",
+      "explanationSha256": "4ccdfa1979cccced647d6702af30395be2f84953ce8a0a814b1081b695e84029",
       "explanationPublished": true,
       "hint": "Различайте гипотезу о происхождении речи и причину воздействия музыки. Образный призыв не становится повествованием из-за глаголов движения.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
-      "grammarSourceRefs": [],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Вариант 5 относит предложение 19 к рассуждению. В нём продолжается эмоциональное побуждение «Выпрямиться и выстоять» с обоснованием цели через «ради будущего наших детей» и сохранение прекрасного. Это позволяет увидеть аргументативный компонент, но самостоятельного развёрнутого рассуждения здесь нет. Ключ 35 сохранён; требуется уточнить границу побуждения с обоснованием и рассуждения в данном задании."
+      "grammarSourceRefs": []
     },
     "25FBC4": {
       "sourceContentSha256": "3c2e16fd10d74f58d472f1aba0e87444a9dee4f87b2db81439b4da2586aac930",
@@ -73106,8 +73040,8 @@
       "grammarSourceRefs": []
     },
     "34DD9B": {
-      "sourceContentSha256": "331e35932bef55eb118bfd01093bb9dfdff07fa2ff64b6d5036fcdd7a0cf085e",
-      "explanationSha256": "ef6436b22620bf94a5163887182efc46880f01a1e93a678ff151155d2c4f8d86",
+      "sourceContentSha256": "750a3ad9b8d77e609a4152e2d2918840432614ea255b1c521ff115c2d2399b28",
+      "explanationSha256": "cfb16338f223046ce0be37a647dac509a68d19244d3cb1d93957f5f49f03c24d",
       "explanationPublished": true,
       "hint": "Здесь выбираются ОШИБОЧНЫЕ утверждения. Отличайте наблюдаемую внешность Копкова от его общих выводов о смысле работы.",
       "dictionaryRefs": [],
@@ -73256,7 +73190,7 @@
       "grammarSourceRefs": []
     },
     "71FF7C": {
-      "sourceContentSha256": "5cdf1b369f6f225f89d4c96299bf132515fb57786eaf6c5154865ad47ae736d2",
+      "sourceContentSha256": "41a359842026d8df232830e98394f95b89deda00c6bd174ab5ecb6ccf53cd220",
       "explanationSha256": "578f2c2cf4e510dc28fc37623c7bb422dca5f4f7defeb342fbed09a87d3a9473",
       "explanationPublished": true,
       "hint": "Общее замечание о быстроте событий не обязательно поясняет значение предыдущей детали. Причина желания вернуться раскрывается через связь героев с оставленным местом.",
@@ -73407,15 +73341,13 @@
     },
     "A2EC98": {
       "sourceContentSha256": "1fb03d9f4b909950421d791796ef174a514066329abb8c85ed079f4ed2e00c6b",
-      "explanationSha256": "c5e676ad1f9b0e164b40e18d64b9e82a3b82e8612776696a259f15c46936af73",
+      "explanationSha256": "967f0ee42e9c0e952063648b3f1d0816750462428fbed7da872f9229fedfb648",
       "explanationPublished": true,
       "hint": "Особенно внимательно проверьте границы фрагмента 8–10: движение отражения может изображать пейзаж, а не смену событий. Дополнение перечня не равно ответу на вопрос для чего.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
-      "grammarSourceRefs": [],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Спорно утверждение 1: №8–10 преимущественно описывают одновременную сцену, тогда как ключ относит их к повествованию с описанием. Ключ 124 сохранён; нужна отдельная проверка классификации."
+      "grammarSourceRefs": []
     },
     "AB4D64": {
       "sourceContentSha256": "aa05dd099770558f3e9b722d6f5a1cf35ed1a85a698367ecb67700e9bfb96ee0",
@@ -73638,8 +73570,8 @@
       "grammarSourceRefs": []
     },
     "F8BFF9": {
-      "sourceContentSha256": "8639b252b9e056a8053a9d5c04a82edb34e4c762f750f614e9aeeaeb83e90464",
-      "explanationSha256": "06cbb01e63aa05ae17abad7a7a9c54ae10a7d7d5cb7da282c6dd593349419b51",
+      "sourceContentSha256": "13a97e270352fa51930c5d6fabed1b94f9f69c91417627e03c0482841072ad7a",
+      "explanationSha256": "6a90f26e5b20deb9bcd01af1af33cba083560d32973ff9d27c6ae250b76cb00e",
       "explanationPublished": true,
       "hint": "Рассуждение может звучать в коротких репликах: общее правило о ценности жизни соединяется с надеждой и основаниями этой надежды. Вопрос До собак ли? — риторический.",
       "dictionaryRefs": [],
@@ -74037,9 +73969,9 @@
     },
     "39AA6F": {
       "sourceContentSha256": "14cef924c4cb0109043b509966818b7ccb660ceea11ee8357f17aaddb9840fc5",
-      "explanationSha256": "01524cca845b58f5e900623cbe132fa351a4f9adf50b0476125758706706a09a",
+      "explanationSha256": "907b4ec0197359feab74d8ce2b6574f51792e7a983354921c23a70e7ce22c2a8",
       "explanationPublished": true,
-      "hint": "Найдите глагол, который передаёт отрывистый, невнятный ответ. Стилистическую помету задания стоит отдельно сопоставить со словарной.",
+      "hint": "Найдите глагол, который передаёт, как Гаврилов произнёс короткий вопрос.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -74049,10 +73981,14 @@
           "sourceId": "gramota-lexical-analysis-burkat",
           "label": "Буркать · Большой толковый словарь русского языка, Грамота.ру",
           "url": "https://gramota.ru/meta/burkat"
+        },
+        {
+          "part": 1,
+          "sourceId": "ozhegov-shvedova-burkat",
+          "label": "Буркать · С. И. Ожегов, Н. Ю. Шведова, Толковый словарь русского языка · текст на Lib.ru",
+          "url": "https://lib.ru/DIC/OZHEGOW/ozhegow_a_d.txt"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Задание просит просторечное слово, а Большой толковый словарь на Грамоте относит буркать / буркнуть к разговорной лексике. Значение ответа подтверждено; стилистическая квалификация требует уточнения. Ключ сохранён."
+      ]
     },
     "3A969F": {
       "sourceContentSha256": "405f9b23eb9c7cc9563380e25c107589319b1d18c84bbfc97a8dcb4d291fc59f",
@@ -74158,7 +74094,7 @@
     },
     "5C797C": {
       "sourceContentSha256": "49fd724a20a8d8fa368b37717b07b9639775843bf6befc4d53c9ca6d2b55d1d4",
-      "explanationSha256": "61ee167835385bbe6f787e7efa3550cd8e2231dce38a8ab63d74cf2f2df63401",
+      "explanationSha256": "9aed0e57d4bd3a56916708f3ec5b20a393a8ee0423f1d75cb85900673f99bda8",
       "explanationPublished": true,
       "hint": "Ищите готовое выражение предположения, которое можно заменить словом возможно. В этом предложении оно не является сказуемым.",
       "dictionaryRefs": [],
@@ -74176,10 +74112,14 @@
           "sourceId": "gramota-lexical-analysis-mozhet-byt",
           "label": "Вводные сочетания · Правила русской орфографии и пунктуации, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-vvodnykh-slovakh-sochetaniyakh-slov-i-predlozheniyakh"
+        },
+        {
+          "part": 1,
+          "sourceId": "fipi-25-introductory-phrases",
+          "label": "ФИПИ · Навигатор ЕГЭ-2026, лексика и фразеология, с. 11",
+          "url": "https://doc.fipi.ru/navigator-podgotovki/navigator-ege/2026/ru-2-leksika-i-frazeologija.pdf#page=11"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Ключ может быть соответствует устойчивому вводному сочетанию со значением предположения. Проверенный справочник подтверждает вводную функцию, но не называет его фразеологизмом. Отнесение к фразеологизмам в данном задании требует уточнения; ключ сохранён."
+      ]
     },
     "5FF50C": {
       "sourceContentSha256": "287340506d6e4fda6026e8fcdb789cd2535df928ebeb24c400144c7ec170c700",
@@ -74331,7 +74271,7 @@
     },
     "7A95AF": {
       "sourceContentSha256": "409cc4e39deb852020f36f3c531a1abc30d0bc88c85aca56e65c9c7f52d8752e",
-      "explanationSha256": "f5064acab32fad5215734b848702d0fe4321d7d0fbb78d5f56bc5e7e651f276b",
+      "explanationSha256": "42301cf8d23eb1cdf6f21abc98db4c93e9e4a6f3f2ef5278d25826eaa0c04a52",
       "explanationPublished": true,
       "hint": "В данном контексте оборот переносный: мысль заставляет человека непосредственно столкнуться с оценкой самого себя. Не представляйте физическую встречу с другим человеком.",
       "dictionaryRefs": [],
@@ -74350,9 +74290,7 @@
           "label": "Лицо · Большой толковый словарь русского языка, Грамота.ру",
           "url": "https://gramota.ru/meta/litso"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Формулировка очень близко передаёт пространственный оттенок оборота, а в №2 лицом к лицу с самим собою означает непосредственное столкновение с собственной самооценкой. Нужно уточнить контекстную точность заданного толкования; ключ сохранён."
+      ]
     },
     "7B5F7A": {
       "sourceContentSha256": "2e938a26e0eeb0d29bfe7fb104afa230504cdeb006f0652631a1ed606a3dce1c",
@@ -74601,7 +74539,7 @@
     },
     "A9FD8A": {
       "sourceContentSha256": "25e829943315a8f78cdb8edca92c91b35494ce1d870cba0a5a69498376946574",
-      "explanationSha256": "4b5a5fbd6030f4320b9b15d0df3d67926fbfaa49b3e5c341a6607f4f7ace4110",
+      "explanationSha256": "62808cad4bce98dfeec4fc5052d7c8b3a6140dee595cbd1c03710d21cbcc24ac",
       "explanationPublished": true,
       "hint": "Отрицание и существительное разделены другими словами. Найдите ядро выражения, передающего безразличие леса к человеку.",
       "dictionaryRefs": [],
@@ -74614,9 +74552,7 @@
           "label": "Фразеологизмы и их окраска · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/frazeologizmy"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В №13 сочетание «может быть» выражает предположение. Навигатор ФИПИ для №25 относит такие вводные употребления к фразеологизмам. Банк принимает здесь «нет дела», а строку «может быть» отклоняет. Причина расхождения требует предметной сверки."
+      ]
     },
     "AD0E15": {
       "sourceContentSha256": "0a9a89c03024d7875c872c6febf9f682015e15b60db13af43d4f6a2e76dbc1a7",
@@ -74755,7 +74691,7 @@
       ]
     },
     "C590CF": {
-      "sourceContentSha256": "40f6b6fd4fa6d03fa039c78c9ec7278b7a95d1eae7aeb0dd4be93600003d6561",
+      "sourceContentSha256": "ff207ffd99a0f3ff00f6c275ddb7bd110f33cf5de66edf5d74ff9f5b0d66996a",
       "explanationSha256": "c9347ae844c5c34b43d94fc61e0d4b2778230b0dbf3b8dafa0b92d666ee4fc43",
       "explanationPublished": true,
       "hint": "Ищите выражение скорого наступления события, срок которого точно не назван. Оно относится к ожиданию прибытия частей.",
@@ -74880,7 +74816,7 @@
       ]
     },
     "DFDA9A": {
-      "sourceContentSha256": "36c4d37eb31390308fcbfa404bd4f75be3ae889a65006a2e157d511795a6487c",
+      "sourceContentSha256": "688c3519c70808348d95979eccd0567e2182744a7430f61eb072048287d5ebd5",
       "explanationSha256": "61b5237a85f4e8c4f6706374a634e3d95aaa9d7be39ce0e6bfff82798c1d6589",
       "explanationPublished": true,
       "hint": "Найдите противоположные возрастные характеристики гостиниц. Во втором случае слово гостиниц пропущено, но легко восстанавливается.",
@@ -75051,8 +74987,8 @@
       ]
     },
     "0AE104": {
-      "sourceContentSha256": "5e679361d1efcd8cd5fdec3a79874c9d910213059a4e24e8e9b68fe697e86dd4",
-      "explanationSha256": "ba16f3ce6cc347b0e8ae8f5a99b59d462e60835db15c0c828944ba4cdcc7089e",
+      "sourceContentSha256": "6991fa169abfea1989e09194ae48b6c2af9cf01fc6c2237e2427fdb2cfc03917",
+      "explanationSha256": "f496a5fae266b2e191a2b710a0ecf87dd5859d7ea517f31adffb4ba142a78ee8",
       "explanationPublished": true,
       "hint": "Ищите союз, который противопоставляет мысль всего нового предложения предыдущему. Союзы внутри сложного предложения решают другую задачу.",
       "dictionaryRefs": [],
@@ -75150,9 +75086,9 @@
     },
     "22B2FF": {
       "sourceContentSha256": "de2f5e73fe4c872c66b8bb8e5184a2d3b447be6aa1228532c5af09bc3f681b68",
-      "explanationSha256": "f8a1c531d9ec79c4f14515435c68157610e987a23dabe9c2afe227a4afe14ae9",
+      "explanationSha256": "80b850574a157dbdf8905ad9dd7506130f0159f1c4c3090bfa814c96f1b8706c",
       "explanationPublished": true,
-      "hint": "Проверьте не только наличие этот, но и повтор слова в соседних предложениях. Если видите вторую подходящую пару, учитывайте отмеченную неоднозначность ключа.",
+      "hint": "Найдите указательное местоимение и проверьте, какое слово повторяется в соседних предложениях.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -75169,9 +75105,7 @@
           "label": "Разряды местоимений по значению · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/razryady-mestoimeniy-po-znacheniyu"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В №8 обнаружены этих и повтор кусочки из №7: это ещё один возможный набор обоих требуемых средств связи. Ключ содержит только 6. Нужна независимая сверка полноты ответа; ключ и принимаемые ответы сохранены."
+      ]
     },
     "280D96": {
       "sourceContentSha256": "ac395cb980add7e1b31cd151065d8df079508bafed1613bd33e28008e0f43c1d",
@@ -75418,7 +75352,7 @@
     },
     "41186D": {
       "sourceContentSha256": "3a78b6c082f64e4444d065ef6d36c1bd558111875d2a2180f845e7b98b72a290",
-      "explanationSha256": "e30871bcfdc5b0a41c0636eb0c7c36f10777d6b1ed0916657963ed5cb01d15c9",
+      "explanationSha256": "b677bccf97cd331d58eb30f722b046626ac807c1dbe480fcb61ab2e3ddc296ab",
       "explanationPublished": true,
       "hint": "Сопоставьте названия места и растения в двух соседних предложениях. Нужны изменённые формы тех же существительных.",
       "dictionaryRefs": [],
@@ -75431,9 +75365,7 @@
           "label": "Речь. Текст · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/rech-tekst"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Ключ 9 подтверждается парами яма — ямы и бурьян — бурьяна. В №10 также есть было/была после был в №9; нужно уточнить, учитываются ли эти формы связочного быть как заданный способ связи. Ключ и принимаемые ответы сохранены."
+      ]
     },
     "43A8D0": {
       "sourceContentSha256": "6236a177301ced8642a08a1d0ce6b18a314d4a809f869a96f7d118d022edd5e2",
@@ -75460,7 +75392,7 @@
     },
     "44A99E": {
       "sourceContentSha256": "167e8b8f81a7cb0b24a939ff4ee24e3f7459313efee3eee9efe8e31e544cbadb",
-      "explanationSha256": "1015ca96bd285337cc9d8ebecc5bd43399ba58458bb7c4465cfdfde595d6d415",
+      "explanationSha256": "b21136bf75f177e2bbbdc6bf3488bd240392e102c2b062521de06ca58ad4b040",
       "explanationPublished": true,
       "hint": "Сопоставьте фамилию водителя: в предыдущем предложении ему приказывают, в следующем он сам действует.",
       "dictionaryRefs": [],
@@ -75473,9 +75405,7 @@
           "label": "Речь. Текст · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/rech-tekst"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В №10–11 есть пара идущей — шла, соотносимая с глаголом идти. Возможность учитывать причастие и личную форму как формы одного слова требует уточнения грамматической трактовки и полноты ключа. Сохранён ответ 15."
+      ]
     },
     "46631F": {
       "sourceContentSha256": "1ed44749d43c2f6ef0d95a5d2b4a25c44b65b2bb6d8119c51ef984df096f743a",
@@ -75976,7 +75906,7 @@
     },
     "6E2A0F": {
       "sourceContentSha256": "dc563878f03333da65feb9f2fa27e43a07ac2da3719d8410afd4e41d054222a2",
-      "explanationSha256": "36a15d8ca69af2419c604d3dbca307ee3a0af2a16b31fc29cfb488360b1efd01",
+      "explanationSha256": "1826b6d3d285975adffe06aa4c8b4704d305627a783f2dc0213ca928432b2cae",
       "explanationPublished": true,
       "hint": "Формы одного слова могут быть инфинитивом и личной формой глагола либо падежами местоимения. Сопоставьте каждую выбранную строку с предыдущей.",
       "dictionaryRefs": [],
@@ -75995,9 +75925,7 @@
           "label": "Личные местоимения: падежные формы · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/grammaticheskie-priznaki-mestoimeniy-sushchestvitelnykh"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Кроме сохранённых 31 и 33, в паре №25–26 есть слову — слово/словом, формы существительного слово. Возможен дополнительный ответ 26; требуется сверка полноты ключа. Ключ и принимаемые варианты сохранены."
+      ]
     },
     "70A2AE": {
       "sourceContentSha256": "b4c1b31a027d7746df453169a1d9c3f5b9cb7e4e5b6fe61730fcffdee4c04ad1",
@@ -76082,9 +76010,9 @@
     },
     "79B0A0": {
       "sourceContentSha256": "9d2a7002a1eac6bd6933f15e0363edffcb747383a1b3358071958862d6152174",
-      "explanationSha256": "abdfba82e65861c9345f6c8bdb99209713f11112b95d687aee3b2b31fac9f656",
+      "explanationSha256": "f9ba218a46722c9905f8d49cc016e51491ea64514a26fff5d70db390dae74a11",
       "explanationPublished": true,
-      "hint": "В сохранённой паре местоимение заменяет имя Вадьки Батона. Обратите внимание и на продолжение местоименной цепочки в следующем предложении.",
+      "hint": "Найдите личное местоимение, которое заменяет имя из непосредственно предыдущего предложения.",
       "dictionaryRefs": [],
       "paronymPairIds": [],
       "ruleSourceRefs": [],
@@ -76107,9 +76035,7 @@
           "label": "Личные местоимения: падежные формы · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/grammaticheskie-priznaki-mestoimeniy-sushchestvitelnykh"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "Ключ содержит 15, но №16 начинается он, продолжающим обозначение того же героя после ним в №15. Нужно уточнить, учитывается ли такая местоименная цепочка как дополнительная связь с предыдущим. Ответ 15 и принимаемые варианты сохранены."
+      ]
     },
     "7D3C66": {
       "sourceContentSha256": "685105845540419d6a0777b19e99211dc087a9a5d8df9fecd2db916e21535b2d",
@@ -76378,7 +76304,7 @@
       ]
     },
     "A974B4": {
-      "sourceContentSha256": "9e37fe60a66a0a6e9adbea19daeeda4608ddf5d9d4ce736101005312656e0690",
+      "sourceContentSha256": "f9d69a27fd8635959db4361a76e8eebb575fd5ce74015dab3f4af4ec3e20d8fe",
       "explanationSha256": "34c3ad3d87fd317ad5074153f52902b1095f3222bfdb9caf7fe94fb6e7932a96",
       "explanationPublished": true,
       "hint": "Для каждого номера установите владельца: чья пушка и чьё плечо? В предыдущих предложениях владельцы могут быть обозначены личными местоимениями.",
@@ -76460,7 +76386,7 @@
     },
     "BA3A4B": {
       "sourceContentSha256": "56a99fd5c0443fd27421086837afd657f86e1e74c97f9fa8c707002e7b6e37e8",
-      "explanationSha256": "5d1a59c1a9a0bc70866217ab505e42f84c133d107cf83bbf35a006b7e32dd7e5",
+      "explanationSha256": "026e0822f2385e80c94639e313546ddbbb4c62d4b00678a90b7ebd831d2f3906",
       "explanationPublished": true,
       "hint": "В сохранённом ответе личное местоимение обозначает неодушевлённый предмет среднего рода. Установите его название в предыдущем предложении.",
       "dictionaryRefs": [],
@@ -76485,9 +76411,7 @@
           "label": "Личные местоимения: падежные формы · Е. И. Литневская, Грамота.ру",
           "url": "https://gramota.ru/biblioteka/spravochniki/russkij-yazyk-kratkij-teoreticheskij-kurs-dlya-shkolnikov/grammaticheskie-priznaki-mestoimeniy-sushchestvitelnykh"
         }
-      ],
-      "explanationNeedsSourceReview": true,
-      "explanationReviewNote": "В №33–35 есть я — мной — я; сохранённый ключ выделяет только 40 с заменой ружьё — оно. Нужно уточнить учёт форм первого лица как связи соседних предложений, в отличие от явной анафорической замены названия предмета. Ключ сохранён."
+      ]
     },
     "BCBB4D": {
       "sourceContentSha256": "58de102a62654afed96e6c8b49dd49892b337885af1101a00fc41c2363878b0d",

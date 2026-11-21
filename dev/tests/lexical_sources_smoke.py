@@ -61,4 +61,4 @@ try:
         browser.close()
 finally:
     server.shutdown()
-print('PASS: 21 task-6 keys without assistance; 8 explicit unresolved notes; book PDF hashes; four widths; standalone 25-group HTML search')
+print('PASS: 21 task-6 keys without assistance; source review visibility; book PDF hashes; four widths; standalone 25-group HTML search')

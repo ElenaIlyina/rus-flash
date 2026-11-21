@@ -61,7 +61,11 @@ def main():
                 refs = page.locator('.explanation-sources a').evaluate_all('(links) => links.map(a => a.href)')
                 catalog = json.loads((ROOT / 'dev/data/knowledge/lexical_analysis_sources.json').read_text())
                 sources = {src['id']:src for src in catalog['sources']}
-                assert all(sources[e['sourceId']]['url'] in refs for e in r['lexicalEvidence']), cid
+                expected_urls = {
+                    source['url'] for e in r['lexicalEvidence']
+                    if (source := sources[e['sourceId']]).get('url')
+                }
+                assert expected_urls <= set(refs), cid
                 assert page.locator('[data-explanation-review]').count() == int(bool(r.get('sourceReviewPending'))), cid
                 if r.get('sourceReviewPending'):
                     assert r['sourceReviewNote'] in page.locator('[data-explanation-review]').inner_text(), cid

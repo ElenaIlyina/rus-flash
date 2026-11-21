@@ -234,7 +234,10 @@ def payloads():
         'data/knowledge/source_registry.json':{'schemaVersion':1,'editions':[{k:v for k,v in e.items() if k in edition_keys} for e in handbook['editions']]},
         'data/exam_profile.json':{'schemaVersion':1,'examYear':profile['examYear'],'sourceStatus':profile['sourceStatus'],
                                  'positions':[{k:p[k] for k in ('number','name')} for p in profile['positions']]},
-        'data/assessment_policy.json':{'schemaVersion':1,'cards':{cid:{**{k:v for k,v in entry.items() if k=='eligibleForProgress'}, **({'reason':entry.get('studentMessage',entry['reason'])} if entry.get('reason') else {})} for cid,entry in overrides['cards'].items()}},
+        'data/assessment_policy.json':{'schemaVersion':1,'cards':{cid:{
+            **{k:v for k,v in entry.items() if k in ('eligibleForProgress','resolvedContentIssue','passageNote','questionNote')},
+            **({'reason':entry.get('studentMessage',entry['reason'])} if entry.get('reason') else {})
+        } for cid,entry in overrides['cards'].items()}},
     }
 
 

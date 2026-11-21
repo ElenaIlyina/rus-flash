@@ -71,7 +71,7 @@ def main():
                 assert(near(group([events[0],{...events[0],id:'duplicate-completion'}]).score,group([events[0]]).score),'assignment counted once');
                 assert(project(c,[events[0],events[0]],start).events.length===1,'event deduplication');
                 const p=project(c,events,start+4*H);
-                assert(p.skillTotal===27&&p.covered===4,'stable denominators');
+                assert(p.skillTotal===26&&p.covered===4&&p.consolidation===Math.floor(100*p.consolidated/26),'essay excluded from consolidation');
                 assert(Object.values(p.counts).reduce((a,b)=>a+b,0)===c.cards.length,'card partition');
                 const blocked={...c,cards:c.cards.map(x=>x.id===pool[0].id?{...x,eligibleForProgress:false}:x)};
                 assert(project(blocked,[events[0]],start).cardScores.get(pool[0].id)===null,'excluded card is not scored');

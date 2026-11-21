@@ -80,12 +80,24 @@ def validate(card, review, sources):
 def render(card, review, sources):
     validate(card, review, sources)
     blocks = [f'Ответ: <b>{card["answer"]}</b>.']
+    footnotes = []
     if review.get('sourceReviewPending'):
         blocks.insert(0, '<b>Требует уточнения.</b><br>' + clean(review['sourceReviewNote']))
+    if guide := review.get('termGuide'):
+        guide_rows = ''.join(
+            f'<tr><th>{clean(entry["term"])}</th><td>{clean(entry["meaning"])}</td><td>{clean(entry["example"])}</td></tr>'
+            for entry in guide
+        )
+        blocks.append('<table><thead><tr><th>Термин</th><th>Что означает</th><th>В этой карточке</th></tr></thead>'
+                      f'<tbody>{guide_rows}</tbody></table>')
     for r in review['rows']:
         citations = '; '.join(sources[e['sourceId']]['citationLabel'] for e in r['sourceEvidence'])
-        blocks.append(f'<b>{r["letter"]} — {r["termNumber"]}) {clean(r["term"])}.</b><br>«{clean(r["quote"])}»<br>' + clean(r['reason']) + '<br>Источник: ' + clean(citations) + '.')
-    return '<br><br>'.join(blocks)
+        marker = ''
+        if r.get('footnote'):
+            marker = f'<sup>{len(footnotes) + 1}</sup>'
+            footnotes.append(f'<p class="editorial-note">{marker} {clean(r["footnote"])}</p>')
+        blocks.append(f'<b>{r["letter"]} — {r["termNumber"]}) {clean(r["term"])}.</b><br>«{clean(r["quote"])}»{marker}<br>' + clean(r['reason']) + '<br>Источник: ' + clean(citations) + '.')
+    return '<br><br>'.join(blocks) + ''.join(footnotes)
 
 
 def public_refs(review, sources):

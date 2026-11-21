@@ -116,14 +116,21 @@ def build():
         if value.get('explanationNeedsSourceReview'):
             note = value.get('explanationReviewNote', '')
             add(support_source, 'Объяснение требует сверки', str(note), 'Открыто', [card], 'Текущий статус')
+    source = 'dev/data/content_review_overrides.json'
+    overrides = json.loads((ROOT / source).read_text())['cards']
     for path in sorted((ROOT / 'data').glob('card_*.json')):
         value = json.loads(path.read_text())
-        if value.get('content_issue'):
+        card = path.stem[5:]
+        issue = value.get('content_issue', '').strip()
+        if issue and issue != overrides.get(card, {}).get('resolvedContentIssue'):
             add(str(path.relative_to(ROOT)), 'Замечание к текущему условию', str(value['content_issue']),
-                'Открыто', [path.stem[5:]], 'Текущий статус')
-    source = 'dev/data/content_review_overrides.json'
-    for card, value in json.loads((ROOT / source).read_text())['cards'].items():
-        add(source, 'Ограничение проверки карточки', pretty(value), 'Открыто', [card], 'Текущий статус')
+                'Открыто', [card], 'Текущий статус')
+    for card, value in overrides.items():
+        if value.get('resolvedContentIssue'):
+            add(source, 'Решение по замечанию к условию', pretty(value),
+                'Решено', [card], 'Текущий статус')
+        if value.get('eligibleForProgress') is False or value.get('reason'):
+            add(source, 'Ограничение проверки карточки', pretty(value), 'Открыто', [card], 'Текущий статус')
 
     # Cross-link every record for the two author-resolved questions without changing the quotation.
     resolutions = {

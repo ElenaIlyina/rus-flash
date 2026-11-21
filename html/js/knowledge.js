@@ -3,7 +3,7 @@ import {
   loadHandbookSources,
   loadSourceParagraph,
 } from "./data.js";
-import { esc, rich } from "./ui.js";
+import { esc, icon, rich } from "./ui.js";
 import { stressListPage } from "./stress-list.js";
 import { stressGlossaryPage } from "./stress-glossary.js";
 import { lexicalNormsPage } from "./lexical-norms.js";
@@ -22,6 +22,34 @@ function back(meta) {
     ? `<p><a class="text-link" href="#card/${meta.id}">Вернуться к карточке ${meta.id}</a></p>`
     : "";
 }
+const knowledgeHome = '<a class="text-link" href="#knowledge">Все справочники</a>';
+const ruleIndex = "#knowledge?list=rules";
+const referenceSections = [
+  ["Орфография и грамматика", [
+    [ruleIndex, "Короткие правила орфографии", "Приставки, корни, Ъ и Ь"],
+    ["#knowledge?list=word-forms", "Формы слов", "Существительные, числительные, местоимения и глаголы"],
+  ]],
+  ["Лексика", [
+    ["#knowledge?list=meanings", "Значение слова в контексте"],
+    ["#knowledge?list=lexical", "Лексические нормы", "Как убрать лишнее слово или подобрать замену"],
+    ["#knowledge?list=paronyms", "Алфавитный список паронимов из всех упражнений"],
+  ]],
+  ["Ударения", [
+    ["#knowledge?list=stress-words", "Словарик ударений из всех карточек"],
+    ["#knowledge?list=stress", "Полный список ударений по частям речи · ФИПИ, 2026"],
+  ]],
+  ["Работа с текстом", [
+    ["#knowledge?list=connections", "Средства связи", "Как подобрать пропущенное слово"],
+    ["#knowledge?list=style", "Как анализировать текст", "Стиль и речевые особенности"],
+  ]],
+];
+
+function referenceSection(title, entries) {
+  return `<section class="knowledge-category"><h2>${esc(title)}</h2><ul class="knowledge-links">${entries.map(
+    ([href, label, detail]) => `<li><a href="${esc(href)}"><span>${esc(label)}${detail ? `<small>${esc(detail)}</small>` : ""}</span>${icon("arrow")}</a></li>`,
+  ).join("")}</ul></section>`;
+}
+
 export async function knowledgePage({ params, catalog, heading, empty }) {
   const safeHeading = (kicker, title, subtitle) =>
     heading(kicker, esc(title), esc(subtitle));
@@ -86,12 +114,12 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
         `${paragraph.edition.title} / под ред. ${paragraph.edition.editor}. ${paragraph.edition.publisher}, ${paragraph.edition.year}. ISBN ${paragraph.edition.isbn}`,
       ) +
       back(meta) +
-      `<nav class="rule-links"><a class="text-link" href="#knowledge?edition=${paragraph.editionId}${context(meta)}">Оглавление книги</a>${ruleId ? `<a class="text-link" href="#knowledge?rule=${esc(ruleId)}${context(meta)}">Вернуться к нашему объяснению</a>` : '<a class="text-link" href="#knowledge">Короткие правила</a>'}</nav>
+      `<nav class="rule-links"><a class="text-link" href="#knowledge?edition=${paragraph.editionId}${context(meta)}">Оглавление книги</a>${ruleId ? `<a class="text-link" href="#knowledge?rule=${esc(ruleId)}${context(meta)}">Вернуться к нашему объяснению</a>` : knowledgeHome}</nav>
       ${paragraph.editorialNotes?.length ? `<aside class="source-warning"><div><strong>Опечатки в источнике</strong>${paragraph.editorialNotes.map((note) => `<p>${esc(note.original)}${note.replacement ? " → " + esc(note.replacement) : " — опечатка в примере"}</p>`).join("")}</div></aside>` : ""}<article class="panel knowledge-rule source-paragraph" data-source-id="${esc(paragraph.id)}"><div class="explanation-text">${rich(paragraph.body, { markdown: false })}</div>${paragraph.notes.length ? `<details class="source-notes"><summary>Примечания к этому параграфу</summary>${paragraph.notes.map((note) => `<p>${rich(note.body, { markdown: false })}</p>`).join("")}</details>` : ""}</article>`
     );
   }
-  const sources = await loadHandbookSources();
   if (editionId) {
+    const sources = await loadHandbookSources();
     const edition = sources.editions.find((e) => e.id === editionId);
     if (!edition)
       return empty(
@@ -107,7 +135,7 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
         `${edition.publisher}. Под ред. ${edition.editor}. ISBN ${edition.isbn}`,
       ) +
       back(meta) +
-      '<p><a class="text-link" href="#knowledge">К коротким правилам</a></p>' +
+      `<p>${knowledgeHome}</p>` +
       ["orthography", "punctuation"]
         .map(
           (part) =>
@@ -122,7 +150,26 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
         .join("")
     );
   }
+  const isRuleIndex = params.get("list") === "rules";
+  if (!ruleId && !params.has("card") && !isRuleIndex) {
+    const { editions } = await loadHandbookSources();
+    return '<header class="page-heading"><h1>Справочники</h1></header>' +
+      `<div class="knowledge-grid">${referenceSections.map(([title, entries]) => referenceSection(title, entries)).join("")}</div>` +
+      referenceSection("Первоисточники", editions.map(edition => [
+        `#knowledge?edition=${edition.id}`,
+        edition.title,
+        `Под ред. ${edition.editor}. ${edition.publisher}, ${edition.year}`,
+      ]));
+  }
   const book = await loadHandbook();
+  if (isRuleIndex) {
+    return '<header class="page-heading"><h1>Короткие правила орфографии</h1></header>' +
+      `<p class="rule-links">${knowledgeHome}</p>` +
+      referenceSection("Оглавление", book.paragraphs.map(rule => [
+        `#knowledge?rule=${rule.id}${context(meta)}`,
+        `§${rule.number}. ${rule.title}`,
+      ]));
+  }
   const selected = book.paragraphs.find((rule) => rule.id === ruleId);
   const related = params.get("card")
     ? meta
@@ -141,9 +188,7 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
       "Короткие объяснения и точные ссылки на разделы исходной книги.",
     ) +
     back(meta) +
-    (ruleId
-      ? '<p><a class="text-link" href="#knowledge">Все параграфы →</a></p>'
-      : "") +
+    `<nav class="rule-links">${knowledgeHome}<a class="text-link" href="${ruleIndex}${context(meta)}">Короткие правила</a></nav>` +
     (rules.length
       ? `<nav class="rule-links" aria-label="Параграфы справочника">${rules.map((rule) => `<a class="text-link" href="#knowledge?rule=${esc(rule.id)}${context(meta)}">§${rule.number}. ${esc(rule.title)}</a>`).join("")}</nav>${rules.map((rule) => `<article class="panel knowledge-rule" id="rule-${esc(rule.id)}"><span class="eyebrow">НАШЕ ПОЯСНЕНИЕ §${rule.number}</span><h2>${esc(rule.title)}</h2><div class="explanation-text">${rich(rule.body)}</div><h3>Параграфы источника</h3><nav class="rule-links">${(rule.sourceRefs || []).map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&rule=${esc(rule.id)}${context(meta)}">${partName(ref.part)}, §${ref.paragraph} · Эксмо, 2007</a>`).join("")}</nav><a class="text-link" href="#bank?task=${rule.tasks[0]}&status=verified">Практика по теме →</a></article>`).join("")}`
       : empty(
@@ -151,7 +196,6 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
           ruleId ? "Параграф не найден" : "Связанные правила ещё готовятся",
           "Выберите правило в справочнике.",
           '<a class="text-link" href="#knowledge">Открыть справочник</a>',
-        )) +
-    `<section class="panel method-panel"><h2>Библиотека источников</h2><p><a class="text-link" href="#knowledge?list=connections${context(meta)}">Средства связи: подбор пропущенного слова</a></p><p><a class="text-link" href="#knowledge?list=meanings${context(meta)}">Значение слова в контексте</a></p><p><a class="text-link" href="#knowledge?list=style${context(meta)}">Как анализировать текст</a></p><p><a class="text-link" href="#knowledge?list=word-forms${context(meta)}">Формы слов: существительные, числительные, местоимения и глаголы</a></p><p><a class="text-link" href="#knowledge?list=lexical${context(meta)}">Лексические нормы: удаление лишнего слова и замена</a></p><p><a class="text-link" href="#knowledge?list=paronyms${context(meta)}">Алфавитный список паронимов из всех упражнений</a></p><p><a class="text-link" href="#knowledge?list=stress-words${context(meta)}">Словарик ударений из всех карточек</a></p><p><a class="text-link" href="#knowledge?list=stress${context(meta)}">Полный список ударений по частям речи · ФИПИ, 2026</a></p>${sources.editions.map((e) => `<p><a class="text-link" href="#knowledge?edition=${e.id}${context(meta)}">${esc(e.title)} · ${esc(e.publisher)}, ${esc(e.year)}</a></p>`).join("")}</section>`
+        ))
   );
 }

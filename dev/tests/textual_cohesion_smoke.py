@@ -55,7 +55,9 @@ def main():
                 page.locator('[data-action="reveal"]').click()
                 explanation = page.locator('.explanation-text')
                 text = explanation.inner_text()
-                assert r['reason'] in text and r['otherCandidates'] in text, cid
+                assert r['reason'] in text, cid
+                if r.get('otherCandidates'):
+                    assert r['otherCandidates'] in text, cid
                 assert all(e['quote'] in text for e in r['evidence']), cid
                 assert 'Конкретные связи установлены по тексту' in text, cid
                 for link in r['links']:

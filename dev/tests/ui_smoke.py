@@ -41,7 +41,7 @@ def main():
             requests = []
             page.on('request', lambda request: requests.append(request.url))
             page.goto(base, wait_until='networkidle')
-            assert page.locator('h1').inner_text().startswith('Не всё сразу')
+            assert page.locator('h1').inner_text() == 'Подготовка к ЕГЭ по русскому языку'
             assert len(page.locator('.topic-card').all()) == 4
             assert not any('/cards/' in url for url in requests), 'Home must not preload the bank'
             checks += 1

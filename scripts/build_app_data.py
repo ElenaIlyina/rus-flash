@@ -130,6 +130,10 @@ def main():
         task = position['task']
         allowed = task not in {5,6,7} or entry.get('explanationPublished',False)
         public_card = card if allowed else {**card,'explanation':''}
+        if task == 7:
+            # Keep the archived FIPI question intact for source audits.
+            public_card = {**public_card, 'question': card['question'].replace(
+                '</b>изапишите слово правильно.', '</b>и запишите слово правильно.')}
         if task == 26:
             public_card = {**public_card, 'sentence_numbers': sentence_numbers(card['question'], card['answer'])}
         if task == 21:
@@ -144,6 +148,22 @@ def main():
         context = task not in {1,2,3,23,24,25,26} or bool(text(card.get('text','')))
         complete = not card.get('variants') or all(text(str(v)) for v in card['variants'])
         active_policy = policy.get(cid,{})
+        content_issue = card.get('content_issue','').strip()
+        if content_issue and active_policy.get('resolvedContentIssue') == content_issue:
+            public_card = {**public_card, 'content_issue': ''}
+        for policy_key, public_key, field in (
+            ('passageNote', 'passage_note', 'text'),
+            ('questionNote', 'question_note', 'question'),
+        ):
+            if note := active_policy.get(policy_key):
+                anchors = note.get('anchors', [note.get('anchor')])
+                source_text = card.get(field, '')
+                if (not isinstance(note.get('text'), str) or not note['text'].strip()
+                        or not isinstance(anchors, list) or not anchors
+                        or any(not isinstance(anchor, str) or not anchor.strip()
+                               or source_text.count(anchor) != 1 for anchor in anchors)):
+                    raise ValueError('Invalid ' + policy_key + ': ' + cid)
+                public_card = {**public_card, public_key: note}
         eligible = complete and trusted and task is not None and position['formatStatus']!='historical_format' and context
         if active_policy.get('eligibleForProgress') is False:
             eligible = False
@@ -159,7 +179,7 @@ def main():
             pair = pairs[pid]
             comparisons.append({**pair,'words':[{**word,'dictionaryRefs':[public_ref(r,sources) for r in word['dictionaryRefs']]} for word in pair['words']]})
         catalog.append({
-            'id':cid,**position,'title':card['question'][:210],
+            'id':cid,**position,'title':public_card['question'][:210],
             'examFormatEligible': (
                 text(card['question']).startswith('напишите сочинение-рассуждение по проблеме') if task == 27 else
                 card['answer'].strip().isdigit() if task in {10, 13, 14} else
@@ -181,7 +201,7 @@ def main():
             'hasPassage':bool(text(card.get('text',''))),
             'passageGroupId':hashlib.sha256(card['text'].strip().encode()).hexdigest()[:24] if card.get('text','').strip() else None,
             'examTopic':f"task-{task}:" + hashlib.sha256(json.dumps(card.get('kes',[]),ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12],
-            'hasContentIssue':bool(card.get('content_issue','').strip()),
+            'hasContentIssue':bool(public_card.get('content_issue','').strip()),
         })
         write(OUT/'cards'/f'{cid}.json',public_card)
     write(OUT/'catalog.json',{'schemaVersion':1,'classificationStatus':'official_fipi_2027_approved','taskNames':names,'cards':catalog})

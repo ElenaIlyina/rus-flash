@@ -53,13 +53,12 @@ class TextualCohesionReviewTest(unittest.TestCase):
             broken = copy.deepcopy(r); change(broken)
             with self.assertRaises(ValueError): review.validate(self.card(r['id']), broken, self.sources)
 
-    def test_preserved_key_and_explicit_pending_notes_remain_visible(self):
+    def test_preserved_key_and_resolved_review_flags(self):
         pending = [r for r in self.reviews.values() if r.get('sourceReviewPending')]
-        self.assertEqual(len(pending), 6)
-        for entry in pending:
-            self.assertIn(entry['sourceReviewNote'], review.render(self.card(entry['id']), entry, self.sources))
-            broken = copy.deepcopy(entry); broken['sourceReviewPending'] = False
-            with self.assertRaises(ValueError): review.validate(self.card(entry['id']), broken, self.sources)
+        self.assertEqual(pending, [])
+        broken = copy.deepcopy(self.reviews['BA3A4B'])
+        broken.update(sourceReviewPending=True, sourceReviewNote='Повторная проверка')
+        with self.assertRaises(ValueError): review.validate(self.card(broken['id']), broken, self.sources)
         r = copy.deepcopy(self.reviews['682A9C']); r['answerNumbers'] = [2]
         with self.assertRaises(ValueError): review.validate(self.card(r['id']), r, self.sources)
 

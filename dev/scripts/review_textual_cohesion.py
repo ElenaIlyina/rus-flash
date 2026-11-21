@@ -60,7 +60,7 @@ def validate(card, review, sources):
     if card['number'] != review['id'] or mapping(card)['task'] != 26 or frozen(card) != review['sourceContentSha256']:
         raise ValueError('Task-26 source changed')
     prov = review['rewriteReview']
-    if review['task'] != 26 or not review.get('hint') or not review.get('reason') or not review.get('otherCandidates') or prov.get('scope') != 'requested_range_and_each_immediately_previous_sentence' or prov.get('oldExplanationsUsedAsEvidence') is not False or prov.get('independentTeacherAcceptance') is not False:
+    if review['task'] != 26 or not review.get('hint') or not review.get('reason') or prov.get('scope') != 'requested_range_and_each_immediately_previous_sentence' or prov.get('oldExplanationsUsedAsEvidence') is not False or prov.get('independentTeacherAcceptance') is not False:
         raise ValueError('Invalid task-26 provenance')
     expected = target_numbers(card)
     numbers = review['answerNumbers']
@@ -106,16 +106,28 @@ def validate(card, review, sources):
 def render(card, review, sources):
     validate(card, review, sources)
     labels = {'personal':'Личное местоимение','possessive':'Притяжательное местоимение','demonstrative':'Указательное местоимение','lexical_repeat':'Лексический повтор','word_form':'Формы одного слова','cognate':'Однокоренные слова','conjunction':'Союз','adverb':'Наречие','particle':'Частица','synonym':'Контекстные синонимы','determinative':'Определительное местоимение','collective_numeral':'Собирательное числительное','introductory':'Вводное слово'}
-    blocks = ['Ответ: <b>' + clean(card['answer']) + '</b>.', clean(review['reason'])]
+    reason = clean(review['reason'])
+    if opening := review.get('italicOpening'):
+        opening = clean(opening)
+        if not reason.startswith(opening + ' '):
+            raise ValueError('Italic opening does not match the explanation')
+        reason = f'<i>{opening}</i>' + reason[len(opening):]
+    blocks = ['Ответ: <b>' + clean(card['answer']) + '</b>.', reason]
     if review.get('sourceReviewPending'):
         blocks.insert(0, '<b>Требует уточнения.</b><br>' + clean(review['sourceReviewNote']))
     for n in review['answerNumbers']:
         links = [link for link in review['links'] if link['sentence'] == n]
         blocks.append('<b>Связь ' + str(n-1) + ' → ' + str(n) + '.</b><br>' + '<br>'.join(clean(labels[link['kind']]) + ': «' + clean(link['antecedent']) + '» → «' + clean(link['token']) + '». ' + clean(link['reason']) for link in links))
-    blocks.append('<b>Другие предложения диапазона.</b><br>' + clean(review['otherCandidates']))
+    footnote = review.get('footnote')
+    marker = '<sup>1</sup>' if footnote else ''
+    if other_candidates := review.get('otherCandidates'):
+        blocks.append('<b>Другие предложения диапазона.</b>' + marker + '<br>' + clean(other_candidates))
+    elif footnote:
+        blocks[-1] += marker
     blocks.append('Основание — исходный текст:<br>' + '<br>'.join(f'({e["sentence"]}) «{clean(e["quote"])}»' for e in review['evidence']))
     blocks.append('Источники критериев: ' + '; '.join(clean(sources[e['sourceId']]['citationLabel']) for e in review['theoryEvidence']) + '.<br>Конкретные связи установлены по тексту; справочник не является ключом ФИПИ.')
-    return '<br><br>'.join(blocks)
+    note = f'<p class="editorial-note">{marker} {clean(footnote)}</p>' if footnote else ''
+    return '<br><br>'.join(blocks) + note
 
 
 def public_refs(review, sources):
