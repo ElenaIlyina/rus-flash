@@ -50,6 +50,23 @@ function referenceSection(title, entries) {
   ).join("")}</ul></section>`;
 }
 
+async function referenceHome(meta) {
+  const { editions } = await loadHandbookSources();
+  const sections = referenceSections.map(([title, entries]) =>
+    referenceSection(title, entries.map(([href, label, detail]) => [
+      href + context(meta), label, detail,
+    ])),
+  ).join("");
+  return '<header class="page-heading"><h1>Справочники</h1></header>' +
+    back(meta) +
+    `<div class="knowledge-grid">${sections}</div>` +
+    referenceSection("Первоисточники", editions.map(edition => [
+      `#knowledge?edition=${edition.id}${context(meta)}`,
+      edition.title,
+      `Под ред. ${edition.editor}. ${edition.publisher}, ${edition.year}`,
+    ]));
+}
+
 export async function knowledgePage({ params, catalog, heading, empty }) {
   const safeHeading = (kicker, title, subtitle) =>
     heading(kicker, esc(title), esc(subtitle));
@@ -151,16 +168,7 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
     );
   }
   const isRuleIndex = params.get("list") === "rules";
-  if (!ruleId && !params.has("card") && !isRuleIndex) {
-    const { editions } = await loadHandbookSources();
-    return '<header class="page-heading"><h1>Справочники</h1></header>' +
-      `<div class="knowledge-grid">${referenceSections.map(([title, entries]) => referenceSection(title, entries)).join("")}</div>` +
-      referenceSection("Первоисточники", editions.map(edition => [
-        `#knowledge?edition=${edition.id}`,
-        edition.title,
-        `Под ред. ${edition.editor}. ${edition.publisher}, ${edition.year}`,
-      ]));
-  }
+  if (!ruleId && !meta && !isRuleIndex) return referenceHome();
   const book = await loadHandbook();
   if (isRuleIndex) {
     return '<header class="page-heading"><h1>Короткие правила орфографии</h1></header>' +
@@ -181,6 +189,7 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
       : []
     : book.paragraphs;
   const rules = ruleId ? (selected ? [selected] : []) : related;
+  if (!ruleId && !rules.length) return referenceHome(meta);
   return (
     safeHeading(
       "ПОНЯТЬ, ЧТОБЫ ПРИМЕНИТЬ",
@@ -193,7 +202,7 @@ export async function knowledgePage({ params, catalog, heading, empty }) {
       ? `<nav class="rule-links" aria-label="Параграфы справочника">${rules.map((rule) => `<a class="text-link" href="#knowledge?rule=${esc(rule.id)}${context(meta)}">§${rule.number}. ${esc(rule.title)}</a>`).join("")}</nav>${rules.map((rule) => `<article class="panel knowledge-rule" id="rule-${esc(rule.id)}"><span class="eyebrow">НАШЕ ПОЯСНЕНИЕ §${rule.number}</span><h2>${esc(rule.title)}</h2><div class="explanation-text">${rich(rule.body)}</div><h3>Параграфы источника</h3><nav class="rule-links">${(rule.sourceRefs || []).map((ref) => `<a class="text-link" href="#knowledge?source=${esc(ref.sourceId)}&rule=${esc(rule.id)}${context(meta)}">${partName(ref.part)}, §${ref.paragraph} · Эксмо, 2007</a>`).join("")}</nav><a class="text-link" href="#bank?task=${rule.tasks[0]}&status=verified">Практика по теме →</a></article>`).join("")}`
       : empty(
           "knowledge",
-          ruleId ? "Параграф не найден" : "Связанные правила ещё готовятся",
+          "Параграф не найден",
           "Выберите правило в справочнике.",
           '<a class="text-link" href="#knowledge">Открыть справочник</a>',
         ))
